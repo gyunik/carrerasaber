@@ -867,7 +867,24 @@ class MultiplayerManager {
     updateWaitingRoomUI() {
         if (this.displayRoomCode) this.displayRoomCode.textContent = this.roomCode;
         if (this.waitingCount) this.waitingCount.textContent = this.playersInRoom.length;
-        if (this.waitingGradeBadge) this.waitingGradeBadge.textContent = this.selectedGrade === 'gogetter4' ? '🇬🇧 Go Getter 4' : `${this.selectedGrade}.° Grado`;
+        if (this.waitingGradeBadge) {
+            if (this.selectedGrade === 'gogetter4') {
+                this.waitingGradeBadge.innerHTML = `
+                    <span class="inline-flex items-center gap-1.5">
+                        <svg class="w-3.5 h-2 rounded-xs shadow-2xs overflow-hidden inline-block shrink-0" viewBox="0 0 60 36">
+                            <rect width="60" height="36" fill="#012169"/>
+                            <path d="M0 0 L60 36 M60 0 L0 36" stroke="#ffffff" stroke-width="6"/>
+                            <path d="M0 0 L60 36 M60 0 L0 36" stroke="#C8102E" stroke-width="3.5"/>
+                            <path d="M30 0 v36 M0 18 h60" stroke="#ffffff" stroke-width="10"/>
+                            <path d="M30 0 v36 M0 18 h60" stroke="#C8102E" stroke-width="6"/>
+                        </svg>
+                        <span>Go Getter 4</span>
+                    </span>
+                `;
+            } else {
+                this.waitingGradeBadge.textContent = `${this.selectedGrade}.° Grado`;
+            }
+        }
 
         // Update WhatsApp link
         if (this.btnShareWhatsApp) {

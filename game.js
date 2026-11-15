@@ -645,6 +645,11 @@ class CarreraDelSaberApp {
                 const active = this.audio.toggle();
                 soundBtn.textContent = active ? '🔊' : '🔇';
                 soundBtn.setAttribute('title', active ? 'Sonido activado' : 'Sonido silenciado');
+                if (!active && 'speechSynthesis' in window) {
+                    window.speechSynthesis.cancel();
+                    const speakBtn = document.getElementById('btn-speak-question');
+                    if (speakBtn) speakBtn.classList.remove('ring-2', 'ring-indigo-400', 'bg-indigo-100', 'animate-pulse');
+                }
             });
         }
 
@@ -734,12 +739,28 @@ class CarreraDelSaberApp {
 
     updateGradeLabels() {
         const isGG4 = this.grade === 'gogetter4';
-        const label = isGG4 ? '🇬🇧 Go Getter 4' : `${this.grade}.° Grado`;
         const gradePill = document.getElementById('header-grade-pill');
-        if (gradePill) gradePill.textContent = label;
+        if (gradePill) {
+            if (isGG4) {
+                gradePill.innerHTML = `
+                    <span class="inline-flex items-center gap-1.5">
+                        <svg class="w-4 h-2.5 rounded-xs shadow-2xs overflow-hidden inline-block shrink-0" viewBox="0 0 60 36">
+                            <rect width="60" height="36" fill="#012169"/>
+                            <path d="M0 0 L60 36 M60 0 L0 36" stroke="#ffffff" stroke-width="6"/>
+                            <path d="M0 0 L60 36 M60 0 L0 36" stroke="#C8102E" stroke-width="3.5"/>
+                            <path d="M30 0 v36 M0 18 h60" stroke="#ffffff" stroke-width="10"/>
+                            <path d="M30 0 v36 M0 18 h60" stroke="#C8102E" stroke-width="6"/>
+                        </svg>
+                        <span>Go Getter 4</span>
+                    </span>
+                `;
+            } else {
+                gradePill.textContent = `${this.grade}.° Grado`;
+            }
+        }
 
         const legendLabel = document.getElementById('legend-grade-label');
-        if (legendLabel) legendLabel.textContent = label;
+        if (legendLabel) legendLabel.textContent = isGG4 ? 'Go Getter 4' : `${this.grade}.° Grado`;
 
         const winnerSub = document.getElementById('winner-grade-sub');
         if (winnerSub) {
@@ -1467,6 +1488,16 @@ class CarreraDelSaberApp {
                     e.stopPropagation();
                     this.speakQuestion(question.question);
                 };
+
+                // Reproducción automática SOLO si el sonido general está habilitado
+                if (this.audio && this.audio.enabled) {
+                    setTimeout(() => {
+                        const modal = document.getElementById('question-modal');
+                        if (modal && !modal.classList.contains('hidden') && this.currentQuestion === question) {
+                            this.speakQuestion(question.question);
+                        }
+                    }, 350);
+                }
             } else {
                 speakBtn.classList.add('hidden');
                 speakBtn.classList.remove('flex');
