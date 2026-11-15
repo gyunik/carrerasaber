@@ -432,11 +432,53 @@ class CarreraDelSaberApp {
             6: ['tl', 'tr', 'ml', 'mr', 'bl', 'br']
         };
 
+        if ('speechSynthesis' in window && window.speechSynthesis.onvoiceschanged !== undefined) {
+            window.speechSynthesis.onvoiceschanged = () => window.speechSynthesis.getVoices();
+        }
+
         this.bindEvents();
         this.renderSetupPlayers();
         this.renderDiceFace(5);
         this.updateGradeLabels();
         this.showSetupScreen();
+    }
+
+    speakQuestion(text) {
+        if (!('speechSynthesis' in window)) return;
+
+        if (window.speechSynthesis.speaking) {
+            window.speechSynthesis.cancel();
+            const speakBtn = document.getElementById('btn-speak-question');
+            if (speakBtn) speakBtn.classList.remove('ring-2', 'ring-indigo-400', 'bg-indigo-100', 'animate-pulse');
+            return;
+        }
+
+        // Reemplazar líneas en blanco como _______ por una pausa natural
+        const cleanedText = text.replace(/_{2,}/g, ' ... ');
+        const utterance = new SpeechSynthesisUtterance(cleanedText);
+        utterance.lang = 'en-GB';
+        utterance.rate = 0.88; // Velocidad pedagógica y clara
+        utterance.pitch = 1.0;
+
+        // Seleccionar la mejor voz en inglés británico disponible
+        const voices = window.speechSynthesis.getVoices();
+        const gbVoice = voices.find(v => v.lang === 'en-GB' || v.lang === 'en_GB') 
+                     || voices.find(v => v.lang.startsWith('en'))
+                     || null;
+        if (gbVoice) utterance.voice = gbVoice;
+
+        const speakBtn = document.getElementById('btn-speak-question');
+        if (speakBtn) {
+            speakBtn.classList.add('ring-2', 'ring-indigo-400', 'bg-indigo-100', 'animate-pulse');
+            utterance.onend = () => {
+                speakBtn.classList.remove('ring-2', 'ring-indigo-400', 'bg-indigo-100', 'animate-pulse');
+            };
+            utterance.onerror = () => {
+                speakBtn.classList.remove('ring-2', 'ring-indigo-400', 'bg-indigo-100', 'animate-pulse');
+            };
+        }
+
+        window.speechSynthesis.speak(utterance);
     }
 
     getSubjectTheme(catKey) {
@@ -1413,6 +1455,24 @@ class CarreraDelSaberApp {
         const questionText = document.getElementById('question-text');
         if (questionText) questionText.textContent = question.question;
 
+        // Configurar botón de audio pronunciación en inglés
+        if ('speechSynthesis' in window) window.speechSynthesis.cancel();
+        const speakBtn = document.getElementById('btn-speak-question');
+        if (speakBtn) {
+            speakBtn.classList.remove('ring-2', 'ring-indigo-400', 'bg-indigo-100', 'animate-pulse');
+            if (this.grade === 'gogetter4') {
+                speakBtn.classList.remove('hidden');
+                speakBtn.classList.add('flex');
+                speakBtn.onclick = (e) => {
+                    e.stopPropagation();
+                    this.speakQuestion(question.question);
+                };
+            } else {
+                speakBtn.classList.add('hidden');
+                speakBtn.classList.remove('flex');
+            }
+        }
+
         // Opciones interactivas con barajado aleatorio (Fisher-Yates Shuffle)
         const optionsGrid = document.getElementById('options-grid');
         if (optionsGrid) {
@@ -1502,6 +1562,7 @@ class CarreraDelSaberApp {
 
     handleAnswer(selectedIndex) {
         clearInterval(this.timer);
+        if ('speechSynthesis' in window) window.speechSynthesis.cancel();
 
         const optionsBtns = document.querySelectorAll('.option-btn');
         optionsBtns.forEach(b => b.disabled = true);
@@ -1591,6 +1652,7 @@ class CarreraDelSaberApp {
     }
 
     nextTurn() {
+        if ('speechSynthesis' in window) window.speechSynthesis.cancel();
         const modal = document.getElementById('question-modal');
         if (modal) modal.classList.add('hidden'), modal.classList.remove('flex');
 
