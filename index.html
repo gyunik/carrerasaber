@@ -265,7 +265,7 @@
                         </p>
 
                         <!-- Materias en juego Mini-Preview -->
-                        <div class="flex items-center justify-center md:justify-start gap-1.5 mt-4 flex-wrap">
+                        <div class="flex items-center justify-center md:justify-start gap-1.5 mt-4 flex-wrap" id="setup-subjects-preview">
                             <span class="text-xs font-extrabold text-slate-500 mr-1.5">Materias en juego:</span>
                             <span class="w-8 h-8 rounded-full bg-blue-100 text-blue-700 flex items-center justify-center text-sm shadow-xs border border-blue-200/80" title="Matemática">📐</span>
                             <span class="w-8 h-8 rounded-full bg-rose-100 text-rose-700 flex items-center justify-center text-sm shadow-xs border border-rose-200/80" title="Lengua">📖</span>
@@ -356,7 +356,7 @@
                         <span class="text-[11px] font-black uppercase px-3 py-1 rounded-full bg-blue-50 text-blue-700 tracking-wider">Primaria Oficial</span>
                     </div>
 
-                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-3.5" id="grade-selector-group">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3.5" id="grade-selector-group">
                         <!-- 5to Grado -->
                         <button type="button" class="grade-btn p-4 rounded-2xl border-2 border-slate-200/80 bg-slate-50/70 hover:bg-slate-100 text-left transition-all duration-200 relative cursor-pointer" data-grade="5">
                             <div class="flex justify-between items-center mb-1">
@@ -393,6 +393,19 @@
                             <span class="text-xs font-semibold text-slate-500 block mt-0.5">12 a 13 años</span>
                             <div class="mt-3 pt-2 border-t border-slate-200/60 flex items-center gap-1.5 text-slate-500 text-[10px] font-extrabold uppercase">
                                 <span class="w-2 h-2 rounded-full bg-purple-500"></span> Pre-secundaria
+                            </div>
+                        </button>
+
+                        <!-- Go Getter 4 (Inglés) -->
+                        <button type="button" class="grade-btn p-4 rounded-2xl border-2 border-slate-200/80 bg-slate-50/70 hover:bg-slate-100 text-left transition-all duration-200 relative cursor-pointer" data-grade="gogetter4">
+                            <div class="flex justify-between items-center mb-1">
+                                <span class="text-2xl font-black text-indigo-600 flex items-center gap-1">🇬🇧 GG4</span>
+                                <span class="grade-icon w-6 h-6 rounded-full bg-white text-slate-400 border border-slate-200 flex items-center justify-center font-bold text-xs shadow-2xs opacity-0">+</span>
+                            </div>
+                            <span class="font-black text-sm text-slate-800 block mt-2">Go Getter 4</span>
+                            <span class="text-xs font-semibold text-slate-500 block mt-0.5">Inglés · Pearson</span>
+                            <div class="mt-3 pt-2 border-t border-slate-200/60 flex items-center gap-1.5 text-indigo-600 text-[10px] font-extrabold uppercase">
+                                <span class="w-2 h-2 rounded-full bg-indigo-500"></span> Grammar & Vocab
                             </div>
                         </button>
                     </div>
@@ -634,11 +647,12 @@
 
                     <!-- Grado Escolar para la Partida Online -->
                     <div class="flex flex-col gap-2">
-                        <label class="text-xs font-extrabold text-slate-700 uppercase tracking-wider">Grado de las Preguntas</label>
-                        <div class="grid grid-cols-3 gap-2" id="online-grade-selector">
+                        <label class="text-xs font-extrabold text-slate-700 uppercase tracking-wider">Grado o Nivel de las Preguntas</label>
+                        <div class="grid grid-cols-2 sm:grid-cols-4 gap-2" id="online-grade-selector">
                             <button type="button" class="online-grade-btn py-2.5 px-3 rounded-xl border border-slate-200 bg-white hover:bg-slate-50 font-bold text-slate-700 text-xs sm:text-sm text-center cursor-pointer" data-grade="5">5.° Grado</button>
                             <button type="button" class="online-grade-btn active py-2.5 px-3 rounded-xl border-2 border-indigo-600 bg-indigo-50 text-indigo-700 font-black text-xs sm:text-sm text-center shadow-xs cursor-pointer" data-grade="6">6.° Grado</button>
                             <button type="button" class="online-grade-btn py-2.5 px-3 rounded-xl border border-slate-200 bg-white hover:bg-slate-50 font-bold text-slate-700 text-xs sm:text-sm text-center cursor-pointer" data-grade="7">7.° Grado</button>
+                            <button type="button" class="online-grade-btn py-2.5 px-3 rounded-xl border border-slate-200 bg-white hover:bg-slate-50 font-bold text-slate-700 text-xs sm:text-sm text-center cursor-pointer" data-grade="gogetter4">🇬🇧 GG4</button>
                         </div>
                     </div>
 

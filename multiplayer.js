@@ -128,7 +128,7 @@ class MultiplayerManager {
                 });
                 btn.classList.add('active', 'border-2', 'border-indigo-600', 'bg-indigo-50', 'text-indigo-700', 'font-black', 'shadow-xs');
                 btn.classList.remove('border-slate-200', 'bg-white', 'text-slate-700', 'font-bold');
-                this.selectedGrade = parseInt(btn.dataset.grade);
+                this.selectedGrade = btn.dataset.grade === 'gogetter4' ? 'gogetter4' : parseInt(btn.dataset.grade);
             });
         });
 
@@ -867,7 +867,7 @@ class MultiplayerManager {
     updateWaitingRoomUI() {
         if (this.displayRoomCode) this.displayRoomCode.textContent = this.roomCode;
         if (this.waitingCount) this.waitingCount.textContent = this.playersInRoom.length;
-        if (this.waitingGradeBadge) this.waitingGradeBadge.textContent = `${this.selectedGrade}.° Grado`;
+        if (this.waitingGradeBadge) this.waitingGradeBadge.textContent = this.selectedGrade === 'gogetter4' ? '🇬🇧 Go Getter 4' : `${this.selectedGrade}.° Grado`;
 
         // Update WhatsApp link
         if (this.btnShareWhatsApp) {

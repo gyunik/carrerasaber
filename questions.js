@@ -8448,6 +8448,3507 @@ const QUESTIONS_DATA = [
         "explanation": "La misión astrométrica Gaia mide posiciones, distancias y movimientos propios de millones de astros.",
         "id": "q_g7_ingenio_40"
     }
+    ,
+    {
+        "grade": "gogetter4",
+        "category": "matematica",
+        "question": "Listen! Someone _______ the guitar in the room next door.",
+        "options": [
+            "plays",
+            "is playing",
+            "played",
+            "was playing"
+        ],
+        "correct": 1,
+        "explanation": "Usamos Present Continuous ('is playing') para una acción que está ocurriendo en este mismo momento ('Listen!').",
+        "id": "q_gg4_mat_1"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "matematica",
+        "question": "My best friend usually _______ to school by bus every morning.",
+        "options": [
+            "was going",
+            "is going",
+            "goes",
+            "go"
+        ],
+        "correct": 2,
+        "explanation": "Con hábitos y rutinas ('usually', 'every morning') usamos Present Simple en tercera persona ('goes').",
+        "id": "q_gg4_mat_2"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "matematica",
+        "question": "I _______ this math exercise at all. Can you explain it to me?",
+        "options": [
+            "am not understanding",
+            "don't understand",
+            "am not understand",
+            "didn't understood"
+        ],
+        "correct": 1,
+        "explanation": "'Understand' es un verbo de estado (stative verb) y no suele usarse en tiempos continuos. Lo correcto es 'don't understand'.",
+        "id": "q_gg4_mat_3"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "matematica",
+        "question": "Where is Peter? - He _______ his room upstairs.",
+        "options": [
+            "tidy",
+            "tidies",
+            "tidied",
+            "is tidying"
+        ],
+        "correct": 3,
+        "explanation": "Pregunta dónde está ahora mismo, por lo que la acción está en progreso en el presente: 'He is tidying'.",
+        "id": "q_gg4_mat_4"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "matematica",
+        "question": "Water _______ at 100 degrees Celsius.",
+        "options": [
+            "boil",
+            "is boiling",
+            "boils",
+            "boiled"
+        ],
+        "correct": 2,
+        "explanation": "Para hechos científicos y verdades permanentes usamos Present Simple ('boils').",
+        "id": "q_gg4_mat_5"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "matematica",
+        "question": "Why _______ your winter jacket today? It is very hot outside!",
+        "options": [
+            "did you wore",
+            "do you wear",
+            "you wear",
+            "are you wearing"
+        ],
+        "correct": 3,
+        "explanation": "Present Continuous ('are you wearing') para una situación temporal hoy ('today').",
+        "id": "q_gg4_mat_6"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "matematica",
+        "question": "Sophie _______ chocolate, but she likes strawberry ice cream.",
+        "options": [
+            "doesn't like",
+            "isn't liking",
+            "don't like",
+            "not likes"
+        ],
+        "correct": 0,
+        "explanation": "'Like' es un stative verb de preferencia y con 'Sophie' (3ra persona) usamos 'doesn't like'.",
+        "id": "q_gg4_mat_7"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "matematica",
+        "question": "Look at the window! It _______ heavily.",
+        "options": [
+            "was snowed",
+            "snowed",
+            "snows",
+            "is snowing"
+        ],
+        "correct": 3,
+        "explanation": "Con la advertencia 'Look!' la acción está sucediendo en el instante de hablar: 'is snowing'.",
+        "id": "q_gg4_mat_8"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "matematica",
+        "question": "How often _______ your grandparents during the weekend?",
+        "options": [
+            "are you visiting",
+            "did you visited",
+            "you visit",
+            "do you visit"
+        ],
+        "correct": 3,
+        "explanation": "'How often' pregunta por frecuencia de un hábito, por eso usamos Present Simple: 'do you visit'.",
+        "id": "q_gg4_mat_9"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "matematica",
+        "question": "Be quiet, please! The teacher _______ the test rules.",
+        "options": [
+            "has explain",
+            "explained",
+            "is explaining",
+            "explains"
+        ],
+        "correct": 2,
+        "explanation": "'Be quiet!' señala que el profesor está hablando en este preciso instante: 'is explaining'.",
+        "id": "q_gg4_mat_10"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "matematica",
+        "question": "My dad _______ work at 5:00 PM on Fridays.",
+        "options": [
+            "are finishing",
+            "finishes",
+            "finish",
+            "is finishing"
+        ],
+        "correct": 1,
+        "explanation": "Horarios y rutinas semanales ('on Fridays') llevan Present Simple ('finishes').",
+        "id": "q_gg4_mat_11"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "matematica",
+        "question": "What _______ right now? - I am watching a documentary on TV.",
+        "options": [
+            "are you doing",
+            "did you do",
+            "were you doing",
+            "do you do"
+        ],
+        "correct": 0,
+        "explanation": "La expresión 'right now' exige Present Continuous: 'What are you doing?'.",
+        "id": "q_gg4_mat_12"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "matematica",
+        "question": "Do you _______ the answer to question number four?",
+        "options": [
+            "are knowing",
+            "know",
+            "knew",
+            "knowing"
+        ],
+        "correct": 1,
+        "explanation": "'Know' es un stative verb (saber/conocer) y no se usa en forma continua: 'Do you know?'.",
+        "id": "q_gg4_mat_13"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "matematica",
+        "question": "We _______ Spanish this year because our teacher is in Madrid.",
+        "options": [
+            "don't learn",
+            "not learn",
+            "aren't learning",
+            "doesn't learn"
+        ],
+        "correct": 2,
+        "explanation": "Para situaciones temporales que abarcan un período limitado ('this year') usamos Present Continuous.",
+        "id": "q_gg4_mat_14"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "matematica",
+        "question": "My brother _______ delicious pizza every Saturday night.",
+        "options": [
+            "make",
+            "is making",
+            "makes",
+            "making"
+        ],
+        "correct": 2,
+        "explanation": "Rutina semanal fija ('every Saturday night') con sujeto singular ('My brother') requiere 'makes'.",
+        "id": "q_gg4_mat_15"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "matematica",
+        "question": "Shh! The baby _______ in the cot.",
+        "options": [
+            "is sleeping",
+            "slept",
+            "was sleeping",
+            "sleeps"
+        ],
+        "correct": 0,
+        "explanation": "'Shh!' indica que el bebé está durmiendo ahora mismo: 'is sleeping'.",
+        "id": "q_gg4_mat_16"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "matematica",
+        "question": "I _______ that this film is very boring.",
+        "options": [
+            "think",
+            "thinks",
+            "am thinking",
+            "was thinking"
+        ],
+        "correct": 0,
+        "explanation": "Cuando 'think' significa 'tener la opinión de que...', es un verbo de estado: 'I think'.",
+        "id": "q_gg4_mat_17"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "matematica",
+        "question": "They _______ to the cinema this evening. They have already bought tickets.",
+        "options": [
+            "go",
+            "are going",
+            "goes",
+            "went"
+        ],
+        "correct": 1,
+        "explanation": "Present Continuous se usa también para planes y compromisos futuros cerrados ('are going this evening').",
+        "id": "q_gg4_mat_18"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "matematica",
+        "question": "Emma never _______ meat because she is a vegetarian.",
+        "options": [
+            "was eating",
+            "eat",
+            "is eating",
+            "eats"
+        ],
+        "correct": 3,
+        "explanation": "Con el adverbio de frecuencia 'never' expresando una regla de vida se usa Present Simple ('eats').",
+        "id": "q_gg4_mat_19"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "matematica",
+        "question": "Why _______? Did somebody tell a funny joke?",
+        "options": [
+            "are you laughing",
+            "were you laugh",
+            "do you laugh",
+            "you laugh"
+        ],
+        "correct": 0,
+        "explanation": "Acción observable que ocurre ahora: 'Why are you laughing?'.",
+        "id": "q_gg4_mat_20"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "matematica",
+        "question": "This soup _______ amazing! What herbs did you put in it?",
+        "options": [
+            "tastes",
+            "taste",
+            "was tasting",
+            "is tasting"
+        ],
+        "correct": 0,
+        "explanation": "'Taste' en sentido de 'tener sabor a' es un verbo de percepción sensorial (stative verb): 'tastes'.",
+        "id": "q_gg4_mat_21"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "matematica",
+        "question": "My parents _______ in a bank in the city center.",
+        "options": [
+            "are working",
+            "works",
+            "is working",
+            "work"
+        ],
+        "correct": 3,
+        "explanation": "Situación permanente de empleo habitual: Present Simple con sujeto plural ('My parents work').",
+        "id": "q_gg4_mat_22"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "matematica",
+        "question": "Look at Mark! He _______ on the trampoline without shoes.",
+        "options": [
+            "is jumping",
+            "jump",
+            "jumped",
+            "jumps"
+        ],
+        "correct": 0,
+        "explanation": "'Look at Mark!' indica una acción en pleno desarrollo visual: 'is jumping'.",
+        "id": "q_gg4_mat_23"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "matematica",
+        "question": "Do you _______ any pets at home?",
+        "options": [
+            "are having",
+            "having",
+            "have",
+            "has"
+        ],
+        "correct": 2,
+        "explanation": "'Have' en sentido de posesión no se usa en tiempo continuo: 'Do you have any pets?'.",
+        "id": "q_gg4_mat_24"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "matematica",
+        "question": "Today we _______ uniforms because it is the annual Sports Day.",
+        "options": [
+            "not wearing",
+            "didn't wore",
+            "don't wear",
+            "aren't wearing"
+        ],
+        "correct": 3,
+        "explanation": "Excepción temporal hoy ('Today'): Present Continuous negativo ('aren't wearing').",
+        "id": "q_gg4_mat_25"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "matematica",
+        "question": "While I _______ my bicycle in the park, I fell off and hurt my knee.",
+        "options": [
+            "have ridden",
+            "rode",
+            "am riding",
+            "was riding"
+        ],
+        "correct": 3,
+        "explanation": "Usamos Past Continuous ('was riding') con 'While' para la acción larga que estaba en progreso en el pasado.",
+        "id": "q_gg4_mat_26"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "matematica",
+        "question": "We were having dinner when the telephone suddenly _______.",
+        "options": [
+            "rang",
+            "was ringing",
+            "ring",
+            "is ringing"
+        ],
+        "correct": 0,
+        "explanation": "La acción puntual que interrumpe a la acción continua va en Past Simple ('rang').",
+        "id": "q_gg4_mat_27"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "matematica",
+        "question": "What _______ at 8 o'clock yesterday evening?",
+        "options": [
+            "you did",
+            "were you doing",
+            "are you doing",
+            "did you do"
+        ],
+        "correct": 1,
+        "explanation": "Para una acción que estaba en desarrollo en una hora específica del pasado usamos Past Continuous: 'were you doing?'.",
+        "id": "q_gg4_mat_28"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "matematica",
+        "question": "Yesterday, Lucas _______ his keys on the way home.",
+        "options": [
+            "was losing",
+            "lost",
+            "loses",
+            "has lost"
+        ],
+        "correct": 1,
+        "explanation": "Acción completada en un momento definido del pasado ('Yesterday'): Past Simple ('lost').",
+        "id": "q_gg4_mat_29"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "matematica",
+        "question": "While mum was cooking dinner, my brother _______ his homework.",
+        "options": [
+            "does",
+            "was doing",
+            "is doing",
+            "did"
+        ],
+        "correct": 1,
+        "explanation": "Dos acciones simultáneas y continuas en el pasado unidas por 'while': ambas van en Past Continuous ('was doing').",
+        "id": "q_gg4_mat_30"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "matematica",
+        "question": "It _______ when we left the cinema last night.",
+        "options": [
+            "is raining",
+            "rains",
+            "rained",
+            "was raining"
+        ],
+        "correct": 3,
+        "explanation": "La lluvia estaba en progreso cuando salimos del cine: Past Continuous ('was raining').",
+        "id": "q_gg4_mat_31"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "matematica",
+        "question": "I _______ an ancient coin while I was digging in the garden.",
+        "options": [
+            "find",
+            "was finding",
+            "have found",
+            "found"
+        ],
+        "correct": 3,
+        "explanation": "Encontrar la moneda fue un hecho puntual que interrumpió la acción de cavar: Past Simple ('found').",
+        "id": "q_gg4_mat_32"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "matematica",
+        "question": "They _______ football when the storm started.",
+        "options": [
+            "play",
+            "are playing",
+            "played",
+            "were playing"
+        ],
+        "correct": 3,
+        "explanation": "Estaban jugando (acción en curso) cuando comenzó la tormenta: 'were playing'.",
+        "id": "q_gg4_mat_33"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "matematica",
+        "question": "When you called me, I _______ a shower.",
+        "options": [
+            "was taking",
+            "have taken",
+            "took",
+            "am taking"
+        ],
+        "correct": 0,
+        "explanation": "Estaba tomando una ducha en el momento en que sonó la llamada: 'was taking'.",
+        "id": "q_gg4_mat_34"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "matematica",
+        "question": "Shakespeare _______ many famous plays and poems.",
+        "options": [
+            "wrote",
+            "has written",
+            "writes",
+            "was writing"
+        ],
+        "correct": 0,
+        "explanation": "Hecho histórico completado en el pasado: Past Simple ('wrote').",
+        "id": "q_gg4_mat_35"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "matematica",
+        "question": "While the teacher _______, Leo was looking out of the window.",
+        "options": [
+            "was talking",
+            "talks",
+            "talked",
+            "is talking"
+        ],
+        "correct": 0,
+        "explanation": "Con 'While' describiendo el trasfondo continuo en el pasado usamos Past Continuous ('was talking').",
+        "id": "q_gg4_mat_36"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "matematica",
+        "question": "I was walking down the street when I _______ my favourite actor.",
+        "options": [
+            "was seeing",
+            "saw",
+            "have seen",
+            "see"
+        ],
+        "correct": 1,
+        "explanation": "'See' es un evento puntual e instantáneo que interrumpe la caminata: Past Simple ('saw').",
+        "id": "q_gg4_mat_37"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "matematica",
+        "question": "Where _______ when you broke your arm? - At the skatepark.",
+        "options": [
+            "you skated",
+            "are you skating",
+            "were you skating",
+            "did you skate"
+        ],
+        "correct": 2,
+        "explanation": "Pregunta por la acción que estaba realizando cuando ocurrió el accidente: 'were you skating?'.",
+        "id": "q_gg4_mat_38"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "matematica",
+        "question": "Yesterday morning I woke up, had breakfast and _______ to the train station.",
+        "options": [
+            "have run",
+            "run",
+            "was running",
+            "ran"
+        ],
+        "correct": 3,
+        "explanation": "Una secuencia de acciones consecutivas y completadas en el pasado lleva Past Simple ('ran').",
+        "id": "q_gg4_mat_39"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "matematica",
+        "question": "The lights went out while we _______ an exciting horror film.",
+        "options": [
+            "watch",
+            "are watching",
+            "were watching",
+            "watched"
+        ],
+        "correct": 2,
+        "explanation": "Acción que estaba transcurriendo en el momento del corte de luz: Past Continuous ('were watching').",
+        "id": "q_gg4_mat_40"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "matematica",
+        "question": "Jack _______ to music with headphones, so he didn't hear the doorbell.",
+        "options": [
+            "is listening",
+            "listened",
+            "has listened",
+            "was listening"
+        ],
+        "correct": 3,
+        "explanation": "Estaba escuchando música en ese período continuo de tiempo: 'was listening'.",
+        "id": "q_gg4_mat_41"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "matematica",
+        "question": "What did you do when the fire alarm _______?",
+        "options": [
+            "is ringing",
+            "was ringing",
+            "rung",
+            "rang"
+        ],
+        "correct": 3,
+        "explanation": "El disparo de la alarma fue el evento puntual que motivó la reacción: Past Simple ('rang').",
+        "id": "q_gg4_mat_42"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "matematica",
+        "question": "My sister _______ her ankle while she was playing volleyball.",
+        "options": [
+            "twisted",
+            "was twisting",
+            "twists",
+            "is twisting"
+        ],
+        "correct": 0,
+        "explanation": "Torcerse el tobillo fue un accidente puntual durante el partido: Past Simple ('twisted').",
+        "id": "q_gg4_mat_43"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "matematica",
+        "question": "The students _______ very noisy, so the librarian asked them to leave.",
+        "options": [
+            "were",
+            "have been",
+            "were being",
+            "are"
+        ],
+        "correct": 0,
+        "explanation": "El verbo 'be' en pasado simple es 'were'.",
+        "id": "q_gg4_mat_44"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "matematica",
+        "question": "While we _______ for the bus, it began to snow.",
+        "options": [
+            "were waiting",
+            "waited",
+            "wait",
+            "are waiting"
+        ],
+        "correct": 0,
+        "explanation": "La espera era la acción prolongada que fue interrumpida por la nieve: 'were waiting'.",
+        "id": "q_gg4_mat_45"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "matematica",
+        "question": "I didn't hear you because the blender _______ a lot of noise.",
+        "options": [
+            "is making",
+            "made",
+            "makes",
+            "was making"
+        ],
+        "correct": 3,
+        "explanation": "La licuadora estaba haciendo ruido en ese momento continuo: 'was making'.",
+        "id": "q_gg4_mat_46"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "matematica",
+        "question": "Who _______ you the secret yesterday?",
+        "options": [
+            "was telling",
+            "did tell",
+            "tell",
+            "told"
+        ],
+        "correct": 3,
+        "explanation": "Pregunta de sujeto en pasado simple sobre una acción completada: 'Who told you?'.",
+        "id": "q_gg4_mat_47"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "matematica",
+        "question": "Nobody _______ attention when the coach gave the final instructions.",
+        "options": [
+            "pays",
+            "paid",
+            "is paying",
+            "was paying"
+        ],
+        "correct": 3,
+        "explanation": "Nadie estaba prestando atención en el momento continuo de las instrucciones: 'was paying'.",
+        "id": "q_gg4_mat_48"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "matematica",
+        "question": "He _______ off the horse because he wasn't holding the reins properly.",
+        "options": [
+            "has fallen",
+            "fell",
+            "was falling",
+            "falls"
+        ],
+        "correct": 1,
+        "explanation": "La caída es una acción puntual completada: Past Simple ('fell').",
+        "id": "q_gg4_mat_49"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "matematica",
+        "question": "While the band _______ on stage, thousands of fans were singing along.",
+        "options": [
+            "was performing",
+            "performed",
+            "is performing",
+            "perform"
+        ],
+        "correct": 0,
+        "explanation": "Acción continua y simultánea en el pasado con 'while': Past Continuous ('was performing').",
+        "id": "q_gg4_mat_50"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "lengua",
+        "question": "Have you _______ flown in a hot-air balloon?",
+        "options": [
+            "yet",
+            "ever",
+            "already",
+            "never"
+        ],
+        "correct": 1,
+        "explanation": "En preguntas sobre experiencias en cualquier momento de la vida se usa 'ever' (¿Alguna vez has...?).",
+        "id": "q_gg4_len_1"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "lengua",
+        "question": "I have _______ eaten sushi. I don't like raw fish.",
+        "options": [
+            "since",
+            "yet",
+            "never",
+            "ever"
+        ],
+        "correct": 2,
+        "explanation": "'Never' se usa en oraciones afirmativas con sentido negativo ('Nunca he comido sushi').",
+        "id": "q_gg4_len_2"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "lengua",
+        "question": "Has your sister _______ met a famous sports star?",
+        "options": [
+            "ever",
+            "for",
+            "never",
+            "already"
+        ],
+        "correct": 0,
+        "explanation": "Pregunta de experiencia vital en 3ra persona con Present Perfect: 'Has your sister ever met...?'.",
+        "id": "q_gg4_len_3"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "lengua",
+        "question": "This is the best movie I have _______ seen in my life!",
+        "options": [
+            "never",
+            "ever",
+            "yet",
+            "just"
+        ],
+        "correct": 1,
+        "explanation": "Con superlativos ('the best movie') usamos 'ever' para resaltar la experiencia máxima de la vida.",
+        "id": "q_gg4_len_4"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "lengua",
+        "question": "We have _______ been to Australia, but we would love to go one day.",
+        "options": [
+            "never",
+            "ever",
+            "since",
+            "yet"
+        ],
+        "correct": 0,
+        "explanation": "'We have never been' significa que nunca hemos estado allí.",
+        "id": "q_gg4_len_5"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "lengua",
+        "question": "Have they ever _______ a live concert in a huge stadium?",
+        "options": [
+            "seen",
+            "saw",
+            "see",
+            "seeing"
+        ],
+        "correct": 0,
+        "explanation": "El Present Perfect se forma con have/has + past participle. El participio de 'see' es 'seen'.",
+        "id": "q_gg4_len_6"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "lengua",
+        "question": "Oliver has _______ broken a bone in his body. He is very lucky!",
+        "options": [
+            "ever",
+            "yet",
+            "never",
+            "already"
+        ],
+        "correct": 2,
+        "explanation": "Sentido negativo de experiencia en la vida: 'Oliver has never broken a bone'.",
+        "id": "q_gg4_len_7"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "lengua",
+        "question": "Has anyone _______ told you that you sing beautifully?",
+        "options": [
+            "never",
+            "for",
+            "ever",
+            "yet"
+        ],
+        "correct": 2,
+        "explanation": "Pregunta de experiencia con pronombre indefinido: 'Has anyone ever told you...?'.",
+        "id": "q_gg4_len_8"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "lengua",
+        "question": "My grandparents have _______ travelled by aeroplane.",
+        "options": [
+            "never",
+            "yet",
+            "since",
+            "ever"
+        ],
+        "correct": 0,
+        "explanation": "Afirmativa con sentido negativo de experiencia vital: 'have never travelled'.",
+        "id": "q_gg4_len_9"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "lengua",
+        "question": "Have you ever _______ snowboarding down a steep mountain?",
+        "options": [
+            "tried",
+            "trying",
+            "tries",
+            "try"
+        ],
+        "correct": 0,
+        "explanation": "Participio pasado regular de 'try' con cambio de y a i: 'tried'.",
+        "id": "q_gg4_len_10"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "lengua",
+        "question": "Where is dad? - He has _______ to the supermarket to buy milk.",
+        "options": [
+            "been",
+            "went",
+            "go",
+            "gone"
+        ],
+        "correct": 3,
+        "explanation": "Usamos 'has gone' cuando la persona fue a un lugar y todavía no regresó. 'Has been' indica que ya fue y volvió.",
+        "id": "q_gg4_len_11"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "lengua",
+        "question": "I have _______ to London twice, and I loved it both times.",
+        "options": [
+            "gone",
+            "went",
+            "going",
+            "been"
+        ],
+        "correct": 3,
+        "explanation": "Usamos 'have been' para indicar que visitamos un lugar en el pasado y ya hemos regresado.",
+        "id": "q_gg4_len_12"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "lengua",
+        "question": "Would you like something to eat? - No, thanks. I have _______ had lunch.",
+        "options": [
+            "ever",
+            "just",
+            "yet",
+            "since"
+        ],
+        "correct": 1,
+        "explanation": "'Just' expresa una acción que acaba de completarse hace escasos instantes ('I have just had lunch').",
+        "id": "q_gg4_len_13"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "lengua",
+        "question": "Have you packed your suitcase for the school trip _______?",
+        "options": [
+            "ever",
+            "just",
+            "already",
+            "yet"
+        ],
+        "correct": 3,
+        "explanation": "'Yet' va al final de preguntas para preguntar si algo ya se ha realizado: 'Have you packed... yet?'.",
+        "id": "q_gg4_len_14"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "lengua",
+        "question": "Don't wash the dishes! I have _______ washed them.",
+        "options": [
+            "since",
+            "ever",
+            "already",
+            "yet"
+        ],
+        "correct": 2,
+        "explanation": "'Already' se usa en oraciones afirmativas entre have y el participio para indicar que la acción ya se hizo antes de lo esperado.",
+        "id": "q_gg4_len_15"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "lengua",
+        "question": "The train has _______ left the station! You missed it by one minute.",
+        "options": [
+            "ever",
+            "yet",
+            "for",
+            "just"
+        ],
+        "correct": 3,
+        "explanation": "Acción inmediata recientísima: 'has just left'.",
+        "id": "q_gg4_len_16"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "lengua",
+        "question": "I haven't finished reading the adventure book _______.",
+        "options": [
+            "ever",
+            "already",
+            "yet",
+            "just"
+        ],
+        "correct": 2,
+        "explanation": "En oraciones negativas, 'yet' va al final para indicar 'todavía no': 'I haven't finished... yet'.",
+        "id": "q_gg4_len_17"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "lengua",
+        "question": "Tom has _______ scored three goals, and the match isn't over yet!",
+        "options": [
+            "yet",
+            "ever",
+            "since",
+            "already"
+        ],
+        "correct": 3,
+        "explanation": "'Already' destaca un logro que ya ocurrió antes del final del partido.",
+        "id": "q_gg4_len_18"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "lengua",
+        "question": "Has the postman arrived _______ this morning?",
+        "options": [
+            "never",
+            "just",
+            "yet",
+            "already"
+        ],
+        "correct": 2,
+        "explanation": "Pregunta interrogativa con posición final: 'yet'.",
+        "id": "q_gg4_len_19"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "lengua",
+        "question": "Can I speak to Mrs Green? - I'm sorry, she has _______ stepped out of the office.",
+        "options": [
+            "just",
+            "since",
+            "yet",
+            "ever"
+        ],
+        "correct": 0,
+        "explanation": "Acaba de salir hace unos segundos: 'has just stepped out'.",
+        "id": "q_gg4_len_20"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "lengua",
+        "question": "We have _______ seen that comedy film three times; let's watch something else.",
+        "options": [
+            "never",
+            "since",
+            "yet",
+            "already"
+        ],
+        "correct": 3,
+        "explanation": "Ya lo vimos anteriormente: 'already'.",
+        "id": "q_gg4_len_21"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "lengua",
+        "question": "Has Emily cleaned her bedroom _______? - No, it is still a mess.",
+        "options": [
+            "yet",
+            "just",
+            "ever",
+            "already"
+        ],
+        "correct": 0,
+        "explanation": "'Yet' al final de la pregunta sobre una tarea pendiente.",
+        "id": "q_gg4_len_22"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "lengua",
+        "question": "The concert has _______ started! Look, the lead singer is walking onto the stage.",
+        "options": [
+            "yet",
+            "for",
+            "since",
+            "just"
+        ],
+        "correct": 3,
+        "explanation": "El concierto acaba de comenzar en este instante: 'has just started'.",
+        "id": "q_gg4_len_23"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "lengua",
+        "question": "They haven't announced the exam results _______.",
+        "options": [
+            "yet",
+            "just",
+            "ever",
+            "already"
+        ],
+        "correct": 0,
+        "explanation": "Negativa con 'haven't' al final de la frase exige 'yet' ('aún no').",
+        "id": "q_gg4_len_24"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "lengua",
+        "question": "I have _______ done my science project, so now I can relax.",
+        "options": [
+            "already",
+            "for",
+            "never",
+            "yet"
+        ],
+        "correct": 0,
+        "explanation": "'Already' en afirmativa indicando que la tarea ya está concluida con éxito.",
+        "id": "q_gg4_len_25"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "lengua",
+        "question": "Have you heard the news _______? - Yes, Sarah told me five minutes ago.",
+        "options": [
+            "already",
+            "ever",
+            "just",
+            "yet"
+        ],
+        "correct": 3,
+        "explanation": "'Have you heard... yet?' pregunta si ya te enteraste de la novedad.",
+        "id": "q_gg4_len_26"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "lengua",
+        "question": "We have lived in this flat _______ five years.",
+        "options": [
+            "for",
+            "since",
+            "during",
+            "ago"
+        ],
+        "correct": 0,
+        "explanation": "'For' se usa para indicar un período o duración de tiempo ('for five years').",
+        "id": "q_gg4_len_27"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "lengua",
+        "question": "Mr Harrison has taught English at our school _______ 2018.",
+        "options": [
+            "for",
+            "ago",
+            "since",
+            "in"
+        ],
+        "correct": 2,
+        "explanation": "'Since' se usa con un punto de inicio específico en el tiempo ('since 2018').",
+        "id": "q_gg4_len_28"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "lengua",
+        "question": "How long _______ each other? - Since primary school.",
+        "options": [
+            "do you know",
+            "are you knowing",
+            "have you known",
+            "did you know"
+        ],
+        "correct": 2,
+        "explanation": "Para acciones o estados que empezaron en el pasado y continúan en el presente con 'How long' usamos Present Perfect ('have you known').",
+        "id": "q_gg4_len_29"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "lengua",
+        "question": "I haven't seen Julia _______ last Monday.",
+        "options": [
+            "ago",
+            "for",
+            "since",
+            "until"
+        ],
+        "correct": 2,
+        "explanation": "'Last Monday' es un punto concreto de partida: 'since last Monday'.",
+        "id": "q_gg4_len_30"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "lengua",
+        "question": "They have been best friends _______ a very long time.",
+        "options": [
+            "since",
+            "ago",
+            "for",
+            "from"
+        ],
+        "correct": 2,
+        "explanation": "'A very long time' es un período de duración, por lo que lleva 'for'.",
+        "id": "q_gg4_len_31"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "lengua",
+        "question": "My phone has been on silent mode _______ 8 o'clock this morning.",
+        "options": [
+            "in",
+            "during",
+            "since",
+            "for"
+        ],
+        "correct": 2,
+        "explanation": "Hora exacta de inicio ('8 o'clock'): 'since'.",
+        "id": "q_gg4_len_32"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "lengua",
+        "question": "Sam has had his pet dog _______ six months.",
+        "options": [
+            "ago",
+            "since",
+            "for",
+            "by"
+        ],
+        "correct": 2,
+        "explanation": "Cantidad de meses transcurridos: duración que lleva 'for'.",
+        "id": "q_gg4_len_33"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "lengua",
+        "question": "She hasn't eaten anything _______ breakfast.",
+        "options": [
+            "since",
+            "for",
+            "ago",
+            "from"
+        ],
+        "correct": 0,
+        "explanation": "'Breakfast' es el momento temporal de referencia: 'since breakfast'.",
+        "id": "q_gg4_len_34"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "lengua",
+        "question": "We have waited at this bus stop _______ forty minutes!",
+        "options": [
+            "ago",
+            "in",
+            "for",
+            "since"
+        ],
+        "correct": 2,
+        "explanation": "Duración de minutos: 'for forty minutes'.",
+        "id": "q_gg4_len_35"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "lengua",
+        "question": "He has played the drums _______ he was seven years old.",
+        "options": [
+            "since",
+            "when",
+            "ago",
+            "for"
+        ],
+        "correct": 0,
+        "explanation": "Con una cláusula en pasado que marca el punto de inicio ('he was seven years old') usamos 'since'.",
+        "id": "q_gg4_len_36"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "lengua",
+        "question": "It hasn't rained in our village _______ three whole months.",
+        "options": [
+            "from",
+            "for",
+            "ago",
+            "since"
+        ],
+        "correct": 1,
+        "explanation": "Duración temporal ('three whole months'): 'for'.",
+        "id": "q_gg4_len_37"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "lengua",
+        "question": "Ben has loved science fiction stories _______ he read his first comic book.",
+        "options": [
+            "while",
+            "for",
+            "ago",
+            "since"
+        ],
+        "correct": 3,
+        "explanation": "Evento puntual en el pasado como punto de inicio: 'since'.",
+        "id": "q_gg4_len_38"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "lengua",
+        "question": "I _______ to Paris three times in my life.",
+        "options": [
+            "went",
+            "was",
+            "have been",
+            "go"
+        ],
+        "correct": 2,
+        "explanation": "Experiencia en la vida sin fecha específica: Present Perfect ('have been').",
+        "id": "q_gg4_len_39"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "lengua",
+        "question": "I _______ to Paris last summer with my family.",
+        "options": [
+            "have gone",
+            "go",
+            "went",
+            "have been"
+        ],
+        "correct": 2,
+        "explanation": "Momento definido en el pasado ('last summer'): Past Simple ('went').",
+        "id": "q_gg4_len_40"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "lengua",
+        "question": "Did you see Mia yesterday? - No, I _______ her for a week.",
+        "options": [
+            "don't see",
+            "didn't see",
+            "wasn't seeing",
+            "haven't seen"
+        ],
+        "correct": 3,
+        "explanation": "El período de una semana se extiende hasta el presente: 'haven't seen'.",
+        "id": "q_gg4_len_41"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "lengua",
+        "question": "When _______ your new mobile phone? - Last Friday.",
+        "options": [
+            "did you buy",
+            "have you bought",
+            "do you buy",
+            "were you buying"
+        ],
+        "correct": 0,
+        "explanation": "Las preguntas con 'When' en pasado preguntan por el momento concreto y llevan Past Simple: 'did you buy?'.",
+        "id": "q_gg4_len_42"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "lengua",
+        "question": "Lucas _______ his homework two hours ago.",
+        "options": [
+            "finished",
+            "finishes",
+            "has finished",
+            "was finishing"
+        ],
+        "correct": 0,
+        "explanation": "La palabra 'ago' siempre va con Past Simple ('finished').",
+        "id": "q_gg4_len_43"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "lengua",
+        "question": "My uncle _______ in Canada since 2015, and he still loves it.",
+        "options": [
+            "lives",
+            "was living",
+            "lived",
+            "has lived"
+        ],
+        "correct": 3,
+        "explanation": "La acción empezó en 2015 y sigue viva hoy ('and he still loves it'): Present Perfect ('has lived').",
+        "id": "q_gg4_len_44"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "lengua",
+        "question": "In 1969, Neil Armstrong _______ on the Moon.",
+        "options": [
+            "walked",
+            "walks",
+            "was walking",
+            "has walked"
+        ],
+        "correct": 0,
+        "explanation": "Año histórico cerrado ('In 1969'): Past Simple ('walked').",
+        "id": "q_gg4_len_45"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "lengua",
+        "question": "Oh no! I _______ my house keys. I can't open the door!",
+        "options": [
+            "have lost",
+            "was losing",
+            "lose",
+            "lost"
+        ],
+        "correct": 0,
+        "explanation": "Acción pasada con resultado directo en el presente inmediato (no puedo entrar ahora): Present Perfect ('have lost').",
+        "id": "q_gg4_len_46"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "lengua",
+        "question": "What time _______ home last night?",
+        "options": [
+            "do you arrive",
+            "were you arriving",
+            "did you arrive",
+            "have you arrived"
+        ],
+        "correct": 2,
+        "explanation": "'What time' y 'last night' exigen Past Simple: 'did you arrive?'.",
+        "id": "q_gg4_len_47"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "lengua",
+        "question": "She _______ three mystery novels this month.",
+        "options": [
+            "was reading",
+            "read",
+            "reads",
+            "has read"
+        ],
+        "correct": 3,
+        "explanation": "El mes en curso aún no terminó ('this month'): Present Perfect ('has read').",
+        "id": "q_gg4_len_48"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "lengua",
+        "question": "Last weekend we _______ camping near the lake.",
+        "options": [
+            "have gone",
+            "go",
+            "went",
+            "were going"
+        ],
+        "correct": 2,
+        "explanation": "'Last weekend' es un tiempo pasado terminado: Past Simple ('went').",
+        "id": "q_gg4_len_49"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "lengua",
+        "question": "Have you done the test? - Yes, I _______ it ten minutes ago.",
+        "options": [
+            "did",
+            "have done",
+            "do",
+            "was doing"
+        ],
+        "correct": 0,
+        "explanation": "Con 'ten minutes ago' la respuesta debe ir en Past Simple: 'did'.",
+        "id": "q_gg4_len_50"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "naturales",
+        "question": "Tomorrow is Sunday, so I _______ wake up early.",
+        "options": [
+            "don't have to",
+            "mustn't",
+            "have to",
+            "couldn't"
+        ],
+        "correct": 0,
+        "explanation": "'Don't have to' indica ausencia de obligación (no es necesario despertarse temprano porque es domingo).",
+        "id": "q_gg4_nat_1"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "naturales",
+        "question": "Every student _______ wear a school badge on their uniform.",
+        "options": [
+            "could",
+            "have to",
+            "mustn't",
+            "has to"
+        ],
+        "correct": 3,
+        "explanation": "'Every student' es singular (3ra persona), por lo que la regla externa lleva 'has to'.",
+        "id": "q_gg4_nat_2"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "naturales",
+        "question": "Do we _______ bring our own dictionaries to the English exam?",
+        "options": [
+            "must",
+            "had to",
+            "could",
+            "have to"
+        ],
+        "correct": 3,
+        "explanation": "En preguntas con el auxiliar 'Do we...', se utiliza 'have to': 'Do we have to bring...?'.",
+        "id": "q_gg4_nat_3"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "naturales",
+        "question": "You _______ pay for the museum tickets; admission is completely free today!",
+        "options": [
+            "had to",
+            "have to",
+            "don't have to",
+            "mustn't"
+        ],
+        "correct": 2,
+        "explanation": "No es necesario pagar porque es gratis: 'don't have to'.",
+        "id": "q_gg4_nat_4"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "naturales",
+        "question": "Mark has an injured ankle, so he _______ rest for two weeks.",
+        "options": [
+            "mustn't",
+            "couldn't",
+            "have to",
+            "has to"
+        ],
+        "correct": 3,
+        "explanation": "Necesidad médica para 'Mark' (singular): 'has to'.",
+        "id": "q_gg4_nat_5"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "naturales",
+        "question": "She _______ walk to school because her mum drives her every day.",
+        "options": [
+            "doesn't have to",
+            "mustn't",
+            "don't have to",
+            "has to"
+        ],
+        "correct": 0,
+        "explanation": "Con 'she' la ausencia de obligación se expresa con 'doesn't have to'.",
+        "id": "q_gg4_nat_6"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "naturales",
+        "question": "Actors _______ memorize all their lines before the theatrical show.",
+        "options": [
+            "have to",
+            "mustn't",
+            "could",
+            "has to"
+        ],
+        "correct": 0,
+        "explanation": "Sujeto en plural ('Actors') con obligación profesional: 'have to'.",
+        "id": "q_gg4_nat_7"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "naturales",
+        "question": "Does your brother _______ help with the household chores?",
+        "options": [
+            "must",
+            "has to",
+            "have to",
+            "had to"
+        ],
+        "correct": 2,
+        "explanation": "Después del auxiliar 'Does' el verbo vuelve a su forma base: 'have to'.",
+        "id": "q_gg4_nat_8"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "naturales",
+        "question": "You _______ buy a ticket before you get on the train.",
+        "options": [
+            "couldn't",
+            "mustn't",
+            "don't have to",
+            "have to"
+        ],
+        "correct": 3,
+        "explanation": "Regla oficial de transporte público: 'have to buy a ticket'.",
+        "id": "q_gg4_nat_9"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "naturales",
+        "question": "We _______ hurry. The film doesn't start for another hour.",
+        "options": [
+            "had to",
+            "have to",
+            "don't have to",
+            "mustn't"
+        ],
+        "correct": 2,
+        "explanation": "Falta de necesidad (tenemos mucho tiempo): 'don't have to hurry'.",
+        "id": "q_gg4_nat_10"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "naturales",
+        "question": "A pilot _______ have excellent eyesight and intense training.",
+        "options": [
+            "has to",
+            "could",
+            "don't have to",
+            "have to"
+        ],
+        "correct": 0,
+        "explanation": "Requisito obligatorio para un piloto (3ra persona singular): 'has to'.",
+        "id": "q_gg4_nat_11"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "naturales",
+        "question": "Why _______ stay at home yesterday?",
+        "options": [
+            "have you to",
+            "must you",
+            "do you have to",
+            "did you have to"
+        ],
+        "correct": 3,
+        "explanation": "Pregunta de obligación en pasado con 'yesterday': 'did you have to'.",
+        "id": "q_gg4_nat_12"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "naturales",
+        "question": "At our school, we _______ bring our own tablets; the school provides them.",
+        "options": [
+            "couldn't",
+            "don't have to",
+            "mustn't",
+            "has to"
+        ],
+        "correct": 1,
+        "explanation": "No hace falta traer tablets porque la escuela las entrega: 'don't have to'.",
+        "id": "q_gg4_nat_13"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "naturales",
+        "question": "Leo _______ take the dog for a walk every afternoon.",
+        "options": [
+            "could",
+            "don't have to",
+            "has to",
+            "have to"
+        ],
+        "correct": 2,
+        "explanation": "Obligación rutinaria para 'Leo' (singular): 'has to'.",
+        "id": "q_gg4_nat_14"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "naturales",
+        "question": "Do athletes _______ follow a strict diet before the Olympics?",
+        "options": [
+            "has to",
+            "have to",
+            "had to",
+            "must"
+        ],
+        "correct": 1,
+        "explanation": "Sujeto plural con auxiliar 'Do': 'have to'.",
+        "id": "q_gg4_nat_15"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "naturales",
+        "question": "You _______ talk loudly during the exam. It is strictly prohibited!",
+        "options": [
+            "mustn't",
+            "have to",
+            "could",
+            "don't have to"
+        ],
+        "correct": 0,
+        "explanation": "'Mustn't' se usa para prohibiciones terminantes (está prohibido hablar en el examen).",
+        "id": "q_gg4_nat_16"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "naturales",
+        "question": "You _______ wear a helmet when riding a motorbike. It is the law.",
+        "options": [
+            "mustn't",
+            "could",
+            "must",
+            "don't have to"
+        ],
+        "correct": 2,
+        "explanation": "'Must' expresa una regla o ley obligatoria indispensable.",
+        "id": "q_gg4_nat_17"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "naturales",
+        "question": "Visitors _______ feed the animals in the zoo. It can make them sick.",
+        "options": [
+            "don't have to",
+            "mustn't",
+            "could",
+            "must"
+        ],
+        "correct": 1,
+        "explanation": "Prohibición por seguridad de los animales: 'mustn't feed'.",
+        "id": "q_gg4_nat_18"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "naturales",
+        "question": "I _______ remember to call grandma today. It's her 70th birthday!",
+        "options": [
+            "don't have to",
+            "mustn't",
+            "couldn't",
+            "must"
+        ],
+        "correct": 3,
+        "explanation": "'Must' expresa una fuerte obligación interna moral o personal.",
+        "id": "q_gg4_nat_19"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "naturales",
+        "question": "You _______ touch that electrical wire! It is extremely dangerous.",
+        "options": [
+            "mustn't",
+            "don't have to",
+            "must",
+            "could"
+        ],
+        "correct": 0,
+        "explanation": "Peligro severo y prohibición absoluta: 'mustn't touch'.",
+        "id": "q_gg4_nat_20"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "naturales",
+        "question": "Swimmers _______ dive into the shallow end of the pool.",
+        "options": [
+            "don't have to",
+            "mustn't",
+            "have to",
+            "could"
+        ],
+        "correct": 1,
+        "explanation": "Regla de seguridad estricta para evitar accidentes: 'mustn't dive'.",
+        "id": "q_gg4_nat_21"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "naturales",
+        "question": "We _______ protect the environment if we want a clean planet.",
+        "options": [
+            "mustn't",
+            "must",
+            "couldn't",
+            "don't have to"
+        ],
+        "correct": 1,
+        "explanation": "Deber moral y ecológico primordial: 'must protect'.",
+        "id": "q_gg4_nat_22"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "naturales",
+        "question": "You _______ cross the road when the pedestrian light is red.",
+        "options": [
+            "don't have to",
+            "mustn't",
+            "must",
+            "could"
+        ],
+        "correct": 1,
+        "explanation": "Semáforo en rojo = prohibición de cruzar: 'mustn't cross'.",
+        "id": "q_gg4_nat_23"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "naturales",
+        "question": "You _______ tell anyone my secret password! Promise me.",
+        "options": [
+            "have to",
+            "don't have to",
+            "could",
+            "mustn't"
+        ],
+        "correct": 3,
+        "explanation": "Prohibición categórica de revelar el secreto: 'mustn't tell'.",
+        "id": "q_gg4_nat_24"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "naturales",
+        "question": "Passengers _______ fasten their seatbelts during take-off and landing.",
+        "options": [
+            "mustn't",
+            "could",
+            "don't have to",
+            "must"
+        ],
+        "correct": 3,
+        "explanation": "Obligación legal aeronáutica: 'must fasten'.",
+        "id": "q_gg4_nat_25"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "naturales",
+        "question": "You _______ take photos in this art gallery. Look at the sign with the crossed camera.",
+        "options": [
+            "don't have to",
+            "mustn't",
+            "could",
+            "have to"
+        ],
+        "correct": 1,
+        "explanation": "Cartel de prohibición = 'mustn't take photos'.",
+        "id": "q_gg4_nat_26"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "naturales",
+        "question": "Drivers _______ stop when a traffic officer signals them.",
+        "options": [
+            "must",
+            "mustn't",
+            "don't have to",
+            "couldn't"
+        ],
+        "correct": 0,
+        "explanation": "Obligación ante la autoridad vial: 'must stop'.",
+        "id": "q_gg4_nat_27"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "naturales",
+        "question": "Students _______ use mobile phones during classroom lessons.",
+        "options": [
+            "have to",
+            "mustn't",
+            "don't have to",
+            "could"
+        ],
+        "correct": 1,
+        "explanation": "Regla escolar prohibitiva: 'mustn't use'.",
+        "id": "q_gg4_nat_28"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "naturales",
+        "question": "You _______ wash your hands before eating dinner.",
+        "options": [
+            "couldn't",
+            "mustn't",
+            "don't have to",
+            "must"
+        ],
+        "correct": 3,
+        "explanation": "Regla higiénica fundamental: 'must wash'.",
+        "id": "q_gg4_nat_29"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "naturales",
+        "question": "You _______ leave small children alone near a swimming pool.",
+        "options": [
+            "could",
+            "don't have to",
+            "have to",
+            "mustn't"
+        ],
+        "correct": 3,
+        "explanation": "Peligro grave = prohibición estricta: 'mustn't leave'.",
+        "id": "q_gg4_nat_30"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "naturales",
+        "question": "Last night I _______ study until midnight because I had an exam today.",
+        "options": [
+            "had to",
+            "have to",
+            "must",
+            "could"
+        ],
+        "correct": 0,
+        "explanation": "'Had to' es el pasado de have to y must (obligación en pasado).",
+        "id": "q_gg4_nat_31"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "naturales",
+        "question": "Yesterday was a holiday, so we _______ go to school.",
+        "options": [
+            "couldn't",
+            "mustn't",
+            "didn't have to",
+            "had to"
+        ],
+        "correct": 2,
+        "explanation": "'Didn't have to' indica que no tuvimos que ir a la escuela ayer (ausencia de obligación en pasado).",
+        "id": "q_gg4_nat_32"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "naturales",
+        "question": "Because it rained heavily yesterday, the workers _______ cancel the match.",
+        "options": [
+            "have to",
+            "had to",
+            "could",
+            "must"
+        ],
+        "correct": 1,
+        "explanation": "Obligación o necesidad impuesta en el pasado: 'had to cancel'.",
+        "id": "q_gg4_nat_33"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "naturales",
+        "question": "Did you _______ walk home yesterday because you missed the bus?",
+        "options": [
+            "have to",
+            "could",
+            "had to",
+            "must"
+        ],
+        "correct": 0,
+        "explanation": "Con el auxiliar 'Did' el verbo va en forma base: 'Did you have to walk?'.",
+        "id": "q_gg4_nat_34"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "naturales",
+        "question": "We _______ wait forty minutes at the clinic yesterday afternoon.",
+        "options": [
+            "have to",
+            "must",
+            "had to",
+            "couldn't"
+        ],
+        "correct": 2,
+        "explanation": "Obligación o circunstancia ocurrida en el pasado: 'had to wait'.",
+        "id": "q_gg4_nat_35"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "naturales",
+        "question": "Fortunately, I _______ pay for the broken glass because the waiter admitted it was his fault.",
+        "options": [
+            "didn't have to",
+            "hadn't to",
+            "had to",
+            "mustn't"
+        ],
+        "correct": 0,
+        "explanation": "No tuve que pagar: ausencia de obligación en pasado con 'didn't have to'.",
+        "id": "q_gg4_nat_36"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "naturales",
+        "question": "Grandpa _______ walk five kilometres to school when he was a boy.",
+        "options": [
+            "could",
+            "has to",
+            "must",
+            "had to"
+        ],
+        "correct": 3,
+        "explanation": "Obligación habitual de su época infantil: 'had to walk'.",
+        "id": "q_gg4_nat_37"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "naturales",
+        "question": "Why _______ leave the party so early last Saturday?",
+        "options": [
+            "must you",
+            "had you to",
+            "did you have to",
+            "do you have to"
+        ],
+        "correct": 2,
+        "explanation": "Pregunta en pasado simple con auxiliar: 'did you have to'.",
+        "id": "q_gg4_nat_38"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "naturales",
+        "question": "The computer crashed, so I _______ retype the whole essay.",
+        "options": [
+            "must",
+            "had to",
+            "couldn't",
+            "have to"
+        ],
+        "correct": 1,
+        "explanation": "Necesidad forzada por el fallo técnico en el pasado: 'had to retype'.",
+        "id": "q_gg4_nat_39"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "naturales",
+        "question": "She _______ cook dinner yesterday because her father ordered pizza.",
+        "options": [
+            "had to",
+            "didn't have to",
+            "mustn't",
+            "doesn't have to"
+        ],
+        "correct": 1,
+        "explanation": "No hizo falta cocinar en el pasado: 'didn't have to'.",
+        "id": "q_gg4_nat_40"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "naturales",
+        "question": "When Mozart was only five years old, he _______ play the piano brilliantly.",
+        "options": [
+            "must",
+            "could",
+            "can",
+            "had to"
+        ],
+        "correct": 1,
+        "explanation": "'Could' expresa habilidad o capacidad en el pasado ('podía/sabía tocar').",
+        "id": "q_gg4_nat_41"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "naturales",
+        "question": "I searched everywhere, but I _______ find my car keys.",
+        "options": [
+            "can't",
+            "couldn't",
+            "mustn't",
+            "didn't have to"
+        ],
+        "correct": 1,
+        "explanation": "'Couldn't' expresa incapacidad o imposibilidad en el pasado ('no pude encontrar').",
+        "id": "q_gg4_nat_42"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "naturales",
+        "question": "_______ you swim when you were four years old?",
+        "options": [
+            "Could",
+            "Were",
+            "Did",
+            "Can"
+        ],
+        "correct": 0,
+        "explanation": "Pregunta de habilidad en el pasado: 'Could you swim when you were four?'.",
+        "id": "q_gg4_nat_43"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "naturales",
+        "question": "The music was so loud that we _______ hear what the guide was saying.",
+        "options": [
+            "couldn't",
+            "can't",
+            "didn't have to",
+            "mustn't"
+        ],
+        "correct": 0,
+        "explanation": "Incapacidad auditiva en ese momento pasado: 'couldn't hear'.",
+        "id": "q_gg4_nat_44"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "naturales",
+        "question": "My grandmother _______ speak four languages fluently when she was young.",
+        "options": [
+            "can",
+            "must",
+            "has to",
+            "could"
+        ],
+        "correct": 3,
+        "explanation": "Habilidad lingüística en el pasado: 'could speak'.",
+        "id": "q_gg4_nat_45"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "naturales",
+        "question": "We _______ go sailing yesterday because the wind was too violent.",
+        "options": [
+            "mustn't",
+            "don't have to",
+            "can't",
+            "couldn't"
+        ],
+        "correct": 3,
+        "explanation": "Imposibilidad de navegar por mal clima: 'couldn't go'.",
+        "id": "q_gg4_nat_46"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "naturales",
+        "question": "Could you ride a bicycle when you were six? - Yes, I _______.",
+        "options": [
+            "did",
+            "can",
+            "could",
+            "was"
+        ],
+        "correct": 2,
+        "explanation": "Respuesta corta afirmativa en pasado: 'Yes, I could'.",
+        "id": "q_gg4_nat_47"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "naturales",
+        "question": "The box was extremely heavy, so the little boy _______ lift it.",
+        "options": [
+            "mustn't",
+            "can't",
+            "hadn't",
+            "couldn't"
+        ],
+        "correct": 3,
+        "explanation": "Falta de fuerza/capacidad física en pasado: 'couldn't lift it'.",
+        "id": "q_gg4_nat_48"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "naturales",
+        "question": "Fifty years ago, people _______ send emails or surf the internet.",
+        "options": [
+            "don't have to",
+            "mustn't",
+            "can't",
+            "couldn't"
+        ],
+        "correct": 3,
+        "explanation": "La tecnología no existía, por lo que no se podía: 'couldn't send'.",
+        "id": "q_gg4_nat_49"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "naturales",
+        "question": "She _______ run very fast before she broke her leg.",
+        "options": [
+            "can",
+            "could",
+            "have to",
+            "must"
+        ],
+        "correct": 1,
+        "explanation": "Habilidad atlética que poseía antes de la lesión: 'could run'.",
+        "id": "q_gg4_nat_50"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "sociales",
+        "question": "Look at those dark black clouds in the sky! It _______.",
+        "options": [
+            "is going to rain",
+            "will rain",
+            "is raining",
+            "rains"
+        ],
+        "correct": 0,
+        "explanation": "Usamos 'be going to' para predicciones basadas en evidencia visual presente ('dark clouds').",
+        "id": "q_gg4_soc_1"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "sociales",
+        "question": "The telephone is ringing! - Don't worry, I _______ it.",
+        "options": [
+            "will answer",
+            "answered",
+            "am going to answer",
+            "answer"
+        ],
+        "correct": 0,
+        "explanation": "Usamos 'will' para decisiones espontáneas tomadas en el momento exacto de hablar.",
+        "id": "q_gg4_soc_2"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "sociales",
+        "question": "We _______ visit our grandparents in Cordoba next weekend. We booked the tickets.",
+        "options": [
+            "will",
+            "are go",
+            "go to",
+            "are going to"
+        ],
+        "correct": 3,
+        "explanation": "Planes e intenciones premeditadas con fecha cerrada llevan 'be going to'.",
+        "id": "q_gg4_soc_3"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "sociales",
+        "question": "I'm so thirsty! - I _______ you a glass of cold water.",
+        "options": [
+            "will get",
+            "get",
+            "am going to get",
+            "got"
+        ],
+        "correct": 0,
+        "explanation": "Ofrecimiento espontáneo: 'I will get you a glass of cold water'.",
+        "id": "q_gg4_soc_4"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "sociales",
+        "question": "I think scientists _______ discover a cure for that disease in the future.",
+        "options": [
+            "is going to",
+            "will",
+            "shall",
+            "are going to"
+        ],
+        "correct": 1,
+        "explanation": "Con 'I think / I believe' expresando una opinión o predicción general sobre el futuro usamos 'will'.",
+        "id": "q_gg4_soc_5"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "sociales",
+        "question": "Watch out! You _______ spill your hot chocolate on the keyboard!",
+        "options": [
+            "are going to",
+            "go to",
+            "shall",
+            "will"
+        ],
+        "correct": 0,
+        "explanation": "Advertencia inmediata con evidencia visible: 'You are going to spill...'.",
+        "id": "q_gg4_soc_6"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "sociales",
+        "question": "I promise I _______ tell anyone your secret.",
+        "options": [
+            "am not going to",
+            "not will",
+            "don't",
+            "won't"
+        ],
+        "correct": 3,
+        "explanation": "Para promesas solemnes ('I promise') usamos 'will / won't'.",
+        "id": "q_gg4_soc_7"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "sociales",
+        "question": "What _______ do after you finish high school? - I plan to study medicine.",
+        "options": [
+            "did you",
+            "are you going to",
+            "do you",
+            "will you"
+        ],
+        "correct": 1,
+        "explanation": "Pregunta sobre planes e intenciones personales a futuro: 'are you going to do?'.",
+        "id": "q_gg4_soc_8"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "sociales",
+        "question": "It's freezing in this classroom! - I _______ the window.",
+        "options": [
+            "closed",
+            "am going to close",
+            "will close",
+            "close"
+        ],
+        "correct": 2,
+        "explanation": "Decisión voluntaria e inmediata tomada al sentir el frío: 'will close'.",
+        "id": "q_gg4_soc_9"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "sociales",
+        "question": "He has been practicing all month. He _______ the swimming competition.",
+        "options": [
+            "will win",
+            "won",
+            "is going to win",
+            "wins"
+        ],
+        "correct": 2,
+        "explanation": "Predicción respaldada por preparación y evidencia: 'is going to win'.",
+        "id": "q_gg4_soc_10"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "sociales",
+        "question": "Don't carry all those heavy bags alone. I _______ help you.",
+        "options": [
+            "helped",
+            "will",
+            "am help",
+            "am going to"
+        ],
+        "correct": 1,
+        "explanation": "Ofrecimiento servicial inmediato: 'I will help you'.",
+        "id": "q_gg4_soc_11"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "sociales",
+        "question": "They have bought the paint because they _______ repaint the kitchen tomorrow.",
+        "options": [
+            "will",
+            "go to",
+            "shall",
+            "are going to"
+        ],
+        "correct": 3,
+        "explanation": "Plan previo preparado (ya compraron la pintura): 'are going to repaint'.",
+        "id": "q_gg4_soc_12"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "sociales",
+        "question": "Maybe one day people _______ live in colonies on Mars.",
+        "options": [
+            "going to",
+            "are going to",
+            "are living",
+            "will"
+        ],
+        "correct": 3,
+        "explanation": "Especulación y predicción lejana con 'Maybe': 'will live'.",
+        "id": "q_gg4_soc_13"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "sociales",
+        "question": "I forgot my wallet! - Don't worry, I _______ for your sandwich.",
+        "options": [
+            "will pay",
+            "am going to pay",
+            "pay",
+            "paid"
+        ],
+        "correct": 0,
+        "explanation": "Decisión de rescate espontánea: 'I will pay'.",
+        "id": "q_gg4_soc_14"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "sociales",
+        "question": "Look at that cyclist! He is looking at his phone and he _______ hit the tree!",
+        "options": [
+            "will",
+            "shall",
+            "goes to",
+            "is going to"
+        ],
+        "correct": 3,
+        "explanation": "Evidencia visual inminente de choque: 'is going to hit'.",
+        "id": "q_gg4_soc_15"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "sociales",
+        "question": "In my opinion, robots _______ replace human teachers.",
+        "options": [
+            "don't",
+            "won't",
+            "not will",
+            "aren't going to"
+        ],
+        "correct": 1,
+        "explanation": "Predicción de opinión personal ('In my opinion'): 'won't replace'.",
+        "id": "q_gg4_soc_16"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "sociales",
+        "question": "Are you _______ buy that video game today? - Yes, I saved enough pocket money.",
+        "options": [
+            "will",
+            "going to",
+            "planning",
+            "go to"
+        ],
+        "correct": 1,
+        "explanation": "Estructura de intención: 'Are you going to buy...?.",
+        "id": "q_gg4_soc_17"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "sociales",
+        "question": "I hope our team _______ the match this afternoon.",
+        "options": [
+            "won",
+            "wins",
+            "will win",
+            "is going to win"
+        ],
+        "correct": 2,
+        "explanation": "Con verbos de deseo/esperanza como 'I hope' usamos 'will'.",
+        "id": "q_gg4_soc_18"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "sociales",
+        "question": "We _______ have a barbecue on Saturday because we already invited twenty guests.",
+        "options": [
+            "go to",
+            "will",
+            "are going to",
+            "shall"
+        ],
+        "correct": 2,
+        "explanation": "Evento organizado y planeado de antemano: 'are going to have'.",
+        "id": "q_gg4_soc_19"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "sociales",
+        "question": "I'm very tired. I think I _______ to bed early tonight.",
+        "options": [
+            "went",
+            "am going to go",
+            "will go",
+            "go"
+        ],
+        "correct": 2,
+        "explanation": "Decisión personal tomada en el momento ('I think I will go').",
+        "id": "q_gg4_soc_20"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "sociales",
+        "question": "If you _______ ice, it melts into liquid water.",
+        "options": [
+            "heat",
+            "are heating",
+            "heated",
+            "will heat"
+        ],
+        "correct": 0,
+        "explanation": "Zero Conditional para verdades científicas: 'If + Present Simple, Present Simple' ('If you heat ice').",
+        "id": "q_gg4_soc_21"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "sociales",
+        "question": "Plants die if they _______ enough sunlight and water.",
+        "options": [
+            "didn't get",
+            "won't get",
+            "don't get",
+            "aren't getting"
+        ],
+        "correct": 2,
+        "explanation": "Hecho natural absoluto (Zero Conditional): 'if they don't get'.",
+        "id": "q_gg4_soc_22"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "sociales",
+        "question": "If you mix red and yellow paint, you _______ orange.",
+        "options": [
+            "get",
+            "got",
+            "are getting",
+            "will get"
+        ],
+        "correct": 0,
+        "explanation": "Regla cromática invariable: resultado en Present Simple ('you get orange').",
+        "id": "q_gg4_soc_23"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "sociales",
+        "question": "If baby birds are hungry, they _______ loudly in their nest.",
+        "options": [
+            "are crying",
+            "cry",
+            "cried",
+            "will cry"
+        ],
+        "correct": 1,
+        "explanation": "Comportamiento animal natural general (Zero Conditional): 'they cry'.",
+        "id": "q_gg4_soc_24"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "sociales",
+        "question": "When water freezes, it _______ into solid ice.",
+        "options": [
+            "turned",
+            "will turn",
+            "turns",
+            "turn"
+        ],
+        "correct": 2,
+        "explanation": "Hecho físico universal con 'When': Present Simple en 3ra persona ('turns').",
+        "id": "q_gg4_soc_25"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "sociales",
+        "question": "If I drink coffee late at night, I _______ fall asleep easily.",
+        "options": [
+            "couldn't",
+            "can't",
+            "am not",
+            "won't"
+        ],
+        "correct": 1,
+        "explanation": "Efecto corporal constante y recurrente: 'I can't fall asleep'.",
+        "id": "q_gg4_soc_26"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "sociales",
+        "question": "Iron _______ if you leave it in damp air and water.",
+        "options": [
+            "rusts",
+            "is rusting",
+            "rusted",
+            "will rust"
+        ],
+        "correct": 0,
+        "explanation": "Reacción química invariable (oxidación): 'rusts'.",
+        "id": "q_gg4_soc_27"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "sociales",
+        "question": "If people _______ exercise regularly, they often become unfit.",
+        "options": [
+            "not do",
+            "don't do",
+            "won't do",
+            "didn't do"
+        ],
+        "correct": 1,
+        "explanation": "Condición biológica general (Zero Conditional): 'don't do'.",
+        "id": "q_gg4_soc_28"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "sociales",
+        "question": "If you press this button on the machine, the red light _______ on.",
+        "options": [
+            "comes",
+            "will come",
+            "is coming",
+            "came"
+        ],
+        "correct": 0,
+        "explanation": "Funcionamiento automático y garantizado de un aparato: 'comes on'.",
+        "id": "q_gg4_soc_29"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "sociales",
+        "question": "Snow _______ quickly if the temperature rises above zero.",
+        "options": [
+            "melted",
+            "melts",
+            "is melting",
+            "will melt"
+        ],
+        "correct": 1,
+        "explanation": "Fenómeno físico constante: 'melts'.",
+        "id": "q_gg4_soc_30"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "sociales",
+        "question": "If you add oil to water, it _______ to the surface.",
+        "options": [
+            "will float",
+            "float",
+            "floated",
+            "floats"
+        ],
+        "correct": 3,
+        "explanation": "Principio físico de densidad: 'floats'.",
+        "id": "q_gg4_soc_31"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "sociales",
+        "question": "Dogs wag their tails when they _______ happy and excited.",
+        "options": [
+            "will be",
+            "are",
+            "were",
+            "are being"
+        ],
+        "correct": 1,
+        "explanation": "Verdad habitual del reino animal: 'when they are happy'.",
+        "id": "q_gg4_soc_32"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "sociales",
+        "question": "If you touch a hot stove, you _______ your hand.",
+        "options": [
+            "will burn",
+            "are burning",
+            "burned",
+            "burn"
+        ],
+        "correct": 3,
+        "explanation": "Causa y efecto inmediato y seguro: 'you burn your hand'.",
+        "id": "q_gg4_soc_33"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "sociales",
+        "question": "If the teacher speaks too fast, the students _______ understand.",
+        "options": [
+            "didn't",
+            "haven't",
+            "won't",
+            "don't"
+        ],
+        "correct": 3,
+        "explanation": "Consecuencia lógica habitual en clase: 'don't understand'.",
+        "id": "q_gg4_soc_34"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "sociales",
+        "question": "When it rains, the grass _______ wet.",
+        "options": [
+            "got",
+            "is getting",
+            "will get",
+            "gets"
+        ],
+        "correct": 3,
+        "explanation": "Hecho obvio de la naturaleza: 'gets wet'.",
+        "id": "q_gg4_soc_35"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "sociales",
+        "question": "If it _______ sunny tomorrow, we will have a picnic in the park.",
+        "options": [
+            "is",
+            "was",
+            "will be",
+            "are"
+        ],
+        "correct": 0,
+        "explanation": "First Conditional: la cláusula con 'If' siempre va en Present Simple ('If it is sunny').",
+        "id": "q_gg4_soc_36"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "sociales",
+        "question": "If you study hard for the English exam, you _______ a high mark.",
+        "options": [
+            "would get",
+            "will get",
+            "got",
+            "get"
+        ],
+        "correct": 1,
+        "explanation": "First Conditional: la consecuencia futura lleva 'will + infinitivo' ('will get').",
+        "id": "q_gg4_soc_37"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "sociales",
+        "question": "We _______ the train if we don't leave the house right now.",
+        "options": [
+            "would miss",
+            "will miss",
+            "missed",
+            "miss"
+        ],
+        "correct": 1,
+        "explanation": "Resultado futuro probable: 'We will miss the train if we don't leave'.",
+        "id": "q_gg4_soc_38"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "sociales",
+        "question": "If she doesn't hurry up, she _______ late for class.",
+        "options": [
+            "was",
+            "is",
+            "will be",
+            "would be"
+        ],
+        "correct": 2,
+        "explanation": "First Conditional con negación en la condición: 'will be late'.",
+        "id": "q_gg4_soc_39"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "sociales",
+        "question": "What will you do if it _______ all weekend?",
+        "options": [
+            "rained",
+            "is raining",
+            "rains",
+            "will rain"
+        ],
+        "correct": 2,
+        "explanation": "En la condición con 'if' nunca usamos 'will': 'if it rains'.",
+        "id": "q_gg4_soc_40"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "sociales",
+        "question": "If we protect wild forests, many animals _______ safe.",
+        "options": [
+            "will stay",
+            "stayed",
+            "stays",
+            "would stay"
+        ],
+        "correct": 0,
+        "explanation": "First Conditional sobre ecología (Go Getter 4 Unit 6): 'will stay safe'.",
+        "id": "q_gg4_soc_41"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "sociales",
+        "question": "If people recycle plastic bottles, there _______ less pollution.",
+        "options": [
+            "will be",
+            "was",
+            "would be",
+            "is"
+        ],
+        "correct": 0,
+        "explanation": "Consecuencia ambiental futura: 'there will be less pollution'.",
+        "id": "q_gg4_soc_42"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "sociales",
+        "question": "You won't pass your driving test unless you _______ every day.",
+        "options": [
+            "practices",
+            "will practice",
+            "practice",
+            "practiced"
+        ],
+        "correct": 2,
+        "explanation": "'Unless' significa 'a menos que' (if not) y va seguido de Present Simple: 'unless you practice'.",
+        "id": "q_gg4_soc_43"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "sociales",
+        "question": "If I find your lost notebook, I _______ it to you immediately.",
+        "options": [
+            "will give",
+            "gave",
+            "give",
+            "giving"
+        ],
+        "correct": 0,
+        "explanation": "Promesa de acción futura condicional: 'I will give it to you'.",
+        "id": "q_gg4_soc_44"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "sociales",
+        "question": "If dad _______ the tickets online today, we will save twenty pounds.",
+        "options": [
+            "bought",
+            "will buy",
+            "buys",
+            "buy"
+        ],
+        "correct": 2,
+        "explanation": "Condición en 3ra persona singular: 'If dad buys'.",
+        "id": "q_gg4_soc_45"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "sociales",
+        "question": "If they don't clean the river, fish _______ to survive.",
+        "options": [
+            "aren't able",
+            "wouldn't be able",
+            "won't be able",
+            "can't be"
+        ],
+        "correct": 2,
+        "explanation": "Negación futura en First Conditional: 'won't be able to survive'.",
+        "id": "q_gg4_soc_46"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "sociales",
+        "question": "Will you call me as soon as you _______ at the hotel?",
+        "options": [
+            "will arrive",
+            "are arriving",
+            "arrive",
+            "arrived"
+        ],
+        "correct": 2,
+        "explanation": "Las oraciones temporales de futuro con 'as soon as' llevan Present Simple ('arrive').",
+        "id": "q_gg4_soc_47"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "sociales",
+        "question": "If temperatures continue to rise, polar ice caps _______ faster.",
+        "options": [
+            "would melt",
+            "melts",
+            "will melt",
+            "melted"
+        ],
+        "correct": 2,
+        "explanation": "First Conditional sobre cambio climático: 'will melt faster'.",
+        "id": "q_gg4_soc_48"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "sociales",
+        "question": "If Lucas _______ breakfast, he will feel tired during the match.",
+        "options": [
+            "skip",
+            "skipped",
+            "skips",
+            "will skip"
+        ],
+        "correct": 2,
+        "explanation": "Condición en Present Simple con sujeto singular ('Lucas skips').",
+        "id": "q_gg4_soc_49"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "sociales",
+        "question": "We _______ the dog for a long walk if the storm stops.",
+        "options": [
+            "take",
+            "took",
+            "would take",
+            "will take"
+        ],
+        "correct": 3,
+        "explanation": "Acción principal en First Conditional: 'will take'.",
+        "id": "q_gg4_soc_50"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "ingenio",
+        "question": "A lifeguard is a brave person _______ rescues swimmers in danger.",
+        "options": [
+            "where",
+            "which",
+            "whose",
+            "who"
+        ],
+        "correct": 3,
+        "explanation": "Usamos el pronombre relativo 'who' para referirnos a personas ('a person who rescues...').",
+        "id": "q_gg4_ing_1"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "ingenio",
+        "question": "A helmet is an essential piece of equipment _______ protects your head.",
+        "options": [
+            "whose",
+            "who",
+            "where",
+            "which"
+        ],
+        "correct": 3,
+        "explanation": "Usamos 'which' (o 'that') para referirnos a cosas u objetos ('a piece of equipment which...').",
+        "id": "q_gg4_ing_2"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "ingenio",
+        "question": "A skatepark is an exciting place _______ young people ride skateboards.",
+        "options": [
+            "who",
+            "that",
+            "which",
+            "where"
+        ],
+        "correct": 3,
+        "explanation": "Usamos el adverbio relativo 'where' para referirnos a lugares ('a place where...').",
+        "id": "q_gg4_ing_3"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "ingenio",
+        "question": "That is the talented director _______ won three Academy Awards.",
+        "options": [
+            "which",
+            "who",
+            "when",
+            "where"
+        ],
+        "correct": 1,
+        "explanation": "'The director' es una persona, por lo que corresponde 'who'.",
+        "id": "q_gg4_ing_4"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "ingenio",
+        "question": "Can you pass me the dictionary _______ is on the top shelf?",
+        "options": [
+            "where",
+            "who",
+            "whose",
+            "which"
+        ],
+        "correct": 3,
+        "explanation": "'The dictionary' es un objeto inanimado, por lo que lleva 'which'.",
+        "id": "q_gg4_ing_5"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "ingenio",
+        "question": "The hospital is the building _______ doctors and nurses treat sick patients.",
+        "options": [
+            "that",
+            "who",
+            "which",
+            "where"
+        ],
+        "correct": 3,
+        "explanation": "Lugar donde se desarrolla una actividad: 'the building where doctors treat patients'.",
+        "id": "q_gg4_ing_6"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "ingenio",
+        "question": "I met a girl on the campsite _______ could speak four languages.",
+        "options": [
+            "where",
+            "which",
+            "whose",
+            "who"
+        ],
+        "correct": 3,
+        "explanation": "'A girl' es un ser humano: pronombre 'who'.",
+        "id": "q_gg4_ing_7"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "ingenio",
+        "question": "This is the mystery novel _______ kept me awake all night.",
+        "options": [
+            "which",
+            "where",
+            "whose",
+            "who"
+        ],
+        "correct": 0,
+        "explanation": "'The mystery novel' es un libro (cosa): pronombre 'which'.",
+        "id": "q_gg4_ing_8"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "ingenio",
+        "question": "The youth club is a lively center _______ teenagers can meet and play games.",
+        "options": [
+            "which",
+            "where",
+            "who",
+            "whose"
+        ],
+        "correct": 1,
+        "explanation": "Referencia a lugar de encuentro: 'where teenagers can meet'.",
+        "id": "q_gg4_ing_9"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "ingenio",
+        "question": "Do you know the boy _______ scored the winning goal in the final?",
+        "options": [
+            "where",
+            "which",
+            "who",
+            "whose"
+        ],
+        "correct": 2,
+        "explanation": "Persona que ejecutó la acción: 'the boy who scored'.",
+        "id": "q_gg4_ing_10"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "ingenio",
+        "question": "A wetsuit is special clothing _______ keeps surfers warm in cold ocean water.",
+        "options": [
+            "which",
+            "where",
+            "whose",
+            "who"
+        ],
+        "correct": 0,
+        "explanation": "Prenda de vestir (objeto): pronombre 'which'.",
+        "id": "q_gg4_ing_11"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "ingenio",
+        "question": "That is the cinema _______ we watched the new superhero film.",
+        "options": [
+            "who",
+            "where",
+            "whose",
+            "which"
+        ],
+        "correct": 1,
+        "explanation": "Lugar donde ocurrió el evento: 'the cinema where we watched'.",
+        "id": "q_gg4_ing_12"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "ingenio",
+        "question": "A stunt performer is an athlete _______ does dangerous movie scenes.",
+        "options": [
+            "where",
+            "who",
+            "which",
+            "whose"
+        ],
+        "correct": 1,
+        "explanation": "Profesión/persona de cine (Go Getter 4 Unit 4): 'an athlete who does'.",
+        "id": "q_gg4_ing_13"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "ingenio",
+        "question": "I visited an ancient castle _______ many kings lived centuries ago.",
+        "options": [
+            "who",
+            "where",
+            "which",
+            "whose"
+        ],
+        "correct": 1,
+        "explanation": "Lugar histórico: 'an ancient castle where many kings lived'.",
+        "id": "q_gg4_ing_14"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "ingenio",
+        "question": "This is the mobile phone _______ has the highest camera quality.",
+        "options": [
+            "who",
+            "whose",
+            "which",
+            "where"
+        ],
+        "correct": 2,
+        "explanation": "Dispositivo tecnológico (objeto): 'which has'.",
+        "id": "q_gg4_ing_15"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "ingenio",
+        "question": "Students _______ always do their homework achieve excellent results.",
+        "options": [
+            "where",
+            "which",
+            "whose",
+            "who"
+        ],
+        "correct": 3,
+        "explanation": "Referencia a personas plurales ('Students'): 'who'.",
+        "id": "q_gg4_ing_16"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "ingenio",
+        "question": "A stadium is a venue _______ thousands of fans cheer for their teams.",
+        "options": [
+            "where",
+            "which",
+            "whose",
+            "who"
+        ],
+        "correct": 0,
+        "explanation": "Instalación deportiva como lugar: 'where thousands cheer'.",
+        "id": "q_gg4_ing_17"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "ingenio",
+        "question": "She bought a pair of running shoes _______ were very comfortable.",
+        "options": [
+            "where",
+            "whose",
+            "which",
+            "who"
+        ],
+        "correct": 2,
+        "explanation": "Calzado (objeto): 'which were very comfortable'.",
+        "id": "q_gg4_ing_18"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "ingenio",
+        "question": "The teacher _______ teaches us geography is from Manchester.",
+        "options": [
+            "which",
+            "where",
+            "who",
+            "whose"
+        ],
+        "correct": 2,
+        "explanation": "Sujeto humano: 'The teacher who teaches us'.",
+        "id": "q_gg4_ing_19"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "ingenio",
+        "question": "The laboratory is the room _______ scientists carry out experiments.",
+        "options": [
+            "who",
+            "which",
+            "whose",
+            "where"
+        ],
+        "correct": 3,
+        "explanation": "Espacio físico de experimentación: 'where scientists carry out experiments'.",
+        "id": "q_gg4_ing_20"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "ingenio",
+        "question": "Someone who is always happy and smiles a lot is described as _______.",
+        "options": [
+            "bossy",
+            "dishonest",
+            "cheerful",
+            "selfish"
+        ],
+        "correct": 2,
+        "explanation": "'Cheerful' significa alegre, sonriente y optimista (Go Getter 4 Unit 1: Personality).",
+        "id": "q_gg4_ing_21"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "ingenio",
+        "question": "A person who hates sharing their things with others is _______.",
+        "options": [
+            "generous",
+            "selfish",
+            "reliable",
+            "cheerful"
+        ],
+        "correct": 1,
+        "explanation": "'Selfish' significa egoísta (antónimo de generous).",
+        "id": "q_gg4_ing_22"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "ingenio",
+        "question": "If you can always trust your friend to keep a promise, they are _______.",
+        "options": [
+            "reliable",
+            "jealous",
+            "impolite",
+            "impatient"
+        ],
+        "correct": 0,
+        "explanation": "'Reliable' significa confiable o responsable.",
+        "id": "q_gg4_ing_23"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "ingenio",
+        "question": "What is the opposite of 'polite' in English?",
+        "options": [
+            "impolite",
+            "unpolite",
+            "dispolite",
+            "inpolite"
+        ],
+        "correct": 0,
+        "explanation": "El prefijo negativo correcto para 'polite' (educado) es 'im-': 'impolite' (maleducado).",
+        "id": "q_gg4_ing_24"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "ingenio",
+        "question": "A person who tells lies and cannot be trusted is _______.",
+        "options": [
+            "dishonest",
+            "impatient",
+            "unhonest",
+            "unfriendly"
+        ],
+        "correct": 0,
+        "explanation": "El opuesto de 'honest' lleva el prefijo 'dis-': 'dishonest' (deshonesto).",
+        "id": "q_gg4_ing_25"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "ingenio",
+        "question": "When you have your hair tied at the back of your head, you are wearing a _______.",
+        "options": [
+            "fringe",
+            "beard",
+            "ponytail",
+            "mustache"
+        ],
+        "correct": 2,
+        "explanation": "'Ponytail' es una colita de caballo (Go Getter 4 Unit 1: Hairstyles).",
+        "id": "q_gg4_ing_26"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "ingenio",
+        "question": "Hair that cut straight across the forehead is called a _______.",
+        "options": [
+            "spiky hair",
+            "beard",
+            "curly hair",
+            "fringe"
+        ],
+        "correct": 3,
+        "explanation": "'Fringe' significa flequillo.",
+        "id": "q_gg4_ing_27"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "ingenio",
+        "question": "In English, we say: 'Don't worry if you _______ a mistake; everyone does!'",
+        "options": [
+            "take",
+            "have",
+            "do",
+            "make"
+        ],
+        "correct": 3,
+        "explanation": "La colocación correcta en inglés es 'make a mistake' (no 'do a mistake').",
+        "id": "q_gg4_ing_28"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "ingenio",
+        "question": "Every afternoon after school, I have to _______ my homework.",
+        "options": [
+            "make",
+            "do",
+            "take",
+            "get"
+        ],
+        "correct": 1,
+        "explanation": "Con tareas y deberes escolares usamos 'do': 'do homework'.",
+        "id": "q_gg4_ing_29"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "ingenio",
+        "question": "Please be quiet and don't _______ so much noise!",
+        "options": [
+            "take",
+            "make",
+            "do",
+            "play"
+        ],
+        "correct": 1,
+        "explanation": "La colocación fija es 'make noise' (hacer ruido).",
+        "id": "q_gg4_ing_30"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "ingenio",
+        "question": "Students must _______ notes while the teacher is explaining the lesson.",
+        "options": [
+            "make",
+            "do",
+            "write",
+            "take"
+        ],
+        "correct": 3,
+        "explanation": "'Take notes' es la frase idiomática correcta para tomar apuntes (Go Getter 4 Unit 2).",
+        "id": "q_gg4_ing_31"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "ingenio",
+        "question": "Are you going to _______ part in the annual sports tournament?",
+        "options": [
+            "take",
+            "do",
+            "have",
+            "make"
+        ],
+        "correct": 0,
+        "explanation": "'Take part in' significa participar en una actividad o evento.",
+        "id": "q_gg4_ing_32"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "ingenio",
+        "question": "Tomorrow we have to _______ an important history exam.",
+        "options": [
+            "give",
+            "do",
+            "make",
+            "take"
+        ],
+        "correct": 3,
+        "explanation": "Rendir o dar un examen se dice 'take an exam' (o 'sit an exam').",
+        "id": "q_gg4_ing_33"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "ingenio",
+        "question": "A person who likes telling other people what to do all the time is _______.",
+        "options": [
+            "bossy",
+            "sensible",
+            "generous",
+            "sensitive"
+        ],
+        "correct": 0,
+        "explanation": "'Bossy' describe a alguien mandón o autoritario.",
+        "id": "q_gg4_ing_34"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "ingenio",
+        "question": "What is the opposite of 'patient'?",
+        "options": [
+            "impatient",
+            "dispatient",
+            "unpatient",
+            "inpatient"
+        ],
+        "correct": 0,
+        "explanation": "El prefijo negativo de 'patient' es 'im-': 'impatient' (impaciente).",
+        "id": "q_gg4_ing_35"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "ingenio",
+        "question": "When you go swimming underwater, you wear _______ to protect your eyes.",
+        "options": [
+            "a wetsuit",
+            "knee pads",
+            "goggles",
+            "a helmet"
+        ],
+        "correct": 2,
+        "explanation": "'Goggles' son antiparras para natación o esquí (Go Getter 4 Unit 3: Sports gear).",
+        "id": "q_gg4_ing_36"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "ingenio",
+        "question": "When sailing on a river or lake, you must always wear a _______ to stay afloat.",
+        "options": [
+            "life jacket",
+            "helmet",
+            "rope",
+            "wetsuit"
+        ],
+        "correct": 0,
+        "explanation": "'Life jacket' es el chaleco salvavidas.",
+        "id": "q_gg4_ing_37"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "ingenio",
+        "question": "A board with four small wheels used for doing tricks is a _______.",
+        "options": [
+            "paddleboard",
+            "snowboard",
+            "surfboard",
+            "skateboard"
+        ],
+        "correct": 3,
+        "explanation": "'Skateboard' es una patineta.",
+        "id": "q_gg4_ing_38"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "ingenio",
+        "question": "In extreme rock climbing, athletes use strong safety _______.",
+        "options": [
+            "ropes",
+            "rackets",
+            "goggles",
+            "bats"
+        ],
+        "correct": 0,
+        "explanation": "'Ropes' son cuerdas de seguridad esenciales en escalada.",
+        "id": "q_gg4_ing_39"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "ingenio",
+        "question": "A book that tells the real story of a person's life written by themselves is an _______.",
+        "options": [
+            "autobiography",
+            "historical novel",
+            "encyclopaedia",
+            "fantasy story"
+        ],
+        "correct": 0,
+        "explanation": "Una 'autobiography' es la historia de vida escrita por la propia persona (Go Getter 4 Unit 4).",
+        "id": "q_gg4_ing_40"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "ingenio",
+        "question": "A story about spaceships, alien planets and future technology is _______.",
+        "options": [
+            "biography",
+            "science fiction",
+            "crime thriller",
+            "romance"
+        ],
+        "correct": 1,
+        "explanation": "'Science fiction' es ciencia ficción.",
+        "id": "q_gg4_ing_41"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "ingenio",
+        "question": "The person in charge of guiding the actors and filming scenes in a movie is the _______.",
+        "options": [
+            "publisher",
+            "novelist",
+            "author",
+            "director"
+        ],
+        "correct": 3,
+        "explanation": "'Director' es el director de cine.",
+        "id": "q_gg4_ing_42"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "ingenio",
+        "question": "When trees in a vast rainforest are cut down in large quantities, it is called _______.",
+        "options": [
+            "recycling",
+            "deforestation",
+            "pollution",
+            "climate"
+        ],
+        "correct": 1,
+        "explanation": "'Deforestation' es deforestación (Go Getter 4 Unit 6: Protect the Planet).",
+        "id": "q_gg4_ing_43"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "ingenio",
+        "question": "Energy generated directly from the sun using special roof panels is _______ energy.",
+        "options": [
+            "wind",
+            "fossil",
+            "solar",
+            "nuclear"
+        ],
+        "correct": 2,
+        "explanation": "'Solar energy' es energía solar.",
+        "id": "q_gg4_ing_44"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "ingenio",
+        "question": "Smoke from factories and exhaust fumes from cars cause severe air _______.",
+        "options": [
+            "pollution",
+            "recycling",
+            "temperature",
+            "species"
+        ],
+        "correct": 0,
+        "explanation": "'Pollution' significa contaminación ambiental.",
+        "id": "q_gg4_ing_45"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "ingenio",
+        "question": "Glass, paper and metal can be processed and reused through _______.",
+        "options": [
+            "cutting",
+            "recycling",
+            "rubbish",
+            "throwing"
+        ],
+        "correct": 1,
+        "explanation": "'Recycling' es reciclaje.",
+        "id": "q_gg4_ing_46"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "ingenio",
+        "question": "Animals that are in danger of disappearing completely from Earth are called _______ species.",
+        "options": [
+            "extinct",
+            "dangerous",
+            "polluted",
+            "endangered"
+        ],
+        "correct": 3,
+        "explanation": "'Endangered species' son especies en peligro de extinción.",
+        "id": "q_gg4_ing_47"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "ingenio",
+        "question": "A massive tropical storm with violently spinning destructive winds is a _______.",
+        "options": [
+            "earthquake",
+            "drought",
+            "hurricane",
+            "flood"
+        ],
+        "correct": 2,
+        "explanation": "'Hurricane' es huracán.",
+        "id": "q_gg4_ing_48"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "ingenio",
+        "question": "A very dry, hot area of land covered in sand with almost no rainfall is a _______.",
+        "options": [
+            "glacier",
+            "forest",
+            "mountain",
+            "desert"
+        ],
+        "correct": 3,
+        "explanation": "'Desert' es desierto (atención al deletreo: dessert con doble s es postre).",
+        "id": "q_gg4_ing_49"
+    },
+    {
+        "grade": "gogetter4",
+        "category": "ingenio",
+        "question": "To save electric energy at home, always _______ the lights when you leave a room.",
+        "options": [
+            "turn on",
+            "put on",
+            "pick up",
+            "turn off"
+        ],
+        "correct": 3,
+        "explanation": "'Turn off' significa apagar (las luces o artefactos).",
+        "id": "q_gg4_ing_50"
+    }
 ];
 
 // Soporte para exportación en entornos Node/CommonJS si fuera necesario

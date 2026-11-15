@@ -284,6 +284,7 @@ const SUBJECT_THEME = {
         headerBg: '#2563eb',
         name: 'Matemática',
         short: 'Mat',
+        emoji: '📐',
         icon: `<svg class="w-4 h-4 text-blue-600" fill="none" viewBox="0 0 24 24"><path d="M12 2v3m-5 17l4-15 4 15m-7-6h6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.3"></path></svg>`,
         activeRing: 'bg-white/90 border border-blue-200 text-blue-700 shadow-2xs'
     },
@@ -291,6 +292,7 @@ const SUBJECT_THEME = {
         headerBg: '#dc2626',
         name: 'Lengua',
         short: 'Len',
+        emoji: '📖',
         icon: `<svg class="w-4 h-4 text-rose-500" fill="none" viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20M4 19.5A2.5 2.5 0 0 0 6.5 22H20V4H6.5A2.5 2.5 0 0 0 4 6.5v13z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>`,
         activeRing: 'bg-white/90 border border-rose-200 text-rose-600 shadow-2xs'
     },
@@ -298,6 +300,7 @@ const SUBJECT_THEME = {
         headerBg: '#16a34a',
         name: 'Ciencias Naturales',
         short: 'Nat',
+        emoji: '🌿',
         icon: `<svg class="w-4 h-4 text-emerald-600" fill="none" viewBox="0 0 24 24"><path d="M10 2h4m-3 0v6l-5 9.5A2 2 0 0 0 7.7 21h8.6a2 2 0 0 0 1.7-3.5L13 8V2" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>`,
         activeRing: 'bg-white/90 border border-emerald-200 text-emerald-700 shadow-2xs'
     },
@@ -305,6 +308,7 @@ const SUBJECT_THEME = {
         headerBg: '#ea580c',
         name: 'Ciencias Sociales',
         short: 'Soc',
+        emoji: '🌍',
         icon: `<svg class="w-4 h-4 text-amber-500" fill="none" viewBox="0 0 24 24"><circle cx="12" cy="11" r="7" stroke="currentColor" stroke-width="2"></circle><path d="M12 18v3m-4 0h8" stroke="currentColor" stroke-linecap="round" stroke-width="2"></path></svg>`,
         activeRing: 'bg-white/90 border border-amber-200 text-amber-700 shadow-2xs'
     },
@@ -312,6 +316,7 @@ const SUBJECT_THEME = {
         headerBg: '#9333ea',
         name: 'Ingenio y Cultura',
         short: 'Ing',
+        emoji: '💡',
         icon: `<svg class="w-4 h-4 text-purple-600" fill="none" viewBox="0 0 24 24"><path d="M9 18h6m-4 3h2m-4-10a5 5 0 1 1 8 4c-.7.6-1.5 1.5-1.5 3h-5c0-1.5-.8-2.4-1.5-3a4.98 4.98 0 0 1 0-4z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>`,
         activeRing: 'bg-white/90 border border-purple-200 text-purple-700 shadow-2xs'
     },
@@ -319,6 +324,63 @@ const SUBJECT_THEME = {
         headerBg: '#6366f1',
         name: 'Comodín',
         short: 'Com',
+        emoji: '🃏',
+        icon: `<span class="text-base">🃏</span>`,
+        activeRing: 'bg-gradient-to-b from-purple-50 to-indigo-100 ring-1.5 ring-indigo-400 text-indigo-700 shadow-2xs'
+    }
+};
+
+const SUBJECT_THEME_GOGETTER4 = {
+    matematica: {
+        headerBg: '#2563eb',
+        name: 'Tenses & Actions',
+        short: 'Ten',
+        emoji: '⏱️',
+        subtitle: 'Present & Past Tenses',
+        icon: `<svg class="w-4 h-4 text-blue-600" fill="none" viewBox="0 0 24 24"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.3"></path></svg>`,
+        activeRing: 'bg-white/90 border border-blue-200 text-blue-700 shadow-2xs'
+    },
+    lengua: {
+        headerBg: '#dc2626',
+        name: 'Present Perfect',
+        short: 'Per',
+        emoji: '🎒',
+        subtitle: 'Life & Experiences',
+        icon: `<svg class="w-4 h-4 text-rose-500" fill="none" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.3"></path></svg>`,
+        activeRing: 'bg-white/90 border border-rose-200 text-rose-600 shadow-2xs'
+    },
+    naturales: {
+        headerBg: '#16a34a',
+        name: 'Modals & Rules',
+        short: 'Mod',
+        emoji: '📋',
+        subtitle: 'Must, Have to, Could',
+        icon: `<svg class="w-4 h-4 text-emerald-600" fill="none" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>`,
+        activeRing: 'bg-white/90 border border-emerald-200 text-emerald-700 shadow-2xs'
+    },
+    sociales: {
+        headerBg: '#ea580c',
+        name: 'Conditionals & Future',
+        short: 'Fut',
+        emoji: '🔮',
+        subtitle: 'Will, Going to & If',
+        icon: `<svg class="w-4 h-4 text-amber-500" fill="none" viewBox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>`,
+        activeRing: 'bg-white/90 border border-amber-200 text-amber-700 shadow-2xs'
+    },
+    ingenio: {
+        headerBg: '#9333ea',
+        name: 'Clauses & Vocabulary',
+        short: 'Voc',
+        emoji: '🧩',
+        subtitle: 'Relative Clauses & Lexis',
+        icon: `<svg class="w-4 h-4 text-purple-600" fill="none" viewBox="0 0 24 24"><path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>`,
+        activeRing: 'bg-white/90 border border-purple-200 text-purple-700 shadow-2xs'
+    },
+    comodin: {
+        headerBg: '#6366f1',
+        name: 'Comodín',
+        short: 'Com',
+        emoji: '🃏',
         icon: `<span class="text-base">🃏</span>`,
         activeRing: 'bg-gradient-to-b from-purple-50 to-indigo-100 ring-1.5 ring-indigo-400 text-indigo-700 shadow-2xs'
     }
@@ -373,7 +435,15 @@ class CarreraDelSaberApp {
         this.bindEvents();
         this.renderSetupPlayers();
         this.renderDiceFace(5);
+        this.updateGradeLabels();
         this.showSetupScreen();
+    }
+
+    getSubjectTheme(catKey) {
+        if (this.grade === 'gogetter4') {
+            return SUBJECT_THEME_GOGETTER4[catKey] || SUBJECT_THEME[catKey];
+        }
+        return SUBJECT_THEME[catKey];
     }
 
     bindEvents() {
@@ -408,8 +478,9 @@ class CarreraDelSaberApp {
                     activeNum.classList.remove('text-slate-700');
                 }
 
-                this.grade = parseInt(btn.dataset.grade);
+                this.grade = btn.dataset.grade === 'gogetter4' ? 'gogetter4' : parseInt(btn.dataset.grade);
                 this.updateGradeLabels();
+                this.updateBoardCategoryLabels();
             });
         });
 
@@ -620,14 +691,74 @@ class CarreraDelSaberApp {
     }
 
     updateGradeLabels() {
+        const isGG4 = this.grade === 'gogetter4';
+        const label = isGG4 ? '🇬🇧 Go Getter 4' : `${this.grade}.° Grado`;
         const gradePill = document.getElementById('header-grade-pill');
-        if (gradePill) gradePill.textContent = `${this.grade}.° Grado`;
+        if (gradePill) gradePill.textContent = label;
 
         const legendLabel = document.getElementById('legend-grade-label');
-        if (legendLabel) legendLabel.textContent = `${this.grade}.° Grado`;
+        if (legendLabel) legendLabel.textContent = label;
 
         const winnerSub = document.getElementById('winner-grade-sub');
-        if (winnerSub) winnerSub.textContent = `¡Conquistó las preguntas de ${this.grade}.° Grado!`;
+        if (winnerSub) {
+            winnerSub.textContent = isGG4 
+                ? '¡Conquistó las preguntas de Inglés (Go Getter 4)!'
+                : `¡Conquistó las preguntas de ${this.grade}.° Grado!`;
+        }
+
+        this.updateSetupSubjectsPreview();
+        this.updateBoardCategoryLabels();
+    }
+
+    updateSetupSubjectsPreview() {
+        const preview = document.getElementById('setup-subjects-preview');
+        if (!preview) return;
+        const cats = ['matematica', 'lengua', 'naturales', 'sociales', 'ingenio'];
+        const bubbles = preview.querySelectorAll('span:not(:first-child)');
+        bubbles.forEach((bubble, i) => {
+            if (cats[i]) {
+                const theme = this.getSubjectTheme(cats[i]);
+                if (theme) {
+                    bubble.textContent = theme.emoji;
+                    bubble.title = theme.name;
+                }
+            }
+        });
+    }
+
+    updateBoardCategoryLabels() {
+        const isGG4 = this.grade === 'gogetter4';
+        TILES_METADATA.forEach(tile => {
+            if (tile.cat === 'comodin') return;
+            const tileEl = document.getElementById(`tile-${tile.id}`);
+            if (!tileEl) return;
+            const span = tileEl.querySelector('span.hidden.md\\:inline');
+            const theme = this.getSubjectTheme(tile.cat);
+            if (span && theme) {
+                span.textContent = theme.name;
+            }
+
+            // Adaptar ícono temático en casillero
+            const svg = tileEl.querySelector('svg');
+            let emojiSpan = tileEl.querySelector('.tile-emoji-icon');
+            if (isGG4 && theme && theme.emoji) {
+                if (svg) svg.style.display = 'none';
+                if (!emojiSpan) {
+                    emojiSpan = document.createElement('span');
+                    emojiSpan.className = 'tile-emoji-icon text-xl sm:text-2xl md:text-3xl my-0.5 filter drop-shadow select-none leading-none';
+                    if (span) {
+                        tileEl.insertBefore(emojiSpan, span);
+                    } else {
+                        tileEl.appendChild(emojiSpan);
+                    }
+                }
+                emojiSpan.textContent = theme.emoji;
+                emojiSpan.style.display = 'inline-block';
+            } else {
+                if (svg) svg.style.display = '';
+                if (emojiSpan) emojiSpan.style.display = 'none';
+            }
+        });
     }
 
     renderSetupPlayers() {
@@ -811,6 +942,7 @@ class CarreraDelSaberApp {
         this.usedQuestions.clear();
 
         this.updateGradeLabels();
+        this.updateBoardCategoryLabels();
 
         const sideCount = document.getElementById('sidebar-players-count');
         if (sideCount) sideCount.textContent = `${this.players.length} Jugadores`;
@@ -860,13 +992,16 @@ class CarreraDelSaberApp {
 
                 let badgesHtml = '';
                 badgeKeys.forEach(k => {
-                    const meta = SUBJECT_THEME[k];
+                    const meta = this.getSubjectTheme(k);
                     const has = p.badges.has(k);
+                    const badgeIcon = (this.grade === 'gogetter4' && meta.emoji)
+                        ? `<span class="text-base leading-none">${meta.emoji}</span>`
+                        : meta.icon;
 
                     if (has) {
                         badgesHtml += `
                             <div class="bg-white border-2 border-amber-300/80 rounded-xl py-1.5 px-0.5 flex flex-col items-center justify-center shadow-2xs hover:bg-amber-50/40 transition relative cursor-default" title="${meta.name} lograda">
-                                ${meta.icon}
+                                ${badgeIcon}
                                 <span class="text-[10px] font-black text-slate-800 leading-none mt-0.5">${meta.short}</span>
                                 <span class="absolute -top-1.5 -right-1 text-[10px]">⭐</span>
                             </div>
@@ -874,7 +1009,7 @@ class CarreraDelSaberApp {
                     } else {
                         badgesHtml += `
                             <div class="bg-slate-50/80 border border-slate-200 rounded-xl py-1.5 px-0.5 flex flex-col items-center justify-center shadow-2xs opacity-40 grayscale hover:opacity-60 transition cursor-default" title="${meta.name} pendiente">
-                                ${meta.icon}
+                                ${badgeIcon}
                                 <span class="text-[10px] font-bold text-slate-400 leading-none mt-0.5">${meta.short}</span>
                             </div>
                         `;
@@ -933,12 +1068,15 @@ class CarreraDelSaberApp {
 
                 let miniBadges = '';
                 badgeKeys.forEach(k => {
-                    const meta = SUBJECT_THEME[k];
+                    const meta = this.getSubjectTheme(k);
                     const has = p.badges.has(k);
+                    const miniIcon = (this.grade === 'gogetter4' && meta.emoji)
+                        ? `<span class="text-[11px] leading-none">${meta.emoji}</span>`
+                        : meta.icon;
                     if (has) {
                         miniBadges += `<span title="${meta.name}">⭐</span>`;
                     } else {
-                        miniBadges += `<span class="opacity-25 grayscale" title="${meta.name}">${meta.icon}</span>`;
+                        miniBadges += `<span class="opacity-25 grayscale flex items-center justify-center" title="${meta.name}">${miniIcon}</span>`;
                     }
                 });
 
@@ -1218,7 +1356,7 @@ class CarreraDelSaberApp {
 
     openQuestionModal(tile) {
         const player = this.players[this.currentPlayerIndex];
-        const theme = SUBJECT_THEME[tile.cat];
+        const theme = this.getSubjectTheme(tile.cat);
 
         // Filtrar preguntas del banco curricular según grado y materia
         const totalCategoryQuestions = QUESTIONS_DATA.filter(q => 
@@ -1244,19 +1382,20 @@ class CarreraDelSaberApp {
 
         // Header del modal
         const modalHeader = document.getElementById('modal-header');
-        if (modalHeader) modalHeader.style.backgroundColor = theme.headerBg;
+        if (modalHeader && theme) modalHeader.style.backgroundColor = theme.headerBg;
 
         const catIcon = document.getElementById('q-category-icon');
-        if (catIcon) catIcon.textContent = tile.icon;
+        if (catIcon) catIcon.textContent = theme ? theme.emoji : tile.icon;
 
+        const catLabel = theme ? theme.name : tile.label;
         const catName = document.getElementById('q-category-name');
-        if (catName) catName.textContent = tile.label.toUpperCase();
+        if (catName) catName.textContent = catLabel.toUpperCase();
 
         const badgeTag = document.getElementById('q-badge-indicator');
         if (badgeTag) {
             if (tile.star && !player.badges.has(tile.cat)) {
                 badgeTag.style.display = 'inline-block';
-                badgeTag.textContent = `⭐ ¡CASILLERO DE MEDALLA DE ${tile.label.toUpperCase()}!`;
+                badgeTag.textContent = `⭐ ¡CASILLERO DE MEDALLA DE ${catLabel.toUpperCase()}!`;
             } else {
                 badgeTag.style.display = 'none';
             }
@@ -1267,7 +1406,8 @@ class CarreraDelSaberApp {
 
         const gradeTag = document.getElementById('q-grade-tag');
         if (gradeTag) {
-            gradeTag.textContent = `${this.grade}.° Grado · ${remainingCount} restantes`;
+            const label = this.grade === 'gogetter4' ? 'Go Getter 4' : `${this.grade}.° Grado`;
+            gradeTag.textContent = `${label} · ${remainingCount} restantes`;
         }
 
         const questionText = document.getElementById('question-text');
@@ -1407,7 +1547,8 @@ class CarreraDelSaberApp {
                 if (tile.star && !player.badges.has(tile.cat)) {
                     player.badges.add(tile.cat);
                     wonMedal = true;
-                    extraMsg = ` ¡Ganaste la medalla de ${tile.label}! 🎖️`;
+                    const catLabel = theme ? theme.name : tile.label;
+                    extraMsg = ` ¡Ganaste la medalla de ${catLabel}! 🎖️`;
                     this.audio.playBadgeWon();
                     this.confetti.fire();
                 }
@@ -1516,12 +1657,15 @@ class CarreraDelSaberApp {
             badgesContainer.innerHTML = '';
             if (player.badges && player.badges.size > 0) {
                 player.badges.forEach(catKey => {
-                    const theme = SUBJECT_THEME[catKey];
+                    const theme = this.getSubjectTheme(catKey);
                     if (!theme) return;
+                    const badgeIcon = (this.grade === 'gogetter4' && theme.emoji)
+                        ? `<span class="text-xl leading-none">${theme.emoji}</span>`
+                        : theme.icon;
                     const badgeCard = document.createElement('div');
                     badgeCard.className = `w-12 h-12 rounded-2xl flex flex-col items-center justify-center shadow-xs border-2 ${theme.activeRing} relative p-1`;
                     badgeCard.innerHTML = `
-                        <div class="scale-110 flex items-center justify-center">${theme.icon}</div>
+                        <div class="scale-110 flex items-center justify-center">${badgeIcon}</div>
                         <span class="text-[9px] font-black text-slate-700 mt-0.5 leading-none">${theme.short}</span>
                         <span class="absolute -top-1 -right-1 text-[10px]">⭐</span>
                     `;
@@ -1709,17 +1853,24 @@ class CarreraDelSaberApp {
 
         const buttons = modal.querySelectorAll('.comodin-subject-btn');
         buttons.forEach(btn => {
+            const category = btn.dataset.category;
+            const theme = this.getSubjectTheme(category);
+            const titleEl = btn.querySelector('.font-black');
+            if (titleEl && theme) titleEl.textContent = theme.name;
+            const subEl = btn.querySelector('.text-\\[10px\\]');
+            if (subEl && theme && theme.subtitle) subEl.textContent = theme.subtitle;
+            const iconEl = btn.querySelector('span.rounded-xl');
+            if (iconEl && theme) iconEl.textContent = theme.emoji;
+
             btn.onclick = () => {
-                const category = btn.dataset.category;
                 modal.classList.add('hidden');
                 modal.classList.remove('flex');
                 
-                const theme = SUBJECT_THEME[category];
                 const chosenTile = {
                     id: this.currentTile ? this.currentTile.id : 5,
                     cat: category,
                     label: theme ? theme.name : 'Materia',
-                    icon: theme ? theme.icon : '📚',
+                    icon: theme ? theme.emoji : '📚',
                     star: false
                 };
                 this.currentTile = chosenTile;
@@ -1739,11 +1890,11 @@ class CarreraDelSaberApp {
         if (list) {
             list.innerHTML = '';
             const allCats = [
-                { cat: 'matematica', name: 'Matemática', icon: '📐', bg: 'bg-blue-50 border-blue-300 text-blue-800' },
-                { cat: 'lengua', name: 'Lengua', icon: '📖', bg: 'bg-red-50 border-red-300 text-red-800' },
-                { cat: 'naturales', name: 'Ciencias Naturales', icon: '🌿', bg: 'bg-emerald-50 border-emerald-300 text-emerald-800' },
-                { cat: 'sociales', name: 'Ciencias Sociales', icon: '🌍', bg: 'bg-orange-50 border-orange-300 text-orange-800' },
-                { cat: 'ingenio', name: 'Ingenio y Cultura', icon: '💡', bg: 'bg-purple-50 border-purple-300 text-purple-800' }
+                { cat: 'matematica', name: this.getSubjectTheme('matematica').name, icon: this.getSubjectTheme('matematica').emoji, bg: 'bg-blue-50 border-blue-300 text-blue-800' },
+                { cat: 'lengua', name: this.getSubjectTheme('lengua').name, icon: this.getSubjectTheme('lengua').emoji, bg: 'bg-red-50 border-red-300 text-red-800' },
+                { cat: 'naturales', name: this.getSubjectTheme('naturales').name, icon: this.getSubjectTheme('naturales').emoji, bg: 'bg-emerald-50 border-emerald-300 text-emerald-800' },
+                { cat: 'sociales', name: this.getSubjectTheme('sociales').name, icon: this.getSubjectTheme('sociales').emoji, bg: 'bg-orange-50 border-orange-300 text-orange-800' },
+                { cat: 'ingenio', name: this.getSubjectTheme('ingenio').name, icon: this.getSubjectTheme('ingenio').emoji, bg: 'bg-purple-50 border-purple-300 text-purple-800' }
             ];
 
             const available = allCats.filter(c => !player.badges.has(c.cat));
