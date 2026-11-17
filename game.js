@@ -475,7 +475,7 @@ class CarreraDelSaberApp {
         this.showSetupScreen();
     }
 
-    speakQuestion(text) {
+    speakQuestion(text, lang = null) {
         if (!('speechSynthesis' in window)) return;
 
         if (window.speechSynthesis.speaking) {
@@ -488,16 +488,31 @@ class CarreraDelSaberApp {
         // Reemplazar líneas en blanco como _______ por una pausa natural
         const cleanedText = text.replace(/_{2,}/g, ' ... ');
         const utterance = new SpeechSynthesisUtterance(cleanedText);
-        utterance.lang = 'en-GB';
-        utterance.rate = 0.88; // Velocidad pedagógica y clara
-        utterance.pitch = 1.0;
 
-        // Seleccionar la mejor voz en inglés británico disponible
+        const isEnglish = (typeof this.grade === 'string' && this.grade.startsWith('gogetter')) || lang === 'en';
+
         const voices = window.speechSynthesis.getVoices();
-        const gbVoice = voices.find(v => v.lang === 'en-GB' || v.lang === 'en_GB') 
-                     || voices.find(v => v.lang.startsWith('en'))
-                     || null;
-        if (gbVoice) utterance.voice = gbVoice;
+
+        if (isEnglish) {
+            utterance.lang = 'en-GB';
+            utterance.rate = 0.88; // Velocidad pedagógica y clara para inglés
+            utterance.pitch = 1.0;
+            // Seleccionar voz en inglés británico o inglés general
+            const gbVoice = voices.find(v => v.lang === 'en-GB' || v.lang === 'en_GB') 
+                         || voices.find(v => v.lang.startsWith('en'))
+                         || null;
+            if (gbVoice) utterance.voice = gbVoice;
+        } else {
+            utterance.lang = 'es-AR';
+            utterance.rate = 0.95; // Velocidad clara y natural para español
+            utterance.pitch = 1.0;
+            // Buscar voz en español rioplatense/latinoamericano, sino cualquier voz en español
+            const esVoice = voices.find(v => v.lang === 'es-AR' || v.lang === 'es_AR')
+                         || voices.find(v => v.lang === 'es-US' || v.lang === 'es-MX' || v.lang === 'es-419')
+                         || voices.find(v => v.lang.startsWith('es'))
+                         || null;
+            if (esVoice) utterance.voice = esVoice;
+        }
 
         const speakBtn = document.getElementById('btn-speak-question');
         if (speakBtn) {
@@ -1381,9 +1396,9 @@ class CarreraDelSaberApp {
                 const token = document.createElement('div');
                 const isActive = p.id === this.currentPlayerIndex;
                 token.className = isActive
-                    ? `bg-gradient-to-r from-amber-400 to-yellow-300 text-slate-900 text-[10px] font-black px-2 py-0.5 rounded-full shadow-lg border-2 border-white flex items-center gap-1 token-bouncing z-30 ring-2 ring-yellow-400 select-none`
-                    : `bg-sky-400 text-slate-900 text-[10px] font-black px-1.5 py-0.5 rounded-full shadow border-2 border-white flex items-center gap-0.5 select-none`;
-                token.innerHTML = `<span>${p.avatar}</span><span>${p.name}</span>`;
+                    ? `bg-gradient-to-r from-amber-400 to-yellow-300 text-slate-900 text-[10px] font-black px-1 sm:px-2 py-0.5 rounded-full shadow-lg border border-white sm:border-2 flex items-center gap-0.5 sm:gap-1 token-bouncing z-30 ring-2 ring-yellow-400 select-none`
+                    : `bg-sky-400 text-slate-900 text-[10px] font-black px-1 sm:px-1.5 py-0.5 rounded-full shadow border border-white sm:border-2 flex items-center gap-0.5 select-none`;
+                token.innerHTML = `<span class="text-[10px] sm:text-xs leading-none">${p.avatar}</span><span class="hidden sm:inline">${p.name}</span>`;
                 token.title = `${p.name} (Casillero #${tileNum})`;
                 slot.appendChild(token);
             }
@@ -1647,31 +1662,26 @@ class CarreraDelSaberApp {
         const questionText = document.getElementById('question-text');
         if (questionText) questionText.textContent = question.question;
 
-        // Configurar botón de audio pronunciación en inglés
+        // Configurar botón de audio pronunciación y lectura en voz alta (Español e Inglés)
         if ('speechSynthesis' in window) window.speechSynthesis.cancel();
         const speakBtn = document.getElementById('btn-speak-question');
         if (speakBtn) {
             speakBtn.classList.remove('ring-2', 'ring-indigo-400', 'bg-indigo-100', 'animate-pulse');
-            if (this.grade === 'gogetter4') {
-                speakBtn.classList.remove('hidden');
-                speakBtn.classList.add('flex');
-                speakBtn.onclick = (e) => {
-                    e.stopPropagation();
-                    this.speakQuestion(question.question);
-                };
+            speakBtn.classList.remove('hidden');
+            speakBtn.classList.add('flex');
+            speakBtn.onclick = (e) => {
+                e.stopPropagation();
+                this.speakQuestion(question.question);
+            };
 
-                // Reproducción automática SOLO si el sonido general está habilitado
-                if (this.audio && this.audio.enabled) {
-                    setTimeout(() => {
-                        const modal = document.getElementById('question-modal');
-                        if (modal && !modal.classList.contains('hidden') && this.currentQuestion === question) {
-                            this.speakQuestion(question.question);
-                        }
-                    }, 350);
-                }
-            } else {
-                speakBtn.classList.add('hidden');
-                speakBtn.classList.remove('flex');
+            // Reproducción automática SOLO si el sonido general está habilitado
+            if (this.audio && this.audio.enabled) {
+                setTimeout(() => {
+                    const modal = document.getElementById('question-modal');
+                    if (modal && !modal.classList.contains('hidden') && this.currentQuestion === question) {
+                        this.speakQuestion(question.question);
+                    }
+                }, 350);
             }
         }
 

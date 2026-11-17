@@ -155,6 +155,31 @@
       animation: tokenBounce 1.8s ease-in-out infinite;
     }
 
+    /* Strict Board Grid Rigidity & Tile Sizing (Prevents vertical stretching on mobile) */
+    #circuitGrid {
+      display: grid !important;
+      grid-template-columns: repeat(8, minmax(0, 1fr)) !important;
+      grid-template-rows: repeat(7, minmax(0, 1fr)) !important;
+    }
+    #circuitGrid > div {
+      min-height: 0;
+      min-width: 0;
+    }
+    #circuitGrid svg {
+      flex-shrink: 0;
+      aspect-ratio: 1 / 1;
+      max-height: 100%;
+      max-width: 100%;
+    }
+    .tile-3d {
+      border-radius: 0.85rem;
+    }
+    @media (min-width: 640px) {
+      .tile-3d {
+        border-radius: 1.25rem;
+      }
+    }
+
     /* Result Toast Pop Animation */
     @keyframes popIn {
       0% { opacity: 0; transform: translateY(-10px) scale(0.92); }
@@ -1160,7 +1185,7 @@
 </div>
 
       <!-- ================= CENTER ACTION CANVAS (Cols 2 to 7, Rows 2 to 6) ================= -->
-      <div class="col-start-2 col-span-6 row-start-2 row-span-5 flex flex-col items-center justify-center p-2 sm:p-3 relative rounded-2xl sm:rounded-3xl border border-indigo-100/60 bg-gradient-to-b from-slate-50/50 via-white/30 to-indigo-50/20 shadow-inner overflow-hidden" data-purpose="center-game-stage">
+      <div class="col-start-2 col-span-6 row-start-2 row-span-5 flex flex-col items-center justify-center p-2 sm:p-3 relative rounded-2xl sm:rounded-3xl border border-indigo-100/60 bg-gradient-to-b from-slate-50/50 via-white/30 to-indigo-50/20 shadow-inner overflow-hidden min-h-0 min-w-0" data-purpose="center-game-stage">
         
         <!-- THEMATIC BOARD BACKGROUND WATERMARK (TENUE Y EDUCATIVO) -->
         <div class="absolute inset-0 pointer-events-none select-none overflow-hidden rounded-2xl sm:rounded-3xl flex items-center justify-center -z-0">
