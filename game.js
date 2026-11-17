@@ -386,6 +386,36 @@ const SUBJECT_THEME_GOGETTER4 = {
     }
 };
 
+// --- CATÁLOGO DE AVATARES DISPONIBLES ---
+const AVAILABLE_AVATARS = [
+    { emoji: '🐻', name: 'Oso', bg: 'bg-amber-100', border: 'border-amber-300', gradient: 'from-amber-500 to-yellow-400' },
+    { emoji: '🐬', name: 'Delfín', bg: 'bg-cyan-100', border: 'border-cyan-300', gradient: 'from-cyan-500 to-sky-400' },
+    { emoji: '🦄', name: 'Unicornio', bg: 'bg-pink-100', border: 'border-pink-300', gradient: 'from-pink-500 to-rose-400' },
+    { emoji: '🦁', name: 'León', bg: 'bg-orange-100', border: 'border-orange-300', gradient: 'from-orange-500 to-amber-500' },
+    { emoji: '⚡', name: 'Rayo', bg: 'bg-yellow-100', border: 'border-yellow-300', gradient: 'from-yellow-400 to-amber-500' },
+    { emoji: '🚀', name: 'Cohete', bg: 'bg-red-100', border: 'border-red-300', gradient: 'from-red-500 to-rose-400' },
+    { emoji: '🦉', name: 'Búho', bg: 'bg-purple-100', border: 'border-purple-300', gradient: 'from-purple-500 to-indigo-400' },
+    { emoji: '🦊', name: 'Zorro', bg: 'bg-amber-100', border: 'border-orange-400', gradient: 'from-amber-600 to-orange-400' },
+    { emoji: '🐼', name: 'Panda', bg: 'bg-slate-200', border: 'border-slate-400', gradient: 'from-slate-600 to-slate-400' },
+    { emoji: '🐯', name: 'Tigre', bg: 'bg-amber-100', border: 'border-amber-400', gradient: 'from-orange-500 to-yellow-500' },
+    { emoji: '🦖', name: 'Dino', bg: 'bg-emerald-100', border: 'border-emerald-300', gradient: 'from-emerald-500 to-teal-400' },
+    { emoji: '🤖', name: 'Robot', bg: 'bg-sky-100', border: 'border-sky-300', gradient: 'from-sky-500 to-blue-500' },
+    { emoji: '🐱', name: 'Gatito', bg: 'bg-violet-100', border: 'border-violet-300', gradient: 'from-violet-500 to-purple-400' },
+    { emoji: '🐶', name: 'Perrito', bg: 'bg-amber-100', border: 'border-amber-300', gradient: 'from-amber-500 to-orange-400' },
+    { emoji: '🐙', name: 'Pulpo', bg: 'bg-rose-100', border: 'border-rose-300', gradient: 'from-rose-500 to-pink-500' },
+    { emoji: '🐝', name: 'Abeja', bg: 'bg-yellow-100', border: 'border-yellow-400', gradient: 'from-yellow-500 to-amber-400' }
+];
+
+function getAvatarMetadata(emoji) {
+    return AVAILABLE_AVATARS.find(a => a.emoji === emoji) || {
+        emoji: emoji || '🐻',
+        name: 'Avatar',
+        bg: 'bg-indigo-100',
+        border: 'border-indigo-300',
+        gradient: 'from-indigo-500 to-blue-400'
+    };
+}
+
 // --- CONTROLADOR PRINCIPAL DEL JUEGO ---
 class CarreraDelSaberApp {
     constructor() {
@@ -397,6 +427,8 @@ class CarreraDelSaberApp {
         this.mode = 'individual'; // 'individual' o 'teams'
         this.playerCount = 2;
         this.winGoal = 'badges'; // 'badges' (4) o 'fast' (2)
+        this.questionTimeLimit = 25; // 15, 25, 40 o 0 (sin límite)
+        this.playerAvatars = []; // Avatares personalizados por jugador
 
         // Estado de Partida
         this.players = [];
@@ -615,6 +647,41 @@ class CarreraDelSaberApp {
             });
         });
 
+        // 5. Selector de Tiempo para Responder
+        document.querySelectorAll('.timer-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.timer-btn').forEach(b => {
+                    b.classList.remove('active', 'border-blue-600', 'bg-blue-50/50', 'bg-gradient-to-r', 'from-white', 'to-blue-50/50', 'shadow-md');
+                    b.classList.add('border-slate-200/80', 'bg-slate-50/70');
+                    const c = b.querySelector('.timer-check');
+                    if (c) {
+                        c.className = 'timer-check w-5 h-5 rounded-full bg-white text-slate-400 border border-slate-200 flex items-center justify-center font-bold text-xs shadow-2xs opacity-0';
+                        c.textContent = '+';
+                    }
+                    const title = b.querySelector('div.font-black');
+                    if (title) {
+                        title.classList.remove('text-blue-700');
+                        title.classList.add('text-slate-800');
+                    }
+                });
+
+                btn.classList.add('active', 'border-blue-600', 'bg-gradient-to-r', 'from-white', 'to-blue-50/50', 'shadow-md');
+                btn.classList.remove('border-slate-200/80', 'bg-slate-50/70');
+                const activeCheck = btn.querySelector('.timer-check');
+                if (activeCheck) {
+                    activeCheck.className = 'timer-check w-5 h-5 rounded-full bg-blue-600 text-white flex items-center justify-center font-black text-xs shadow-xs';
+                    activeCheck.textContent = '✓';
+                }
+                const activeTitle = btn.querySelector('div.font-black');
+                if (activeTitle) {
+                    activeTitle.classList.add('text-blue-700');
+                    activeTitle.classList.remove('text-slate-800');
+                }
+
+                this.questionTimeLimit = parseInt(btn.dataset.seconds, 10);
+            });
+        });
+
         // Botón Iniciar Carrera
         const startBtn = document.getElementById('btn-start-game');
         if (startBtn) startBtn.addEventListener('click', () => this.startGame());
@@ -827,43 +894,151 @@ class CarreraDelSaberApp {
     renderSetupPlayers() {
         const container = document.getElementById('players-config-list');
         if (!container) return;
-        container.innerHTML = '';
 
         const defaultTeams = [
-            { name: "Escuela San Martín", avatar: "🦁", bg: "bg-amber-100", border: "border-amber-300" },
-            { name: "Colegio Sarmiento", avatar: "🐬", bg: "bg-cyan-100", border: "border-cyan-300" },
-            { name: "Escuela Belgrano", avatar: "🚀", bg: "bg-red-100", border: "border-red-300" },
-            { name: "Instituto Alberdi", avatar: "🦉", bg: "bg-purple-100", border: "border-purple-300" }
+            { name: "Escuela San Martín", avatar: "🦁" },
+            { name: "Colegio Sarmiento", avatar: "🐬" },
+            { name: "Escuela Belgrano", avatar: "🚀" },
+            { name: "Instituto Alberdi", avatar: "🦉" }
         ];
 
         const defaultIndividuals = [
-            { name: "Ger", avatar: "🐻", bg: "bg-amber-100", border: "border-amber-300" },
-            { name: "Cami", avatar: "🐬", bg: "bg-cyan-100", border: "border-cyan-300" },
-            { name: "Santi", avatar: "⚡", bg: "bg-yellow-100", border: "border-yellow-300" },
-            { name: "Valen", avatar: "🦄", bg: "bg-pink-100", border: "border-pink-300" }
+            { name: "Ger", avatar: "🐻" },
+            { name: "Cami", avatar: "🐬" },
+            { name: "Santi", avatar: "⚡" },
+            { name: "Valen", avatar: "🦄" }
         ];
 
         const defaults = this.mode === 'teams' ? defaultTeams : defaultIndividuals;
 
+        // Inicializar o ajustar array this.playerAvatars si cambió el conteo o el modo
+        if (!this.playerAvatars) this.playerAvatars = [];
+        while (this.playerAvatars.length < this.playerCount) {
+            const idx = this.playerAvatars.length;
+            const defEmoji = defaults[idx % defaults.length].avatar;
+            this.playerAvatars.push(getAvatarMetadata(defEmoji));
+        }
+
+        // Preservar nombres que el usuario ya haya tipeado en los inputs
+        const currentNames = [];
         for (let i = 0; i < this.playerCount; i++) {
+            const inp = document.getElementById(`player-input-${i}`);
+            currentNames.push(inp && inp.value.trim() ? inp.value.trim() : defaults[i % defaults.length].name);
+        }
+
+        container.innerHTML = '';
+
+        for (let i = 0; i < this.playerCount; i++) {
+            const avatarObj = this.playerAvatars[i];
+            const playerName = currentNames[i];
+
             const row = document.createElement('div');
-            row.className = 'flex items-center gap-2.5 bg-slate-50 p-2 rounded-2xl border border-slate-200/80 shadow-xs focus-within:ring-2 focus-within:ring-blue-500';
+            row.className = 'flex flex-col gap-1.5 bg-slate-50 p-2 sm:p-2.5 rounded-2xl border border-slate-200/80 shadow-xs focus-within:ring-2 focus-within:ring-blue-500 transition-all';
             row.innerHTML = `
-                <div class="w-10 h-10 rounded-xl ${defaults[i].bg} border ${defaults[i].border} flex items-center justify-center text-xl shrink-0 shadow-xs">
-                    ${defaults[i].avatar}
+                <div class="flex items-center gap-2.5">
+                    <button type="button" class="avatar-select-btn w-11 h-11 rounded-xl ${avatarObj.bg} border-2 ${avatarObj.border} hover:scale-105 active:scale-95 transition-transform flex items-center justify-center text-xl shrink-0 shadow-xs cursor-pointer relative group" data-player-index="${i}" title="Tocá para cambiar avatar de ${playerName}">
+                        <span id="player-avatar-icon-${i}">${avatarObj.emoji}</span>
+                        <span class="absolute -bottom-1 -right-1 w-4 h-4 rounded-full bg-white border border-slate-300 flex items-center justify-center text-[9px] text-slate-600 shadow-2xs group-hover:bg-blue-600 group-hover:text-white transition-colors">✏️</span>
+                    </button>
+                    <div class="flex-1 min-w-0">
+                        <input type="text" id="player-input-${i}" class="w-full bg-white px-3 py-1.5 rounded-xl font-bold text-sm text-slate-800 border border-slate-200 focus:outline-none shadow-inner" 
+                               value="${playerName}" maxlength="24" 
+                               placeholder="Nombre de ${this.mode === 'teams' ? 'escuela' : 'alumno'}">
+                    </div>
+                    <button type="button" class="btn-toggle-avatar-picker text-xs font-bold text-blue-600 hover:text-blue-800 bg-blue-50 hover:bg-blue-100 px-2.5 py-1.5 rounded-xl transition-colors cursor-pointer shrink-0 flex items-center gap-1" data-player-index="${i}">
+                        <span>Elegir</span>
+                        <span class="text-[10px]">▾</span>
+                    </button>
+                    <div class="hidden sm:flex items-center pr-1 text-slate-400">
+                        <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+                        <span class="text-[10px] font-extrabold ml-1 uppercase text-emerald-700">Listo</span>
+                    </div>
                 </div>
-                <div class="flex-1 min-w-0">
-                    <input type="text" id="player-input-${i}" class="w-full bg-white px-3 py-1.5 rounded-xl font-bold text-sm text-slate-800 border border-slate-200 focus:outline-none shadow-inner" 
-                           value="${defaults[i].name}" maxlength="24" 
-                           placeholder="Nombre de ${this.mode === 'teams' ? 'escuela' : 'alumno'}">
-                </div>
-                <div class="hidden sm:flex items-center pr-2 text-slate-400">
-                    <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
-                    <span class="text-[10px] font-extrabold ml-1 uppercase text-emerald-700">Listo</span>
+
+                <!-- Selector de Avatares desplegable (16 personajes) -->
+                <div id="avatar-drawer-${i}" class="hidden flex-col gap-2 pt-2.5 pb-1 px-1 border-t border-slate-200/80 mt-1 animate-fadeIn">
+                    <div class="flex items-center justify-between">
+                        <span class="text-[11px] font-black uppercase tracking-wider text-slate-600">Elegí tu avatar favorito:</span>
+                        <button type="button" class="btn-close-avatar-drawer text-[11px] text-slate-400 hover:text-slate-600 font-bold px-1.5 py-0.5 rounded cursor-pointer" data-player-index="${i}">✕ Cerrar</button>
+                    </div>
+                    <div class="grid grid-cols-8 gap-1.5 sm:gap-2">
+                        ${AVAILABLE_AVATARS.map(av => `
+                            <button type="button" class="avatar-option-btn w-9 h-9 sm:w-10 sm:h-10 rounded-xl ${av.bg} border ${av.border} ${av.emoji === avatarObj.emoji ? 'ring-2 ring-blue-600 scale-105 shadow-sm' : 'hover:scale-110 opacity-90 hover:opacity-100'} flex items-center justify-center text-lg sm:text-xl transition-all cursor-pointer" data-player-index="${i}" data-emoji="${av.emoji}" title="${av.name}">
+                                ${av.emoji}
+                            </button>
+                        `).join('')}
+                    </div>
                 </div>
             `;
             container.appendChild(row);
         }
+
+        // Delegar eventos para abrir y cerrar el selector de avatares
+        container.querySelectorAll('.avatar-select-btn, .btn-toggle-avatar-picker').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const idx = btn.dataset.playerIndex;
+                const drawer = document.getElementById(`avatar-drawer-${idx}`);
+                if (drawer) {
+                    const isClosed = drawer.classList.contains('hidden');
+                    container.querySelectorAll('[id^="avatar-drawer-"]').forEach(d => {
+                        d.classList.add('hidden');
+                        d.classList.remove('flex');
+                    });
+                    if (isClosed) {
+                        drawer.classList.remove('hidden');
+                        drawer.classList.add('flex');
+                    }
+                }
+            });
+        });
+
+        container.querySelectorAll('.btn-close-avatar-drawer').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const idx = btn.dataset.playerIndex;
+                const drawer = document.getElementById(`avatar-drawer-${idx}`);
+                if (drawer) {
+                    drawer.classList.add('hidden');
+                    drawer.classList.remove('flex');
+                }
+            });
+        });
+
+        container.querySelectorAll('.avatar-option-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const pIdx = parseInt(btn.dataset.playerIndex, 10);
+                const emoji = btn.dataset.emoji;
+                const meta = getAvatarMetadata(emoji);
+                this.playerAvatars[pIdx] = meta;
+
+                // Actualizar ícono y colores en el botón del jugador
+                const iconSpan = document.getElementById(`player-avatar-icon-${pIdx}`);
+                if (iconSpan) iconSpan.textContent = meta.emoji;
+
+                const avatarBtn = container.querySelector(`.avatar-select-btn[data-player-index="${pIdx}"]`);
+                if (avatarBtn) {
+                    avatarBtn.className = `avatar-select-btn w-11 h-11 rounded-xl ${meta.bg} border-2 ${meta.border} hover:scale-105 active:scale-95 transition-transform flex items-center justify-center text-xl shrink-0 shadow-xs cursor-pointer relative group`;
+                }
+
+                // Resaltar avatar elegido en el drawer
+                const drawer = document.getElementById(`avatar-drawer-${pIdx}`);
+                if (drawer) {
+                    drawer.querySelectorAll('.avatar-option-btn').forEach(b => {
+                        if (b.dataset.emoji === emoji) {
+                            b.classList.add('ring-2', 'ring-blue-600', 'scale-105', 'shadow-sm');
+                        } else {
+                            b.classList.remove('ring-2', 'ring-blue-600', 'scale-105', 'shadow-sm');
+                        }
+                    });
+
+                    setTimeout(() => {
+                        drawer.classList.add('hidden');
+                        drawer.classList.remove('flex');
+                    }, 180);
+                }
+
+                if (this.audio) this.audio.playDiceShake();
+            });
+        });
     }
 
     showSetupScreen() {
@@ -971,29 +1146,25 @@ class CarreraDelSaberApp {
 
     startGame() {
         this.players = [];
-        const avatars = this.mode === 'teams' ? ['🦁', '🐬', '🚀', '🦉'] : ['🐻', '🐬', '⚡', '🦄'];
-        const avatarBgs = [
-            'bg-amber-100 border-2 border-amber-300',
-            'bg-cyan-100 border-2 border-cyan-300',
-            'bg-red-100 border-2 border-red-300',
-            'bg-purple-100 border-2 border-purple-300'
-        ];
-        const tokenGradients = [
-            'from-amber-500 to-yellow-400',
-            'from-cyan-500 to-sky-400',
-            'from-red-500 to-rose-400',
-            'from-purple-500 to-indigo-400'
-        ];
+
+        const defaultTeams = ['🦁', '🐬', '🚀', '🦉'];
+        const defaultIndividuals = ['🐻', '🐬', '⚡', '🦄'];
+        const defaults = this.mode === 'teams' ? defaultTeams : defaultIndividuals;
 
         for (let i = 0; i < this.playerCount; i++) {
             const input = document.getElementById(`player-input-${i}`);
             const name = input && input.value.trim() ? input.value.trim() : (this.mode === 'teams' ? `Escuela ${i + 1}` : `Jugador ${i + 1}`);
+            
+            const avatarObj = (this.playerAvatars && this.playerAvatars[i])
+                ? this.playerAvatars[i]
+                : getAvatarMetadata(defaults[i % defaults.length]);
+
             this.players.push({
                 id: i,
                 name: name,
-                avatar: avatars[i],
-                avatarBg: avatarBgs[i],
-                tokenGradient: tokenGradients[i],
+                avatar: avatarObj.emoji,
+                avatarBg: `${avatarObj.bg} border-2 ${avatarObj.border}`,
+                tokenGradient: avatarObj.gradient,
                 position: 0,
                 badges: new Set(),
                 score: 0
@@ -1557,9 +1728,26 @@ class CarreraDelSaberApp {
     }
 
     startQuestionTimer() {
-        this.timerSeconds = 25;
+        if (this.timer) clearInterval(this.timer);
+
         const timerNum = document.getElementById('timer-number');
         const timerBar = document.getElementById('timer-bar');
+
+        // Modo Sin Límite de Tiempo (Infinito)
+        if (this.questionTimeLimit === 0) {
+            if (timerNum) {
+                timerNum.textContent = '♾️';
+                timerNum.title = 'Sin límite de tiempo';
+            }
+            if (timerBar) {
+                timerBar.style.width = '100%';
+                timerBar.style.backgroundColor = '#10b981';
+            }
+            return;
+        }
+
+        const maxSecs = this.questionTimeLimit || 25;
+        this.timerSeconds = maxSecs;
 
         if (timerNum) timerNum.textContent = this.timerSeconds;
         if (timerBar) {
@@ -1567,19 +1755,20 @@ class CarreraDelSaberApp {
             timerBar.style.backgroundColor = '#10b981';
         }
 
-        if (this.timer) clearInterval(this.timer);
-
         this.timer = setInterval(() => {
             this.timerSeconds--;
             if (timerNum) timerNum.textContent = this.timerSeconds;
 
-            const percentage = (this.timerSeconds / 25) * 100;
+            const percentage = Math.max(0, (this.timerSeconds / maxSecs) * 100);
             if (timerBar) {
                 timerBar.style.width = `${percentage}%`;
 
-                if (this.timerSeconds <= 8) {
+                const dangerThreshold = Math.max(4, Math.floor(maxSecs * 0.25));
+                const warningThreshold = Math.max(8, Math.floor(maxSecs * 0.5));
+
+                if (this.timerSeconds <= dangerThreshold) {
                     timerBar.style.backgroundColor = '#ef4444';
-                } else if (this.timerSeconds <= 15) {
+                } else if (this.timerSeconds <= warningThreshold) {
                     timerBar.style.backgroundColor = '#f59e0b';
                 }
             }

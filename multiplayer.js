@@ -624,18 +624,26 @@ class MultiplayerManager {
         }
 
         // Configurar jugadores de CarreraDelSaberApp con las jugadoras online
-        const avatarsList = ['🐬', '🐻', '🦄', '🦁'];
+        const avatarsList = ['🐬', '🐻', '🦄', '🦁', '⚡', '🚀', '🦉', '🦖'];
         const avatarBgs = [
-            'bg-amber-100 border-2 border-amber-300',
             'bg-cyan-100 border-2 border-cyan-300',
+            'bg-amber-100 border-2 border-amber-300',
+            'bg-pink-100 border-2 border-pink-300',
+            'bg-orange-100 border-2 border-orange-300',
+            'bg-yellow-100 border-2 border-yellow-300',
             'bg-red-100 border-2 border-red-300',
-            'bg-purple-100 border-2 border-purple-300'
+            'bg-purple-100 border-2 border-purple-300',
+            'bg-emerald-100 border-2 border-emerald-300'
         ];
         const tokenGradients = [
-            'from-amber-500 to-yellow-400',
             'from-cyan-500 to-sky-400',
+            'from-amber-500 to-yellow-400',
+            'from-pink-500 to-rose-400',
+            'from-orange-500 to-amber-500',
+            'from-yellow-400 to-amber-500',
             'from-red-500 to-rose-400',
-            'from-purple-500 to-indigo-400'
+            'from-purple-500 to-indigo-400',
+            'from-emerald-500 to-teal-400'
         ];
 
         window.game.players = this.playersInRoom.map((p, idx) => ({
