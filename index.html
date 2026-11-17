@@ -378,70 +378,212 @@
                             </div>
                             <h3 class="text-lg sm:text-xl font-black text-slate-800">Elegí el Grado Escolar</h3>
                         </div>
-                        <span class="text-[11px] font-black uppercase px-3 py-1 rounded-full bg-blue-50 text-blue-700 tracking-wider">Primaria Oficial</span>
+                        <span class="text-[11px] font-black uppercase px-3 py-1 rounded-full bg-blue-50 text-blue-700 tracking-wider">Plan Escolar Completo</span>
                     </div>
 
-                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3.5" id="grade-selector-group">
-                        <!-- 5to Grado -->
-                        <button type="button" class="grade-btn p-4 rounded-2xl border-2 border-slate-200/80 bg-slate-50/70 hover:bg-slate-100 text-left transition-all duration-200 relative cursor-pointer" data-grade="5">
-                            <div class="flex justify-between items-center mb-1">
-                                <span class="text-3xl font-black text-slate-700">5.°</span>
-                                <span class="grade-icon w-6 h-6 rounded-full bg-white text-slate-400 border border-slate-200 flex items-center justify-center font-bold text-xs shadow-2xs opacity-0">+</span>
+                    <!-- BLOQUE 1: PRIMARIA OFICIAL (1.° A 7.° GRADO) -->
+                    <div class="mb-5">
+                        <div class="flex items-center justify-between mb-2.5">
+                            <div class="flex items-center gap-2">
+                                <span class="text-base sm:text-lg">🇦🇷</span>
+                                <h4 class="text-xs sm:text-sm font-black text-slate-700 uppercase tracking-wider">Primaria Oficial (1.° a 7.° Grado)</h4>
                             </div>
-                            <span class="font-black text-sm text-slate-800 block mt-2">5.° Grado</span>
-                            <span class="text-xs font-semibold text-slate-500 block mt-0.5">10 a 11 años</span>
-                            <div class="mt-3 pt-2 border-t border-slate-200/60 flex items-center gap-1.5 text-slate-500 text-[10px] font-extrabold uppercase">
-                                <span class="w-2 h-2 rounded-full bg-blue-500"></span> Fracciones y Leyendas
-                            </div>
-                        </button>
+                            <span class="hidden sm:inline text-[11px] font-extrabold text-slate-400">Matemática · Lengua · C. Naturales · C. Sociales · Ingenio</span>
+                        </div>
 
-                        <!-- 6to Grado (SELECTED DEFAULT) -->
-                        <button type="button" class="grade-btn active p-4 rounded-2xl border-2 border-blue-600 bg-gradient-to-b from-white to-blue-50/50 text-left transition-all duration-200 shadow-md relative cursor-pointer" data-grade="6">
-                            <div class="flex justify-between items-center mb-1">
-                                <span class="text-3xl font-black text-blue-600">6.°</span>
-                                <span class="grade-icon w-6 h-6 rounded-full bg-blue-600 text-white flex items-center justify-center shadow-xs">✓</span>
-                            </div>
-                            <span class="font-black text-sm text-blue-700 block mt-2">6.° Grado</span>
-                            <span class="text-xs font-semibold text-slate-500 block mt-0.5">11 a 12 años</span>
-                            <div class="mt-3 pt-2 border-t border-blue-100 flex items-center gap-1.5 text-blue-700 text-[10px] font-black uppercase">
-                                <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span> Nivel Recomendado
-                            </div>
-                        </button>
+                        <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-7 gap-2.5" id="primary-grade-group">
+                            <!-- 1.° Grado -->
+                            <button type="button" class="grade-btn p-3 rounded-2xl border-2 border-slate-200/80 bg-slate-50/70 hover:bg-slate-100 text-left transition-all duration-200 relative cursor-pointer" data-grade="1">
+                                <div class="flex justify-between items-center mb-0.5">
+                                    <span class="text-2xl font-black text-slate-700">1.°</span>
+                                    <span class="grade-icon w-5 h-5 rounded-full bg-white text-slate-400 border border-slate-200 flex items-center justify-center font-bold text-[10px] shadow-2xs opacity-0">+</span>
+                                </div>
+                                <span class="font-black text-xs text-slate-800 block">1.° Grado</span>
+                                <span class="text-[10px] font-semibold text-slate-500 block">6 a 7 años</span>
+                                <div class="mt-2 pt-1.5 border-t border-slate-200/60 flex items-center gap-1 text-slate-500 text-[9px] font-extrabold uppercase">
+                                    <span class="w-1.5 h-1.5 rounded-full bg-amber-500"></span> Lectura inicial
+                                </div>
+                            </button>
 
-                        <!-- 7mo Grado -->
-                        <button type="button" class="grade-btn p-4 rounded-2xl border-2 border-slate-200/80 bg-slate-50/70 hover:bg-slate-100 text-left transition-all duration-200 relative cursor-pointer" data-grade="7">
-                            <div class="flex justify-between items-center mb-1">
-                                <span class="text-3xl font-black text-slate-700">7.°</span>
-                                <span class="grade-icon w-6 h-6 rounded-full bg-white text-slate-400 border border-slate-200 flex items-center justify-center font-bold text-xs shadow-2xs opacity-0">+</span>
-                            </div>
-                            <span class="font-black text-sm text-slate-800 block mt-2">7.° Grado</span>
-                            <span class="text-xs font-semibold text-slate-500 block mt-0.5">12 a 13 años</span>
-                            <div class="mt-3 pt-2 border-t border-slate-200/60 flex items-center gap-1.5 text-slate-500 text-[10px] font-extrabold uppercase">
-                                <span class="w-2 h-2 rounded-full bg-purple-500"></span> Pre-secundaria
-                            </div>
-                        </button>
+                            <!-- 2.° Grado -->
+                            <button type="button" class="grade-btn p-3 rounded-2xl border-2 border-slate-200/80 bg-slate-50/70 hover:bg-slate-100 text-left transition-all duration-200 relative cursor-pointer" data-grade="2">
+                                <div class="flex justify-between items-center mb-0.5">
+                                    <span class="text-2xl font-black text-slate-700">2.°</span>
+                                    <span class="grade-icon w-5 h-5 rounded-full bg-white text-slate-400 border border-slate-200 flex items-center justify-center font-bold text-[10px] shadow-2xs opacity-0">+</span>
+                                </div>
+                                <span class="font-black text-xs text-slate-800 block">2.° Grado</span>
+                                <span class="text-[10px] font-semibold text-slate-500 block">7 a 8 años</span>
+                                <div class="mt-2 pt-1.5 border-t border-slate-200/60 flex items-center gap-1 text-slate-500 text-[9px] font-extrabold uppercase">
+                                    <span class="w-1.5 h-1.5 rounded-full bg-teal-500"></span> Cuentos y suma
+                                </div>
+                            </button>
 
-                        <!-- Go Getter 4 (Inglés) -->
-                        <button type="button" class="grade-btn p-4 rounded-2xl border-2 border-slate-200/80 bg-slate-50/70 hover:bg-slate-100 text-left transition-all duration-200 relative cursor-pointer" data-grade="gogetter4">
-                            <div class="flex justify-between items-center mb-1">
-                                <span class="text-2xl font-black text-indigo-600 flex items-center gap-2">
-                                    <svg class="w-7 h-4.5 rounded shadow-2xs overflow-hidden inline-block shrink-0 border border-slate-200" viewBox="0 0 60 36">
-                                        <rect width="60" height="36" fill="#012169"/>
-                                        <path d="M0 0 L60 36 M60 0 L0 36" stroke="#ffffff" stroke-width="6"/>
-                                        <path d="M0 0 L60 36 M60 0 L0 36" stroke="#C8102E" stroke-width="3.5"/>
-                                        <path d="M30 0 v36 M0 18 h60" stroke="#ffffff" stroke-width="10"/>
-                                        <path d="M30 0 v36 M0 18 h60" stroke="#C8102E" stroke-width="6"/>
-                                    </svg>
-                                    <span>GG4</span>
-                                </span>
-                                <span class="grade-icon w-6 h-6 rounded-full bg-white text-slate-400 border border-slate-200 flex items-center justify-center font-bold text-xs shadow-2xs opacity-0">+</span>
+                            <!-- 3.° Grado -->
+                            <button type="button" class="grade-btn p-3 rounded-2xl border-2 border-slate-200/80 bg-slate-50/70 hover:bg-slate-100 text-left transition-all duration-200 relative cursor-pointer" data-grade="3">
+                                <div class="flex justify-between items-center mb-0.5">
+                                    <span class="text-2xl font-black text-slate-700">3.°</span>
+                                    <span class="grade-icon w-5 h-5 rounded-full bg-white text-slate-400 border border-slate-200 flex items-center justify-center font-bold text-[10px] shadow-2xs opacity-0">+</span>
+                                </div>
+                                <span class="font-black text-xs text-slate-800 block">3.° Grado</span>
+                                <span class="text-[10px] font-semibold text-slate-500 block">8 a 9 años</span>
+                                <div class="mt-2 pt-1.5 border-t border-slate-200/60 flex items-center gap-1 text-slate-500 text-[9px] font-extrabold uppercase">
+                                    <span class="w-1.5 h-1.5 rounded-full bg-indigo-500"></span> Tablas y texto
+                                </div>
+                            </button>
+
+                            <!-- 4.° Grado -->
+                            <button type="button" class="grade-btn p-3 rounded-2xl border-2 border-slate-200/80 bg-slate-50/70 hover:bg-slate-100 text-left transition-all duration-200 relative cursor-pointer" data-grade="4">
+                                <div class="flex justify-between items-center mb-0.5">
+                                    <span class="text-2xl font-black text-slate-700">4.°</span>
+                                    <span class="grade-icon w-5 h-5 rounded-full bg-white text-slate-400 border border-slate-200 flex items-center justify-center font-bold text-[10px] shadow-2xs opacity-0">+</span>
+                                </div>
+                                <span class="font-black text-xs text-slate-800 block">4.° Grado</span>
+                                <span class="text-[10px] font-semibold text-slate-500 block">9 a 10 años</span>
+                                <div class="mt-2 pt-1.5 border-t border-slate-200/60 flex items-center gap-1 text-slate-500 text-[9px] font-extrabold uppercase">
+                                    <span class="w-1.5 h-1.5 rounded-full bg-cyan-500"></span> Provincias
+                                </div>
+                            </button>
+
+                            <!-- 5.° Grado -->
+                            <button type="button" class="grade-btn p-3 rounded-2xl border-2 border-slate-200/80 bg-slate-50/70 hover:bg-slate-100 text-left transition-all duration-200 relative cursor-pointer" data-grade="5">
+                                <div class="flex justify-between items-center mb-0.5">
+                                    <span class="text-2xl font-black text-slate-700">5.°</span>
+                                    <span class="grade-icon w-5 h-5 rounded-full bg-white text-slate-400 border border-slate-200 flex items-center justify-center font-bold text-[10px] shadow-2xs opacity-0">+</span>
+                                </div>
+                                <span class="font-black text-xs text-slate-800 block">5.° Grado</span>
+                                <span class="text-[10px] font-semibold text-slate-500 block">10 a 11 años</span>
+                                <div class="mt-2 pt-1.5 border-t border-slate-200/60 flex items-center gap-1 text-slate-500 text-[9px] font-extrabold uppercase">
+                                    <span class="w-1.5 h-1.5 rounded-full bg-blue-500"></span> Fracciones
+                                </div>
+                            </button>
+
+                            <!-- 6.° Grado (DEFAULT SELECTED) -->
+                            <button type="button" class="grade-btn active p-3 rounded-2xl border-2 border-blue-600 bg-gradient-to-b from-white to-blue-50/50 text-left transition-all duration-200 shadow-md relative cursor-pointer" data-grade="6">
+                                <div class="flex justify-between items-center mb-0.5">
+                                    <span class="text-2xl font-black text-blue-600">6.°</span>
+                                    <span class="grade-icon w-5 h-5 rounded-full bg-blue-600 text-white flex items-center justify-center shadow-xs text-[10px]">✓</span>
+                                </div>
+                                <span class="font-black text-xs text-blue-700 block">6.° Grado</span>
+                                <span class="text-[10px] font-semibold text-slate-500 block">11 a 12 años</span>
+                                <div class="mt-2 pt-1.5 border-t border-blue-100 flex items-center gap-1 text-blue-700 text-[9px] font-black uppercase">
+                                    <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span> Recomendado
+                                </div>
+                            </button>
+
+                            <!-- 7.° Grado -->
+                            <button type="button" class="grade-btn p-3 rounded-2xl border-2 border-slate-200/80 bg-slate-50/70 hover:bg-slate-100 text-left transition-all duration-200 relative cursor-pointer" data-grade="7">
+                                <div class="flex justify-between items-center mb-0.5">
+                                    <span class="text-2xl font-black text-slate-700">7.°</span>
+                                    <span class="grade-icon w-5 h-5 rounded-full bg-white text-slate-400 border border-slate-200 flex items-center justify-center font-bold text-[10px] shadow-2xs opacity-0">+</span>
+                                </div>
+                                <span class="font-black text-xs text-slate-800 block">7.° Grado</span>
+                                <span class="text-[10px] font-semibold text-slate-500 block">12 a 13 años</span>
+                                <div class="mt-2 pt-1.5 border-t border-slate-200/60 flex items-center gap-1 text-slate-500 text-[9px] font-extrabold uppercase">
+                                    <span class="w-1.5 h-1.5 rounded-full bg-purple-500"></span> Pre-secundaria
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- BLOQUE 2: NIVELES DE INGLÉS (NIVEL 1 A 4) -->
+                    <div class="pt-4 border-t border-slate-200/80">
+                        <div class="flex items-center justify-between mb-2.5">
+                            <div class="flex items-center gap-2">
+                                <span class="text-base sm:text-lg">🇬🇧</span>
+                                <h4 class="text-xs sm:text-sm font-black text-indigo-900 uppercase tracking-wider">Niveles de Inglés</h4>
                             </div>
-                            <span class="font-black text-sm text-slate-800 block mt-2">Go Getter 4</span>
-                            <span class="text-xs font-semibold text-slate-500 block mt-0.5">Inglés · Pearson</span>
-                            <div class="mt-3 pt-2 border-t border-slate-200/60 flex items-center gap-1.5 text-indigo-600 text-[10px] font-extrabold uppercase">
-                                <span class="w-2 h-2 rounded-full bg-indigo-500"></span> Grammar & Vocab
-                            </div>
-                        </button>
+                            <span class="hidden sm:inline text-[11px] font-extrabold text-indigo-500">Audio británico · Grammar · Vocabulary · Communication · Culture</span>
+                        </div>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3" id="english-level-group">
+                            <!-- Nivel 1 -->
+                            <button type="button" class="grade-btn p-3.5 rounded-2xl border-2 border-slate-200/80 bg-slate-50/70 hover:bg-slate-100 text-left transition-all duration-200 relative cursor-pointer" data-grade="english1">
+                                <div class="flex justify-between items-center mb-1">
+                                    <span class="text-lg sm:text-xl font-black text-indigo-600 flex items-center gap-1.5">
+                                        <svg class="w-5 h-3.5 rounded-xs shadow-2xs overflow-hidden inline-block shrink-0 border border-slate-200" viewBox="0 0 60 36">
+                                            <rect width="60" height="36" fill="#012169"/>
+                                            <path d="M0 0 L60 36 M60 0 L0 36" stroke="#ffffff" stroke-width="6"/>
+                                            <path d="M0 0 L60 36 M60 0 L0 36" stroke="#C8102E" stroke-width="3.5"/>
+                                            <path d="M30 0 v36 M0 18 h60" stroke="#ffffff" stroke-width="10"/>
+                                            <path d="M30 0 v36 M0 18 h60" stroke="#C8102E" stroke-width="6"/>
+                                        </svg>
+                                        <span>Nivel 1</span>
+                                    </span>
+                                    <span class="grade-icon w-5 h-5 rounded-full bg-white text-slate-400 border border-slate-200 flex items-center justify-center font-bold text-[10px] shadow-2xs opacity-0">+</span>
+                                </div>
+                                <span class="font-black text-xs text-slate-800 block">Inglés · Starter</span>
+                                <span class="text-[10px] font-semibold text-slate-500 block">Pre-A1 a A1</span>
+                                <div class="mt-2.5 pt-1.5 border-t border-slate-200/60 flex items-center gap-1 text-indigo-600 text-[9px] font-extrabold uppercase">
+                                    <span class="w-1.5 h-1.5 rounded-full bg-indigo-500"></span> To Be & Basics
+                                </div>
+                            </button>
+
+                            <!-- Nivel 2 -->
+                            <button type="button" class="grade-btn p-3.5 rounded-2xl border-2 border-slate-200/80 bg-slate-50/70 hover:bg-slate-100 text-left transition-all duration-200 relative cursor-pointer" data-grade="english2">
+                                <div class="flex justify-between items-center mb-1">
+                                    <span class="text-lg sm:text-xl font-black text-indigo-600 flex items-center gap-1.5">
+                                        <svg class="w-5 h-3.5 rounded-xs shadow-2xs overflow-hidden inline-block shrink-0 border border-slate-200" viewBox="0 0 60 36">
+                                            <rect width="60" height="36" fill="#012169"/>
+                                            <path d="M0 0 L60 36 M60 0 L0 36" stroke="#ffffff" stroke-width="6"/>
+                                            <path d="M0 0 L60 36 M60 0 L0 36" stroke="#C8102E" stroke-width="3.5"/>
+                                            <path d="M30 0 v36 M0 18 h60" stroke="#ffffff" stroke-width="10"/>
+                                            <path d="M30 0 v36 M0 18 h60" stroke="#C8102E" stroke-width="6"/>
+                                        </svg>
+                                        <span>Nivel 2</span>
+                                    </span>
+                                    <span class="grade-icon w-5 h-5 rounded-full bg-white text-slate-400 border border-slate-200 flex items-center justify-center font-bold text-[10px] shadow-2xs opacity-0">+</span>
+                                </div>
+                                <span class="font-black text-xs text-slate-800 block">Inglés · Elementary</span>
+                                <span class="text-[10px] font-semibold text-slate-500 block">A1 a A2</span>
+                                <div class="mt-2.5 pt-1.5 border-t border-slate-200/60 flex items-center gap-1 text-indigo-600 text-[9px] font-extrabold uppercase">
+                                    <span class="w-1.5 h-1.5 rounded-full bg-indigo-500"></span> Past Simple & Town
+                                </div>
+                            </button>
+
+                            <!-- Nivel 3 -->
+                            <button type="button" class="grade-btn p-3.5 rounded-2xl border-2 border-slate-200/80 bg-slate-50/70 hover:bg-slate-100 text-left transition-all duration-200 relative cursor-pointer" data-grade="english3">
+                                <div class="flex justify-between items-center mb-1">
+                                    <span class="text-lg sm:text-xl font-black text-indigo-600 flex items-center gap-1.5">
+                                        <svg class="w-5 h-3.5 rounded-xs shadow-2xs overflow-hidden inline-block shrink-0 border border-slate-200" viewBox="0 0 60 36">
+                                            <rect width="60" height="36" fill="#012169"/>
+                                            <path d="M0 0 L60 36 M60 0 L0 36" stroke="#ffffff" stroke-width="6"/>
+                                            <path d="M0 0 L60 36 M60 0 L0 36" stroke="#C8102E" stroke-width="3.5"/>
+                                            <path d="M30 0 v36 M0 18 h60" stroke="#ffffff" stroke-width="10"/>
+                                            <path d="M30 0 v36 M0 18 h60" stroke="#C8102E" stroke-width="6"/>
+                                        </svg>
+                                        <span>Nivel 3</span>
+                                    </span>
+                                    <span class="grade-icon w-5 h-5 rounded-full bg-white text-slate-400 border border-slate-200 flex items-center justify-center font-bold text-[10px] shadow-2xs opacity-0">+</span>
+                                </div>
+                                <span class="font-black text-xs text-slate-800 block">Inglés · Pre-Int</span>
+                                <span class="text-[10px] font-semibold text-slate-500 block">A2 a B1</span>
+                                <div class="mt-2.5 pt-1.5 border-t border-slate-200/60 flex items-center gap-1 text-indigo-600 text-[9px] font-extrabold uppercase">
+                                    <span class="w-1.5 h-1.5 rounded-full bg-indigo-500"></span> Will, Modals & Nature
+                                </div>
+                            </button>
+
+                            <!-- Nivel 4 (Previamente GG4) -->
+                            <button type="button" class="grade-btn p-3.5 rounded-2xl border-2 border-slate-200/80 bg-slate-50/70 hover:bg-slate-100 text-left transition-all duration-200 relative cursor-pointer" data-grade="english4">
+                                <div class="flex justify-between items-center mb-1">
+                                    <span class="text-lg sm:text-xl font-black text-indigo-600 flex items-center gap-1.5">
+                                        <svg class="w-5 h-3.5 rounded-xs shadow-2xs overflow-hidden inline-block shrink-0 border border-slate-200" viewBox="0 0 60 36">
+                                            <rect width="60" height="36" fill="#012169"/>
+                                            <path d="M0 0 L60 36 M60 0 L0 36" stroke="#ffffff" stroke-width="6"/>
+                                            <path d="M0 0 L60 36 M60 0 L0 36" stroke="#C8102E" stroke-width="3.5"/>
+                                            <path d="M30 0 v36 M0 18 h60" stroke="#ffffff" stroke-width="10"/>
+                                            <path d="M30 0 v36 M0 18 h60" stroke="#C8102E" stroke-width="6"/>
+                                        </svg>
+                                        <span>Nivel 4</span>
+                                    </span>
+                                    <span class="grade-icon w-5 h-5 rounded-full bg-white text-slate-400 border border-slate-200 flex items-center justify-center font-bold text-[10px] shadow-2xs opacity-0">+</span>
+                                </div>
+                                <span class="font-black text-xs text-slate-800 block">Inglés · Intermediate</span>
+                                <span class="text-[10px] font-semibold text-slate-500 block">B1 Consolidado</span>
+                                <div class="mt-2.5 pt-1.5 border-t border-slate-200/60 flex items-center gap-1 text-indigo-600 text-[9px] font-extrabold uppercase">
+                                    <span class="w-1.5 h-1.5 rounded-full bg-indigo-500"></span> B1 Grammar & Vocab
+                                </div>
+                            </button>
+                        </div>
                     </div>
                 </section>
 
@@ -746,21 +888,39 @@
                     </div>
 
                     <!-- Grado Escolar para la Partida Online -->
-                    <div class="flex flex-col gap-2">
+                    <div class="flex flex-col gap-2.5">
                         <label class="text-xs font-extrabold text-slate-700 uppercase tracking-wider">Grado o Nivel de las Preguntas</label>
-                        <div class="grid grid-cols-2 sm:grid-cols-4 gap-2" id="online-grade-selector">
-                            <button type="button" class="online-grade-btn py-2.5 px-3 rounded-xl border border-slate-200 bg-white hover:bg-slate-50 font-bold text-slate-700 text-xs sm:text-sm text-center cursor-pointer" data-grade="5">5.° Grado</button>
-                            <button type="button" class="online-grade-btn active py-2.5 px-3 rounded-xl border-2 border-indigo-600 bg-indigo-50 text-indigo-700 font-black text-xs sm:text-sm text-center shadow-xs cursor-pointer" data-grade="6">6.° Grado</button>
-                            <button type="button" class="online-grade-btn py-2.5 px-3 rounded-xl border border-slate-200 bg-white hover:bg-slate-50 font-bold text-slate-700 text-xs sm:text-sm text-center cursor-pointer" data-grade="7">7.° Grado</button>
-                            <button type="button" class="online-grade-btn py-2.5 px-3 rounded-xl border border-slate-200 bg-white hover:bg-slate-50 font-bold text-slate-700 text-xs sm:text-sm text-center cursor-pointer flex items-center justify-center gap-1.5" data-grade="gogetter4">
-                                <svg class="w-4 h-2.5 rounded-xs shadow-2xs overflow-hidden inline-block shrink-0 border border-slate-200" viewBox="0 0 60 36">
-                                    <rect width="60" height="36" fill="#012169"/>
-                                    <path d="M0 0 L60 36 M60 0 L0 36" stroke="#ffffff" stroke-width="6"/>
-                                    <path d="M0 0 L60 36 M60 0 L0 36" stroke="#C8102E" stroke-width="3.5"/>
-                                    <path d="M30 0 v36 M0 18 h60" stroke="#ffffff" stroke-width="10"/>
-                                    <path d="M30 0 v36 M0 18 h60" stroke="#C8102E" stroke-width="6"/>
-                                </svg>
-                                <span>GG4</span>
+                        
+                        <!-- Primaria Oficial -->
+                        <div class="flex items-center gap-1.5 text-[10px] font-bold text-slate-500 uppercase">
+                            <span>🇦🇷</span> Primaria Oficial
+                        </div>
+                        <div class="grid grid-cols-4 sm:grid-cols-7 gap-1.5">
+                            <button type="button" class="online-grade-btn py-2 px-1.5 rounded-xl border border-slate-200 bg-white hover:bg-slate-50 font-bold text-slate-700 text-xs text-center cursor-pointer" data-grade="1">1.°</button>
+                            <button type="button" class="online-grade-btn py-2 px-1.5 rounded-xl border border-slate-200 bg-white hover:bg-slate-50 font-bold text-slate-700 text-xs text-center cursor-pointer" data-grade="2">2.°</button>
+                            <button type="button" class="online-grade-btn py-2 px-1.5 rounded-xl border border-slate-200 bg-white hover:bg-slate-50 font-bold text-slate-700 text-xs text-center cursor-pointer" data-grade="3">3.°</button>
+                            <button type="button" class="online-grade-btn py-2 px-1.5 rounded-xl border border-slate-200 bg-white hover:bg-slate-50 font-bold text-slate-700 text-xs text-center cursor-pointer" data-grade="4">4.°</button>
+                            <button type="button" class="online-grade-btn py-2 px-1.5 rounded-xl border border-slate-200 bg-white hover:bg-slate-50 font-bold text-slate-700 text-xs text-center cursor-pointer" data-grade="5">5.°</button>
+                            <button type="button" class="online-grade-btn active py-2 px-1.5 rounded-xl border-2 border-indigo-600 bg-indigo-50 text-indigo-700 font-black text-xs text-center shadow-xs cursor-pointer" data-grade="6">6.°</button>
+                            <button type="button" class="online-grade-btn py-2 px-1.5 rounded-xl border border-slate-200 bg-white hover:bg-slate-50 font-bold text-slate-700 text-xs text-center cursor-pointer" data-grade="7">7.°</button>
+                        </div>
+
+                        <!-- Niveles de Inglés -->
+                        <div class="flex items-center gap-1.5 text-[10px] font-bold text-indigo-600 uppercase mt-1">
+                            <span>🇬🇧</span> Niveles de Inglés
+                        </div>
+                        <div class="grid grid-cols-2 sm:grid-cols-4 gap-1.5" id="online-grade-selector">
+                            <button type="button" class="online-grade-btn py-2 px-2 rounded-xl border border-slate-200 bg-white hover:bg-slate-50 font-bold text-slate-700 text-xs text-center cursor-pointer flex items-center justify-center gap-1" data-grade="english1">
+                                <span>🇬🇧</span> Nivel 1
+                            </button>
+                            <button type="button" class="online-grade-btn py-2 px-2 rounded-xl border border-slate-200 bg-white hover:bg-slate-50 font-bold text-slate-700 text-xs text-center cursor-pointer flex items-center justify-center gap-1" data-grade="english2">
+                                <span>🇬🇧</span> Nivel 2
+                            </button>
+                            <button type="button" class="online-grade-btn py-2 px-2 rounded-xl border border-slate-200 bg-white hover:bg-slate-50 font-bold text-slate-700 text-xs text-center cursor-pointer flex items-center justify-center gap-1" data-grade="english3">
+                                <span>🇬🇧</span> Nivel 3
+                            </button>
+                            <button type="button" class="online-grade-btn py-2 px-2 rounded-xl border border-slate-200 bg-white hover:bg-slate-50 font-bold text-slate-700 text-xs text-center cursor-pointer flex items-center justify-center gap-1" data-grade="english4">
+                                <span>🇬🇧</span> Nivel 4
                             </button>
                         </div>
                     </div>

@@ -528,46 +528,59 @@ class CarreraDelSaberApp {
         window.speechSynthesis.speak(utterance);
     }
 
+    getGradeDisplayName(grade = this.grade) {
+        if (grade === 'english1' || grade === 'gogetter1') return 'Inglés · Nivel 1';
+        if (grade === 'english2' || grade === 'gogetter2') return 'Inglés · Nivel 2';
+        if (grade === 'english3' || grade === 'gogetter3') return 'Inglés · Nivel 3';
+        if (grade === 'english4' || grade === 'gogetter4') return 'Inglés · Nivel 4';
+        return `${grade}.° Grado`;
+    }
+
+    isEnglishGrade(grade = this.grade) {
+        return typeof grade === 'string' && (grade.startsWith('english') || grade.startsWith('gogetter'));
+    }
+
     getSubjectTheme(catKey) {
-        if (this.grade === 'gogetter4') {
+        if (this.isEnglishGrade()) {
             return SUBJECT_THEME_GOGETTER4[catKey] || SUBJECT_THEME[catKey];
         }
         return SUBJECT_THEME[catKey];
     }
 
     bindEvents() {
-        // 1. Selector de Grado
+        // 1. Selector de Grado o Nivel
         document.querySelectorAll('.grade-btn').forEach(btn => {
             btn.addEventListener('click', () => {
                 document.querySelectorAll('.grade-btn').forEach(b => {
-                    b.classList.remove('active', 'border-blue-500', 'bg-blue-50/50', 'shadow-sm');
-                    b.classList.add('border-slate-200', 'bg-slate-50/60');
+                    b.classList.remove('active', 'border-blue-600', 'bg-gradient-to-b', 'from-white', 'to-blue-50/50', 'shadow-md');
+                    b.classList.add('border-slate-200/80', 'bg-slate-50/70');
                     const icon = b.querySelector('.grade-icon');
                     if (icon) {
-                        icon.className = 'grade-icon text-xs bg-slate-300 text-white rounded-full w-5 h-5 flex items-center justify-center opacity-0';
+                        icon.className = 'grade-icon w-5 h-5 rounded-full bg-white text-slate-400 border border-slate-200 flex items-center justify-center font-bold text-[10px] shadow-2xs opacity-0';
                         icon.textContent = '+';
                     }
-                    const num = b.querySelector('span:first-child');
+                    const num = b.querySelector('.text-2xl, .text-xl, .text-lg');
                     if (num) {
                         num.classList.remove('text-blue-600');
-                        num.classList.add('text-slate-700');
+                        num.classList.add(num.closest('#english-level-group') ? 'text-indigo-600' : 'text-slate-700');
                     }
                 });
 
-                btn.classList.add('active', 'border-blue-500', 'bg-blue-50/50', 'shadow-sm');
-                btn.classList.remove('border-slate-200', 'bg-slate-50/60');
+                btn.classList.add('active', 'border-blue-600', 'bg-gradient-to-b', 'from-white', 'to-blue-50/50', 'shadow-md');
+                btn.classList.remove('border-slate-200/80', 'bg-slate-50/70');
                 const activeIcon = btn.querySelector('.grade-icon');
                 if (activeIcon) {
-                    activeIcon.className = 'grade-icon text-xs bg-blue-600 text-white rounded-full w-5 h-5 flex items-center justify-center';
+                    activeIcon.className = 'grade-icon w-5 h-5 rounded-full bg-blue-600 text-white flex items-center justify-center shadow-xs text-[10px] opacity-100';
                     activeIcon.textContent = '✓';
                 }
-                const activeNum = btn.querySelector('span:first-child');
+                const activeNum = btn.querySelector('.text-2xl, .text-xl, .text-lg');
                 if (activeNum) {
                     activeNum.classList.add('text-blue-600');
                     activeNum.classList.remove('text-slate-700');
                 }
 
-                this.grade = btn.dataset.grade === 'gogetter4' ? 'gogetter4' : parseInt(btn.dataset.grade);
+                const raw = btn.dataset.grade;
+                this.grade = (raw.startsWith('english') || raw.startsWith('gogetter')) ? raw : parseInt(raw);
                 this.updateGradeLabels();
                 this.updateBoardCategoryLabels();
             });
@@ -820,10 +833,11 @@ class CarreraDelSaberApp {
     }
 
     updateGradeLabels() {
-        const isGG4 = this.grade === 'gogetter4';
+        const isEnglish = this.isEnglishGrade();
+        const displayName = this.getGradeDisplayName();
         const gradePill = document.getElementById('header-grade-pill');
         if (gradePill) {
-            if (isGG4) {
+            if (isEnglish) {
                 gradePill.innerHTML = `
                     <span class="inline-flex items-center gap-1.5">
                         <svg class="w-4 h-2.5 rounded-xs shadow-2xs overflow-hidden inline-block shrink-0" viewBox="0 0 60 36">
@@ -833,22 +847,20 @@ class CarreraDelSaberApp {
                             <path d="M30 0 v36 M0 18 h60" stroke="#ffffff" stroke-width="10"/>
                             <path d="M30 0 v36 M0 18 h60" stroke="#C8102E" stroke-width="6"/>
                         </svg>
-                        <span>Go Getter 4</span>
+                        <span>${displayName}</span>
                     </span>
                 `;
             } else {
-                gradePill.textContent = `${this.grade}.° Grado`;
+                gradePill.textContent = displayName;
             }
         }
 
         const legendLabel = document.getElementById('legend-grade-label');
-        if (legendLabel) legendLabel.textContent = isGG4 ? 'Go Getter 4' : `${this.grade}.° Grado`;
+        if (legendLabel) legendLabel.textContent = displayName;
 
         const winnerSub = document.getElementById('winner-grade-sub');
         if (winnerSub) {
-            winnerSub.textContent = isGG4 
-                ? '¡Conquistó las preguntas de Inglés (Go Getter 4)!'
-                : `¡Conquistó las preguntas de ${this.grade}.° Grado!`;
+            winnerSub.textContent = `¡Conquistó las preguntas de ${displayName}!`;
         }
 
         this.updateSetupSubjectsPreview();
@@ -872,7 +884,7 @@ class CarreraDelSaberApp {
     }
 
     updateBoardCategoryLabels() {
-        const isGG4 = this.grade === 'gogetter4';
+        const isEnglish = this.isEnglishGrade();
         TILES_METADATA.forEach(tile => {
             if (tile.cat === 'comodin') return;
             const tileEl = document.getElementById(`tile-${tile.id}`);
@@ -886,7 +898,7 @@ class CarreraDelSaberApp {
             // Adaptar ícono temático en casillero
             const svg = tileEl.querySelector('svg');
             let emojiSpan = tileEl.querySelector('.tile-emoji-icon');
-            if (isGG4 && theme && theme.emoji) {
+            if (isEnglish && theme && theme.emoji) {
                 if (svg) svg.style.display = 'none';
                 if (!emojiSpan) {
                     emojiSpan = document.createElement('span');
@@ -1608,9 +1620,16 @@ class CarreraDelSaberApp {
         const theme = this.getSubjectTheme(tile.cat);
 
         // Filtrar preguntas del banco curricular según grado y materia
-        const totalCategoryQuestions = QUESTIONS_DATA.filter(q => 
-            q.grade === this.grade && q.category === tile.cat
+        const targetGrade = (this.grade === 'english4' || this.grade === 'gogetter4') ? 'gogetter4' : this.grade;
+        let totalCategoryQuestions = QUESTIONS_DATA.filter(q => 
+            (q.grade === targetGrade || (this.grade === 'english4' && q.grade === 'gogetter4')) && q.category === tile.cat
         );
+
+        // Fallback pedagógico si el banco de ese nivel aún se está cargando
+        if (totalCategoryQuestions.length === 0) {
+            const fallbackGrade = typeof this.grade === 'number' ? 5 : 'gogetter4';
+            totalCategoryQuestions = QUESTIONS_DATA.filter(q => q.grade === fallbackGrade && q.category === tile.cat);
+        }
 
         let availableQuestions = totalCategoryQuestions.filter(q => 
             !this.usedQuestions.has(q.id || q.question)
@@ -1655,7 +1674,7 @@ class CarreraDelSaberApp {
 
         const gradeTag = document.getElementById('q-grade-tag');
         if (gradeTag) {
-            const label = this.grade === 'gogetter4' ? 'Go Getter 4' : `${this.grade}.° Grado`;
+            const label = this.getGradeDisplayName();
             gradeTag.textContent = `${label} · ${remainingCount} restantes`;
         }
 

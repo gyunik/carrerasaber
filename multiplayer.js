@@ -128,7 +128,8 @@ class MultiplayerManager {
                 });
                 btn.classList.add('active', 'border-2', 'border-indigo-600', 'bg-indigo-50', 'text-indigo-700', 'font-black', 'shadow-xs');
                 btn.classList.remove('border-slate-200', 'bg-white', 'text-slate-700', 'font-bold');
-                this.selectedGrade = btn.dataset.grade === 'gogetter4' ? 'gogetter4' : parseInt(btn.dataset.grade);
+                const raw = btn.dataset.grade;
+                this.selectedGrade = (raw.startsWith('english') || raw.startsWith('gogetter')) ? raw : parseInt(raw);
             });
         });
 
@@ -872,11 +873,21 @@ class MultiplayerManager {
         }
     }
 
+    getGradeDisplayName(grade = this.selectedGrade) {
+        if (grade === 'english1' || grade === 'gogetter1') return 'Inglés · Nivel 1';
+        if (grade === 'english2' || grade === 'gogetter2') return 'Inglés · Nivel 2';
+        if (grade === 'english3' || grade === 'gogetter3') return 'Inglés · Nivel 3';
+        if (grade === 'english4' || grade === 'gogetter4') return 'Inglés · Nivel 4';
+        return `${grade}.° Grado`;
+    }
+
     updateWaitingRoomUI() {
         if (this.displayRoomCode) this.displayRoomCode.textContent = this.roomCode;
         if (this.waitingCount) this.waitingCount.textContent = this.playersInRoom.length;
         if (this.waitingGradeBadge) {
-            if (this.selectedGrade === 'gogetter4') {
+            const isEnglish = typeof this.selectedGrade === 'string' && (this.selectedGrade.startsWith('english') || this.selectedGrade.startsWith('gogetter'));
+            const displayName = this.getGradeDisplayName();
+            if (isEnglish) {
                 this.waitingGradeBadge.innerHTML = `
                     <span class="inline-flex items-center gap-1.5">
                         <svg class="w-3.5 h-2 rounded-xs shadow-2xs overflow-hidden inline-block shrink-0" viewBox="0 0 60 36">
@@ -886,11 +897,11 @@ class MultiplayerManager {
                             <path d="M30 0 v36 M0 18 h60" stroke="#ffffff" stroke-width="10"/>
                             <path d="M30 0 v36 M0 18 h60" stroke="#C8102E" stroke-width="6"/>
                         </svg>
-                        <span>Go Getter 4</span>
+                        <span>${displayName}</span>
                     </span>
                 `;
             } else {
-                this.waitingGradeBadge.textContent = `${this.selectedGrade}.° Grado`;
+                this.waitingGradeBadge.textContent = displayName;
             }
         }
 

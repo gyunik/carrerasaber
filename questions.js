@@ -1,7 +1,7 @@
 // ==========================================================================
-// BANCO DE PREGUNTAS POR GRADO ESCOLAR (5.°, 6.° y 7.° Grado + Go Getter 4)
+// BANCO DE PREGUNTAS POR GRADO ESCOLAR (1.° a 7.° Grado + Inglés Niveles 1 a 4)
 // Total preguntas: 2.000 (500 por nivel / 100 por materia/área)
-// Diseñado para primaria alta argentina / latinoamericana e inglés Pearson Go Getter 4
+// Diseñado para primaria argentina / latinoamericana e inglés británico curricular Nivel 1 a 4
 // ==========================================================================
 
 const CATEGORIES = {
@@ -11119,7 +11119,7 @@ const QUESTIONS_DATA = [
             "would stay"
         ],
         "correct": 0,
-        "explanation": "First Conditional sobre ecología (Go Getter 4 Unit 6): 'will stay safe'.",
+        "explanation": "First Conditional sobre ecología (Inglés Nivel 4 Unit 6): 'will stay safe'.",
         "id": "q_gg4_soc_41"
     },
     {
@@ -11427,7 +11427,7 @@ const QUESTIONS_DATA = [
             "whose"
         ],
         "correct": 1,
-        "explanation": "Profesión/persona de cine (Go Getter 4 Unit 4): 'an athlete who does'.",
+        "explanation": "Profesión/persona de cine (Inglés Nivel 4 Unit 4): 'an athlete who does'.",
         "id": "q_gg4_ing_13"
     },
     {
@@ -11539,7 +11539,7 @@ const QUESTIONS_DATA = [
             "selfish"
         ],
         "correct": 2,
-        "explanation": "'Cheerful' significa alegre, sonriente y optimista (Go Getter 4 Unit 1: Personality).",
+        "explanation": "'Cheerful' significa alegre, sonriente y optimista (Inglés Nivel 4 Unit 1: Personality).",
         "id": "q_gg4_ing_21"
     },
     {
@@ -11609,7 +11609,7 @@ const QUESTIONS_DATA = [
             "mustache"
         ],
         "correct": 2,
-        "explanation": "'Ponytail' es una colita de caballo (Go Getter 4 Unit 1: Hairstyles).",
+        "explanation": "'Ponytail' es una colita de caballo (Inglés Nivel 4 Unit 1: Hairstyles).",
         "id": "q_gg4_ing_26"
     },
     {
@@ -11679,7 +11679,7 @@ const QUESTIONS_DATA = [
             "take"
         ],
         "correct": 3,
-        "explanation": "'Take notes' es la frase idiomática correcta para tomar apuntes (Go Getter 4 Unit 2).",
+        "explanation": "'Take notes' es la frase idiomática correcta para tomar apuntes (Inglés Nivel 4 Unit 2).",
         "id": "q_gg4_ing_31"
     },
     {
@@ -11749,7 +11749,7 @@ const QUESTIONS_DATA = [
             "a helmet"
         ],
         "correct": 2,
-        "explanation": "'Goggles' son antiparras para natación o esquí (Go Getter 4 Unit 3: Sports gear).",
+        "explanation": "'Goggles' son antiparras para natación o esquí (Inglés Nivel 4 Unit 3: Sports gear).",
         "id": "q_gg4_ing_36"
     },
     {
@@ -11805,7 +11805,7 @@ const QUESTIONS_DATA = [
             "fantasy story"
         ],
         "correct": 0,
-        "explanation": "Una 'autobiography' es la historia de vida escrita por la propia persona (Go Getter 4 Unit 4).",
+        "explanation": "Una 'autobiography' es la historia de vida escrita por la propia persona (Inglés Nivel 4 Unit 4).",
         "id": "q_gg4_ing_40"
     },
     {
@@ -11847,7 +11847,7 @@ const QUESTIONS_DATA = [
             "climate"
         ],
         "correct": 1,
-        "explanation": "'Deforestation' es deforestación (Go Getter 4 Unit 6: Protect the Planet).",
+        "explanation": "'Deforestation' es deforestación (Inglés Nivel 4 Unit 6: Protect the Planet).",
         "id": "q_gg4_ing_43"
     },
     {
