@@ -59,19 +59,19 @@
       z-index: 30;
     }
 
-    /* Giant Playful Action Button */
+    /* Playful Action Button */
     .btn-action-3d {
       background: linear-gradient(180deg, #3B82F6 0%, #1D4ED8 100%);
-      box-shadow: 0 9px 0 #1E3A8A, 0 18px 25px -4px rgba(29, 78, 216, 0.45), inset 0 2px 3px rgba(255,255,255,0.5);
+      box-shadow: 0 5px 0 #1E3A8A, 0 10px 18px -4px rgba(29, 78, 216, 0.35), inset 0 2px 3px rgba(255,255,255,0.5);
       transition: all 0.1s ease-in-out;
     }
     .btn-action-3d:hover {
       transform: translateY(-1px);
-      box-shadow: 0 11px 0 #1E3A8A, 0 22px 28px -4px rgba(29, 78, 216, 0.5), inset 0 2px 3px rgba(255,255,255,0.6);
+      box-shadow: 0 6px 0 #1E3A8A, 0 14px 20px -4px rgba(29, 78, 216, 0.4), inset 0 2px 3px rgba(255,255,255,0.6);
     }
     .btn-action-3d:active {
-      transform: translateY(7px);
-      box-shadow: 0 2px 0 #1E3A8A, 0 6px 10px rgba(29, 78, 216, 0.3), inset 0 1px 2px rgba(255,255,255,0.3);
+      transform: translateY(4px);
+      box-shadow: 0 1px 0 #1E3A8A, 0 4px 6px rgba(29, 78, 216, 0.25), inset 0 1px 2px rgba(255,255,255,0.3);
     }
 
     /* Soft panel surfaces */
@@ -1160,10 +1160,99 @@
 </div>
 
       <!-- ================= CENTER ACTION CANVAS (Cols 2 to 7, Rows 2 to 6) ================= -->
-      <div class="col-start-2 col-span-6 row-start-2 row-span-5 flex flex-col items-center justify-center p-2 sm:p-3 relative" data-purpose="center-game-stage">
+      <div class="col-start-2 col-span-6 row-start-2 row-span-5 flex flex-col items-center justify-center p-2 sm:p-3 relative rounded-2xl sm:rounded-3xl border border-indigo-100/60 bg-gradient-to-b from-slate-50/50 via-white/30 to-indigo-50/20 shadow-inner overflow-hidden" data-purpose="center-game-stage">
         
+        <!-- THEMATIC BOARD BACKGROUND WATERMARK (TENUE Y EDUCATIVO) -->
+        <div class="absolute inset-0 pointer-events-none select-none overflow-hidden rounded-2xl sm:rounded-3xl flex items-center justify-center -z-0">
+          <!-- Soft radial tint -->
+          <div class="absolute inset-0 bg-radial from-indigo-50/40 via-white/10 to-slate-100/30 opacity-70"></div>
+          
+          <!-- Subtle SVG Knowledge & Game Doodles Watermark -->
+          <svg class="w-full h-full text-indigo-900/10" viewBox="0 0 600 450" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <!-- Concentric Knowledge Circuit / Orbits -->
+            <circle cx="300" cy="225" r="185" stroke-width="1.2" stroke-dasharray="6 6" class="text-indigo-600/10" />
+            <circle cx="300" cy="225" r="125" stroke-width="0.8" stroke-dasharray="3 5" class="text-indigo-400/10" />
+            <circle cx="300" cy="225" r="65" stroke-width="0.6" stroke-dasharray="2 4" class="text-blue-500/10" />
+            
+            <!-- Central Cardinal Compass / Starburst hints -->
+            <path d="M300 25 L300 425 M100 225 L500 225" stroke-width="0.5" stroke-dasharray="2 8" class="text-slate-400/10" />
+            
+            <!-- TOP-LEFT: Lengua & Literatura (Libro abierto y pluma) -->
+            <g transform="translate(45, 40) scale(1.1)" stroke-width="1.4" class="text-rose-600/15">
+              <path d="M5 25 C15 15, 30 18, 40 22 C50 18, 65 15, 75 25 L75 50 C65 40, 50 43, 40 47 C30 43, 15 40, 5 50 Z" />
+              <path d="M40 22 L40 47" />
+              <!-- Letras A B C flotantes -->
+              <text x="82" y="32" font-size="11" font-weight="bold" fill="currentColor" stroke="none" opacity="0.7">A</text>
+              <text x="88" y="46" font-size="9" font-weight="bold" fill="currentColor" stroke="none" opacity="0.6">B</text>
+              <text x="78" y="58" font-size="10" font-weight="bold" fill="currentColor" stroke="none" opacity="0.5">C</text>
+            </g>
+
+            <!-- TOP-RIGHT: C. Naturales (Átomo con órbitas elípticas y Erlenmeyer) -->
+            <g transform="translate(490, 40) scale(1.05)" stroke-width="1.4" class="text-emerald-600/15">
+              <!-- Átomo -->
+              <circle cx="35" cy="35" r="4" fill="currentColor" />
+              <ellipse cx="35" cy="35" rx="30" ry="11" transform="rotate(30 35 35)" />
+              <ellipse cx="35" cy="35" rx="30" ry="11" transform="rotate(-30 35 35)" />
+              <ellipse cx="35" cy="35" rx="30" ry="11" transform="rotate(90 35 35)" />
+              <!-- Matraz / Probeta -->
+              <path d="M -22 18 L -14 18 L -14 28 L -5 45 C -4 47, -6 50, -9 50 L -27 50 C -30 50, -32 47, -31 45 L -22 28 Z" stroke-width="1.2" />
+              <path d="M -26 43 Q -18 39 -10 43" stroke-width="1" />
+            </g>
+
+            <!-- BOTTOM-LEFT: C. Sociales (Globo terráqueo con paralelos y meridiano) -->
+            <g transform="translate(45, 335) scale(1.1)" stroke-width="1.4" class="text-amber-600/15">
+              <circle cx="35" cy="35" r="24" />
+              <ellipse cx="35" cy="35" rx="12" ry="24" />
+              <path d="M11 35 L59 35" />
+              <path d="M15 23 Q35 29 55 23" />
+              <path d="M15 47 Q35 41 55 47" />
+              <!-- Rosa de los vientos / compás pequeño -->
+              <path d="M68 18 L73 10 L78 18 L86 23 L78 28 L73 36 L68 28 L60 23 Z" stroke-width="1" fill="currentColor" fill-opacity="0.08" />
+            </g>
+
+            <!-- BOTTOM-RIGHT: Matemática (Escuadra, Compás y Símbolos) -->
+            <g transform="translate(490, 340) scale(1.1)" stroke-width="1.4" class="text-blue-600/15">
+              <!-- Escuadra / Triángulo regla -->
+              <path d="M10 50 L55 50 L10 10 Z" />
+              <path d="M18 44 L40 44 L18 25 Z" stroke-width="1" />
+              <!-- Símbolos matemáticos flotantes -->
+              <text x="-15" y="24" font-size="13" font-weight="bold" fill="currentColor" stroke="none" opacity="0.65">π</text>
+              <text x="-25" y="42" font-size="15" font-weight="bold" fill="currentColor" stroke="none" opacity="0.6">∑</text>
+              <text x="-8" y="52" font-size="13" font-weight="bold" fill="currentColor" stroke="none" opacity="0.65">√</text>
+              <text x="25" y="8" font-size="12" font-weight="bold" fill="currentColor" stroke="none" opacity="0.55">%</text>
+            </g>
+
+            <!-- MID-LEFT & MID-RIGHT: Ingenio y Destellos de Conocimiento -->
+            <g transform="translate(35, 195) scale(1)" stroke-width="1.3" class="text-purple-600/15">
+              <!-- Bombita de ideas / creatividad -->
+              <path d="M20 12 C13 12 8 17 8 23 C8 27 11 31 13 34 L13 38 L27 38 L27 34 C29 31 32 27 32 23 C32 17 27 12 20 12 Z" />
+              <path d="M14 42 L26 42 M16 45 L24 45" />
+              <path d="M20 4 L20 8 M6 8 L9 11 M34 8 L31 11" stroke-width="1.2" />
+            </g>
+
+            <g transform="translate(525, 200) scale(0.9)" stroke-width="1.3" class="text-purple-600/15">
+              <!-- Engranaje / Pensamiento lógico -->
+              <circle cx="20" cy="20" r="8" />
+              <circle cx="20" cy="20" r="14" stroke-dasharray="5 4" stroke-width="2.5" />
+              <path d="M20 2 L20 6 M20 34 L20 38 M2 20 L6 20 M34 20 L38 20" stroke-width="2" />
+            </g>
+
+            <!-- Ambient sparkle stars scattered softly -->
+            <g class="text-amber-500/20" fill="currentColor" stroke="none">
+              <!-- Sparkle 1 -->
+              <path d="M170 85 Q170 95 180 95 Q170 95 170 105 Q170 95 160 95 Q170 95 170 85 Z" />
+              <!-- Sparkle 2 -->
+              <path d="M430 85 Q430 95 440 95 Q430 95 430 105 Q430 95 420 95 Q430 95 430 85 Z" />
+              <!-- Sparkle 3 -->
+              <path d="M160 360 Q160 370 170 370 Q160 370 160 380 Q160 370 150 370 Q160 370 160 360 Z" />
+              <!-- Sparkle 4 -->
+              <path d="M440 355 Q440 365 450 365 Q440 365 440 375 Q440 365 430 365 Q440 365 440 355 Z" />
+            </g>
+          </svg>
+        </div>
+
         <!-- Turn Indicator Pill -->
-        <div class="flex items-center gap-1.5 sm:gap-2 bg-white/95 backdrop-blur-sm border border-slate-200/90 py-1 px-3 sm:py-1.5 sm:px-5 rounded-full shadow-sm mb-1 sm:mb-2 transition-transform hover:scale-105" id="turnPill" data-purpose="turn-indicator">
+        <div class="relative z-10 flex items-center gap-1.5 sm:gap-2 bg-white/95 backdrop-blur-sm border border-slate-200/90 py-1 px-3 sm:py-1.5 sm:px-5 rounded-full shadow-sm mb-1 sm:mb-2 transition-transform hover:scale-105" id="turnPill" data-purpose="turn-indicator">
           <span class="w-3.5 h-3.5 rounded-full bg-[#10B981] shadow-xs animate-pulse"></span>
           <span class="text-[11px] sm:text-base lg:text-lg font-extrabold text-slate-800">
             Es el turno de <span class="text-blue-600 font-black" id="activePlayerName">Ger</span>
@@ -1254,13 +1343,13 @@
           </div>
         </div>
 
-        <!-- Large 3D Primary Button: ¡TIRAR DADO! -->
-        <div class="flex flex-col items-center justify-center w-full max-w-sm text-center mt-1 sm:mt-2">
-          <button class="btn-action-3d text-white font-black text-base sm:text-xl lg:text-2xl tracking-wider py-2 sm:py-3 px-6 sm:px-10 rounded-2xl sm:rounded-full cursor-pointer select-none w-full sm:w-auto flex items-center justify-center gap-2" id="rollDiceBtn">
-            <span id="btnIcon">🎲</span>
+        <!-- 3D Primary Button: ¡TIRAR DADO! (Ajustado y compacto) -->
+        <div class="relative z-10 flex flex-col items-center justify-center w-full max-w-sm text-center mt-2 sm:mt-3">
+          <button class="btn-action-3d text-white font-black text-sm sm:text-base md:text-lg tracking-wide py-2 sm:py-2.5 px-6 sm:px-8 rounded-full cursor-pointer select-none w-auto max-w-[240px] sm:max-w-xs flex items-center justify-center gap-2 active:translate-y-0.5 shadow-md" id="rollDiceBtn">
+            <span id="btnIcon" class="text-base sm:text-lg">🎲</span>
             <span id="btnText">¡TIRAR DADO!</span>
           </button>
-          <p class="mt-1 sm:mt-1.5 text-[10px] sm:text-xs font-bold text-slate-500" id="helperMessage">
+          <p class="mt-3.5 sm:mt-4 text-[11px] sm:text-xs font-semibold text-slate-500 text-center max-w-xs px-2 leading-relaxed" id="helperMessage">
             ¡Tirá el dado para avanzar por el tablero!
           </p>
         </div>
