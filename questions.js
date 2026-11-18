@@ -28048,6 +28048,7008 @@ const QUESTIONS_DATA = [
         "explanation": "'Which' para pasaportes y documentos legales.",
         "id": "q_gg4_ing_100"
     }
+    ,
+    {
+        "grade": 1,
+        "category": "matematica",
+        "question": "¿Qué número viene inmediatamente después del 9?",
+        "options": [
+            "11",
+            "8",
+            "7",
+            "10"
+        ],
+        "correct": 3,
+        "explanation": "Al contar hacia adelante: 7, 8, 9 y luego sigue el 10.",
+        "id": "q_g1_matematica_1"
+    },
+    {
+        "grade": 1,
+        "category": "matematica",
+        "question": "¿Qué número está justo antes del 6?",
+        "options": [
+            "8",
+            "4",
+            "5",
+            "7"
+        ],
+        "correct": 2,
+        "explanation": "El número anterior al 6 es el 5 (4, 5, 6).",
+        "id": "q_g1_matematica_2"
+    },
+    {
+        "grade": 1,
+        "category": "matematica",
+        "question": "¿Cuántos dedos tenemos en una sola mano?",
+        "options": [
+            "10",
+            "6",
+            "4",
+            "5"
+        ],
+        "correct": 3,
+        "explanation": "En una mano tenemos 5 dedos: pulgar, índice, mayor, anular y meñique.",
+        "id": "q_g1_matematica_3"
+    },
+    {
+        "grade": 1,
+        "category": "matematica",
+        "question": "¿Cuántos dedos tenemos entre las dos manos juntas?",
+        "options": [
+            "5",
+            "8",
+            "10",
+            "12"
+        ],
+        "correct": 2,
+        "explanation": "5 dedos de una mano + 5 dedos de la otra mano = 10 dedos.",
+        "id": "q_g1_matematica_4"
+    },
+    {
+        "grade": 1,
+        "category": "matematica",
+        "question": "¿Cuál de estos números es el más grande?",
+        "options": [
+            "8",
+            "12",
+            "5",
+            "18"
+        ],
+        "correct": 3,
+        "explanation": "El 18 tiene una decena y 8 unidades, siendo mayor que 12, 8 y 5.",
+        "id": "q_g1_matematica_5"
+    },
+    {
+        "grade": 1,
+        "category": "matematica",
+        "question": "¿Cuál de estos números es el más pequeño?",
+        "options": [
+            "7",
+            "4",
+            "10",
+            "2"
+        ],
+        "correct": 3,
+        "explanation": "El 2 es la cantidad más pequeña de todas las opciones.",
+        "id": "q_g1_matematica_6"
+    },
+    {
+        "grade": 1,
+        "category": "matematica",
+        "question": "¿Cómo se escribe el número quince en números?",
+        "options": [
+            "105",
+            "51",
+            "15",
+            "50"
+        ],
+        "correct": 2,
+        "explanation": "El número quince se escribe con un 1 adelante y un 5 atrás: 15.",
+        "id": "q_g1_matematica_7"
+    },
+    {
+        "grade": 1,
+        "category": "matematica",
+        "question": "¿Qué número se forma con 2 decenas y 0 unidades?",
+        "options": [
+            "2",
+            "12",
+            "20",
+            "200"
+        ],
+        "correct": 2,
+        "explanation": "Una decena son 10. Dos decenas son 10 + 10 = 20.",
+        "id": "q_g1_matematica_8"
+    },
+    {
+        "grade": 1,
+        "category": "matematica",
+        "question": "Si contamos de 2 en 2: 2, 4, 6... ¿cuál sigue?",
+        "options": [
+            "8",
+            "9",
+            "7",
+            "10"
+        ],
+        "correct": 0,
+        "explanation": "Sumando 2 cada vez: 2, 4, 6 y el siguiente es 8.",
+        "id": "q_g1_matematica_9"
+    },
+    {
+        "grade": 1,
+        "category": "matematica",
+        "question": "¿Cuál es el número posterior al 19?",
+        "options": [
+            "21",
+            "17",
+            "20",
+            "18"
+        ],
+        "correct": 2,
+        "explanation": "Después del 19 pasamos a la siguiente decena: 20.",
+        "id": "q_g1_matematica_10"
+    },
+    {
+        "grade": 1,
+        "category": "matematica",
+        "question": "¿Cuánto es 3 + 2?",
+        "options": [
+            "4",
+            "6",
+            "7",
+            "5"
+        ],
+        "correct": 3,
+        "explanation": "Si a 3 le sumamos 2 obtenemos 5 (3... 4, 5).",
+        "id": "q_g1_matematica_11"
+    },
+    {
+        "grade": 1,
+        "category": "matematica",
+        "question": "¿Cuánto es 5 + 5?",
+        "options": [
+            "15",
+            "11",
+            "9",
+            "10"
+        ],
+        "correct": 3,
+        "explanation": "5 + 5 es una suma fundamental que forma una decena: 10.",
+        "id": "q_g1_matematica_12"
+    },
+    {
+        "grade": 1,
+        "category": "matematica",
+        "question": "¿Cuánto es 4 + 1?",
+        "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+        ],
+        "correct": 2,
+        "explanation": "Sumar 1 a cualquier número te da su siguiente: 4 + 1 = 5.",
+        "id": "q_g1_matematica_13"
+    },
+    {
+        "grade": 1,
+        "category": "matematica",
+        "question": "Si tenés 6 caramelos y te regalan 2 más, ¿cuántos tenés ahora?",
+        "options": [
+            "9",
+            "6",
+            "7",
+            "8"
+        ],
+        "correct": 3,
+        "explanation": "6 + 2 = 8 caramelos en total.",
+        "id": "q_g1_matematica_14"
+    },
+    {
+        "grade": 1,
+        "category": "matematica",
+        "question": "¿Cuánto es 10 + 4?",
+        "options": [
+            "14",
+            "13",
+            "40",
+            "15"
+        ],
+        "correct": 0,
+        "explanation": "Una decena (10) más 4 unidades forman el número 14.",
+        "id": "q_g1_matematica_15"
+    },
+    {
+        "grade": 1,
+        "category": "matematica",
+        "question": "¿Cuánto es 7 + 3?",
+        "options": [
+            "8",
+            "10",
+            "11",
+            "9"
+        ],
+        "correct": 1,
+        "explanation": "7 y 3 son amigos del 10: 7 + 3 = 10.",
+        "id": "q_g1_matematica_16"
+    },
+    {
+        "grade": 1,
+        "category": "matematica",
+        "question": "¿Cuánto es 2 + 0?",
+        "options": [
+            "0",
+            "3",
+            "20",
+            "2"
+        ],
+        "correct": 3,
+        "explanation": "Sumar cero no agrega nada, el número queda igual: 2.",
+        "id": "q_g1_matematica_17"
+    },
+    {
+        "grade": 1,
+        "category": "matematica",
+        "question": "¿Cuánto es 8 + 2?",
+        "options": [
+            "9",
+            "12",
+            "10",
+            "11"
+        ],
+        "correct": 2,
+        "explanation": "8 + 2 = 10. Al 8 le sumamos 2 unidades y formamos una decena completa.",
+        "id": "q_g1_matematica_18"
+    },
+    {
+        "grade": 1,
+        "category": "matematica",
+        "question": "¿Cuánto es 10 + 10?",
+        "options": [
+            "30",
+            "15",
+            "100",
+            "20"
+        ],
+        "correct": 3,
+        "explanation": "10 + 10 = 20 (dos decenas forman el veinte).",
+        "id": "q_g1_matematica_19"
+    },
+    {
+        "grade": 1,
+        "category": "matematica",
+        "question": "Si en una rama hay 3 pajaritos y llegan 3 más, ¿cuántos hay?",
+        "options": [
+            "6",
+            "5",
+            "7",
+            "4"
+        ],
+        "correct": 0,
+        "explanation": "3 + 3 = 6 pajaritos.",
+        "id": "q_g1_matematica_20"
+    },
+    {
+        "grade": 1,
+        "category": "matematica",
+        "question": "¿Cuánto es 5 - 2?",
+        "options": [
+            "3",
+            "4",
+            "1",
+            "2"
+        ],
+        "correct": 0,
+        "explanation": "Si a 5 le quitamos 2, nos quedan 3.",
+        "id": "q_g1_matematica_21"
+    },
+    {
+        "grade": 1,
+        "category": "matematica",
+        "question": "¿Cuánto es 10 - 5?",
+        "options": [
+            "5",
+            "3",
+            "4",
+            "6"
+        ],
+        "correct": 0,
+        "explanation": "La mitad de 10 es 5, por lo tanto 10 - 5 = 5.",
+        "id": "q_g1_matematica_22"
+    },
+    {
+        "grade": 1,
+        "category": "matematica",
+        "question": "Tenías 4 manzanas y te comiste 1. ¿Cuántas te quedan?",
+        "options": [
+            "4",
+            "5",
+            "2",
+            "3"
+        ],
+        "correct": 3,
+        "explanation": "4 manzanas menos 1 que te comiste = 3 manzanas.",
+        "id": "q_g1_matematica_23"
+    },
+    {
+        "grade": 1,
+        "category": "matematica",
+        "question": "¿Cuánto es 7 - 1?",
+        "options": [
+            "8",
+            "7",
+            "6",
+            "5"
+        ],
+        "correct": 2,
+        "explanation": "Restar 1 da el número anterior: 7 - 1 = 6.",
+        "id": "q_g1_matematica_24"
+    },
+    {
+        "grade": 1,
+        "category": "matematica",
+        "question": "Si tenés 8 globos y se pinchan 3, ¿cuántos globos sanos quedan?",
+        "options": [
+            "4",
+            "5",
+            "6",
+            "3"
+        ],
+        "correct": 1,
+        "explanation": "8 - 3 = 5 globos sanos.",
+        "id": "q_g1_matematica_25"
+    },
+    {
+        "grade": 1,
+        "category": "matematica",
+        "question": "¿Cuánto es 6 - 6?",
+        "options": [
+            "1",
+            "12",
+            "0",
+            "6"
+        ],
+        "correct": 2,
+        "explanation": "Si a cualquier número le quitamos la misma cantidad, queda 0.",
+        "id": "q_g1_matematica_26"
+    },
+    {
+        "grade": 1,
+        "category": "matematica",
+        "question": "¿Cuánto es 9 - 3?",
+        "options": [
+            "4",
+            "7",
+            "5",
+            "6"
+        ],
+        "correct": 3,
+        "explanation": "9 - 3 = 6. Si a 9 le quitamos 3 unidades nos quedan 6.",
+        "id": "q_g1_matematica_27"
+    },
+    {
+        "grade": 1,
+        "category": "matematica",
+        "question": "Tenías 10 lápices y perdiste 2. ¿Cuántos lápices tenés?",
+        "options": [
+            "7",
+            "6",
+            "8",
+            "9"
+        ],
+        "correct": 2,
+        "explanation": "10 - 2 = 8 lápices.",
+        "id": "q_g1_matematica_28"
+    },
+    {
+        "grade": 1,
+        "category": "matematica",
+        "question": "¿Cuánto es 4 - 2?",
+        "options": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ],
+        "correct": 2,
+        "explanation": "4 - 2 = 2. Si a 4 le sacamos 2 nos quedan 2 (la mitad de 4 es 2).",
+        "id": "q_g1_matematica_29"
+    },
+    {
+        "grade": 1,
+        "category": "matematica",
+        "question": "¿Cuánto es 15 - 5?",
+        "options": [
+            "10",
+            "5",
+            "20",
+            "8"
+        ],
+        "correct": 0,
+        "explanation": "Al 15 le quitamos sus 5 unidades y nos queda la decena justa: 10.",
+        "id": "q_g1_matematica_30"
+    },
+    {
+        "grade": 1,
+        "category": "matematica",
+        "question": "¿Cuál es el doble de 2?",
+        "options": [
+            "5",
+            "4",
+            "6",
+            "3"
+        ],
+        "correct": 1,
+        "explanation": "El doble es sumar el mismo número dos veces: 2 + 2 = 4.",
+        "id": "q_g1_matematica_31"
+    },
+    {
+        "grade": 1,
+        "category": "matematica",
+        "question": "¿Cuál es el doble de 3?",
+        "options": [
+            "6",
+            "9",
+            "7",
+            "5"
+        ],
+        "correct": 0,
+        "explanation": "El doble es sumar el mismo número dos veces: 3 + 3 = 6.",
+        "id": "q_g1_matematica_32"
+    },
+    {
+        "grade": 1,
+        "category": "matematica",
+        "question": "¿Cuál es el doble de 4?",
+        "options": [
+            "8",
+            "6",
+            "7",
+            "10"
+        ],
+        "correct": 0,
+        "explanation": "El doble es sumar dos veces la misma cantidad: 4 + 4 = 8.",
+        "id": "q_g1_matematica_33"
+    },
+    {
+        "grade": 1,
+        "category": "matematica",
+        "question": "¿Cuál es el doble de 5?",
+        "options": [
+            "8",
+            "15",
+            "10",
+            "12"
+        ],
+        "correct": 2,
+        "explanation": "El doble de 5 es sumarlo consigo mismo: 5 + 5 = 10.",
+        "id": "q_g1_matematica_34"
+    },
+    {
+        "grade": 1,
+        "category": "matematica",
+        "question": "Si repartimos 4 galletitas entre 2 amigos en partes iguales, ¿cuántas recibe cada uno?",
+        "options": [
+            "1",
+            "3",
+            "2",
+            "4"
+        ],
+        "correct": 2,
+        "explanation": "La mitad de 4 es 2 galletitas para cada uno.",
+        "id": "q_g1_matematica_35"
+    },
+    {
+        "grade": 1,
+        "category": "matematica",
+        "question": "¿Cuál es la mitad de 6?",
+        "options": [
+            "2",
+            "4",
+            "5",
+            "3"
+        ],
+        "correct": 3,
+        "explanation": "Si dividimos 6 en dos partes iguales, cada parte tiene 3 (3 + 3 = 6).",
+        "id": "q_g1_matematica_36"
+    },
+    {
+        "grade": 1,
+        "category": "matematica",
+        "question": "¿Qué figura geométrica es completamente redonda y no tiene esquinas?",
+        "options": [
+            "Cuadrado",
+            "Círculo",
+            "Triángulo",
+            "Rectángulo"
+        ],
+        "correct": 1,
+        "explanation": "El círculo es una figura curva y redonda, sin esquinas ni lados rectos.",
+        "id": "q_g1_matematica_37"
+    },
+    {
+        "grade": 1,
+        "category": "matematica",
+        "question": "¿Cuántos lados rectos tiene un triángulo?",
+        "options": [
+            "3",
+            "2",
+            "4",
+            "5"
+        ],
+        "correct": 0,
+        "explanation": "Un triángulo siempre tiene 3 lados y 3 esquinas (vértices).",
+        "id": "q_g1_matematica_38"
+    },
+    {
+        "grade": 1,
+        "category": "matematica",
+        "question": "¿Qué figura tiene 4 lados rectos y todos exactamente iguales?",
+        "options": [
+            "Triángulo",
+            "Cuadrado",
+            "Óvalo",
+            "Círculo"
+        ],
+        "correct": 1,
+        "explanation": "El cuadrado tiene 4 lados rectos de la misma longitud.",
+        "id": "q_g1_matematica_39"
+    },
+    {
+        "grade": 1,
+        "category": "matematica",
+        "question": "Una pelota de fútbol tiene la forma de un cuerpo geométrico llamado:",
+        "options": [
+            "Pirámide",
+            "Cubo",
+            "Cilindro",
+            "Esfera"
+        ],
+        "correct": 3,
+        "explanation": "Los objetos con forma de bola redonda son esferas.",
+        "id": "q_g1_matematica_40"
+    },
+    {
+        "grade": 1,
+        "category": "matematica",
+        "question": "Un dado común para jugar tiene forma de:",
+        "options": [
+            "Cilindro",
+            "Esfera",
+            "Cubo",
+            "Cono"
+        ],
+        "correct": 2,
+        "explanation": "Un dado tiene 6 caras cuadradas iguales formando un cubo.",
+        "id": "q_g1_matematica_41"
+    },
+    {
+        "grade": 1,
+        "category": "matematica",
+        "question": "¿Cuál de estas figuras tiene 4 lados, con 2 lados largos y 2 lados más cortos?",
+        "options": [
+            "Círculo",
+            "Triángulo",
+            "Rectángulo",
+            "Pentágono"
+        ],
+        "correct": 2,
+        "explanation": "El rectángulo tiene lados opuestos iguales: dos más largos y dos más cortos.",
+        "id": "q_g1_matematica_42"
+    },
+    {
+        "grade": 1,
+        "category": "matematica",
+        "question": "¿Con qué instrumento medimos el tiempo y vemos la hora?",
+        "options": [
+            "Termómetro",
+            "Balanza",
+            "Regla",
+            "Reloj"
+        ],
+        "correct": 3,
+        "explanation": "El reloj nos indica qué hora es durante el día.",
+        "id": "q_g1_matematica_43"
+    },
+    {
+        "grade": 1,
+        "category": "matematica",
+        "question": "¿Qué día viene inmediatamente después del lunes?",
+        "options": [
+            "Viernes",
+            "Martes",
+            "Domingo",
+            "Miércoles"
+        ],
+        "correct": 1,
+        "explanation": "El orden de la semana es: lunes, martes, miércoles, jueves, viernes, sábado y domingo.",
+        "id": "q_g1_matematica_44"
+    },
+    {
+        "grade": 1,
+        "category": "matematica",
+        "question": "¿Cuántos días tiene una semana completa?",
+        "options": [
+            "5",
+            "7",
+            "12",
+            "10"
+        ],
+        "correct": 1,
+        "explanation": "Una semana tiene 7 días: de lunes a domingo.",
+        "id": "q_g1_matematica_45"
+    },
+    {
+        "grade": 1,
+        "category": "matematica",
+        "question": "¿Con qué herramienta de la cartuchera medimos cosas cortas en centímetros?",
+        "options": [
+            "Tijera",
+            "Regla",
+            "Sacapuntas",
+            "Goma"
+        ],
+        "correct": 1,
+        "explanation": "La regla tiene marcas numeradas en centímetros para medir objetos.",
+        "id": "q_g1_matematica_46"
+    },
+    {
+        "grade": 1,
+        "category": "matematica",
+        "question": "Si un pajarito vuela por encima de un árbol, ¿dónde está?",
+        "options": [
+            "Atrás",
+            "Abajo",
+            "Adentro",
+            "Arriba"
+        ],
+        "correct": 3,
+        "explanation": "Estar por encima significa que está arriba del árbol.",
+        "id": "q_g1_matematica_47"
+    },
+    {
+        "grade": 1,
+        "category": "matematica",
+        "question": "¿Qué animal es generalmente más pesado?",
+        "options": [
+            "Un ratón",
+            "Un conejo",
+            "Un elefante",
+            "Un pajarito"
+        ],
+        "correct": 2,
+        "explanation": "El elefante es enorme y pesa miles de kilos, mucho más que un ratón o conejo.",
+        "id": "q_g1_matematica_48"
+    },
+    {
+        "grade": 1,
+        "category": "matematica",
+        "question": "Si levantás la mano con la que la mayoría de las personas escribe, ¿cuál es?",
+        "options": [
+            "El codo",
+            "La mano derecha",
+            "El pie izquierdo",
+            "La rodilla"
+        ],
+        "correct": 1,
+        "explanation": "La mayoría de las personas son diestras y usan su mano derecha.",
+        "id": "q_g1_matematica_49"
+    },
+    {
+        "grade": 1,
+        "category": "matematica",
+        "question": "¿Qué elemento es más largo?",
+        "options": [
+            "Un clip de papel",
+            "Una goma de borrar",
+            "Una moneda",
+            "Un lápiz nuevo"
+        ],
+        "correct": 3,
+        "explanation": "Un lápiz nuevo sin gastar es más largo que un clip, una goma o una moneda.",
+        "id": "q_g1_matematica_50"
+    },
+    {
+        "grade": 1,
+        "category": "lengua",
+        "question": "¿Cuáles son las 5 vocales de nuestro abecedario?",
+        "options": [
+            "M, P, S, T, L",
+            "B, C, D, F, G",
+            "1, 2, 3, 4, 5",
+            "A, E, I, O, U"
+        ],
+        "correct": 3,
+        "explanation": "Las vocales son exactamente cinco: A, E, I, O, U.",
+        "id": "q_g1_lengua_1"
+    },
+    {
+        "grade": 1,
+        "category": "lengua",
+        "question": "¿Con qué vocal empieza la palabra 'Auto'?",
+        "options": [
+            "E",
+            "U",
+            "O",
+            "A"
+        ],
+        "correct": 3,
+        "explanation": "'Auto' comienza con el sonido y la letra A.",
+        "id": "q_g1_lengua_2"
+    },
+    {
+        "grade": 1,
+        "category": "lengua",
+        "question": "¿Con qué vocal empieza la palabra 'Elefante'?",
+        "options": [
+            "E",
+            "O",
+            "I",
+            "A"
+        ],
+        "correct": 0,
+        "explanation": "'Elefante' empieza con la vocal E.",
+        "id": "q_g1_lengua_3"
+    },
+    {
+        "grade": 1,
+        "category": "lengua",
+        "question": "¿Con qué vocal empieza la palabra 'Isla'?",
+        "options": [
+            "I",
+            "U",
+            "A",
+            "E"
+        ],
+        "correct": 0,
+        "explanation": "'Isla' comienza con la letra I.",
+        "id": "q_g1_lengua_4"
+    },
+    {
+        "grade": 1,
+        "category": "lengua",
+        "question": "¿Con qué vocal empieza la palabra 'Oso'?",
+        "options": [
+            "E",
+            "O",
+            "A",
+            "U"
+        ],
+        "correct": 1,
+        "explanation": "'Oso' comienza con la vocal redonda O.",
+        "id": "q_g1_lengua_5"
+    },
+    {
+        "grade": 1,
+        "category": "lengua",
+        "question": "¿Con qué vocal empieza la palabra 'Uva'?",
+        "options": [
+            "U",
+            "I",
+            "O",
+            "A"
+        ],
+        "correct": 0,
+        "explanation": "'Uva' comienza con la vocal U.",
+        "id": "q_g1_lengua_6"
+    },
+    {
+        "grade": 1,
+        "category": "lengua",
+        "question": "¿Qué palabra termina con la vocal A?",
+        "options": [
+            "Casa",
+            "Sol",
+            "Reloj",
+            "Pan"
+        ],
+        "correct": 0,
+        "explanation": "Ca-sa termina con la vocal A.",
+        "id": "q_g1_lengua_7"
+    },
+    {
+        "grade": 1,
+        "category": "lengua",
+        "question": "¿Qué palabra termina con la vocal O?",
+        "options": [
+            "Flor",
+            "Luz",
+            "Mar",
+            "Gato"
+        ],
+        "correct": 3,
+        "explanation": "Ga-to termina con la vocal O.",
+        "id": "q_g1_lengua_8"
+    },
+    {
+        "grade": 1,
+        "category": "lengua",
+        "question": "¿Con qué letra empieza la palabra 'Mamá'?",
+        "options": [
+            "S",
+            "L",
+            "P",
+            "M"
+        ],
+        "correct": 3,
+        "explanation": "'Mamá' empieza con la letra M.",
+        "id": "q_g1_lengua_9"
+    },
+    {
+        "grade": 1,
+        "category": "lengua",
+        "question": "¿Con qué letra empieza la palabra 'Papá'?",
+        "options": [
+            "M",
+            "P",
+            "B",
+            "T"
+        ],
+        "correct": 1,
+        "explanation": "'Papá' empieza con la letra P.",
+        "id": "q_g1_lengua_10"
+    },
+    {
+        "grade": 1,
+        "category": "lengua",
+        "question": "¿Con qué letra empieza la palabra 'Sol'?",
+        "options": [
+            "C",
+            "Z",
+            "L",
+            "S"
+        ],
+        "correct": 3,
+        "explanation": "'Sol' empieza con la letra S.",
+        "id": "q_g1_lengua_11"
+    },
+    {
+        "grade": 1,
+        "category": "lengua",
+        "question": "¿Con qué letra empieza la palabra 'Luna'?",
+        "options": [
+            "T",
+            "N",
+            "L",
+            "M"
+        ],
+        "correct": 2,
+        "explanation": "'Luna' comienza con la letra L.",
+        "id": "q_g1_lengua_12"
+    },
+    {
+        "grade": 1,
+        "category": "lengua",
+        "question": "Si juntamos la letra M con la vocal A, ¿qué sílaba se forma?",
+        "options": [
+            "PA",
+            "LA",
+            "MA",
+            "SA"
+        ],
+        "correct": 2,
+        "explanation": "La M con la A suena MA, como en 'manzana'.",
+        "id": "q_g1_lengua_13"
+    },
+    {
+        "grade": 1,
+        "category": "lengua",
+        "question": "Si juntamos la letra P con la vocal E, ¿qué sílaba se forma?",
+        "options": [
+            "PE",
+            "ME",
+            "SE",
+            "TE"
+        ],
+        "correct": 0,
+        "explanation": "La P con la E suena PE, como en 'pelota'.",
+        "id": "q_g1_lengua_14"
+    },
+    {
+        "grade": 1,
+        "category": "lengua",
+        "question": "Si juntamos la letra S con la vocal O, ¿qué sílaba se forma?",
+        "options": [
+            "RO",
+            "SO",
+            "TO",
+            "NO"
+        ],
+        "correct": 1,
+        "explanation": "La S con la O suena SO, como en 'sopa'.",
+        "id": "q_g1_lengua_15"
+    },
+    {
+        "grade": 1,
+        "category": "lengua",
+        "question": "¿Qué palabra empieza con la sílaba 'ME'?",
+        "options": [
+            "Sapo",
+            "Pato",
+            "Mesa",
+            "Loro"
+        ],
+        "correct": 2,
+        "explanation": "'Mesa' comienza con la sílaba ME.",
+        "id": "q_g1_lengua_16"
+    },
+    {
+        "grade": 1,
+        "category": "lengua",
+        "question": "¿Qué palabra empieza con la sílaba 'PI'?",
+        "options": [
+            "Mano",
+            "Taza",
+            "Pino",
+            "Gato"
+        ],
+        "correct": 2,
+        "explanation": "'Pino' comienza con la sílaba PI.",
+        "id": "q_g1_lengua_17"
+    },
+    {
+        "grade": 1,
+        "category": "lengua",
+        "question": "¿Qué sonido hace la letra S?",
+        "options": [
+            "P (como un chasquido)",
+            "Mmmmmm (como algo rico)",
+            "Rrrrrr (como un motor)",
+            "Ssssss (como una serpiente)"
+        ],
+        "correct": 3,
+        "explanation": "La S suena suave y continua como el silbido de una serpiente: Sssss.",
+        "id": "q_g1_lengua_18"
+    },
+    {
+        "grade": 1,
+        "category": "lengua",
+        "question": "¿Qué palabra rima con 'Gato'?",
+        "options": [
+            "Pato",
+            "Sol",
+            "Perro",
+            "Mesa"
+        ],
+        "correct": 0,
+        "explanation": "Gato y Pato terminan con el mismo sonido: -ato.",
+        "id": "q_g1_lengua_19"
+    },
+    {
+        "grade": 1,
+        "category": "lengua",
+        "question": "¿Qué palabra rima con 'Botón'?",
+        "options": [
+            "Casa",
+            "Ratón",
+            "Flor",
+            "Agua"
+        ],
+        "correct": 1,
+        "explanation": "Botón y Ratón riman porque ambas terminan en -ón.",
+        "id": "q_g1_lengua_20"
+    },
+    {
+        "grade": 1,
+        "category": "lengua",
+        "question": "¿Qué palabra rima con 'Estrella'?",
+        "options": [
+            "Cielo",
+            "Luna",
+            "Nube",
+            "Botella"
+        ],
+        "correct": 3,
+        "explanation": "Estrella y Botella terminan con el mismo sonido: -ella.",
+        "id": "q_g1_lengua_21"
+    },
+    {
+        "grade": 1,
+        "category": "lengua",
+        "question": "¿Qué palabra rima con 'Caracol'?",
+        "options": [
+            "Árbol",
+            "Viento",
+            "Sol",
+            "Piedra"
+        ],
+        "correct": 2,
+        "explanation": "Caracol y Sol terminan en -ol.",
+        "id": "q_g1_lengua_22"
+    },
+    {
+        "grade": 1,
+        "category": "lengua",
+        "question": "¿Qué palabra rima con 'Queso'?",
+        "options": [
+            "Leche",
+            "Fruta",
+            "Hueso",
+            "Pan"
+        ],
+        "correct": 2,
+        "explanation": "Queso y Hueso riman porque ambas terminan en -eso.",
+        "id": "q_g1_lengua_23"
+    },
+    {
+        "grade": 1,
+        "category": "lengua",
+        "question": "¿Cuál es lo contrario de 'Grande'?",
+        "options": [
+            "Gordo",
+            "Pequeño",
+            "Fuerte",
+            "Alto"
+        ],
+        "correct": 1,
+        "explanation": "Lo opuesto a grande es pequeño o chico.",
+        "id": "q_g1_lengua_24"
+    },
+    {
+        "grade": 1,
+        "category": "lengua",
+        "question": "¿Cuál es lo contrario de 'Día'?",
+        "options": [
+            "Sol",
+            "Noche",
+            "Tarde",
+            "Mañana"
+        ],
+        "correct": 1,
+        "explanation": "Lo opuesto al día luminoso es la noche.",
+        "id": "q_g1_lengua_25"
+    },
+    {
+        "grade": 1,
+        "category": "lengua",
+        "question": "¿Cuál es lo contrario de 'Frío'?",
+        "options": [
+            "Blanco",
+            "Suave",
+            "Húmedo",
+            "Caliente"
+        ],
+        "correct": 3,
+        "explanation": "Lo contrario del frío es lo caliente o caluroso.",
+        "id": "q_g1_lengua_26"
+    },
+    {
+        "grade": 1,
+        "category": "lengua",
+        "question": "¿Cuál es lo contrario de 'Alto'?",
+        "options": [
+            "Largo",
+            "Fino",
+            "Ancho",
+            "Bajo"
+        ],
+        "correct": 3,
+        "explanation": "Lo contrario de alguien alto es alguien bajo.",
+        "id": "q_g1_lengua_27"
+    },
+    {
+        "grade": 1,
+        "category": "lengua",
+        "question": "¿Cuál es lo contrario de estar 'Feliz'?",
+        "options": [
+            "Cansado",
+            "Dormido",
+            "Rápido",
+            "Triste"
+        ],
+        "correct": 3,
+        "explanation": "El sentimiento opuesto a estar feliz es estar triste.",
+        "id": "q_g1_lengua_28"
+    },
+    {
+        "grade": 1,
+        "category": "lengua",
+        "question": "¿Cuál es lo contrario de 'Limpio'?",
+        "options": [
+            "Sucio",
+            "Seco",
+            "Mojado",
+            "Nuevo"
+        ],
+        "correct": 0,
+        "explanation": "Lo opuesto a algo limpio es algo sucio.",
+        "id": "q_g1_lengua_29"
+    },
+    {
+        "grade": 1,
+        "category": "lengua",
+        "question": "¿Cuál es lo contrario de una puerta 'Abierta'?",
+        "options": [
+            "Grande",
+            "Cerrada",
+            "Rota",
+            "Pintada"
+        ],
+        "correct": 1,
+        "explanation": "Si una puerta no está abierta, está cerrada.",
+        "id": "q_g1_lengua_30"
+    },
+    {
+        "grade": 1,
+        "category": "lengua",
+        "question": "¿Cuál es lo contrario de 'Rápido'?",
+        "options": [
+            "Pesado",
+            "Lento",
+            "Blando",
+            "Fuerte"
+        ],
+        "correct": 1,
+        "explanation": "Una tortuga va lento, que es lo contrario de ir rápido.",
+        "id": "q_g1_lengua_31"
+    },
+    {
+        "grade": 1,
+        "category": "lengua",
+        "question": "Al decir 'PA-TO' dando palmadas, ¿cuántas palmadas damos?",
+        "options": [
+            "2",
+            "3",
+            "1",
+            "4"
+        ],
+        "correct": 0,
+        "explanation": "Pa-to tiene 2 sílabas.",
+        "id": "q_g1_lengua_32"
+    },
+    {
+        "grade": 1,
+        "category": "lengua",
+        "question": "¿Cuántas sílabas tiene la palabra 'SOL'?",
+        "options": [
+            "1",
+            "0",
+            "2",
+            "3"
+        ],
+        "correct": 0,
+        "explanation": "'Sol' se dice de un solo golpe de voz: 1 sílaba.",
+        "id": "q_g1_lengua_33"
+    },
+    {
+        "grade": 1,
+        "category": "lengua",
+        "question": "Al decir 'PE-LO-TA' dando palmadas, ¿cuántas palmadas damos?",
+        "options": [
+            "4",
+            "1",
+            "3",
+            "2"
+        ],
+        "correct": 2,
+        "explanation": "Pe-lo-ta tiene 3 sílabas.",
+        "id": "q_g1_lengua_34"
+    },
+    {
+        "grade": 1,
+        "category": "lengua",
+        "question": "¿Cuántas sílabas tiene la palabra 'MA-RI-PO-SA'?",
+        "options": [
+            "2",
+            "5",
+            "4",
+            "3"
+        ],
+        "correct": 2,
+        "explanation": "Ma-ri-po-sa tiene 4 golpes de voz.",
+        "id": "q_g1_lengua_35"
+    },
+    {
+        "grade": 1,
+        "category": "lengua",
+        "question": "Si tenemos un solo animal decimos 'perro'. Si tenemos muchos, decimos:",
+        "options": [
+            "Perro",
+            "Perrera",
+            "Perros",
+            "Perrito"
+        ],
+        "correct": 2,
+        "explanation": "Para indicar más de uno agregamos la S: perros.",
+        "id": "q_g1_lengua_36"
+    },
+    {
+        "grade": 1,
+        "category": "lengua",
+        "question": "¿Cuál es el plural de 'flor' cuando hay muchas?",
+        "options": [
+            "Flor",
+            "Flores",
+            "Florcitas",
+            "Florería"
+        ],
+        "correct": 1,
+        "explanation": "Una flor, muchas flores.",
+        "id": "q_g1_lengua_37"
+    },
+    {
+        "grade": 1,
+        "category": "lengua",
+        "question": "¿Cómo decimos cuando hay varios gatos?",
+        "options": [
+            "Gatito",
+            "Gato",
+            "Gatazo",
+            "Gatos"
+        ],
+        "correct": 3,
+        "explanation": "El plural de gato es gatos.",
+        "id": "q_g1_lengua_38"
+    },
+    {
+        "grade": 1,
+        "category": "lengua",
+        "question": "¿Con qué tipo de letra se escriben siempre los nombres de las personas como 'Ana' o 'Lucas'?",
+        "options": [
+            "Con puntos",
+            "Con minúscula",
+            "Con mayúscula al inicio",
+            "Con números"
+        ],
+        "correct": 2,
+        "explanation": "Los nombres propios siempre comienzan con letra mayúscula.",
+        "id": "q_g1_lengua_39"
+    },
+    {
+        "grade": 1,
+        "category": "lengua",
+        "question": "¿Qué signo se pone al final de una oración para indicar que terminó?",
+        "options": [
+            "Suma (+)",
+            "Punto (.)",
+            "Pregunta (?)",
+            "Coma (,)"
+        ],
+        "correct": 1,
+        "explanation": "Al terminar una oración se coloca un punto final.",
+        "id": "q_g1_lengua_40"
+    },
+    {
+        "grade": 1,
+        "category": "lengua",
+        "question": "¿Cómo se llama la persona que escribe los cuentos?",
+        "options": [
+            "Bombero",
+            "Autor o escritor",
+            "Pintor",
+            "Doctor"
+        ],
+        "correct": 1,
+        "explanation": "El autor o escritor es quien imagina y escribe las historias.",
+        "id": "q_g1_lengua_41"
+    },
+    {
+        "grade": 1,
+        "category": "lengua",
+        "question": "¿Cómo se llama el dibujo que acompaña el texto en un libro de cuentos?",
+        "options": [
+            "Tapa",
+            "Página",
+            "Título",
+            "Ilustración o dibujo"
+        ],
+        "correct": 3,
+        "explanation": "Las ilustraciones son los dibujos que ayudan a comprender el cuento.",
+        "id": "q_g1_lengua_42"
+    },
+    {
+        "grade": 1,
+        "category": "lengua",
+        "question": "Si leemos: 'El perro corre en el jardín', ¿quién corre?",
+        "options": [
+            "La tortuga",
+            "El gato",
+            "El perro",
+            "El pájaro"
+        ],
+        "correct": 2,
+        "explanation": "La oración dice claramente que 'El perro' es quien corre.",
+        "id": "q_g1_lengua_43"
+    },
+    {
+        "grade": 1,
+        "category": "lengua",
+        "question": "¿Cuál de estas palabras es un nombre de persona?",
+        "options": [
+            "Martina",
+            "Manzana",
+            "Mochila",
+            "Mesa"
+        ],
+        "correct": 0,
+        "explanation": "Martina es un nombre propio de persona y lleva mayúscula.",
+        "id": "q_g1_lengua_44"
+    },
+    {
+        "grade": 1,
+        "category": "lengua",
+        "question": "¿Qué palabra está correctamente separada de las demás?",
+        "options": [
+            "El gato toma leche",
+            "El gatotoma leche",
+            "Elgato tomaleche",
+            "Elgatotamaleche"
+        ],
+        "correct": 0,
+        "explanation": "Al escribir oraciones debemos dejar un espacio entre cada palabra.",
+        "id": "q_g1_lengua_45"
+    },
+    {
+        "grade": 1,
+        "category": "lengua",
+        "question": "¿Para qué sirven las letras?",
+        "options": [
+            "Para pintar con témperas",
+            "Para escribir palabras y leer",
+            "Para sumar números",
+            "Para escuchar música"
+        ],
+        "correct": 1,
+        "explanation": "Las letras representan sonidos que usamos para comunicarnos leyendo y escribiendo.",
+        "id": "q_g1_lengua_46"
+    },
+    {
+        "grade": 1,
+        "category": "lengua",
+        "question": "¿Qué animal dice 'miau' en las historias?",
+        "options": [
+            "El pato",
+            "La vaca",
+            "El perro",
+            "El gato"
+        ],
+        "correct": 3,
+        "explanation": "El maullido 'miau' es el sonido que hace el gato.",
+        "id": "q_g1_lengua_47"
+    },
+    {
+        "grade": 1,
+        "category": "lengua",
+        "question": "¿Qué animal dice 'guau' cuando ladra?",
+        "options": [
+            "El caballo",
+            "La oveja",
+            "El león",
+            "El perro"
+        ],
+        "correct": 3,
+        "explanation": "El ladrido 'guau' corresponde al perro.",
+        "id": "q_g1_lengua_48"
+    },
+    {
+        "grade": 1,
+        "category": "lengua",
+        "question": "¿Qué palabra tiene más letras?",
+        "options": [
+            "Ojo",
+            "Sol",
+            "Mariposa",
+            "Pan"
+        ],
+        "correct": 2,
+        "explanation": "'Mariposa' tiene 8 letras, mientras que las otras tienen 3 letras.",
+        "id": "q_g1_lengua_49"
+    },
+    {
+        "grade": 1,
+        "category": "lengua",
+        "question": "Si ordenamos las letras S - O - L, ¿qué palabra formamos?",
+        "options": [
+            "SAL",
+            "LOS",
+            "SUR",
+            "SOL"
+        ],
+        "correct": 3,
+        "explanation": "S + O + L forma la palabra 'SOL'.",
+        "id": "q_g1_lengua_50"
+    },
+    {
+        "grade": 1,
+        "category": "naturales",
+        "question": "¿Con qué órgano del cuerpo podemos ver los colores y las formas?",
+        "options": [
+            "Las manos",
+            "Las orejas",
+            "Los ojos",
+            "La nariz"
+        ],
+        "correct": 2,
+        "explanation": "El sentido de la vista funciona a través de los ojos.",
+        "id": "q_g1_naturales_1"
+    },
+    {
+        "grade": 1,
+        "category": "naturales",
+        "question": "¿Con qué parte de nuestro cuerpo escuchamos la música y los sonidos?",
+        "options": [
+            "Los ojos",
+            "Los oídos / orejas",
+            "Los pies",
+            "La boca"
+        ],
+        "correct": 1,
+        "explanation": "El sentido del oído nos permite escuchar a través de las orejas.",
+        "id": "q_g1_naturales_2"
+    },
+    {
+        "grade": 1,
+        "category": "naturales",
+        "question": "¿Qué sentido usamos para sentir si algo es suave, áspero, frío o caliente?",
+        "options": [
+            "La vista",
+            "El tacto",
+            "El gusto",
+            "El olfato"
+        ],
+        "correct": 1,
+        "explanation": "El tacto, a través de la piel y las manos, nos permite sentir texturas y temperaturas.",
+        "id": "q_g1_naturales_3"
+    },
+    {
+        "grade": 1,
+        "category": "naturales",
+        "question": "¿Con qué órgano sentimos el olor de las flores o de una comida rica?",
+        "options": [
+            "Los ojos",
+            "La nariz",
+            "Las orejas",
+            "La boca"
+        ],
+        "correct": 1,
+        "explanation": "El sentido del olfato está en la nariz.",
+        "id": "q_g1_naturales_4"
+    },
+    {
+        "grade": 1,
+        "category": "naturales",
+        "question": "¿Dónde se encuentra el sentido del gusto para saborear lo dulce y lo salado?",
+        "options": [
+            "En la nariz",
+            "En los labios",
+            "En los dientes",
+            "En la lengua y la boca"
+        ],
+        "correct": 3,
+        "explanation": "En la lengua están las papilas gustativas que identifican los sabores.",
+        "id": "q_g1_naturales_5"
+    },
+    {
+        "grade": 1,
+        "category": "naturales",
+        "question": "¿Qué articulación nos permite doblar la pierna al caminar?",
+        "options": [
+            "El cuello",
+            "La rodilla",
+            "El codo",
+            "La muñeca"
+        ],
+        "correct": 1,
+        "explanation": "La rodilla une el muslo con la pierna y nos permite flexionar.",
+        "id": "q_g1_naturales_6"
+    },
+    {
+        "grade": 1,
+        "category": "naturales",
+        "question": "¿Qué articulación nos permite doblar el brazo?",
+        "options": [
+            "El talón",
+            "El tobillo",
+            "El codo",
+            "La rodilla"
+        ],
+        "correct": 2,
+        "explanation": "El codo es la articulación que permite doblar el brazo.",
+        "id": "q_g1_naturales_7"
+    },
+    {
+        "grade": 1,
+        "category": "naturales",
+        "question": "¿Cuántos sentidos principales tenemos los seres humanos?",
+        "options": [
+            "7",
+            "5",
+            "3",
+            "10"
+        ],
+        "correct": 1,
+        "explanation": "Tenemos 5 sentidos: vista, oído, olfato, gusto y tacto.",
+        "id": "q_g1_naturales_8"
+    },
+    {
+        "grade": 1,
+        "category": "naturales",
+        "question": "¿Cuál de los siguientes es un ser vivo?",
+        "options": [
+            "Una pelota",
+            "Una piedra",
+            "Un auto",
+            "Una mariposa"
+        ],
+        "correct": 3,
+        "explanation": "La mariposa es un animal que nace, crece, se alimenta, respira y se reproduce.",
+        "id": "q_g1_naturales_9"
+    },
+    {
+        "grade": 1,
+        "category": "naturales",
+        "question": "¿Cuál de estos elementos NO es un ser vivo (es inerte)?",
+        "options": [
+            "Un perro",
+            "Un pez",
+            "Una roca",
+            "Una planta"
+        ],
+        "correct": 2,
+        "explanation": "La roca no tiene vida: no come, no crece ni respira.",
+        "id": "q_g1_naturales_10"
+    },
+    {
+        "grade": 1,
+        "category": "naturales",
+        "question": "¿Qué necesitan las plantas para poder crecer y vivir?",
+        "options": [
+            "Juguetes",
+            "Gaseosa y caramelos",
+            "Agua y luz del sol",
+            "Estar en la oscuridad"
+        ],
+        "correct": 2,
+        "explanation": "Las plantas necesitan agua, tierra con nutrientes y luz solar para crecer.",
+        "id": "q_g1_naturales_11"
+    },
+    {
+        "grade": 1,
+        "category": "naturales",
+        "question": "¿Qué tienen en común todos los seres vivos?",
+        "options": [
+            "Nacen, crecen y necesitan alimentarse",
+            "Viven para siempre",
+            "Tienen ruedas para moverse",
+            "Están hechos de plástico"
+        ],
+        "correct": 0,
+        "explanation": "Todos los seres vivos cumplen un ciclo vital: nacen, crecen, se reproducen y mueren.",
+        "id": "q_g1_naturales_12"
+    },
+    {
+        "grade": 1,
+        "category": "naturales",
+        "question": "¿Cuál de estos animales es doméstico y puede convivir en familia en casa?",
+        "options": [
+            "El león",
+            "El perro",
+            "El tiburón",
+            "El elefante"
+        ],
+        "correct": 1,
+        "explanation": "El perro es un animal doméstico domesticado para vivir con los humanos.",
+        "id": "q_g1_naturales_13"
+    },
+    {
+        "grade": 1,
+        "category": "naturales",
+        "question": "¿Cuál de estos animales es salvaje y vive libre en la selva o sabana?",
+        "options": [
+            "La gallina",
+            "La oveja",
+            "El gato",
+            "La jirafa"
+        ],
+        "correct": 3,
+        "explanation": "La jirafa es un animal silvestre que vive en su hábitat natural salvaje.",
+        "id": "q_g1_naturales_14"
+    },
+    {
+        "grade": 1,
+        "category": "naturales",
+        "question": "¿Qué animal se desplaza volando por el aire?",
+        "options": [
+            "El pez",
+            "La serpiente",
+            "El perro",
+            "La paloma"
+        ],
+        "correct": 3,
+        "explanation": "Las aves como la paloma tienen alas cubiertas de plumas para volar.",
+        "id": "q_g1_naturales_15"
+    },
+    {
+        "grade": 1,
+        "category": "naturales",
+        "question": "¿Qué animal se desplaza nadando en el agua?",
+        "options": [
+            "El conejo",
+            "El caballo",
+            "El delfín",
+            "El gato"
+        ],
+        "correct": 2,
+        "explanation": "Los delfines y peces viven en el agua y se desplazan nadando con aletas.",
+        "id": "q_g1_naturales_16"
+    },
+    {
+        "grade": 1,
+        "category": "naturales",
+        "question": "¿Qué animal repta arrastrando su cuerpo por el suelo?",
+        "options": [
+            "El pato",
+            "La serpiente",
+            "El mono",
+            "El loro"
+        ],
+        "correct": 1,
+        "explanation": "Las serpientes no tienen patas y se desplazan reptando sobre el suelo.",
+        "id": "q_g1_naturales_17"
+    },
+    {
+        "grade": 1,
+        "category": "naturales",
+        "question": "¿De qué tienen cubierto el cuerpo las aves como los pájaros?",
+        "options": [
+            "De pelos",
+            "De lana",
+            "De plumas",
+            "De escamas"
+        ],
+        "correct": 2,
+        "explanation": "Todas las aves tienen el cuerpo cubierto de plumas que las protegen y ayudan a volar.",
+        "id": "q_g1_naturales_18"
+    },
+    {
+        "grade": 1,
+        "category": "naturales",
+        "question": "¿De qué tienen cubierto el cuerpo los peces?",
+        "options": [
+            "De pelo",
+            "De lana",
+            "De plumas",
+            "De escamas"
+        ],
+        "correct": 3,
+        "explanation": "Los peces tienen escamas que protegen su piel en el agua.",
+        "id": "q_g1_naturales_19"
+    },
+    {
+        "grade": 1,
+        "category": "naturales",
+        "question": "¿Qué animal nos da leche fresca en el campo?",
+        "options": [
+            "El león",
+            "El gallo",
+            "La vaca",
+            "El perro"
+        ],
+        "correct": 2,
+        "explanation": "Las vacas producen leche con la que también se hace queso y yogur.",
+        "id": "q_g1_naturales_20"
+    },
+    {
+        "grade": 1,
+        "category": "naturales",
+        "question": "¿Qué animal produce lana para hacer abrigos de invierno?",
+        "options": [
+            "El caballo",
+            "La oveja",
+            "El cerdo",
+            "El pato"
+        ],
+        "correct": 1,
+        "explanation": "De la oveja se esquila la lana para tejer bufandas, gorros y suéteres.",
+        "id": "q_g1_naturales_21"
+    },
+    {
+        "grade": 1,
+        "category": "naturales",
+        "question": "¿Dónde viven los peces?",
+        "options": [
+            "En el agua (ríos, lagos y mares)",
+            "En las nubes",
+            "En la tierra seca",
+            "En las copas de los árboles"
+        ],
+        "correct": 0,
+        "explanation": "Los peces son animales acuáticos y respiran bajo el agua a través de branquias.",
+        "id": "q_g1_naturales_22"
+    },
+    {
+        "grade": 1,
+        "category": "naturales",
+        "question": "¿Qué parte de la planta crece debajo de la tierra y absorbe agua?",
+        "options": [
+            "La flor",
+            "La raíz",
+            "La hoja",
+            "El fruto"
+        ],
+        "correct": 1,
+        "explanation": "La raíz sujeta la planta a la tierra y absorbe agua y nutrientes.",
+        "id": "q_g1_naturales_23"
+    },
+    {
+        "grade": 1,
+        "category": "naturales",
+        "question": "¿Qué parte de la planta sostiene las hojas y ramas en alto?",
+        "options": [
+            "La raíz",
+            "El pétalo",
+            "El tallo",
+            "La semilla"
+        ],
+        "correct": 2,
+        "explanation": "El tallo sostiene la planta y transporta el agua hacia las hojas.",
+        "id": "q_g1_naturales_24"
+    },
+    {
+        "grade": 1,
+        "category": "naturales",
+        "question": "¿De qué color son generalmente las hojas de los árboles sanos?",
+        "options": [
+            "Violetas",
+            "Azules",
+            "Verdes",
+            "Negras"
+        ],
+        "correct": 2,
+        "explanation": "La clorofila le da el característico color verde a las hojas.",
+        "id": "q_g1_naturales_25"
+    },
+    {
+        "grade": 1,
+        "category": "naturales",
+        "question": "¿Qué nace adentro de los frutos para que crezca una nueva planta?",
+        "options": [
+            "Hojas",
+            "Flores",
+            "Las semillas",
+            "Piedritas"
+        ],
+        "correct": 2,
+        "explanation": "Las semillas adentro de las frutas pueden germinar y dar origen a una nueva planta.",
+        "id": "q_g1_naturales_26"
+    },
+    {
+        "grade": 1,
+        "category": "naturales",
+        "question": "¿Qué astro brilla en el cielo e ilumina nuestro día con luz y calor?",
+        "options": [
+            "Un planeta",
+            "El Sol",
+            "La Luna",
+            "Una estrella fugaz"
+        ],
+        "correct": 1,
+        "explanation": "El Sol es la estrella central que nos da luz y calor durante el día.",
+        "id": "q_g1_naturales_27"
+    },
+    {
+        "grade": 1,
+        "category": "naturales",
+        "question": "¿Qué vemos habitualmente en el cielo durante la noche?",
+        "options": [
+            "Nubes de tormenta solamente",
+            "El arcoíris",
+            "La Luna y las estrellas",
+            "El Sol brillante"
+        ],
+        "correct": 2,
+        "explanation": "Durante la noche el cielo se oscurece y vemos la Luna y miles de estrellas.",
+        "id": "q_g1_naturales_28"
+    },
+    {
+        "grade": 1,
+        "category": "naturales",
+        "question": "¿En qué estación del año hace mucho calor y vamos a la pileta o a la playa?",
+        "options": [
+            "Verano",
+            "Otoño",
+            "Invierno",
+            "Primavera"
+        ],
+        "correct": 0,
+        "explanation": "El verano es la estación más calurosa del año.",
+        "id": "q_g1_naturales_29"
+    },
+    {
+        "grade": 1,
+        "category": "naturales",
+        "question": "¿En qué estación del año hace más frío y nos abrigamos con gorro y campera?",
+        "options": [
+            "Otoño",
+            "Primavera",
+            "Verano",
+            "Invierno"
+        ],
+        "correct": 3,
+        "explanation": "El invierno es la estación más fría.",
+        "id": "q_g1_naturales_30"
+    },
+    {
+        "grade": 1,
+        "category": "naturales",
+        "question": "¿En qué estación florecen los árboles y nacen muchas flores de colores?",
+        "options": [
+            "Primavera",
+            "Invierno",
+            "Otoño",
+            "Verano"
+        ],
+        "correct": 0,
+        "explanation": "La primavera es la época del año en que florecen las plantas y sube la temperatura.",
+        "id": "q_g1_naturales_31"
+    },
+    {
+        "grade": 1,
+        "category": "naturales",
+        "question": "¿En qué estación las hojas de muchos árboles se ponen amarillas y se caen?",
+        "options": [
+            "Verano",
+            "Primavera",
+            "Invierno",
+            "Otoño"
+        ],
+        "correct": 3,
+        "explanation": "En otoño las hojas pierden su color verde, se secan y caen al suelo.",
+        "id": "q_g1_naturales_32"
+    },
+    {
+        "grade": 1,
+        "category": "naturales",
+        "question": "¿Qué debemos hacer antes de sentarnos a comer para no enfermarnos?",
+        "options": [
+            "Lavarnos las manos con agua y jabón",
+            "Ponernos los zapatos",
+            "Mirar televisión",
+            "Jugar con tierra"
+        ],
+        "correct": 0,
+        "explanation": "Lavarse las manos elimina bacterias y microbios antes de tocar alimentos.",
+        "id": "q_g1_naturales_33"
+    },
+    {
+        "grade": 1,
+        "category": "naturales",
+        "question": "¿Qué usamos para mantener nuestros dientes limpios y sanos?",
+        "options": [
+            "Tijera y regla",
+            "Peine y esponja",
+            "Jabón de ropa",
+            "Cepillo de dientes y pasta dental"
+        ],
+        "correct": 3,
+        "explanation": "Cepillarse los dientes después de cada comida previene las caries.",
+        "id": "q_g1_naturales_34"
+    },
+    {
+        "grade": 1,
+        "category": "naturales",
+        "question": "¿Qué tipo de alimentos es más saludable comer todos los días?",
+        "options": [
+            "Frutas y verduras frescas",
+            "Golosinas y caramelos",
+            "Chocolates",
+            "Papas fritas y gaseosas"
+        ],
+        "correct": 0,
+        "explanation": "Las frutas y verduras aportan vitaminas que nos ayudan a crecer fuertes y sanos.",
+        "id": "q_g1_naturales_35"
+    },
+    {
+        "grade": 1,
+        "category": "naturales",
+        "question": "¿Cuántas horas aproximadamente debe dormir un niño por noche para descansar bien?",
+        "options": [
+            "2 horas",
+            "Entre 8 y 10 horas",
+            "20 horas",
+            "1 hora"
+        ],
+        "correct": 1,
+        "explanation": "Los chicos en edad escolar necesitan entre 8 y 10 horas de sueño reparador.",
+        "id": "q_g1_naturales_36"
+    },
+    {
+        "grade": 1,
+        "category": "naturales",
+        "question": "¿Qué debemos beber cuando tenemos sed para hidratar el cuerpo de forma sana?",
+        "options": [
+            "Gaseosa con gas",
+            "Agua fresca",
+            "Café caliente",
+            "Jarabe"
+        ],
+        "correct": 1,
+        "explanation": "El agua pura es la bebida más sana y natural para nuestro organismo.",
+        "id": "q_g1_naturales_37"
+    },
+    {
+        "grade": 1,
+        "category": "naturales",
+        "question": "¿Por qué es importante bañarse con regularidad?",
+        "options": [
+            "Para enfriar el cuerpo",
+            "Para mojarse la ropa",
+            "Para mantener la piel limpia y con buen olor",
+            "Para jugar con burbujas solamente"
+        ],
+        "correct": 2,
+        "explanation": "Bañarse limpia la suciedad y cuida nuestra piel sana.",
+        "id": "q_g1_naturales_38"
+    },
+    {
+        "grade": 1,
+        "category": "naturales",
+        "question": "¿De dónde cae la lluvia?",
+        "options": [
+            "Del suelo",
+            "De los techos",
+            "De los árboles",
+            "De las nubes en el cielo"
+        ],
+        "correct": 3,
+        "explanation": "El agua condensada en las nubes cae en forma de gotas de lluvia.",
+        "id": "q_g1_naturales_39"
+    },
+    {
+        "grade": 1,
+        "category": "naturales",
+        "question": "¿Qué se forma a veces en el cielo cuando llueve y sale el sol a la vez?",
+        "options": [
+            "Nieve negra",
+            "Un arcoíris",
+            "Un meteorito",
+            "La luna llena"
+        ],
+        "correct": 1,
+        "explanation": "La luz del sol al atravesar las gotas de lluvia crea el arcoíris de 7 colores.",
+        "id": "q_g1_naturales_40"
+    },
+    {
+        "grade": 1,
+        "category": "naturales",
+        "question": "¿Qué elemento respiramos todos los seres vivos aunque no lo podamos ver?",
+        "options": [
+            "El aire",
+            "El agua",
+            "El fuego",
+            "La tierra"
+        ],
+        "correct": 0,
+        "explanation": "El aire contiene oxígeno, que es fundamental para respirar.",
+        "id": "q_g1_naturales_41"
+    },
+    {
+        "grade": 1,
+        "category": "naturales",
+        "question": "¿Cómo se llama el agua sólida y muy fría que cae en las montañas en invierno?",
+        "options": [
+            "Humo",
+            "Viento",
+            "Rocío",
+            "Nieve"
+        ],
+        "correct": 3,
+        "explanation": "La nieve son copos de agua congelada que caen cuando hace mucho frío.",
+        "id": "q_g1_naturales_42"
+    },
+    {
+        "grade": 1,
+        "category": "naturales",
+        "question": "¿Cómo nacen los pollitos?",
+        "options": [
+            "De un huevo que puso la gallina",
+            "De una semilla",
+            "Del agua",
+            "De una planta"
+        ],
+        "correct": 0,
+        "explanation": "Las aves son animales ovíparos que nacen de huevos.",
+        "id": "q_g1_naturales_43"
+    },
+    {
+        "grade": 1,
+        "category": "naturales",
+        "question": "¿Qué necesitan los peces para respirar bajo el agua?",
+        "options": [
+            "Branquias o agallas",
+            "Patas",
+            "Pulmones como los humanos",
+            "Alas"
+        ],
+        "correct": 0,
+        "explanation": "Los peces respiran el oxígeno disuelto en el agua a través de sus branquias.",
+        "id": "q_g1_naturales_44"
+    },
+    {
+        "grade": 1,
+        "category": "naturales",
+        "question": "¿Qué parte de nuestro cuerpo bombea la sangre a todo el organismo?",
+        "options": [
+            "El codo",
+            "La rodilla",
+            "El corazón",
+            "El estómago"
+        ],
+        "correct": 2,
+        "explanation": "El corazón late sin parar para bombear la sangre por todo el cuerpo.",
+        "id": "q_g1_naturales_45"
+    },
+    {
+        "grade": 1,
+        "category": "naturales",
+        "question": "¿Qué sentido nos avisa si la comida está demasiado caliente antes de tocarla o comerla?",
+        "options": [
+            "El oído",
+            "La vista y el tacto",
+            "El gusto solamente",
+            "Los dientes"
+        ],
+        "correct": 1,
+        "explanation": "Vemos el vapor con los ojos y sentimos el calor al acercar la mano.",
+        "id": "q_g1_naturales_46"
+    },
+    {
+        "grade": 1,
+        "category": "naturales",
+        "question": "¿Qué animal nocturno tiene ojos grandes y puede girar casi toda su cabeza?",
+        "options": [
+            "El pato",
+            "El búho o lechuza",
+            "La paloma",
+            "El canario"
+        ],
+        "correct": 1,
+        "explanation": "El búho es un ave rapaz nocturna con excelente visión en la oscuridad.",
+        "id": "q_g1_naturales_47"
+    },
+    {
+        "grade": 1,
+        "category": "naturales",
+        "question": "¿Qué líquido vital e incoloro es necesario para que vivan personas, animales y plantas?",
+        "options": [
+            "El vinagre",
+            "El agua",
+            "El aceite",
+            "La gaseosa"
+        ],
+        "correct": 1,
+        "explanation": "El agua es imprescindible para la vida en nuestro planeta.",
+        "id": "q_g1_naturales_48"
+    },
+    {
+        "grade": 1,
+        "category": "naturales",
+        "question": "¿Qué órgano de nuestro cuerpo procesa los alimentos que comemos?",
+        "options": [
+            "El estómago",
+            "Los pulmones",
+            "El oído",
+            "El corazón"
+        ],
+        "correct": 0,
+        "explanation": "El estómago digiere la comida para absorber los nutrientes.",
+        "id": "q_g1_naturales_49"
+    },
+    {
+        "grade": 1,
+        "category": "naturales",
+        "question": "¿Cómo se llama el proceso en el que una pequeña semilla empieza a brotar y crecer?",
+        "options": [
+            "Germinación",
+            "Congelación",
+            "Invernación",
+            "Cocción"
+        ],
+        "correct": 0,
+        "explanation": "La germinación es el nacimiento y primer brote de una planta a partir de su semilla.",
+        "id": "q_g1_naturales_50"
+    },
+    {
+        "grade": 1,
+        "category": "sociales",
+        "question": "¿Quién es la mamá de tu mamá o de tu papá?",
+        "options": [
+            "Tu abuela",
+            "Tu hermana",
+            "Tu prima",
+            "Tu tía"
+        ],
+        "correct": 0,
+        "explanation": "La mamá de nuestros padres es nuestra abuela.",
+        "id": "q_g1_sociales_1"
+    },
+    {
+        "grade": 1,
+        "category": "sociales",
+        "question": "¿Quién es el hermano de tu papá o de tu mamá?",
+        "options": [
+            "Tu abuelo",
+            "Tu tío",
+            "Tu sobrino",
+            "Tu primo"
+        ],
+        "correct": 1,
+        "explanation": "El hermano de tu padre o madre es tu tío.",
+        "id": "q_g1_sociales_2"
+    },
+    {
+        "grade": 1,
+        "category": "sociales",
+        "question": "¿Quiénes son los hijos de tus tíos?",
+        "options": [
+            "Tus primos",
+            "Tus hermanos",
+            "Tus amigos",
+            "Tus abuelos"
+        ],
+        "correct": 0,
+        "explanation": "Los hijos de los tíos tienen parentesco de primos con nosotros.",
+        "id": "q_g1_sociales_3"
+    },
+    {
+        "grade": 1,
+        "category": "sociales",
+        "question": "¿Qué palabra mágica debemos decir cuando alguien nos ayuda o nos regala algo?",
+        "options": [
+            "Chau",
+            "Hola",
+            "Dame",
+            "Gracias"
+        ],
+        "correct": 3,
+        "explanation": "Decir 'Gracias' demuestra agradecimiento y cortesía.",
+        "id": "q_g1_sociales_4"
+    },
+    {
+        "grade": 1,
+        "category": "sociales",
+        "question": "¿Qué debemos decir antes de pedir algo a un compañero o adulto?",
+        "options": [
+            "Ya mismo",
+            "Mío",
+            "Por favor",
+            "Apúrate"
+        ],
+        "correct": 2,
+        "explanation": "Decir 'Por favor' es una norma de cortesía fundamental.",
+        "id": "q_g1_sociales_5"
+    },
+    {
+        "grade": 1,
+        "category": "sociales",
+        "question": "¿Qué debemos hacer si nos equivocamos o lastimamos a un compañero sin querer?",
+        "options": [
+            "Gritar",
+            "Echarle la culpa a otro",
+            "Irme corriendo",
+            "Pedir disculpas o perdón"
+        ],
+        "correct": 3,
+        "explanation": "Pedir perdón ayuda a reparar los errores y mantener la buena convivencia.",
+        "id": "q_g1_sociales_6"
+    },
+    {
+        "grade": 1,
+        "category": "sociales",
+        "question": "¿En qué lugar de la escuela jugamos con nuestros compañeros durante el descanso?",
+        "options": [
+            "En la dirección",
+            "En el patio del recreo",
+            "En la cocina",
+            "En el baño"
+        ],
+        "correct": 1,
+        "explanation": "El patio es el espacio destinado a jugar y despejarse durante el recreo.",
+        "id": "q_g1_sociales_7"
+    },
+    {
+        "grade": 1,
+        "category": "sociales",
+        "question": "¿Qué elemento llevamos a la escuela para guardar cuadernos, lápices y merienda?",
+        "options": [
+            "Una caja de herramientas",
+            "La mochila",
+            "Una valija de viaje",
+            "Un canasto de picnic"
+        ],
+        "correct": 1,
+        "explanation": "La mochila es la forma cómoda y segura de transportar nuestros útiles escolares.",
+        "id": "q_g1_sociales_8"
+    },
+    {
+        "grade": 1,
+        "category": "sociales",
+        "question": "¿Quién es la persona que nos guía, enseña y cuida dentro del aula?",
+        "options": [
+            "La maestra o maestro",
+            "El bombero",
+            "El chofer",
+            "El mecánico"
+        ],
+        "correct": 0,
+        "explanation": "Los maestros guían nuestro aprendizaje en la escuela.",
+        "id": "q_g1_sociales_9"
+    },
+    {
+        "grade": 1,
+        "category": "sociales",
+        "question": "¿Qué guardamos adentro de la cartuchera?",
+        "options": [
+            "Zapatillas",
+            "Pelotas de fútbol",
+            "Lápices, goma y sacapuntas",
+            "Platos y cubiertos"
+        ],
+        "correct": 2,
+        "explanation": "La cartuchera organiza los útiles de escritura y dibujo.",
+        "id": "q_g1_sociales_10"
+    },
+    {
+        "grade": 1,
+        "category": "sociales",
+        "question": "¿Por qué es importante cuidar los bancos y paredes de la escuela?",
+        "options": [
+            "Porque cuesta pintarlo",
+            "No es importante",
+            "Para que no nos reten",
+            "Porque es un espacio de todos y debemos mantenerlo lindo"
+        ],
+        "correct": 3,
+        "explanation": "La escuela es un bien común que todos debemos respetar y cuidar.",
+        "id": "q_g1_sociales_11"
+    },
+    {
+        "grade": 1,
+        "category": "sociales",
+        "question": "¿Dónde vamos cuando estamos enfermos o lastimados para que nos curen?",
+        "options": [
+            "Al hospital o salita médica",
+            "A la panadería",
+            "A la juguetería",
+            "Al cine"
+        ],
+        "correct": 0,
+        "explanation": "En los hospitales y clínicas trabajan médicos y enfermeros para curarnos.",
+        "id": "q_g1_sociales_12"
+    },
+    {
+        "grade": 1,
+        "category": "sociales",
+        "question": "¿Dónde compramos el pan calentito para el desayuno o la merienda?",
+        "options": [
+            "En la carnicería",
+            "En la verdulería",
+            "En la farmacia",
+            "En la panadería"
+        ],
+        "correct": 3,
+        "explanation": "La panadería elabora y vende pan, facturas y galletitas.",
+        "id": "q_g1_sociales_13"
+    },
+    {
+        "grade": 1,
+        "category": "sociales",
+        "question": "¿Dónde compramos remedios cuando nos receta el médico?",
+        "options": [
+            "En la librería",
+            "En la ferretería",
+            "En la juguetería",
+            "En la farmacia"
+        ],
+        "correct": 3,
+        "explanation": "Las farmacias son los comercios autorizados para vender medicamentos.",
+        "id": "q_g1_sociales_14"
+    },
+    {
+        "grade": 1,
+        "category": "sociales",
+        "question": "¿Qué espacio verde público tiene hamacas, toboganes y árboles para jugar en el barrio?",
+        "options": [
+            "La plaza o parque",
+            "El supermercado",
+            "La estación de tren",
+            "El banco"
+        ],
+        "correct": 0,
+        "explanation": "Las plazas tienen juegos infantiles y bancos para disfrutar al aire libre.",
+        "id": "q_g1_sociales_15"
+    },
+    {
+        "grade": 1,
+        "category": "sociales",
+        "question": "¿Quién apaga los incendios y ayuda en los rescates de emergencia?",
+        "options": [
+            "El bombero",
+            "El cocinero",
+            "El pintor",
+            "El jardinero"
+        ],
+        "correct": 0,
+        "explanation": "Los bomberos arriesgan su vida para sofocar fuegos y ayudar en accidentes.",
+        "id": "q_g1_sociales_16"
+    },
+    {
+        "grade": 1,
+        "category": "sociales",
+        "question": "¿Quién cura y cuida a las mascotas y animales cuando están enfermos?",
+        "options": [
+            "El cartero",
+            "El carpintero",
+            "El veterinario",
+            "El piloto"
+        ],
+        "correct": 2,
+        "explanation": "El veterinario es el médico especialista en animales.",
+        "id": "q_g1_sociales_17"
+    },
+    {
+        "grade": 1,
+        "category": "sociales",
+        "question": "¿Quién revisa nuestros dientes y nos enseña a cepillarlos bien?",
+        "options": [
+            "El chofer",
+            "El dentista u odontólogo",
+            "El bombero",
+            "El policía"
+        ],
+        "correct": 1,
+        "explanation": "El odontólogo o dentista cuida la salud de nuestra boca y dientes.",
+        "id": "q_g1_sociales_18"
+    },
+    {
+        "grade": 1,
+        "category": "sociales",
+        "question": "¿Quién entrega cartas y paquetes en la puerta de las casas?",
+        "options": [
+            "El cartero",
+            "El albañil",
+            "El pescador",
+            "El jardinero"
+        ],
+        "correct": 0,
+        "explanation": "El cartero reparte la correspondencia en los domicilios.",
+        "id": "q_g1_sociales_19"
+    },
+    {
+        "grade": 1,
+        "category": "sociales",
+        "question": "¿Quién conduce el colectivo escolar o de línea?",
+        "options": [
+            "El chofer o colectivero",
+            "El mozo",
+            "El arquitecto",
+            "El capitán"
+        ],
+        "correct": 0,
+        "explanation": "El chofer conduce el transporte de pasajeros con cuidado.",
+        "id": "q_g1_sociales_20"
+    },
+    {
+        "grade": 1,
+        "category": "sociales",
+        "question": "¿Quién cuida las plantas, poda el pasto y riega las flores del jardín?",
+        "options": [
+            "El peluquero",
+            "El mecánico",
+            "El panadero",
+            "El jardinero"
+        ],
+        "correct": 3,
+        "explanation": "El jardinero se ocupa del mantenimiento de los espacios verdes y plantas.",
+        "id": "q_g1_sociales_21"
+    },
+    {
+        "grade": 1,
+        "category": "sociales",
+        "question": "¿Cuál de estos es un medio de transporte terrestre que va sobre vías de metal?",
+        "options": [
+            "El tren",
+            "El avión",
+            "El submarino",
+            "El barco"
+        ],
+        "correct": 0,
+        "explanation": "Los trenes circulan sobre vías férreas en la tierra.",
+        "id": "q_g1_sociales_22"
+    },
+    {
+        "grade": 1,
+        "category": "sociales",
+        "question": "¿Qué transporte vuela por el cielo llevando muchos pasajeros a lugares lejanos?",
+        "options": [
+            "El barco",
+            "El avión",
+            "La bicicleta",
+            "El camión"
+        ],
+        "correct": 1,
+        "explanation": "Los aviones vuelan a gran altura y velocidad por el aire.",
+        "id": "q_g1_sociales_23"
+    },
+    {
+        "grade": 1,
+        "category": "sociales",
+        "question": "¿Qué transporte navega sobre el agua de ríos y mares?",
+        "options": [
+            "El tractor",
+            "El colectivo",
+            "El barco",
+            "El auto"
+        ],
+        "correct": 2,
+        "explanation": "Los barcos flotan y navegan por el agua.",
+        "id": "q_g1_sociales_24"
+    },
+    {
+        "grade": 1,
+        "category": "sociales",
+        "question": "¿Qué vehículo de dos ruedas no usa nafta y se mueve pedaleando con las piernas?",
+        "options": [
+            "La moto",
+            "La bicicleta",
+            "El auto",
+            "El tren"
+        ],
+        "correct": 1,
+        "explanation": "La bicicleta es un transporte ecológico y saludable impulsado por pedales.",
+        "id": "q_g1_sociales_25"
+    },
+    {
+        "grade": 1,
+        "category": "sociales",
+        "question": "¿Por dónde deben cruzar los peatones la calle de forma segura?",
+        "options": [
+            "Entre dos autos estacionados",
+            "Con los ojos cerrados",
+            "Por la senda peatonal (las líneas blancas de la esquina)",
+            "Por la mitad de la cuadra corriendo"
+        ],
+        "correct": 2,
+        "explanation": "La esquina y la senda peatonal son los lugares seguros para cruzar la calle.",
+        "id": "q_g1_sociales_26"
+    },
+    {
+        "grade": 1,
+        "category": "sociales",
+        "question": "¿Qué color del semáforo nos indica que los autos deben detenerse?",
+        "options": [
+            "Rojo",
+            "Amarillo",
+            "Verde",
+            "Azul"
+        ],
+        "correct": 0,
+        "explanation": "La luz roja del semáforo significa PARE o DETENERSE.",
+        "id": "q_g1_sociales_27"
+    },
+    {
+        "grade": 1,
+        "category": "sociales",
+        "question": "¿Qué color del semáforo autoriza a avanzar?",
+        "options": [
+            "Rojo",
+            "Negro",
+            "Verde",
+            "Violeta"
+        ],
+        "correct": 2,
+        "explanation": "La luz verde indica que el camino está libre para avanzar.",
+        "id": "q_g1_sociales_28"
+    },
+    {
+        "grade": 1,
+        "category": "sociales",
+        "question": "¿Qué elemento de seguridad debemos abrocharnos siempre al subir a un auto?",
+        "options": [
+            "La campera",
+            "El cinturón de seguridad",
+            "La mochila",
+            "Los cordones"
+        ],
+        "correct": 1,
+        "explanation": "El cinturón de seguridad salva vidas ante frenadas bruscas o choques.",
+        "id": "q_g1_sociales_29"
+    },
+    {
+        "grade": 1,
+        "category": "sociales",
+        "question": "¿Qué elemento debemos llevar puesto en la cabeza al andar en bicicleta o monopatín?",
+        "options": [
+            "Una vincha",
+            "Un casco de protección",
+            "Una gorra de lana",
+            "Una corona"
+        ],
+        "correct": 1,
+        "explanation": "El casco protege la cabeza de golpes en caso de caídas.",
+        "id": "q_g1_sociales_30"
+    },
+    {
+        "grade": 1,
+        "category": "sociales",
+        "question": "¿Cuáles son los dos colores principales de la bandera argentina?",
+        "options": [
+            "Celeste y blanco",
+            "Azul y rojo",
+            "Rojo y amarillo",
+            "Verde y negro"
+        ],
+        "correct": 0,
+        "explanation": "Nuestra bandera tiene dos franjas celestes y una blanca en el medio.",
+        "id": "q_g1_sociales_31"
+    },
+    {
+        "grade": 1,
+        "category": "sociales",
+        "question": "¿Qué figura dorada brilla en el centro de la bandera argentina?",
+        "options": [
+            "Una estrella",
+            "Un Sol con carita",
+            "Una luna",
+            "Un pájaro"
+        ],
+        "correct": 1,
+        "explanation": "En el centro de la franja blanca está el Sol de Mayo dorado.",
+        "id": "q_g1_sociales_32"
+    },
+    {
+        "grade": 1,
+        "category": "sociales",
+        "question": "¿Quién fue el gran prócer que creó la bandera argentina?",
+        "options": [
+            "Domingo Faustino Sarmiento",
+            "Cristóbal Colón",
+            "Manuel Belgrano",
+            "Lionel Messi"
+        ],
+        "correct": 2,
+        "explanation": "Manuel Belgrano creó la bandera a orillas del río Paraná en 1812.",
+        "id": "q_g1_sociales_33"
+    },
+    {
+        "grade": 1,
+        "category": "sociales",
+        "question": "¿En qué fecha patria celebramos el cumpleaños de nuestra Patria (la Revolución de Mayo)?",
+        "options": [
+            "El 1 de Enero",
+            "El 25 de Mayo",
+            "El 25 de Diciembre",
+            "El 31 de Octubre"
+        ],
+        "correct": 1,
+        "explanation": "El 25 de mayo de 1810 se formó el Primer Gobierno Patrio en el Cabildo.",
+        "id": "q_g1_sociales_34"
+    },
+    {
+        "grade": 1,
+        "category": "sociales",
+        "question": "¿En qué fecha celebramos el Día de la Independencia argentina?",
+        "options": [
+            "El 9 de Julio",
+            "El 12 de Octubre",
+            "El 25 de Mayo",
+            "El 20 de Junio"
+        ],
+        "correct": 0,
+        "explanation": "El 9 de julio de 1816 se declaró la Independencia en Tucumán.",
+        "id": "q_g1_sociales_35"
+    },
+    {
+        "grade": 1,
+        "category": "sociales",
+        "question": "¿Qué distintivo celeste y blanco nos ponemos en el pecho en las fiestas patrias?",
+        "options": [
+            "Un reloj",
+            "La escarapela",
+            "Un prendedor de juguete",
+            "Una medalla de oro"
+        ],
+        "correct": 1,
+        "explanation": "La escarapela es el símbolo patrio que llevamos en el pecho.",
+        "id": "q_g1_sociales_36"
+    },
+    {
+        "grade": 1,
+        "category": "sociales",
+        "question": "¿Cómo se llama la canción patria que cantamos con orgullo y respeto en los actos escolares?",
+        "options": [
+            "La Marcha de San Lorenzo",
+            "Una canción de cuna",
+            "El Feliz Cumpleaños",
+            "El Himno Nacional Argentino"
+        ],
+        "correct": 3,
+        "explanation": "El Himno Nacional Argentino es nuestra canción patria oficial.",
+        "id": "q_g1_sociales_37"
+    },
+    {
+        "grade": 1,
+        "category": "sociales",
+        "question": "¿Quién ayuda al médico y nos pone una curita o nos toma la temperatura?",
+        "options": [
+            "El chofer",
+            "El carpintero",
+            "El panadero",
+            "El enfermero o enfermera"
+        ],
+        "correct": 3,
+        "explanation": "Los enfermeros y enfermeras cuidan y asisten a los pacientes con dedicación.",
+        "id": "q_g1_sociales_38"
+    },
+    {
+        "grade": 1,
+        "category": "sociales",
+        "question": "¿En qué lugar de la ciudad o barrio pedimos libros prestados para leer?",
+        "options": [
+            "En la carnicería",
+            "En la biblioteca",
+            "En la zapatería",
+            "En la farmacia"
+        ],
+        "correct": 1,
+        "explanation": "Las bibliotecas guardan libros que podemos consultar o llevar a casa.",
+        "id": "q_g1_sociales_39"
+    },
+    {
+        "grade": 1,
+        "category": "sociales",
+        "question": "¿Quién prepara ricas comidas en un restaurante?",
+        "options": [
+            "El cartero",
+            "El mecánico",
+            "El electricista",
+            "El cocinero o chef"
+        ],
+        "correct": 3,
+        "explanation": "El cocinero se encarga de elaborar los platos y alimentos.",
+        "id": "q_g1_sociales_40"
+    },
+    {
+        "grade": 1,
+        "category": "sociales",
+        "question": "¿Qué transporte especial tiene sirena y luces rojas para llevar pacientes urgente al hospital?",
+        "options": [
+            "El colectivo",
+            "El camión de basura",
+            "La ambulancia",
+            "El taxi"
+        ],
+        "correct": 2,
+        "explanation": "La ambulancia traslada a personas con emergencias de salud de forma prioritaria.",
+        "id": "q_g1_sociales_41"
+    },
+    {
+        "grade": 1,
+        "category": "sociales",
+        "question": "¿Qué vehículo autobomba con mangueras largas usan los bomberos para apagar incendios?",
+        "options": [
+            "El camión de bomberos",
+            "El tren",
+            "El tractor",
+            "La grúa"
+        ],
+        "correct": 0,
+        "explanation": "Los camiones de bomberos llevan agua, mangueras y escaleras para rescates.",
+        "id": "q_g1_sociales_42"
+    },
+    {
+        "grade": 1,
+        "category": "sociales",
+        "question": "¿Cómo se llama el grupo de personas unidas por el cariño que viven juntas y se cuidan?",
+        "options": [
+            "La familia",
+            "Un club",
+            "Un equipo de fútbol",
+            "Un coro"
+        ],
+        "correct": 0,
+        "explanation": "La familia es el primer núcleo social donde crecemos con afecto y protección.",
+        "id": "q_g1_sociales_43"
+    },
+    {
+        "grade": 1,
+        "category": "sociales",
+        "question": "¿Qué debemos hacer con la basura para mantener limpia nuestra ciudad y la escuela?",
+        "options": [
+            "Dejarla tirada en el recreo",
+            "Esconderla debajo de la mesa",
+            "Tirarla en el piso de la calle",
+            "Tirarla en el cesto o tacho de basura"
+        ],
+        "correct": 3,
+        "explanation": "Tirar los residuos en el cesto cuida el medio ambiente y la higiene de todos.",
+        "id": "q_g1_sociales_44"
+    },
+    {
+        "grade": 1,
+        "category": "sociales",
+        "question": "¿Quiénes son los abuelos de una persona?",
+        "options": [
+            "Tus primos",
+            "Tus maestros",
+            "Tus hermanos mayores",
+            "Los padres de tu mamá o de tu papá"
+        ],
+        "correct": 3,
+        "explanation": "Nuestros abuelos son los papás de nuestros padres.",
+        "id": "q_g1_sociales_45"
+    },
+    {
+        "grade": 1,
+        "category": "sociales",
+        "question": "¿Qué valor practicamos cuando esperamos nuestro turno en la fila pacientemente?",
+        "options": [
+            "El egoísmo",
+            "El desorden",
+            "El apuro",
+            "La paciencia y el respeto"
+        ],
+        "correct": 3,
+        "explanation": "Esperar el turno respeta los derechos de los demás compañeros.",
+        "id": "q_g1_sociales_46"
+    },
+    {
+        "grade": 1,
+        "category": "sociales",
+        "question": "¿Quién arregla las canillas que gotean y los caños de agua en las casas?",
+        "options": [
+            "El pintor",
+            "El zapatero",
+            "El cartero",
+            "El plomero"
+        ],
+        "correct": 3,
+        "explanation": "El plomero es el especialista en instalaciones de agua y desagües.",
+        "id": "q_g1_sociales_47"
+    },
+    {
+        "grade": 1,
+        "category": "sociales",
+        "question": "¿Quién cose y arregla la ropa rota o achica los pantalones?",
+        "options": [
+            "El jardinero",
+            "El bombero",
+            "El chofer",
+            "La modista o sastre"
+        ],
+        "correct": 3,
+        "explanation": "Los sastres y modistas trabajan con aguja, hilo y máquinas de coser ropa.",
+        "id": "q_g1_sociales_48"
+    },
+    {
+        "grade": 1,
+        "category": "sociales",
+        "question": "¿Cómo se llama la casa donde vivimos con nuestra familia?",
+        "options": [
+            "Fábrica",
+            "Estación",
+            "Hogar o vivienda",
+            "Oficina"
+        ],
+        "correct": 2,
+        "explanation": "Nuestro hogar es el lugar seguro y cómodo donde vive la familia.",
+        "id": "q_g1_sociales_49"
+    },
+    {
+        "grade": 1,
+        "category": "sociales",
+        "question": "¿Por qué festejamos el Día del Maestro cada 11 de septiembre en Argentina?",
+        "options": [
+            "Para no tener clases solamente",
+            "Para ir al cine",
+            "Para comer torta",
+            "Para agradecer y homenajear a nuestros maestros"
+        ],
+        "correct": 3,
+        "explanation": "El 11 de septiembre se recuerda a Domingo Faustino Sarmiento y se homenajea a todos los docentes.",
+        "id": "q_g1_sociales_50"
+    },
+    {
+        "grade": 1,
+        "category": "ingenio",
+        "question": "Adivina adivinador: 'Tengo melena, soy fuerte y feroz, y cuando rugo todos tiemblan con mi voz'. ¿Quién soy?",
+        "options": [
+            "El león",
+            "El ratón",
+            "El gato",
+            "El conejo"
+        ],
+        "correct": 0,
+        "explanation": "El león es el rey de la selva y tiene una gran melena con potente rugido.",
+        "id": "q_g1_ingenio_1"
+    },
+    {
+        "grade": 1,
+        "category": "ingenio",
+        "question": "Adivina adivinador: 'Tengo orejas largas y cola cortita; como zanahorias y salto ligerito'. ¿Quién soy?",
+        "options": [
+            "El caballo",
+            "El pez",
+            "El conejo",
+            "El perro"
+        ],
+        "correct": 2,
+        "explanation": "El conejo tiene orejas largas, come zanahorias y salta.",
+        "id": "q_g1_ingenio_2"
+    },
+    {
+        "grade": 1,
+        "category": "ingenio",
+        "question": "Adivina adivinador: 'Llevo mi casa sobre el lomo, camino despacito y no tengo apuro'. ¿Quién soy?",
+        "options": [
+            "La mariposa",
+            "El caracol o la tortuga",
+            "El loro",
+            "El leopardo"
+        ],
+        "correct": 1,
+        "explanation": "El caracol y la tortuga llevan su caparazón a cuestas y caminan muy lento.",
+        "id": "q_g1_ingenio_3"
+    },
+    {
+        "grade": 1,
+        "category": "ingenio",
+        "question": "Adivina adivinador: 'Salgo de noche, duermo de día, y me gusta comer queso con alegría'. ¿Quién soy?",
+        "options": [
+            "La jirafa",
+            "La vaca",
+            "El león",
+            "El ratón"
+        ],
+        "correct": 3,
+        "explanation": "Los ratoncitos son nocturnos y son famosos por gustarles el queso.",
+        "id": "q_g1_ingenio_4"
+    },
+    {
+        "grade": 1,
+        "category": "ingenio",
+        "question": "Adivina adivinador: 'Canto en la orilla, vivo en el agua, no soy pescado ni soy cigarra'. ¿Quién soy?",
+        "options": [
+            "El pato",
+            "La rana",
+            "El pulpo",
+            "La oveja"
+        ],
+        "correct": 1,
+        "explanation": "La rana vive cerca del agua y canta 'croac croac'.",
+        "id": "q_g1_ingenio_5"
+    },
+    {
+        "grade": 1,
+        "category": "ingenio",
+        "question": "Adivina adivinador: 'Tengo cuello larguísimo y manchas en la piel; para alcanzar hojas altas no hay quien me gane'. ¿Quién soy?",
+        "options": [
+            "El elefante",
+            "El oso",
+            "El perro",
+            "La jirafa"
+        ],
+        "correct": 3,
+        "explanation": "La jirafa es el animal más alto del mundo gracias a su largo cuello.",
+        "id": "q_g1_ingenio_6"
+    },
+    {
+        "grade": 1,
+        "category": "ingenio",
+        "question": "Adivina adivinador: 'Vuelo entre las flores, tengo alitas de colores y antes fui una oruga'. ¿Quién soy?",
+        "options": [
+            "El mosquito",
+            "La abeja",
+            "La hormiga",
+            "La mariposa"
+        ],
+        "correct": 3,
+        "explanation": "Las mariposas nacen de orugas y tienen alas coloridas.",
+        "id": "q_g1_ingenio_7"
+    },
+    {
+        "grade": 1,
+        "category": "ingenio",
+        "question": "Adivina adivinador: 'Abierto me llaman paraguas, cerrado parezco un bastón; me usas cuando llueve para no mojarte'. ¿Quién soy?",
+        "options": [
+            "El sombrero",
+            "La campera",
+            "El impermeable",
+            "El paraguas"
+        ],
+        "correct": 3,
+        "explanation": "El paraguas nos protege de la lluvia cuando lo abrimos.",
+        "id": "q_g1_ingenio_8"
+    },
+    {
+        "grade": 1,
+        "category": "ingenio",
+        "question": "Adivina adivinador: 'Doy luz y calor en el cielo, y a la tardecita me voy a dormir'. ¿Quién soy?",
+        "options": [
+            "El Sol",
+            "La Luna",
+            "La nube",
+            "El viento"
+        ],
+        "correct": 0,
+        "explanation": "El Sol nos alumbra de día y se oculta al atardecer.",
+        "id": "q_g1_ingenio_9"
+    },
+    {
+        "grade": 1,
+        "category": "ingenio",
+        "question": "Adivina adivinador: 'Tengo agujas pero no sé coser, doy las horas del día sin parar de correr'. ¿Quién soy?",
+        "options": [
+            "La regla",
+            "La máquina",
+            "El reloj",
+            "El compás"
+        ],
+        "correct": 2,
+        "explanation": "El reloj analógico tiene agujas que marcan las horas y minutos.",
+        "id": "q_g1_ingenio_10"
+    },
+    {
+        "grade": 1,
+        "category": "ingenio",
+        "question": "Adivina adivinador: 'Tengo hojas pero no soy árbol, te cuento mil historias y no sé hablar'. ¿Quién soy?",
+        "options": [
+            "Una carta",
+            "Un cuaderno en blanco",
+            "Una hoja de lechuga",
+            "Un libro de cuentos"
+        ],
+        "correct": 3,
+        "explanation": "Los libros tienen páginas u hojas y contienen cuentos fascinantes.",
+        "id": "q_g1_ingenio_11"
+    },
+    {
+        "grade": 1,
+        "category": "ingenio",
+        "question": "¿Cuál es el elemento INTRUSO que no pertenece al grupo? Manzana, Banana, Naranja, Zapato.",
+        "options": [
+            "Naranja",
+            "Banana",
+            "Manzana",
+            "Zapato"
+        ],
+        "correct": 3,
+        "explanation": "El zapato es un calzado, mientras que los otros tres son frutas.",
+        "id": "q_g1_ingenio_12"
+    },
+    {
+        "grade": 1,
+        "category": "ingenio",
+        "question": "¿Cuál es el INTRUSO en este grupo de animales? Perro, Gato, Caballo, Helado.",
+        "options": [
+            "Perro",
+            "Helado",
+            "Gato",
+            "Caballo"
+        ],
+        "correct": 1,
+        "explanation": "El helado es un postre para comer; los otros tres son animales.",
+        "id": "q_g1_ingenio_13"
+    },
+    {
+        "grade": 1,
+        "category": "ingenio",
+        "question": "¿Cuál NO es un útil escolar de la cartuchera? Lápiz, Goma, Tenedor, Regla.",
+        "options": [
+            "Goma",
+            "Lápiz",
+            "Tenedor",
+            "Regla"
+        ],
+        "correct": 2,
+        "explanation": "El tenedor es un cubierto de cocina, no un útil escolar.",
+        "id": "q_g1_ingenio_14"
+    },
+    {
+        "grade": 1,
+        "category": "ingenio",
+        "question": "¿Cuál elemento NO va en la cabeza? Gorro, Sombrero, Boina, Zapatilla.",
+        "options": [
+            "Zapatilla",
+            "Sombrero",
+            "Gorro",
+            "Boina"
+        ],
+        "correct": 0,
+        "explanation": "Las zapatillas se usan en los pies, no en la cabeza.",
+        "id": "q_g1_ingenio_15"
+    },
+    {
+        "grade": 1,
+        "category": "ingenio",
+        "question": "¿Cuál de estos transportes NO viaja por el agua? Barco, Canoa, Submarino, Avión.",
+        "options": [
+            "Submarino",
+            "Avión",
+            "Barco",
+            "Canoa"
+        ],
+        "correct": 1,
+        "explanation": "El avión viaja por el aire, los demás navegan por el agua.",
+        "id": "q_g1_ingenio_16"
+    },
+    {
+        "grade": 1,
+        "category": "ingenio",
+        "question": "¿Cuál NO es una prenda de vestir? Campera, Pantalón, Remera, Cuchara.",
+        "options": [
+            "Remera",
+            "Pantalón",
+            "Campera",
+            "Cuchara"
+        ],
+        "correct": 3,
+        "explanation": "La cuchara es un utensilio para comer sopa o postre.",
+        "id": "q_g1_ingenio_17"
+    },
+    {
+        "grade": 1,
+        "category": "ingenio",
+        "question": "¿Cuál de estos colores NO está en la bandera argentina? Celeste, Blanco, Amarillo, Negro.",
+        "options": [
+            "Negro",
+            "Blanco",
+            "Amarillo",
+            "Celeste"
+        ],
+        "correct": 0,
+        "explanation": "La bandera argentina tiene celeste, blanco y el sol amarillo; no tiene negro.",
+        "id": "q_g1_ingenio_18"
+    },
+    {
+        "grade": 1,
+        "category": "ingenio",
+        "question": "¿Qué número completa la serie? 1, 2, 3, 4, ...",
+        "options": [
+            "3",
+            "6",
+            "5",
+            "7"
+        ],
+        "correct": 2,
+        "explanation": "La serie avanza de uno en uno: 1, 2, 3, 4, 5.",
+        "id": "q_g1_ingenio_19"
+    },
+    {
+        "grade": 1,
+        "category": "ingenio",
+        "question": "¿Qué número completa la serie de dos en dos? 2, 4, 6, ...",
+        "options": [
+            "10",
+            "7",
+            "8",
+            "9"
+        ],
+        "correct": 2,
+        "explanation": "Sumando 2 cada vez: 2, 4, 6, 8.",
+        "id": "q_g1_ingenio_20"
+    },
+    {
+        "grade": 1,
+        "category": "ingenio",
+        "question": "¿Qué número completa la cuenta regresiva? 5, 4, 3, 2, 1, ...",
+        "options": [
+            "0",
+            "2",
+            "10",
+            "6"
+        ],
+        "correct": 0,
+        "explanation": "Al contar hacia atrás hasta el despegue llegamos al 0.",
+        "id": "q_g1_ingenio_21"
+    },
+    {
+        "grade": 1,
+        "category": "ingenio",
+        "question": "Si hoy es domingo, ¿qué día fue ayer?",
+        "options": [
+            "Sábado",
+            "Martes",
+            "Lunes",
+            "Viernes"
+        ],
+        "correct": 0,
+        "explanation": "Ayer fue el día anterior: antes del domingo estuvo el sábado.",
+        "id": "q_g1_ingenio_22"
+    },
+    {
+        "grade": 1,
+        "category": "ingenio",
+        "question": "Si hoy es miércoles, ¿qué día será mañana?",
+        "options": [
+            "Martes",
+            "Lunes",
+            "Viernes",
+            "Jueves"
+        ],
+        "correct": 3,
+        "explanation": "Mañana es el día que sigue: después del miércoles viene el jueves.",
+        "id": "q_g1_ingenio_23"
+    },
+    {
+        "grade": 1,
+        "category": "ingenio",
+        "question": "¿En qué orden transcurre el día?",
+        "options": [
+            "Tarde, mañana y noche",
+            "Noche, tarde y mañana",
+            "Mediodía y noche solamente",
+            "Mañana, tarde y noche"
+        ],
+        "correct": 3,
+        "explanation": "El día comienza por la mañana, sigue por la tarde y termina por la noche.",
+        "id": "q_g1_ingenio_24"
+    },
+    {
+        "grade": 1,
+        "category": "ingenio",
+        "question": "¿Qué usamos para secarnos el cuerpo al salir de la ducha?",
+        "options": [
+            "Una sábana",
+            "Una toalla",
+            "Una servilleta",
+            "Un repasador"
+        ],
+        "correct": 1,
+        "explanation": "La toalla es de tela absorbente especial para secar el cuerpo.",
+        "id": "q_g1_ingenio_25"
+    },
+    {
+        "grade": 1,
+        "category": "ingenio",
+        "question": "¿Dónde guardamos la leche y el yogur para que se mantengan frescos y no se echen a perder?",
+        "options": [
+            "En la heladera",
+            "En el horno caliente",
+            "Debajo de la cama",
+            "Adentro del placard"
+        ],
+        "correct": 0,
+        "explanation": "La heladera mantiene los alimentos refrigerados y frescos.",
+        "id": "q_g1_ingenio_26"
+    },
+    {
+        "grade": 1,
+        "category": "ingenio",
+        "question": "Si salís afuera en un día de mucha lluvia, ¿qué te ponés para no mojarte los pies?",
+        "options": [
+            "Ojotas de playa",
+            "Medias solas",
+            "Botas de lluvia de goma",
+            "Zapatillas de tela"
+        ],
+        "correct": 2,
+        "explanation": "Las botas de lluvia son impermeables y no dejan pasar el agua.",
+        "id": "q_g1_ingenio_27"
+    },
+    {
+        "grade": 1,
+        "category": "ingenio",
+        "question": "Si se corta la luz de noche en casa, ¿qué elemento seguro podemos encender?",
+        "options": [
+            "Un ventilador",
+            "Un balde de agua",
+            "Una linterna a pilas",
+            "Una radio apagada"
+        ],
+        "correct": 2,
+        "explanation": "La linterna ilumina en la oscuridad con seguridad.",
+        "id": "q_g1_ingenio_28"
+    },
+    {
+        "grade": 1,
+        "category": "ingenio",
+        "question": "¿Qué objeto usamos para recortar figuras de papel?",
+        "options": [
+            "La tijera escolar de punta redonda",
+            "La cuchara",
+            "El sacapuntas",
+            "El martillo"
+        ],
+        "correct": 0,
+        "explanation": "La tijera es la herramienta adecuada para cortar papel.",
+        "id": "q_g1_ingenio_29"
+    },
+    {
+        "grade": 1,
+        "category": "ingenio",
+        "question": "Si tenés frío en la cama por la noche, ¿con qué te tapás?",
+        "options": [
+            "Con una frazada o acolchado",
+            "Con un mantel",
+            "Con una toalla",
+            "Con una hoja de papel"
+        ],
+        "correct": 0,
+        "explanation": "Las frazadas y acolchados abrigan y mantienen el calor en la cama.",
+        "id": "q_g1_ingenio_30"
+    },
+    {
+        "grade": 1,
+        "category": "ingenio",
+        "question": "¿Qué elemento produce sombra en un día soleado?",
+        "options": [
+            "Cualquier objeto que tape la luz del Sol",
+            "La oscuridad",
+            "La Luna",
+            "El agua"
+        ],
+        "correct": 0,
+        "explanation": "La sombra se forma cuando un cuerpo opaco bloquea los rayos de luz.",
+        "id": "q_g1_ingenio_31"
+    },
+    {
+        "grade": 1,
+        "category": "ingenio",
+        "question": "Si ves huellas de herraduras en la tierra del campo, ¿qué animal pasó por allí?",
+        "options": [
+            "Un caballo",
+            "Un pato",
+            "Una serpiente",
+            "Un gato"
+        ],
+        "correct": 0,
+        "explanation": "Los caballos llevan herraduras de metal en sus cascos.",
+        "id": "q_g1_ingenio_32"
+    },
+    {
+        "grade": 1,
+        "category": "ingenio",
+        "question": "Adivina adivinador: 'Blanca por dentro, verde por fuera; si quieres que te lo diga, espera'. ¿Qué fruta es?",
+        "options": [
+            "La pera",
+            "La uva",
+            "La manzana",
+            "El limón"
+        ],
+        "correct": 0,
+        "explanation": "La pera es una adivinanza clásica: 'espera' da la pista de 'es pera'.",
+        "id": "q_g1_ingenio_33"
+    },
+    {
+        "grade": 1,
+        "category": "ingenio",
+        "question": "Adivina adivinador: 'Oro parece, plata no es; el que no lo adivine, bien tonto es'. ¿Qué fruta es?",
+        "options": [
+            "La frutilla",
+            "La sandía",
+            "El plátano o banana",
+            "La naranja"
+        ],
+        "correct": 2,
+        "explanation": "La adivinanza dice 'oro parece, plata no es' (plátano).",
+        "id": "q_g1_ingenio_34"
+    },
+    {
+        "grade": 1,
+        "category": "ingenio",
+        "question": "Adivina adivinador: 'Tengo cuatro patas y no puedo andar; tengo comida encima y no puedo comer'. ¿Quién soy?",
+        "options": [
+            "El perro",
+            "La cama",
+            "La mesa",
+            "La silla"
+        ],
+        "correct": 2,
+        "explanation": "La mesa tiene 4 patas y sobre ella apoyamos los platos de comida.",
+        "id": "q_g1_ingenio_35"
+    },
+    {
+        "grade": 1,
+        "category": "ingenio",
+        "question": "Adivina adivinador: 'Dos compañeras van al compás, con los pies delante y los ojos detrás'. ¿Quién soy?",
+        "options": [
+            "Las zapatillas",
+            "Las medias",
+            "La tijera",
+            "Los anteojos"
+        ],
+        "correct": 2,
+        "explanation": "La tijera tiene dos ojos donde ponemos los dedos y dos hojas que cortan juntas.",
+        "id": "q_g1_ingenio_36"
+    },
+    {
+        "grade": 1,
+        "category": "ingenio",
+        "question": "Adivina adivinador: 'Chiquito como un ratón, pero cuida la casa como un león'. ¿Qué es?",
+        "options": [
+            "El candado o la llave",
+            "El timbre",
+            "La ventana",
+            "La puerta"
+        ],
+        "correct": 0,
+        "explanation": "El candado o la llave es pequeño pero protege la entrada de la casa.",
+        "id": "q_g1_ingenio_37"
+    },
+    {
+        "grade": 1,
+        "category": "ingenio",
+        "question": "¿Cuál es el elemento INTRUSO? Círculo, Cuadrado, Triángulo, Perro.",
+        "options": [
+            "Cuadrado",
+            "Círculo",
+            "Triángulo",
+            "Perro"
+        ],
+        "correct": 3,
+        "explanation": "El perro es un animal, los otros tres son figuras geométricas.",
+        "id": "q_g1_ingenio_38"
+    },
+    {
+        "grade": 1,
+        "category": "ingenio",
+        "question": "¿Cuál NO es un instrumento musical? Guitarra, Tambor, Flauta, Martillo.",
+        "options": [
+            "Tambor",
+            "Martillo",
+            "Flauta",
+            "Guitarra"
+        ],
+        "correct": 1,
+        "explanation": "El martillo es una herramienta de carpintería, no un instrumento musical.",
+        "id": "q_g1_ingenio_39"
+    },
+    {
+        "grade": 1,
+        "category": "ingenio",
+        "question": "¿Cuál NO es una verdura? Lechuga, Zanahoria, Tomate, Alfajor.",
+        "options": [
+            "Lechuga",
+            "Tomate",
+            "Alfajor",
+            "Zanahoria"
+        ],
+        "correct": 2,
+        "explanation": "El alfajor es una golosina dulce, no una verdura.",
+        "id": "q_g1_ingenio_40"
+    },
+    {
+        "grade": 1,
+        "category": "ingenio",
+        "question": "¿Qué número falta en este conteo de 5 en 5? 5, 10, 15, ...",
+        "options": [
+            "16",
+            "30",
+            "20",
+            "25"
+        ],
+        "correct": 2,
+        "explanation": "Contando de 5 en 5: 5, 10, 15 y el siguiente es 20.",
+        "id": "q_g1_ingenio_41"
+    },
+    {
+        "grade": 1,
+        "category": "ingenio",
+        "question": "¿Qué número falta en esta cuenta? 10, 20, 30, ...",
+        "options": [
+            "35",
+            "40",
+            "25",
+            "50"
+        ],
+        "correct": 1,
+        "explanation": "Contando de 10 en 10: 10, 20, 30 y sigue 40.",
+        "id": "q_g1_ingenio_42"
+    },
+    {
+        "grade": 1,
+        "category": "ingenio",
+        "question": "Si tenés 3 globos rojos y 2 globos azules, ¿cuántos globos tenés en total?",
+        "options": [
+            "6",
+            "4",
+            "5",
+            "3"
+        ],
+        "correct": 2,
+        "explanation": "3 + 2 = 5 globos en total.",
+        "id": "q_g1_ingenio_43"
+    },
+    {
+        "grade": 1,
+        "category": "ingenio",
+        "question": "¿Qué usamos para ver películas o dibujitos animados en casa?",
+        "options": [
+            "La televisión",
+            "La tostadora",
+            "El microondas",
+            "La plancha"
+        ],
+        "correct": 0,
+        "explanation": "La tele o pantalla nos permite mirar programas y películas.",
+        "id": "q_g1_ingenio_44"
+    },
+    {
+        "grade": 1,
+        "category": "ingenio",
+        "question": "¿Qué objeto se usa para peinar y desenredar el cabello?",
+        "options": [
+            "La escoba",
+            "El peine o cepillo",
+            "El cepillo de dientes",
+            "El lápiz"
+        ],
+        "correct": 1,
+        "explanation": "El peine acomoda y desenreda el pelo suavemente.",
+        "id": "q_g1_ingenio_45"
+    },
+    {
+        "grade": 1,
+        "category": "ingenio",
+        "question": "Si ponés agua en el congelador o freezer de la heladera, ¿en qué se convierte?",
+        "options": [
+            "En fuego",
+            "En jugo de manzana",
+            "En vapor caliente",
+            "En hielo frío"
+        ],
+        "correct": 3,
+        "explanation": "El agua líquida con mucho frío se congela y se transforma en hielo sólido.",
+        "id": "q_g1_ingenio_46"
+    },
+    {
+        "grade": 1,
+        "category": "ingenio",
+        "question": "¿Qué animal dice 'pío pío' cuando busca a su mamá gallina?",
+        "options": [
+            "El perrito",
+            "El patito",
+            "El gatito",
+            "El pollito"
+        ],
+        "correct": 3,
+        "explanation": "El pollito emite su sonido característico: 'pío pío'.",
+        "id": "q_g1_ingenio_47"
+    },
+    {
+        "grade": 1,
+        "category": "ingenio",
+        "question": "¿Cuál de estos recipientes usamos para tomar un té o mate cocido caliente?",
+        "options": [
+            "Un plato hondo",
+            "Una caja de zapatos",
+            "Una taza con asa",
+            "Una cuchara"
+        ],
+        "correct": 2,
+        "explanation": "La taza con asa permite sostener la bebida caliente sin quemarse los dedos.",
+        "id": "q_g1_ingenio_48"
+    },
+    {
+        "grade": 1,
+        "category": "ingenio",
+        "question": "¿Qué objeto con cerdas usamos para barrer el piso sucio?",
+        "options": [
+            "La cortina",
+            "La regla",
+            "La escoba",
+            "La almohada"
+        ],
+        "correct": 2,
+        "explanation": "La escoba barre la basura y el polvo del suelo hacia la pala.",
+        "id": "q_g1_ingenio_49"
+    },
+    {
+        "grade": 1,
+        "category": "ingenio",
+        "question": "Adivina adivinador: 'Subo llena y bajo vacía; si no me apuro, la sopa se enfría'. ¿Qué soy?",
+        "options": [
+            "El tenedor",
+            "El vaso",
+            "El cuchillo",
+            "La cuchara"
+        ],
+        "correct": 3,
+        "explanation": "La cuchara sube a la boca llena de comida o sopa y baja vacía.",
+        "id": "q_g1_ingenio_50"
+    }
+    ,
+    {
+        "grade": 2,
+        "category": "matematica",
+        "question": "¿Qué número se forma con 3 decenas y 5 unidades?",
+        "options": [
+            "30",
+            "53",
+            "35",
+            "305"
+        ],
+        "correct": 2,
+        "explanation": "3 decenas son 30 + 5 unidades = 35.",
+        "id": "q_g2_matematica_1"
+    },
+    {
+        "grade": 2,
+        "category": "matematica",
+        "question": "¿Cuántas decenas hay en una centena (el número 100)?",
+        "options": [
+            "100 decenas",
+            "5 decenas",
+            "1 decena",
+            "10 decenas"
+        ],
+        "correct": 3,
+        "explanation": "10 decenas de 10 unidades cada una forman una centena (10 x 10 = 100).",
+        "id": "q_g2_matematica_2"
+    },
+    {
+        "grade": 2,
+        "category": "matematica",
+        "question": "¿Qué número está entre el 49 y el 51?",
+        "options": [
+            "50",
+            "52",
+            "40",
+            "48"
+        ],
+        "correct": 0,
+        "explanation": "El número que se encuentra justo en el medio es el 50.",
+        "id": "q_g2_matematica_3"
+    },
+    {
+        "grade": 2,
+        "category": "matematica",
+        "question": "¿Cómo se escribe en números 'doscientos cincuenta'?",
+        "options": [
+            "205",
+            "250",
+            "520",
+            "20050"
+        ],
+        "correct": 1,
+        "explanation": "Doscientos cincuenta se escribe 250.",
+        "id": "q_g2_matematica_4"
+    },
+    {
+        "grade": 2,
+        "category": "matematica",
+        "question": "¿Cuál de estos números es un número par?",
+        "options": [
+            "8",
+            "7",
+            "5",
+            "9"
+        ],
+        "correct": 0,
+        "explanation": "Los números pares terminan en 0, 2, 4, 6 u 8 y se pueden dividir en 2 partes iguales.",
+        "id": "q_g2_matematica_5"
+    },
+    {
+        "grade": 2,
+        "category": "matematica",
+        "question": "¿Cuál de estos números es un número impar?",
+        "options": [
+            "9",
+            "4",
+            "6",
+            "10"
+        ],
+        "correct": 0,
+        "explanation": "Los números impares terminan en 1, 3, 5, 7 o 9 y sobra uno al repartir de a 2.",
+        "id": "q_g2_matematica_6"
+    },
+    {
+        "grade": 2,
+        "category": "matematica",
+        "question": "Si contamos de 5 en 5: 15, 20, 25... ¿cuál sigue?",
+        "options": [
+            "26",
+            "29",
+            "30",
+            "35"
+        ],
+        "correct": 2,
+        "explanation": "25 + 5 = 30.",
+        "id": "q_g2_matematica_7"
+    },
+    {
+        "grade": 2,
+        "category": "matematica",
+        "question": "Si contamos de 10 en 10: 40, 50, 60... ¿cuál sigue?",
+        "options": [
+            "80",
+            "100",
+            "65",
+            "70"
+        ],
+        "correct": 3,
+        "explanation": "Sumando decenas: 40, 50, 60, 70.",
+        "id": "q_g2_matematica_8"
+    },
+    {
+        "grade": 2,
+        "category": "matematica",
+        "question": "¿Cuál es el número anterior a 100?",
+        "options": [
+            "101",
+            "90",
+            "99",
+            "98"
+        ],
+        "correct": 2,
+        "explanation": "El número justo anterior a 100 es 99.",
+        "id": "q_g2_matematica_9"
+    },
+    {
+        "grade": 2,
+        "category": "matematica",
+        "question": "¿Cuál es el número posterior a 100?",
+        "options": [
+            "99",
+            "101",
+            "200",
+            "110"
+        ],
+        "correct": 1,
+        "explanation": "El número siguiente a 100 es 101.",
+        "id": "q_g2_matematica_10"
+    },
+    {
+        "grade": 2,
+        "category": "matematica",
+        "question": "¿Cuánto es 20 + 30?",
+        "options": [
+            "60",
+            "40",
+            "500",
+            "50"
+        ],
+        "correct": 3,
+        "explanation": "2 decenas + 3 decenas = 5 decenas (50).",
+        "id": "q_g2_matematica_11"
+    },
+    {
+        "grade": 2,
+        "category": "matematica",
+        "question": "¿Cuánto es 15 + 15?",
+        "options": [
+            "35",
+            "25",
+            "30",
+            "40"
+        ],
+        "correct": 2,
+        "explanation": "15 + 15 = 30 (el doble de 15 es 30).",
+        "id": "q_g2_matematica_12"
+    },
+    {
+        "grade": 2,
+        "category": "matematica",
+        "question": "¿Cuánto es 24 + 6?",
+        "options": [
+            "32",
+            "29",
+            "28",
+            "30"
+        ],
+        "correct": 3,
+        "explanation": "4 + 6 forman una decena (10), más 20 = 30.",
+        "id": "q_g2_matematica_13"
+    },
+    {
+        "grade": 2,
+        "category": "matematica",
+        "question": "¿Cuánto es 50 + 50?",
+        "options": [
+            "90",
+            "200",
+            "150",
+            "100"
+        ],
+        "correct": 3,
+        "explanation": "50 + 50 = 100 (media centena + media centena = 1 centena).",
+        "id": "q_g2_matematica_14"
+    },
+    {
+        "grade": 2,
+        "category": "matematica",
+        "question": "Si tenés $40 y encontrás $20 más, ¿cuánto dinero tenés?",
+        "options": [
+            "$50",
+            "$60",
+            "$70",
+            "$42"
+        ],
+        "correct": 1,
+        "explanation": "40 + 20 = 60 pesos en total.",
+        "id": "q_g2_matematica_15"
+    },
+    {
+        "grade": 2,
+        "category": "matematica",
+        "question": "¿Cuánto es 35 + 10?",
+        "options": [
+            "45",
+            "55",
+            "36",
+            "40"
+        ],
+        "correct": 0,
+        "explanation": "Sumar 10 aumenta una decena: 35 + 10 = 45.",
+        "id": "q_g2_matematica_16"
+    },
+    {
+        "grade": 2,
+        "category": "matematica",
+        "question": "¿Cuánto es 8 + 8?",
+        "options": [
+            "15",
+            "14",
+            "18",
+            "16"
+        ],
+        "correct": 3,
+        "explanation": "El doble de 8 es 16 (8 + 8 = 16).",
+        "id": "q_g2_matematica_17"
+    },
+    {
+        "grade": 2,
+        "category": "matematica",
+        "question": "¿Cuánto es 12 + 8?",
+        "options": [
+            "22",
+            "19",
+            "20",
+            "18"
+        ],
+        "correct": 2,
+        "explanation": "12 + 8 = 20.",
+        "id": "q_g2_matematica_18"
+    },
+    {
+        "grade": 2,
+        "category": "matematica",
+        "question": "Si en una caja hay 25 lápices y agregamos 5, ¿cuántos hay?",
+        "options": [
+            "30",
+            "35",
+            "29",
+            "28"
+        ],
+        "correct": 0,
+        "explanation": "25 + 5 = 30 lápices.",
+        "id": "q_g2_matematica_19"
+    },
+    {
+        "grade": 2,
+        "category": "matematica",
+        "question": "¿Cuánto es 70 + 30?",
+        "options": [
+            "80",
+            "90",
+            "100",
+            "110"
+        ],
+        "correct": 2,
+        "explanation": "7 decenas + 3 decenas = 10 decenas = 100.",
+        "id": "q_g2_matematica_20"
+    },
+    {
+        "grade": 2,
+        "category": "matematica",
+        "question": "¿Cuánto es 50 - 20?",
+        "options": [
+            "20",
+            "40",
+            "30",
+            "25"
+        ],
+        "correct": 2,
+        "explanation": "5 decenas menos 2 decenas = 3 decenas (30).",
+        "id": "q_g2_matematica_21"
+    },
+    {
+        "grade": 2,
+        "category": "matematica",
+        "question": "¿Cuánto es 100 - 10?",
+        "options": [
+            "99",
+            "80",
+            "89",
+            "90"
+        ],
+        "correct": 3,
+        "explanation": "Si a 100 le quitamos una decena (10), nos quedan 90.",
+        "id": "q_g2_matematica_22"
+    },
+    {
+        "grade": 2,
+        "category": "matematica",
+        "question": "¿Cuánto es 40 - 5?",
+        "options": [
+            "35",
+            "36",
+            "45",
+            "30"
+        ],
+        "correct": 0,
+        "explanation": "40 - 5 = 35.",
+        "id": "q_g2_matematica_23"
+    },
+    {
+        "grade": 2,
+        "category": "matematica",
+        "question": "Tenías $100 y gastaste $30 en un libro. ¿Cuánto vuelto te queda?",
+        "options": [
+            "$60",
+            "$50",
+            "$80",
+            "$70"
+        ],
+        "correct": 3,
+        "explanation": "100 - 30 = 70 pesos.",
+        "id": "q_g2_matematica_24"
+    },
+    {
+        "grade": 2,
+        "category": "matematica",
+        "question": "¿Cuánto es 28 - 8?",
+        "options": [
+            "20",
+            "18",
+            "22",
+            "10"
+        ],
+        "correct": 0,
+        "explanation": "Al 28 le quitamos sus 8 unidades y queda la decena justa: 20.",
+        "id": "q_g2_matematica_25"
+    },
+    {
+        "grade": 2,
+        "category": "matematica",
+        "question": "¿Cuánto es 60 - 30?",
+        "options": [
+            "30",
+            "20",
+            "40",
+            "50"
+        ],
+        "correct": 0,
+        "explanation": "La mitad de 60 es 30, por eso 60 - 30 = 30.",
+        "id": "q_g2_matematica_26"
+    },
+    {
+        "grade": 2,
+        "category": "matematica",
+        "question": "¿Cuánto es 18 - 9?",
+        "options": [
+            "9",
+            "8",
+            "7",
+            "10"
+        ],
+        "correct": 0,
+        "explanation": "La mitad de 18 es 9 (9 + 9 = 18).",
+        "id": "q_g2_matematica_27"
+    },
+    {
+        "grade": 2,
+        "category": "matematica",
+        "question": "Si tenías 30 figuritas y le regalaste 10 a un amigo, ¿cuántas te quedan?",
+        "options": [
+            "25",
+            "10",
+            "20",
+            "15"
+        ],
+        "correct": 2,
+        "explanation": "30 - 10 = 20 figuritas.",
+        "id": "q_g2_matematica_28"
+    },
+    {
+        "grade": 2,
+        "category": "matematica",
+        "question": "¿Cuánto es 45 - 5?",
+        "options": [
+            "40",
+            "35",
+            "39",
+            "50"
+        ],
+        "correct": 0,
+        "explanation": "45 - 5 = 40.",
+        "id": "q_g2_matematica_29"
+    },
+    {
+        "grade": 2,
+        "category": "matematica",
+        "question": "¿Cuánto es 100 - 50?",
+        "options": [
+            "40",
+            "50",
+            "25",
+            "60"
+        ],
+        "correct": 1,
+        "explanation": "100 - 50 = 50.",
+        "id": "q_g2_matematica_30"
+    },
+    {
+        "grade": 2,
+        "category": "matematica",
+        "question": "¿Cuánto es 2 veces 3 (2 x 3)?",
+        "options": [
+            "6",
+            "4",
+            "8",
+            "5"
+        ],
+        "correct": 0,
+        "explanation": "2 veces 3 es sumar 3 + 3 = 6.",
+        "id": "q_g2_matematica_31"
+    },
+    {
+        "grade": 2,
+        "category": "matematica",
+        "question": "¿Cuánto es 2 x 4?",
+        "options": [
+            "8",
+            "7",
+            "6",
+            "10"
+        ],
+        "correct": 0,
+        "explanation": "2 veces 4 es 4 + 4 = 8.",
+        "id": "q_g2_matematica_32"
+    },
+    {
+        "grade": 2,
+        "category": "matematica",
+        "question": "¿Cuánto es 2 x 5?",
+        "options": [
+            "7",
+            "10",
+            "8",
+            "12"
+        ],
+        "correct": 1,
+        "explanation": "2 veces 5 es 5 + 5 = 10.",
+        "id": "q_g2_matematica_33"
+    },
+    {
+        "grade": 2,
+        "category": "matematica",
+        "question": "¿Cuánto es 2 x 10?",
+        "options": [
+            "100",
+            "12",
+            "20",
+            "15"
+        ],
+        "correct": 2,
+        "explanation": "El doble de 10 es 20 (10 + 10 = 20).",
+        "id": "q_g2_matematica_34"
+    },
+    {
+        "grade": 2,
+        "category": "matematica",
+        "question": "¿Cuánto es 5 x 2?",
+        "options": [
+            "7",
+            "12",
+            "15",
+            "10"
+        ],
+        "correct": 3,
+        "explanation": "5 veces 2 es 2 + 2 + 2 + 2 + 2 = 10.",
+        "id": "q_g2_matematica_35"
+    },
+    {
+        "grade": 2,
+        "category": "matematica",
+        "question": "¿Cuánto es 5 x 3?",
+        "options": [
+            "15",
+            "10",
+            "18",
+            "20"
+        ],
+        "correct": 0,
+        "explanation": "5 + 5 + 5 = 15.",
+        "id": "q_g2_matematica_36"
+    },
+    {
+        "grade": 2,
+        "category": "matematica",
+        "question": "Si tenés 3 paquetes con 2 alfajores cada uno, ¿cuántos alfajores tenés?",
+        "options": [
+            "8",
+            "6",
+            "4",
+            "5"
+        ],
+        "correct": 1,
+        "explanation": "3 paquetes x 2 alfajores = 6 alfajores en total.",
+        "id": "q_g2_matematica_37"
+    },
+    {
+        "grade": 2,
+        "category": "matematica",
+        "question": "¿Cuántos vértices (esquinas) tiene un cuadrado?",
+        "options": [
+            "4",
+            "3",
+            "5",
+            "0"
+        ],
+        "correct": 0,
+        "explanation": "Un cuadrado tiene 4 lados y 4 esquinas llamadas vértices.",
+        "id": "q_g2_matematica_38"
+    },
+    {
+        "grade": 2,
+        "category": "matematica",
+        "question": "¿Cuántos vértices tiene un triángulo?",
+        "options": [
+            "4",
+            "2",
+            "6",
+            "3"
+        ],
+        "correct": 3,
+        "explanation": "Un triángulo tiene 3 lados y 3 vértices.",
+        "id": "q_g2_matematica_39"
+    },
+    {
+        "grade": 2,
+        "category": "matematica",
+        "question": "¿Qué cuerpo geométrico rueda fácilmente en cualquier dirección?",
+        "options": [
+            "La caja",
+            "La pirámide",
+            "La esfera",
+            "El cubo"
+        ],
+        "correct": 2,
+        "explanation": "La esfera es completamente redonda y curva, por lo que rueda en todas direcciones.",
+        "id": "q_g2_matematica_40"
+    },
+    {
+        "grade": 2,
+        "category": "matematica",
+        "question": "¿Cuántas caras cuadradas iguales tiene un cubo?",
+        "options": [
+            "12 caras",
+            "6 caras",
+            "4 caras",
+            "8 caras"
+        ],
+        "correct": 1,
+        "explanation": "Un cubo (como un dado) tiene exactamente 6 caras cuadradas.",
+        "id": "q_g2_matematica_41"
+    },
+    {
+        "grade": 2,
+        "category": "matematica",
+        "question": "¿Qué cuerpo geométrico parece un sombrero de cumpleaños o cucurucho de helado?",
+        "options": [
+            "Un cubo",
+            "Un cono",
+            "Una esfera",
+            "Un cilindro"
+        ],
+        "correct": 1,
+        "explanation": "El cono tiene base circular plana y termina en una punta.",
+        "id": "q_g2_matematica_42"
+    },
+    {
+        "grade": 2,
+        "category": "matematica",
+        "question": "¿Qué cuerpo geométrico tiene forma de lata de gaseosa?",
+        "options": [
+            "Una esfera",
+            "Un cubo",
+            "Una pirámide",
+            "Un cilindro"
+        ],
+        "correct": 3,
+        "explanation": "El cilindro tiene dos bases circulares planas y una cara curva.",
+        "id": "q_g2_matematica_43"
+    },
+    {
+        "grade": 2,
+        "category": "matematica",
+        "question": "¿Con qué unidad medimos el peso de las frutas en la verdulería?",
+        "options": [
+            "En horas",
+            "En litros",
+            "En metros",
+            "En kilogramos (kilos)"
+        ],
+        "correct": 3,
+        "explanation": "El peso se mide con una balanza en kilogramos y gramos.",
+        "id": "q_g2_matematica_44"
+    },
+    {
+        "grade": 2,
+        "category": "matematica",
+        "question": "¿Con qué unidad medimos los líquidos como la leche o el agua?",
+        "options": [
+            "En minutos",
+            "En litros",
+            "En kilos",
+            "En metros"
+        ],
+        "correct": 1,
+        "explanation": "La capacidad de los líquidos se mide en litros.",
+        "id": "q_g2_matematica_45"
+    },
+    {
+        "grade": 2,
+        "category": "matematica",
+        "question": "¿Cuántos centímetros (cm) equivalen a un metro completo?",
+        "options": [
+            "1000 cm",
+            "100 cm",
+            "10 cm",
+            "50 cm"
+        ],
+        "correct": 1,
+        "explanation": "1 metro son exactamente 100 centímetros.",
+        "id": "q_g2_matematica_46"
+    },
+    {
+        "grade": 2,
+        "category": "matematica",
+        "question": "Si el reloj de agujas marca las 3 en punto, ¿dónde está la aguja larga de los minutos?",
+        "options": [
+            "En el 3",
+            "En el 12",
+            "En el 6",
+            "En el 9"
+        ],
+        "correct": 1,
+        "explanation": "En las horas en punto, el minutero largo siempre apunta al 12.",
+        "id": "q_g2_matematica_47"
+    },
+    {
+        "grade": 2,
+        "category": "matematica",
+        "question": "Si el reloj marca las 4 y media (4:30), ¿hacia qué número apunta el minutero largo?",
+        "options": [
+            "Hacia el 12",
+            "Hacia el 6",
+            "Hacia el 4",
+            "Hacia el 3"
+        ],
+        "correct": 1,
+        "explanation": "Al pasar media hora (30 minutos), la aguja larga apunta al 6.",
+        "id": "q_g2_matematica_48"
+    },
+    {
+        "grade": 2,
+        "category": "matematica",
+        "question": "¿Cuántos meses tiene un año completo?",
+        "options": [
+            "10 meses",
+            "24 meses",
+            "12 meses",
+            "7 meses"
+        ],
+        "correct": 2,
+        "explanation": "Un año tiene 12 meses: desde enero hasta diciembre.",
+        "id": "q_g2_matematica_49"
+    },
+    {
+        "grade": 2,
+        "category": "matematica",
+        "question": "¿Qué mes viene inmediatamente después de marzo?",
+        "options": [
+            "Abril",
+            "Mayo",
+            "Junio",
+            "Febrero"
+        ],
+        "correct": 0,
+        "explanation": "El orden de los meses es enero, febrero, marzo, abril, mayo...",
+        "id": "q_g2_matematica_50"
+    },
+    {
+        "grade": 2,
+        "category": "lengua",
+        "question": "¿Cuál de las siguientes palabras es un sustantivo propio y debe ir con mayúscula?",
+        "options": [
+            "país",
+            "montaña",
+            "río",
+            "Argentina"
+        ],
+        "correct": 3,
+        "explanation": "'Argentina' es el nombre propio de un país y siempre se escribe con mayúscula inicial.",
+        "id": "q_g2_lengua_1"
+    },
+    {
+        "grade": 2,
+        "category": "lengua",
+        "question": "¿Cuál de estas palabras es un sustantivo común?",
+        "options": [
+            "Perro",
+            "Córdoba",
+            "Mateo",
+            "España"
+        ],
+        "correct": 0,
+        "explanation": "'Perro' nombra a un animal de forma general, por eso es un sustantivo común.",
+        "id": "q_g2_lengua_2"
+    },
+    {
+        "grade": 2,
+        "category": "lengua",
+        "question": "¿Cuál es un sustantivo que nombra un lugar propio?",
+        "options": [
+            "Buenos Aires",
+            "ciudad",
+            "plaza",
+            "calle"
+        ],
+        "correct": 0,
+        "explanation": "'Buenos Aires' es el nombre propio de una provincia y ciudad.",
+        "id": "q_g2_lengua_3"
+    },
+    {
+        "grade": 2,
+        "category": "lengua",
+        "question": "Los nombres de personas, mascotas y países se llaman sustantivos:",
+        "options": [
+            "Verbos",
+            "Adjetivos",
+            "Comunes",
+            "Propios"
+        ],
+        "correct": 3,
+        "explanation": "Los sustantivos propios identifican a un ser o lugar en particular.",
+        "id": "q_g2_lengua_4"
+    },
+    {
+        "grade": 2,
+        "category": "lengua",
+        "question": "En la frase 'El auto rojo es rápido', las palabras 'rojo' y 'rápido' son:",
+        "options": [
+            "Adjetivos calificativos",
+            "Verbos",
+            "Pronombres",
+            "Sustantivos"
+        ],
+        "correct": 0,
+        "explanation": "Los adjetivos calificativos nos dicen cómo es o cómo está un sustantivo.",
+        "id": "q_g2_lengua_5"
+    },
+    {
+        "grade": 2,
+        "category": "lengua",
+        "question": "¿Qué adjetivo describe mejor a una tortuga?",
+        "options": [
+            "Rápida",
+            "Lenta",
+            "Peluda",
+            "Voladora"
+        ],
+        "correct": 1,
+        "explanation": "La tortuga se caracteriza por ser un animal lento.",
+        "id": "q_g2_lengua_6"
+    },
+    {
+        "grade": 2,
+        "category": "lengua",
+        "question": "¿Cuál de estas palabras es un adjetivo?",
+        "options": [
+            "Correr",
+            "Hermoso",
+            "Árbol",
+            "Mesa"
+        ],
+        "correct": 1,
+        "explanation": "'Hermoso' describe una cualidad, por lo tanto es un adjetivo.",
+        "id": "q_g2_lengua_7"
+    },
+    {
+        "grade": 2,
+        "category": "lengua",
+        "question": "En la oración 'La manzana dulce está madura', ¿qué palabra nos dice el sabor de la manzana?",
+        "options": [
+            "Dulce",
+            "Manzana",
+            "Está",
+            "Madura"
+        ],
+        "correct": 0,
+        "explanation": "'Dulce' es el adjetivo que califica el sabor de la fruta.",
+        "id": "q_g2_lengua_8"
+    },
+    {
+        "grade": 2,
+        "category": "lengua",
+        "question": "¿Cuál es el sinónimo de 'Feliz' (significa lo mismo)?",
+        "options": [
+            "Contento",
+            "Triste",
+            "Cansado",
+            "Enojado"
+        ],
+        "correct": 0,
+        "explanation": "Feliz y contento tienen el mismo significado: son sinónimos.",
+        "id": "q_g2_lengua_9"
+    },
+    {
+        "grade": 2,
+        "category": "lengua",
+        "question": "¿Cuál es el sinónimo de 'Comenzar'?",
+        "options": [
+            "Empezar",
+            "Terminar",
+            "Cerrar",
+            "Parar"
+        ],
+        "correct": 0,
+        "explanation": "Comenzar y empezar significan dar inicio a una acción.",
+        "id": "q_g2_lengua_10"
+    },
+    {
+        "grade": 2,
+        "category": "lengua",
+        "question": "¿Cuál es el sinónimo de 'Rápido'?",
+        "options": [
+            "Veloz",
+            "Lento",
+            "Pesado",
+            "Tranquilo"
+        ],
+        "correct": 0,
+        "explanation": "Alguien rápido es alguien veloz.",
+        "id": "q_g2_lengua_11"
+    },
+    {
+        "grade": 2,
+        "category": "lengua",
+        "question": "¿Cuál es el antónimo (opuesto) de 'Sumar'?",
+        "options": [
+            "Multiplicar",
+            "Juntar",
+            "Agregar",
+            "Restar"
+        ],
+        "correct": 3,
+        "explanation": "Lo opuesto a sumar (agregar) es restar (quitar).",
+        "id": "q_g2_lengua_12"
+    },
+    {
+        "grade": 2,
+        "category": "lengua",
+        "question": "¿Cuál es el antónimo de 'Subir'?",
+        "options": [
+            "Saltar",
+            "Trepar",
+            "Correr",
+            "Bajar"
+        ],
+        "correct": 3,
+        "explanation": "Lo contrario de subir es bajar.",
+        "id": "q_g2_lengua_13"
+    },
+    {
+        "grade": 2,
+        "category": "lengua",
+        "question": "¿Cuál es el antónimo de 'Oscuro'?",
+        "options": [
+            "Claro o luminoso",
+            "Negro",
+            "Frío",
+            "Lejano"
+        ],
+        "correct": 0,
+        "explanation": "Lo opuesto de algo oscuro es algo claro y con luz.",
+        "id": "q_g2_lengua_14"
+    },
+    {
+        "grade": 2,
+        "category": "lengua",
+        "question": "Antes de las letras P y B siempre se escribe la letra:",
+        "options": [
+            "S",
+            "L",
+            "N",
+            "M (como en campo y tambor)"
+        ],
+        "correct": 3,
+        "explanation": "La regla ortográfica indica que antes de P y B siempre va M (MP y MB).",
+        "id": "q_g2_lengua_15"
+    },
+    {
+        "grade": 2,
+        "category": "lengua",
+        "question": "¿Qué palabra está correctamente escrita con MP?",
+        "options": [
+            "Campamiento",
+            "Campamento",
+            "Canpamento",
+            "Capamento"
+        ],
+        "correct": 1,
+        "explanation": "Se escribe 'Campamento' con M antes de P.",
+        "id": "q_g2_lengua_16"
+    },
+    {
+        "grade": 2,
+        "category": "lengua",
+        "question": "¿Qué palabra está correctamente escrita con MB?",
+        "options": [
+            "Sonbrilla",
+            "Sombrilla",
+            "Sobrrilla",
+            "Somrilla"
+        ],
+        "correct": 1,
+        "explanation": "Se escribe 'Sombrilla' con M antes de B.",
+        "id": "q_g2_lengua_17"
+    },
+    {
+        "grade": 2,
+        "category": "lengua",
+        "question": "¿Cómo se escribe el animal que ladra con sonido fuerte entre dos vocales?",
+        "options": [
+            "Perro",
+            "Pero",
+            "Pehro",
+            "Pelo"
+        ],
+        "correct": 0,
+        "explanation": "El sonido fuerte de la 'rr' entre dos vocales se escribe con doble r: perro.",
+        "id": "q_g2_lengua_18"
+    },
+    {
+        "grade": 2,
+        "category": "lengua",
+        "question": "La palabra 'pero' con una sola r suena suave. Si queremos nombrar al animal fiel escribimos:",
+        "options": [
+            "Perro (con doble R)",
+            "Perio",
+            "Pero",
+            "Pelro"
+        ],
+        "correct": 0,
+        "explanation": "Con una R suena suave ('pero'); con doble R suena fuerte ('perro').",
+        "id": "q_g2_lengua_19"
+    },
+    {
+        "grade": 2,
+        "category": "lengua",
+        "question": "Al comienzo de una palabra, el sonido fuerte de la R se escribe con:",
+        "options": [
+            "Doble RR",
+            "NR",
+            "SR",
+            "Una sola R (como en Ratón o Río)"
+        ],
+        "correct": 3,
+        "explanation": "Ninguna palabra en español empieza con doble RR. Se escribe una sola R: Ratón, Rueda.",
+        "id": "q_g2_lengua_20"
+    },
+    {
+        "grade": 2,
+        "category": "lengua",
+        "question": "¿Cuál de estas palabras pertenece a la misma familia de 'Pan'?",
+        "options": [
+            "Panadería",
+            "Pantalón",
+            "Pandereta",
+            "Pantalla"
+        ],
+        "correct": 0,
+        "explanation": "Pan, panadero y panadería comparten la misma raíz de significado.",
+        "id": "q_g2_lengua_21"
+    },
+    {
+        "grade": 2,
+        "category": "lengua",
+        "question": "¿Cuál palabra pertenece a la familia de 'Flor'?",
+        "options": [
+            "Florero",
+            "Flan",
+            "Flotador",
+            "Flecha"
+        ],
+        "correct": 0,
+        "explanation": "Florero es un recipiente para poner flores y deriva de flor.",
+        "id": "q_g2_lengua_22"
+    },
+    {
+        "grade": 2,
+        "category": "lengua",
+        "question": "¿Cuál palabra pertenece a la familia de 'Mar'?",
+        "options": [
+            "Martes",
+            "Mariposa",
+            "Marinero",
+            "Marrón"
+        ],
+        "correct": 2,
+        "explanation": "Marinero es la persona que navega en el mar.",
+        "id": "q_g2_lengua_23"
+    },
+    {
+        "grade": 2,
+        "category": "lengua",
+        "question": "¿Cuál palabra pertenece a la familia de 'Sol'?",
+        "options": [
+            "Solo",
+            "Soleado",
+            "Soldado",
+            "Solución"
+        ],
+        "correct": 1,
+        "explanation": "Un día soleado es un día iluminado por el sol.",
+        "id": "q_g2_lengua_24"
+    },
+    {
+        "grade": 2,
+        "category": "lengua",
+        "question": "¿Cuál es el género de la palabra 'La pelota'?",
+        "options": [
+            "Neutro",
+            "Plural",
+            "Femenino",
+            "Masculino"
+        ],
+        "correct": 2,
+        "explanation": "Lleva el artículo 'La', por lo que es de género femenino.",
+        "id": "q_g2_lengua_25"
+    },
+    {
+        "grade": 2,
+        "category": "lengua",
+        "question": "¿Cuál es el género de la palabra 'El cuaderno'?",
+        "options": [
+            "Plural",
+            "Masculino",
+            "Neutro",
+            "Femenino"
+        ],
+        "correct": 1,
+        "explanation": "Lleva el artículo 'El', por lo que es de género masculino.",
+        "id": "q_g2_lengua_26"
+    },
+    {
+        "grade": 2,
+        "category": "lengua",
+        "question": "¿Cuál es el plural de 'árbol'?",
+        "options": [
+            "Árbols",
+            "Arboleda",
+            "Árboles",
+            "Arbolitos"
+        ],
+        "correct": 2,
+        "explanation": "Las palabras terminadas en consonante forman su plural agregando -es: árboles.",
+        "id": "q_g2_lengua_27"
+    },
+    {
+        "grade": 2,
+        "category": "lengua",
+        "question": "¿Cuál es el plural de 'lápiz'?",
+        "options": [
+            "Lapiceras",
+            "Lápices",
+            "Lapicitos",
+            "Lápizs"
+        ],
+        "correct": 1,
+        "explanation": "Las palabras terminadas en Z cambian la Z por C y agregan -es: lápices.",
+        "id": "q_g2_lengua_28"
+    },
+    {
+        "grade": 2,
+        "category": "lengua",
+        "question": "¿Cuál es el singular de 'ratones'?",
+        "options": [
+            "Ratone",
+            "Ratón",
+            "Rata",
+            "Ratoncito"
+        ],
+        "correct": 1,
+        "explanation": "El singular de ratones es ratón (con tilde en la O).",
+        "id": "q_g2_lengua_29"
+    },
+    {
+        "grade": 2,
+        "category": "lengua",
+        "question": "¿Con qué signo cerramos una pregunta por escrito?",
+        "options": [
+            "Signo de admiración (!)",
+            "Signo de interrogación de cierre (?)",
+            "Punto final (.)",
+            "Coma (,)"
+        ],
+        "correct": 1,
+        "explanation": "En español las preguntas se abren con ¿ y se cierran con ?.",
+        "id": "q_g2_lengua_30"
+    },
+    {
+        "grade": 2,
+        "category": "lengua",
+        "question": "¿Qué signos usamos para expresar sorpresa, entusiasmo o un grito alegre?",
+        "options": [
+            "Signos de exclamación (¡ !)",
+            "Signos de pregunta (¿ ?)",
+            "Puntos suspensivos",
+            "Paréntesis"
+        ],
+        "correct": 0,
+        "explanation": "Los signos de exclamación ¡ ! indican emoción, alegría o advertencia.",
+        "id": "q_g2_lengua_31"
+    },
+    {
+        "grade": 2,
+        "category": "lengua",
+        "question": "¿Qué usamos para separar elementos en una lista dentro de una oración?",
+        "options": [
+            "El punto final",
+            "La coma (,)",
+            "El signo más (+)",
+            "Las comillas"
+        ],
+        "correct": 1,
+        "explanation": "La coma sirve para hacer pausas breves y enumerar cosas: manzanas, peras y uvas.",
+        "id": "q_g2_lengua_32"
+    },
+    {
+        "grade": 2,
+        "category": "lengua",
+        "question": "En la fábula, ¿cómo se llama el mensaje o enseñanza que nos deja al final?",
+        "options": [
+            "Moraleja",
+            "Capítulo",
+            "Prólogo",
+            "Índice"
+        ],
+        "correct": 0,
+        "explanation": "La moraleja es la lección de vida que transmite una fábula.",
+        "id": "q_g2_lengua_33"
+    },
+    {
+        "grade": 2,
+        "category": "lengua",
+        "question": "¿Qué tipo de texto tiene versos, rimas y expresa hermosos sentimientos?",
+        "options": [
+            "Un manual de instrucciones",
+            "Una noticia del diario",
+            "Una receta de cocina",
+            "Un poema o poesía"
+        ],
+        "correct": 3,
+        "explanation": "Las poesías están formadas por versos con rima y ritmo.",
+        "id": "q_g2_lengua_34"
+    },
+    {
+        "grade": 2,
+        "category": "lengua",
+        "question": "Si leemos una receta de cocina, ¿qué información nos da primero?",
+        "options": [
+            "Los ingredientes necesarios",
+            "El precio del plato",
+            "El postre servido",
+            "La firma del autor"
+        ],
+        "correct": 0,
+        "explanation": "Toda receta empieza indicando los ingredientes que se van a usar.",
+        "id": "q_g2_lengua_35"
+    },
+    {
+        "grade": 2,
+        "category": "lengua",
+        "question": "¿Qué tipo de texto nos da instrucciones paso a paso para armar un juguete?",
+        "options": [
+            "Una leyenda",
+            "Un cuento de hadas",
+            "Un texto instructivo",
+            "Una adivinanza"
+        ],
+        "correct": 2,
+        "explanation": "Los instructivos explican ordenadamente los pasos a seguir.",
+        "id": "q_g2_lengua_36"
+    },
+    {
+        "grade": 2,
+        "category": "lengua",
+        "question": "¿Qué palabra está ordenada alfabéticamente en primer lugar?",
+        "options": [
+            "Auto",
+            "Casa",
+            "Dado",
+            "Barco"
+        ],
+        "correct": 3,
+        "explanation": "'Auto' empieza con la A, la primera letra del abecedario.",
+        "id": "q_g2_lengua_37"
+    },
+    {
+        "grade": 2,
+        "category": "lengua",
+        "question": "¿Qué letra sigue a la M en el abecedario?",
+        "options": [
+            "L",
+            "N",
+            "P",
+            "O"
+        ],
+        "correct": 1,
+        "explanation": "En el abecedario: J, K, L, M, N, Ñ...",
+        "id": "q_g2_lengua_38"
+    },
+    {
+        "grade": 2,
+        "category": "lengua",
+        "question": "¿Cuántas letras tiene el abecedario español aproximadamente?",
+        "options": [
+            "50 letras",
+            "27 letras",
+            "15 letras",
+            "10 letras"
+        ],
+        "correct": 1,
+        "explanation": "El abecedario español consta de 27 letras oficiales.",
+        "id": "q_g2_lengua_39"
+    },
+    {
+        "grade": 2,
+        "category": "lengua",
+        "question": "¿Cómo se llama la persona que ilustra los libros con hermosos dibujos?",
+        "options": [
+            "Ilustrador",
+            "Librero",
+            "Impresor",
+            "Editor"
+        ],
+        "correct": 0,
+        "explanation": "El ilustrador es el artista que dibuja las escenas de los cuentos.",
+        "id": "q_g2_lengua_40"
+    },
+    {
+        "grade": 2,
+        "category": "lengua",
+        "question": "¿Cuál es la sílaba tónica (la que suena más fuerte) en 'MÚ-SI-CA'?",
+        "options": [
+            "Todas igual",
+            "MÚ",
+            "CA",
+            "SI"
+        ],
+        "correct": 1,
+        "explanation": "La sílaba 'MÚ' lleva tilde y tiene la mayor fuerza de voz.",
+        "id": "q_g2_lengua_41"
+    },
+    {
+        "grade": 2,
+        "category": "lengua",
+        "question": "¿Qué palabra lleva tilde escrita en la última sílaba?",
+        "options": [
+            "Café",
+            "Mesa",
+            "Casa",
+            "Libro"
+        ],
+        "correct": 0,
+        "explanation": "Las palabras agudas como 'café' llevan tilde en la vocal final.",
+        "id": "q_g2_lengua_42"
+    },
+    {
+        "grade": 2,
+        "category": "lengua",
+        "question": "¿Qué verbo indica una acción que ocurre en el pasado (ayer)?",
+        "options": [
+            "Corre",
+            "Corrió",
+            "Corriendo",
+            "Correrá"
+        ],
+        "correct": 1,
+        "explanation": "'Corrió' indica una acción que ya sucedió en el tiempo pasado.",
+        "id": "q_g2_lengua_43"
+    },
+    {
+        "grade": 2,
+        "category": "lengua",
+        "question": "¿Qué verbo indica una acción en tiempo futuro (mañana)?",
+        "options": [
+            "Juega",
+            "Jugó",
+            "Jugará",
+            "Jugando"
+        ],
+        "correct": 2,
+        "explanation": "'Jugará' expresa una acción que va a ocurrir más adelante.",
+        "id": "q_g2_lengua_44"
+    },
+    {
+        "grade": 2,
+        "category": "lengua",
+        "question": "¿Qué palabra sirve para unir dos ideas en una oración?",
+        "options": [
+            "No",
+            "Y",
+            "Sin",
+            "Por"
+        ],
+        "correct": 1,
+        "explanation": "La letra 'y' funciona como nexo copulativo para unir elementos: perro y gato.",
+        "id": "q_g2_lengua_45"
+    },
+    {
+        "grade": 2,
+        "category": "lengua",
+        "question": "¿Qué palabra tiene tres sílabas (trisílaba)?",
+        "options": [
+            "Camisa (ca-mi-sa)",
+            "Mariposa",
+            "Sol",
+            "Pato"
+        ],
+        "correct": 0,
+        "explanation": "Ca-mi-sa tiene 3 golpes de voz.",
+        "id": "q_g2_lengua_46"
+    },
+    {
+        "grade": 2,
+        "category": "lengua",
+        "question": "¿Qué palabra tiene dos sílabas (bisílaba)?",
+        "options": [
+            "Estrella",
+            "Sol",
+            "Luna (lu-na)",
+            "Ventana"
+        ],
+        "correct": 2,
+        "explanation": "Lu-na tiene exactamente 2 sílabas.",
+        "id": "q_g2_lengua_47"
+    },
+    {
+        "grade": 2,
+        "category": "lengua",
+        "question": "¿Qué tipo de narración breve tiene animales que hablan como personajes?",
+        "options": [
+            "La guía telefónica",
+            "La fábula",
+            "La noticia",
+            "El diccionario"
+        ],
+        "correct": 1,
+        "explanation": "En las fábulas los animales actúan y hablan como humanos para enseñarnos una moraleja.",
+        "id": "q_g2_lengua_48"
+    },
+    {
+        "grade": 2,
+        "category": "lengua",
+        "question": "¿Cuál es la función del punto y aparte en un texto?",
+        "options": [
+            "Separar dos párrafos con ideas distintas",
+            "Indicar un grito",
+            "Hacer una pregunta",
+            "Terminar el libro entero"
+        ],
+        "correct": 0,
+        "explanation": "El punto y aparte marca el final de un párrafo y el inicio de otro.",
+        "id": "q_g2_lengua_49"
+    },
+    {
+        "grade": 2,
+        "category": "lengua",
+        "question": "En la palabra 'Zapato', ¿con qué letra se escribe el sonido inicial?",
+        "options": [
+            "Con X",
+            "Con C",
+            "Con Z",
+            "Con S"
+        ],
+        "correct": 2,
+        "explanation": "'Zapato' se escribe con Z al inicio.",
+        "id": "q_g2_lengua_50"
+    },
+    {
+        "grade": 2,
+        "category": "naturales",
+        "question": "¿Qué tienen en el interior de su cuerpo los animales vertebrados?",
+        "options": [
+            "No tienen huesos",
+            "Un esqueleto interno con columna vertebral",
+            "Solo agua",
+            "Una coraza de metal"
+        ],
+        "correct": 1,
+        "explanation": "Los vertebrados poseen esqueleto óseo interno y columna vertebral.",
+        "id": "q_g2_naturales_1"
+    },
+    {
+        "grade": 2,
+        "category": "naturales",
+        "question": "¿Cuál de estos animales es un vertebrado porque tiene huesos?",
+        "options": [
+            "El caracol",
+            "La medusa",
+            "El perro",
+            "La lombriz de tierra"
+        ],
+        "correct": 2,
+        "explanation": "El perro es un mamífero vertebrado con huesos y columna.",
+        "id": "q_g2_naturales_2"
+    },
+    {
+        "grade": 2,
+        "category": "naturales",
+        "question": "¿Cuál de estos animales es un invertebrado (NO tiene huesos)?",
+        "options": [
+            "El águila",
+            "El caballo",
+            "El pez dorado",
+            "La hormiga"
+        ],
+        "correct": 3,
+        "explanation": "Los insectos como las hormigas son invertebrados sin esqueleto interno.",
+        "id": "q_g2_naturales_3"
+    },
+    {
+        "grade": 2,
+        "category": "naturales",
+        "question": "¿Qué animal invertebrado lleva una concha dura en su espalda para protegerse?",
+        "options": [
+            "El sapo",
+            "El caracol",
+            "La paloma",
+            "El ratón"
+        ],
+        "correct": 1,
+        "explanation": "El caracol es un molusco invertebrado con caparazón protector.",
+        "id": "q_g2_naturales_4"
+    },
+    {
+        "grade": 2,
+        "category": "naturales",
+        "question": "¿Cómo se llaman los animales que se alimentan exclusivamente de plantas y hierbas?",
+        "options": [
+            "Herbívoros",
+            "Omnívoros",
+            "Insectívoros",
+            "Carnívoros"
+        ],
+        "correct": 0,
+        "explanation": "Los herbívoros comen hojas, pasto, semillas y frutos (ej: vaca, conejo).",
+        "id": "q_g2_naturales_5"
+    },
+    {
+        "grade": 2,
+        "category": "naturales",
+        "question": "¿Cómo se llaman los animales que cazan y se alimentan de la carne de otros animales?",
+        "options": [
+            "Frugívoros",
+            "Carnívoros",
+            "Vegetarianos",
+            "Herbívoros"
+        ],
+        "correct": 1,
+        "explanation": "Los carnívoros comen carne (ej: león, tigre, tiburón).",
+        "id": "q_g2_naturales_6"
+    },
+    {
+        "grade": 2,
+        "category": "naturales",
+        "question": "¿Cómo se llaman los animales (y los humanos) que comen tanto plantas como carne?",
+        "options": [
+            "Omnívoros",
+            "Acuáticos",
+            "Herbívoros",
+            "Carnívoros"
+        ],
+        "correct": 0,
+        "explanation": "Los omnívoros tienen una dieta variada que incluye vegetales y carnes.",
+        "id": "q_g2_naturales_7"
+    },
+    {
+        "grade": 2,
+        "category": "naturales",
+        "question": "El oso y el cerdo comen plantas, frutas e insectos o carne. Por eso son animales:",
+        "options": [
+            "Omnívoros",
+            "Invertebrados",
+            "Carnívoros puros",
+            "Herbívoros estrictos"
+        ],
+        "correct": 0,
+        "explanation": "Tienen alimentación omnívora variada.",
+        "id": "q_g2_naturales_8"
+    },
+    {
+        "grade": 2,
+        "category": "naturales",
+        "question": "¿Cómo se llaman los animales que nacen de huevos puestos por la madre?",
+        "options": [
+            "Vivíparos",
+            "Mamíferos",
+            "Ovíparos",
+            "Acuáticos"
+        ],
+        "correct": 2,
+        "explanation": "Los ovíparos se desarrollan y nacen a partir de huevos (aves, reptiles, peces).",
+        "id": "q_g2_naturales_9"
+    },
+    {
+        "grade": 2,
+        "category": "naturales",
+        "question": "¿Cómo se llaman los animales que se desarrollan en el vientre de la madre y nacen vivos?",
+        "options": [
+            "Aéreos",
+            "Ovíparos",
+            "Vivíparos",
+            "Invertebrados"
+        ],
+        "correct": 2,
+        "explanation": "Los vivíparos crecen dentro del útero materno hasta el parto (la mayoría de mamíferos).",
+        "id": "q_g2_naturales_10"
+    },
+    {
+        "grade": 2,
+        "category": "naturales",
+        "question": "Las crías de los mamíferos, al nacer, se alimentan de:",
+        "options": [
+            "Carne cruda",
+            "La leche materna",
+            "Pastos secos",
+            "Semillas"
+        ],
+        "correct": 1,
+        "explanation": "Los mamíferos amamantan a sus crías con leche producida por la madre.",
+        "id": "q_g2_naturales_11"
+    },
+    {
+        "grade": 2,
+        "category": "naturales",
+        "question": "¿Cuál de estos animales es ovíparo y nace de un huevo?",
+        "options": [
+            "El caballo",
+            "El pingüino",
+            "La ballena",
+            "El gato"
+        ],
+        "correct": 1,
+        "explanation": "Los pingüinos son aves que ponen huevos en nidos de hielo o piedras.",
+        "id": "q_g2_naturales_12"
+    },
+    {
+        "grade": 2,
+        "category": "naturales",
+        "question": "¿Cómo se llama el conjunto de todos los huesos que sostiene nuestro cuerpo?",
+        "options": [
+            "Esqueleto",
+            "Piel",
+            "Músculos",
+            "Pulmones"
+        ],
+        "correct": 0,
+        "explanation": "El esqueleto óseo da sostén, forma y protección a los órganos internos.",
+        "id": "q_g2_naturales_13"
+    },
+    {
+        "grade": 2,
+        "category": "naturales",
+        "question": "¿Qué órganos elásticos se contraen y estiran para mover los huesos?",
+        "options": [
+            "Los dientes",
+            "Los músculos",
+            "Las uñas",
+            "Los pelos"
+        ],
+        "correct": 1,
+        "explanation": "Los músculos junto con los huesos forman el aparato locomotor.",
+        "id": "q_g2_naturales_14"
+    },
+    {
+        "grade": 2,
+        "category": "naturales",
+        "question": "¿Qué hueso duro en forma de caja protege a nuestro cerebro en la cabeza?",
+        "options": [
+            "La pelvis",
+            "La costilla",
+            "El cráneo",
+            "El fémur"
+        ],
+        "correct": 2,
+        "explanation": "El cráneo protege al cerebro de golpes.",
+        "id": "q_g2_naturales_15"
+    },
+    {
+        "grade": 2,
+        "category": "naturales",
+        "question": "¿Qué huesos forman una jaula en el pecho para proteger al corazón y los pulmones?",
+        "options": [
+            "Las rodillas",
+            "Las costillas",
+            "Los tobillos",
+            "Los dedos"
+        ],
+        "correct": 1,
+        "explanation": "La caja torácica formada por las costillas protege los órganos vitales del pecho.",
+        "id": "q_g2_naturales_16"
+    },
+    {
+        "grade": 2,
+        "category": "naturales",
+        "question": "¿Cuál es el hueso más largo de nuestro cuerpo, ubicado en el muslo?",
+        "options": [
+            "El fémur",
+            "La clavícula",
+            "El radio",
+            "La falange"
+        ],
+        "correct": 0,
+        "explanation": "El fémur es el hueso más largo y fuerte del cuerpo humano.",
+        "id": "q_g2_naturales_17"
+    },
+    {
+        "grade": 2,
+        "category": "naturales",
+        "question": "¿Por qué parte respiran las plantas y captan la luz del sol?",
+        "options": [
+            "Por las hojas",
+            "Por los pétalos",
+            "Por las semillas",
+            "Por las raíces"
+        ],
+        "correct": 0,
+        "explanation": "Las hojas contienen clorofila y estomas para respirar y realizar la fotosíntesis.",
+        "id": "q_g2_naturales_18"
+    },
+    {
+        "grade": 2,
+        "category": "naturales",
+        "question": "¿Cómo se llaman los árboles que pierden todas sus hojas en otoño?",
+        "options": [
+            "Cactus",
+            "De hoja caduca",
+            "De hoja perenne",
+            "Pinos"
+        ],
+        "correct": 1,
+        "explanation": "Los árboles de hoja caduca tiran sus hojas en otoño para resistir el frío del invierno.",
+        "id": "q_g2_naturales_19"
+    },
+    {
+        "grade": 2,
+        "category": "naturales",
+        "question": "¿Cómo se llaman los árboles que mantienen sus hojas verdes durante todo el año?",
+        "options": [
+            "Frutales secos",
+            "De hoja perenne",
+            "De hoja caduca",
+            "Flores"
+        ],
+        "correct": 1,
+        "explanation": "Los árboles perennes (como los pinos) conservan su follaje en todas las estaciones.",
+        "id": "q_g2_naturales_20"
+    },
+    {
+        "grade": 2,
+        "category": "naturales",
+        "question": "¿Cómo absorben agua las plantas desde el suelo?",
+        "options": [
+            "Por las flores",
+            "Por el viento",
+            "A través de los pelos de la raíz",
+            "Por las ramas altas"
+        ],
+        "correct": 2,
+        "explanation": "La raíz absorbe agua y sales minerales de la tierra.",
+        "id": "q_g2_naturales_21"
+    },
+    {
+        "grade": 2,
+        "category": "naturales",
+        "question": "¿Qué parte de la flor se convierte en fruto después de ser polinizada?",
+        "options": [
+            "El ovario de la flor",
+            "La hoja seca",
+            "La espina",
+            "El tallo"
+        ],
+        "correct": 0,
+        "explanation": "Tras la polinización, la flor madura y se transforma en un fruto con semillas.",
+        "id": "q_g2_naturales_22"
+    },
+    {
+        "grade": 2,
+        "category": "naturales",
+        "question": "¿Qué le pasa al hielo (agua sólida) si lo dejamos al sol en un día caluroso?",
+        "options": [
+            "Se congela más",
+            "Se convierte en piedra",
+            "Se derrite y pasa a estado líquido",
+            "Desaparece sin mojarse"
+        ],
+        "correct": 2,
+        "explanation": "El calor derrite el hielo transformándolo en agua líquida (fusión).",
+        "id": "q_g2_naturales_23"
+    },
+    {
+        "grade": 2,
+        "category": "naturales",
+        "question": "¿Cómo se llama un material que permite ver claramente a través de él, como el vidrio?",
+        "options": [
+            "Elástico",
+            "Brillante",
+            "Transparente",
+            "Opaco"
+        ],
+        "correct": 2,
+        "explanation": "Los materiales transparentes dejan pasar la luz y permiten ver a través.",
+        "id": "q_g2_naturales_24"
+    },
+    {
+        "grade": 2,
+        "category": "naturales",
+        "question": "¿Cómo se llama un material que NO deja pasar la luz, como una tabla de madera gruesa?",
+        "options": [
+            "Líquido",
+            "Transparente",
+            "Gaseoso",
+            "Opaco"
+        ],
+        "correct": 3,
+        "explanation": "Los materiales opacos bloquean la luz y producen sombra.",
+        "id": "q_g2_naturales_25"
+    },
+    {
+        "grade": 2,
+        "category": "naturales",
+        "question": "¿Cuál de estos materiales es elástico y vuelve a su forma después de estirarlo?",
+        "options": [
+            "Un vaso de vidrio",
+            "Una bandita de goma",
+            "Un lápiz de madera",
+            "Un clavo de hierro"
+        ],
+        "correct": 1,
+        "explanation": "La goma tiene propiedades elásticas.",
+        "id": "q_g2_naturales_26"
+    },
+    {
+        "grade": 2,
+        "category": "naturales",
+        "question": "¿De dónde se obtiene la madera que usamos para fabricar mesas y sillas?",
+        "options": [
+            "De los troncos de los árboles",
+            "De las minas de piedra",
+            "Del petróleo",
+            "Del mar"
+        ],
+        "correct": 0,
+        "explanation": "La madera es un material natural de origen vegetal.",
+        "id": "q_g2_naturales_27"
+    },
+    {
+        "grade": 2,
+        "category": "naturales",
+        "question": "¿De qué animal obtenemos el cuero para fabricar cinturones y zapatos?",
+        "options": [
+            "Del mosquito",
+            "Del pez",
+            "De la vaca u oveja",
+            "Del pájaro"
+        ],
+        "correct": 2,
+        "explanation": "El cuero proviene de la piel curtida del ganado vacuno y ovino.",
+        "id": "q_g2_naturales_28"
+    },
+    {
+        "grade": 2,
+        "category": "naturales",
+        "question": "¿Qué estado de la materia tiene el agua que sale de la canilla?",
+        "options": [
+            "Sólido",
+            "Gaseoso",
+            "Líquido",
+            "Congelado"
+        ],
+        "correct": 2,
+        "explanation": "El agua líquida fluye y toma la forma del recipiente que la contiene.",
+        "id": "q_g2_naturales_29"
+    },
+    {
+        "grade": 2,
+        "category": "naturales",
+        "question": "¿Qué estado de la materia tiene el vapor que sale de una pava hirviendo?",
+        "options": [
+            "Sólido",
+            "Líquido",
+            "Gaseoso",
+            "Metálico"
+        ],
+        "correct": 2,
+        "explanation": "El vapor de agua es agua en estado gaseoso.",
+        "id": "q_g2_naturales_30"
+    },
+    {
+        "grade": 2,
+        "category": "naturales",
+        "question": "¿Cómo se llama una gran elevación natural del terreno con picos altos?",
+        "options": [
+            "Una laguna",
+            "Una playa",
+            "Una montaña",
+            "Una llanura"
+        ],
+        "correct": 2,
+        "explanation": "Las montañas son terrenos elevados y escarpados.",
+        "id": "q_g2_naturales_31"
+    },
+    {
+        "grade": 2,
+        "category": "naturales",
+        "question": "¿Cómo se llama una corriente natural continua de agua dulce que desemboca en el mar?",
+        "options": [
+            "Una fuente",
+            "Un océano",
+            "Un río",
+            "Un charco"
+        ],
+        "correct": 2,
+        "explanation": "Los ríos transportan agua dulce desde las zonas altas hacia lagos o mares.",
+        "id": "q_g2_naturales_32"
+    },
+    {
+        "grade": 2,
+        "category": "naturales",
+        "question": "¿Cómo es el agua de los mares y océanos?",
+        "options": [
+            "Caliente",
+            "Gaseosa",
+            "Dulce",
+            "Salada"
+        ],
+        "correct": 3,
+        "explanation": "El agua marina contiene altas concentraciones de sal disuelta.",
+        "id": "q_g2_naturales_33"
+    },
+    {
+        "grade": 2,
+        "category": "naturales",
+        "question": "¿Qué forma toman las gotas de agua que se evaporan con el calor y suben al cielo?",
+        "options": [
+            "Se hacen fuego",
+            "Se transforman en piedras",
+            "Forman nubes",
+            "Se vuelven hojas"
+        ],
+        "correct": 2,
+        "explanation": "El vapor de agua sube a la atmósfera y al enfriarse condensa formando nubes.",
+        "id": "q_g2_naturales_34"
+    },
+    {
+        "grade": 2,
+        "category": "naturales",
+        "question": "¿Para qué nos aplicamos las vacunas en los centros de salud?",
+        "options": [
+            "Para protegernos de enfermedades y virus",
+            "Para crecer más altos",
+            "Para no tener que comer verduras",
+            "Para dormir más horas"
+        ],
+        "correct": 0,
+        "explanation": "Las vacunas preparan nuestras defensas para combatir virus y bacterias.",
+        "id": "q_g2_naturales_35"
+    },
+    {
+        "grade": 2,
+        "category": "naturales",
+        "question": "¿Qué debemos hacer cuando estornudamos o tosemos para no contagiar a los demás?",
+        "options": [
+            "Toser al aire libre hacia los amigos",
+            "Cubrirnos con el pliegue del codo",
+            "No hacer nada",
+            "Tocarnos los ojos"
+        ],
+        "correct": 1,
+        "explanation": "Cubrirse con el codo evita esparcir microbios por el aire.",
+        "id": "q_g2_naturales_36"
+    },
+    {
+        "grade": 2,
+        "category": "naturales",
+        "question": "¿Por qué es importante cepillarse los dientes después de cada comida?",
+        "options": [
+            "Para que crezcan más rápido",
+            "Para cambiar el color de la lengua",
+            "Para eliminar restos de comida y evitar caries",
+            "No es necesario"
+        ],
+        "correct": 2,
+        "explanation": "El cepillado remueve la placa bacteriana causante de las caries.",
+        "id": "q_g2_naturales_37"
+    },
+    {
+        "grade": 2,
+        "category": "naturales",
+        "question": "¿Qué tipo de actividad fortalece nuestro corazón y músculos?",
+        "options": [
+            "Dormir 15 horas seguidas",
+            "Comer caramelos",
+            "Mirar pantallas sentado todo el día",
+            "Hacer deportes y juegos en movimiento"
+        ],
+        "correct": 3,
+        "explanation": "El ejercicio físico aeróbico mantiene sano el sistema cardiovascular.",
+        "id": "q_g2_naturales_38"
+    },
+    {
+        "grade": 2,
+        "category": "naturales",
+        "question": "¿Cómo se llaman los animales que viven en la tierra pero necesitan el agua para reproducirse, como el sapo?",
+        "options": [
+            "Reptiles",
+            "Anfibios",
+            "Mamíferos",
+            "Aves"
+        ],
+        "correct": 1,
+        "explanation": "Los anfibios pasan parte de su vida en el agua y parte en la tierra.",
+        "id": "q_g2_naturales_39"
+    },
+    {
+        "grade": 2,
+        "category": "naturales",
+        "question": "¿De qué tienen cubierto el cuerpo los reptiles como los lagartos y cocodrilos?",
+        "options": [
+            "De escamas duras y secas",
+            "De lana suave",
+            "De pelos largos",
+            "De plumas"
+        ],
+        "correct": 0,
+        "explanation": "Los reptiles tienen la piel seca cubierta de escamas córneas protectoras.",
+        "id": "q_g2_naturales_40"
+    },
+    {
+        "grade": 2,
+        "category": "naturales",
+        "question": "¿Qué sentido nos ayuda a mantener el equilibrio al caminar y correr?",
+        "options": [
+            "El olfato",
+            "El tacto de la nariz",
+            "El oído interno",
+            "El gusto"
+        ],
+        "correct": 2,
+        "explanation": "En el oído interno se encuentra el aparato vestibular que controla el equilibrio.",
+        "id": "q_g2_naturales_41"
+    },
+    {
+        "grade": 2,
+        "category": "naturales",
+        "question": "¿Qué órgano late más rápido cuando corremos o jugamos enérgicamente?",
+        "options": [
+            "El fémur",
+            "El corazón",
+            "El riñón",
+            "El hígado"
+        ],
+        "correct": 1,
+        "explanation": "El corazón late más rápido para enviar más oxígeno y sangre a los músculos activos.",
+        "id": "q_g2_naturales_42"
+    },
+    {
+        "grade": 2,
+        "category": "naturales",
+        "question": "¿Cómo se llama la capa de aire que rodea y protege a nuestro planeta Tierra?",
+        "options": [
+            "Atmósfera",
+            "Océano",
+            "Núcleo",
+            "Corteza"
+        ],
+        "correct": 0,
+        "explanation": "La atmósfera es la capa gaseosa que nos da aire para respirar y nos protege.",
+        "id": "q_g2_naturales_43"
+    },
+    {
+        "grade": 2,
+        "category": "naturales",
+        "question": "¿Qué parte de la planta crece hacia arriba buscando la luz del sol?",
+        "options": [
+            "La raíz",
+            "El tallo y las hojas",
+            "La semilla profunda",
+            "La tierra"
+        ],
+        "correct": 1,
+        "explanation": "El tallo y las ramas crecen hacia la luz solar (fototropismo).",
+        "id": "q_g2_naturales_44"
+    },
+    {
+        "grade": 2,
+        "category": "naturales",
+        "question": "¿Qué tipo de energía usamos para encender la lamparita de la mesa?",
+        "options": [
+            "Energía eólica solamente",
+            "Energía muscular",
+            "Energía nuclear",
+            "Energía eléctrica"
+        ],
+        "correct": 3,
+        "explanation": "La electricidad enciende los artefactos lumínicos del hogar.",
+        "id": "q_g2_naturales_45"
+    },
+    {
+        "grade": 2,
+        "category": "naturales",
+        "question": "¿Qué fenómeno ocurre cuando el agua de lluvia cae con truenos y relámpagos?",
+        "options": [
+            "Un día despejado",
+            "Una tormenta eléctrica",
+            "Un arcoíris",
+            "Una nevada suave"
+        ],
+        "correct": 1,
+        "explanation": "Las tormentas eléctricas combinan nubes oscuras, lluvia, rayos y truenos.",
+        "id": "q_g2_naturales_46"
+    },
+    {
+        "grade": 2,
+        "category": "naturales",
+        "question": "¿Qué animal invertebrado produce rica miel dulce en sus colmenas?",
+        "options": [
+            "La avispa",
+            "La mosca",
+            "La abeja",
+            "La hormiga"
+        ],
+        "correct": 2,
+        "explanation": "Las abejas polinizan flores y elaboran miel en los panales.",
+        "id": "q_g2_naturales_47"
+    },
+    {
+        "grade": 2,
+        "category": "naturales",
+        "question": "¿Cómo se llaman los animales marinos que tienen 8 brazos o tentáculos con ventosas?",
+        "options": [
+            "Los tiburones",
+            "Las ballenas",
+            "Las focas",
+            "Los pulpos"
+        ],
+        "correct": 3,
+        "explanation": "Los pulpos son moluscos marinos con 8 tentáculos prensiles.",
+        "id": "q_g2_naturales_48"
+    },
+    {
+        "grade": 2,
+        "category": "naturales",
+        "question": "¿Qué debemos hacer con los plásticos, cartones y vidrios para cuidar el planeta?",
+        "options": [
+            "Quemarlos en la vereda",
+            "Enterrarlos en la arena",
+            "Separarlos y reciclarlos",
+            "Tirarlos en el río"
+        ],
+        "correct": 2,
+        "explanation": "El reciclaje reduce la contaminación y ahorra recursos naturales.",
+        "id": "q_g2_naturales_49"
+    },
+    {
+        "grade": 2,
+        "category": "naturales",
+        "question": "¿Por qué es importante proteger los bosques y selvas?",
+        "options": [
+            "No son importantes",
+            "Porque ocupan mucho lugar",
+            "Para que no crezcan plantas",
+            "Porque los árboles purifican el aire y dan hogar a miles de animales"
+        ],
+        "correct": 3,
+        "explanation": "Los árboles producen oxígeno, absorben dióxido de carbono y cobijan biodiversidad.",
+        "id": "q_g2_naturales_50"
+    },
+    {
+        "grade": 2,
+        "category": "sociales",
+        "question": "¿Dónde hay grandes edificios, mucho tránsito vehicular y muchos comercios?",
+        "options": [
+            "En la selva desierta",
+            "En la ciudad (zona urbana)",
+            "En una isla solitaria",
+            "En el campo (zona rural)"
+        ],
+        "correct": 1,
+        "explanation": "Las ciudades son espacios urbanos densamente poblados.",
+        "id": "q_g2_sociales_1"
+    },
+    {
+        "grade": 2,
+        "category": "sociales",
+        "question": "¿Qué actividad es típica de la vida en el campo (zona rural)?",
+        "options": [
+            "Ir al cine en un shopping",
+            "Tomar el subte",
+            "La siembra de cultivos y la cría de animales",
+            "Subir en ascensor al piso 20"
+        ],
+        "correct": 2,
+        "explanation": "En el campo predomina la agricultura y la ganadería.",
+        "id": "q_g2_sociales_2"
+    },
+    {
+        "grade": 2,
+        "category": "sociales",
+        "question": "¿En qué tipo de paisaje las casas suelen estar más separadas unas de otras?",
+        "options": [
+            "En una avenida comercial",
+            "En el campo rural",
+            "En un barrio de monoblocks",
+            "En el centro de la ciudad"
+        ],
+        "correct": 1,
+        "explanation": "En las zonas rurales las viviendas y estancias tienen grandes extensiones de tierra entre sí.",
+        "id": "q_g2_sociales_3"
+    },
+    {
+        "grade": 2,
+        "category": "sociales",
+        "question": "¿Cómo se llama el trabajo de cultivar la tierra para obtener frutas, verduras y cereales?",
+        "options": [
+            "Metalurgia",
+            "Pesca submarina",
+            "Agricultura",
+            "Minería"
+        ],
+        "correct": 2,
+        "explanation": "La agricultura es el cultivo y cosecha de la tierra.",
+        "id": "q_g2_sociales_4"
+    },
+    {
+        "grade": 2,
+        "category": "sociales",
+        "question": "¿Cómo se llama la actividad de criar vacas, ovejas y caballos en el campo?",
+        "options": [
+            "Comercio",
+            "Carpintería",
+            "Construcción",
+            "Ganadería"
+        ],
+        "correct": 3,
+        "explanation": "La ganadería es la cría y cuidado de ganado.",
+        "id": "q_g2_sociales_5"
+    },
+    {
+        "grade": 2,
+        "category": "sociales",
+        "question": "¿Qué servicio público se encarga de retirar las bolsas de residuos de las calles?",
+        "options": [
+            "Los bomberos",
+            "El servicio de recolección de basura / barrenderos",
+            "Los enfermeros",
+            "Los colectiveros"
+        ],
+        "correct": 1,
+        "explanation": "Los recolectores mantienen limpias las ciudades retirando la basura.",
+        "id": "q_g2_sociales_6"
+    },
+    {
+        "grade": 2,
+        "category": "sociales",
+        "question": "¿Qué institución del barrio protege la seguridad de los vecinos y previene delitos?",
+        "options": [
+            "El club deportivo",
+            "El teatro",
+            "La comisaría de policía",
+            "La panadería"
+        ],
+        "correct": 2,
+        "explanation": "La policía vela por la seguridad ciudadana y el orden público.",
+        "id": "q_g2_sociales_7"
+    },
+    {
+        "grade": 2,
+        "category": "sociales",
+        "question": "¿Qué servicio nos permite tener luz en casa para encender la tele o la heladera?",
+        "options": [
+            "El agua corriente",
+            "La red de energía eléctrica",
+            "El gasoducto",
+            "El correo postal"
+        ],
+        "correct": 1,
+        "explanation": "La red eléctrica provee corriente para iluminar y hacer funcionar electrodomésticos.",
+        "id": "q_g2_sociales_8"
+    },
+    {
+        "grade": 2,
+        "category": "sociales",
+        "question": "¿Qué servicio trae agua potable directamente a las canillas de nuestros hogares?",
+        "options": [
+            "La red de agua corriente",
+            "La lluvia",
+            "El pozo de nafta",
+            "El camión regador"
+        ],
+        "correct": 0,
+        "explanation": "El agua de red está potabilizada para que podamos beberla y asearnos de forma segura.",
+        "id": "q_g2_sociales_9"
+    },
+    {
+        "grade": 2,
+        "category": "sociales",
+        "question": "¿Qué medio de transporte público subterráneo circula bajo las calles de la Ciudad de Buenos Aires?",
+        "options": [
+            "El tranvía aéreo",
+            "El subte (metro subterráneo)",
+            "El barco a vapor",
+            "El helicóptero"
+        ],
+        "correct": 1,
+        "explanation": "El subterráneo (subte) viaja bajo tierra para descongestionar el tránsito de superficie.",
+        "id": "q_g2_sociales_10"
+    },
+    {
+        "grade": 2,
+        "category": "sociales",
+        "question": "¿Qué producto dulce y blanco se elabora a partir de la caña de azúcar?",
+        "options": [
+            "La sal marina",
+            "El azúcar",
+            "El aceite",
+            "La harina"
+        ],
+        "correct": 1,
+        "explanation": "El azúcar de mesa se extrae procesando los tallos de la caña de azúcar.",
+        "id": "q_g2_sociales_11"
+    },
+    {
+        "grade": 2,
+        "category": "sociales",
+        "question": "¿Con qué grano molido se fabrica la harina para hacer pan y fideos?",
+        "options": [
+            "Con la uva",
+            "Con el café",
+            "Con el trigo",
+            "Con el girasol"
+        ],
+        "correct": 2,
+        "explanation": "Los granos de trigo se muelen en molinos harineros para obtener harina fina.",
+        "id": "q_g2_sociales_12"
+    },
+    {
+        "grade": 2,
+        "category": "sociales",
+        "question": "¿Qué bebida caliente y tradicional argentina se toma con bombilla en una calabaza?",
+        "options": [
+            "El té con leche",
+            "El mate",
+            "El jugo de naranja",
+            "El chocolate caliente"
+        ],
+        "correct": 1,
+        "explanation": "El mate cebado con yerba mate es nuestra infusión tradicional por excelencia.",
+        "id": "q_g2_sociales_13"
+    },
+    {
+        "grade": 2,
+        "category": "sociales",
+        "question": "¿En qué provincias del norte argentino se cultiva principalmente la yerba mate?",
+        "options": [
+            "Misiones y Corrientes",
+            "Mendoza",
+            "La Pampa",
+            "Tierra del Fuego"
+        ],
+        "correct": 0,
+        "explanation": "El clima subtropical de Misiones y Corrientes es ideal para la yerba mate.",
+        "id": "q_g2_sociales_14"
+    },
+    {
+        "grade": 2,
+        "category": "sociales",
+        "question": "¿Qué gran patriota lideró el Cruce de los Andes para liberar a Argentina, Chile y Perú?",
+        "options": [
+            "El General José de San Martín",
+            "Manuel Belgrano",
+            "Cristóbal Colón",
+            "Juan Manuel de Rosas"
+        ],
+        "correct": 0,
+        "explanation": "José de San Martín organizó el Ejército de los Andes y logró la hazaña histórica.",
+        "id": "q_g2_sociales_15"
+    },
+    {
+        "grade": 2,
+        "category": "sociales",
+        "question": "¿Cómo se llamaba el ejército patriota formado por San Martín?",
+        "options": [
+            "Los Conquistadores",
+            "Los Cazadores",
+            "Los Corsarios",
+            "El Ejército de los Andes"
+        ],
+        "correct": 3,
+        "explanation": "El Ejército de los Andes cruzó la majestuosa cordillera a lomo de mula y a caballo.",
+        "id": "q_g2_sociales_16"
+    },
+    {
+        "grade": 2,
+        "category": "sociales",
+        "question": "¿Qué día recordamos el paso a la inmortalidad del General San Martín?",
+        "options": [
+            "El 20 de Junio",
+            "El 17 de Agosto",
+            "El 25 de Mayo",
+            "El 9 de Julio"
+        ],
+        "correct": 1,
+        "explanation": "El 17 de agosto homenajeamos al Padre de la Patria.",
+        "id": "q_g2_sociales_17"
+    },
+    {
+        "grade": 2,
+        "category": "sociales",
+        "question": "¿En qué fecha conmemoramos a Manuel Belgrano y el Día de la Bandera?",
+        "options": [
+            "El 20 de Junio",
+            "El 9 de Julio",
+            "El 1 de Mayo",
+            "El 25 de Mayo"
+        ],
+        "correct": 0,
+        "explanation": "El 20 de junio se conmemora el fallecimiento de Belgrano y se jura la Bandera.",
+        "id": "q_g2_sociales_18"
+    },
+    {
+        "grade": 2,
+        "category": "sociales",
+        "question": "¿Qué eran los chasquis en la época colonial antes de que hubiera teléfonos e internet?",
+        "options": [
+            "Cocinero del virrey",
+            "Capitanes de barco",
+            "Mensajeros a caballo que llevaban cartas",
+            "Vendedores de velas"
+        ],
+        "correct": 2,
+        "explanation": "Los chasquis recorrían largas distancias a caballo para entregar cartas y encomiendas.",
+        "id": "q_g2_sociales_19"
+    },
+    {
+        "grade": 2,
+        "category": "sociales",
+        "question": "¿Qué transporte tirado por caballos se usaba para viajar entre provincias en la época colonial?",
+        "options": [
+            "El colectivo con motor",
+            "El tren eléctrico",
+            "La carreta o galera",
+            "El avión"
+        ],
+        "correct": 2,
+        "explanation": "Las carretas y diligencias tardaban semanas en unir Buenos Aires con otras provincias.",
+        "id": "q_g2_sociales_20"
+    },
+    {
+        "grade": 2,
+        "category": "sociales",
+        "question": "¿Cuál de los siguientes es un derecho fundamental de todos los niños del mundo?",
+        "options": [
+            "Derecho a trabajar muchas horas",
+            "Derecho a pelear",
+            "Derecho a la educación, a la salud y a jugar",
+            "Derecho a no tener nombre"
+        ],
+        "correct": 2,
+        "explanation": "La Declaración de los Derechos del Niño garantiza el cuidado, estudio y juego de todos.",
+        "id": "q_g2_sociales_21"
+    },
+    {
+        "grade": 2,
+        "category": "sociales",
+        "question": "¿Qué documento oficial de identidad tiene cada persona con su foto, nombre y número único?",
+        "options": [
+            "El boleto de colectivo",
+            "El DNI (Documento Nacional de Identidad)",
+            "La libreta de almacén",
+            "Una carta postal"
+        ],
+        "correct": 1,
+        "explanation": "El DNI garantiza nuestro derecho a la identidad civil.",
+        "id": "q_g2_sociales_22"
+    },
+    {
+        "grade": 2,
+        "category": "sociales",
+        "question": "¿Qué debemos hacer cuando trabajamos en equipo en el aula?",
+        "options": [
+            "Escuchar las ideas de todos y colaborar",
+            "Gritar para imponer mi idea",
+            "Hacer todo solo sin compartir",
+            "Enojarse si alguien opina distinto"
+        ],
+        "correct": 0,
+        "explanation": "El trabajo colaborativo se basa en el respeto, el diálogo y la ayuda mutua.",
+        "id": "q_g2_sociales_23"
+    },
+    {
+        "grade": 2,
+        "category": "sociales",
+        "question": "¿Qué gran río baña las costas de la Ciudad de Buenos Aires?",
+        "options": [
+            "El Río Colorado",
+            "El Río de la Plata",
+            "El Río Nilo",
+            "El Río Amazonas"
+        ],
+        "correct": 1,
+        "explanation": "El Río de la Plata es el río ancho que bordea Buenos Aires.",
+        "id": "q_g2_sociales_24"
+    },
+    {
+        "grade": 2,
+        "category": "sociales",
+        "question": "¿Cómo se llama la cordillera de montañas altas que recorre el oeste argentino?",
+        "options": [
+            "Las Sierras de Tandil",
+            "El Himalaya",
+            "La Cordillera de los Andes",
+            "Los Alpes"
+        ],
+        "correct": 2,
+        "explanation": "La Cordillera de los Andes es la cadena montañosa más larga de América del Sur.",
+        "id": "q_g2_sociales_25"
+    },
+    {
+        "grade": 2,
+        "category": "sociales",
+        "question": "¿Qué animal de carga fue fundamental para que el ejército de San Martín cruzara los Andes?",
+        "options": [
+            "El elefante",
+            "La mula y el caballo",
+            "El camello",
+            "El buey"
+        ],
+        "correct": 1,
+        "explanation": "Las mulas eran fuertes y resistentes para transitar caminos de montaña escarpados.",
+        "id": "q_g2_sociales_26"
+    },
+    {
+        "grade": 2,
+        "category": "sociales",
+        "question": "¿Quién fue Remedios del Valle, la gran patriota llamada 'Madre de la Patria'?",
+        "options": [
+            "Una comerciante de telas",
+            "Una cocinera del Cabildo",
+            "Una heroica capitana y enfermera del ejército de Belgrano",
+            "Una maestra de campo"
+        ],
+        "correct": 2,
+        "explanation": "María Remedios del Valle luchó con valentía en las batallas de la independencia.",
+        "id": "q_g2_sociales_27"
+    },
+    {
+        "grade": 2,
+        "category": "sociales",
+        "question": "¿Qué comida típica criolla con masa rellena de carne o jamón y queso comemos en las fiestas patrias?",
+        "options": [
+            "Las hamburguesas",
+            "Las empanadas",
+            "Los fideos con salsa",
+            "El sushi"
+        ],
+        "correct": 1,
+        "explanation": "Las empanadas al horno o fritas son un clásico de la gastronomía patria argentina.",
+        "id": "q_g2_sociales_28"
+    },
+    {
+        "grade": 2,
+        "category": "sociales",
+        "question": "¿Qué postre criollo tradicional con masa frita y forma de florcita lleva dulce de membrillo o batata?",
+        "options": [
+            "El flan con crema",
+            "Los pastelitos patrios",
+            "El helado de chocolate",
+            "El panqueque"
+        ],
+        "correct": 1,
+        "explanation": "Los pastelitos criollos son el dulce típico de los actos del 25 de Mayo y 9 de Julio.",
+        "id": "q_g2_sociales_29"
+    },
+    {
+        "grade": 2,
+        "category": "sociales",
+        "question": "¿Cómo se llama la autoridad máxima que gobierna un municipio o partido en una ciudad?",
+        "options": [
+            "El director de escuela",
+            "El intendente",
+            "El policía",
+            "El juez"
+        ],
+        "correct": 1,
+        "explanation": "El intendente administra la municipalidad local de una ciudad o partido.",
+        "id": "q_g2_sociales_30"
+    },
+    {
+        "grade": 2,
+        "category": "sociales",
+        "question": "¿Qué elemento de la vía pública ayuda a los conductores a iluminar las calles de noche?",
+        "options": [
+            "La luna solamente",
+            "El alumbrado público con farolas",
+            "Las velas en las ventanas",
+            "Las linternas de los peatones"
+        ],
+        "correct": 1,
+        "explanation": "El alumbrado público brinda visibilidad y seguridad nocturna en calles y avenidas.",
+        "id": "q_g2_sociales_31"
+    },
+    {
+        "grade": 2,
+        "category": "sociales",
+        "question": "¿Por qué lado de la vereda deben caminar los peatones?",
+        "options": [
+            "Por el medio de la calzada",
+            "Por la vereda, alejados del cordón de la calle",
+            "Por la calle entre los autos",
+            "Por la bicisenda corriendo"
+        ],
+        "correct": 1,
+        "explanation": "Caminar por la vereda protegidos por el cordón evita accidentes de tránsito.",
+        "id": "q_g2_sociales_32"
+    },
+    {
+        "grade": 2,
+        "category": "sociales",
+        "question": "¿Qué indica la luz amarilla en el semáforo?",
+        "options": [
+            "Dar marcha atrás",
+            "Precaución: aviso de que va a cambiar a rojo",
+            "Acelerar más rápido",
+            "Apagar el motor"
+        ],
+        "correct": 1,
+        "explanation": "La luz amarilla advierte a los conductores que deben frenar con precaución.",
+        "id": "q_g2_sociales_33"
+    },
+    {
+        "grade": 2,
+        "category": "sociales",
+        "question": "¿Qué festejo tradicional gauchesco muestra destrezas a caballo, asado y danzas folclóricas?",
+        "options": [
+            "El festival de cine",
+            "La feria del libro",
+            "El carnaval de Venecia",
+            "La fiesta de la tradición y doma"
+        ],
+        "correct": 3,
+        "explanation": "El Día de la Tradición celebra nuestras costumbres gauchescas y folclóricas.",
+        "id": "q_g2_sociales_34"
+    },
+    {
+        "grade": 2,
+        "category": "sociales",
+        "question": "¿Qué instrumento de cuerdas es el más tradicional para tocar zambas y chacareras?",
+        "options": [
+            "El saxofón",
+            "La guitarra criolla",
+            "El arpa mágica",
+            "La batería eléctrica"
+        ],
+        "correct": 1,
+        "explanation": "La guitarra criolla acompaña la música folclórica argentina.",
+        "id": "q_g2_sociales_35"
+    },
+    {
+        "grade": 2,
+        "category": "sociales",
+        "question": "¿Cómo se llama el baile tradicional argentino donde la pareja zapatea y hace palmas?",
+        "options": [
+            "La salsa",
+            "El vals",
+            "El reguetón",
+            "La chacarera o gato"
+        ],
+        "correct": 3,
+        "explanation": "La chacarera es una danza folclórica de figuras, zapateo y zarandeo.",
+        "id": "q_g2_sociales_36"
+    },
+    {
+        "grade": 2,
+        "category": "sociales",
+        "question": "¿Qué bebida tradicional no alcohólica se hace con uvas pisadas?",
+        "options": [
+            "La leche chocolatada",
+            "El té negro",
+            "El jugo de uva o mosto",
+            "El café"
+        ],
+        "correct": 2,
+        "explanation": "El jugo de uva proviene de los viñedos de provincias como Mendoza y San Juan.",
+        "id": "q_g2_sociales_37"
+    },
+    {
+        "grade": 2,
+        "category": "sociales",
+        "question": "¿Qué provincia argentina es famosa por sus viñedos y por el Cerro Aconcagua?",
+        "options": [
+            "Corrientes",
+            "Formosa",
+            "Entre Ríos",
+            "Mendoza"
+        ],
+        "correct": 3,
+        "explanation": "Mendoza tiene al coloso Aconcagua, la montaña más alta de América.",
+        "id": "q_g2_sociales_38"
+    },
+    {
+        "grade": 2,
+        "category": "sociales",
+        "question": "¿Qué maravilla natural del agua se encuentra en el Parque Nacional Iguazú en Misiones?",
+        "options": [
+            "El Cerro de los Siete Colores",
+            "Las Cataratas del Iguazú",
+            "El Valle de la Luna",
+            "El Glaciar Perito Moreno"
+        ],
+        "correct": 1,
+        "explanation": "Las Cataratas del Iguazú son una de las 7 Maravillas Naturales del Mundo.",
+        "id": "q_g2_sociales_39"
+    },
+    {
+        "grade": 2,
+        "category": "sociales",
+        "question": "¿Qué enorme masa de hielo milenario podemos visitar en la provincia de Santa Cruz?",
+        "options": [
+            "Las Salinas Grandes",
+            "El Parque Ischigualasto",
+            "El cerro Uritorco",
+            "El Glaciar Perito Moreno"
+        ],
+        "correct": 3,
+        "explanation": "El Glaciar Perito Moreno es famoso por sus desprendimientos de hielo en el Lago Argentino.",
+        "id": "q_g2_sociales_40"
+    },
+    {
+        "grade": 2,
+        "category": "sociales",
+        "question": "¿Qué pueblo originario habitó tradicionalmente las pampas y la Patagonia argentina?",
+        "options": [
+            "Los mapuches y tehuelches",
+            "Los aztecas",
+            "Los egipcios",
+            "Los mayas"
+        ],
+        "correct": 0,
+        "explanation": "Tehuelches y mapuches fueron pueblos originarios del sur argentino.",
+        "id": "q_g2_sociales_41"
+    },
+    {
+        "grade": 2,
+        "category": "sociales",
+        "question": "¿Qué pueblo originario del noroeste construía pucarás de piedra y terrazas de cultivo?",
+        "options": [
+            "Los diaguitas",
+            "Los romanos",
+            "Los esquimales",
+            "Los vikingos"
+        ],
+        "correct": 0,
+        "explanation": "Los diaguitas habitaron los valles calchaquíes y eran expertos agricultores y alfareros.",
+        "id": "q_g2_sociales_42"
+    },
+    {
+        "grade": 2,
+        "category": "sociales",
+        "question": "¿Cómo cuidamos el agua potable en nuestras casas?",
+        "options": [
+            "Lavando el auto con canilla abierta",
+            "Tirando agua limpia al desagüe",
+            "Dejando la manguera abierta todo el día",
+            "Cerrando la canilla mientras nos cepillamos los dientes"
+        ],
+        "correct": 3,
+        "explanation": "Cerrar la canilla evita el derroche de agua potable.",
+        "id": "q_g2_sociales_43"
+    },
+    {
+        "grade": 2,
+        "category": "sociales",
+        "question": "¿Qué medio de comunicación masivo transmite noticias y entretenimiento por una pantalla?",
+        "options": [
+            "El semáforo",
+            "La bocina",
+            "El buzón de cartas",
+            "La televisión"
+        ],
+        "correct": 3,
+        "explanation": "La televisión transmite imágenes y sonidos a miles de hogares simultáneamente.",
+        "id": "q_g2_sociales_44"
+    },
+    {
+        "grade": 2,
+        "category": "sociales",
+        "question": "¿Qué herramienta digital usamos hoy para buscar información en todo el mundo desde una computadora?",
+        "options": [
+            "La enciclopedia en papel solamente",
+            "Internet",
+            "La máquina de escribir",
+            "El telégrafo"
+        ],
+        "correct": 1,
+        "explanation": "Internet conecta computadoras de todo el planeta para acceder a información al instante.",
+        "id": "q_g2_sociales_45"
+    },
+    {
+        "grade": 2,
+        "category": "sociales",
+        "question": "¿Por qué es importante tener amigos y compañeros respetuosos en la escuela?",
+        "options": [
+            "No es importante",
+            "Para no prestar nada",
+            "Para aprender juntos, jugar y apoyarnos en las dificultades",
+            "Para competir y pelear"
+        ],
+        "correct": 2,
+        "explanation": "La amistad y el compañerismo hacen más linda y enriquecedora la experiencia escolar.",
+        "id": "q_g2_sociales_46"
+    },
+    {
+        "grade": 2,
+        "category": "sociales",
+        "question": "¿Qué símbolo patrio se iza en el mástil de la escuela al comenzar cada jornada escolar?",
+        "options": [
+            "El escudo",
+            "La foto del prócer",
+            "La escarapela",
+            "La Bandera Nacional"
+        ],
+        "correct": 3,
+        "explanation": "Izar y arriar la Bandera con respeto es una ceremonia tradicional de las escuelas argentinas.",
+        "id": "q_g2_sociales_47"
+    },
+    {
+        "grade": 2,
+        "category": "sociales",
+        "question": "¿Qué animal del campo es el leal compañero del gaucho en sus tareas diarias?",
+        "options": [
+            "El león",
+            "El cocodrilo",
+            "El caballo",
+            "El elefante"
+        ],
+        "correct": 2,
+        "explanation": "El caballo es el compañero inseparable del gaucho para arrear y trasladarse.",
+        "id": "q_g2_sociales_48"
+    },
+    {
+        "grade": 2,
+        "category": "sociales",
+        "question": "¿Qué vestimenta tradicional de lana lleva el gaucho sobre los hombros para protegerse del frío?",
+        "options": [
+            "El chaleco salvavidas",
+            "El delantal blanco",
+            "El poncho",
+            "La campera inflada"
+        ],
+        "correct": 2,
+        "explanation": "El poncho es la prenda tradicional de abrigo tejida en telar criollo.",
+        "id": "q_g2_sociales_49"
+    },
+    {
+        "grade": 2,
+        "category": "sociales",
+        "question": "¿Qué calzado cómodo de lona y suela de yute usaban tradicionalmente los peones y gauchos?",
+        "options": [
+            "Los patines",
+            "Las ojotas de plástico",
+            "Las alpargatas",
+            "Los tacos altos"
+        ],
+        "correct": 2,
+        "explanation": "Las alpargatas son el calzado popular y cómodo del campo y la ciudad.",
+        "id": "q_g2_sociales_50"
+    },
+    {
+        "grade": 2,
+        "category": "ingenio",
+        "question": "Adivina adivinador: 'Tengo agujas pero no pincho; tengo números pero no sé contar; te digo las horas para no llegar tarde'. ¿Qué soy?",
+        "options": [
+            "El erizo",
+            "La máquina de coser",
+            "El libro de matemáticas",
+            "El reloj"
+        ],
+        "correct": 3,
+        "explanation": "El reloj analógico tiene agujas de horas y minutos con números.",
+        "id": "q_g2_ingenio_1"
+    },
+    {
+        "grade": 2,
+        "category": "ingenio",
+        "question": "Adivina adivinador: 'Subo al cielo sin escalera, riego los campos con agua fresca y cuando sale el sol me desvanezco'. ¿Qué soy?",
+        "options": [
+            "El avión",
+            "La nube",
+            "El pájaro",
+            "El cometa"
+        ],
+        "correct": 1,
+        "explanation": "Las nubes se forman en la atmósfera y dan lluvia a los campos.",
+        "id": "q_g2_ingenio_2"
+    },
+    {
+        "grade": 2,
+        "category": "ingenio",
+        "question": "Adivina adivinador: 'Soy rojo o verde, si me muerdes soy crocante y si le preguntas a Blancanieves te dirá que soy deliciosa'. ¿Qué fruta soy?",
+        "options": [
+            "La banana",
+            "El limón",
+            "La sandía",
+            "La manzana"
+        ],
+        "correct": 3,
+        "explanation": "La manzana es la fruta clásica de Blancanieves.",
+        "id": "q_g2_ingenio_3"
+    },
+    {
+        "grade": 2,
+        "category": "ingenio",
+        "question": "Adivina adivinador: 'Cuanto más caliente estoy, más fresco me llaman'. ¿Qué soy?",
+        "options": [
+            "El helado",
+            "La nieve",
+            "El pan recién horneado",
+            "El cubito de hielo"
+        ],
+        "correct": 2,
+        "explanation": "Al pan recién salido del horno se le dice 'pan fresco' aunque esté caliente.",
+        "id": "q_g2_ingenio_4"
+    },
+    {
+        "grade": 2,
+        "category": "ingenio",
+        "question": "Adivina adivinador: 'Parezco un caballo con traje a rayas blancas y negras'. ¿Qué animal soy?",
+        "options": [
+            "El leopardo",
+            "El burro",
+            "El tigre",
+            "La cebra"
+        ],
+        "correct": 3,
+        "explanation": "La cebra tiene rayas blancas y negras inconfundibles.",
+        "id": "q_g2_ingenio_5"
+    },
+    {
+        "grade": 2,
+        "category": "ingenio",
+        "question": "Adivina adivinador: 'Vuelo de noche, duermo de día colgado de cabeza y no tengo plumas'. ¿Qué soy?",
+        "options": [
+            "El loro",
+            "La paloma",
+            "El murciélago",
+            "La mariposa"
+        ],
+        "correct": 2,
+        "explanation": "El murciélago es un mamífero volador de hábitos nocturnos.",
+        "id": "q_g2_ingenio_6"
+    },
+    {
+        "grade": 2,
+        "category": "ingenio",
+        "question": "¿Qué número completa la serie de diez en diez? 10, 20, 30, 40, ...",
+        "options": [
+            "100",
+            "45",
+            "60",
+            "50"
+        ],
+        "correct": 3,
+        "explanation": "Sumando 10 cada vez: 40 + 10 = 50.",
+        "id": "q_g2_ingenio_7"
+    },
+    {
+        "grade": 2,
+        "category": "ingenio",
+        "question": "¿Qué número completa la serie de cinco en cinco? 25, 30, 35, ...",
+        "options": [
+            "36",
+            "50",
+            "40",
+            "45"
+        ],
+        "correct": 2,
+        "explanation": "Sumando 5 cada vez: 35 + 5 = 40.",
+        "id": "q_g2_ingenio_8"
+    },
+    {
+        "grade": 2,
+        "category": "ingenio",
+        "question": "¿Qué número completa la serie descendente? 50, 40, 30, ...",
+        "options": [
+            "35",
+            "20",
+            "25",
+            "10"
+        ],
+        "correct": 1,
+        "explanation": "Restando decenas: 50, 40, 30, 20.",
+        "id": "q_g2_ingenio_9"
+    },
+    {
+        "grade": 2,
+        "category": "ingenio",
+        "question": "Si multiplicamos por 2: 2, 4, 8, ... ¿qué número sigue?",
+        "options": [
+            "16",
+            "14",
+            "12",
+            "10"
+        ],
+        "correct": 0,
+        "explanation": "El doble de 8 es 16 (8 x 2 = 16).",
+        "id": "q_g2_ingenio_10"
+    },
+    {
+        "grade": 2,
+        "category": "ingenio",
+        "question": "El pájaro es al nido como el perro es a la:",
+        "options": [
+            "Jaula",
+            "Pecera",
+            "Cucha o casita",
+            "Cueva"
+        ],
+        "correct": 2,
+        "explanation": "El nido es la casa del pájaro y la cucha es el hogar del perro.",
+        "id": "q_g2_ingenio_11"
+    },
+    {
+        "grade": 2,
+        "category": "ingenio",
+        "question": "El zapato es al pie como el guante es a la:",
+        "options": [
+            "Oreja",
+            "Pierna",
+            "Mano",
+            "Cabeza"
+        ],
+        "correct": 2,
+        "explanation": "El guante protege y cubre la mano.",
+        "id": "q_g2_ingenio_12"
+    },
+    {
+        "grade": 2,
+        "category": "ingenio",
+        "question": "El pez es al agua como el pájaro es al:",
+        "options": [
+            "Aire",
+            "Túnel",
+            "Fuego",
+            "Suelo"
+        ],
+        "correct": 0,
+        "explanation": "Los peces se desplazan por el agua y las aves por el aire.",
+        "id": "q_g2_ingenio_13"
+    },
+    {
+        "grade": 2,
+        "category": "ingenio",
+        "question": "El lápiz es para dibujar como la tijera es para:",
+        "options": [
+            "Pegar",
+            "Cortar",
+            "Borrar",
+            "Pintar"
+        ],
+        "correct": 1,
+        "explanation": "La función de la tijera es recortar.",
+        "id": "q_g2_ingenio_14"
+    },
+    {
+        "grade": 2,
+        "category": "ingenio",
+        "question": "El conductor maneja el colectivo como el capitán conduce el:",
+        "options": [
+            "Bicicleta",
+            "Barco",
+            "Avión",
+            "Monopatín"
+        ],
+        "correct": 1,
+        "explanation": "El capitán comanda y navega los barcos.",
+        "id": "q_g2_ingenio_15"
+    },
+    {
+        "grade": 2,
+        "category": "ingenio",
+        "question": "Si tenés 3 manzanas en un plato y quitás 2 manzanas, ¿cuántas manzanas TENÉS en tu mano?",
+        "options": [
+            "2 manzanas (las que quitaste)",
+            "3 manzanas",
+            "0 manzanas",
+            "1 manzana"
+        ],
+        "correct": 0,
+        "explanation": "Tenés en tu mano las 2 manzanas que agarraste.",
+        "id": "q_g2_ingenio_16"
+    },
+    {
+        "grade": 2,
+        "category": "ingenio",
+        "question": "¿Qué pesa más: un kilo de plumas o un kilo de ladrillos?",
+        "options": [
+            "El kilo de ladrillos",
+            "El kilo de plumas",
+            "Pesan exactamente lo mismo (ambos pesan 1 kilo)",
+            "Ninguno pesa nada"
+        ],
+        "correct": 2,
+        "explanation": "Ambos pesan exactamente un kilo; lo que cambia es el volumen.",
+        "id": "q_g2_ingenio_17"
+    },
+    {
+        "grade": 2,
+        "category": "ingenio",
+        "question": "¿Cuál es el mes más corto del año que habitualmente tiene solo 28 días?",
+        "options": [
+            "Enero",
+            "Diciembre",
+            "Febrero",
+            "Julio"
+        ],
+        "correct": 2,
+        "explanation": "Febrero es el mes más corto del calendario.",
+        "id": "q_g2_ingenio_18"
+    },
+    {
+        "grade": 2,
+        "category": "ingenio",
+        "question": "Si en una carrera de atletismo adelantás al corredor que va en segundo lugar, ¿en qué puesto quedás?",
+        "options": [
+            "En segundo lugar",
+            "En último lugar",
+            "En primer lugar",
+            "En tercer lugar"
+        ],
+        "correct": 0,
+        "explanation": "Ocupás la posición del que iba segundo: quedás en segundo lugar.",
+        "id": "q_g2_ingenio_19"
+    },
+    {
+        "grade": 2,
+        "category": "ingenio",
+        "question": "¿Qué objeto tiene dientes pero no puede comer ni morder a nadie?",
+        "options": [
+            "El peine",
+            "La tijera",
+            "El tenedor",
+            "El reloj"
+        ],
+        "correct": 0,
+        "explanation": "El peine tiene púas o dientes para peinar el cabello.",
+        "id": "q_g2_ingenio_20"
+    },
+    {
+        "grade": 2,
+        "category": "ingenio",
+        "question": "¿Qué cosa se moja más a medida que te seca el cuerpo?",
+        "options": [
+            "La toalla",
+            "El agua",
+            "El jabón",
+            "El peine"
+        ],
+        "correct": 0,
+        "explanation": "La toalla absorbe el agua de tu cuerpo y se va mojando.",
+        "id": "q_g2_ingenio_21"
+    },
+    {
+        "grade": 2,
+        "category": "ingenio",
+        "question": "Adivina adivinador: 'Tengo copa pero no soy árbol, tengo agua pero no soy río, me bebes cuando tienes sed'. ¿Qué soy?",
+        "options": [
+            "Una botella",
+            "Un balde",
+            "Un vaso o copa de agua",
+            "Una manguera"
+        ],
+        "correct": 2,
+        "explanation": "La copa sirve para beber líquidos y calmar la sed.",
+        "id": "q_g2_ingenio_22"
+    },
+    {
+        "grade": 2,
+        "category": "ingenio",
+        "question": "Adivina adivinador: 'Paso por el agua y no me mojo, paso por el fuego y no me quemo'. ¿Quién soy?",
+        "options": [
+            "El pez",
+            "La sombra",
+            "La madera",
+            "El hielo"
+        ],
+        "correct": 1,
+        "explanation": "La sombra es una proyección de luz y no interactúa físicamente con el agua ni el fuego.",
+        "id": "q_g2_ingenio_23"
+    },
+    {
+        "grade": 2,
+        "category": "ingenio",
+        "question": "Adivina adivinador: 'Nazco blanca en el gallinero, me fríen en la sartén y tengo una yema dorada en el centro'. ¿Qué soy?",
+        "options": [
+            "Un huevo",
+            "Una manzana",
+            "Una papa",
+            "Un tomate"
+        ],
+        "correct": 0,
+        "explanation": "El huevo de gallina tiene cáscara clara, clara y yema amarilla.",
+        "id": "q_g2_ingenio_24"
+    },
+    {
+        "grade": 2,
+        "category": "ingenio",
+        "question": "Adivina adivinador: 'Redondo como la luna, blanco como la cal, me cortan en rodajas y me untan con mermelada'. ¿Qué soy?",
+        "options": [
+            "El jabón",
+            "El pan de molde",
+            "La cebolla",
+            "La sandía"
+        ],
+        "correct": 1,
+        "explanation": "El pan en rebanadas se unta en el desayuno.",
+        "id": "q_g2_ingenio_25"
+    },
+    {
+        "grade": 2,
+        "category": "ingenio",
+        "question": "Adivina adivinador: 'Llevo corona pero no soy reina, tengo escamas pero no soy pez, soy una fruta tropical deliciosa'. ¿Qué soy?",
+        "options": [
+            "La naranja",
+            "La banana",
+            "La frutilla",
+            "La piña o ananá"
+        ],
+        "correct": 3,
+        "explanation": "El ananá tiene una corona de hojas verdes y piel rugosa.",
+        "id": "q_g2_ingenio_26"
+    },
+    {
+        "grade": 2,
+        "category": "ingenio",
+        "question": "¿Qué animal tiene cuatro patas pero camina con la cabeza?",
+        "options": [
+            "El mono",
+            "El ciempiés",
+            "El loro",
+            "El piojo"
+        ],
+        "correct": 3,
+        "explanation": "Es un clásico acertijo infantil: el piojo vive en la cabeza de las personas.",
+        "id": "q_g2_ingenio_27"
+    },
+    {
+        "grade": 2,
+        "category": "ingenio",
+        "question": "¿Qué objeto sube cuando la lluvia baja?",
+        "options": [
+            "El cometa",
+            "El ascensor",
+            "El paraguas",
+            "El sol"
+        ],
+        "correct": 2,
+        "explanation": "Abrimos y levantamos el paraguas cuando caen las gotas de lluvia.",
+        "id": "q_g2_ingenio_28"
+    },
+    {
+        "grade": 2,
+        "category": "ingenio",
+        "question": "¿Qué número completa la serie de tres en tres? 3, 6, 9, 12, ...",
+        "options": [
+            "16",
+            "14",
+            "13",
+            "15"
+        ],
+        "correct": 3,
+        "explanation": "Sumando 3: 12 + 3 = 15.",
+        "id": "q_g2_ingenio_29"
+    },
+    {
+        "grade": 2,
+        "category": "ingenio",
+        "question": "¿Qué número completa la serie de cuatro en cuatro? 4, 8, 12, ...",
+        "options": [
+            "15",
+            "20",
+            "16",
+            "14"
+        ],
+        "correct": 2,
+        "explanation": "4 + 4 = 8, 8 + 4 = 12, 12 + 4 = 16.",
+        "id": "q_g2_ingenio_30"
+    },
+    {
+        "grade": 2,
+        "category": "ingenio",
+        "question": "¿Qué número falta en este conteo regresivo de 10 en 10? 100, 90, 80, ...",
+        "options": [
+            "60",
+            "85",
+            "75",
+            "70"
+        ],
+        "correct": 3,
+        "explanation": "Restando decenas: 100, 90, 80, 70.",
+        "id": "q_g2_ingenio_31"
+    },
+    {
+        "grade": 2,
+        "category": "ingenio",
+        "question": "Si un auto tiene 4 ruedas, ¿cuántas ruedas tienen 2 autos juntos?",
+        "options": [
+            "4 ruedas",
+            "10 ruedas",
+            "8 ruedas",
+            "6 ruedas"
+        ],
+        "correct": 2,
+        "explanation": "4 + 4 = 8 ruedas en total (2 x 4 = 8).",
+        "id": "q_g2_ingenio_32"
+    },
+    {
+        "grade": 2,
+        "category": "ingenio",
+        "question": "Si una bicicleta tiene 2 ruedas, ¿cuántas ruedas tienen 4 bicicletas?",
+        "options": [
+            "10 ruedas",
+            "12 ruedas",
+            "6 ruedas",
+            "8 ruedas"
+        ],
+        "correct": 3,
+        "explanation": "4 bicicletas x 2 ruedas = 8 ruedas.",
+        "id": "q_g2_ingenio_33"
+    },
+    {
+        "grade": 2,
+        "category": "ingenio",
+        "question": "¿Cuál es el INTRUSO en esta lista? Guitarra, Piano, Violín, Pelota.",
+        "options": [
+            "Piano",
+            "Pelota",
+            "Violín",
+            "Guitarra"
+        ],
+        "correct": 1,
+        "explanation": "La pelota es un elemento deportivo; los otros tres son instrumentos musicales.",
+        "id": "q_g2_ingenio_34"
+    },
+    {
+        "grade": 2,
+        "category": "ingenio",
+        "question": "¿Cuál elemento NO corresponde a la cocina? Heladera, Cocina, Olla, Cama.",
+        "options": [
+            "Cama",
+            "Olla",
+            "Cocina",
+            "Heladera"
+        ],
+        "correct": 0,
+        "explanation": "La cama pertenece al dormitorio, no a la cocina.",
+        "id": "q_g2_ingenio_35"
+    },
+    {
+        "grade": 2,
+        "category": "ingenio",
+        "question": "¿Cuál NO es un felino? Gato, León, Tigre, Perro.",
+        "options": [
+            "Perro",
+            "Tigre",
+            "León",
+            "Gato"
+        ],
+        "correct": 0,
+        "explanation": "El perro es un cánido, mientras que gato, león y tigre son felinos.",
+        "id": "q_g2_ingenio_36"
+    },
+    {
+        "grade": 2,
+        "category": "ingenio",
+        "question": "¿Qué animal es pariente del caballo pero tiene orejas más largas y dice 'rebuzno'?",
+        "options": [
+            "El burro o asno",
+            "La oveja",
+            "La vaca",
+            "El cerdo"
+        ],
+        "correct": 0,
+        "explanation": "El burro es un équido con orejas largas que emite rebuznos.",
+        "id": "q_g2_ingenio_37"
+    },
+    {
+        "grade": 2,
+        "category": "ingenio",
+        "question": "Si un paquete de caramelos cuesta $50 y pagás con un billete de $100, ¿cuánto te dan de vuelto?",
+        "options": [
+            "$20",
+            "$40",
+            "$50",
+            "$60"
+        ],
+        "correct": 2,
+        "explanation": "100 - 50 = 50 pesos de vuelto.",
+        "id": "q_g2_ingenio_38"
+    },
+    {
+        "grade": 2,
+        "category": "ingenio",
+        "question": "Si en una plaza hay 10 palomas y vuelan 4, ¿cuántas palomas quedan en el suelo?",
+        "options": [
+            "6 palomas",
+            "5 palomas",
+            "7 palomas",
+            "4 palomas"
+        ],
+        "correct": 0,
+        "explanation": "10 - 4 = 6 palomas.",
+        "id": "q_g2_ingenio_39"
+    },
+    {
+        "grade": 2,
+        "category": "ingenio",
+        "question": "Si tenés 5 lápices en cada mano, ¿cuántos lápices tenés entre las dos?",
+        "options": [
+            "10 lápices",
+            "5 lápices",
+            "12 lápices",
+            "8 lápices"
+        ],
+        "correct": 0,
+        "explanation": "5 + 5 = 10 lápices.",
+        "id": "q_g2_ingenio_40"
+    },
+    {
+        "grade": 2,
+        "category": "ingenio",
+        "question": "¿Qué objeto sirve para medir la temperatura corporal cuando tenemos fiebre?",
+        "options": [
+            "El termómetro",
+            "El reloj",
+            "La regla",
+            "La brújula"
+        ],
+        "correct": 0,
+        "explanation": "El termómetro clínico mide con precisión la temperatura del cuerpo.",
+        "id": "q_g2_ingenio_41"
+    },
+    {
+        "grade": 2,
+        "category": "ingenio",
+        "question": "¿Qué elemento usan los marineros para orientarse y saber dónde queda el Norte?",
+        "options": [
+            "La brújula",
+            "El telescopio",
+            "El termómetro",
+            "El barómetro"
+        ],
+        "correct": 0,
+        "explanation": "La aguja imantada de la brújula apunta siempre al Norte magnético.",
+        "id": "q_g2_ingenio_42"
+    },
+    {
+        "grade": 2,
+        "category": "ingenio",
+        "question": "¿Qué instrumento óptico usan los científicos para ver seres microscópicos que no se ven a simple vista?",
+        "options": [
+            "El microscopio",
+            "Los binoculares",
+            "Los anteojos de sol",
+            "La lupa común"
+        ],
+        "correct": 0,
+        "explanation": "El microscopio amplía miles de veces imágenes de bacterias y células.",
+        "id": "q_g2_ingenio_43"
+    },
+    {
+        "grade": 2,
+        "category": "ingenio",
+        "question": "¿Qué instrumento usamos para mirar las estrellas y planetas lejanos en el cielo nocturno?",
+        "options": [
+            "La cámara de fotos",
+            "El telescopio",
+            "El periscopio",
+            "El microscopio"
+        ],
+        "correct": 1,
+        "explanation": "El telescopio acerca imágenes de cuerpos celestes en el espacio.",
+        "id": "q_g2_ingenio_44"
+    },
+    {
+        "grade": 2,
+        "category": "ingenio",
+        "question": "Si mezclamos pintura azul con pintura amarilla, ¿qué nuevo color obtenemos?",
+        "options": [
+            "Verde",
+            "Violeta",
+            "Naranja",
+            "Rojo"
+        ],
+        "correct": 0,
+        "explanation": "El azul + amarillo forma el color secundario verde.",
+        "id": "q_g2_ingenio_45"
+    },
+    {
+        "grade": 2,
+        "category": "ingenio",
+        "question": "Si mezclamos pintura roja con pintura amarilla, ¿qué color obtenemos?",
+        "options": [
+            "Marrón",
+            "Verde",
+            "Naranja",
+            "Rosa"
+        ],
+        "correct": 2,
+        "explanation": "El rojo + amarillo forma el color naranja.",
+        "id": "q_g2_ingenio_46"
+    },
+    {
+        "grade": 2,
+        "category": "ingenio",
+        "question": "Si mezclamos pintura roja con pintura azul, ¿qué color obtenemos?",
+        "options": [
+            "Negro",
+            "Verde",
+            "Gris",
+            "Violeta o morado"
+        ],
+        "correct": 3,
+        "explanation": "El rojo + azul produce el color violeta.",
+        "id": "q_g2_ingenio_47"
+    },
+    {
+        "grade": 2,
+        "category": "ingenio",
+        "question": "¿Qué forma geométrica tiene una señal de tránsito de 'PARE'?",
+        "options": [
+            "Triángulo",
+            "Cuadrado",
+            "Círculo",
+            "Octógono (8 lados)"
+        ],
+        "correct": 3,
+        "explanation": "El cartel de PARE es un octógono rojo de 8 lados.",
+        "id": "q_g2_ingenio_48"
+    },
+    {
+        "grade": 2,
+        "category": "ingenio",
+        "question": "¿Cuál de los siguientes objetos flota fácilmente en el agua de una pileta?",
+        "options": [
+            "Una moneda de metal",
+            "Una llave de hierro",
+            "Un patito de goma inflado",
+            "Una piedra maciza"
+        ],
+        "correct": 2,
+        "explanation": "El patito de goma contiene aire y tiene menor densidad que el agua, por lo que flota.",
+        "id": "q_g2_ingenio_49"
+    },
+    {
+        "grade": 2,
+        "category": "ingenio",
+        "question": "Adivina adivinador: 'En el agua siempre vivo, plateado es mi color, nado veloz como flecha y respiro sin dolor'. ¿Qué soy?",
+        "options": [
+            "Un pez",
+            "Un pato",
+            "Un caracol",
+            "Una tortuga"
+        ],
+        "correct": 0,
+        "explanation": "Los peces nadan ágilmente en el agua y tienen escamas plateadas.",
+        "id": "q_g2_ingenio_50"
+    }
 ];
 
 // Soporte para exportación en entornos Node/CommonJS si fuera necesario
