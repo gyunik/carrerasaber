@@ -35050,6 +35050,7008 @@ const QUESTIONS_DATA = [
         "explanation": "Los peces nadan ágilmente en el agua y tienen escamas plateadas.",
         "id": "q_g2_ingenio_50"
     }
+    ,
+    {
+        "grade": 3,
+        "category": "matematica",
+        "question": "¿Qué número se forma con 4 unidades de mil, 3 centenas y 2 unidades?",
+        "options": [
+            "4.032",
+            "4.320",
+            "432",
+            "4.302"
+        ],
+        "correct": 3,
+        "explanation": "4 unidades de mil (4.000) + 3 centenas (300) + 0 decenas + 2 unidades = 4.302.",
+        "id": "q_g3_matematica_1"
+    },
+    {
+        "grade": 3,
+        "category": "matematica",
+        "question": "¿Cuál es el valor del dígito 7 en el número 7.450?",
+        "options": [
+            "7",
+            "7.000",
+            "70",
+            "700"
+        ],
+        "correct": 1,
+        "explanation": "El 7 ocupa la posición de las unidades de mil, por lo que vale 7.000.",
+        "id": "q_g3_matematica_2"
+    },
+    {
+        "grade": 3,
+        "category": "matematica",
+        "question": "¿Cuál es el número posterior a 999?",
+        "options": [
+            "1.010",
+            "1.000",
+            "1.001",
+            "998"
+        ],
+        "correct": 1,
+        "explanation": "999 + 1 = 1.000 (mil).",
+        "id": "q_g3_matematica_3"
+    },
+    {
+        "grade": 3,
+        "category": "matematica",
+        "question": "¿Cuál es el número anterior a 5.000?",
+        "options": [
+            "4.900",
+            "4.999",
+            "5.001",
+            "4.990"
+        ],
+        "correct": 1,
+        "explanation": "El número justo antes de 5.000 es 4.999.",
+        "id": "q_g3_matematica_4"
+    },
+    {
+        "grade": 3,
+        "category": "matematica",
+        "question": "¿Cómo se escribe en números 'tres mil doscientos quince'?",
+        "options": [
+            "3.025",
+            "3.250",
+            "3.215",
+            "3.205"
+        ],
+        "correct": 2,
+        "explanation": "Tres mil doscientos quince se escribe 3.215.",
+        "id": "q_g3_matematica_5"
+    },
+    {
+        "grade": 3,
+        "category": "matematica",
+        "question": "¿Qué número es el doble de 150?",
+        "options": [
+            "350",
+            "300",
+            "200",
+            "250"
+        ],
+        "correct": 1,
+        "explanation": "150 + 150 = 300.",
+        "id": "q_g3_matematica_6"
+    },
+    {
+        "grade": 3,
+        "category": "matematica",
+        "question": "¿Cuál es la mitad de 500?",
+        "options": [
+            "300",
+            "250",
+            "200",
+            "150"
+        ],
+        "correct": 1,
+        "explanation": "La mitad de 500 es 250 (250 + 250 = 500).",
+        "id": "q_g3_matematica_7"
+    },
+    {
+        "grade": 3,
+        "category": "matematica",
+        "question": "Si contamos de 100 en 100: 700, 800, 900... ¿cuál sigue?",
+        "options": [
+            "1.000",
+            "950",
+            "1.100",
+            "1.050"
+        ],
+        "correct": 0,
+        "explanation": "900 + 100 = 1.000.",
+        "id": "q_g3_matematica_8"
+    },
+    {
+        "grade": 3,
+        "category": "matematica",
+        "question": "¿Cuál de estos números es mayor que 2.580?",
+        "options": [
+            "2.508",
+            "2.590",
+            "2.579",
+            "2.499"
+        ],
+        "correct": 1,
+        "explanation": "2.590 tiene más decenas que 2.580.",
+        "id": "q_g3_matematica_9"
+    },
+    {
+        "grade": 3,
+        "category": "matematica",
+        "question": "¿Cuántas centenas hay en el número 800?",
+        "options": [
+            "800 centenas",
+            "4 centenas",
+            "80 centenas",
+            "8 centenas"
+        ],
+        "correct": 3,
+        "explanation": "Cada centena vale 100; en 800 hay exactamente 8 centenas.",
+        "id": "q_g3_matematica_10"
+    },
+    {
+        "grade": 3,
+        "category": "matematica",
+        "question": "¿Cuánto es 250 + 250?",
+        "options": [
+            "550",
+            "500",
+            "600",
+            "450"
+        ],
+        "correct": 1,
+        "explanation": "250 + 250 = 500.",
+        "id": "q_g3_matematica_11"
+    },
+    {
+        "grade": 3,
+        "category": "matematica",
+        "question": "¿Cuánto es 1.000 + 500?",
+        "options": [
+            "1.550",
+            "1.500",
+            "1.050",
+            "2.000"
+        ],
+        "correct": 1,
+        "explanation": "1.000 + 500 = 1.500.",
+        "id": "q_g3_matematica_12"
+    },
+    {
+        "grade": 3,
+        "category": "matematica",
+        "question": "¿Cuánto es 340 + 60?",
+        "options": [
+            "390",
+            "410",
+            "400",
+            "420"
+        ],
+        "correct": 2,
+        "explanation": "40 + 60 = 100, más 300 = 400.",
+        "id": "q_g3_matematica_13"
+    },
+    {
+        "grade": 3,
+        "category": "matematica",
+        "question": "¿Cuánto es 1.000 - 300?",
+        "options": [
+            "600",
+            "800",
+            "700",
+            "750"
+        ],
+        "correct": 2,
+        "explanation": "Si a 1.000 le quitamos 300, nos quedan 700.",
+        "id": "q_g3_matematica_14"
+    },
+    {
+        "grade": 3,
+        "category": "matematica",
+        "question": "¿Cuánto es 500 - 150?",
+        "options": [
+            "250",
+            "350",
+            "400",
+            "300"
+        ],
+        "correct": 1,
+        "explanation": "500 - 150 = 350.",
+        "id": "q_g3_matematica_15"
+    },
+    {
+        "grade": 3,
+        "category": "matematica",
+        "question": "Si compras una campera de $800 y pagas con $1.000, ¿cuánto te dan de vuelto?",
+        "options": [
+            "$250",
+            "$200",
+            "$100",
+            "$150"
+        ],
+        "correct": 1,
+        "explanation": "1.000 - 800 = 200 pesos.",
+        "id": "q_g3_matematica_16"
+    },
+    {
+        "grade": 3,
+        "category": "matematica",
+        "question": "¿Cuánto es 75 + 25?",
+        "options": [
+            "90",
+            "100",
+            "95",
+            "110"
+        ],
+        "correct": 1,
+        "explanation": "75 + 25 = 100.",
+        "id": "q_g3_matematica_17"
+    },
+    {
+        "grade": 3,
+        "category": "matematica",
+        "question": "¿Cuánto es 650 - 50?",
+        "options": [
+            "600",
+            "610",
+            "500",
+            "550"
+        ],
+        "correct": 0,
+        "explanation": "650 - 50 = 600.",
+        "id": "q_g3_matematica_18"
+    },
+    {
+        "grade": 3,
+        "category": "matematica",
+        "question": "¿Cuánto es 1.200 + 800?",
+        "options": [
+            "2.000",
+            "2.100",
+            "1.900",
+            "2.200"
+        ],
+        "correct": 0,
+        "explanation": "200 + 800 = 1.000, más 1.000 = 2.000.",
+        "id": "q_g3_matematica_19"
+    },
+    {
+        "grade": 3,
+        "category": "matematica",
+        "question": "¿Cuánto es 450 + 550?",
+        "options": [
+            "900",
+            "1.000",
+            "950",
+            "1.100"
+        ],
+        "correct": 1,
+        "explanation": "450 + 550 = 1.000.",
+        "id": "q_g3_matematica_20"
+    },
+    {
+        "grade": 3,
+        "category": "matematica",
+        "question": "¿Cuánto es 6 x 7?",
+        "options": [
+            "40",
+            "42",
+            "36",
+            "48"
+        ],
+        "correct": 1,
+        "explanation": "6 x 7 = 42.",
+        "id": "q_g3_matematica_21"
+    },
+    {
+        "grade": 3,
+        "category": "matematica",
+        "question": "¿Cuánto es 8 x 8?",
+        "options": [
+            "56",
+            "64",
+            "72",
+            "68"
+        ],
+        "correct": 1,
+        "explanation": "8 x 8 = 64.",
+        "id": "q_g3_matematica_22"
+    },
+    {
+        "grade": 3,
+        "category": "matematica",
+        "question": "¿Cuánto es 9 x 5?",
+        "options": [
+            "40",
+            "45",
+            "50",
+            "35"
+        ],
+        "correct": 1,
+        "explanation": "9 x 5 = 45.",
+        "id": "q_g3_matematica_23"
+    },
+    {
+        "grade": 3,
+        "category": "matematica",
+        "question": "¿Cuánto es 7 x 8?",
+        "options": [
+            "62",
+            "58",
+            "56",
+            "54"
+        ],
+        "correct": 2,
+        "explanation": "7 x 8 = 56.",
+        "id": "q_g3_matematica_24"
+    },
+    {
+        "grade": 3,
+        "category": "matematica",
+        "question": "¿Cuánto es 9 x 9?",
+        "options": [
+            "81",
+            "99",
+            "89",
+            "72"
+        ],
+        "correct": 0,
+        "explanation": "9 x 9 = 81.",
+        "id": "q_g3_matematica_25"
+    },
+    {
+        "grade": 3,
+        "category": "matematica",
+        "question": "¿Cuánto es 4 x 9?",
+        "options": [
+            "32",
+            "40",
+            "38",
+            "36"
+        ],
+        "correct": 3,
+        "explanation": "4 x 9 = 36.",
+        "id": "q_g3_matematica_26"
+    },
+    {
+        "grade": 3,
+        "category": "matematica",
+        "question": "¿Cuánto es 6 x 8?",
+        "options": [
+            "46",
+            "52",
+            "48",
+            "42"
+        ],
+        "correct": 2,
+        "explanation": "6 x 8 = 48.",
+        "id": "q_g3_matematica_27"
+    },
+    {
+        "grade": 3,
+        "category": "matematica",
+        "question": "¿Cuánto es 3 x 9?",
+        "options": [
+            "21",
+            "27",
+            "24",
+            "28"
+        ],
+        "correct": 1,
+        "explanation": "3 x 9 = 27.",
+        "id": "q_g3_matematica_28"
+    },
+    {
+        "grade": 3,
+        "category": "matematica",
+        "question": "¿Cuánto es 7 x 7?",
+        "options": [
+            "49",
+            "42",
+            "56",
+            "47"
+        ],
+        "correct": 0,
+        "explanation": "7 x 7 = 49.",
+        "id": "q_g3_matematica_29"
+    },
+    {
+        "grade": 3,
+        "category": "matematica",
+        "question": "¿Cuánto es 5 x 8?",
+        "options": [
+            "45",
+            "40",
+            "35",
+            "48"
+        ],
+        "correct": 1,
+        "explanation": "5 x 8 = 40.",
+        "id": "q_g3_matematica_30"
+    },
+    {
+        "grade": 3,
+        "category": "matematica",
+        "question": "Si repartimos 24 caramelos entre 4 amigos en partes iguales, ¿cuántos recibe cada uno?",
+        "options": [
+            "6",
+            "5",
+            "8",
+            "7"
+        ],
+        "correct": 0,
+        "explanation": "24 dividido 4 es 6 (6 x 4 = 24).",
+        "id": "q_g3_matematica_31"
+    },
+    {
+        "grade": 3,
+        "category": "matematica",
+        "question": "¿Cuánto es 35 dividido 5?",
+        "options": [
+            "5",
+            "8",
+            "6",
+            "7"
+        ],
+        "correct": 3,
+        "explanation": "35 : 5 = 7 (7 x 5 = 35).",
+        "id": "q_g3_matematica_32"
+    },
+    {
+        "grade": 3,
+        "category": "matematica",
+        "question": "¿Cuánto es 18 dividido 2?",
+        "options": [
+            "6",
+            "9",
+            "8",
+            "7"
+        ],
+        "correct": 1,
+        "explanation": "18 : 2 = 9.",
+        "id": "q_g3_matematica_33"
+    },
+    {
+        "grade": 3,
+        "category": "matematica",
+        "question": "¿Cuánto es 40 dividido 10?",
+        "options": [
+            "10",
+            "40",
+            "4",
+            "5"
+        ],
+        "correct": 2,
+        "explanation": "40 : 10 = 4.",
+        "id": "q_g3_matematica_34"
+    },
+    {
+        "grade": 3,
+        "category": "matematica",
+        "question": "Si dividimos 30 figuritas en 3 sobres iguales, ¿cuántas van en cada sobre?",
+        "options": [
+            "10",
+            "5",
+            "15",
+            "8"
+        ],
+        "correct": 0,
+        "explanation": "30 : 3 = 10 figuritas por sobre.",
+        "id": "q_g3_matematica_35"
+    },
+    {
+        "grade": 3,
+        "category": "matematica",
+        "question": "¿Cuánto es 20 dividido 4?",
+        "options": [
+            "4",
+            "5",
+            "6",
+            "8"
+        ],
+        "correct": 1,
+        "explanation": "20 : 4 = 5 (5 x 4 = 20).",
+        "id": "q_g3_matematica_36"
+    },
+    {
+        "grade": 3,
+        "category": "matematica",
+        "question": "Si dividimos una pizza en 2 partes exactamente iguales, cada porción es:",
+        "options": [
+            "Un cuarto (1/4)",
+            "Un entero",
+            "Un medio (1/2)",
+            "Un tercio (1/3)"
+        ],
+        "correct": 2,
+        "explanation": "Dividir en dos partes iguales genera medios (1/2).",
+        "id": "q_g3_matematica_37"
+    },
+    {
+        "grade": 3,
+        "category": "matematica",
+        "question": "¿Cuántos cuartos (1/4) forman un entero completo?",
+        "options": [
+            "2 cuartos",
+            "3 cuartos",
+            "8 cuartos",
+            "4 cuartos"
+        ],
+        "correct": 3,
+        "explanation": "4 cuartos forman un entero (1/4 + 1/4 + 1/4 + 1/4 = 1).",
+        "id": "q_g3_matematica_38"
+    },
+    {
+        "grade": 3,
+        "category": "matematica",
+        "question": "¿Cuántos medios (1/2) forman un entero?",
+        "options": [
+            "2 medios",
+            "1 medio",
+            "3 medios",
+            "4 medios"
+        ],
+        "correct": 0,
+        "explanation": "2 mitades hacen un entero (1/2 + 1/2 = 1).",
+        "id": "q_g3_matematica_39"
+    },
+    {
+        "grade": 3,
+        "category": "matematica",
+        "question": "Si compras 1/2 kilo de pan y 1/2 kilo más, ¿cuánto compraste en total?",
+        "options": [
+            "1/4 kilo",
+            "3/4 kilo",
+            "2 kilos",
+            "1 kilo entero"
+        ],
+        "correct": 3,
+        "explanation": "Medio kilo + medio kilo = 1 kilo.",
+        "id": "q_g3_matematica_40"
+    },
+    {
+        "grade": 3,
+        "category": "matematica",
+        "question": "¿Cómo se llama un triángulo que tiene sus 3 lados exactamente iguales?",
+        "options": [
+            "Equilátero",
+            "Rectángulo",
+            "Isósceles",
+            "Escaleno"
+        ],
+        "correct": 0,
+        "explanation": "El triángulo equilátero tiene sus tres lados de la misma longitud.",
+        "id": "q_g3_matematica_41"
+    },
+    {
+        "grade": 3,
+        "category": "matematica",
+        "question": "¿Cómo se llama un triángulo que tiene 2 lados iguales y 1 lado diferente?",
+        "options": [
+            "Equilátero",
+            "Redondo",
+            "Escaleno",
+            "Isósceles"
+        ],
+        "correct": 3,
+        "explanation": "El triángulo isósceles tiene dos lados de igual medida.",
+        "id": "q_g3_matematica_42"
+    },
+    {
+        "grade": 3,
+        "category": "matematica",
+        "question": "¿Cómo se llama un triángulo con sus 3 lados de diferente longitud?",
+        "options": [
+            "Cuadrado",
+            "Escaleno",
+            "Isósceles",
+            "Equilátero"
+        ],
+        "correct": 1,
+        "explanation": "El triángulo escaleno tiene sus tres lados desiguales.",
+        "id": "q_g3_matematica_43"
+    },
+    {
+        "grade": 3,
+        "category": "matematica",
+        "question": "Un ángulo recto mide exactamente:",
+        "options": [
+            "45 grados",
+            "60 grados",
+            "90 grados",
+            "180 grados"
+        ],
+        "correct": 2,
+        "explanation": "El ángulo recto mide 90° (como la esquina perfecta de una hoja).",
+        "id": "q_g3_matematica_44"
+    },
+    {
+        "grade": 3,
+        "category": "matematica",
+        "question": "Un ángulo que mide menos de 90 grados se llama:",
+        "options": [
+            "Ángulo llano",
+            "Ángulo agudo",
+            "Ángulo obtuso",
+            "Ángulo recto"
+        ],
+        "correct": 1,
+        "explanation": "Los ángulos agudos son más cerrados y miden entre 0° y 90°.",
+        "id": "q_g3_matematica_45"
+    },
+    {
+        "grade": 3,
+        "category": "matematica",
+        "question": "Un ángulo que mide más de 90 grados pero menos de 180° se llama:",
+        "options": [
+            "Ángulo recto",
+            "Ángulo obtuso",
+            "Ángulo agudo",
+            "Ángulo llano"
+        ],
+        "correct": 1,
+        "explanation": "Los ángulos obtusos son más abiertos que el ángulo recto.",
+        "id": "q_g3_matematica_46"
+    },
+    {
+        "grade": 3,
+        "category": "matematica",
+        "question": "¿Cuántos metros (m) hay en 1 kilómetro (km)?",
+        "options": [
+            "10 metros",
+            "100 metros",
+            "500 metros",
+            "1.000 metros"
+        ],
+        "correct": 3,
+        "explanation": "1 kilómetro equivale a 1.000 metros.",
+        "id": "q_g3_matematica_47"
+    },
+    {
+        "grade": 3,
+        "category": "matematica",
+        "question": "¿Cuántos gramos (g) equivalen a 1 kilogramo (kg)?",
+        "options": [
+            "10 gramos",
+            "1.000 gramos",
+            "500 gramos",
+            "100 gramos"
+        ],
+        "correct": 1,
+        "explanation": "1 kilo son exactamente 1.000 gramos.",
+        "id": "q_g3_matematica_48"
+    },
+    {
+        "grade": 3,
+        "category": "matematica",
+        "question": "¿Cuántos minutos tiene una hora completa?",
+        "options": [
+            "24 minutos",
+            "60 minutos",
+            "30 minutos",
+            "100 minutos"
+        ],
+        "correct": 1,
+        "explanation": "Una hora tiene 60 minutos.",
+        "id": "q_g3_matematica_49"
+    },
+    {
+        "grade": 3,
+        "category": "matematica",
+        "question": "¿Cuántos segundos tiene un minuto?",
+        "options": [
+            "30 segundos",
+            "12 segundos",
+            "60 segundos",
+            "100 segundos"
+        ],
+        "correct": 2,
+        "explanation": "Un minuto tiene 60 segundos.",
+        "id": "q_g3_matematica_50"
+    },
+    {
+        "grade": 3,
+        "category": "lengua",
+        "question": "¿Cómo se llama el sustantivo colectivo que nombra a un grupo de perros?",
+        "options": [
+            "Enjambre",
+            "Bandada",
+            "Cardumen",
+            "Jauría"
+        ],
+        "correct": 3,
+        "explanation": "Una jauría es un conjunto de perros o lobos.",
+        "id": "q_g3_lengua_1"
+    },
+    {
+        "grade": 3,
+        "category": "lengua",
+        "question": "¿Cómo se llama el sustantivo colectivo que nombra a un grupo de peces?",
+        "options": [
+            "Cardumen",
+            "Jauría",
+            "Rebaño",
+            "Arboleda"
+        ],
+        "correct": 0,
+        "explanation": "Un cardumen es un conjunto de peces que nadan juntos.",
+        "id": "q_g3_lengua_2"
+    },
+    {
+        "grade": 3,
+        "category": "lengua",
+        "question": "¿Cómo se llama el sustantivo colectivo que nombra a un grupo de pájaros volando juntos?",
+        "options": [
+            "Enjambre",
+            "Jauría",
+            "Manada",
+            "Bandada"
+        ],
+        "correct": 3,
+        "explanation": "Una bandada es un grupo de aves en vuelo.",
+        "id": "q_g3_lengua_3"
+    },
+    {
+        "grade": 3,
+        "category": "lengua",
+        "question": "¿Cómo se llama el sustantivo colectivo para un conjunto de abejas?",
+        "options": [
+            "Rebaño",
+            "Cardumen",
+            "Enjambre",
+            "Tropilla"
+        ],
+        "correct": 2,
+        "explanation": "Un enjambre es un conjunto numeroso de abejas.",
+        "id": "q_g3_lengua_4"
+    },
+    {
+        "grade": 3,
+        "category": "lengua",
+        "question": "¿Cómo se llama el sustantivo colectivo para un conjunto de árboles?",
+        "options": [
+            "Ramo",
+            "Jauría",
+            "Manada",
+            "Arboleda o bosque"
+        ],
+        "correct": 3,
+        "explanation": "Una arboleda es un conjunto de árboles agrupados.",
+        "id": "q_g3_lengua_5"
+    },
+    {
+        "grade": 3,
+        "category": "lengua",
+        "question": "¿Cómo se llama el adjetivo que indica el lugar de origen o nacionalidad de alguien?",
+        "options": [
+            "Numeral",
+            "Posesivo",
+            "Gentilicio",
+            "Calificativo"
+        ],
+        "correct": 2,
+        "explanation": "Los gentilicios indican de dónde proviene una persona (ej: argentino, cordobés).",
+        "id": "q_g3_lengua_6"
+    },
+    {
+        "grade": 3,
+        "category": "lengua",
+        "question": "¿Cuál es el gentilicio de una persona nacida en la provincia de Córdoba?",
+        "options": [
+            "Santafesino",
+            "Cordobés o cordobesa",
+            "Tucumano",
+            "Porteño"
+        ],
+        "correct": 1,
+        "explanation": "Las personas nacidas en Córdoba son cordobeses.",
+        "id": "q_g3_lengua_7"
+    },
+    {
+        "grade": 3,
+        "category": "lengua",
+        "question": "¿Cuál es el gentilicio de una persona nacida en la provincia de Mendoza?",
+        "options": [
+            "Chaqueño",
+            "Misionero",
+            "Mendocino o mendocina",
+            "Salteño"
+        ],
+        "correct": 2,
+        "explanation": "A los oriundos de Mendoza se los llama mendocinos.",
+        "id": "q_g3_lengua_8"
+    },
+    {
+        "grade": 3,
+        "category": "lengua",
+        "question": "¿Cómo se llaman los verbos en su forma original terminados en -ar, -er, -ir?",
+        "options": [
+            "Conjugados",
+            "Participios",
+            "Infinitivos",
+            "Gerundios"
+        ],
+        "correct": 2,
+        "explanation": "Cantar, correr y vivir son verbos en infinitivo.",
+        "id": "q_g3_lengua_9"
+    },
+    {
+        "grade": 3,
+        "category": "lengua",
+        "question": "En la oración 'Mañana nosotros viajaremos al campo', ¿en qué tiempo está el verbo?",
+        "options": [
+            "Infinitivo",
+            "Futuro",
+            "Presente",
+            "Pasado"
+        ],
+        "correct": 1,
+        "explanation": "'Viajaremos' expresa una acción que ocurrirá en el futuro.",
+        "id": "q_g3_lengua_10"
+    },
+    {
+        "grade": 3,
+        "category": "lengua",
+        "question": "En la oración 'Ayer los chicos jugaron al fútbol', ¿en qué tiempo está el verbo?",
+        "options": [
+            "Presente",
+            "Pasado (pretérito)",
+            "Futuro",
+            "Condicional"
+        ],
+        "correct": 1,
+        "explanation": "'Jugaron' indica una acción que ya ocurrió en el pasado.",
+        "id": "q_g3_lengua_11"
+    },
+    {
+        "grade": 3,
+        "category": "lengua",
+        "question": "¿Cuál de estos verbos está en tiempo presente?",
+        "options": [
+            "Comió",
+            "Come",
+            "Comido",
+            "Comerá"
+        ],
+        "correct": 1,
+        "explanation": "'Come' indica una acción que ocurre ahora en el presente.",
+        "id": "q_g3_lengua_12"
+    },
+    {
+        "grade": 3,
+        "category": "lengua",
+        "question": "Las palabras terminadas en diminutivos -cito y -cita (como pedacito, tacita) se escriben con:",
+        "options": [
+            "S",
+            "C",
+            "Z",
+            "X"
+        ],
+        "correct": 1,
+        "explanation": "Los diminutivos -cito y -cita se escriben con C.",
+        "id": "q_g3_lengua_13"
+    },
+    {
+        "grade": 3,
+        "category": "lengua",
+        "question": "Los adjetivos terminados en -oso y -osa (como hermoso, cariñosa) se escriben con:",
+        "options": [
+            "Z",
+            "X",
+            "C",
+            "S"
+        ],
+        "correct": 3,
+        "explanation": "Las terminaciones -oso y -osa se escriben siempre con S.",
+        "id": "q_g3_lengua_14"
+    },
+    {
+        "grade": 3,
+        "category": "lengua",
+        "question": "Los aumentativos que indican golpe o gran tamaño terminados en -azo (como golazo, codazo) se escriben con:",
+        "options": [
+            "C",
+            "Z",
+            "B",
+            "S"
+        ],
+        "correct": 1,
+        "explanation": "Los aumentativos en -azo y -aza llevan Z.",
+        "id": "q_g3_lengua_15"
+    },
+    {
+        "grade": 3,
+        "category": "lengua",
+        "question": "Los verbos terminados en -bir (como escribir, recibir) se escriben con:",
+        "options": [
+            "B (excepto hervir, servir y vivir)",
+            "V",
+            "M",
+            "P"
+        ],
+        "correct": 0,
+        "explanation": "La regla de terminación -bir lleva B larga, con las excepciones de hervir, servir y vivir.",
+        "id": "q_g3_lengua_16"
+    },
+    {
+        "grade": 3,
+        "category": "lengua",
+        "question": "¿Qué palabra necesita diéresis (los dos puntitos sobre la ü) para que la U suene?",
+        "options": [
+            "Guiso",
+            "Pingüino",
+            "Guitarra",
+            "Águila"
+        ],
+        "correct": 1,
+        "explanation": "La diéresis en 'pingüino' o 'cigüeña' indica que la letra U debe pronunciarse: /pin-güi-no/.",
+        "id": "q_g3_lengua_17"
+    },
+    {
+        "grade": 3,
+        "category": "lengua",
+        "question": "¿Qué palabra está correctamente escrita con V?",
+        "options": [
+            "Imbento",
+            "Invento",
+            "Inbento",
+            "Imvento"
+        ],
+        "correct": 1,
+        "explanation": "Después de la letra N siempre se escribe V (ej: invento, invierno, convivir).",
+        "id": "q_g3_lengua_18"
+    },
+    {
+        "grade": 3,
+        "category": "lengua",
+        "question": "Las palabras que tienen la sílaba tónica en la ÚLTIMA sílaba se llaman:",
+        "options": [
+            "Graves",
+            "Agudas",
+            "Esdrújulas",
+            "Sobreesdrújulas"
+        ],
+        "correct": 1,
+        "explanation": "Las palabras agudas cargan la voz en la última sílaba (ej: canción, papá, tambor).",
+        "id": "q_g3_lengua_19"
+    },
+    {
+        "grade": 3,
+        "category": "lengua",
+        "question": "¿Cuándo llevan tilde las palabras agudas?",
+        "options": [
+            "Cuando terminan en N, S o vocal",
+            "Solo cuando terminan en consonante",
+            "Nunca",
+            "Siempre"
+        ],
+        "correct": 0,
+        "explanation": "Las agudas llevan tilde escrita si terminan en N, S o vocal.",
+        "id": "q_g3_lengua_20"
+    },
+    {
+        "grade": 3,
+        "category": "lengua",
+        "question": "Las palabras que tienen la sílaba tónica en la PENÚLTIMA sílaba se llaman:",
+        "options": [
+            "Esdrújulas",
+            "Monosílabas",
+            "Graves",
+            "Agudas"
+        ],
+        "correct": 2,
+        "explanation": "Las palabras graves acentúan en la penúltima sílaba (ej: árbol, mesa, casa).",
+        "id": "q_g3_lengua_21"
+    },
+    {
+        "grade": 3,
+        "category": "lengua",
+        "question": "¿Cuándo llevan tilde las palabras graves?",
+        "options": [
+            "Cuando terminan en vocal",
+            "Nunca",
+            "Siempre",
+            "Cuando terminan en consonante que NO sea N ni S"
+        ],
+        "correct": 3,
+        "explanation": "Las graves llevan tilde si NO terminan en N, S ni vocal (ej: árbol, lápiz).",
+        "id": "q_g3_lengua_22"
+    },
+    {
+        "grade": 3,
+        "category": "lengua",
+        "question": "Las palabras que tienen la sílaba tónica en la ANTEPENÚLTIMA sílaba se llaman:",
+        "options": [
+            "Llanas",
+            "Graves",
+            "Esdrújulas",
+            "Agudas"
+        ],
+        "correct": 2,
+        "explanation": "Las esdrújulas cargan la voz en la antepenúltima sílaba (ej: pájaro, música, teléfono).",
+        "id": "q_g3_lengua_23"
+    },
+    {
+        "grade": 3,
+        "category": "lengua",
+        "question": "¿Cuándo llevan tilde las palabras esdrújulas?",
+        "options": [
+            "Solo si terminan en vocal",
+            "Solo si terminan en consonante",
+            "Siempre llevan tilde",
+            "Nunca"
+        ],
+        "correct": 2,
+        "explanation": "Todas las palabras esdrújulas llevan tilde sin excepción.",
+        "id": "q_g3_lengua_24"
+    },
+    {
+        "grade": 3,
+        "category": "lengua",
+        "question": "La palabra 'CORAZÓN' es una palabra:",
+        "options": [
+            "Sobreesdrújula",
+            "Esdrújula",
+            "Grave",
+            "Aguda"
+        ],
+        "correct": 3,
+        "explanation": "Lleva el acento en la última sílaba (-ZÓN) y termina en N, por eso es aguda con tilde.",
+        "id": "q_g3_lengua_25"
+    },
+    {
+        "grade": 3,
+        "category": "lengua",
+        "question": "La palabra 'ÁRBOL' es una palabra:",
+        "options": [
+            "Grave",
+            "Esdrújula",
+            "Aguda",
+            "Monosílaba"
+        ],
+        "correct": 0,
+        "explanation": "Lleva el acento en la penúltima sílaba (ÁR-) y termina en L, por lo que es grave con tilde.",
+        "id": "q_g3_lengua_26"
+    },
+    {
+        "grade": 3,
+        "category": "lengua",
+        "question": "La palabra 'PÁJARO' es una palabra:",
+        "options": [
+            "Grave",
+            "Bisílaba",
+            "Aguda",
+            "Esdrújula"
+        ],
+        "correct": 3,
+        "explanation": "Tiene acento en la antepenúltima sílaba (PÁ-ja-ro), por lo que es esdrújula.",
+        "id": "q_g3_lengua_27"
+    },
+    {
+        "grade": 3,
+        "category": "lengua",
+        "question": "En un diálogo de cuento u obra teatral, ¿qué signo indica que un personaje empieza a hablar?",
+        "options": [
+            "El punto final",
+            "La raya de diálogo (—)",
+            "La coma",
+            "El paréntesis"
+        ],
+        "correct": 1,
+        "explanation": "La raya de diálogo introduce la voz de los personajes.",
+        "id": "q_g3_lengua_28"
+    },
+    {
+        "grade": 3,
+        "category": "lengua",
+        "question": "¿Qué relato tradicional transmitido de generación en generación explica con fantasía el origen de animales o plantas?",
+        "options": [
+            "La leyenda",
+            "El reglamento",
+            "La noticia",
+            "La receta"
+        ],
+        "correct": 0,
+        "explanation": "Las leyendas populares explican el origen de elementos naturales mediante mitos.",
+        "id": "q_g3_lengua_29"
+    },
+    {
+        "grade": 3,
+        "category": "lengua",
+        "question": "¿Qué medio de prensa escrita informa sobre hechos reales y actuales de interés público?",
+        "options": [
+            "La noticia periodística",
+            "El trabalenguas",
+            "La poesía lírica",
+            "El cuento maravilloso"
+        ],
+        "correct": 0,
+        "explanation": "Las noticias informan hechos verídicos, recientes y relevantes.",
+        "id": "q_g3_lengua_30"
+    },
+    {
+        "grade": 3,
+        "category": "lengua",
+        "question": "¿Cómo se llama la parte destacada y grande que encabeza una noticia en el diario?",
+        "options": [
+            "El titular o título",
+            "El epígrafe",
+            "La firma",
+            "El pie de foto"
+        ],
+        "correct": 0,
+        "explanation": "El titular resume la información principal con letras grandes para llamar la atención.",
+        "id": "q_g3_lengua_31"
+    },
+    {
+        "grade": 3,
+        "category": "lengua",
+        "question": "¿Cómo se llaman las palabras que tienen significados opuestos entre sí?",
+        "options": [
+            "Parónimos",
+            "Homófonas",
+            "Antónimos",
+            "Sinónimos"
+        ],
+        "correct": 2,
+        "explanation": "Los antónimos son palabras con significado contrario (alto/bajo).",
+        "id": "q_g3_lengua_32"
+    },
+    {
+        "grade": 3,
+        "category": "lengua",
+        "question": "¿Cómo se llaman las palabras que se escriben distinto pero significan lo mismo?",
+        "options": [
+            "Pronombres",
+            "Rimas",
+            "Sinónimos",
+            "Antónimos"
+        ],
+        "correct": 2,
+        "explanation": "Los sinónimos tienen significados equivalentes (bello/hermoso).",
+        "id": "q_g3_lengua_33"
+    },
+    {
+        "grade": 3,
+        "category": "lengua",
+        "question": "¿Cuál es el sujeto en la oración 'Los alumnos estudian en la biblioteca'?",
+        "options": [
+            "Los alumnos",
+            "Estudian",
+            "La biblioteca",
+            "En la biblioteca"
+        ],
+        "correct": 0,
+        "explanation": "El sujeto es quien realiza la acción: 'Los alumnos'.",
+        "id": "q_g3_lengua_34"
+    },
+    {
+        "grade": 3,
+        "category": "lengua",
+        "question": "¿Cuál es el predicado en la oración 'El tren rápido llegó a la estación'?",
+        "options": [
+            "Llegó a la estación",
+            "El tren rápido",
+            "Rápido",
+            "El tren"
+        ],
+        "correct": 0,
+        "explanation": "El predicado expresa lo que se dice del sujeto: 'llegó a la estación'.",
+        "id": "q_g3_lengua_35"
+    },
+    {
+        "grade": 3,
+        "category": "lengua",
+        "question": "¿Qué letra nunca suena en español salvo que forme parte del dígrafo CH?",
+        "options": [
+            "La letra Z",
+            "La letra H",
+            "La letra B",
+            "La letra J"
+        ],
+        "correct": 1,
+        "explanation": "La H es muda en español.",
+        "id": "q_g3_lengua_36"
+    },
+    {
+        "grade": 3,
+        "category": "lengua",
+        "question": "¿Qué palabra lleva H intermedia?",
+        "options": [
+            "Zanahoria",
+            "Banana",
+            "Naranja",
+            "Manzana"
+        ],
+        "correct": 0,
+        "explanation": "'Zanahoria' se escribe con H intercalada.",
+        "id": "q_g3_lengua_37"
+    },
+    {
+        "grade": 3,
+        "category": "lengua",
+        "question": "¿Cuál de estas palabras es una palabra compuesta (unión de dos palabras)?",
+        "options": [
+            "Coche",
+            "Libro",
+            "Mesa",
+            "Paraguas (para + aguas)"
+        ],
+        "correct": 3,
+        "explanation": "Las palabras compuestas se forman uniendo dos términos: para + aguas = paraguas.",
+        "id": "q_g3_lengua_38"
+    },
+    {
+        "grade": 3,
+        "category": "lengua",
+        "question": "¿Cuál de estas palabras es también una palabra compuesta?",
+        "options": [
+            "Sacapuntas (saca + puntas)",
+            "Lápiz",
+            "Goma",
+            "Regla"
+        ],
+        "correct": 0,
+        "explanation": "Saca + puntas = sacapuntas.",
+        "id": "q_g3_lengua_39"
+    },
+    {
+        "grade": 3,
+        "category": "lengua",
+        "question": "¿Qué pronombre personal reemplaza a 'María y yo' en una oración?",
+        "options": [
+            "Vos",
+            "Nosotros / Nosotras",
+            "Ustedes",
+            "Ellos"
+        ],
+        "correct": 1,
+        "explanation": "'María y yo' incluye al hablante, por lo que equivale al pronombre 'nosotras'.",
+        "id": "q_g3_lengua_40"
+    },
+    {
+        "grade": 3,
+        "category": "lengua",
+        "question": "¿Qué pronombre personal reemplaza a 'Lucas y Pedro'?",
+        "options": [
+            "Yo",
+            "Ellos",
+            "Nosotros",
+            "Vosotros"
+        ],
+        "correct": 1,
+        "explanation": "'Lucas y Pedro' son terceras personas del plural: 'Ellos'.",
+        "id": "q_g3_lengua_41"
+    },
+    {
+        "grade": 3,
+        "category": "lengua",
+        "question": "¿Cuál es el abecedario ordenado correctamente de las siguientes opciones?",
+        "options": [
+            "A, C, B, E, D",
+            "B, A, C, D, E",
+            "D, C, B, A, E",
+            "A, B, C, D, E"
+        ],
+        "correct": 3,
+        "explanation": "El orden alfabético correcto inicia con A, B, C, D, E.",
+        "id": "q_g3_lengua_42"
+    },
+    {
+        "grade": 3,
+        "category": "lengua",
+        "question": "¿Qué tipo de texto incluye ingredientes y pasos numerados de preparación?",
+        "options": [
+            "Una novela policíaca",
+            "Una carta formal",
+            "Un poema de amor",
+            "Una receta de cocina"
+        ],
+        "correct": 3,
+        "explanation": "Las recetas detallan ingredientes y modo de preparación.",
+        "id": "q_g3_lengua_43"
+    },
+    {
+        "grade": 3,
+        "category": "lengua",
+        "question": "¿Cuál es el prefijo en la palabra 'Desarmar'?",
+        "options": [
+            "-ar",
+            "Des-",
+            "Arm-",
+            "-mar"
+        ],
+        "correct": 1,
+        "explanation": "El prefijo 'des-' indica inversión o sentido opuesto a la acción de armar.",
+        "id": "q_g3_lengua_44"
+    },
+    {
+        "grade": 3,
+        "category": "lengua",
+        "question": "¿Cuál es el sufijo en la palabra 'Perrito'?",
+        "options": [
+            "-to",
+            "Per-",
+            "Perr-",
+            "-ito"
+        ],
+        "correct": 3,
+        "explanation": "El sufijo diminutivo '-ito' indica menor tamaño o cariño.",
+        "id": "q_g3_lengua_45"
+    },
+    {
+        "grade": 3,
+        "category": "lengua",
+        "question": "En una carta, ¿qué se escribe al principio arriba a la derecha?",
+        "options": [
+            "La despedida",
+            "El lugar y la fecha",
+            "La posdata",
+            "La firma"
+        ],
+        "correct": 1,
+        "explanation": "Toda carta formal o informal comienza indicando lugar y fecha de emisión.",
+        "id": "q_g3_lengua_46"
+    },
+    {
+        "grade": 3,
+        "category": "lengua",
+        "question": "¿Qué texto breve de rimas graciosas tiene juegos de palabras difíciles de pronunciar?",
+        "options": [
+            "La receta",
+            "El trabalenguas",
+            "La fábula",
+            "El mapa"
+        ],
+        "correct": 1,
+        "explanation": "Los trabalenguas ejercitan la dicción con sonidos repetitivos desafiantes.",
+        "id": "q_g3_lengua_47"
+    },
+    {
+        "grade": 3,
+        "category": "lengua",
+        "question": "¿Cuál es el núcleo del predicado en una oración?",
+        "options": [
+            "El adjetivo",
+            "El sustantivo",
+            "El punto",
+            "El verbo principal"
+        ],
+        "correct": 3,
+        "explanation": "El núcleo del predicado siempre es un verbo conjugado.",
+        "id": "q_g3_lengua_48"
+    },
+    {
+        "grade": 3,
+        "category": "lengua",
+        "question": "¿Cuál es el núcleo del sujeto en la oración 'El caballo blanco corre veloz'?",
+        "options": [
+            "Corre",
+            "Caballo",
+            "Veloz",
+            "Blanco"
+        ],
+        "correct": 1,
+        "explanation": "'Caballo' es el sustantivo principal que realiza la acción.",
+        "id": "q_g3_lengua_49"
+    },
+    {
+        "grade": 3,
+        "category": "lengua",
+        "question": "¿Cuál es el sinónimo de la palabra 'Generoso'?",
+        "options": [
+            "Rápido",
+            "Enojado",
+            "Tacaño",
+            "Dadivoso o bondadoso"
+        ],
+        "correct": 3,
+        "explanation": "Alguien generoso es una persona bondadosa que comparte lo que tiene.",
+        "id": "q_g3_lengua_50"
+    },
+    {
+        "grade": 3,
+        "category": "naturales",
+        "question": "¿Qué adaptación tienen las aves para poder volar con facilidad?",
+        "options": [
+            "Huesos huecos livianos y alas con plumas",
+            "Corazas de metal",
+            "Piel gruesa de oso",
+            "Huesos pesados de plomo"
+        ],
+        "correct": 0,
+        "explanation": "Las aves tienen huesos neumáticos huecos y plumas diseñadas aerodinámicamente.",
+        "id": "q_g3_naturales_1"
+    },
+    {
+        "grade": 3,
+        "category": "naturales",
+        "question": "¿Qué adaptación tienen los cactus para vivir en desiertos con casi nada de agua?",
+        "options": [
+            "Raíces flotantes",
+            "Hojas gigantescas y finas",
+            "Troncos huecos vacíos",
+            "Espinas en lugar de hojas y tallos carnosos que acumulan agua"
+        ],
+        "correct": 3,
+        "explanation": "Las espinas reducen la pérdida de agua y los tallos almacenan reservas hídricas.",
+        "id": "q_g3_naturales_2"
+    },
+    {
+        "grade": 3,
+        "category": "naturales",
+        "question": "¿Cómo se llama el camuflaje que permite a animales como el camaleón pasar desapercibidos?",
+        "options": [
+            "Polinización",
+            "Migración",
+            "Mimetismo o camuflaje",
+            "Hibernación"
+        ],
+        "correct": 2,
+        "explanation": "El camuflaje les permite confundirse con los colores y texturas de su entorno.",
+        "id": "q_g3_naturales_3"
+    },
+    {
+        "grade": 3,
+        "category": "naturales",
+        "question": "¿Qué adaptación tienen los osos polares para soportar el frío extremo del Ártico?",
+        "options": [
+            "Escamas de pez",
+            "Una gruesa capa de grasa bajo la piel y espeso pelaje",
+            "Plumas de pingüino",
+            "Piel fina"
+        ],
+        "correct": 1,
+        "explanation": "La grasa corporal subcutánea aísla el calor del cuerpo del oso polar.",
+        "id": "q_g3_naturales_4"
+    },
+    {
+        "grade": 3,
+        "category": "naturales",
+        "question": "En una cadena alimentaria, ¿qué seres vivos son los 'productores' que fabrican su propio alimento?",
+        "options": [
+            "Las aves rapaces",
+            "Los leones",
+            "Los hongos",
+            "Las plantas verdes y algas"
+        ],
+        "correct": 3,
+        "explanation": "Las plantas son organismos autótrofos fotosintéticos que producen materia orgánica.",
+        "id": "q_g3_naturales_5"
+    },
+    {
+        "grade": 3,
+        "category": "naturales",
+        "question": "¿Cómo se llaman los animales que se alimentan directamente de las plantas productoras?",
+        "options": [
+            "Consumidores primarios (herbívoros)",
+            "Descomponedores",
+            "Productores",
+            "Consumidores terciarios"
+        ],
+        "correct": 0,
+        "explanation": "Los herbívoros comen plantas y constituyen el primer eslabón consumidor.",
+        "id": "q_g3_naturales_6"
+    },
+    {
+        "grade": 3,
+        "category": "naturales",
+        "question": "¿Qué rol cumplen los hongos y bacterias al final de la cadena trófica?",
+        "options": [
+            "Consumidores primarios",
+            "Productores de luz",
+            "Descomponedores de materia orgánica",
+            "Cazadores"
+        ],
+        "correct": 2,
+        "explanation": "Los descomponedores reciclan los restos orgánicos devolviendo minerales al suelo.",
+        "id": "q_g3_naturales_7"
+    },
+    {
+        "grade": 3,
+        "category": "naturales",
+        "question": "Si las plantas desaparecieran de un ecosistema, ¿qué le pasaría a la cadena trófica?",
+        "options": [
+            "Los animales vivirían mejor",
+            "No pasaría nada",
+            "Habría más oxígeno",
+            "Se extinguirían los animales porque no tendrían alimento"
+        ],
+        "correct": 3,
+        "explanation": "Las plantas son la base alimenticia y de oxígeno de todos los ecosistemas.",
+        "id": "q_g3_naturales_8"
+    },
+    {
+        "grade": 3,
+        "category": "naturales",
+        "question": "¿Qué sistema del cuerpo se encarga de transformar los alimentos en nutrientes absorbibles?",
+        "options": [
+            "El sistema óseo",
+            "El sistema respiratorio",
+            "El sistema excretor",
+            "El sistema digestivo"
+        ],
+        "correct": 3,
+        "explanation": "El sistema digestivo procesa y absorbe los nutrientes de los alimentos.",
+        "id": "q_g3_naturales_9"
+    },
+    {
+        "grade": 3,
+        "category": "naturales",
+        "question": "¿Qué órganos principales del sistema respiratorio se llenan de aire al inspirar?",
+        "options": [
+            "Los pulmones",
+            "Los riñones",
+            "Las costillas",
+            "Los ojos"
+        ],
+        "correct": 0,
+        "explanation": "Los pulmones realizan el intercambio gaseoso de oxígeno y dióxido de carbono.",
+        "id": "q_g3_naturales_10"
+    },
+    {
+        "grade": 3,
+        "category": "naturales",
+        "question": "¿Qué órgano muscular bombea la sangre impulsándola por las arterias y venas?",
+        "options": [
+            "El cerebro",
+            "El corazón",
+            "El hígado",
+            "El estómago"
+        ],
+        "correct": 1,
+        "explanation": "El corazón late rítmicamente bombeando sangre a todo el organismo.",
+        "id": "q_g3_naturales_11"
+    },
+    {
+        "grade": 3,
+        "category": "naturales",
+        "question": "¿Qué sistema del cuerpo elimina desechos líquidos a través de la orina?",
+        "options": [
+            "El sistema locomotor",
+            "El sistema excretor / urinario (riñones)",
+            "El sistema digestivo",
+            "El sistema respiratorio"
+        ],
+        "correct": 1,
+        "explanation": "Los riñones filtran la sangre y eliminan toxinas en la orina.",
+        "id": "q_g3_naturales_12"
+    },
+    {
+        "grade": 3,
+        "category": "naturales",
+        "question": "¿Qué tubo conecta la boca con el estómago para el paso de la comida?",
+        "options": [
+            "El esófago",
+            "La tráquea",
+            "La arteria aorta",
+            "El fémur"
+        ],
+        "correct": 0,
+        "explanation": "El esófago conduce el bolo alimenticio hacia el estómago mediante movimientos peristálticos.",
+        "id": "q_g3_naturales_13"
+    },
+    {
+        "grade": 3,
+        "category": "naturales",
+        "question": "¿Qué cuerpo celeste se encuentra en el centro de nuestro Sistema Solar?",
+        "options": [
+            "La Tierra",
+            "El Sol (una estrella)",
+            "La Luna",
+            "Júpiter"
+        ],
+        "correct": 1,
+        "explanation": "El Sol es la estrella central alrededor de la cual orbitan todos los planetas.",
+        "id": "q_g3_naturales_14"
+    },
+    {
+        "grade": 3,
+        "category": "naturales",
+        "question": "¿Cuántos planetas principales forman el Sistema Solar?",
+        "options": [
+            "9 planetas",
+            "8 planetas",
+            "5 planetas",
+            "12 planetas"
+        ],
+        "correct": 1,
+        "explanation": "Los 8 planetas son: Mercurio, Venus, Tierra, Marte, Júpiter, Saturno, Urano y Neptuno.",
+        "id": "q_g3_naturales_15"
+    },
+    {
+        "grade": 3,
+        "category": "naturales",
+        "question": "¿Cómo se llama el movimiento de la Tierra al girar sobre su propio eje?",
+        "options": [
+            "Rotación",
+            "Nutación",
+            "Traslación",
+            "Evolución"
+        ],
+        "correct": 0,
+        "explanation": "La rotación de la Tierra sobre su eje dura 24 horas y produce el día y la noche.",
+        "id": "q_g3_naturales_16"
+    },
+    {
+        "grade": 3,
+        "category": "naturales",
+        "question": "¿Qué fenómeno genera el movimiento de rotación de la Tierra?",
+        "options": [
+            "Las mareas altas solamente",
+            "El día y la noche",
+            "Los eclipses solares",
+            "Las cuatro estaciones del año"
+        ],
+        "correct": 1,
+        "explanation": "Al rotar, la mitad iluminada por el Sol está de día y la otra mitad de noche.",
+        "id": "q_g3_naturales_17"
+    },
+    {
+        "grade": 3,
+        "category": "naturales",
+        "question": "¿Cómo se llama el movimiento de la Tierra alrededor del Sol que dura 365 días?",
+        "options": [
+            "Traslación",
+            "Circulación",
+            "Gravitación",
+            "Rotación"
+        ],
+        "correct": 0,
+        "explanation": "La traslación de la Tierra alrededor del Sol tarda 1 año entero.",
+        "id": "q_g3_naturales_18"
+    },
+    {
+        "grade": 3,
+        "category": "naturales",
+        "question": "¿Qué fenómeno es producido principalmente por el movimiento de traslación y la inclinación del eje terrestre?",
+        "options": [
+            "Las fases de la Luna",
+            "El viento",
+            "Las cuatro estaciones del año",
+            "El día y la noche"
+        ],
+        "correct": 2,
+        "explanation": "La traslación e inclinación generan primavera, verano, otoño e invierno.",
+        "id": "q_g3_naturales_19"
+    },
+    {
+        "grade": 3,
+        "category": "naturales",
+        "question": "¿Cuál es el único satélite natural que orbita alrededor de la Tierra?",
+        "options": [
+            "La Estrella Polar",
+            "El Sol",
+            "Marte",
+            "La Luna"
+        ],
+        "correct": 3,
+        "explanation": "La Luna es el satélite natural rocoso de nuestro planeta.",
+        "id": "q_g3_naturales_20"
+    },
+    {
+        "grade": 3,
+        "category": "naturales",
+        "question": "¿Qué proceso ocurre cuando el calor del Sol transforma el agua líquida en vapor de agua?",
+        "options": [
+            "Evaporación",
+            "Condensación",
+            "Precipitación",
+            "Congelación"
+        ],
+        "correct": 0,
+        "explanation": "La evaporación es el paso de agua líquida a vapor gaseoso por acción del calor.",
+        "id": "q_g3_naturales_21"
+    },
+    {
+        "grade": 3,
+        "category": "naturales",
+        "question": "¿Qué proceso ocurre cuando el vapor de agua en el cielo se enfría y forma nubes?",
+        "options": [
+            "Ebullición",
+            "Condensación",
+            "Filtración",
+            "Evaporación"
+        ],
+        "correct": 1,
+        "explanation": "La condensación transforma el vapor en diminutas gotitas que forman nubes.",
+        "id": "q_g3_naturales_22"
+    },
+    {
+        "grade": 3,
+        "category": "naturales",
+        "question": "¿Cómo se llama cuando el agua de las nubes cae en forma de lluvia, nieve o granizo?",
+        "options": [
+            "Evaporación",
+            "Transpiración",
+            "Fusión",
+            "Precipitación"
+        ],
+        "correct": 3,
+        "explanation": "La precipitación es la caída del agua atmosférica hacia la superficie terrestre.",
+        "id": "q_g3_naturales_23"
+    },
+    {
+        "grade": 3,
+        "category": "naturales",
+        "question": "¿A qué temperatura hierve el agua líquida a nivel del mar?",
+        "options": [
+            "A 100 grados Celsius (100 °C)",
+            "A 200 °C",
+            "A 0 °C",
+            "A 50 °C"
+        ],
+        "correct": 0,
+        "explanation": "El punto de ebullición del agua es a los 100 °C.",
+        "id": "q_g3_naturales_24"
+    },
+    {
+        "grade": 3,
+        "category": "naturales",
+        "question": "¿A qué temperatura se congela el agua convirtiéndose en hielo?",
+        "options": [
+            "A 100 °C",
+            "A 10 °C",
+            "A -50 °C",
+            "A 0 grados Celsius (0 °C)"
+        ],
+        "correct": 3,
+        "explanation": "El punto de congelación del agua pura es a los 0 °C.",
+        "id": "q_g3_naturales_25"
+    },
+    {
+        "grade": 3,
+        "category": "naturales",
+        "question": "¿Qué tipo de mezcla es una ensalada de frutas donde podemos ver a simple vista cada componente?",
+        "options": [
+            "Mezcla heterogénea",
+            "Sustancia pura",
+            "Mezcla homogénea",
+            "Solución invisible"
+        ],
+        "correct": 0,
+        "explanation": "Las mezclas heterogéneas permiten distinguir sus partes o fases a simple vista.",
+        "id": "q_g3_naturales_26"
+    },
+    {
+        "grade": 3,
+        "category": "naturales",
+        "question": "¿Qué tipo de mezcla es el agua con sal totalmente disuelta, donde parece un solo líquido?",
+        "options": [
+            "Mezcla heterogénea",
+            "Mezcla homogénea (o solución)",
+            "Sólido puro",
+            "Gas"
+        ],
+        "correct": 1,
+        "explanation": "En las mezclas homogéneas los componentes no se distinguen a simple vista.",
+        "id": "q_g3_naturales_27"
+    },
+    {
+        "grade": 3,
+        "category": "naturales",
+        "question": "¿Qué método podemos usar para separar piedritas mezcladas con arena fina?",
+        "options": [
+            "El tamizado o colado (con un colador o tamiz)",
+            "La destilación",
+            "El imán",
+            "La evaporación"
+        ],
+        "correct": 0,
+        "explanation": "El tamiz retiene las piedritas grandes y deja pasar los granos finos de arena.",
+        "id": "q_g3_naturales_28"
+    },
+    {
+        "grade": 3,
+        "category": "naturales",
+        "question": "¿Qué método usamos para separar clips metálicos de hierro mezclados con arroz?",
+        "options": [
+            "Imantación (usar un imán)",
+            "El colador",
+            "El microscopio",
+            "Hervir el agua"
+        ],
+        "correct": 0,
+        "explanation": "El imán atrae magnéticamente al hierro separándolo del arroz.",
+        "id": "q_g3_naturales_29"
+    },
+    {
+        "grade": 3,
+        "category": "naturales",
+        "question": "¿Qué gas necesitan las plantas para hacer fotosíntesis y tomar del aire?",
+        "options": [
+            "Humo",
+            "Nitrógeno líquido",
+            "Dióxido de carbono",
+            "Oxígeno puro"
+        ],
+        "correct": 2,
+        "explanation": "Las plantas absorben dióxido de carbono y liberan oxígeno al ambiente.",
+        "id": "q_g3_naturales_30"
+    },
+    {
+        "grade": 3,
+        "category": "naturales",
+        "question": "¿Qué gas liberan las plantas a la atmósfera que es indispensable para que respiremos?",
+        "options": [
+            "Oxígeno",
+            "Dióxido de carbono",
+            "Helio",
+            "Metano"
+        ],
+        "correct": 0,
+        "explanation": "Las plantas producen y liberan oxígeno gracias a la fotosíntesis.",
+        "id": "q_g3_naturales_31"
+    },
+    {
+        "grade": 3,
+        "category": "naturales",
+        "question": "¿Qué tipo de suelo es el más fértil para el crecimiento de las plantas?",
+        "options": [
+            "El barro salitroso",
+            "La arena seca de playa",
+            "El suelo con abundante humus (tierra negra rica en nutrientes)",
+            "Las piedras de montaña"
+        ],
+        "correct": 2,
+        "explanation": "La tierra negra con humus retiene humedad y nutrientes orgánicos.",
+        "id": "q_g3_naturales_32"
+    },
+    {
+        "grade": 3,
+        "category": "naturales",
+        "question": "¿Qué animal invertebrado ayuda a airear la tierra y crear túneles fértiles para las plantas?",
+        "options": [
+            "La hormiga voladora",
+            "La lombriz de tierra",
+            "La mariposa",
+            "El mosquito"
+        ],
+        "correct": 1,
+        "explanation": "Las lombrices descomponen materia orgánica y oxigenan la tierra con sus galerías.",
+        "id": "q_g3_naturales_33"
+    },
+    {
+        "grade": 3,
+        "category": "naturales",
+        "question": "¿Cómo se llama la fuerza invisible con la que la Tierra atrae a todos los cuerpos hacia su centro?",
+        "options": [
+            "Fuerza de gravedad",
+            "Fuerza eléctrica",
+            "Fuerza eólica",
+            "Fuerza magnética"
+        ],
+        "correct": 0,
+        "explanation": "La gravedad atrae los objetos hacia la superficie de la Tierra y evita que flotemos al espacio.",
+        "id": "q_g3_naturales_34"
+    },
+    {
+        "grade": 3,
+        "category": "naturales",
+        "question": "¿Por qué vemos nuestro reflejo en un espejo plano?",
+        "options": [
+            "Por la refracción del vidrio",
+            "Por la reflexión de la luz",
+            "Por el calor del sol",
+            "Por el viento"
+        ],
+        "correct": 1,
+        "explanation": "La superficie lisa y pulida del espejo refleja los rayos de luz nítidamente.",
+        "id": "q_g3_naturales_35"
+    },
+    {
+        "grade": 3,
+        "category": "naturales",
+        "question": "¿Qué fenómeno hace que un lápiz parezca doblado o quebrado al meterlo en un vaso con agua?",
+        "options": [
+            "La gravedad",
+            "La congelación",
+            "La refracción de la luz",
+            "La reflexión"
+        ],
+        "correct": 2,
+        "explanation": "La refracción es el desvío de la luz al pasar del aire al agua.",
+        "id": "q_g3_naturales_36"
+    },
+    {
+        "grade": 3,
+        "category": "naturales",
+        "question": "¿Cómo se llama el hábitat natural donde vive y se desarrolla una especie animal o vegetal?",
+        "options": [
+            "Laboratorio",
+            "Jaula",
+            "Zoológico",
+            "Ecosistema o hábitat"
+        ],
+        "correct": 3,
+        "explanation": "El hábitat reúne las condiciones biológicas para que la especie viva y se reproduzca.",
+        "id": "q_g3_naturales_37"
+    },
+    {
+        "grade": 3,
+        "category": "naturales",
+        "question": "¿Qué tipo de energía generan los molinos de viento modernos?",
+        "options": [
+            "Energía térmica",
+            "Energía eólica",
+            "Energía solar",
+            "Energía hidráulica"
+        ],
+        "correct": 1,
+        "explanation": "El viento en movimiento impulsa aspas que generan electricidad eólica limpia.",
+        "id": "q_g3_naturales_38"
+    },
+    {
+        "grade": 3,
+        "category": "naturales",
+        "question": "¿Qué tipo de energía aprovecha la fuerza del agua en represas y cascadas?",
+        "options": [
+            "Energía solar",
+            "Energía química",
+            "Energía hidroeléctrica",
+            "Energía eólica"
+        ],
+        "correct": 2,
+        "explanation": "Las centrales hidroeléctricas usan la corriente y caída del agua para generar electricidad.",
+        "id": "q_g3_naturales_39"
+    },
+    {
+        "grade": 3,
+        "category": "naturales",
+        "question": "¿Qué tipo de energía captan los paneles solares sobre los techos?",
+        "options": [
+            "Energía geotérmica",
+            "Energía eólica",
+            "Energía fósil",
+            "Energía solar"
+        ],
+        "correct": 3,
+        "explanation": "Los paneles solares fotovoltaicos convierten la luz del sol en electricidad.",
+        "id": "q_g3_naturales_40"
+    },
+    {
+        "grade": 3,
+        "category": "naturales",
+        "question": "¿Qué tipo de energía térmica sentimos cuando nos acercamos a una fogata o estufa?",
+        "options": [
+            "Sonido",
+            "Calor",
+            "Viento",
+            "Luz solar"
+        ],
+        "correct": 1,
+        "explanation": "El calor es la energía térmica que se transfiere de un cuerpo caliente a otro.",
+        "id": "q_g3_naturales_41"
+    },
+    {
+        "grade": 3,
+        "category": "naturales",
+        "question": "¿Qué cualidad de los sonidos nos permite distinguir entre un sonido agudo y uno grave?",
+        "options": [
+            "El timbre",
+            "La intensidad",
+            "La duración",
+            "El tono o altura"
+        ],
+        "correct": 3,
+        "explanation": "El tono distingue los sonidos agudos (finitos como un silbato) de los graves (gruesos como un tambor).",
+        "id": "q_g3_naturales_42"
+    },
+    {
+        "grade": 3,
+        "category": "naturales",
+        "question": "¿Cómo se propaga el sonido en el ambiente?",
+        "options": [
+            "A través de ondas que viajan por el aire, líquidos o sólidos",
+            "En línea recta como un rayo láser",
+            "Solo en el vacío del espacio",
+            "No viaja"
+        ],
+        "correct": 0,
+        "explanation": "El sonido necesita un medio material (aire, agua, sólido) para propagarse en ondas sonoras.",
+        "id": "q_g3_naturales_43"
+    },
+    {
+        "grade": 3,
+        "category": "naturales",
+        "question": "¿Qué fenómeno ocurre cuando el sonido choca contra una pared lejana y rebota volviendo a nuestros oídos?",
+        "options": [
+            "La evaporación",
+            "El arcoíris",
+            "El eco",
+            "La sombra"
+        ],
+        "correct": 2,
+        "explanation": "El eco es la reflexión de la onda sonora al chocar contra un obstáculo distante.",
+        "id": "q_g3_naturales_44"
+    },
+    {
+        "grade": 3,
+        "category": "naturales",
+        "question": "¿Qué órgano de las plantas realiza la fotosíntesis gracias a la luz del sol?",
+        "options": [
+            "Las hojas verdes",
+            "Las semillas",
+            "La corteza seca",
+            "La raíz subterránea"
+        ],
+        "correct": 0,
+        "explanation": "Las hojas contienen cloroplastos con clorofila donde ocurre la fotosíntesis.",
+        "id": "q_g3_naturales_45"
+    },
+    {
+        "grade": 3,
+        "category": "naturales",
+        "question": "¿Qué animal invertebrado polinizador tiene antenas, cuatro alas escamosas y pasa por una metamorfosis completa?",
+        "options": [
+            "La lombriz",
+            "El ciempiés",
+            "La mariposa",
+            "El escorpión"
+        ],
+        "correct": 2,
+        "explanation": "La mariposa pasa por etapas de huevo, oruga (larva), crisálida (pupa) y adulto.",
+        "id": "q_g3_naturales_46"
+    },
+    {
+        "grade": 3,
+        "category": "naturales",
+        "question": "¿Cómo se llama el proceso por el cual algunos animales duermen durante los meses más fríos del invierno?",
+        "options": [
+            "Hibernación",
+            "Germinación",
+            "Camuflaje",
+            "Migración"
+        ],
+        "correct": 0,
+        "explanation": "La hibernación reduce el metabolismo animal para ahorrar energía durante el invierno.",
+        "id": "q_g3_naturales_47"
+    },
+    {
+        "grade": 3,
+        "category": "naturales",
+        "question": "¿Cómo se llama el viaje estacional que realizan aves y ballenas en busca de climas más cálidos y alimento?",
+        "options": [
+            "Hibernación",
+            "Evolución",
+            "Migración",
+            "Polinización"
+        ],
+        "correct": 2,
+        "explanation": "La migración es el desplazamiento periódico de poblaciones animales de una región a otra.",
+        "id": "q_g3_naturales_48"
+    },
+    {
+        "grade": 3,
+        "category": "naturales",
+        "question": "¿Qué planeta del Sistema Solar es el más cercano al Sol?",
+        "options": [
+            "Tierra",
+            "Marte",
+            "Mercurio",
+            "Venus"
+        ],
+        "correct": 2,
+        "explanation": "Mercurio es el primer planeta en orden de cercanía al Sol.",
+        "id": "q_g3_naturales_49"
+    },
+    {
+        "grade": 3,
+        "category": "naturales",
+        "question": "¿Qué planeta es conocido como el 'Planeta Rojo' debido al óxido de hierro en su suelo?",
+        "options": [
+            "Marte",
+            "Saturno",
+            "Júpiter",
+            "Mercurio"
+        ],
+        "correct": 0,
+        "explanation": "Marte tiene un característico tono rojizo por los minerales de hierro en su superficie.",
+        "id": "q_g3_naturales_50"
+    },
+    {
+        "grade": 3,
+        "category": "sociales",
+        "question": "¿Cuáles son los 4 puntos cardinales principales?",
+        "options": [
+            "Primavera, Verano, Otoño e Invierno",
+            "Norte, Sur, Este y Oeste",
+            "Tierra, Aire, Fuego y Agua",
+            "Arriba, Abajo, Izquierda y Derecha"
+        ],
+        "correct": 1,
+        "explanation": "Los puntos cardinales son referencias universales de orientación espacial.",
+        "id": "q_g3_sociales_1"
+    },
+    {
+        "grade": 3,
+        "category": "sociales",
+        "question": "¿Por qué punto cardinal sale el Sol todas las mañanas?",
+        "options": [
+            "Por el Este",
+            "Por el Oeste",
+            "Por el Sur",
+            "Por el Norte"
+        ],
+        "correct": 0,
+        "explanation": "El movimiento de rotación hace que veamos salir al Sol siempre por el Este.",
+        "id": "q_g3_sociales_2"
+    },
+    {
+        "grade": 3,
+        "category": "sociales",
+        "question": "¿Por qué punto cardinal se oculta el Sol al atardecer?",
+        "options": [
+            "Por el Sur",
+            "Por el Oeste",
+            "Por el Este",
+            "Por el Norte"
+        ],
+        "correct": 1,
+        "explanation": "El Sol se pone o esconde por el Oeste.",
+        "id": "q_g3_sociales_3"
+    },
+    {
+        "grade": 3,
+        "category": "sociales",
+        "question": "¿Cómo se llama el dibujo o representación que muestra los 4 puntos cardinales en un mapa?",
+        "options": [
+            "El plano municipal",
+            "La brújula mágica",
+            "La rosa de los vientos",
+            "La escala gráfica"
+        ],
+        "correct": 2,
+        "explanation": "La rosa de los vientos señala el Norte, Sur, Este y Oeste en los mapas.",
+        "id": "q_g3_sociales_4"
+    },
+    {
+        "grade": 3,
+        "category": "sociales",
+        "question": "¿Qué tipo de mapa representa las divisiones de países, provincias y ciudades con sus límites?",
+        "options": [
+            "Mapa del clima",
+            "Plano turístico",
+            "Mapa físico",
+            "Mapa político"
+        ],
+        "correct": 3,
+        "explanation": "Los mapas políticos muestran fronteras y divisiones territoriales.",
+        "id": "q_g3_sociales_5"
+    },
+    {
+        "grade": 3,
+        "category": "sociales",
+        "question": "¿Qué tipo de mapa muestra montañas, ríos, mesetas y alturas del terreno con colores?",
+        "options": [
+            "Mapa político",
+            "Mapa de rutas",
+            "Mapa físico",
+            "Mapa temático"
+        ],
+        "correct": 2,
+        "explanation": "Los mapas físicos usan colores (verde para llanuras, marrón para montañas) para indicar relieve.",
+        "id": "q_g3_sociales_6"
+    },
+    {
+        "grade": 3,
+        "category": "sociales",
+        "question": "¿En qué continente se encuentra ubicada la República Argentina?",
+        "options": [
+            "Europa",
+            "África",
+            "América del Sur (o Sudamérica)",
+            "Asia"
+        ],
+        "correct": 2,
+        "explanation": "Argentina está en el extremo sur del continente americano.",
+        "id": "q_g3_sociales_7"
+    },
+    {
+        "grade": 3,
+        "category": "sociales",
+        "question": "¿Cuál es la ciudad capital de la República Argentina?",
+        "options": [
+            "Córdoba",
+            "Rosario",
+            "Mendoza",
+            "Ciudad Autónoma de Buenos Aires (CABA)"
+        ],
+        "correct": 3,
+        "explanation": "CABA es la capital federal y sede del gobierno nacional argentino.",
+        "id": "q_g3_sociales_8"
+    },
+    {
+        "grade": 3,
+        "category": "sociales",
+        "question": "¿Cuántas provincias integran la República Argentina además de la Ciudad de Buenos Aires?",
+        "options": [
+            "15 provincias",
+            "20 provincias",
+            "24 provincias",
+            "23 provincias"
+        ],
+        "correct": 3,
+        "explanation": "Argentina se compone de 23 provincias y la Ciudad Autónoma de Buenos Aires.",
+        "id": "q_g3_sociales_9"
+    },
+    {
+        "grade": 3,
+        "category": "sociales",
+        "question": "¿Qué gran océano baña las costas del este de Argentina?",
+        "options": [
+            "El Océano Ártico",
+            "El Océano Atlántico",
+            "El Océano Índico",
+            "El Océano Pacífico"
+        ],
+        "correct": 1,
+        "explanation": "El Mar Argentino forma parte del Océano Atlántico Sur.",
+        "id": "q_g3_sociales_10"
+    },
+    {
+        "grade": 3,
+        "category": "sociales",
+        "question": "¿Qué país vecino limita al oeste con Argentina a lo largo de la Cordillera de los Andes?",
+        "options": [
+            "Paraguay",
+            "Uruguay",
+            "Chile",
+            "Brasil"
+        ],
+        "correct": 2,
+        "explanation": "La Cordillera de los Andes es el límite natural entre Argentina y Chile.",
+        "id": "q_g3_sociales_11"
+    },
+    {
+        "grade": 3,
+        "category": "sociales",
+        "question": "¿Cómo se llama a los pueblos que se trasladaban de un lugar a otro cazando y recolectando sin tener casa fija?",
+        "options": [
+            "Pueblos sedentarios",
+            "Pueblos urbanos",
+            "Pueblos nómades",
+            "Pueblos industriales"
+        ],
+        "correct": 2,
+        "explanation": "Los nómades cambiaban de campamento siguiendo los animales y frutos de estación.",
+        "id": "q_g3_sociales_12"
+    },
+    {
+        "grade": 3,
+        "category": "sociales",
+        "question": "¿Cómo se llama a los pueblos que vivían en un lugar fijo cultivando la tierra y criando animales?",
+        "options": [
+            "Pueblos nómades",
+            "Pueblos viajeros",
+            "Pueblos marineros",
+            "Pueblos sedentarios"
+        ],
+        "correct": 3,
+        "explanation": "Los pueblos sedentarios construían aldeas estables con casas de piedra o adobe.",
+        "id": "q_g3_sociales_13"
+    },
+    {
+        "grade": 3,
+        "category": "sociales",
+        "question": "¿Qué pueblo originario habitaba las islas del extremo sur de Tierra del Fuego navegando en canoas?",
+        "options": [
+            "Los diaguitas",
+            "Los tobas",
+            "Los yaganes (o yámanas)",
+            "Los incas"
+        ],
+        "correct": 2,
+        "explanation": "Los yaganes eran expertos navegantes canoeros de los canales fueguinos.",
+        "id": "q_g3_sociales_14"
+    },
+    {
+        "grade": 3,
+        "category": "sociales",
+        "question": "¿Qué pueblo originario del Litoral cultivaba mandioca, maíz y navegaba los ríos Paraná y Uruguay?",
+        "options": [
+            "Los tehuelches",
+            "Los mapuches",
+            "Los guaraníes",
+            "Los selk'nam"
+        ],
+        "correct": 2,
+        "explanation": "Los guaraníes habitaron la región del litoral y aportaron palabras de nuestra flora y fauna.",
+        "id": "q_g3_sociales_15"
+    },
+    {
+        "grade": 3,
+        "category": "sociales",
+        "question": "¿Cómo se llama la primera etapa de un circuito productivo donde se extrae o cultiva la materia prima?",
+        "options": [
+            "Etapa comercial",
+            "Etapa primaria o agrícola",
+            "Etapa de consumo",
+            "Etapa industrial"
+        ],
+        "correct": 1,
+        "explanation": "En la etapa primaria se obtienen los recursos de la naturaleza (ej: cosechar trigo o criar vacas).",
+        "id": "q_g3_sociales_16"
+    },
+    {
+        "grade": 3,
+        "category": "sociales",
+        "question": "¿Cómo se llama la segunda etapa donde la materia prima se transforma en fábricas?",
+        "options": [
+            "Etapa primaria",
+            "Etapa secundaria o industrial",
+            "Etapa de reciclaje",
+            "Etapa de venta"
+        ],
+        "correct": 1,
+        "explanation": "En las fábricas se elaboran productos procesados (ej: de la leche al queso y yogur).",
+        "id": "q_g3_sociales_17"
+    },
+    {
+        "grade": 3,
+        "category": "sociales",
+        "question": "¿Cómo se llama la tercera etapa donde el producto terminado llega a los comercios para su venta?",
+        "options": [
+            "Etapa terciaria o comercial",
+            "Etapa de cosecha",
+            "Etapa minera",
+            "Etapa agrícola"
+        ],
+        "correct": 0,
+        "explanation": "En supermercados y negocios los productos se venden al consumidor final.",
+        "id": "q_g3_sociales_18"
+    },
+    {
+        "grade": 3,
+        "category": "sociales",
+        "question": "En el circuito de la manzana, ¿dónde se cosechan principalmente las manzanas en Argentina?",
+        "options": [
+            "En el Alto Valle de Río Negro y Neuquén",
+            "En el Chaco seco",
+            "En la Ciudad de Buenos Aires",
+            "En la Antártida"
+        ],
+        "correct": 0,
+        "explanation": "El Alto Valle del Río Negro es la región frutícola de peras y manzanas más importante del país.",
+        "id": "q_g3_sociales_19"
+    },
+    {
+        "grade": 3,
+        "category": "sociales",
+        "question": "En el circuito de la leche, ¿dónde se ordeña a las vacas lecheras?",
+        "options": [
+            "En la panadería",
+            "En el molino harinero",
+            "En la farmacia",
+            "En el tambo"
+        ],
+        "correct": 3,
+        "explanation": "Los tambos son los establecimientos rurales dedicados al ordeñe higiénico.",
+        "id": "q_g3_sociales_20"
+    },
+    {
+        "grade": 3,
+        "category": "sociales",
+        "question": "¿Qué recordamos y homenajeamos el 2 de Abril en Argentina?",
+        "options": [
+            "La Independencia",
+            "El Día de la Bandera",
+            "El 25 de Mayo",
+            "El Día del Veterano y de los Caídos en la Guerra de Malvinas"
+        ],
+        "correct": 3,
+        "explanation": "El 2 de abril se honra con respeto y memoria a los héroes de Malvinas.",
+        "id": "q_g3_sociales_21"
+    },
+    {
+        "grade": 3,
+        "category": "sociales",
+        "question": "¿En qué archipiélago del Atlántico Sur se encuentran las islas cuya soberanía reclama Argentina con fundamento histórico y geográfico?",
+        "options": [
+            "Las Islas Canarias",
+            "Las Islas Baleares",
+            "Las Islas Malvinas",
+            "Las Islas Galápagos"
+        ],
+        "correct": 2,
+        "explanation": "Las Islas Malvinas, Georgias del Sur y Sándwich del Sur son territorio argentino.",
+        "id": "q_g3_sociales_22"
+    },
+    {
+        "grade": 3,
+        "category": "sociales",
+        "question": "¿En qué fecha se conmemora el Día del Respeto a la Diversidad Cultural?",
+        "options": [
+            "El 25 de Mayo",
+            "El 9 de Julio",
+            "El 12 de Octubre",
+            "El 1 de Mayo"
+        ],
+        "correct": 2,
+        "explanation": "El 12 de octubre se reflexiona sobre los derechos de los pueblos originarios y la diversidad.",
+        "id": "q_g3_sociales_23"
+    },
+    {
+        "grade": 3,
+        "category": "sociales",
+        "question": "¿En qué fecha celebramos el Día de la Tradición en homenaje a José Hernández (autor del Martín Fierro)?",
+        "options": [
+            "El 17 de Agosto",
+            "El 25 de Mayo",
+            "El 10 de Noviembre",
+            "El 20 de Junio"
+        ],
+        "correct": 2,
+        "explanation": "El 10 de noviembre celebra la literatura gauchesca y las tradiciones argentinas.",
+        "id": "q_g3_sociales_24"
+    },
+    {
+        "grade": 3,
+        "category": "sociales",
+        "question": "¿Qué gran prócer sanjuanino fue maestro, presidente y promovió la educación pública para todos los chicos?",
+        "options": [
+            "Mariano Moreno",
+            "Manuel Belgrano",
+            "Domingo Faustino Sarmiento",
+            "José de San Martín"
+        ],
+        "correct": 2,
+        "explanation": "Sarmiento fundó centenares de escuelas primarias y bibliotecas en todo el país.",
+        "id": "q_g3_sociales_25"
+    },
+    {
+        "grade": 3,
+        "category": "sociales",
+        "question": "¿Cómo se llama la ley suprema y fundamental que organiza los derechos y garantías en Argentina?",
+        "options": [
+            "El reglamento escolar",
+            "El código de tránsito",
+            "La Constitución Nacional",
+            "El diario oficial"
+        ],
+        "correct": 2,
+        "explanation": "La Constitución Nacional es la ley madre que rige nuestro país desde 1853.",
+        "id": "q_g3_sociales_26"
+    },
+    {
+        "grade": 3,
+        "category": "sociales",
+        "question": "¿Qué forma de gobierno tiene la República Argentina donde el pueblo elige a sus representantes mediante el voto?",
+        "options": [
+            "Monarquía con reyes",
+            "Imperio",
+            "Democracia",
+            "Dictadura"
+        ],
+        "correct": 2,
+        "explanation": "En democracia los ciudadanos eligen a sus gobernantes mediante elecciones libres.",
+        "id": "q_g3_sociales_27"
+    },
+    {
+        "grade": 3,
+        "category": "sociales",
+        "question": "¿A qué poder del Estado le corresponde redactar y debatir las leyes en el Congreso Nacional?",
+        "options": [
+            "Poder Legislativo (diputados y senadores)",
+            "Poder Ejecutivo",
+            "Poder Militar",
+            "Poder Judicial"
+        ],
+        "correct": 0,
+        "explanation": "El Congreso de la Nación legisla y sanciona las leyes del país.",
+        "id": "q_g3_sociales_28"
+    },
+    {
+        "grade": 3,
+        "category": "sociales",
+        "question": "¿Quién es la máxima autoridad del Poder Ejecutivo de la República Argentina?",
+        "options": [
+            "El Presidente de la Nación",
+            "El juez supremo",
+            "El gobernador",
+            "El intendente"
+        ],
+        "correct": 0,
+        "explanation": "El Presidente de la Nación administra y conduce el gobierno nacional.",
+        "id": "q_g3_sociales_29"
+    },
+    {
+        "grade": 3,
+        "category": "sociales",
+        "question": "¿Qué poder del Estado se encarga de administrar justicia y hacer cumplir las leyes en los tribunales?",
+        "options": [
+            "Poder Municipal",
+            "Poder Ejecutivo",
+            "Poder Judicial (jueces y tribunales)",
+            "Poder Legislativo"
+        ],
+        "correct": 2,
+        "explanation": "El Poder Judicial juzga según las leyes vigentes con imparcialidad.",
+        "id": "q_g3_sociales_30"
+    },
+    {
+        "grade": 3,
+        "category": "sociales",
+        "question": "¿Cuál es la provincia más extensa en superficie de la República Argentina?",
+        "options": [
+            "Córdoba",
+            "Provincia de Buenos Aires",
+            "Santa Fe",
+            "Tucumán"
+        ],
+        "correct": 1,
+        "explanation": "La provincia de Buenos Aires es la más extensa en el territorio continental argentino.",
+        "id": "q_g3_sociales_31"
+    },
+    {
+        "grade": 3,
+        "category": "sociales",
+        "question": "¿Cuál es la provincia más pequeña en superficie de la República Argentina?",
+        "options": [
+            "Catamarca",
+            "Tucumán",
+            "Misiones",
+            "Jujuy"
+        ],
+        "correct": 1,
+        "explanation": "Tucumán es la provincia con menor superficie continental.",
+        "id": "q_g3_sociales_32"
+    },
+    {
+        "grade": 3,
+        "category": "sociales",
+        "question": "¿Cómo se llama la extensa llanura fértil del centro argentino ideal para la agricultura y ganadería?",
+        "options": [
+            "El valle de Uspallata",
+            "La meseta patagónica",
+            "La llanura pampeana (o región pampeana)",
+            "La Puna desértica"
+        ],
+        "correct": 2,
+        "explanation": "La región pampeana posee suelos fértiles de clima templado excepcionales para cultivos.",
+        "id": "q_g3_sociales_33"
+    },
+    {
+        "grade": 3,
+        "category": "sociales",
+        "question": "¿Qué relieve predomina en el sur argentino (la Patagonia)?",
+        "options": [
+            "Mesetas escalonadas y costas con acantilados",
+            "Llanuras inundables",
+            "Selvas tropicales húmedas",
+            "Montañas de arena"
+        ],
+        "correct": 0,
+        "explanation": "La meseta patagónica desciende de la cordillera hacia el mar en forma de terrazas.",
+        "id": "q_g3_sociales_34"
+    },
+    {
+        "grade": 3,
+        "category": "sociales",
+        "question": "¿Qué puerto marítimo de la provincia de Buenos Aires es el más importante para la pesca en Argentina?",
+        "options": [
+            "Puerto Madryn",
+            "Ushuaia",
+            "Puerto Deseado",
+            "Puerto de Mar del Plata"
+        ],
+        "correct": 3,
+        "explanation": "Mar del Plata concentra la mayor flota pesquera e industria conservera de pescado.",
+        "id": "q_g3_sociales_35"
+    },
+    {
+        "grade": 3,
+        "category": "sociales",
+        "question": "¿Qué fruta cítrica dulce se produce masivamente en el litoral argentino (Entre Ríos y Corrientes)?",
+        "options": [
+            "Bananas de nieve",
+            "Mangos secos",
+            "Kiwis polares",
+            "Naranjas y mandarinas"
+        ],
+        "correct": 3,
+        "explanation": "El litoral argentino es la principal zona citrícola de naranjas y mandarinas.",
+        "id": "q_g3_sociales_36"
+    },
+    {
+        "grade": 3,
+        "category": "sociales",
+        "question": "¿Qué mineral combustible negro se extrae de yacimientos para generar energía?",
+        "options": [
+            "El carbón mineral",
+            "El oro",
+            "La tiza",
+            "La sal de mesa"
+        ],
+        "correct": 0,
+        "explanation": "El carbón es un combustible fósil utilizado en centrales térmicas e industrias.",
+        "id": "q_g3_sociales_37"
+    },
+    {
+        "grade": 3,
+        "category": "sociales",
+        "question": "¿Qué recurso natural fósil líquido y viscoso es conocido como 'oro negro'?",
+        "options": [
+            "El agua dulce",
+            "El petróleo",
+            "El aceite vegetal",
+            "El vinagre"
+        ],
+        "correct": 1,
+        "explanation": "El petróleo se extrae mediante pozos y se refina para producir nafta, gasoil y plásticos.",
+        "id": "q_g3_sociales_38"
+    },
+    {
+        "grade": 3,
+        "category": "sociales",
+        "question": "¿Qué yacimiento de gas y petróleo no convencional de clase mundial se encuentra en Neuquén?",
+        "options": [
+            "Vaca Muerta",
+            "Bajo de la Alumbrera",
+            "Cerro Dragón",
+            "Río Turbio"
+        ],
+        "correct": 0,
+        "explanation": "Vaca Muerta en Neuquén es una de las mayores reservas mundiales de hidrocarburos.",
+        "id": "q_g3_sociales_39"
+    },
+    {
+        "grade": 3,
+        "category": "sociales",
+        "question": "¿Cómo se llama la ciudad más austral (más al sur) del mundo, capital de Tierra del Fuego?",
+        "options": [
+            "Comodoro Rivadavia",
+            "Ushuaia",
+            "Río Gallegos",
+            "Bariloche"
+        ],
+        "correct": 1,
+        "explanation": "Ushuaia está a orillas del Canal Beagle y es conocida como la ciudad del fin del mundo.",
+        "id": "q_g3_sociales_40"
+    },
+    {
+        "grade": 3,
+        "category": "sociales",
+        "question": "¿Qué ciudad rionegrina es famosa por el chocolate artesanal y el esquí en el Cerro Catedral?",
+        "options": [
+            "Neuquén",
+            "San Carlos de Bariloche",
+            "Viedma",
+            "Trelew"
+        ],
+        "correct": 1,
+        "explanation": "Bariloche es el polo turístico invernal más destacado de la Patagonia.",
+        "id": "q_g3_sociales_41"
+    },
+    {
+        "grade": 3,
+        "category": "sociales",
+        "question": "¿Qué río caudaloso forma la frontera natural entre Argentina y Uruguay?",
+        "options": [
+            "El Río Colorado",
+            "El Río Chubut",
+            "El Río Uruguay",
+            "El Río Negro"
+        ],
+        "correct": 2,
+        "explanation": "El Río Uruguay nace en Brasil y desemboca en el Río de la Plata.",
+        "id": "q_g3_sociales_42"
+    },
+    {
+        "grade": 3,
+        "category": "sociales",
+        "question": "¿Qué río caudaloso cruza el norte argentino y se une al Paraná frente a Corrientes?",
+        "options": [
+            "El Río Salado",
+            "El Río Paraguay",
+            "El Río Atuel",
+            "El Río Limay"
+        ],
+        "correct": 1,
+        "explanation": "El Río Paraguay es una vía de navegación comercial clave del Mercosur.",
+        "id": "q_g3_sociales_43"
+    },
+    {
+        "grade": 3,
+        "category": "sociales",
+        "question": "¿Qué prócer tucumano fue el primer presidente de las Provincias Unidas del Río de la Plata en 1826?",
+        "options": [
+            "Bernardino Rivadavia",
+            "Mariano Moreno",
+            "Juan José Paso",
+            "Cornelio Saavedra"
+        ],
+        "correct": 0,
+        "explanation": "Bernardino Rivadavia fue elegido presidente en 1826 tras sancionarse la ley presidencial.",
+        "id": "q_g3_sociales_44"
+    },
+    {
+        "grade": 3,
+        "category": "sociales",
+        "question": "¿En qué casa histórica se declaró la Independencia de las Provincias Unidas el 9 de Julio de 1816?",
+        "options": [
+            "En la Casa Rosada",
+            "En la Casa de Tucumán (Casa Histórica)",
+            "En el Cabildo de Buenos Aires",
+            "En el Palacio San José"
+        ],
+        "correct": 1,
+        "explanation": "El Congreso de Tucumán sesionó en la casa de doña Francisca Bazán de Laguna.",
+        "id": "q_g3_sociales_45"
+    },
+    {
+        "grade": 3,
+        "category": "sociales",
+        "question": "¿Cómo se llama el edificio sede del Poder Ejecutivo Nacional frente a la Plaza de Mayo?",
+        "options": [
+            "El Cabildo",
+            "El Palacio de Tribunales",
+            "La Casa Rosada (o Casa de Gobierno)",
+            "El Congreso de la Nación"
+        ],
+        "correct": 2,
+        "explanation": "La Casa Rosada es la sede del gobierno presidencial argentino.",
+        "id": "q_g3_sociales_46"
+    },
+    {
+        "grade": 3,
+        "category": "sociales",
+        "question": "¿Qué monumento con cúpula verde en Buenos Aires alberga las cámaras de Diputados y Senadores?",
+        "options": [
+            "El Palacio del Congreso de la Nación",
+            "El Obelisco",
+            "La Catedral Metropolitana",
+            "El Teatro Colón"
+        ],
+        "correct": 0,
+        "explanation": "El Palacio Legislativo del Congreso Nacional está ubicado en el otro extremo de la Avenida de Mayo.",
+        "id": "q_g3_sociales_47"
+    },
+    {
+        "grade": 3,
+        "category": "sociales",
+        "question": "¿Qué monumento icónico de 67 metros de altura se levanta en la Plaza de la República sobre la Avenida 9 de Julio?",
+        "options": [
+            "La Pirámide de Mayo",
+            "El Obelisco de Buenos Aires",
+            "La Torre Monumental",
+            "El Monumento a los Españoles"
+        ],
+        "correct": 1,
+        "explanation": "El Obelisco fue erigido en 1936 para celebrar el cuarto centenario de la fundación de Buenos Aires.",
+        "id": "q_g3_sociales_48"
+    },
+    {
+        "grade": 3,
+        "category": "sociales",
+        "question": "¿Quién fundó por primera vez la ciudad de Buenos Aires en 1536?",
+        "options": [
+            "Juan de Garay",
+            "Hernando de Magallanes",
+            "Pedro de Mendoza",
+            "Sebastián Gaboto"
+        ],
+        "correct": 2,
+        "explanation": "Pedro de Mendoza estableció el primer asentamiento con el nombre de Santa María del Buen Ayre.",
+        "id": "q_g3_sociales_49"
+    },
+    {
+        "grade": 3,
+        "category": "sociales",
+        "question": "¿Quién fundó definitivamente Buenos Aires en 1580?",
+        "options": [
+            "Cristóbal Colón",
+            "Juan de Garay",
+            "Diego de Almagro",
+            "Pedro de Mendoza"
+        ],
+        "correct": 1,
+        "explanation": "Juan de Garay encabezó la expedición desde Asunción y refundó la ciudad en 1580.",
+        "id": "q_g3_sociales_50"
+    },
+    {
+        "grade": 3,
+        "category": "ingenio",
+        "question": "Si un tren eléctrico viaja hacia el norte a 100 km/h y el viento sopla hacia el sur, ¿hacia dónde va el humo del tren?",
+        "options": [
+            "Hacia el sur",
+            "Hacia el este",
+            "Hacia el norte",
+            "Los trenes eléctricos no producen humo"
+        ],
+        "correct": 3,
+        "explanation": "Los trenes eléctricos no tienen chimeneas de humo.",
+        "id": "q_g3_ingenio_1"
+    },
+    {
+        "grade": 3,
+        "category": "ingenio",
+        "question": "Un granjero tiene 17 ovejas y todas menos 9 se escaparon del corral. ¿Cuántas ovejas le quedaron?",
+        "options": [
+            "8 ovejas",
+            "17 ovejas",
+            "9 ovejas",
+            "0 ovejas"
+        ],
+        "correct": 2,
+        "explanation": "'Todas menos 9' significa exactamente que le quedaron 9 ovejas.",
+        "id": "q_g3_ingenio_2"
+    },
+    {
+        "grade": 3,
+        "category": "ingenio",
+        "question": "¿Qué mes del año tiene 28 días?",
+        "options": [
+            "Solo febrero",
+            "Ninguno",
+            "Todos los meses del año (todos tienen al menos 28 días)",
+            "Solo marzo"
+        ],
+        "correct": 2,
+        "explanation": "Todos los meses tienen 28 días o más.",
+        "id": "q_g3_ingenio_3"
+    },
+    {
+        "grade": 3,
+        "category": "ingenio",
+        "question": "Si un médico te receta 3 pastillas y te indica tomar una cada media hora, ¿cuánto tiempo duran las pastillas?",
+        "options": [
+            "1 hora y media",
+            "3 horas",
+            "45 minutos",
+            "1 hora (tomas la 1ª ya, la 2ª a los 30 min y la 3ª a los 60 min)"
+        ],
+        "correct": 3,
+        "explanation": "Minuto 0: pastilla 1. Minuto 30: pastilla 2. Minuto 60: pastilla 3. Transcurre 1 hora en total.",
+        "id": "q_g3_ingenio_4"
+    },
+    {
+        "grade": 3,
+        "category": "ingenio",
+        "question": "¿Cuántos animales de cada especie metió Moisés en su arca?",
+        "options": [
+            "Ninguno, el del arca fue Noé",
+            "Siete",
+            "Diez",
+            "Dos"
+        ],
+        "correct": 0,
+        "explanation": "El personaje bíblico del arca fue Noé, no Moisés.",
+        "id": "q_g3_ingenio_5"
+    },
+    {
+        "grade": 3,
+        "category": "ingenio",
+        "question": "Si estás en una habitación oscura con un fósforo y hay una vela, una lámpara de aceite y una estufa a leña, ¿qué enciendes primero?",
+        "options": [
+            "La vela",
+            "La lámpara",
+            "La estufa",
+            "El fósforo"
+        ],
+        "correct": 3,
+        "explanation": "Debes encender primero el fósforo para poder encender lo demás.",
+        "id": "q_g3_ingenio_6"
+    },
+    {
+        "grade": 3,
+        "category": "ingenio",
+        "question": "¿Qué número completa la serie de múltiplos de 6? 6, 12, 18, 24, ...",
+        "options": [
+            "28",
+            "32",
+            "36",
+            "30"
+        ],
+        "correct": 3,
+        "explanation": "Sumando 6 cada vez: 24 + 6 = 30.",
+        "id": "q_g3_ingenio_7"
+    },
+    {
+        "grade": 3,
+        "category": "ingenio",
+        "question": "¿Qué número completa la serie de potencias de 2? 2, 4, 8, 16, ...",
+        "options": [
+            "30",
+            "32",
+            "20",
+            "24"
+        ],
+        "correct": 1,
+        "explanation": "Cada término es el doble del anterior: 16 x 2 = 32.",
+        "id": "q_g3_ingenio_8"
+    },
+    {
+        "grade": 3,
+        "category": "ingenio",
+        "question": "¿Qué número completa la serie descendente? 1.000, 900, 800, 700, ...",
+        "options": [
+            "650",
+            "750",
+            "500",
+            "600"
+        ],
+        "correct": 3,
+        "explanation": "Restando centenas: 700 - 100 = 600.",
+        "id": "q_g3_ingenio_9"
+    },
+    {
+        "grade": 3,
+        "category": "ingenio",
+        "question": "Si 1 hora tiene 60 minutos, ¿cuántos minutos tienen 2 horas?",
+        "options": [
+            "180 minutos",
+            "90 minutos",
+            "120 minutos",
+            "100 minutos"
+        ],
+        "correct": 2,
+        "explanation": "60 + 60 = 120 minutos (2 x 60 = 120).",
+        "id": "q_g3_ingenio_10"
+    },
+    {
+        "grade": 3,
+        "category": "ingenio",
+        "question": "Si medio kilo de queso cuesta $400, ¿cuánto cuesta 1 kilo completo?",
+        "options": [
+            "$500",
+            "$1.000",
+            "$600",
+            "$800"
+        ],
+        "correct": 3,
+        "explanation": "1 kilo completo son 2 medios kilos: 400 x 2 = 800 pesos.",
+        "id": "q_g3_ingenio_11"
+    },
+    {
+        "grade": 3,
+        "category": "ingenio",
+        "question": "Si compras 4 alfajores a $200 cada uno, ¿cuánto gastas en total?",
+        "options": [
+            "$600",
+            "$1.000",
+            "$800",
+            "$400"
+        ],
+        "correct": 2,
+        "explanation": "4 x 200 = 800 pesos.",
+        "id": "q_g3_ingenio_12"
+    },
+    {
+        "grade": 3,
+        "category": "ingenio",
+        "question": "¿Cuántas caras tiene una pirámide de base cuadrada en total (base + lados)?",
+        "options": [
+            "6 caras",
+            "5 caras (1 base cuadrada + 4 caras triangulares)",
+            "8 caras",
+            "4 caras"
+        ],
+        "correct": 1,
+        "explanation": "Tiene 1 base cuadrada y 4 paredes triangulares que convergen en la cúspide.",
+        "id": "q_g3_ingenio_13"
+    },
+    {
+        "grade": 3,
+        "category": "ingenio",
+        "question": "Si doblas un cuadrado de papel por su diagonal de esquina a esquina, ¿qué dos figuras obtienes?",
+        "options": [
+            "2 círculos",
+            "2 rectángulos",
+            "4 cuadrados",
+            "2 triángulos"
+        ],
+        "correct": 3,
+        "explanation": "La diagonal de un cuadrado lo divide en dos triángulos iguales.",
+        "id": "q_g3_ingenio_14"
+    },
+    {
+        "grade": 3,
+        "category": "ingenio",
+        "question": "¿Cuántos lados tiene un pentágono regular?",
+        "options": [
+            "8 lados",
+            "6 lados",
+            "4 lados",
+            "5 lados"
+        ],
+        "correct": 3,
+        "explanation": "El prefijo penta- significa 5 lados.",
+        "id": "q_g3_ingenio_15"
+    },
+    {
+        "grade": 3,
+        "category": "ingenio",
+        "question": "¿Cuántos lados tiene un hexágono regular?",
+        "options": [
+            "8 lados",
+            "5 lados",
+            "6 lados",
+            "7 lados"
+        ],
+        "correct": 2,
+        "explanation": "El prefijo hexa- significa 6 lados.",
+        "id": "q_g3_ingenio_16"
+    },
+    {
+        "grade": 3,
+        "category": "ingenio",
+        "question": "¿Cuántos lados tiene un octógono?",
+        "options": [
+            "6 lados",
+            "7 lados",
+            "10 lados",
+            "8 lados"
+        ],
+        "correct": 3,
+        "explanation": "El octógono tiene 8 lados.",
+        "id": "q_g3_ingenio_17"
+    },
+    {
+        "grade": 3,
+        "category": "ingenio",
+        "question": "El zapatero arregla zapatos como el sastre cose y arregla:",
+        "options": [
+            "Caños de agua",
+            "Ropa",
+            "Autos",
+            "Mesas"
+        ],
+        "correct": 1,
+        "explanation": "El sastre confecciona y remienda prendas de vestir.",
+        "id": "q_g3_ingenio_18"
+    },
+    {
+        "grade": 3,
+        "category": "ingenio",
+        "question": "El microscopio sirve para ver cosas diminutas como el telescopio sirve para ver:",
+        "options": [
+            "Cosas lejanas en el espacio",
+            "Sonidos",
+            "Olores",
+            "Texturas"
+        ],
+        "correct": 0,
+        "explanation": "El telescopio acerca objetos astronómicos distantes.",
+        "id": "q_g3_ingenio_19"
+    },
+    {
+        "grade": 3,
+        "category": "ingenio",
+        "question": "La aguja es al hilo como el pincel es a la:",
+        "options": [
+            "Madera",
+            "Tijera",
+            "Piedra",
+            "Pintura o témpera"
+        ],
+        "correct": 3,
+        "explanation": "El pincel se impregna de pintura para colorear sobre tela o papel.",
+        "id": "q_g3_ingenio_20"
+    },
+    {
+        "grade": 3,
+        "category": "ingenio",
+        "question": "El termómetro mide temperatura como la balanza mide:",
+        "options": [
+            "Velocidad",
+            "Tiempo",
+            "Masa o peso",
+            "Longitud"
+        ],
+        "correct": 2,
+        "explanation": "La balanza determina la masa y peso de los cuerpos.",
+        "id": "q_g3_ingenio_21"
+    },
+    {
+        "grade": 3,
+        "category": "ingenio",
+        "question": "El odómetro mide kilómetros recorridos como el cronómetro mide:",
+        "options": [
+            "Tiempo en segundos y minutos",
+            "Presión",
+            "Temperatura",
+            "Litros"
+        ],
+        "correct": 0,
+        "explanation": "El cronómetro registra intervalos de tiempo con gran precisión.",
+        "id": "q_g3_ingenio_22"
+    },
+    {
+        "grade": 3,
+        "category": "ingenio",
+        "question": "Adivina adivinador: 'Oro no es, plata no es; abre la cortina y verás lo que es'. ¿Qué fruta es?",
+        "options": [
+            "El limón",
+            "La manzana",
+            "La naranja",
+            "El plátano (banana)"
+        ],
+        "correct": 3,
+        "explanation": "Juego de palabras: 'Oro no es, plata no es' -> plátano.",
+        "id": "q_g3_ingenio_23"
+    },
+    {
+        "grade": 3,
+        "category": "ingenio",
+        "question": "Adivina adivinador: 'Tengo cuello y no tengo cabeza; tengo cuerpo y no tengo brazos; me llenan de líquido y me tapan'. ¿Qué soy?",
+        "options": [
+            "Un libro",
+            "Una taza",
+            "Una remera",
+            "Una botella"
+        ],
+        "correct": 3,
+        "explanation": "La botella tiene cuello angosto y cuerpo cilíndrico.",
+        "id": "q_g3_ingenio_24"
+    },
+    {
+        "grade": 3,
+        "category": "ingenio",
+        "question": "Adivina adivinador: 'Vuela sin alas, silba sin boca, pega sin manos y nadie lo toca'. ¿Qué es?",
+        "options": [
+            "El humo",
+            "El pájaro",
+            "El viento",
+            "El avión"
+        ],
+        "correct": 2,
+        "explanation": "El viento sopla, mueve árboles y silba sin tener cuerpo visible.",
+        "id": "q_g3_ingenio_25"
+    },
+    {
+        "grade": 3,
+        "category": "ingenio",
+        "question": "Adivina adivinador: 'Sube y baja pero siempre se queda en el mismo lugar'. ¿Qué es?",
+        "options": [
+            "El ascensor",
+            "La pelota",
+            "La escalera",
+            "El pájaro"
+        ],
+        "correct": 2,
+        "explanation": "La escalera fija tiene peldaños para subir y bajar permaneciendo en su sitio.",
+        "id": "q_g3_ingenio_26"
+    },
+    {
+        "grade": 3,
+        "category": "ingenio",
+        "question": "¿Qué palabra de cuatro letras tiene tres letras?",
+        "options": [
+            "La palabra 'LUNA'",
+            "La palabra 'CASA'",
+            "La palabra 'TRES'",
+            "La palabra 'GATO'"
+        ],
+        "correct": 2,
+        "explanation": "Es un acertijo verbal: la palabra 'T-R-E-S' tiene 4 letras y significa tres.",
+        "id": "q_g3_ingenio_27"
+    },
+    {
+        "grade": 3,
+        "category": "ingenio",
+        "question": "¿Qué invento permite mirar a través de una pared sólida?",
+        "options": [
+            "Una ventana de vidrio",
+            "Un cuadro",
+            "Un periscopio",
+            "Un taladro"
+        ],
+        "correct": 0,
+        "explanation": "La ventana transparente colocada en una pared permite ver al exterior.",
+        "id": "q_g3_ingenio_28"
+    },
+    {
+        "grade": 3,
+        "category": "ingenio",
+        "question": "Si tiras una pelota roja al Mar Rojo, ¿cómo sale?",
+        "options": [
+            "Sale azul",
+            "Sale mojada",
+            "Sale rota",
+            "Sale desinflada"
+        ],
+        "correct": 1,
+        "explanation": "Cualquier objeto que cae al agua sale mojado.",
+        "id": "q_g3_ingenio_29"
+    },
+    {
+        "grade": 3,
+        "category": "ingenio",
+        "question": "Adivina adivinador: 'Tiene orejas pero no oye; tiene dientes pero no muerde; tiene barbas pero no es hombre'. ¿Qué vegetal es?",
+        "options": [
+            "El choclo o maíz",
+            "La lechuga",
+            "La zanahoria",
+            "La papa"
+        ],
+        "correct": 0,
+        "explanation": "El choclo tiene mazorca con dientes de granos y barbas o estigmas.",
+        "id": "q_g3_ingenio_30"
+    },
+    {
+        "grade": 3,
+        "category": "ingenio",
+        "question": "Adivina adivinador: 'Tengo ciudades pero no casas; tengo ríos pero no agua; tengo montañas pero no rocas'. ¿Qué soy?",
+        "options": [
+            "Un mapa",
+            "Una foto",
+            "Una pintura",
+            "Un cuento"
+        ],
+        "correct": 0,
+        "explanation": "Un mapa dibuja y representa todos los accidentes geográficos en papel.",
+        "id": "q_g3_ingenio_31"
+    },
+    {
+        "grade": 3,
+        "category": "ingenio",
+        "question": "¿Qué palabra se hace más corta cuando le agregas dos letras?",
+        "options": [
+            "La palabra 'Corta' (si le agregas 'es-' queda 'Escorta' o 'Corta')",
+            "La palabra 'Pequeño'",
+            "La palabra 'Grande'",
+            "La palabra 'Largo'"
+        ],
+        "correct": 0,
+        "explanation": "Es un acertijo lingüístico: la palabra 'corta' describe su propia brevedad.",
+        "id": "q_g3_ingenio_32"
+    },
+    {
+        "grade": 3,
+        "category": "ingenio",
+        "question": "Si un triángulo equilátero tiene un perímetro de 30 cm, ¿cuánto mide cada uno de sus tres lados?",
+        "options": [
+            "5 cm",
+            "15 cm",
+            "8 cm",
+            "10 cm"
+        ],
+        "correct": 3,
+        "explanation": "30 dividido 3 lados iguales = 10 cm cada lado.",
+        "id": "q_g3_ingenio_33"
+    },
+    {
+        "grade": 3,
+        "category": "ingenio",
+        "question": "Si un cuadrado tiene 4 lados de 5 cm cada uno, ¿cuál es su perímetro (la suma de todos sus lados)?",
+        "options": [
+            "25 cm",
+            "10 cm",
+            "15 cm",
+            "20 cm"
+        ],
+        "correct": 3,
+        "explanation": "5 + 5 + 5 + 5 = 20 cm (o 4 x 5 = 20 cm).",
+        "id": "q_g3_ingenio_34"
+    },
+    {
+        "grade": 3,
+        "category": "ingenio",
+        "question": "¿Cuántas caras tiene un cubo en total?",
+        "options": [
+            "4 caras",
+            "12 caras",
+            "8 caras",
+            "6 caras"
+        ],
+        "correct": 3,
+        "explanation": "Un cubo tiene 6 caras cuadradas idénticas.",
+        "id": "q_g3_ingenio_35"
+    },
+    {
+        "grade": 3,
+        "category": "ingenio",
+        "question": "¿Cuántos vértices tiene un cubo en total?",
+        "options": [
+            "8 vértices",
+            "12 vértices",
+            "4 vértices",
+            "6 vértices"
+        ],
+        "correct": 0,
+        "explanation": "Un cubo tiene 8 esquinas o vértices (4 arriba y 4 abajo).",
+        "id": "q_g3_ingenio_36"
+    },
+    {
+        "grade": 3,
+        "category": "ingenio",
+        "question": "¿Cuántas aristas (líneas donde se unen las caras) tiene un cubo?",
+        "options": [
+            "6 aristas",
+            "12 aristas",
+            "10 aristas",
+            "8 aristas"
+        ],
+        "correct": 1,
+        "explanation": "Un cubo tiene 12 aristas rectas.",
+        "id": "q_g3_ingenio_37"
+    },
+    {
+        "grade": 3,
+        "category": "ingenio",
+        "question": "Si 3 amigos se saludan entre sí con un apretón de manos una sola vez, ¿cuántos apretones de mano se dan en total?",
+        "options": [
+            "4 apretones",
+            "6 apretones",
+            "3 apretones",
+            "2 apretones"
+        ],
+        "correct": 2,
+        "explanation": "El amigo A saluda a B y a C (2). Luego B saluda a C (1). Total: 2 + 1 = 3 apretones.",
+        "id": "q_g3_ingenio_38"
+    },
+    {
+        "grade": 3,
+        "category": "ingenio",
+        "question": "¿Qué número continúa la serie? 1, 3, 6, 10, 15, ...",
+        "options": [
+            "20",
+            "21",
+            "25",
+            "18"
+        ],
+        "correct": 1,
+        "explanation": "Se suma +2, +3, +4, +5 y ahora +6: 15 + 6 = 21 (números triangulares).",
+        "id": "q_g3_ingenio_39"
+    },
+    {
+        "grade": 3,
+        "category": "ingenio",
+        "question": "Si en una granja hay 4 gallinas y 2 vacas, ¿cuántas patas de animales hay en total?",
+        "options": [
+            "18 patas",
+            "14 patas",
+            "12 patas",
+            "16 patas"
+        ],
+        "correct": 3,
+        "explanation": "4 gallinas x 2 patas = 8 patas. 2 vacas x 4 patas = 8 patas. 8 + 8 = 16 patas.",
+        "id": "q_g3_ingenio_40"
+    },
+    {
+        "grade": 3,
+        "category": "ingenio",
+        "question": "Si compras una docena de huevos (12 huevos) y se rompen 4, ¿cuántos huevos sanos quedan?",
+        "options": [
+            "6 huevos",
+            "8 huevos",
+            "10 huevos",
+            "7 huevos"
+        ],
+        "correct": 1,
+        "explanation": "12 - 4 = 8 huevos.",
+        "id": "q_g3_ingenio_41"
+    },
+    {
+        "grade": 3,
+        "category": "ingenio",
+        "question": "¿Cuántas unidades hay en media docena?",
+        "options": [
+            "5 unidades",
+            "12 unidades",
+            "6 unidades",
+            "8 unidades"
+        ],
+        "correct": 2,
+        "explanation": "Media docena es la mitad de 12, es decir 6.",
+        "id": "q_g3_ingenio_42"
+    },
+    {
+        "grade": 3,
+        "category": "ingenio",
+        "question": "¿Cuántas unidades hay en una docena y media?",
+        "options": [
+            "20 unidades",
+            "24 unidades",
+            "18 unidades",
+            "15 unidades"
+        ],
+        "correct": 2,
+        "explanation": "12 (una docena) + 6 (media docena) = 18 unidades.",
+        "id": "q_g3_ingenio_43"
+    },
+    {
+        "grade": 3,
+        "category": "ingenio",
+        "question": "¿Qué instrumento de cocina usamos para medir el tiempo exacto que hierve un huevo?",
+        "options": [
+            "Una balanza",
+            "Una cinta métrica",
+            "Un temporizador o minutero",
+            "Un termómetro"
+        ],
+        "correct": 2,
+        "explanation": "El temporizador avisa con una alarma cuando se cumple el tiempo fijado.",
+        "id": "q_g3_ingenio_44"
+    },
+    {
+        "grade": 3,
+        "category": "ingenio",
+        "question": "¿Cuál de los siguientes números es divisible por 2 y por 5 al mismo tiempo?",
+        "options": [
+            "20",
+            "25",
+            "18",
+            "15"
+        ],
+        "correct": 0,
+        "explanation": "Los números que terminan en 0 son múltiplos tanto de 2 (pares) como de 5.",
+        "id": "q_g3_ingenio_45"
+    },
+    {
+        "grade": 3,
+        "category": "ingenio",
+        "question": "Si una pizza entera cuesta $1.200, ¿cuánto cuesta media pizza?",
+        "options": [
+            "$800",
+            "$400",
+            "$300",
+            "$600"
+        ],
+        "correct": 3,
+        "explanation": "La mitad de 1.200 es 600 pesos.",
+        "id": "q_g3_ingenio_46"
+    },
+    {
+        "grade": 3,
+        "category": "ingenio",
+        "question": "¿Qué elemento químico de la tabla periódica respiramos en el aire bajo la fórmula O2?",
+        "options": [
+            "Oxígeno",
+            "Carbono",
+            "Helio",
+            "Hierro"
+        ],
+        "correct": 0,
+        "explanation": "El gas oxígeno molecular es O2.",
+        "id": "q_g3_ingenio_47"
+    },
+    {
+        "grade": 3,
+        "category": "ingenio",
+        "question": "¿Qué fenómeno meteorológico se produce cuando el vapor de agua a ras del suelo se condensa dificultando la visión al conducir?",
+        "options": [
+            "La niebla o neblina",
+            "El granizo",
+            "La sequía",
+            "El viento zonda"
+        ],
+        "correct": 0,
+        "explanation": "La niebla es una nube baja en contacto con la superficie terrestre.",
+        "id": "q_g3_ingenio_48"
+    },
+    {
+        "grade": 3,
+        "category": "ingenio",
+        "question": "Adivina adivinador: 'Tiene cuatro patas pero no se mueve; tiene respaldo pero no es asiento de auto; te sientas en ella para almorzar'. ¿Qué es?",
+        "options": [
+            "La banqueta",
+            "El sillón de dormir",
+            "La cama",
+            "La silla"
+        ],
+        "correct": 3,
+        "explanation": "La silla de comedor tiene 4 patas, respaldo y asiento.",
+        "id": "q_g3_ingenio_49"
+    },
+    {
+        "grade": 3,
+        "category": "ingenio",
+        "question": "¿Cuál es el valor posicional del 9 en el número 9.876?",
+        "options": [
+            "90",
+            "900",
+            "9",
+            "9.000"
+        ],
+        "correct": 3,
+        "explanation": "Ocupa el lugar de las unidades de mil, por eso vale 9.000.",
+        "id": "q_g3_ingenio_50"
+    }
+    ,
+    {
+        "grade": 4,
+        "category": "matematica",
+        "question": "¿Cuál es el valor del dígito 7 en el número 47.520?",
+        "options": [
+            "70.000",
+            "7.000",
+            "700",
+            "70"
+        ],
+        "correct": 1,
+        "explanation": "El 7 se encuentra en la posición de las unidades de mil, por lo que su valor es 7.000.",
+        "id": "q_g4_matematica_1"
+    },
+    {
+        "grade": 4,
+        "category": "matematica",
+        "question": "¿Cómo se escribe en números 'sesenta y cuatro mil trescientos ocho'?",
+        "options": [
+            "64.380",
+            "64.308",
+            "604.308",
+            "64.038"
+        ],
+        "correct": 1,
+        "explanation": "'Sesenta y cuatro mil' es 64.000 y 'trescientos ocho' es 308, formando 64.308.",
+        "id": "q_g4_matematica_2"
+    },
+    {
+        "grade": 4,
+        "category": "matematica",
+        "question": "¿Qué número se forma con 5 decenas de mil, 3 unidades de mil, 8 centenas y 4 unidades?",
+        "options": [
+            "53.840",
+            "53.804",
+            "50.384",
+            "53.084"
+        ],
+        "correct": 1,
+        "explanation": "5 decenas de mil (50.000) + 3 unidades de mil (3.000) + 8 centenas (800) + 0 decenas + 4 unidades (4) = 53.804.",
+        "id": "q_g4_matematica_3"
+    },
+    {
+        "grade": 4,
+        "category": "matematica",
+        "question": "¿Cuál es el número anterior a 30.000?",
+        "options": [
+            "29.999",
+            "29.990",
+            "29.900",
+            "20.999"
+        ],
+        "correct": 0,
+        "explanation": "Restando 1 a 30.000 obtenemos 29.999.",
+        "id": "q_g4_matematica_4"
+    },
+    {
+        "grade": 4,
+        "category": "matematica",
+        "question": "¿Cuál es el número posterior a 49.999?",
+        "options": [
+            "50.000",
+            "50.001",
+            "49.100",
+            "60.000"
+        ],
+        "correct": 0,
+        "explanation": "Sumando 1 a 49.999 obtenemos 50.000.",
+        "id": "q_g4_matematica_5"
+    },
+    {
+        "grade": 4,
+        "category": "matematica",
+        "question": "Si redondeamos 43.680 a la unidad de mil más cercana, ¿qué número obtenemos?",
+        "options": [
+            "43.000",
+            "44.000",
+            "40.000",
+            "43.700"
+        ],
+        "correct": 1,
+        "explanation": "Como la centena es 6 (mayor o igual a 5), se redondea hacia arriba a 44.000.",
+        "id": "q_g4_matematica_6"
+    },
+    {
+        "grade": 4,
+        "category": "matematica",
+        "question": "¿Qué número es 10.000 más grande que 25.400?",
+        "options": [
+            "35.400",
+            "125.400",
+            "26.400",
+            "30.400"
+        ],
+        "correct": 0,
+        "explanation": "25.400 + 10.000 = 35.400.",
+        "id": "q_g4_matematica_7"
+    },
+    {
+        "grade": 4,
+        "category": "matematica",
+        "question": "¿Cuántas centenas hay en total en el número 8.500?",
+        "options": [
+            "85",
+            "850",
+            "8",
+            "50"
+        ],
+        "correct": 0,
+        "explanation": "En 8.500 hay 85 centenas (85 x 100 = 8.500).",
+        "id": "q_g4_matematica_8"
+    },
+    {
+        "grade": 4,
+        "category": "matematica",
+        "question": "¿Cuál de estos números es mayor que 78.450 y menor que 78.500?",
+        "options": [
+            "78.405",
+            "78.489",
+            "78.502",
+            "78.399"
+        ],
+        "correct": 1,
+        "explanation": "78.489 está comprendido entre 78.450 y 78.500.",
+        "id": "q_g4_matematica_9"
+    },
+    {
+        "grade": 4,
+        "category": "matematica",
+        "question": "En el número 92.146, ¿qué dígito ocupa el lugar de las decenas de mil?",
+        "options": [
+            "9",
+            "2",
+            "1",
+            "4"
+        ],
+        "correct": 0,
+        "explanation": "El 9 ocupa la posición de las decenas de mil (vale 90.000).",
+        "id": "q_g4_matematica_10"
+    },
+    {
+        "grade": 4,
+        "category": "matematica",
+        "question": "¿Cuál es el resultado de 1.250 x 100?",
+        "options": [
+            "12.500",
+            "125.000",
+            "1.250.000",
+            "12.050"
+        ],
+        "correct": 1,
+        "explanation": "Para multiplicar por 100 se agregan dos ceros al número: 1.250 x 100 = 125.000.",
+        "id": "q_g4_matematica_11"
+    },
+    {
+        "grade": 4,
+        "category": "matematica",
+        "question": "Si multiplicamos 24 x 15, ¿cuál es el resultado?",
+        "options": [
+            "360",
+            "240",
+            "340",
+            "380"
+        ],
+        "correct": 0,
+        "explanation": "24 x 10 = 240 y 24 x 5 = 120. Sumando ambos: 240 + 120 = 360.",
+        "id": "q_g4_matematica_12"
+    },
+    {
+        "grade": 4,
+        "category": "matematica",
+        "question": "¿Cuál es el cociente y el resto de dividir 47 por 5?",
+        "options": [
+            "Cociente 8 y resto 7",
+            "Cociente 9 y resto 2",
+            "Cociente 9 y resto 5",
+            "Cociente 7 y resto 2"
+        ],
+        "correct": 1,
+        "explanation": "5 x 9 = 45. Para llegar a 47 sobran 2. Cociente 9 y resto 2.",
+        "id": "q_g4_matematica_13"
+    },
+    {
+        "grade": 4,
+        "category": "matematica",
+        "question": "En una división, el divisor es 8, el cociente es 12 y el resto es 0. ¿Cuál es el dividendo?",
+        "options": [
+            "86",
+            "96",
+            "106",
+            "92"
+        ],
+        "correct": 1,
+        "explanation": "Dividendo = Divisor x Cociente + Resto: 8 x 12 + 0 = 96.",
+        "id": "q_g4_matematica_14"
+    },
+    {
+        "grade": 4,
+        "category": "matematica",
+        "question": "¿Cuál es el resultado de (20 + 30) x 4?",
+        "options": [
+            "140",
+            "200",
+            "110",
+            "250"
+        ],
+        "correct": 1,
+        "explanation": "Primero se resuelve el paréntesis: 20 + 30 = 50. Luego: 50 x 4 = 200.",
+        "id": "q_g4_matematica_15"
+    },
+    {
+        "grade": 4,
+        "category": "matematica",
+        "question": "¿Cuál es el resultado de 100 - 25 x 2?",
+        "options": [
+            "150",
+            "50",
+            "75",
+            "0"
+        ],
+        "correct": 1,
+        "explanation": "Por jerarquía de operaciones, primero se multiplica: 25 x 2 = 50. Luego: 100 - 50 = 50.",
+        "id": "q_g4_matematica_16"
+    },
+    {
+        "grade": 4,
+        "category": "matematica",
+        "question": "Si repartimos 720 figuritas en 8 álbumes en partes iguales, ¿cuántas van en cada uno?",
+        "options": [
+            "80",
+            "90",
+            "70",
+            "95"
+        ],
+        "correct": 1,
+        "explanation": "720 / 8 = 90 figuritas en cada álbum.",
+        "id": "q_g4_matematica_17"
+    },
+    {
+        "grade": 4,
+        "category": "matematica",
+        "question": "Una fábrica produce 350 alfajores por hora. ¿Cuántos produce en 4 horas?",
+        "options": [
+            "1.400",
+            "1.200",
+            "1.350",
+            "1.500"
+        ],
+        "correct": 0,
+        "explanation": "350 x 4 = 1.400 alfajores.",
+        "id": "q_g4_matematica_18"
+    },
+    {
+        "grade": 4,
+        "category": "matematica",
+        "question": "¿Cuánto es el triple de 1.500 más el doble de 500?",
+        "options": [
+            "4.500",
+            "5.000",
+            "5.500",
+            "6.000"
+        ],
+        "correct": 2,
+        "explanation": "Triple de 1.500 = 4.500. Doble de 500 = 1.000. 4.500 + 1.000 = 5.500.",
+        "id": "q_g4_matematica_19"
+    },
+    {
+        "grade": 4,
+        "category": "matematica",
+        "question": "Si un paquete de galletitas cuesta $450, ¿cuánto cuestan 6 paquetes?",
+        "options": [
+            "$2.400",
+            "$2.700",
+            "$2.850",
+            "$2.500"
+        ],
+        "correct": 1,
+        "explanation": "450 x 6 = 2.700 pesos.",
+        "id": "q_g4_matematica_20"
+    },
+    {
+        "grade": 4,
+        "category": "matematica",
+        "question": "¿Qué fracción representa la mitad de una pizza?",
+        "options": [
+            "1/4",
+            "1/2",
+            "2/4",
+            "1/3"
+        ],
+        "correct": 1,
+        "explanation": "Un medio (1/2) representa una de dos partes iguales, es decir, la mitad.",
+        "id": "q_g4_matematica_21"
+    },
+    {
+        "grade": 4,
+        "category": "matematica",
+        "question": "¿Cuántos cuartos (1/4) forman un entero completo?",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "correct": 2,
+        "explanation": "Cuatro partes de 1/4 equivalen a 4/4, que es 1 entero.",
+        "id": "q_g4_matematica_22"
+    },
+    {
+        "grade": 4,
+        "category": "matematica",
+        "question": "¿Cuál de estas fracciones es equivalente a 1/2?",
+        "options": [
+            "2/4",
+            "1/3",
+            "3/5",
+            "2/6"
+        ],
+        "correct": 0,
+        "explanation": "2/4 se simplifica dividiendo numerador y denominador por 2, dando 1/2.",
+        "id": "q_g4_matematica_23"
+    },
+    {
+        "grade": 4,
+        "category": "matematica",
+        "question": "Si sumamos 2/8 + 3/8, ¿qué fracción obtenemos?",
+        "options": [
+            "5/16",
+            "5/8",
+            "6/8",
+            "1/8"
+        ],
+        "correct": 1,
+        "explanation": "Al tener igual denominador, se suman los numeradores: 2 + 3 = 5, manteniendo el 8: 5/8.",
+        "id": "q_g4_matematica_24"
+    },
+    {
+        "grade": 4,
+        "category": "matematica",
+        "question": "¿Cuánto le falta a 3/4 para llegar a 1 entero?",
+        "options": [
+            "1/2",
+            "1/4",
+            "2/4",
+            "3/4"
+        ],
+        "correct": 1,
+        "explanation": "4/4 - 3/4 = 1/4.",
+        "id": "q_g4_matematica_25"
+    },
+    {
+        "grade": 4,
+        "category": "matematica",
+        "question": "¿Cuál de las siguientes fracciones es mayor que 1 entero?",
+        "options": [
+            "3/4",
+            "5/4",
+            "4/4",
+            "2/3"
+        ],
+        "correct": 1,
+        "explanation": "5/4 tiene el numerador mayor que el denominador, por lo que es mayor a 1.",
+        "id": "q_g4_matematica_26"
+    },
+    {
+        "grade": 4,
+        "category": "matematica",
+        "question": "Si tengo 1 kilo y medio de pan, ¿cuántos gramos son?",
+        "options": [
+            "1.250 g",
+            "1.500 g",
+            "1.750 g",
+            "2.000 g"
+        ],
+        "correct": 1,
+        "explanation": "1 kg = 1.000 g y 1/2 kg = 500 g. En total son 1.500 gramos.",
+        "id": "q_g4_matematica_27"
+    },
+    {
+        "grade": 4,
+        "category": "matematica",
+        "question": "¿Cómo se escribe con números decimales la moneda de 50 centavos respecto a un peso?",
+        "options": [
+            "$0,05",
+            "$0,50",
+            "$5,00",
+            "$0,25"
+        ],
+        "correct": 1,
+        "explanation": "50 centavos es la mitad de un peso y se escribe $0,50.",
+        "id": "q_g4_matematica_28"
+    },
+    {
+        "grade": 4,
+        "category": "matematica",
+        "question": "Si tengo tres botellas de 1/2 litro de agua, ¿cuánta agua tengo en total?",
+        "options": [
+            "1 litro",
+            "1 litro y medio",
+            "2 litros",
+            "3 litros"
+        ],
+        "correct": 1,
+        "explanation": "Tres mitades de litro son 1 litro y medio (1,5 litros).",
+        "id": "q_g4_matematica_29"
+    },
+    {
+        "grade": 4,
+        "category": "matematica",
+        "question": "¿Qué número decimal es equivalente a la fracción 1/4?",
+        "options": [
+            "0,25",
+            "0,5",
+            "0,75",
+            "0,4"
+        ],
+        "correct": 0,
+        "explanation": "1 dividido entre 4 es igual a 0,25.",
+        "id": "q_g4_matematica_30"
+    },
+    {
+        "grade": 4,
+        "category": "matematica",
+        "question": "¿Cómo se llama un ángulo que mide exactamente 90 grados?",
+        "options": [
+            "Ángulo agudo",
+            "Ángulo recto",
+            "Ángulo obtuso",
+            "Ángulo llano"
+        ],
+        "correct": 1,
+        "explanation": "Un ángulo de 90° es un ángulo recto.",
+        "id": "q_g4_matematica_31"
+    },
+    {
+        "grade": 4,
+        "category": "matematica",
+        "question": "Un ángulo que mide menos de 90 grados se denomina:",
+        "options": [
+            "Obtuso",
+            "Agudo",
+            "Recto",
+            "Llano"
+        ],
+        "correct": 1,
+        "explanation": "Los ángulos menores a 90° se llaman ángulos agudos.",
+        "id": "q_g4_matematica_32"
+    },
+    {
+        "grade": 4,
+        "category": "matematica",
+        "question": "¿Cómo se llama un ángulo que mide más de 90° y menos de 180°?",
+        "options": [
+            "Agudo",
+            "Recto",
+            "Obtuso",
+            "Cóncavo"
+        ],
+        "correct": 2,
+        "explanation": "Los ángulos mayores de 90° y menores de 180° se denominan obtusos.",
+        "id": "q_g4_matematica_33"
+    },
+    {
+        "grade": 4,
+        "category": "matematica",
+        "question": "¿Cuántos lados y vértices tiene un cuadrilátero?",
+        "options": [
+            "3 lados y 3 vértices",
+            "4 lados y 4 vértices",
+            "5 lados y 5 vértices",
+            "6 lados y 4 vértices"
+        ],
+        "correct": 1,
+        "explanation": "Todo cuadrilátero tiene 4 lados y 4 vértices.",
+        "id": "q_g4_matematica_34"
+    },
+    {
+        "grade": 4,
+        "category": "matematica",
+        "question": "¿Cómo se llama el triángulo que tiene sus tres lados de igual longitud?",
+        "options": [
+            "Isósceles",
+            "Escaleno",
+            "Equilátero",
+            "Rectángulo"
+        ],
+        "correct": 2,
+        "explanation": "El triángulo equilátero tiene los 3 lados congruentes (iguales).",
+        "id": "q_g4_matematica_35"
+    },
+    {
+        "grade": 4,
+        "category": "matematica",
+        "question": "¿Qué es el perímetro de una figura geométrica?",
+        "options": [
+            "El espacio que ocupa por dentro",
+            "La suma de las longitudes de todos sus lados",
+            "La cantidad de vértices",
+            "La medida de sus ángulos"
+        ],
+        "correct": 1,
+        "explanation": "El perímetro es la longitud total del contorno o borde de una figura plana.",
+        "id": "q_g4_matematica_36"
+    },
+    {
+        "grade": 4,
+        "category": "matematica",
+        "question": "Un rectángulo mide 6 cm de largo y 4 cm de ancho. ¿Cuál es su perímetro?",
+        "options": [
+            "20 cm",
+            "24 cm",
+            "10 cm",
+            "16 cm"
+        ],
+        "correct": 0,
+        "explanation": "Perímetro = 6 + 4 + 6 + 4 = 20 cm.",
+        "id": "q_g4_matematica_37"
+    },
+    {
+        "grade": 4,
+        "category": "matematica",
+        "question": "Un cuadrado tiene 5 cm de lado. ¿Cuál es su área?",
+        "options": [
+            "20 cm²",
+            "25 cm²",
+            "10 cm²",
+            "15 cm²"
+        ],
+        "correct": 1,
+        "explanation": "Área del cuadrado = lado x lado = 5 cm x 5 cm = 25 cm².",
+        "id": "q_g4_matematica_38"
+    },
+    {
+        "grade": 4,
+        "category": "matematica",
+        "question": "¿Qué figura geométrica tiene 4 lados iguales y 4 ángulos rectos?",
+        "options": [
+            "Rombo",
+            "Rectángulo",
+            "Cuadrado",
+            "Trapecio"
+        ],
+        "correct": 2,
+        "explanation": "El cuadrado cumple ambas condiciones: 4 lados de igual longitud y 4 ángulos rectos de 90°.",
+        "id": "q_g4_matematica_39"
+    },
+    {
+        "grade": 4,
+        "category": "matematica",
+        "question": "¿Cuántas diagonales se pueden trazar en un cuadrado?",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "correct": 1,
+        "explanation": "Un cuadrado tiene 2 diagonales que unen sus vértices opuestos.",
+        "id": "q_g4_matematica_40"
+    },
+    {
+        "grade": 4,
+        "category": "matematica",
+        "question": "¿Cuántos metros hay en 3 kilómetros y medio?",
+        "options": [
+            "350 m",
+            "3.050 m",
+            "3.500 m",
+            "35.000 m"
+        ],
+        "correct": 2,
+        "explanation": "1 km = 1.000 m, por lo que 3,5 km equivalen a 3.500 metros.",
+        "id": "q_g4_matematica_41"
+    },
+    {
+        "grade": 4,
+        "category": "matematica",
+        "question": "¿Cuántos mililitros (ml) hay en una botella de 2 litros?",
+        "options": [
+            "200 ml",
+            "1.000 ml",
+            "2.000 ml",
+            "20.000 ml"
+        ],
+        "correct": 2,
+        "explanation": "1 litro equivale a 1.000 mililitros, por lo tanto 2 litros son 2.000 ml.",
+        "id": "q_g4_matematica_42"
+    },
+    {
+        "grade": 4,
+        "category": "matematica",
+        "question": "¿Cuántos gramos son 3/4 de kilogramo?",
+        "options": [
+            "500 g",
+            "750 g",
+            "250 g",
+            "800 g"
+        ],
+        "correct": 1,
+        "explanation": "1 kg = 1.000 g. 1/4 kg = 250 g. Tres cuartos son 3 x 250 g = 750 gramos.",
+        "id": "q_g4_matematica_43"
+    },
+    {
+        "grade": 4,
+        "category": "matematica",
+        "question": "Una película empieza a las 16:15 y dura 1 hora y 45 minutos. ¿A qué hora termina?",
+        "options": [
+            "17:45",
+            "18:00",
+            "18:15",
+            "17:55"
+        ],
+        "correct": 1,
+        "explanation": "16:15 + 45 minutos = 17:00; sumando 1 hora más = 18:00.",
+        "id": "q_g4_matematica_44"
+    },
+    {
+        "grade": 4,
+        "category": "matematica",
+        "question": "¿Cuántos minutos hay en 2 horas y media?",
+        "options": [
+            "120 min",
+            "150 min",
+            "180 min",
+            "200 min"
+        ],
+        "correct": 1,
+        "explanation": "2 horas son 120 minutos, más 30 minutos = 150 minutos.",
+        "id": "q_g4_matematica_45"
+    },
+    {
+        "grade": 4,
+        "category": "matematica",
+        "question": "¿Cuántos días tiene un año bisiesto?",
+        "options": [
+            "364",
+            "365",
+            "366",
+            "367"
+        ],
+        "correct": 2,
+        "explanation": "Un año bisiesto tiene 366 días porque febrero tiene 29 días.",
+        "id": "q_g4_matematica_46"
+    },
+    {
+        "grade": 4,
+        "category": "matematica",
+        "question": "Si una caja contiene 12 docenas de huevos, ¿cuántos huevos hay en total?",
+        "options": [
+            "120",
+            "144",
+            "136",
+            "150"
+        ],
+        "correct": 1,
+        "explanation": "Una docena son 12. 12 x 12 = 144 huevos.",
+        "id": "q_g4_matematica_47"
+    },
+    {
+        "grade": 4,
+        "category": "matematica",
+        "question": "¿Cuál es el doble de 3.450?",
+        "options": [
+            "6.800",
+            "6.900",
+            "7.000",
+            "6.850"
+        ],
+        "correct": 1,
+        "explanation": "3.450 x 2 = 6.900.",
+        "id": "q_g4_matematica_48"
+    },
+    {
+        "grade": 4,
+        "category": "matematica",
+        "question": "Si compro 3 cuadernos a $800 cada uno y pago con un billete de $5.000, ¿cuánto recibo de vuelto?",
+        "options": [
+            "$2.400",
+            "$2.600",
+            "$2.800",
+            "$3.000"
+        ],
+        "correct": 1,
+        "explanation": "Gasto: 3 x 800 = $2.400. Vuelto: 5.000 - 2.400 = $2.600.",
+        "id": "q_g4_matematica_49"
+    },
+    {
+        "grade": 4,
+        "category": "matematica",
+        "question": "¿Qué propiedad de la suma afirma que el orden de los sumandos no altera el resultado?",
+        "options": [
+            "Propiedad asociativa",
+            "Propiedad conmutativa",
+            "Propiedad distributiva",
+            "Elemento neutro"
+        ],
+        "correct": 1,
+        "explanation": "La propiedad conmutativa establece que a + b = b + a.",
+        "id": "q_g4_matematica_50"
+    },
+    {
+        "grade": 4,
+        "category": "lengua",
+        "question": "¿Qué tipo de texto narra hechos reales de interés público y responde a qué, quién, cuándo y dónde?",
+        "options": [
+            "El cuento de hadas",
+            "La noticia periodística",
+            "La poesía",
+            "La fábula"
+        ],
+        "correct": 1,
+        "explanation": "La noticia es un texto informativo que relata hechos de interés actual respondiendo a las preguntas básicas.",
+        "id": "q_g4_lengua_1"
+    },
+    {
+        "grade": 4,
+        "category": "lengua",
+        "question": "¿Qué característica principal distingue a una fábula?",
+        "options": [
+            "Usa rimas en todas sus estrofas",
+            "Suele tener animales personificados y deja una moraleja",
+            "Explica el origen del universo",
+            "Contiene instrucciones para armar algo"
+        ],
+        "correct": 1,
+        "explanation": "Las fábulas están protagonizadas generalmente por animales y concluyen con una moraleja o enseñanza.",
+        "id": "q_g4_lengua_2"
+    },
+    {
+        "grade": 4,
+        "category": "lengua",
+        "question": "¿Cómo se llama el texto que relata la vida de una persona escrita por otra?",
+        "options": [
+            "Autobiografía",
+            "Biografía",
+            "Monografía",
+            "Entrevista"
+        ],
+        "correct": 1,
+        "explanation": "Una biografía es la narración de la vida de una persona escrita por un autor distinto.",
+        "id": "q_g4_lengua_3"
+    },
+    {
+        "grade": 4,
+        "category": "lengua",
+        "question": "¿Qué tipo de narración tradicional explica el origen del mundo, los dioses o fenómenos de la naturaleza?",
+        "options": [
+            "El mito",
+            "La noticia",
+            "La receta",
+            "El folleto publicitario"
+        ],
+        "correct": 0,
+        "explanation": "Los mitos son relatos sagrados tradicionales que buscan explicar el origen del universo y la naturaleza.",
+        "id": "q_g4_lengua_4"
+    },
+    {
+        "grade": 4,
+        "category": "lengua",
+        "question": "En una historieta, ¿cómo se llaman los recuadros donde se dibujan las escenas?",
+        "options": [
+            "Globos de diálogo",
+            "Viñetas",
+            "Onomatopeyas",
+            "Carátulas"
+        ],
+        "correct": 1,
+        "explanation": "Las viñetas son los cuadros individuales que componen la secuencia de una historieta o cómic.",
+        "id": "q_g4_lengua_5"
+    },
+    {
+        "grade": 4,
+        "category": "lengua",
+        "question": "¿Qué texto instructivo detalla ingredientes y pasos para preparar una comida?",
+        "options": [
+            "Cuento",
+            "Receta de cocina",
+            "Noticia",
+            "Poema"
+        ],
+        "correct": 1,
+        "explanation": "La receta de cocina es un texto instructivo que enumera ingredientes y pasos de elaboración.",
+        "id": "q_g4_lengua_6"
+    },
+    {
+        "grade": 4,
+        "category": "lengua",
+        "question": "¿Cómo se denomina a la parte de una narración donde se resuelve el conflicto principal?",
+        "options": [
+            "Introducción",
+            "Nudo o conflicto",
+            "Desenlace",
+            "Prólogo"
+        ],
+        "correct": 2,
+        "explanation": "El desenlace es el momento en que se soluciona el conflicto y concluye la historia.",
+        "id": "q_g4_lengua_7"
+    },
+    {
+        "grade": 4,
+        "category": "lengua",
+        "question": "¿Qué función del lenguaje predomina en un folleto que busca convencer de comprar un producto?",
+        "options": [
+            "Informativa",
+            "Apelativa o persuasiva",
+            "Poética",
+            "Expresiva"
+        ],
+        "correct": 1,
+        "explanation": "La función persuasiva o apelativa busca influir en las acciones o decisiones del receptor.",
+        "id": "q_g4_lengua_8"
+    },
+    {
+        "grade": 4,
+        "category": "lengua",
+        "question": "¿Qué recurso de la historieta imita un sonido de la realidad (como '¡BOOM!' o '¡CRASH!')?",
+        "options": [
+            "Metáfora",
+            "Onomatopeya",
+            "Rima",
+            "Sinónimo"
+        ],
+        "correct": 1,
+        "explanation": "Las onomatopeyas son palabras que representan acústicamente sonidos de la realidad.",
+        "id": "q_g4_lengua_9"
+    },
+    {
+        "grade": 4,
+        "category": "lengua",
+        "question": "¿Cuál es el propósito principal de un texto expositivo o de divulgación escolar?",
+        "options": [
+            "Entretener con chistes",
+            "Transmitir información clara y objetiva sobre un tema",
+            "Convencer de votar a alguien",
+            "Expresar sentimientos íntimos"
+        ],
+        "correct": 1,
+        "explanation": "El texto expositivo tiene como finalidad informar y explicar un tema con claridad y orden.",
+        "id": "q_g4_lengua_10"
+    },
+    {
+        "grade": 4,
+        "category": "lengua",
+        "question": "¿Qué clase de sustantivo nombra sentimientos, emociones o ideas que no se pueden tocar?",
+        "options": [
+            "Sustantivo común concreto",
+            "Sustantivo propio",
+            "Sustantivo abstracto",
+            "Sustantivo colectivo"
+        ],
+        "correct": 2,
+        "explanation": "Los sustantivos abstractos nombran conceptos, valores o emociones (como paz, amor, alegría).",
+        "id": "q_g4_lengua_11"
+    },
+    {
+        "grade": 4,
+        "category": "lengua",
+        "question": "¿Cuál de los siguientes es un sustantivo colectivo que designa un grupo de peces?",
+        "options": [
+            "Jauría",
+            "Cardumen",
+            "Bandada",
+            "Enjambre"
+        ],
+        "correct": 1,
+        "explanation": "Cardumen es el sustantivo colectivo correspondiente a un conjunto de peces.",
+        "id": "q_g4_lengua_12"
+    },
+    {
+        "grade": 4,
+        "category": "lengua",
+        "question": "En la frase 'Los jugadores argentinos ganaron la copa', ¿qué clase de adjetivo es 'argentinos'?",
+        "options": [
+            "Calificativo común",
+            "Gentilicio",
+            "Numeral cardinal",
+            "Posesivo"
+        ],
+        "correct": 1,
+        "explanation": "Los adjetivos gentilicios indican el origen geográfico o nacionalidad de los sustantivos.",
+        "id": "q_g4_lengua_13"
+    },
+    {
+        "grade": 4,
+        "category": "lengua",
+        "question": "¿Cuál de las siguientes palabras es un adjetivo numeral ordinal?",
+        "options": [
+            "Tres",
+            "Tercero",
+            "Triple",
+            "Tercio"
+        ],
+        "correct": 1,
+        "explanation": "'Tercero' indica orden o posición, por lo que es un adjetivo numeral ordinal.",
+        "id": "q_g4_lengua_14"
+    },
+    {
+        "grade": 4,
+        "category": "lengua",
+        "question": "¿Cuáles son los pronombres personales de primera persona del singular y plural?",
+        "options": [
+            "Tú y vosotros",
+            "Él y ellos",
+            "Yo y nosotros",
+            "Usted y ustedes"
+        ],
+        "correct": 2,
+        "explanation": "'Yo' es la 1.ª persona del singular y 'nosotros/nosotras' es la 1.ª persona del plural.",
+        "id": "q_g4_lengua_15"
+    },
+    {
+        "grade": 4,
+        "category": "lengua",
+        "question": "En la oración 'Ellos fueron al cine ayer', ¿cuál es el pronombre personal?",
+        "options": [
+            "fueron",
+            "Ellos",
+            "cine",
+            "ayer"
+        ],
+        "correct": 1,
+        "explanation": "'Ellos' es un pronombre personal de tercera persona del plural.",
+        "id": "q_g4_lengua_16"
+    },
+    {
+        "grade": 4,
+        "category": "lengua",
+        "question": "¿Cuál de las siguientes palabras es un sustantivo individual?",
+        "options": [
+            "Arboleda",
+            "Árbol",
+            "Bosque",
+            "Flota"
+        ],
+        "correct": 1,
+        "explanation": "'Árbol' nombra a un único elemento en singular; arboleda y bosque son colectivos.",
+        "id": "q_g4_lengua_17"
+    },
+    {
+        "grade": 4,
+        "category": "lengua",
+        "question": "En 'Ese perro es muy juguetón', la palabra 'juguetón' funciona como:",
+        "options": [
+            "Sustantivo abstracto",
+            "Adjetivo calificativo",
+            "Verbo conjugado",
+            "Pronombre"
+        ],
+        "correct": 1,
+        "explanation": "'Juguetón' describe una cualidad del perro, actuando como adjetivo calificativo.",
+        "id": "q_g4_lengua_18"
+    },
+    {
+        "grade": 4,
+        "category": "lengua",
+        "question": "¿Cuál de los siguientes pares contiene un sustantivo y su adjetivo derivado?",
+        "options": [
+            "Belleza - bello",
+            "Correr - corriendo",
+            "Mesa - silla",
+            "Sol - luna"
+        ],
+        "correct": 0,
+        "explanation": "'Belleza' es el sustantivo abstracto y 'bello' es el adjetivo correspondiente.",
+        "id": "q_g4_lengua_19"
+    },
+    {
+        "grade": 4,
+        "category": "lengua",
+        "question": "En la oración 'Nuestra escuela es hermosa', la palabra 'Nuestra' es un:",
+        "options": [
+            "Pronombre demostrativo",
+            "Adjetivo o determinante posesivo",
+            "Sustantivo propio",
+            "Adverbio"
+        ],
+        "correct": 1,
+        "explanation": "'Nuestra' indica pertenencia respecto al sustantivo escuela, funcionando como posesivo.",
+        "id": "q_g4_lengua_20"
+    },
+    {
+        "grade": 4,
+        "category": "lengua",
+        "question": "¿En qué tiempo verbal está conjugado el verbo 'estudiamos' en la frase 'Ayer estudiamos mucho'?",
+        "options": [
+            "Presente",
+            "Pretérito perfecto simple",
+            "Futuro",
+            "Condicional"
+        ],
+        "correct": 1,
+        "explanation": "Al referirse a una acción ya concluida en el pasado ('ayer'), está en pretérito perfecto simple.",
+        "id": "q_g4_lengua_21"
+    },
+    {
+        "grade": 4,
+        "category": "lengua",
+        "question": "¿Cuál es el infinitivo del verbo en 'Los niños jugaron en el parque'?",
+        "options": [
+            "Jugando",
+            "Jugar",
+            "Jugado",
+            "Juego"
+        ],
+        "correct": 1,
+        "explanation": "El infinitivo es la forma no conjugada que termina en -ar, -er o -ir; en este caso, 'jugar'.",
+        "id": "q_g4_lengua_22"
+    },
+    {
+        "grade": 4,
+        "category": "lengua",
+        "question": "¿Qué clase de adverbio es la palabra 'rápidamente'?",
+        "options": [
+            "Adverbio de tiempo",
+            "Adverbio de lugar",
+            "Adverbio de modo",
+            "Adverbio de cantidad"
+        ],
+        "correct": 2,
+        "explanation": "Los adverbios terminados en '-mente' que indican cómo se realiza una acción son de modo.",
+        "id": "q_g4_lengua_23"
+    },
+    {
+        "grade": 4,
+        "category": "lengua",
+        "question": "En la oración 'Mañana iremos a la plaza', ¿qué tipo de adverbio es 'mañana'?",
+        "options": [
+            "Lugar",
+            "Tiempo",
+            "Modo",
+            "Duda"
+        ],
+        "correct": 1,
+        "explanation": "'Mañana' responde a la pregunta ¿cuándo?, por lo que es un adverbio de tiempo.",
+        "id": "q_g4_lengua_24"
+    },
+    {
+        "grade": 4,
+        "category": "lengua",
+        "question": "¿Cuál de las siguientes palabras es un adverbio de lugar?",
+        "options": [
+            "Cerca",
+            "Tarde",
+            "Mucho",
+            "Quizás"
+        ],
+        "correct": 0,
+        "explanation": "'Cerca' indica ubicación espacial, respondiendo a la pregunta ¿dónde?",
+        "id": "q_g4_lengua_25"
+    },
+    {
+        "grade": 4,
+        "category": "lengua",
+        "question": "¿Cuál es la forma del verbo 'cantar' en primera persona del futuro simple?",
+        "options": [
+            "Cantaba",
+            "Cantaré",
+            "Canté",
+            "Canto"
+        ],
+        "correct": 1,
+        "explanation": "La primera persona del singular en futuro simple es 'yo cantaré'.",
+        "id": "q_g4_lengua_26"
+    },
+    {
+        "grade": 4,
+        "category": "lengua",
+        "question": "¿Cómo se clasifican los verbos que no siguen las reglas estándar de conjugación?",
+        "options": [
+            "Regulares",
+            "Irregulares",
+            "Infinitivos",
+            "Copulativos"
+        ],
+        "correct": 1,
+        "explanation": "Los verbos irregulares sufren cambios en su raíz o desinencia al ser conjugados.",
+        "id": "q_g4_lengua_27"
+    },
+    {
+        "grade": 4,
+        "category": "lengua",
+        "question": "En la oración 'El tren llegó temprano', ¿qué palabra cumple la función de verbo?",
+        "options": [
+            "El",
+            "tren",
+            "llegó",
+            "temprano"
+        ],
+        "correct": 2,
+        "explanation": "'Llegó' es el núcleo verbal que expresa la acción realizada por el tren.",
+        "id": "q_g4_lengua_28"
+    },
+    {
+        "grade": 4,
+        "category": "lengua",
+        "question": "¿Cuál es el participio del verbo 'escribir'?",
+        "options": [
+            "Escribiendo",
+            "Escripto",
+            "Escrito",
+            "Escribido"
+        ],
+        "correct": 2,
+        "explanation": "El participio regular de escribir es una forma irregular consagrada: 'escrito'.",
+        "id": "q_g4_lengua_29"
+    },
+    {
+        "grade": 4,
+        "category": "lengua",
+        "question": "¿Qué expresa el modo imperativo de los verbos?",
+        "options": [
+            "Una duda o deseo",
+            "Una orden, pedido o instrucción",
+            "Un hecho pasado comprobado",
+            "Una condición futura"
+        ],
+        "correct": 1,
+        "explanation": "El modo imperativo se utiliza para dar órdenes, consejos, pedidos o instrucciones.",
+        "id": "q_g4_lengua_30"
+    },
+    {
+        "grade": 4,
+        "category": "lengua",
+        "question": "¿Dónde llevan el acento o sílaba tónica las palabras agudas?",
+        "options": [
+            "En la última sílaba",
+            "En la penúltima sílaba",
+            "En la antepenúltima sílaba",
+            "En la primera sílaba"
+        ],
+        "correct": 0,
+        "explanation": "Las palabras agudas tienen la fuerza de voz (sílaba tónica) en la última sílaba.",
+        "id": "q_g4_lengua_31"
+    },
+    {
+        "grade": 4,
+        "category": "lengua",
+        "question": "¿Cuándo llevan tilde las palabras agudas?",
+        "options": [
+            "Siempre",
+            "Cuando terminan en vocal, N o S",
+            "Cuando terminan en consonante distinta de N o S",
+            "Nunca"
+        ],
+        "correct": 1,
+        "explanation": "Las palabras agudas se tildan cuando finalizan en vocal o en las consonantes 'n' o 's'.",
+        "id": "q_g4_lengua_32"
+    },
+    {
+        "grade": 4,
+        "category": "lengua",
+        "question": "¿Cuál de las siguientes palabras es grave y lleva tilde?",
+        "options": [
+            "Árbol",
+            "Canción",
+            "Música",
+            "Pared"
+        ],
+        "correct": 0,
+        "explanation": "'Árbol' es grave (acento en 'ár-') y termina en consonante 'l' (distinta de n o s), por eso lleva tilde.",
+        "id": "q_g4_lengua_33"
+    },
+    {
+        "grade": 4,
+        "category": "lengua",
+        "question": "¿Cuál de las siguientes palabras es esdrújula?",
+        "options": [
+            "Ventana",
+            "Teléfono",
+            "Compás",
+            "Amistad"
+        ],
+        "correct": 1,
+        "explanation": "'Te-lé-fo-no' tiene la sílaba tónica en la antepenúltima sílaba, por lo que es esdrújula.",
+        "id": "q_g4_lengua_34"
+    },
+    {
+        "grade": 4,
+        "category": "lengua",
+        "question": "¿Cuál es la regla de tildación para las palabras esdrújulas?",
+        "options": [
+            "Se tildan solo si terminan en vocal",
+            "Se tildan siempre",
+            "Se tildan solo si terminan en consonante",
+            "No llevan tilde nunca"
+        ],
+        "correct": 1,
+        "explanation": "Todas las palabras esdrújulas llevan tilde sin excepción.",
+        "id": "q_g4_lengua_35"
+    },
+    {
+        "grade": 4,
+        "category": "lengua",
+        "question": "La palabra 'reloj' es aguda, ¿por qué NO lleva tilde?",
+        "options": [
+            "Porque termina en vocal",
+            "Porque termina en consonante 'j' (no es N, S ni vocal)",
+            "Porque es monosílaba",
+            "Porque es una palabra extranjera"
+        ],
+        "correct": 1,
+        "explanation": "Las palabras agudas solo llevan tilde si terminan en n, s o vocal. 'Reloj' termina en 'j'.",
+        "id": "q_g4_lengua_36"
+    },
+    {
+        "grade": 4,
+        "category": "lengua",
+        "question": "¿Cuál de las siguientes palabras agudas debe llevar tilde?",
+        "options": [
+            "Papel",
+            "Carton",
+            "Pared",
+            "Verdad"
+        ],
+        "correct": 1,
+        "explanation": "'Cartón' es aguda terminada en 'n', por lo que debe escribirse con tilde.",
+        "id": "q_g4_lengua_37"
+    },
+    {
+        "grade": 4,
+        "category": "lengua",
+        "question": "¿Cómo se denomina la unión de dos vocales en una misma sílaba?",
+        "options": [
+            "Hiato",
+            "Diptongo",
+            "Triptongo",
+            "Sinalefa"
+        ],
+        "correct": 1,
+        "explanation": "El diptongo es la unión de dos vocales contiguas en una misma sílaba (ej: p-i-e).",
+        "id": "q_g4_lengua_38"
+    },
+    {
+        "grade": 4,
+        "category": "lengua",
+        "question": "¿Cuándo se produce un hiato?",
+        "options": [
+            "Cuando dos vocales se pronuncian juntas en una sílaba",
+            "Cuando dos vocales contiguas pertenecen a sílabas distintas",
+            "Cuando una palabra termina en consonante",
+            "Cuando no hay vocales en una sílaba"
+        ],
+        "correct": 1,
+        "explanation": "El hiato ocurre cuando dos vocales contiguas se separan en sílabas diferentes (ej: te-a-tro, pa-ís).",
+        "id": "q_g4_lengua_39"
+    },
+    {
+        "grade": 4,
+        "category": "lengua",
+        "question": "En la palabra 'país', ¿por qué se produce un hiato y lleva tilde la 'í'?",
+        "options": [
+            "Porque es esdrújula",
+            "Porque la vocal cerrada tónica se separa de la abierta",
+            "Porque es una palabra grave",
+            "Porque termina en consonante 's'"
+        ],
+        "correct": 1,
+        "explanation": "La vocal cerrada 'i' con acento de intensidad rompe el diptongo con la 'a', formando hiato acentual.",
+        "id": "q_g4_lengua_40"
+    },
+    {
+        "grade": 4,
+        "category": "lengua",
+        "question": "¿Qué prefijo significa 'hacer lo contrario' o 'negar', como en 'desarmar' o 'descoser'?",
+        "options": [
+            "Re-",
+            "Des-",
+            "Sub-",
+            "Pre-"
+        ],
+        "correct": 1,
+        "explanation": "El prefijo 'des-' denota negación, privación o inversión del significado de la palabra base.",
+        "id": "q_g4_lengua_41"
+    },
+    {
+        "grade": 4,
+        "category": "lengua",
+        "question": "¿Qué sufijo se utiliza para formar sustantivos que indican profesión u oficio, como en 'panadero' o 'carpintero'?",
+        "options": [
+            "-ito",
+            "-ero / -era",
+            "-ísimo",
+            "-oso"
+        ],
+        "correct": 1,
+        "explanation": "El sufijo '-ero/-era' forma palabras vinculadas a oficios, profesiones o recipientes.",
+        "id": "q_g4_lengua_42"
+    },
+    {
+        "grade": 4,
+        "category": "lengua",
+        "question": "¿Para qué se utiliza la coma en una oración como 'Compré manzanas, peras, uvas y bananas'?",
+        "options": [
+            "Para cerrar una idea final",
+            "Para separar los elementos de una enumeración",
+            "Para hacer una pregunta",
+            "Para indicar diálogo"
+        ],
+        "correct": 1,
+        "explanation": "La coma sirve para separar los elementos equivalentes de una enumeración.",
+        "id": "q_g4_lengua_43"
+    },
+    {
+        "grade": 4,
+        "category": "lengua",
+        "question": "¿Qué signo de puntuación se usa antes de comenzar a escribir una cita textual o diálogo?",
+        "options": [
+            "Punto y coma",
+            "Dos puntos",
+            "Puntos suspensivos",
+            "Signo de admiración"
+        ],
+        "correct": 1,
+        "explanation": "Los dos puntos anuncian una cita textual, una enumeración o el comienzo de un diálogo.",
+        "id": "q_g4_lengua_44"
+    },
+    {
+        "grade": 4,
+        "category": "lengua",
+        "question": "¿Cuál de las siguientes palabras está correctamente escrita con 'B'?",
+        "options": [
+            "Hervir",
+            "Vailar",
+            "Escribir",
+            "Vuscar"
+        ],
+        "correct": 2,
+        "explanation": "Los verbos terminados en '-bir' se escriben con b (excepto hervir, servir y vivir). 'Escribir' es correcta.",
+        "id": "q_g4_lengua_45"
+    },
+    {
+        "grade": 4,
+        "category": "lengua",
+        "question": "¿Por qué la palabra 'cambio' se escribe con 'm' antes de la 'b'?",
+        "options": [
+            "Porque siempre va 'm' antes de 'p' y 'b'",
+            "Por ser una palabra grave",
+            "Por excepción a la regla",
+            "Porque no se pronuncia la 'n'"
+        ],
+        "correct": 0,
+        "explanation": "La regla ortográfica universal indica que antes de las letras 'p' y 'b' se escribe siempre 'm'.",
+        "id": "q_g4_lengua_46"
+    },
+    {
+        "grade": 4,
+        "category": "lengua",
+        "question": "¿Cuál es el antónimo de la palabra 'generoso'?",
+        "options": [
+            "Amable",
+            "Egoísta",
+            "Solidario",
+            "Bondadoso"
+        ],
+        "correct": 1,
+        "explanation": "El antónimo de generoso es egoísta o tacaño.",
+        "id": "q_g4_lengua_47"
+    },
+    {
+        "grade": 4,
+        "category": "lengua",
+        "question": "¿Cuál es el sinónimo de la palabra 'veloz'?",
+        "options": [
+            "Lento",
+            "Pausado",
+            "Rápido",
+            "Torpe"
+        ],
+        "correct": 2,
+        "explanation": "'Rápido' y 'veloz' comparten un significado equivalente, son sinónimos.",
+        "id": "q_g4_lengua_48"
+    },
+    {
+        "grade": 4,
+        "category": "lengua",
+        "question": "¿Qué par de palabras son homófonas (suenan igual pero se escriben distinto y tienen otro significado)?",
+        "options": [
+            "Casa - caza",
+            "Perro - gato",
+            "Alto - bajo",
+            "Feliz - contento"
+        ],
+        "correct": 0,
+        "explanation": "'Casa' (vivienda) y 'caza' (acción de cazar) suenan de manera idéntica en el español rioplatense.",
+        "id": "q_g4_lengua_49"
+    },
+    {
+        "grade": 4,
+        "category": "lengua",
+        "question": "¿Qué significa la expresión figurada 'costar un ojo de la cara'?",
+        "options": [
+            "Que causa dolor físico",
+            "Que algo es excesivamente caro",
+            "Que no se puede ver bien",
+            "Que es muy antiguo"
+        ],
+        "correct": 1,
+        "explanation": "Es una frase hecha que significa que algo tiene un precio o costo extremadamente elevado.",
+        "id": "q_g4_lengua_50"
+    },
+    {
+        "grade": 4,
+        "category": "naturales",
+        "question": "¿En qué reino se clasifican organismos como los hongos y las levaduras?",
+        "options": [
+            "Reino Vegetal (Plantas)",
+            "Reino Fungi (Hongos)",
+            "Reino Animal",
+            "Reino Monera (Bacterias)"
+        ],
+        "correct": 1,
+        "explanation": "Los hongos y levaduras pertenecen al reino Fungi; no son plantas porque no realizan fotosíntesis.",
+        "id": "q_g4_naturales_1"
+    },
+    {
+        "grade": 4,
+        "category": "naturales",
+        "question": "¿Por qué los hongos NO pertenecen al reino de las plantas?",
+        "options": [
+            "Porque no tienen células",
+            "Porque no fabrican su propio alimento mediante fotosíntesis",
+            "Porque pueden caminar",
+            "Porque solo viven bajo el agua"
+        ],
+        "correct": 1,
+        "explanation": "Los hongos son heterótrofos: se alimentan absorbiendo nutrientes de materia orgánica, no hacen fotosíntesis.",
+        "id": "q_g4_naturales_2"
+    },
+    {
+        "grade": 4,
+        "category": "naturales",
+        "question": "¿A qué grupo pertenecen los animales invertebrados que tienen patas articuladas y exoesqueleto, como insectos y arañas?",
+        "options": [
+            "Moluscos",
+            "Artrópodos",
+            "Anélidos",
+            "Equinodermos"
+        ],
+        "correct": 1,
+        "explanation": "Los artrópodos poseen un exoesqueleto rígido y patas formadas por segmentos articulados.",
+        "id": "q_g4_naturales_3"
+    },
+    {
+        "grade": 4,
+        "category": "naturales",
+        "question": "¿Qué característica diferencia a los animales vertebrados de los invertebrados?",
+        "options": [
+            "La presencia de columna vertebral y esqueleto interno",
+            "La capacidad de reproducirse",
+            "El tipo de respiración",
+            "La presencia de ojos"
+        ],
+        "correct": 0,
+        "explanation": "Los vertebrados poseen una columna vertebral interna que forma parte de su endoesqueleto.",
+        "id": "q_g4_naturales_4"
+    },
+    {
+        "grade": 4,
+        "category": "naturales",
+        "question": "¿Cómo se clasifican las plantas que poseen flores y frutos con semillas protegidas?",
+        "options": [
+            "Gimnospermas",
+            "Angiospermas",
+            "Musgos",
+            "Helechos"
+        ],
+        "correct": 1,
+        "explanation": "Las angiospermas son plantas con flores cuyas semillas están contenidas dentro de frutos.",
+        "id": "q_g4_naturales_5"
+    },
+    {
+        "grade": 4,
+        "category": "naturales",
+        "question": "¿A qué grupo pertenecen los microorganismos unicelulares más primitivos como las bacterias?",
+        "options": [
+            "Reino Monera",
+            "Reino Animal",
+            "Reino Fungi",
+            "Reino Vegetal"
+        ],
+        "correct": 0,
+        "explanation": "Las bacterias son organismos unicelulares procariotas clasificados en el reino Monera.",
+        "id": "q_g4_naturales_6"
+    },
+    {
+        "grade": 4,
+        "category": "naturales",
+        "question": "¿Cuál de estos animales es un invertebrado?",
+        "options": [
+            "Rana",
+            "Pulpo",
+            "Lagartija",
+            "Gorrión"
+        ],
+        "correct": 1,
+        "explanation": "El pulpo es un molusco cefalópodo y carece de columna vertebral (invertebrado).",
+        "id": "q_g4_naturales_7"
+    },
+    {
+        "grade": 4,
+        "category": "naturales",
+        "question": "¿Qué función cumplen los vasos de conducción (xilema y floema) en las plantas vasculares?",
+        "options": [
+            "Capturar insectos",
+            "Transportar agua, sales minerales y savia elaborada",
+            "Producir semillas",
+            "Sostener las flores"
+        ],
+        "correct": 1,
+        "explanation": "Los vasos de conducción forman el sistema circulatorio vegetal para transportar nutrientes y agua.",
+        "id": "q_g4_naturales_8"
+    },
+    {
+        "grade": 4,
+        "category": "naturales",
+        "question": "¿Cómo se denominan los seres vivos formados por una única célula?",
+        "options": [
+            "Pluricelulares",
+            "Unicelulares",
+            "Multicelulares",
+            "Invertebrados"
+        ],
+        "correct": 1,
+        "explanation": "Los organismos unicelulares están constituidos por una sola célula que realiza todas las funciones vitales.",
+        "id": "q_g4_naturales_9"
+    },
+    {
+        "grade": 4,
+        "category": "naturales",
+        "question": "¿Cuál de los siguientes es un ejemplo de planta sin flores ni semillas (planta no vascular o vascular simple)?",
+        "options": [
+            "Manzano",
+            "Helecho",
+            "Rosal",
+            "Naranjo"
+        ],
+        "correct": 1,
+        "explanation": "Los helechos son plantas que se reproducen mediante esporas y no producen flores ni semillas.",
+        "id": "q_g4_naturales_10"
+    },
+    {
+        "grade": 4,
+        "category": "naturales",
+        "question": "En una cadena trófica, ¿qué rol cumplen las plantas verdes?",
+        "options": [
+            "Consumidores primarios",
+            "Productores",
+            "Descomponedores",
+            "Consumidores secundarios"
+        ],
+        "correct": 1,
+        "explanation": "Las plantas son productores porque sintetizan su propia materia orgánica mediante fotosíntesis.",
+        "id": "q_g4_naturales_11"
+    },
+    {
+        "grade": 4,
+        "category": "naturales",
+        "question": "¿Qué organismos se encargan de reciclar la materia orgánica transformándola en nutrientes minerales para el suelo?",
+        "options": [
+            "Consumidores terciarios",
+            "Descomponedores (hongos y bacterias)",
+            "Herbívoros",
+            "Carnívoros"
+        ],
+        "correct": 1,
+        "explanation": "Los descomponedores degradan los restos de seres vivos y reintegran los minerales al suelo.",
+        "id": "q_g4_naturales_12"
+    },
+    {
+        "grade": 4,
+        "category": "naturales",
+        "question": "¿Cómo se clasifica a un animal que se alimenta tanto de vegetales como de otros animales?",
+        "options": [
+            "Herbívoro",
+            "Carnívoro",
+            "Omnívoro",
+            "Frugívoro"
+        ],
+        "correct": 2,
+        "explanation": "Los omnívoros consumen tanto materia vegetal como animal (ej: el ser humano, el cerdo).",
+        "id": "q_g4_naturales_13"
+    },
+    {
+        "grade": 4,
+        "category": "naturales",
+        "question": "¿Qué tipo de adaptación permite al camaleón confundirse con el entorno para no ser visto?",
+        "options": [
+            "Invernación",
+            "Mimetismo o camuflaje",
+            "Migración",
+            "Bioluminiscencia"
+        ],
+        "correct": 1,
+        "explanation": "El camuflaje es una adaptación que permite a un ser vivo pasar desapercibido ante depredadores o presas.",
+        "id": "q_g4_naturales_14"
+    },
+    {
+        "grade": 4,
+        "category": "naturales",
+        "question": "¿Cómo se denomina a los factores sin vida de un ecosistema, como la luz, el agua, el aire y la temperatura?",
+        "options": [
+            "Factores bióticos",
+            "Factores abióticos",
+            "Productores",
+            "Biomas"
+        ],
+        "correct": 1,
+        "explanation": "Los factores abióticos son los componentes fisicoquímicos inanimados del entorno.",
+        "id": "q_g4_naturales_15"
+    },
+    {
+        "grade": 4,
+        "category": "naturales",
+        "question": "¿Qué adaptación presentan las plantas del desierto (cactus) para conservar agua?",
+        "options": [
+            "Hojas grandes y delgadas",
+            "Hojas transformadas en espinas y tallos carnosos",
+            "Raíces muy cortas",
+            "Flores permanentes"
+        ],
+        "correct": 1,
+        "explanation": "Las espinas reducen la pérdida de agua por evaporación y los tallos carnosos almacenan agua.",
+        "id": "q_g4_naturales_16"
+    },
+    {
+        "grade": 4,
+        "category": "naturales",
+        "question": "¿Cómo se llama la relación ecológica en la que dos especies se benefician mutuamente, como las abejas y las flores?",
+        "options": [
+            "Parasitismo",
+            "Mutualismo",
+            "Depredación",
+            "Competencia"
+        ],
+        "correct": 1,
+        "explanation": "En el mutualismo ambas especies obtienen un beneficio de su interacción cooperativa.",
+        "id": "q_g4_naturales_17"
+    },
+    {
+        "grade": 4,
+        "category": "naturales",
+        "question": "¿Qué sucede si desaparecen los descomponedores de un ecosistema?",
+        "options": [
+            "Aumentarían las plantas",
+            "Se acumularían restos orgánicos sin descomponer y se agotarían los nutrientes del suelo",
+            "Los carnívoros se harían vegetarianos",
+            "No ocurriría ningún cambio"
+        ],
+        "correct": 1,
+        "explanation": "Sin descomponedores, los ciclos de la materia se detendrían y el suelo perdería su fertilidad.",
+        "id": "q_g4_naturales_18"
+    },
+    {
+        "grade": 4,
+        "category": "naturales",
+        "question": "¿Qué estructura respiratoria utilizan la mayoría de los peces para extraer oxígeno del agua?",
+        "options": [
+            "Pulmones",
+            "Tráqueas",
+            "Branquias o agallas",
+            "Piel"
+        ],
+        "correct": 2,
+        "explanation": "Las branquias capturan el oxígeno disuelto en el agua a medida que esta pasa a través de ellas.",
+        "id": "q_g4_naturales_19"
+    },
+    {
+        "grade": 4,
+        "category": "naturales",
+        "question": "¿Qué adaptación poseen las aves que les permite reducir su peso para facilitar el vuelo?",
+        "options": [
+            "Huesos huecos o neumáticos",
+            "Doble esqueleto",
+            "Músculos pesados",
+            "Piel gruesa y pesada"
+        ],
+        "correct": 0,
+        "explanation": "Los huesos neumáticos de las aves tienen cavidades de aire que los hacen muy livianos y resistentes.",
+        "id": "q_g4_naturales_20"
+    },
+    {
+        "grade": 4,
+        "category": "naturales",
+        "question": "¿Qué órgano del sistema digestivo produce bilis para ayudar a digerir las grasas?",
+        "options": [
+            "Estómago",
+            "Hígado",
+            "Páncreas",
+            "Intestino grueso"
+        ],
+        "correct": 1,
+        "explanation": "El hígado sintetiza la bilis, que se almacena en la vesícula y emulsiona las grasas.",
+        "id": "q_g4_naturales_21"
+    },
+    {
+        "grade": 4,
+        "category": "naturales",
+        "question": "¿En qué parte del sistema digestivo se produce la mayor absorción de los nutrientes hacia la sangre?",
+        "options": [
+            "Boca",
+            "Estómago",
+            "Intestino delgado",
+            "Intestino grueso"
+        ],
+        "correct": 2,
+        "explanation": "El intestino delgado, a través de sus vellosidades, absorbe los nutrientes y los pasa al torrente sanguíneo.",
+        "id": "q_g4_naturales_22"
+    },
+    {
+        "grade": 4,
+        "category": "naturales",
+        "question": "¿Cuál es la función principal del intestino grueso?",
+        "options": [
+            "Digerir proteínas",
+            "Absorber agua y formar las materias fecales",
+            "Filtrar la orina",
+            "Producir saliva"
+        ],
+        "correct": 1,
+        "explanation": "El intestino grueso reabsorbe la mayor parte del agua de los desechos no digeridos formando la materia fecal.",
+        "id": "q_g4_naturales_23"
+    },
+    {
+        "grade": 4,
+        "category": "naturales",
+        "question": "¿Qué vasos sanguíneos transportan la sangre oxigenada desde el corazón hacia el resto del cuerpo?",
+        "options": [
+            "Venas",
+            "Arterias",
+            "Capilares",
+            "Bronquios"
+        ],
+        "correct": 1,
+        "explanation": "Las arterias (como la arteria aorta) llevan la sangre oxigenada impulsada por el corazón hacia los órganos.",
+        "id": "q_g4_naturales_24"
+    },
+    {
+        "grade": 4,
+        "category": "naturales",
+        "question": "¿En qué diminutas estructuras de los pulmones se realiza el intercambio de gases (oxígeno y dióxido de carbono)?",
+        "options": [
+            "Tráqueas",
+            "Bronquios",
+            "Alvéolos pulmonares",
+            "Laringe"
+        ],
+        "correct": 2,
+        "explanation": "Los alvéolos pulmonares son saquitos microscópicos donde el oxígeno pasa a la sangre y se elimina el CO2.",
+        "id": "q_g4_naturales_25"
+    },
+    {
+        "grade": 4,
+        "category": "naturales",
+        "question": "¿Qué órganos del sistema urinario filtran la sangre para producir la orina y eliminar desechos tóxicos?",
+        "options": [
+            "Pulmones",
+            "Riñones",
+            "Hígado",
+            "Uretra"
+        ],
+        "correct": 1,
+        "explanation": "Los riñones actúan como filtros que purifican la sangre de sustancias de desecho y forman la orina.",
+        "id": "q_g4_naturales_26"
+    },
+    {
+        "grade": 4,
+        "category": "naturales",
+        "question": "¿Qué tipo de articulación es la que une el fémur con la cadera, permitiendo gran movilidad?",
+        "options": [
+            "Articulación fija",
+            "Articulación semimóvil",
+            "Articulación móvil (diartrosis)",
+            "Articulación plana"
+        ],
+        "correct": 2,
+        "explanation": "Las articulaciones móviles permiten amplios movimientos en múltiples direcciones.",
+        "id": "q_g4_naturales_27"
+    },
+    {
+        "grade": 4,
+        "category": "naturales",
+        "question": "¿Qué tejido une los músculos a los huesos para permitir el movimiento?",
+        "options": [
+            "Ligamentos",
+            "Tendones",
+            "Cartílagos",
+            "Venas"
+        ],
+        "correct": 1,
+        "explanation": "Los tendones son fibras resistentes que conectan los músculos con los huesos correspondientes.",
+        "id": "q_g4_naturales_28"
+    },
+    {
+        "grade": 4,
+        "category": "naturales",
+        "question": "¿Qué órgano del sistema nervioso central controla los movimientos voluntarios, el pensamiento y la memoria?",
+        "options": [
+            "Médula espinal",
+            "Cerebro",
+            "Cerebelo",
+            "Bulbo raquídeo"
+        ],
+        "correct": 1,
+        "explanation": "El cerebro es el órgano principal encargado del pensamiento, la memoria y las acciones voluntarias.",
+        "id": "q_g4_naturales_29"
+    },
+    {
+        "grade": 4,
+        "category": "naturales",
+        "question": "¿Cuál es la función de los glóbulos rojos en la sangre?",
+        "options": [
+            "Combatir infecciones y bacterias",
+            "Transportar oxígeno a todas las células del cuerpo",
+            "Producir la coagulación de heridas",
+            "Digerir los alimentos"
+        ],
+        "correct": 1,
+        "explanation": "Los glóbulos rojos contienen hemoglobina, que transporta el oxígeno desde los pulmones a los tejidos.",
+        "id": "q_g4_naturales_30"
+    },
+    {
+        "grade": 4,
+        "category": "naturales",
+        "question": "¿Cómo se llama la capa sólida externa y más superficial de la Tierra?",
+        "options": [
+            "Corteza terrestre",
+            "Manto",
+            "Núcleo externo",
+            "Atmósfera"
+        ],
+        "correct": 0,
+        "explanation": "La corteza terrestre es la capa más delgada y externa de la geosfera donde vivimos.",
+        "id": "q_g4_naturales_31"
+    },
+    {
+        "grade": 4,
+        "category": "naturales",
+        "question": "¿Qué capa de la Tierra se encuentra en el centro y está compuesta principalmente por hierro y níquel a muy alta temperatura?",
+        "options": [
+            "Corteza",
+            "Manto",
+            "Núcleo",
+            "Litosfera"
+        ],
+        "correct": 2,
+        "explanation": "El núcleo es la capa más interna y densa de la Tierra, formada por hierro y níquel.",
+        "id": "q_g4_naturales_32"
+    },
+    {
+        "grade": 4,
+        "category": "naturales",
+        "question": "¿Cómo se clasifican las rocas formadas por el enfriamiento y solidificación del magma volcánico?",
+        "options": [
+            "Rocas sedimentarias",
+            "Rocas ígneas o magmáticas",
+            "Rocas metamórficas",
+            "Fósiles"
+        ],
+        "correct": 1,
+        "explanation": "Las rocas ígneas se forman al enfriarse el magma o la lava (ejemplo: basalto, granito).",
+        "id": "q_g4_naturales_33"
+    },
+    {
+        "grade": 4,
+        "category": "naturales",
+        "question": "¿Cómo se llaman las rocas originadas por la acumulación y compactación de sedimentos a lo largo de millones de años?",
+        "options": [
+            "Rocas ígneas",
+            "Rocas sedimentarias",
+            "Rocas volcánicas",
+            "Rocas metamórficas"
+        ],
+        "correct": 1,
+        "explanation": "Las rocas sedimentarias se originan a partir de capas sucesivas de arena, lodo y restos biológicos.",
+        "id": "q_g4_naturales_34"
+    },
+    {
+        "grade": 4,
+        "category": "naturales",
+        "question": "¿Qué es un mineral?",
+        "options": [
+            "Un resto de animal petrificado",
+            "Una sustancia inorgánica, natural y con composición química definida",
+            "Una mezcla de tierra y agua",
+            "Un tipo de hongo fósil"
+        ],
+        "correct": 1,
+        "explanation": "Un mineral es un sólido natural, inorgánico, con una estructura cristalina y composición química determinada.",
+        "id": "q_g4_naturales_35"
+    },
+    {
+        "grade": 4,
+        "category": "naturales",
+        "question": "¿Qué propiedad de los minerales mide su resistencia a ser rayados por otros materiales?",
+        "options": [
+            "Brillo",
+            "Dureza",
+            "Color",
+            "Densidad"
+        ],
+        "correct": 1,
+        "explanation": "La dureza se evalúa comúnmente con la escala de Mohs, midiendo la resistencia al rayado.",
+        "id": "q_g4_naturales_36"
+    },
+    {
+        "grade": 4,
+        "category": "naturales",
+        "question": "¿Qué gas es el más abundante en la atmósfera terrestre?",
+        "options": [
+            "Oxígeno",
+            "Dióxido de carbono",
+            "Nitrógeno",
+            "Hidrógeno"
+        ],
+        "correct": 2,
+        "explanation": "El nitrógeno representa aproximadamente el 78% del volumen del aire de la atmósfera.",
+        "id": "q_g4_naturales_37"
+    },
+    {
+        "grade": 4,
+        "category": "naturales",
+        "question": "¿Qué capa de gas en la atmósfera nos protege de los dañinos rayos ultravioletas (UV) del Sol?",
+        "options": [
+            "Capa de ozono",
+            "Capa de metano",
+            "Capa de vapor",
+            "Capa de helio"
+        ],
+        "correct": 0,
+        "explanation": "La capa de ozono (en la estratosfera) filtra la mayor parte de la radiación ultravioleta solar.",
+        "id": "q_g4_naturales_38"
+    },
+    {
+        "grade": 4,
+        "category": "naturales",
+        "question": "¿Cómo se denomina al proceso por el cual el agua líquida pasa a estado gaseoso por acción del calor solar?",
+        "options": [
+            "Condensación",
+            "Evaporación",
+            "Precipitación",
+            "Solidificación"
+        ],
+        "correct": 1,
+        "explanation": "La evaporación ocurre cuando el agua líquida se transforma en vapor de agua al calentarse.",
+        "id": "q_g4_naturales_39"
+    },
+    {
+        "grade": 4,
+        "category": "naturales",
+        "question": "¿Cómo se forman las nubes en el ciclo del agua?",
+        "options": [
+            "Por la evaporación del suelo",
+            "Por la condensación del vapor de agua en diminutas gotitas al enfriarse en la altura",
+            "Por congelamiento instantáneo",
+            "Por el viento caliente"
+        ],
+        "correct": 1,
+        "explanation": "Al ascender y enfriarse, el vapor de agua se condensa formando millones de gotitas que constituyen las nubes.",
+        "id": "q_g4_naturales_40"
+    },
+    {
+        "grade": 4,
+        "category": "naturales",
+        "question": "¿Qué movimiento de la Tierra sobre su propio eje da origen a la sucesión del día y de la noche?",
+        "options": [
+            "Movimiento de traslación",
+            "Movimiento de rotación",
+            "Movimiento orbital",
+            "Movimiento de eclipse"
+        ],
+        "correct": 1,
+        "explanation": "El movimiento de rotación dura aproximadamente 24 horas y produce el ciclo de día y noche.",
+        "id": "q_g4_naturales_41"
+    },
+    {
+        "grade": 4,
+        "category": "naturales",
+        "question": "¿Cuánto tarda la Tierra en completar una vuelta completa alrededor del Sol (movimiento de traslación)?",
+        "options": [
+            "24 horas",
+            "28 días",
+            "365 días y unas 6 horas (un año)",
+            "100 días"
+        ],
+        "correct": 2,
+        "explanation": "La traslación terrestre demora 365 días y 6 horas, determinando la duración de las estaciones y el año.",
+        "id": "q_g4_naturales_42"
+    },
+    {
+        "grade": 4,
+        "category": "naturales",
+        "question": "¿Por qué la Luna no tiene luz propia y podemos verla brillante de noche?",
+        "options": [
+            "Porque quema gas en su superficie",
+            "Porque refleja la luz que recibe del Sol",
+            "Porque tiene volcanes encendidos",
+            "Porque absorbe calor de las estrellas"
+        ],
+        "correct": 1,
+        "explanation": "La Luna es un astro opaco que brilla porque su superficie refleja la luz solar.",
+        "id": "q_g4_naturales_43"
+    },
+    {
+        "grade": 4,
+        "category": "naturales",
+        "question": "¿Cuántas fases principales tiene el ciclo lunar visible desde la Tierra?",
+        "options": [
+            "2 fases",
+            "4 fases principales",
+            "12 fases",
+            "365 fases"
+        ],
+        "correct": 1,
+        "explanation": "Las 4 fases principales son luna nueva, cuarto creciente, luna llena y cuarto menguante.",
+        "id": "q_g4_naturales_44"
+    },
+    {
+        "grade": 4,
+        "category": "naturales",
+        "question": "¿Qué tipo de cuerpo u objeto permite que la luz lo atraviese casi por completo, permitiendo ver nítidamente a través de él?",
+        "options": [
+            "Cuerpo opaco",
+            "Cuerpo transparente",
+            "Cuerpo translúcido",
+            "Cuerpo reflectante"
+        ],
+        "correct": 1,
+        "explanation": "Los materiales transparentes (como el vidrio liso o el agua limpia) dejan pasar la luz con nitidez.",
+        "id": "q_g4_naturales_45"
+    },
+    {
+        "grade": 4,
+        "category": "naturales",
+        "question": "¿Cómo se llama el fenómeno por el cual la luz rebota al chocar contra una superficie lisa y pulida como un espejo?",
+        "options": [
+            "Refracción",
+            "Reflexión",
+            "Absorción",
+            "Dispersión"
+        ],
+        "correct": 1,
+        "explanation": "La reflexión es el cambio de dirección del rayo de luz al chocar contra una superficie reflectora.",
+        "id": "q_g4_naturales_46"
+    },
+    {
+        "grade": 4,
+        "category": "naturales",
+        "question": "¿Qué fuerza invisible atrae a todos los cuerpos hacia el centro de la Tierra impidiendo que flotemos al espacio?",
+        "options": [
+            "Fuerza de rozamiento",
+            "Fuerza magnética",
+            "Fuerza de gravedad",
+            "Fuerza elástica"
+        ],
+        "correct": 2,
+        "explanation": "La fuerza de gravedad es la atracción mutua que ejerce la masa terrestre sobre los objetos.",
+        "id": "q_g4_naturales_47"
+    },
+    {
+        "grade": 4,
+        "category": "naturales",
+        "question": "¿Qué tipo de energía se manifiesta a través de las vibraciones que viajan en forma de ondas por el aire?",
+        "options": [
+            "Energía sonora (sonido)",
+            "Energía eléctrica",
+            "Energía química",
+            "Energía nuclear"
+        ],
+        "correct": 0,
+        "explanation": "El sonido se produce por la vibración de los cuerpos transmitida en forma de ondas elásticas.",
+        "id": "q_g4_naturales_48"
+    },
+    {
+        "grade": 4,
+        "category": "naturales",
+        "question": "¿Qué polo de un imán atrae al polo norte de otro imán?",
+        "options": [
+            "Polo norte",
+            "Polo sur",
+            "Ambos polos",
+            "Ninguno"
+        ],
+        "correct": 1,
+        "explanation": "En el magnetismo, los polos opuestos se atraen (norte con sur) y los iguales se repelen.",
+        "id": "q_g4_naturales_49"
+    },
+    {
+        "grade": 4,
+        "category": "naturales",
+        "question": "¿Cuál es la fuente primaria de luz y calor para la vida en nuestro planeta?",
+        "options": [
+            "La Luna",
+            "El centro de la Tierra",
+            "El Sol",
+            "Los volcanes"
+        ],
+        "correct": 2,
+        "explanation": "El Sol es la estrella central del sistema solar que provee la energía indispensable para la biosfera.",
+        "id": "q_g4_naturales_50"
+    },
+    {
+        "grade": 4,
+        "category": "sociales",
+        "question": "¿En cuántas provincias y cuántos distritos federales autónomos se divide políticamente la República Argentina?",
+        "options": [
+            "22 provincias y 2 distritos",
+            "23 provincias y 1 Ciudad Autónoma (CABA)",
+            "24 provincias",
+            "20 provincias y 4 territorios"
+        ],
+        "correct": 1,
+        "explanation": "Argentina está integrada por 23 provincias y la Ciudad Autónoma de Buenos Aires (capital federal).",
+        "id": "q_g4_sociales_1"
+    },
+    {
+        "grade": 4,
+        "category": "sociales",
+        "question": "¿Con cuál de los siguientes países limítrofes comparte Argentina la extensa Cordillera de los Andes al oeste?",
+        "options": [
+            "Brasil",
+            "Uruguay",
+            "Chile",
+            "Paraguay"
+        ],
+        "correct": 2,
+        "explanation": "La Cordillera de los Andes actúa como límite natural al oeste entre Argentina y Chile.",
+        "id": "q_g4_sociales_2"
+    },
+    {
+        "grade": 4,
+        "category": "sociales",
+        "question": "¿Cuál es la provincia argentina de mayor superficie territorial?",
+        "options": [
+            "Córdoba",
+            "Santa Fe",
+            "Buenos Aires",
+            "Salta"
+        ],
+        "correct": 2,
+        "explanation": "La provincia de Buenos Aires es la más extensa en superficie continental de la Argentina.",
+        "id": "q_g4_sociales_3"
+    },
+    {
+        "grade": 4,
+        "category": "sociales",
+        "question": "¿Cuál es el río más caudaloso que forma parte de la Cuenca del Plata en el territorio argentino?",
+        "options": [
+            "Río Bermejo",
+            "Río Paraná",
+            "Río Colorado",
+            "Río Chubut"
+        ],
+        "correct": 1,
+        "explanation": "El río Paraná es el más extenso y caudaloso de los ríos interiores de la cuenca platense.",
+        "id": "q_g4_sociales_4"
+    },
+    {
+        "grade": 4,
+        "category": "sociales",
+        "question": "¿Qué cordón montañoso recorre todo el extremo occidental de la Argentina de norte a sur?",
+        "options": [
+            "Sierras Pampeanas",
+            "Cordillera de los Andes",
+            "Cordillera de la Costa",
+            "Macizo de Brasilia"
+        ],
+        "correct": 1,
+        "explanation": "La Cordillera de los Andes es el relieve montañoso que bordea todo el oeste del país.",
+        "id": "q_g4_sociales_5"
+    },
+    {
+        "grade": 4,
+        "category": "sociales",
+        "question": "¿En qué región geográfica argentina predomina el clima cálido, la selva misionera y las Cataratas del Iguazú?",
+        "options": [
+            "Cuyo",
+            "Patagonia",
+            "Noreste Argentino (Nordeste / Litoral)",
+            "Pampa Húmeda"
+        ],
+        "correct": 2,
+        "explanation": "La región del Litoral o Noreste contiene la selva paranaense y las mundialmente famosas Cataratas del Iguazú.",
+        "id": "q_g4_sociales_6"
+    },
+    {
+        "grade": 4,
+        "category": "sociales",
+        "question": "¿Qué región argentina se caracteriza por valles áridos, clima seco y gran producción vitivinícola (uvas y vinos)?",
+        "options": [
+            "Patagonia",
+            "Cuyo (Mendoza, San Juan, San Luis)",
+            "Pampa",
+            "Chaco"
+        ],
+        "correct": 1,
+        "explanation": "La región de Cuyo destaca por su clima árido y su desarrollada industria de la vid y del vino.",
+        "id": "q_g4_sociales_7"
+    },
+    {
+        "grade": 4,
+        "category": "sociales",
+        "question": "¿Cuál es la capital de la provincia de Córdoba?",
+        "options": [
+            "Villa María",
+            "Río Cuarto",
+            "Córdoba Capital",
+            "Carlos Paz"
+        ],
+        "correct": 2,
+        "explanation": "La capital de la provincia de Córdoba es la ciudad homónima de Córdoba.",
+        "id": "q_g4_sociales_8"
+    },
+    {
+        "grade": 4,
+        "category": "sociales",
+        "question": "¿Cómo se denomina la línea imaginaria que divide a la Tierra en Hemisferio Norte y Hemisferio Sur?",
+        "options": [
+            "Meridiano de Greenwich",
+            "Ecuador",
+            "Trópico de Cáncer",
+            "Trópico de Capricornio"
+        ],
+        "correct": 1,
+        "explanation": "El paralelo del Ecuador (0°) divide al planeta en los hemisferios norte y sur.",
+        "id": "q_g4_sociales_9"
+    },
+    {
+        "grade": 4,
+        "category": "sociales",
+        "question": "¿En qué hemisferio se encuentra ubicada la República Argentina respecto a la línea del Ecuador?",
+        "options": [
+            "Hemisferio Norte",
+            "Hemisferio Sur",
+            "Hemisferio Oriental solamente",
+            "En ambos por igual"
+        ],
+        "correct": 1,
+        "explanation": "Argentina se encuentra íntegramente ubicada al sur del Ecuador, en el Hemisferio Sur.",
+        "id": "q_g4_sociales_10"
+    },
+    {
+        "grade": 4,
+        "category": "sociales",
+        "question": "¿A qué sector de la economía pertenecen las actividades de siembra, cosecha y ganadería?",
+        "options": [
+            "Sector primario",
+            "Sector secundario",
+            "Sector terciario",
+            "Sector cuaternario"
+        ],
+        "correct": 0,
+        "explanation": "El sector primario comprende la extracción y producción directa de materias primas naturales.",
+        "id": "q_g4_sociales_11"
+    },
+    {
+        "grade": 4,
+        "category": "sociales",
+        "question": "¿Qué sector económico se encarga de transformar las materias primas en productos elaborados en fábricas e industrias?",
+        "options": [
+            "Sector primario",
+            "Sector secundario o industrial",
+            "Sector de servicios",
+            "Sector financiero"
+        ],
+        "correct": 1,
+        "explanation": "El sector secundario abarca la manufactura e industrias que transforman materias primas.",
+        "id": "q_g4_sociales_12"
+    },
+    {
+        "grade": 4,
+        "category": "sociales",
+        "question": "¿A qué sector pertenecen actividades como la educación, el transporte, el comercio y el turismo?",
+        "options": [
+            "Sector primario",
+            "Sector secundario",
+            "Sector terciario o de servicios",
+            "Sector extractivo"
+        ],
+        "correct": 2,
+        "explanation": "El sector terciario brinda servicios esenciales y comerciales a la sociedad.",
+        "id": "q_g4_sociales_13"
+    },
+    {
+        "grade": 4,
+        "category": "sociales",
+        "question": "¿Cómo se denomina el circuito productivo que va desde la plantación de la uva hasta la botella de vino en la mesa?",
+        "options": [
+            "Cadena de valor o circuito agroindustrial",
+            "Circuito cerrado",
+            "Actividad terciaria",
+            "Ruta de transporte"
+        ],
+        "correct": 0,
+        "explanation": "Los circuitos productivos integran las etapas agrícola, industrial y comercial de un producto.",
+        "id": "q_g4_sociales_14"
+    },
+    {
+        "grade": 4,
+        "category": "sociales",
+        "question": "¿Cuál es una característica típica de los espacios rurales?",
+        "options": [
+            "Gran densidad de edificios y avenidas de tránsito rápido",
+            "Población dispersa, predominio de vegetación y actividades agropecuarias",
+            "Abundancia de centros comerciales y trenes subterráneos",
+            "Falta total de naturaleza"
+        ],
+        "correct": 1,
+        "explanation": "Los espacios rurales se caracterizan por una menor densidad poblacional y uso del suelo para producción agraria.",
+        "id": "q_g4_sociales_15"
+    },
+    {
+        "grade": 4,
+        "category": "sociales",
+        "question": "¿Qué cereal y qué oleaginosa son dos de los principales cultivos de la llanura pampeana argentina?",
+        "options": [
+            "Cacao y café",
+            "Trigo y soja",
+            "Palma y coco",
+            "Banano y caña"
+        ],
+        "correct": 1,
+        "explanation": "La llanura pampeana es una de las mayores productoras mundiales de trigo, maíz y soja.",
+        "id": "q_g4_sociales_16"
+    },
+    {
+        "grade": 4,
+        "category": "sociales",
+        "question": "¿Qué problema urbano se produce por la acumulación excesiva de vehículos en horas pico?",
+        "options": [
+            "Erosión del suelo",
+            "Congestión vehicular o embotellamiento de tránsito",
+            "Sequía urbana",
+            "Deforestación"
+        ],
+        "correct": 1,
+        "explanation": "El gran caudal de automóviles en las ciudades provoca congestiones y contaminación sonora y del aire.",
+        "id": "q_g4_sociales_17"
+    },
+    {
+        "grade": 4,
+        "category": "sociales",
+        "question": "¿Cómo se llama la cría controlada de ganado vacuno para la obtención de carne y leche?",
+        "options": [
+            "Apicultura",
+            "Ganadería bovina",
+            "Avicultura",
+            "Piscicultura"
+        ],
+        "correct": 1,
+        "explanation": "La ganadería bovina o vacuna se dedica a la cría y cuidado de vacas, toros y terneros.",
+        "id": "q_g4_sociales_18"
+    },
+    {
+        "grade": 4,
+        "category": "sociales",
+        "question": "¿Qué es la materia prima en una fábrica de calzado de cuero?",
+        "options": [
+            "Los cordones plásticos",
+            "El cuero vacuno natural",
+            "La caja de cartón",
+            "El cartel del negocio"
+        ],
+        "correct": 1,
+        "explanation": "El cuero es la materia prima principal extraída de la actividad ganadera que luego se procesa.",
+        "id": "q_g4_sociales_19"
+    },
+    {
+        "grade": 4,
+        "category": "sociales",
+        "question": "¿Cómo se denomina al desplazamiento diario de personas entre su lugar de residencia rural o suburbana y su trabajo en la ciudad?",
+        "options": [
+            "Migración definitiva",
+            "Movilidad pendular o cotidiana",
+            "Éxodo rural",
+            "Turismo internacional"
+        ],
+        "correct": 1,
+        "explanation": "La migración pendular es el viaje regular de ida y vuelta entre el hogar y el trabajo/estudio.",
+        "id": "q_g4_sociales_20"
+    },
+    {
+        "grade": 4,
+        "category": "sociales",
+        "question": "¿Qué es un recurso natural renovable?",
+        "options": [
+            "Un recurso que se agota al extraerse por completo",
+            "Un recurso que la naturaleza regenera a un ritmo mayor o igual al de su consumo humano",
+            "Un material creado únicamente en laboratorios",
+            "Un mineral como el petróleo"
+        ],
+        "correct": 1,
+        "explanation": "Los recursos renovables (como el sol, el viento o la biomasa bien gestionada) pueden regenerarse naturalmente.",
+        "id": "q_g4_sociales_21"
+    },
+    {
+        "grade": 4,
+        "category": "sociales",
+        "question": "¿Cuál de los siguientes es un recurso natural NO renovable?",
+        "options": [
+            "La energía solar",
+            "El petróleo",
+            "El viento",
+            "La radiación solar"
+        ],
+        "correct": 1,
+        "explanation": "El petróleo se formó hace millones de años y sus reservas terrestres son limitadas y no renovables a escala humana.",
+        "id": "q_g4_sociales_22"
+    },
+    {
+        "grade": 4,
+        "category": "sociales",
+        "question": "¿Qué grave problema ambiental se produce cuando se talan bosques y selvas de forma masiva e indiscriminada?",
+        "options": [
+            "Desertificación acelerada",
+            "Deforestación",
+            "Inundación marina",
+            "Efecto invernadero natural"
+        ],
+        "correct": 1,
+        "explanation": "La deforestación implica la tala masiva de árboles, destruyendo hábitats y alterando el clima local.",
+        "id": "q_g4_sociales_23"
+    },
+    {
+        "grade": 4,
+        "category": "sociales",
+        "question": "¿Cuál es el principal objetivo de un Parque Nacional o Reserva Natural?",
+        "options": [
+            "Construir fábricas de gran tamaño",
+            "Proteger la flora, fauna, paisajes y biodiversidad nativa de una región",
+            "Permitir la caza deportiva libre",
+            "Instalar canteras mineras"
+        ],
+        "correct": 1,
+        "explanation": "Las áreas protegidas resguardan ecosistemas representativos y especies amenazadas de la alteración humana.",
+        "id": "q_g4_sociales_24"
+    },
+    {
+        "grade": 4,
+        "category": "sociales",
+        "question": "¿Qué Parque Nacional argentino protege una de las mayores reservas de hielo continental y el glaciar Perito Moreno?",
+        "options": [
+            "Parque Nacional Iguazú",
+            "Parque Nacional Los Glaciares",
+            "Parque Nacional El Palmar",
+            "Parque Nacional Lanín"
+        ],
+        "correct": 1,
+        "explanation": "El Parque Nacional Los Glaciares, en la provincia de Santa Cruz, alberga al famoso Glaciar Perito Moreno.",
+        "id": "q_g4_sociales_25"
+    },
+    {
+        "grade": 4,
+        "category": "sociales",
+        "question": "¿Qué consecuencia provoca el uso excesivo de pesticidas y fertilizantes químicos en el campo?",
+        "options": [
+            "Enfriamiento del planeta",
+            "Contaminación de suelos y napas subterráneas de agua",
+            "Aumento de la capa de ozono",
+            "Nacimiento de nuevas plantas nativas"
+        ],
+        "correct": 1,
+        "explanation": "Los agroquímicos en exceso se filtran y pueden contaminar cursos de agua subterránea y superficial.",
+        "id": "q_g4_sociales_26"
+    },
+    {
+        "grade": 4,
+        "category": "sociales",
+        "question": "¿Cómo se llama la regla de las 3 'R' para el cuidado ambiental y manejo de residuos?",
+        "options": [
+            "Reparar, revender y romper",
+            "Reducir, reutilizar y reciclar",
+            "Retener, retirar y reunir",
+            "Reclamar, registrar y renovar"
+        ],
+        "correct": 1,
+        "explanation": "Las 3 R de la ecología son Reducir el consumo, Reutilizar objetos y Reciclar materiales.",
+        "id": "q_g4_sociales_27"
+    },
+    {
+        "grade": 4,
+        "category": "sociales",
+        "question": "¿Qué tipo de energía limpia se genera a partir de la fuerza de las corrientes de viento?",
+        "options": [
+            "Energía geotérmica",
+            "Energía eólica",
+            "Energía nuclear",
+            "Energía fósil"
+        ],
+        "correct": 1,
+        "explanation": "Los aerogeneradores o molinos de viento transforman la energía cinética del viento en electricidad (eólica).",
+        "id": "q_g4_sociales_28"
+    },
+    {
+        "grade": 4,
+        "category": "sociales",
+        "question": "¿Por qué es importante cuidar y no derrochar el agua dulce?",
+        "options": [
+            "Porque el agua dulce representa menos del 3% del total del agua del planeta",
+            "Porque el agua dulce se oxida",
+            "Porque atrae tormentas eléctricas",
+            "Porque no sirve para regar"
+        ],
+        "correct": 0,
+        "explanation": "La inmensa mayoría del agua del planeta es salada (mares); el agua dulce disponible es muy escasa y vital.",
+        "id": "q_g4_sociales_29"
+    },
+    {
+        "grade": 4,
+        "category": "sociales",
+        "question": "¿Qué Parque Nacional en Entre Ríos protege un bosque de palmeras yatay centenarias?",
+        "options": [
+            "Parque Nacional El Palmar",
+            "Parque Nacional Talampaya",
+            "Parque Nacional Nahuel Huapi",
+            "Parque Nacional Tierra del Fuego"
+        ],
+        "correct": 0,
+        "explanation": "El Parque Nacional El Palmar conserva palmares de yatay típicos del pastizal mesopotámico.",
+        "id": "q_g4_sociales_30"
+    },
+    {
+        "grade": 4,
+        "category": "sociales",
+        "question": "¿Qué pueblo originario sedentario habitaba el noroeste argentino, construía pucarás y cultivaba en terrazas?",
+        "options": [
+            "Los pampas",
+            "Los diaguitas",
+            "Los yámanas",
+            "Los tehuelches"
+        ],
+        "correct": 1,
+        "explanation": "Los diaguitas vivían en valles del noroeste, construían terrazas de cultivo con riego y fortalezas llamadas pucarás.",
+        "id": "q_g4_sociales_31"
+    },
+    {
+        "grade": 4,
+        "category": "sociales",
+        "question": "¿Qué estilo de vida tenían los pueblos nómades cazadores-recolectores de las llanuras como los querandíes y tehuelches?",
+        "options": [
+            "Vivían en grandes ciudades de piedra fijas",
+            "Se trasladaban constantemente buscando presas de caza y frutos",
+            "Solo navegaban en canoas por los fiordos",
+            "Construían pirámides ceremoniales"
+        ],
+        "correct": 1,
+        "explanation": "Los pueblos nómades no tenían residencia fija; trasladaban sus toldos siguiendo manadas de guanacos y ñandúes.",
+        "id": "q_g4_sociales_32"
+    },
+    {
+        "grade": 4,
+        "category": "sociales",
+        "question": "¿Qué pueblo originario habitaba el litoral y las orillas del río Paraná, practicando la pesca y cultivando mandioca y maíz?",
+        "options": [
+            "Guaraníes",
+            "Tehuelches",
+            "Onas o selk'nam",
+            "Incas"
+        ],
+        "correct": 0,
+        "explanation": "Los guaraníes eran agricultores, pescadores y excelentes alfareros en las cuencas de los ríos Paraná y Uruguay.",
+        "id": "q_g4_sociales_33"
+    },
+    {
+        "grade": 4,
+        "category": "sociales",
+        "question": "¿Qué pueblos del extremo sur (Tierra del Fuego) eran canoeros y navegaban los canales fueguinos?",
+        "options": [
+            "Diaguitas y comechingones",
+            "Yámanas (yaganes) y alacalufes",
+            "Wichís y tobas",
+            "Mapuches y ranqueles"
+        ],
+        "correct": 1,
+        "explanation": "Los yámanas vivían en canoas sobre los canales australes, cazando lobos marinos y pescando.",
+        "id": "q_g4_sociales_34"
+    },
+    {
+        "grade": 4,
+        "category": "sociales",
+        "question": "¿Con qué material construían sus viviendas (chozas o tolderías) los pueblos cazadores de la Patagonia?",
+        "options": [
+            "Ladrillos de adobe",
+            "Pieles de guanaco y postes de madera livianos para transportarlos",
+            "Mármol y tejas",
+            "Caña de azúcar"
+        ],
+        "correct": 1,
+        "explanation": "Los toldos tehuelches se confeccionaban con cueros de guanaco cosidos y varas de madera fáciles de desarmar.",
+        "id": "q_g4_sociales_35"
+    },
+    {
+        "grade": 4,
+        "category": "sociales",
+        "question": "¿Qué cultivo originario de América era la base de la alimentación de numerosos pueblos andinos como los diaguitas?",
+        "options": [
+            "Trigo y avena",
+            "Maíz, papa y porotos",
+            "Arroz y cebada",
+            "Café y soja"
+        ],
+        "correct": 1,
+        "explanation": "El maíz, la papa y la quinua fueron domesticados en los Andes miles de años antes de la llegada de los europeos.",
+        "id": "q_g4_sociales_36"
+    },
+    {
+        "grade": 4,
+        "category": "sociales",
+        "question": "¿Qué término designa a las expresiones artísticas grabadas o pintadas sobre rocas por pueblos antiguos?",
+        "options": [
+            "Arte rupestre",
+            "Pintura al óleo",
+            "Escultura gótica",
+            "Grafiti moderno"
+        ],
+        "correct": 0,
+        "explanation": "El arte rupestre abarca pinturas y petroglifos realizados en abrigos rocosos y cavernas.",
+        "id": "q_g4_sociales_37"
+    },
+    {
+        "grade": 4,
+        "category": "sociales",
+        "question": "¿En qué provincia argentina se encuentra el famoso sitio arqueológico 'Cueva de las Manos' con pinturas rupestres milenarias?",
+        "options": [
+            "Mendoza",
+            "Santa Cruz",
+            "Misiones",
+            "Jujuy"
+        ],
+        "correct": 1,
+        "explanation": "La Cueva de las Manos está ubicada en el cañadón del río Pinturas, en la provincia de Santa Cruz.",
+        "id": "q_g4_sociales_38"
+    },
+    {
+        "grade": 4,
+        "category": "sociales",
+        "question": "¿Qué instrumento musical de viento andino fabricado con cañas de diferentes longitudes es típico del noroeste?",
+        "options": [
+            "Violín",
+            "Siku o zampoña",
+            "Guitarra",
+            "Acordeón"
+        ],
+        "correct": 1,
+        "explanation": "El siku es un instrumento de viento andino tradicional compuesto por hileras de cañas afinadas.",
+        "id": "q_g4_sociales_39"
+    },
+    {
+        "grade": 4,
+        "category": "sociales",
+        "question": "¿Qué valoran las comunidades indígenas respecto a la 'Pachamama'?",
+        "options": [
+            "Es el dios del dinero",
+            "Es la Madre Tierra, fuente de vida que debe ser respetada y cuidada",
+            "Es una técnica de tejido",
+            "Es una danza de carnaval"
+        ],
+        "correct": 1,
+        "explanation": "La Pachamama es la Madre Tierra en la cosmovisión andina, representativa de la fertilidad y la naturaleza.",
+        "id": "q_g4_sociales_40"
+    },
+    {
+        "grade": 4,
+        "category": "sociales",
+        "question": "¿Cómo se llamaba la máxima autoridad de gobierno enviada por el rey de España para gobernar el Virreinato del Río de la Plata?",
+        "options": [
+            "Presidente",
+            "Virrey",
+            "Gobernador intendente",
+            "Diputado"
+        ],
+        "correct": 1,
+        "explanation": "El Virrey gobernaba en nombre y representación directa del Rey de España en América.",
+        "id": "q_g4_sociales_41"
+    },
+    {
+        "grade": 4,
+        "category": "sociales",
+        "question": "¿Qué institución colonial se encargaba del gobierno y administración de la ciudad, semejante a una municipalidad?",
+        "options": [
+            "La Real Audiencia",
+            "El Cabildo",
+            "El Consulado",
+            "La Inquisición"
+        ],
+        "correct": 1,
+        "explanation": "El Cabildo administraba la justicia local, la seguridad, el abastecimiento y la higiene urbana.",
+        "id": "q_g4_sociales_42"
+    },
+    {
+        "grade": 4,
+        "category": "sociales",
+        "question": "¿En qué año se creó el Virreinato del Río de la Plata por orden del rey Carlos III de España?",
+        "options": [
+            "1492",
+            "1776",
+            "1810",
+            "1816"
+        ],
+        "correct": 1,
+        "explanation": "El Virreinato del Río de la Plata fue creado en 1776 con capital en Buenos Aires.",
+        "id": "q_g4_sociales_43"
+    },
+    {
+        "grade": 4,
+        "category": "sociales",
+        "question": "¿Qué acontecimiento histórico fundamental ocurrió en Buenos Aires el 25 de mayo de 1810?",
+        "options": [
+            "La Declaración de la Independencia",
+            "La creación del Primer Gobierno Patrio (Primera Junta)",
+            "La llegada de Cristóbal Colón",
+            "La sanción de la Constitución"
+        ],
+        "correct": 1,
+        "explanation": "El 25 de mayo de 1810 se formó la Primera Junta de Gobierno patrio, destituyendo al virrey Cisneros.",
+        "id": "q_g4_sociales_44"
+    },
+    {
+        "grade": 4,
+        "category": "sociales",
+        "question": "¿Quién fue elegido presidente de la Primera Junta de Gobierno en mayo de 1810?",
+        "options": [
+            "Mariano Moreno",
+            "Cornelio Saavedra",
+            "Manuel Belgrano",
+            "Juan José Paso"
+        ],
+        "correct": 1,
+        "explanation": "Cornelio Saavedra, jefe del Regimiento de Patricios, fue el presidente de la Primera Junta.",
+        "id": "q_g4_sociales_45"
+    },
+    {
+        "grade": 4,
+        "category": "sociales",
+        "question": "¿Quiénes eran los 'vendedores ambulantes' de la época colonial que ofrecían agua en carros por las calles?",
+        "options": [
+            "Los veleros",
+            "Los aguateros",
+            "Los mazamorreros",
+            "Los lecheros"
+        ],
+        "correct": 1,
+        "explanation": "Los aguateros transportaban agua del río en grandes tinajas o barriles sobre carros tirados por bueyes.",
+        "id": "q_g4_sociales_46"
+    },
+    {
+        "grade": 4,
+        "category": "sociales",
+        "question": "¿Qué grupo social en la época colonial ocupaba los cargos de gobierno más importantes por haber nacido en España?",
+        "options": [
+            "Los criollos",
+            "Los españoles peninsulares",
+            "Los mestizos",
+            "Los esclavos"
+        ],
+        "correct": 1,
+        "explanation": "Los españoles nacidos en la península ibérica gozaban de privilegios y ocupaban los más altos cargos coloniales.",
+        "id": "q_g4_sociales_47"
+    },
+    {
+        "grade": 4,
+        "category": "sociales",
+        "question": "¿Cómo se llamaban las reuniones o fiestas que organizaban las familias criollas acomodadas en sus casas coloniales?",
+        "options": [
+            "Kermeses",
+            "Tertulias",
+            "Peñas folclóricas",
+            "Conciertos de ópera"
+        ],
+        "correct": 1,
+        "explanation": "Las tertulias eran reuniones sociales donde se conversaba de política, se escuchaba música y se bailaba.",
+        "id": "q_g4_sociales_48"
+    },
+    {
+        "grade": 4,
+        "category": "sociales",
+        "question": "¿Qué patriota y vocal de la Primera Junta creó la bandera argentina en 1812 a orillas del río Paraná?",
+        "options": [
+            "José de San Martín",
+            "Manuel Belgrano",
+            "Domingo Faustino Sarmiento",
+            "Mariano Moreno"
+        ],
+        "correct": 1,
+        "explanation": "Manuel Belgrano creó y enarboló por primera vez la bandera celeste y blanca el 27 de febrero de 1812 en Rosario.",
+        "id": "q_g4_sociales_49"
+    },
+    {
+        "grade": 4,
+        "category": "sociales",
+        "question": "¿Qué medio de transporte tirado por caballos se utilizaba para viajar largas distancias en la época virreinal?",
+        "options": [
+            "El ferrocarril",
+            "La galera o carreta",
+            "El tranvía",
+            "El automóvil"
+        ],
+        "correct": 1,
+        "explanation": "Las galeras y carretas tiradas por caballos o bueyes eran los medios habituales de transporte colonial.",
+        "id": "q_g4_sociales_50"
+    },
+    {
+        "grade": 4,
+        "category": "ingenio",
+        "question": "¿Qué número completa la serie: 3, 6, 12, 24, ___?",
+        "options": [
+            "30",
+            "36",
+            "48",
+            "42"
+        ],
+        "correct": 2,
+        "explanation": "Cada número es el doble del anterior: 24 x 2 = 48.",
+        "id": "q_g4_ingenio_1"
+    },
+    {
+        "grade": 4,
+        "category": "ingenio",
+        "question": "Descubre el patrón: 100, 95, 85, 70, ___ ¿Cuál sigue?",
+        "options": [
+            "55",
+            "50",
+            "45",
+            "60"
+        ],
+        "correct": 1,
+        "explanation": "Se resta sucesivamente: -5, luego -10, luego -15... sigue restar 20: 70 - 20 = 50.",
+        "id": "q_g4_ingenio_2"
+    },
+    {
+        "grade": 4,
+        "category": "ingenio",
+        "question": "¿Qué letra completa la secuencia: B, D, F, H, ___?",
+        "options": [
+            "I",
+            "J",
+            "K",
+            "L"
+        ],
+        "correct": 1,
+        "explanation": "Se avanza de a dos letras en el abecedario, salteando una: B, (C), D, (E), F, (G), H, (I), J.",
+        "id": "q_g4_ingenio_3"
+    },
+    {
+        "grade": 4,
+        "category": "ingenio",
+        "question": "¿Qué número falta en este triángulo numérico si la cima es la suma de las bases: Base [15] [25] -> Cima [___]?",
+        "options": [
+            "35",
+            "40",
+            "45",
+            "50"
+        ],
+        "correct": 1,
+        "explanation": "15 + 25 = 40.",
+        "id": "q_g4_ingenio_4"
+    },
+    {
+        "grade": 4,
+        "category": "ingenio",
+        "question": "¿Qué número sigue en la cuenta: 1, 4, 9, 16, 25, ___?",
+        "options": [
+            "30",
+            "36",
+            "49",
+            "32"
+        ],
+        "correct": 1,
+        "explanation": "Son los cuadrados de los números naturales: 1x1, 2x2, 3x3, 4x4, 5x5... el siguiente es 6x6 = 36.",
+        "id": "q_g4_ingenio_5"
+    },
+    {
+        "grade": 4,
+        "category": "ingenio",
+        "question": "Observa la serie: 2, 5, 10, 17, 26, ___ ¿Qué número sigue?",
+        "options": [
+            "35",
+            "37",
+            "39",
+            "40"
+        ],
+        "correct": 1,
+        "explanation": "Las diferencias van aumentando de a impares (+3, +5, +7, +9, +11). 26 + 11 = 37.",
+        "id": "q_g4_ingenio_6"
+    },
+    {
+        "grade": 4,
+        "category": "ingenio",
+        "question": "¿Qué figura completa la serie lógica: Círculo (0 lados), Triángulo (3 lados), Cuadrado (4 lados), Pentágono (5 lados), ___?",
+        "options": [
+            "Rombo",
+            "Hexágono (6 lados)",
+            "Octógono",
+            "Trapecio"
+        ],
+        "correct": 1,
+        "explanation": "La cantidad de lados va en aumento secuencial: 0, 3, 4, 5... sigue el polígono de 6 lados (hexágono).",
+        "id": "q_g4_ingenio_7"
+    },
+    {
+        "grade": 4,
+        "category": "ingenio",
+        "question": "Si 1 = 5, 2 = 10, 3 = 15, 4 = 20, ¿cuánto vale 5?",
+        "options": [
+            "25",
+            "1",
+            "50",
+            "30"
+        ],
+        "correct": 1,
+        "explanation": "Si al principio se dijo que 1 = 5, entonces 5 = 1 por equivalencia lógica directa.",
+        "id": "q_g4_ingenio_8"
+    },
+    {
+        "grade": 4,
+        "category": "ingenio",
+        "question": "¿Qué término continúa la serie: 1A, 2B, 3C, 4D, ___?",
+        "options": [
+            "5E",
+            "5F",
+            "6E",
+            "4E"
+        ],
+        "correct": 0,
+        "explanation": "Avanzan simultáneamente el número natural sucesivo (5) y la letra siguiente del alfabeto (E).",
+        "id": "q_g4_ingenio_9"
+    },
+    {
+        "grade": 4,
+        "category": "ingenio",
+        "question": "¿Cuál es el siguiente número en la secuencia: 81, 27, 9, 3, ___?",
+        "options": [
+            "0",
+            "1",
+            "2",
+            "1/3"
+        ],
+        "correct": 1,
+        "explanation": "Cada término se divide por 3 respecto al anterior: 3 / 3 = 1.",
+        "id": "q_g4_ingenio_10"
+    },
+    {
+        "grade": 4,
+        "category": "ingenio",
+        "question": "Ana es más alta que Bruno, pero más baja que Carla. ¿Quién es la persona más alta de los tres?",
+        "options": [
+            "Ana",
+            "Bruno",
+            "Carla",
+            "Tienen la misma altura"
+        ],
+        "correct": 2,
+        "explanation": "El orden de menor a mayor altura es Bruno < Ana < Carla. Carla es la más alta.",
+        "id": "q_g4_ingenio_11"
+    },
+    {
+        "grade": 4,
+        "category": "ingenio",
+        "question": "Cuatro amigos corren una carrera: Leo llegó antes que Mateo, pero después de Nico. Lucas llegó último. ¿Quién ganó la carrera?",
+        "options": [
+            "Leo",
+            "Mateo",
+            "Nico",
+            "Lucas"
+        ],
+        "correct": 2,
+        "explanation": "El orden de llegada fue: 1.° Nico, 2.° Leo, 3.° Mateo y 4.° Lucas. Nico ganó.",
+        "id": "q_g4_ingenio_12"
+    },
+    {
+        "grade": 4,
+        "category": "ingenio",
+        "question": "Si todos los gatos tienen bigotes y Félix es un gato, ¿qué conclusión es segura?",
+        "options": [
+            "Félix es negro",
+            "Félix tiene bigotes",
+            "Félix caza ratones",
+            "Félix duerme todo el día"
+        ],
+        "correct": 1,
+        "explanation": "Por deducción lógica categórica: si todo gato tiene bigotes y Félix es un gato, Félix tiene bigotes.",
+        "id": "q_g4_ingenio_13"
+    },
+    {
+        "grade": 4,
+        "category": "ingenio",
+        "question": "En una mesa hay tres cajas: roja, verde y azul. La pelota no está en la roja ni en la verde. ¿Dónde está?",
+        "options": [
+            "En la caja roja",
+            "En la caja azul",
+            "En el piso",
+            "En la caja verde"
+        ],
+        "correct": 1,
+        "explanation": "Descartando las cajas roja y verde, necesariamente la pelota se encuentra en la caja azul.",
+        "id": "q_g4_ingenio_14"
+    },
+    {
+        "grade": 4,
+        "category": "ingenio",
+        "question": "Mi tía tiene una hermana que NO es mi tía. ¿Quién es esa persona para mí?",
+        "options": [
+            "Mi abuela",
+            "Mi prima",
+            "Mi mamá",
+            "Mi hermana"
+        ],
+        "correct": 2,
+        "explanation": "La hermana de mi tía que no es mi tía tiene que ser mi madre.",
+        "id": "q_g4_ingenio_15"
+    },
+    {
+        "grade": 4,
+        "category": "ingenio",
+        "question": "El papá de Pedro tiene 4 hijos: Juan, Lucas, Matías y... ¿cómo se llama el cuarto hijo?",
+        "options": [
+            "Pedro",
+            "Carlos",
+            "Martín",
+            "Tomás"
+        ],
+        "correct": 0,
+        "explanation": "El enigma comienza diciendo 'El papá de Pedro tiene 4 hijos...', por lo tanto el cuarto hijo es Pedro.",
+        "id": "q_g4_ingenio_16"
+    },
+    {
+        "grade": 4,
+        "category": "ingenio",
+        "question": "Si ayer fue martes, ¿qué día será pasado mañana?",
+        "options": [
+            "Jueves",
+            "Viernes",
+            "Sábado",
+            "Domingo"
+        ],
+        "correct": 1,
+        "explanation": "Si ayer fue martes, hoy es miércoles. Mañana es jueves y pasado mañana será viernes.",
+        "id": "q_g4_ingenio_17"
+    },
+    {
+        "grade": 4,
+        "category": "ingenio",
+        "question": "Martina nació en el año 2014. ¿Cuántos años cumple en su cumpleaños del año 2024?",
+        "options": [
+            "9 años",
+            "10 años",
+            "11 años",
+            "12 años"
+        ],
+        "correct": 1,
+        "explanation": "2024 - 2014 = 10 años.",
+        "id": "q_g4_ingenio_18"
+    },
+    {
+        "grade": 4,
+        "category": "ingenio",
+        "question": "Hay tres casas en fila: una amarilla, una blanca y una celeste. La blanca está a la derecha de la amarilla y a la izquierda de la celeste. ¿Cuál está en el medio?",
+        "options": [
+            "La amarilla",
+            "La blanca",
+            "La celeste",
+            "No se puede saber"
+        ],
+        "correct": 1,
+        "explanation": "El orden de izquierda a derecha es: Amarilla - Blanca - Celeste. La blanca está en el medio.",
+        "id": "q_g4_ingenio_19"
+    },
+    {
+        "grade": 4,
+        "category": "ingenio",
+        "question": "Si hoy se adelantan todos los relojes una hora a las 12:00, ¿qué hora marcará el reloj?",
+        "options": [
+            "11:00",
+            "13:00 (1:00 p.m.)",
+            "12:30",
+            "12:00"
+        ],
+        "correct": 1,
+        "explanation": "Al adelantar una hora, sumamos 1 hora a las 12:00, pasando a marcar las 13:00.",
+        "id": "q_g4_ingenio_20"
+    },
+    {
+        "grade": 4,
+        "category": "ingenio",
+        "question": "¿Qué pesa más: un kilogramo de plumas o un kilogramo de hierro?",
+        "options": [
+            "El kilogramo de hierro",
+            "Pesan exactamente lo mismo",
+            "El kilogramo de plumas",
+            "Depende del viento"
+        ],
+        "correct": 1,
+        "explanation": "Ambos pesan exactamente un kilogramo; cambia el volumen y la densidad, pero el peso es idéntico.",
+        "id": "q_g4_ingenio_21"
+    },
+    {
+        "grade": 4,
+        "category": "ingenio",
+        "question": "Tengo 3 manzanas y me quitas 2. ¿Cuántas manzanas tienes tú?",
+        "options": [
+            "1 manzana",
+            "2 manzanas",
+            "3 manzanas",
+            "Ninguna"
+        ],
+        "correct": 1,
+        "explanation": "La pregunta pregunta cuántas tienes TÚ. Si me quitaste 2 manzanas, tú tienes 2.",
+        "id": "q_g4_ingenio_22"
+    },
+    {
+        "grade": 4,
+        "category": "ingenio",
+        "question": "¿Cuántas veces puedes restar 5 del número 25?",
+        "options": [
+            "5 veces",
+            "1 sola vez (después ya no tienes 25)",
+            "Infinitas veces",
+            "0 veces"
+        ],
+        "correct": 1,
+        "explanation": "Es un juego de ingenio: solo puedes restar 5 del número 25 una vez, porque tras hacerlo te queda 20.",
+        "id": "q_g4_ingenio_23"
+    },
+    {
+        "grade": 4,
+        "category": "ingenio",
+        "question": "Un granjero tiene 17 ovejas. Todas mueren menos 9. ¿Cuántas ovejas vivas le quedan?",
+        "options": [
+            "8",
+            "9",
+            "17",
+            "0"
+        ],
+        "correct": 1,
+        "explanation": "El enunciado dice 'todas mueren menos 9', por lo que le quedan exactamente 9 ovejas vivas.",
+        "id": "q_g4_ingenio_24"
+    },
+    {
+        "grade": 4,
+        "category": "ingenio",
+        "question": "¿Cuánto es la mitad de dos más dos?",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "1"
+        ],
+        "correct": 1,
+        "explanation": "La mitad de dos es uno, más dos da como resultado tres (1 + 2 = 3).",
+        "id": "q_g4_ingenio_25"
+    },
+    {
+        "grade": 4,
+        "category": "ingenio",
+        "question": "Si dos pintores pintan dos habitaciones en dos días, ¿cuántos días tardará un pintor en pintar una habitación?",
+        "options": [
+            "1 día",
+            "2 días",
+            "4 días",
+            "Medio día"
+        ],
+        "correct": 1,
+        "explanation": "El rendimiento es de un pintor = una habitación cada dos días. Tardará 2 días.",
+        "id": "q_g4_ingenio_26"
+    },
+    {
+        "grade": 4,
+        "category": "ingenio",
+        "question": "En un árbol hay 10 pájaros. Un cazador dispara y espanta a todos. ¿Cuántos pájaros quedan en las ramas?",
+        "options": [
+            "9 pájaros",
+            "0 pájaros (todos volaron por el ruido)",
+            "1 pájaro",
+            "5 pájaros"
+        ],
+        "correct": 1,
+        "explanation": "Al oír el disparo, todos los pájaros huyen asustados del árbol; quedan 0 en las ramas.",
+        "id": "q_g4_ingenio_27"
+    },
+    {
+        "grade": 4,
+        "category": "ingenio",
+        "question": "¿Qué número de dos cifras, si le das la vuelta, sigue valiendo lo mismo y ambas cifras suman 16?",
+        "options": [
+            "88",
+            "79",
+            "69",
+            "99"
+        ],
+        "correct": 0,
+        "explanation": "El número 88 es simétrico (al revés sigue siendo 88) y sus cifras suman 8 + 8 = 16.",
+        "id": "q_g4_ingenio_28"
+    },
+    {
+        "grade": 4,
+        "category": "ingenio",
+        "question": "¿Cuántos meses del año tienen al menos 28 días?",
+        "options": [
+            "Solo 1 (febrero)",
+            "6 meses",
+            "Los 12 meses",
+            "11 meses"
+        ],
+        "correct": 2,
+        "explanation": "Todos los 12 meses del año tienen al menos 28 días (algunos tienen 30 o 31).",
+        "id": "q_g4_ingenio_29"
+    },
+    {
+        "grade": 4,
+        "category": "ingenio",
+        "question": "Un caracol sube por una pared de 5 metros: de día sube 3 metros y de noche resbala 2 metros. ¿En cuántos días llega a la cima?",
+        "options": [
+            "5 días",
+            "3 días",
+            "2 días",
+            "4 días"
+        ],
+        "correct": 1,
+        "explanation": "Día 1: sube a 3 m, baja a 1 m. Día 2: sube a 4 m, baja a 2 m. Día 3: sube 3 m más y alcanza los 5 m (cima).",
+        "id": "q_g4_ingenio_30"
+    },
+    {
+        "grade": 4,
+        "category": "ingenio",
+        "question": "¿Qué palabra se forma al ordenar las letras de 'ROMA'?",
+        "options": [
+            "RAMA",
+            "AMOR",
+            "MORA",
+            "Ambas opciones AMOR y MORA son válidas"
+        ],
+        "correct": 3,
+        "explanation": "Las letras R-O-M-A permiten formar 'AMOR', 'MORA', 'RAMO' y 'ROMA', todas palabras válidas.",
+        "id": "q_g4_ingenio_31"
+    },
+    {
+        "grade": 4,
+        "category": "ingenio",
+        "question": "¿Cuál de las siguientes palabras es un palíndromo (se lee igual al derecho que al revés)?",
+        "options": [
+            "RECONOCER",
+            "CAMINAR",
+            "LIBERTAD",
+            "ESTUDIAR"
+        ],
+        "correct": 0,
+        "explanation": "'RECONOCER' se lee de idéntica manera de izquierda a derecha que de derecha a izquierda.",
+        "id": "q_g4_ingenio_32"
+    },
+    {
+        "grade": 4,
+        "category": "ingenio",
+        "question": "¿Qué palabra tiene las 5 vocales (a, e, i, o, u) sin repetir ninguna?",
+        "options": [
+            "Murciélago",
+            "Mariposa",
+            "Elefante",
+            "Cocodrilo"
+        ],
+        "correct": 0,
+        "explanation": "'Murciélago' contiene las cinco vocales: u - i - e - a - o.",
+        "id": "q_g4_ingenio_33"
+    },
+    {
+        "grade": 4,
+        "category": "ingenio",
+        "question": "¿Qué letra se encuentra una vez en un minuto, dos veces en un momento y ninguna en cien años?",
+        "options": [
+            "La letra A",
+            "La letra M",
+            "La letra O",
+            "La letra T"
+        ],
+        "correct": 1,
+        "explanation": "La letra 'M' aparece 1 vez en 'minuto', 2 veces en 'momento' y 0 veces en 'cien años'.",
+        "id": "q_g4_ingenio_34"
+    },
+    {
+        "grade": 4,
+        "category": "ingenio",
+        "question": "¿Qué palabra empieza con 'C', termina con 'A' y contiene cientos de letras adentro?",
+        "options": [
+            "Camioneta",
+            "Casillero",
+            "Carta o casilla de correo",
+            "Cueva"
+        ],
+        "correct": 2,
+        "explanation": "Una carta (o casilla de correo) contiene cartas escritas con cientos de letras.",
+        "id": "q_g4_ingenio_35"
+    },
+    {
+        "grade": 4,
+        "category": "ingenio",
+        "question": "¿Cuál de estos términos no guarda relación con los demás: Manzana, Pera, Frutilla, Zanahoria?",
+        "options": [
+            "Manzana",
+            "Pera",
+            "Frutilla",
+            "Zanahoria"
+        ],
+        "correct": 3,
+        "explanation": "Zanahoria es una raíz/hortaliza, mientras que manzana, pera y frutilla son frutas.",
+        "id": "q_g4_ingenio_36"
+    },
+    {
+        "grade": 4,
+        "category": "ingenio",
+        "question": "Si ordenas las letras 'G-I-R-T-E', ¿qué nombre de animal obtienes?",
+        "options": [
+            "TIGRE",
+            "GIRALDA",
+            "GRITO",
+            "GRILLO"
+        ],
+        "correct": 0,
+        "explanation": "Reordenando las letras G-I-R-T-E se forma la palabra TIGRE.",
+        "id": "q_g4_ingenio_37"
+    },
+    {
+        "grade": 4,
+        "category": "ingenio",
+        "question": "¿Qué tiene palabras pero nunca habla, tiene lomo pero no es animal, y tiene hojas pero no es planta?",
+        "options": [
+            "El bosque",
+            "El libro",
+            "El viento",
+            "La mesa"
+        ],
+        "correct": 1,
+        "explanation": "Un libro tiene hojas de papel, lomo de encuadernación y palabras escritas.",
+        "id": "q_g4_ingenio_38"
+    },
+    {
+        "grade": 4,
+        "category": "ingenio",
+        "question": "¿Qué palabra cambia totalmente de significado si le cambias una sola letra: 'PALA' por 'PALA'? Cambiando la L por N:",
+        "options": [
+            "PANA",
+            "PATA",
+            "PASO",
+            "PAPA"
+        ],
+        "correct": 0,
+        "explanation": "Al sustituir la 'L' por una 'N' en 'PALA', se obtiene la palabra 'PANA'.",
+        "id": "q_g4_ingenio_39"
+    },
+    {
+        "grade": 4,
+        "category": "ingenio",
+        "question": "¿Qué término continúa la familia de palabras: Pan, Panadero, Panadería, ___?",
+        "options": [
+            "Pastel",
+            "Panificadora",
+            "Harina",
+            "Horno"
+        ],
+        "correct": 1,
+        "explanation": "'Panificadora' comparte la misma raíz lexemática 'pan-' que el resto de la familia.",
+        "id": "q_g4_ingenio_40"
+    },
+    {
+        "grade": 4,
+        "category": "ingenio",
+        "question": "¿Qué objeto sube y baja pero siempre se queda en el mismo lugar?",
+        "options": [
+            "Un pájaro",
+            "Una escalera mecánica o ascensor",
+            "Un avión",
+            "Un trampolín"
+        ],
+        "correct": 1,
+        "explanation": "Las escaleras fijas o mecánicas y los ascensores suben y bajan pisos permaneciendo en su estructura fija.",
+        "id": "q_g4_ingenio_41"
+    },
+    {
+        "grade": 4,
+        "category": "ingenio",
+        "question": "¿Qué cosa te pertenece a ti, pero los demás la usan mucho más que tú?",
+        "options": [
+            "Tu ropa",
+            "Tu nombre",
+            "Tu bicicleta",
+            "Tu cuaderno"
+        ],
+        "correct": 1,
+        "explanation": "Tu nombre es tuyo, pero son los demás quienes lo pronuncian al llamarte o referirse a ti.",
+        "id": "q_g4_ingenio_42"
+    },
+    {
+        "grade": 4,
+        "category": "ingenio",
+        "question": "¿Qué tiene cuatro patas por la mañana, dos al mediodía y tres por la tarde (en el famoso enigma de la Esfinge)?",
+        "options": [
+            "Un perro",
+            "El ser humano",
+            "Una mesa",
+            "Un caballo"
+        ],
+        "correct": 1,
+        "explanation": "Es la metáfora de las etapas de la vida humana: gatea de bebé (4), camina de adulto (2) y usa bastón de anciano (3).",
+        "id": "q_g4_ingenio_43"
+    },
+    {
+        "grade": 4,
+        "category": "ingenio",
+        "question": "¿Qué se moja más y más mientras más seca?",
+        "options": [
+            "El sol",
+            "La toalla",
+            "El paraguas",
+            "El secador"
+        ],
+        "correct": 1,
+        "explanation": "La toalla absorbe el agua al secar un cuerpo, por lo que mientras más seca, más húmeda queda.",
+        "id": "q_g4_ingenio_44"
+    },
+    {
+        "grade": 4,
+        "category": "ingenio",
+        "question": "¿Qué se puede romper con solo decir su nombre en voz alta?",
+        "options": [
+            "Un plato",
+            "El silencio",
+            "Un secreto",
+            "El hielo"
+        ],
+        "correct": 1,
+        "explanation": "Al pronunciar una palabra o sonido, el silencio se rompe de inmediato.",
+        "id": "q_g4_ingenio_45"
+    },
+    {
+        "grade": 4,
+        "category": "ingenio",
+        "question": "¿Qué invento permite mirar a través de una pared sólida de ladrillos?",
+        "options": [
+            "Un telescopio",
+            "Una ventana",
+            "Un microscopio",
+            "Un espejo"
+        ],
+        "correct": 1,
+        "explanation": "Una ventana instalada en una pared permite observar lo que está del otro lado.",
+        "id": "q_g4_ingenio_46"
+    },
+    {
+        "grade": 4,
+        "category": "ingenio",
+        "question": "Si estás en un cuarto oscuro y frío con una vela, una chimenea de leña y una lámpara de aceite, y solo tienes un fósforo, ¿qué debes encender primero?",
+        "options": [
+            "La vela",
+            "La chimenea",
+            "El fósforo",
+            "La lámpara de aceite"
+        ],
+        "correct": 2,
+        "explanation": "Para poder encender cualquiera de las tres cosas, debes encender primero el fósforo.",
+        "id": "q_g4_ingenio_47"
+    },
+    {
+        "grade": 4,
+        "category": "ingenio",
+        "question": "¿Qué tiene cuello pero no tiene cabeza?",
+        "options": [
+            "Una remera o botella",
+            "Un zapato",
+            "Una mesa",
+            "Un reloj"
+        ],
+        "correct": 0,
+        "explanation": "Tanto las botellas como las remeras o camisas tienen cuello pero carecen de cabeza.",
+        "id": "q_g4_ingenio_48"
+    },
+    {
+        "grade": 4,
+        "category": "ingenio",
+        "question": "¿Dónde puedes encontrar ciudades sin casas, ríos sin agua y montañas sin árboles?",
+        "options": [
+            "En los sueños",
+            "En un mapa geográfico",
+            "En una película",
+            "En el espacio"
+        ],
+        "correct": 1,
+        "explanation": "En un mapa o plano geográfico están representadas ciudades, ríos y montañas como símbolos gráficos.",
+        "id": "q_g4_ingenio_49"
+    },
+    {
+        "grade": 4,
+        "category": "ingenio",
+        "question": "¿Hacia dónde va el humo de un tren eléctrico que viaja hacia el norte con viento del este?",
+        "options": [
+            "Hacia el sur",
+            "Hacia el oeste",
+            "Los trenes eléctricos no echan humo",
+            "Hacia el norte"
+        ],
+        "correct": 2,
+        "explanation": "Al ser un tren eléctrico impulsado por corriente eléctrica, no produce humo.",
+        "id": "q_g4_ingenio_50"
+    }
 ];
 
 // Soporte para exportación en entornos Node/CommonJS si fuera necesario
