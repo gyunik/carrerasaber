@@ -1738,6 +1738,8 @@ class CarreraDelSaberApp {
         }
 
         const feedbackBox = document.getElementById('feedback-box');
+        const feedbackExp = document.getElementById('feedback-explanation');
+        if (feedbackExp) feedbackExp.textContent = '';
         if (feedbackBox) {
             feedbackBox.classList.add('hidden');
             feedbackBox.className = 'hidden p-4 rounded-2xl border flex flex-col gap-2 mt-2';
@@ -1819,6 +1821,7 @@ class CarreraDelSaberApp {
         const isCorrect = selectedIndex === (this.currentCorrectOptionIndex !== undefined ? this.currentCorrectOptionIndex : this.currentQuestion.correct);
         const player = this.players[this.currentPlayerIndex];
         const tile = this.currentTile;
+        const theme = tile ? this.getSubjectTheme(tile.cat) : null;
 
         if (selectedIndex >= 0 && optionsBtns[selectedIndex]) {
             if (isCorrect) {
