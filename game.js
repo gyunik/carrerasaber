@@ -2268,7 +2268,7 @@ class CarreraDelSaberApp {
         if (feedbackExp) feedbackExp.textContent = '';
         if (feedbackBox) {
             feedbackBox.classList.add('hidden');
-            feedbackBox.className = 'hidden p-4 rounded-2xl border flex flex-col gap-2 mt-2';
+            feedbackBox.className = 'hidden p-3 sm:p-3.5 rounded-2xl border flex flex-col gap-1.5 mt-1 shrink-0 bg-slate-800/90 border-slate-700';
         }
 
         const modal = document.getElementById('question-modal');
@@ -2392,13 +2392,23 @@ class CarreraDelSaberApp {
                     this.confetti.fire();
                 }
 
-                feedbackBox.className = 'p-3 sm:p-3.5 rounded-2xl border-2 border-emerald-300 bg-emerald-50 text-emerald-900 flex flex-col gap-1.5 mt-1';
-                if (feedbackTitle) feedbackTitle.textContent = `¡CORRECTO! 🎉${extraMsg}`;
+                feedbackBox.className = 'p-3 sm:p-3.5 rounded-2xl border-2 border-emerald-500/60 bg-emerald-950/90 shadow-[0_0_20px_rgba(16,185,129,0.25)] flex flex-col gap-1.5 mt-1';
+                if (feedbackTitle) {
+                    feedbackTitle.className = 'font-black text-sm sm:text-base text-emerald-400';
+                    feedbackTitle.textContent = `¡CORRECTO! 🎉${extraMsg}`;
+                }
+                if (feedbackExp) {
+                    feedbackExp.className = 'text-xs sm:text-sm text-emerald-100 font-medium leading-relaxed';
+                }
             } else {
                 this.audio.playWrong();
-                feedbackBox.className = 'p-3 sm:p-3.5 rounded-2xl border-2 border-red-300 bg-red-50 text-red-900 flex flex-col gap-1.5 mt-1';
+                feedbackBox.className = 'p-3 sm:p-3.5 rounded-2xl border-2 border-rose-500/60 bg-rose-950/90 shadow-[0_0_20px_rgba(244,63,94,0.25)] flex flex-col gap-1.5 mt-1';
                 if (feedbackTitle) {
+                    feedbackTitle.className = 'font-black text-sm sm:text-base text-rose-400';
                     feedbackTitle.textContent = selectedIndex === -1 ? '¡TIEMPO AGOTADO! ⏰' : '¡INCORRECTO! ❌';
+                }
+                if (feedbackExp) {
+                    feedbackExp.className = 'text-xs sm:text-sm text-rose-100 font-medium leading-relaxed';
                 }
             }
 
