@@ -554,6 +554,230 @@ const SUBJECT_THEME_GOGETTER4 = {
     }
 };
 
+const SUBJECT_THEME_ENGLISH5 = {
+    matematica: {
+        headerBg: '#2563eb',
+        name: 'Past Perfect & Passive',
+        short: 'Pas',
+        emoji: '⏱️',
+        subtitle: 'Past Perfect & Passive Voice',
+        icon: `<svg class="w-4 h-4 text-blue-600" fill="none" viewBox="0 0 24 24"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.3"></path></svg>`,
+        activeRing: 'bg-white/90 border border-blue-200 text-blue-700 shadow-2xs'
+    },
+    lengua: {
+        headerBg: '#dc2626',
+        name: 'Second Conditional',
+        short: 'Hyp',
+        emoji: '🎒',
+        subtitle: 'Dreams, If & Hypotheticals',
+        icon: `<svg class="w-4 h-4 text-rose-500" fill="none" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.3"></path></svg>`,
+        activeRing: 'bg-white/90 border border-rose-200 text-rose-600 shadow-2xs'
+    },
+    naturales: {
+        headerBg: '#16a34a',
+        name: 'Deduction & Modals',
+        short: 'Ded',
+        emoji: '📋',
+        subtitle: 'Must be, Might, Can’t be',
+        icon: `<svg class="w-4 h-4 text-emerald-600" fill="none" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>`,
+        activeRing: 'bg-white/90 border border-emerald-200 text-emerald-700 shadow-2xs'
+    },
+    sociales: {
+        headerBg: '#ea580c',
+        name: 'Future Predictions',
+        short: 'Fut',
+        emoji: '🔮',
+        subtitle: 'Future Continuous & Science',
+        icon: `<svg class="w-4 h-4 text-amber-500" fill="none" viewBox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>`,
+        activeRing: 'bg-white/90 border border-amber-200 text-amber-700 shadow-2xs'
+    },
+    ingenio: {
+        headerBg: '#9333ea',
+        name: 'Phrasal Verbs & Vocab',
+        short: 'Phr',
+        emoji: '🧩',
+        subtitle: 'Phrasal Verbs & Word Building',
+        icon: `<svg class="w-4 h-4 text-purple-600" fill="none" viewBox="0 0 24 24"><path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>`,
+        activeRing: 'bg-white/90 border border-purple-200 text-purple-700 shadow-2xs'
+    },
+    comodin: {
+        headerBg: '#6366f1',
+        name: 'Comodín',
+        short: 'Com',
+        emoji: '🃏',
+        icon: `<span class="text-base">🃏</span>`,
+        activeRing: 'bg-gradient-to-b from-purple-50 to-indigo-100 ring-1.5 ring-indigo-400 text-indigo-700 shadow-2xs'
+    }
+};
+
+const SUBJECT_THEME_ENGLISH6 = {
+    matematica: {
+        headerBg: '#2563eb',
+        name: 'Third Conditional',
+        short: 'Con',
+        emoji: '⏱️',
+        subtitle: 'Past Regrets, Wish & If Only',
+        icon: `<svg class="w-4 h-4 text-blue-600" fill="none" viewBox="0 0 24 24"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.3"></path></svg>`,
+        activeRing: 'bg-white/90 border border-blue-200 text-blue-700 shadow-2xs'
+    },
+    lengua: {
+        headerBg: '#dc2626',
+        name: 'Reported Speech',
+        short: 'Rep',
+        emoji: '🎒',
+        subtitle: 'Indirect Speech & Questions',
+        icon: `<svg class="w-4 h-4 text-rose-500" fill="none" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.3"></path></svg>`,
+        activeRing: 'bg-white/90 border border-rose-200 text-rose-600 shadow-2xs'
+    },
+    naturales: {
+        headerBg: '#16a34a',
+        name: 'Advanced Modals',
+        short: 'Mod',
+        emoji: '📋',
+        subtitle: 'Past Modals & Speculation',
+        icon: `<svg class="w-4 h-4 text-emerald-600" fill="none" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>`,
+        activeRing: 'bg-white/90 border border-emerald-200 text-emerald-700 shadow-2xs'
+    },
+    sociales: {
+        headerBg: '#ea580c',
+        name: 'Global Issues',
+        short: 'Soc',
+        emoji: '🔮',
+        subtitle: 'Environment & Future Society',
+        icon: `<svg class="w-4 h-4 text-amber-500" fill="none" viewBox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>`,
+        activeRing: 'bg-white/90 border border-amber-200 text-amber-700 shadow-2xs'
+    },
+    ingenio: {
+        headerBg: '#9333ea',
+        name: 'Verb Patterns & Idioms',
+        short: 'Pat',
+        emoji: '🧩',
+        subtitle: 'Gerund vs Infinitive & Idioms',
+        icon: `<svg class="w-4 h-4 text-purple-600" fill="none" viewBox="0 0 24 24"><path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>`,
+        activeRing: 'bg-white/90 border border-purple-200 text-purple-700 shadow-2xs'
+    },
+    comodin: {
+        headerBg: '#6366f1',
+        name: 'Comodín',
+        short: 'Com',
+        emoji: '🃏',
+        icon: `<span class="text-base">🃏</span>`,
+        activeRing: 'bg-gradient-to-b from-purple-50 to-indigo-100 ring-1.5 ring-indigo-400 text-indigo-700 shadow-2xs'
+    }
+};
+
+const SUBJECT_THEME_ENGLISH7 = {
+    matematica: {
+        headerBg: '#2563eb',
+        name: 'Mixed Conditionals',
+        short: 'Mix',
+        emoji: '⏱️',
+        subtitle: 'Mixed Conditionals & Inversion',
+        icon: `<svg class="w-4 h-4 text-blue-600" fill="none" viewBox="0 0 24 24"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.3"></path></svg>`,
+        activeRing: 'bg-white/90 border border-blue-200 text-blue-700 shadow-2xs'
+    },
+    lengua: {
+        headerBg: '#dc2626',
+        name: 'Cleft & Emphasis',
+        short: 'Cle',
+        emoji: '🎒',
+        subtitle: 'Cleft Sentences & Emphasis',
+        icon: `<svg class="w-4 h-4 text-rose-500" fill="none" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.3"></path></svg>`,
+        activeRing: 'bg-white/90 border border-rose-200 text-rose-600 shadow-2xs'
+    },
+    naturales: {
+        headerBg: '#16a34a',
+        name: 'Past Modals',
+        short: 'Mod',
+        emoji: '📋',
+        subtitle: 'Should have & Speculation',
+        icon: `<svg class="w-4 h-4 text-emerald-600" fill="none" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>`,
+        activeRing: 'bg-white/90 border border-emerald-200 text-emerald-700 shadow-2xs'
+    },
+    sociales: {
+        headerBg: '#ea580c',
+        name: 'Debate & Culture',
+        short: 'Deb',
+        emoji: '🔮',
+        subtitle: 'Ethics, Culture & Literature',
+        icon: `<svg class="w-4 h-4 text-amber-500" fill="none" viewBox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>`,
+        activeRing: 'bg-white/90 border border-amber-200 text-amber-700 shadow-2xs'
+    },
+    ingenio: {
+        headerBg: '#9333ea',
+        name: 'Advanced Idioms',
+        short: 'Idi',
+        emoji: '🧩',
+        subtitle: 'Metaphors & Nuance',
+        icon: `<svg class="w-4 h-4 text-purple-600" fill="none" viewBox="0 0 24 24"><path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>`,
+        activeRing: 'bg-white/90 border border-purple-200 text-purple-700 shadow-2xs'
+    },
+    comodin: {
+        headerBg: '#6366f1',
+        name: 'Comodín',
+        short: 'Com',
+        emoji: '🃏',
+        icon: `<span class="text-base">🃏</span>`,
+        activeRing: 'bg-gradient-to-b from-purple-50 to-indigo-100 ring-1.5 ring-indigo-400 text-indigo-700 shadow-2xs'
+    }
+};
+
+const SUBJECT_THEME_ENGLISH8 = {
+    matematica: {
+        headerBg: '#2563eb',
+        name: 'Subjunctive & Syntax',
+        short: 'Sub',
+        emoji: '⏱️',
+        subtitle: 'Subjunctive & Advanced Syntax',
+        icon: `<svg class="w-4 h-4 text-blue-600" fill="none" viewBox="0 0 24 24"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.3"></path></svg>`,
+        activeRing: 'bg-white/90 border border-blue-200 text-blue-700 shadow-2xs'
+    },
+    lengua: {
+        headerBg: '#dc2626',
+        name: 'Discourse & Rhetoric',
+        short: 'Dis',
+        emoji: '🎒',
+        subtitle: 'Discourse Markers & Logic',
+        icon: `<svg class="w-4 h-4 text-rose-500" fill="none" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.3"></path></svg>`,
+        activeRing: 'bg-white/90 border border-rose-200 text-rose-600 shadow-2xs'
+    },
+    naturales: {
+        headerBg: '#16a34a',
+        name: 'Nuance & Precision',
+        short: 'Nua',
+        emoji: '📋',
+        subtitle: 'Formal Register & Nuance',
+        icon: `<svg class="w-4 h-4 text-emerald-600" fill="none" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>`,
+        activeRing: 'bg-white/90 border border-emerald-200 text-emerald-700 shadow-2xs'
+    },
+    sociales: {
+        headerBg: '#ea580c',
+        name: 'Rhetoric & Society',
+        short: 'Rhe',
+        emoji: '🔮',
+        subtitle: 'Philosophy & Global Rhetoric',
+        icon: `<svg class="w-4 h-4 text-amber-500" fill="none" viewBox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>`,
+        activeRing: 'bg-white/90 border border-amber-200 text-amber-700 shadow-2xs'
+    },
+    ingenio: {
+        headerBg: '#9333ea',
+        name: 'C1 Collocations',
+        short: 'Col',
+        emoji: '🧩',
+        subtitle: 'Academic Collocations & Logic',
+        icon: `<svg class="w-4 h-4 text-purple-600" fill="none" viewBox="0 0 24 24"><path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>`,
+        activeRing: 'bg-white/90 border border-purple-200 text-purple-700 shadow-2xs'
+    },
+    comodin: {
+        headerBg: '#6366f1',
+        name: 'Comodín',
+        short: 'Com',
+        emoji: '🃏',
+        icon: `<span class="text-base">🃏</span>`,
+        activeRing: 'bg-gradient-to-b from-purple-50 to-indigo-100 ring-1.5 ring-indigo-400 text-indigo-700 shadow-2xs'
+    }
+};
+
 // --- CATÁLOGO DE AVATARES DISPONIBLES ---
 const AVAILABLE_AVATARS = [
     { emoji: '🐻', name: 'Oso', bg: 'bg-amber-100', border: 'border-amber-300', gradient: 'from-amber-500 to-yellow-400' },
@@ -701,6 +925,10 @@ class CarreraDelSaberApp {
         if (grade === 'english2' || grade === 'gogetter2') return 'Inglés · Nivel 2';
         if (grade === 'english3' || grade === 'gogetter3') return 'Inglés · Nivel 3';
         if (grade === 'english4' || grade === 'gogetter4') return 'Inglés · Nivel 4';
+        if (grade === 'english5' || grade === 'gogetter5') return 'Inglés · Nivel 5';
+        if (grade === 'english6' || grade === 'gogetter6') return 'Inglés · Nivel 6';
+        if (grade === 'english7' || grade === 'gogetter7') return 'Inglés · Nivel 7';
+        if (grade === 'english8' || grade === 'gogetter8') return 'Inglés · Nivel 8';
         return `${grade}.° Grado`;
     }
 
@@ -719,12 +947,54 @@ class CarreraDelSaberApp {
             if (this.grade === 'english3' || this.grade === 'gogetter3') {
                 return SUBJECT_THEME_ENGLISH3[catKey] || SUBJECT_THEME_GOGETTER4[catKey] || SUBJECT_THEME[catKey];
             }
+            if (this.grade === 'english5' || this.grade === 'gogetter5') {
+                return SUBJECT_THEME_ENGLISH5[catKey] || SUBJECT_THEME_GOGETTER4[catKey] || SUBJECT_THEME[catKey];
+            }
+            if (this.grade === 'english6' || this.grade === 'gogetter6') {
+                return SUBJECT_THEME_ENGLISH6[catKey] || SUBJECT_THEME_GOGETTER4[catKey] || SUBJECT_THEME[catKey];
+            }
+            if (this.grade === 'english7' || this.grade === 'gogetter7') {
+                return SUBJECT_THEME_ENGLISH7[catKey] || SUBJECT_THEME_GOGETTER4[catKey] || SUBJECT_THEME[catKey];
+            }
+            if (this.grade === 'english8' || this.grade === 'gogetter8') {
+                return SUBJECT_THEME_ENGLISH8[catKey] || SUBJECT_THEME_GOGETTER4[catKey] || SUBJECT_THEME[catKey];
+            }
             return SUBJECT_THEME_GOGETTER4[catKey] || SUBJECT_THEME[catKey];
         }
         return SUBJECT_THEME[catKey];
     }
 
     bindEvents() {
+        // Controles de Carrusel (Primaria e Inglés)
+        const primaryGroup = document.getElementById('primary-grade-group');
+        const englishGroup = document.getElementById('english-level-group');
+
+        const btnPrevPrim = document.getElementById('btn-prev-primary');
+        const btnNextPrim = document.getElementById('btn-next-primary');
+        if (btnPrevPrim && primaryGroup) {
+            btnPrevPrim.addEventListener('click', () => {
+                primaryGroup.scrollBy({ left: -220, behavior: 'smooth' });
+            });
+        }
+        if (btnNextPrim && primaryGroup) {
+            btnNextPrim.addEventListener('click', () => {
+                primaryGroup.scrollBy({ left: 220, behavior: 'smooth' });
+            });
+        }
+
+        const btnPrevEng = document.getElementById('btn-prev-english');
+        const btnNextEng = document.getElementById('btn-next-english');
+        if (btnPrevEng && englishGroup) {
+            btnPrevEng.addEventListener('click', () => {
+                englishGroup.scrollBy({ left: -240, behavior: 'smooth' });
+            });
+        }
+        if (btnNextEng && englishGroup) {
+            btnNextEng.addEventListener('click', () => {
+                englishGroup.scrollBy({ left: 240, behavior: 'smooth' });
+            });
+        }
+
         // 1. Selector de Grado o Nivel
         document.querySelectorAll('.grade-btn').forEach(btn => {
             btn.addEventListener('click', () => {
@@ -755,6 +1025,9 @@ class CarreraDelSaberApp {
                     activeNum.classList.add('text-blue-600');
                     activeNum.classList.remove('text-slate-700');
                 }
+
+                // Centrar suavemente en el carrusel
+                btn.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
 
                 const raw = btn.dataset.grade;
                 this.grade = (raw.startsWith('english') || raw.startsWith('gogetter')) ? raw : parseInt(raw);

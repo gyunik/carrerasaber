@@ -52555,6 +52555,14009 @@ const QUESTIONS_DATA = [
         "explanation": "Una estampilla postal ('postage stamp') viaja por todo el mundo pegada en la esquina del sobre.",
         "id": "q_eng3_ingenio_50"
     }
+    ,
+    {
+        "grade": "english5",
+        "category": "matematica",
+        "question": "By the time we arrived at the cinema, the film _______ already started.",
+        "options": [
+            "had",
+            "has",
+            "was",
+            "would"
+        ],
+        "correct": 0,
+        "explanation": "El Past Perfect ('had started') se utiliza para una acción que ocurrió antes de otro momento en el pasado.",
+        "id": "q_eng5_matematica_1"
+    },
+    {
+        "grade": "english5",
+        "category": "matematica",
+        "question": "She didn't want to eat dinner because she _______ a big snack an hour earlier.",
+        "options": [
+            "had had",
+            "had have",
+            "has had",
+            "was having"
+        ],
+        "correct": 0,
+        "explanation": "El Past Perfect del verbo 'have' es 'had had' (había tenido/comido).",
+        "id": "q_eng5_matematica_2"
+    },
+    {
+        "grade": "english5",
+        "category": "matematica",
+        "question": "When I turned on the television, the football match _______ already finished.",
+        "options": [
+            "had",
+            "has",
+            "was",
+            "did"
+        ],
+        "correct": 0,
+        "explanation": "La acción previa concluida se expresa con 'had already finished'.",
+        "id": "q_eng5_matematica_3"
+    },
+    {
+        "grade": "english5",
+        "category": "matematica",
+        "question": "He couldn't unlock the front door because he _______ his keys at the office.",
+        "options": [
+            "had left",
+            "has left",
+            "was leaving",
+            "lefted"
+        ],
+        "correct": 0,
+        "explanation": "Dejar las llaves ocurrió con anterioridad a no poder abrir: 'had left'.",
+        "id": "q_eng5_matematica_4"
+    },
+    {
+        "grade": "english5",
+        "category": "matematica",
+        "question": "They _______ never seen such a magnificent waterfall before visiting Iguazú.",
+        "options": [
+            "had",
+            "have",
+            "were",
+            "did"
+        ],
+        "correct": 0,
+        "explanation": "Con referencia a una experiencia previa a un viaje pasado se usa 'had never seen'.",
+        "id": "q_eng5_matematica_5"
+    },
+    {
+        "grade": "english5",
+        "category": "matematica",
+        "question": "By the time the firefighter arrived, the neighbours _______ extinguished the fire.",
+        "options": [
+            "had",
+            "have",
+            "were",
+            "did"
+        ],
+        "correct": 0,
+        "explanation": "'By the time' rige Past Simple en su cláusula y Past Perfect ('had extinguished') en la principal.",
+        "id": "q_eng5_matematica_6"
+    },
+    {
+        "grade": "english5",
+        "category": "matematica",
+        "question": "I recognized Anna immediately because I _______ her photographs before.",
+        "options": [
+            "had seen",
+            "have seen",
+            "was seeing",
+            "saw"
+        ],
+        "correct": 0,
+        "explanation": "Haber visto las fotos con anterioridad fundamenta el reconocimiento: 'had seen'.",
+        "id": "q_eng5_matematica_7"
+    },
+    {
+        "grade": "english5",
+        "category": "matematica",
+        "question": "The train _______ left the station before we reached the platform.",
+        "options": [
+            "had already",
+            "already had",
+            "has already",
+            "was already"
+        ],
+        "correct": 0,
+        "explanation": "'Had already left' expresa que el tren ya se había marchado antes de llegar al andén.",
+        "id": "q_eng5_matematica_8"
+    },
+    {
+        "grade": "english5",
+        "category": "matematica",
+        "question": "She was very nervous during the flight because she _______ never flown before.",
+        "options": [
+            "had",
+            "has",
+            "was",
+            "did"
+        ],
+        "correct": 0,
+        "explanation": "No haber volado nunca antes de ese vuelo pasado: 'had never flown'.",
+        "id": "q_eng5_matematica_9"
+    },
+    {
+        "grade": "english5",
+        "category": "matematica",
+        "question": "After they _______ their exams, they celebrated with a pizza party.",
+        "options": [
+            "had finished",
+            "have finished",
+            "finish",
+            "are finishing"
+        ],
+        "correct": 0,
+        "explanation": "'After they had finished' enfatiza que la fiesta ocurrió tras concluir los exámenes.",
+        "id": "q_eng5_matematica_10"
+    },
+    {
+        "grade": "english5",
+        "category": "matematica",
+        "question": "We had cleaned the entire house _______ the guests arrived.",
+        "options": [
+            "before",
+            "after",
+            "while",
+            "during"
+        ],
+        "correct": 0,
+        "explanation": "'Before' (antes de que) conecta la acción completada en Past Perfect con el evento posterior en Past Simple.",
+        "id": "q_eng5_matematica_11"
+    },
+    {
+        "grade": "english5",
+        "category": "matematica",
+        "question": "By _______ o'clock yesterday evening, Lucas had finished his university essay.",
+        "options": [
+            "eight",
+            "eightth",
+            "eightly",
+            "the eight"
+        ],
+        "correct": 0,
+        "explanation": "'By eight o'clock' (hacia las ocho / para las ocho) es la expresión temporal con 'by'.",
+        "id": "q_eng5_matematica_12"
+    },
+    {
+        "grade": "english5",
+        "category": "matematica",
+        "question": "_______ the time the doctor entered the room, the patient had fallen asleep.",
+        "options": [
+            "By",
+            "At",
+            "On",
+            "In"
+        ],
+        "correct": 0,
+        "explanation": "La locución conjuntiva es 'By the time' (para cuando / en el momento en que).",
+        "id": "q_eng5_matematica_13"
+    },
+    {
+        "grade": "english5",
+        "category": "matematica",
+        "question": "The streets were flooded because it _______ raining heavily all night.",
+        "options": [
+            "had been",
+            "has been",
+            "was being",
+            "is"
+        ],
+        "correct": 0,
+        "explanation": "Past Perfect Continuous ('had been raining') explica la causa de las calles anegadas.",
+        "id": "q_eng5_matematica_14"
+    },
+    {
+        "grade": "english5",
+        "category": "matematica",
+        "question": "He didn't know the answer because he _______ paid attention to the explanation.",
+        "options": [
+            "hadn't",
+            "hasn't",
+            "wasn't",
+            "didn't"
+        ],
+        "correct": 0,
+        "explanation": "La negación en Past Perfect es 'hadn't paid'.",
+        "id": "q_eng5_matematica_15"
+    },
+    {
+        "grade": "english5",
+        "category": "matematica",
+        "question": "Had you ever _______ that museum before yesterday's school trip?",
+        "options": [
+            "visited",
+            "visiting",
+            "visit",
+            "visites"
+        ],
+        "correct": 0,
+        "explanation": "Estructura interrogativa en Past Perfect: Had + sujeto + ever + participio ('visited').",
+        "id": "q_eng5_matematica_16"
+    },
+    {
+        "grade": "english5",
+        "category": "matematica",
+        "question": "She realized she had _______ her passport at home when she reached the airport.",
+        "options": [
+            "forgotten",
+            "forgot",
+            "forget",
+            "forgetting"
+        ],
+        "correct": 0,
+        "explanation": "El participio pasado del verbo 'forget' es 'forgotten'.",
+        "id": "q_eng5_matematica_17"
+    },
+    {
+        "grade": "english5",
+        "category": "matematica",
+        "question": "They had already eaten lunch _______ their friends invited them to the cafe.",
+        "options": [
+            "when",
+            "while",
+            "during",
+            "since"
+        ],
+        "correct": 0,
+        "explanation": "'When' introduce la acción que sobrevino tras el almuerzo previo.",
+        "id": "q_eng5_matematica_18"
+    },
+    {
+        "grade": "english5",
+        "category": "matematica",
+        "question": "By 2020, the company _______ opened five new branches in Latin America.",
+        "options": [
+            "had",
+            "has",
+            "was",
+            "did"
+        ],
+        "correct": 0,
+        "explanation": "Para un hito cronológico anterior ('By 2020') se usa Past Perfect: 'had opened'.",
+        "id": "q_eng5_matematica_19"
+    },
+    {
+        "grade": "english5",
+        "category": "matematica",
+        "question": "Hardly had I closed my eyes _______ the alarm clock started ringing.",
+        "options": [
+            "when",
+            "than",
+            "after",
+            "while"
+        ],
+        "correct": 0,
+        "explanation": "La correlación temporal enfática con 'Hardly had I...' se completa con 'when'.",
+        "id": "q_eng5_matematica_20"
+    },
+    {
+        "grade": "english5",
+        "category": "matematica",
+        "question": "English _______ spoken by millions of people across the globe.",
+        "options": [
+            "is",
+            "are",
+            "was",
+            "were"
+        ],
+        "correct": 0,
+        "explanation": "En Present Simple pasivo con sujeto singular incontable ('English') se usa 'is spoken'.",
+        "id": "q_eng5_matematica_21"
+    },
+    {
+        "grade": "english5",
+        "category": "matematica",
+        "question": "Millions of emails _______ sent every minute around the world.",
+        "options": [
+            "are",
+            "is",
+            "were",
+            "have"
+        ],
+        "correct": 0,
+        "explanation": "Con sujeto plural ('Millions of emails') la voz pasiva presente requiere 'are sent'.",
+        "id": "q_eng5_matematica_22"
+    },
+    {
+        "grade": "english5",
+        "category": "matematica",
+        "question": "Coffee _______ grown in tropical countries like Brazil and Colombia.",
+        "options": [
+            "is",
+            "are",
+            "was",
+            "has"
+        ],
+        "correct": 0,
+        "explanation": "El café es cultivado: 'Coffee is grown' (grow - grew - grown).",
+        "id": "q_eng5_matematica_23"
+    },
+    {
+        "grade": "english5",
+        "category": "matematica",
+        "question": "Plastic bottles _______ recycled at this modern eco-processing plant.",
+        "options": [
+            "are",
+            "is",
+            "was",
+            "been"
+        ],
+        "correct": 0,
+        "explanation": "Con sujeto plural pasivo se emplea 'are recycled'.",
+        "id": "q_eng5_matematica_24"
+    },
+    {
+        "grade": "english5",
+        "category": "matematica",
+        "question": "The museum _______ visited by thousands of international tourists each week.",
+        "options": [
+            "is",
+            "are",
+            "has",
+            "was"
+        ],
+        "correct": 0,
+        "explanation": "'The museum' es singular, por lo que lleva 'is visited'.",
+        "id": "q_eng5_matematica_25"
+    },
+    {
+        "grade": "english5",
+        "category": "matematica",
+        "question": "How often _______ your bedroom cleaned?",
+        "options": [
+            "is",
+            "are",
+            "does",
+            "do"
+        ],
+        "correct": 0,
+        "explanation": "Pregunta pasiva en presente: Wh-word + is + sujeto + participio ('is your bedroom cleaned?').",
+        "id": "q_eng5_matematica_26"
+    },
+    {
+        "grade": "english5",
+        "category": "matematica",
+        "question": "Smartphones _______ used for communication, education and entertainment.",
+        "options": [
+            "are",
+            "is",
+            "was",
+            "have"
+        ],
+        "correct": 0,
+        "explanation": "Sujeto plural pasivo: 'Smartphones are used'.",
+        "id": "q_eng5_matematica_27"
+    },
+    {
+        "grade": "english5",
+        "category": "matematica",
+        "question": "This car _______ manufactured in Germany.",
+        "options": [
+            "is",
+            "are",
+            "were",
+            "has"
+        ],
+        "correct": 0,
+        "explanation": "Sujeto singular en pasiva de proceso industrial habitual: 'is manufactured'.",
+        "id": "q_eng5_matematica_28"
+    },
+    {
+        "grade": "english5",
+        "category": "matematica",
+        "question": "Grapes _______ harvested in autumn to produce quality wine.",
+        "options": [
+            "are",
+            "is",
+            "was",
+            "have"
+        ],
+        "correct": 0,
+        "explanation": "Con 'grapes' (uvas, plural) se utiliza 'are harvested'.",
+        "id": "q_eng5_matematica_29"
+    },
+    {
+        "grade": "english5",
+        "category": "matematica",
+        "question": "Spanish _______ taught as a foreign language in many British secondary schools.",
+        "options": [
+            "is",
+            "are",
+            "was",
+            "does"
+        ],
+        "correct": 0,
+        "explanation": "El idioma español es enseñado: 'Spanish is taught' (teach - taught - taught).",
+        "id": "q_eng5_matematica_30"
+    },
+    {
+        "grade": "english5",
+        "category": "matematica",
+        "question": "The telephone _______ invented by Alexander Graham Bell in 1876.",
+        "options": [
+            "was",
+            "were",
+            "is",
+            "has been"
+        ],
+        "correct": 0,
+        "explanation": "En Past Simple pasivo con sujeto singular se usa 'was invented'.",
+        "id": "q_eng5_matematica_31"
+    },
+    {
+        "grade": "english5",
+        "category": "matematica",
+        "question": "The pyramids of Egypt _______ built thousands of years ago.",
+        "options": [
+            "were",
+            "was",
+            "are",
+            "have been"
+        ],
+        "correct": 0,
+        "explanation": "Con sujeto plural histórico ('The pyramids') corresponde 'were built'.",
+        "id": "q_eng5_matematica_32"
+    },
+    {
+        "grade": "english5",
+        "category": "matematica",
+        "question": "Romeo and Juliet _______ written by William Shakespeare.",
+        "options": [
+            "was",
+            "were",
+            "is",
+            "has been"
+        ],
+        "correct": 0,
+        "explanation": "Aludiendo a la obra dramática en singular se emplea 'was written'.",
+        "id": "q_eng5_matematica_33"
+    },
+    {
+        "grade": "english5",
+        "category": "matematica",
+        "question": "The stolen paintings _______ recovered by the police two days later.",
+        "options": [
+            "were",
+            "was",
+            "are",
+            "been"
+        ],
+        "correct": 0,
+        "explanation": "Con sujeto plural ('The stolen paintings') se usa 'were recovered'.",
+        "id": "q_eng5_matematica_34"
+    },
+    {
+        "grade": "english5",
+        "category": "matematica",
+        "question": "Penicillin _______ discovered accidentally by Alexander Fleming in 1928.",
+        "options": [
+            "was",
+            "were",
+            "is",
+            "did"
+        ],
+        "correct": 0,
+        "explanation": "Descubrimiento histórico puntual singular: 'was discovered'.",
+        "id": "q_eng5_matematica_35"
+    },
+    {
+        "grade": "english5",
+        "category": "matematica",
+        "question": "The letters _______ delivered yesterday afternoon by the postal worker.",
+        "options": [
+            "were",
+            "was",
+            "are",
+            "have"
+        ],
+        "correct": 0,
+        "explanation": "Las cartas fueron entregadas: 'were delivered'.",
+        "id": "q_eng5_matematica_36"
+    },
+    {
+        "grade": "english5",
+        "category": "matematica",
+        "question": "Where _______ the ancient Roman coins found?",
+        "options": [
+            "were",
+            "was",
+            "did",
+            "are"
+        ],
+        "correct": 0,
+        "explanation": "Pregunta pasiva en pasado con sujeto plural: 'Where were the coins found?'.",
+        "id": "q_eng5_matematica_37"
+    },
+    {
+        "grade": "english5",
+        "category": "matematica",
+        "question": "The electric guitar _______ designed in the 1930s.",
+        "options": [
+            "was",
+            "were",
+            "is",
+            "has"
+        ],
+        "correct": 0,
+        "explanation": "Instrumento singular en pasado pasivo: 'was designed'.",
+        "id": "q_eng5_matematica_38"
+    },
+    {
+        "grade": "english5",
+        "category": "matematica",
+        "question": "Hundreds of new trees _______ planted in the city park last spring.",
+        "options": [
+            "were",
+            "was",
+            "are",
+            "have"
+        ],
+        "correct": 0,
+        "explanation": "Sujeto plural en pasado pasivo: 'were planted'.",
+        "id": "q_eng5_matematica_39"
+    },
+    {
+        "grade": "english5",
+        "category": "matematica",
+        "question": "America _______ not named after Columbus, but after Amerigo Vespucci.",
+        "options": [
+            "was",
+            "were",
+            "is",
+            "did"
+        ],
+        "correct": 0,
+        "explanation": "Negación pasiva en pasado: 'America was not named after Columbus'.",
+        "id": "q_eng5_matematica_40"
+    },
+    {
+        "grade": "english5",
+        "category": "matematica",
+        "question": "The Mona Lisa was painted _______ Leonardo da Vinci.",
+        "options": [
+            "by",
+            "with",
+            "from",
+            "for"
+        ],
+        "correct": 0,
+        "explanation": "La preposición 'by' introduce el agente que realizó la acción en la voz pasiva.",
+        "id": "q_eng5_matematica_41"
+    },
+    {
+        "grade": "english5",
+        "category": "matematica",
+        "question": "This delicious bread was made _______ organic flour and seeds.",
+        "options": [
+            "with",
+            "by",
+            "of",
+            "from"
+        ],
+        "correct": 0,
+        "explanation": "Se utiliza 'with' para indicar los ingredientes o herramientas empleadas.",
+        "id": "q_eng5_matematica_42"
+    },
+    {
+        "grade": "english5",
+        "category": "matematica",
+        "question": "Who was the television invented _______?",
+        "options": [
+            "by",
+            "with",
+            "from",
+            "to"
+        ],
+        "correct": 0,
+        "explanation": "En preguntas de autoría pasiva 'by' se coloca habitualmente al final de la frase.",
+        "id": "q_eng5_matematica_43"
+    },
+    {
+        "grade": "english5",
+        "category": "matematica",
+        "question": "The championship trophy was presented _______ the team captain.",
+        "options": [
+            "to",
+            "by",
+            "at",
+            "with"
+        ],
+        "correct": 0,
+        "explanation": "El trofeo fue entregado al capitán: 'presented to the team captain'.",
+        "id": "q_eng5_matematica_44"
+    },
+    {
+        "grade": "english5",
+        "category": "matematica",
+        "question": "When _______ the first modern Olympic Games held?",
+        "options": [
+            "were",
+            "was",
+            "did",
+            "are"
+        ],
+        "correct": 0,
+        "explanation": "'The Olympic Games' es una expresión plural: 'When were the Games held?'.",
+        "id": "q_eng5_matematica_45"
+    },
+    {
+        "grade": "english5",
+        "category": "matematica",
+        "question": "All the invitations _______ already been sent out.",
+        "options": [
+            "have",
+            "has",
+            "were",
+            "had"
+        ],
+        "correct": 0,
+        "explanation": "Voz pasiva en Present Perfect con sujeto plural: 'have already been sent'.",
+        "id": "q_eng5_matematica_46"
+    },
+    {
+        "grade": "english5",
+        "category": "matematica",
+        "question": "The bridge was damaged _______ a violent tropical storm.",
+        "options": [
+            "by",
+            "with",
+            "from",
+            "for"
+        ],
+        "correct": 0,
+        "explanation": "El fenómeno natural causante actúa como agente introducido por 'by'.",
+        "id": "q_eng5_matematica_47"
+    },
+    {
+        "grade": "english5",
+        "category": "matematica",
+        "question": "Is French _______ in Canada alongside English?",
+        "options": [
+            "spoken",
+            "spoke",
+            "speaking",
+            "speaks"
+        ],
+        "correct": 0,
+        "explanation": "Participio pasado del verbo 'speak' en la pregunta pasiva: 'spoken'.",
+        "id": "q_eng5_matematica_48"
+    },
+    {
+        "grade": "english5",
+        "category": "matematica",
+        "question": "The new shopping mall _______ opened by the city mayor yesterday.",
+        "options": [
+            "was",
+            "were",
+            "is",
+            "has"
+        ],
+        "correct": 0,
+        "explanation": "Inauguración singular en pasado: 'was opened'.",
+        "id": "q_eng5_matematica_49"
+    },
+    {
+        "grade": "english5",
+        "category": "matematica",
+        "question": "This film was directed _______ Steven Spielberg.",
+        "options": [
+            "by",
+            "with",
+            "from",
+            "about"
+        ],
+        "correct": 0,
+        "explanation": "Dirección cinematográfica introducida por 'by'.",
+        "id": "q_eng5_matematica_50"
+    },
+    {
+        "grade": "english5",
+        "category": "lengua",
+        "question": "If I won a million dollars, I _______ travel around the world.",
+        "options": [
+            "would",
+            "will",
+            "can",
+            "am"
+        ],
+        "correct": 0,
+        "explanation": "En el Second Conditional la estructura es: If + past simple, would + infinitivo.",
+        "id": "q_eng5_lengua_1"
+    },
+    {
+        "grade": "english5",
+        "category": "lengua",
+        "question": "If she _______ more free time, she would take piano lessons.",
+        "options": [
+            "had",
+            "has",
+            "will have",
+            "have"
+        ],
+        "correct": 0,
+        "explanation": "En la cláusula con 'If' del Second Conditional se usa Past Simple: 'had'.",
+        "id": "q_eng5_lengua_2"
+    },
+    {
+        "grade": "english5",
+        "category": "lengua",
+        "question": "What would you do if you _______ a lost wallet in the street?",
+        "options": [
+            "found",
+            "find",
+            "will find",
+            "have found"
+        ],
+        "correct": 0,
+        "explanation": "Condición hipotética imaginaria: 'if you found'.",
+        "id": "q_eng5_lengua_3"
+    },
+    {
+        "grade": "english5",
+        "category": "lengua",
+        "question": "If I _______ a bird, I would fly above the highest clouds.",
+        "options": [
+            "were",
+            "am",
+            "will be",
+            "would be"
+        ],
+        "correct": 0,
+        "explanation": "En situaciones hipotéticas e irreales en inglés formal se prefiere 'were' para todas las personas.",
+        "id": "q_eng5_lengua_4"
+    },
+    {
+        "grade": "english5",
+        "category": "lengua",
+        "question": "If they lived closer to the ocean, they _______ surf every weekend.",
+        "options": [
+            "would",
+            "will",
+            "can",
+            "shall"
+        ],
+        "correct": 0,
+        "explanation": "Resultado hipotético con 'would surf'.",
+        "id": "q_eng5_lengua_5"
+    },
+    {
+        "grade": "english5",
+        "category": "lengua",
+        "question": "If he practiced more, he _______ be a brilliant guitar player.",
+        "options": [
+            "could",
+            "can",
+            "will",
+            "shall"
+        ],
+        "correct": 0,
+        "explanation": "'Could' puede utilizarse en el Second Conditional para indicar habilidad potencial hipotética.",
+        "id": "q_eng5_lengua_6"
+    },
+    {
+        "grade": "english5",
+        "category": "lengua",
+        "question": "Where would you travel if you _______ choose any country on Earth?",
+        "options": [
+            "could",
+            "can",
+            "will can",
+            "are able"
+        ],
+        "correct": 0,
+        "explanation": "El pasado modal hipotético de 'can' en la cláusula condicional es 'could'.",
+        "id": "q_eng5_lengua_7"
+    },
+    {
+        "grade": "english5",
+        "category": "lengua",
+        "question": "If we _______ have school on Mondays, our weekends would be longer.",
+        "options": [
+            "didn't",
+            "don't",
+            "won't",
+            "haven't"
+        ],
+        "correct": 0,
+        "explanation": "La negación en la cláusula con 'if' del Second Conditional se forma con 'didn't'.",
+        "id": "q_eng5_lengua_8"
+    },
+    {
+        "grade": "english5",
+        "category": "lengua",
+        "question": "She _______ buy that designer jacket if it were less expensive.",
+        "options": [
+            "would",
+            "will",
+            "can",
+            "must"
+        ],
+        "correct": 0,
+        "explanation": "La consecuencia hipotética lleva 'would buy'.",
+        "id": "q_eng5_lengua_9"
+    },
+    {
+        "grade": "english5",
+        "category": "lengua",
+        "question": "If you _______ speak five languages fluently, which ones would you choose?",
+        "options": [
+            "could",
+            "can",
+            "will",
+            "would"
+        ],
+        "correct": 0,
+        "explanation": "Hipótesis de habilidad: 'If you could speak...'.",
+        "id": "q_eng5_lengua_10"
+    },
+    {
+        "grade": "english5",
+        "category": "lengua",
+        "question": "If I _______ you, I would apologize to your friend immediately.",
+        "options": [
+            "were",
+            "was",
+            "am",
+            "would be"
+        ],
+        "correct": 0,
+        "explanation": "La fórmula idiomática consagrada para dar consejos es 'If I were you, I would...'.",
+        "id": "q_eng5_lengua_11"
+    },
+    {
+        "grade": "english5",
+        "category": "lengua",
+        "question": "If I were in your shoes, I _______ accept that fantastic job offer.",
+        "options": [
+            "would",
+            "will",
+            "can",
+            "shall"
+        ],
+        "correct": 0,
+        "explanation": "'If I were in your shoes' (si estuviera en tu lugar) se complementa con 'would accept'.",
+        "id": "q_eng5_lengua_12"
+    },
+    {
+        "grade": "english5",
+        "category": "lengua",
+        "question": "I wouldn't stay up so late before the exam if I _______ you.",
+        "options": [
+            "were",
+            "am",
+            "will be",
+            "had"
+        ],
+        "correct": 0,
+        "explanation": "Estructura condicional de consejo: 'if I were you'.",
+        "id": "q_eng5_lengua_13"
+    },
+    {
+        "grade": "english5",
+        "category": "lengua",
+        "question": "If I were you, I _______ see a doctor about that persistent cough.",
+        "options": [
+            "would",
+            "will",
+            "can",
+            "shall"
+        ],
+        "correct": 0,
+        "explanation": "Consejo de salud con Second Conditional: 'I would see a doctor'.",
+        "id": "q_eng5_lengua_14"
+    },
+    {
+        "grade": "english5",
+        "category": "lengua",
+        "question": "If you _______ in my position, what decision would you make?",
+        "options": [
+            "were",
+            "are",
+            "will be",
+            "have been"
+        ],
+        "correct": 0,
+        "explanation": "Pregunta empática sobre una situación hipotética: 'If you were in my position...'.",
+        "id": "q_eng5_lengua_15"
+    },
+    {
+        "grade": "english5",
+        "category": "lengua",
+        "question": "I wouldn't touch that stray dog if I _______ you.",
+        "options": [
+            "were",
+            "am",
+            "was",
+            "be"
+        ],
+        "correct": 0,
+        "explanation": "Consejo preventivo: 'if I were you'.",
+        "id": "q_eng5_lengua_16"
+    },
+    {
+        "grade": "english5",
+        "category": "lengua",
+        "question": "If I were you, I _______ save part of your monthly pocket money.",
+        "options": [
+            "would",
+            "will",
+            "can",
+            "may"
+        ],
+        "correct": 0,
+        "explanation": "Recomendación financiera: 'I would save...'.",
+        "id": "q_eng5_lengua_17"
+    },
+    {
+        "grade": "english5",
+        "category": "lengua",
+        "question": "If she _______ you, she would take that exciting opportunity without hesitation.",
+        "options": [
+            "were",
+            "was",
+            "is",
+            "be"
+        ],
+        "correct": 0,
+        "explanation": "Forma de subjuntivo pasado 'were' para aconsejar en tercera persona.",
+        "id": "q_eng5_lengua_18"
+    },
+    {
+        "grade": "english5",
+        "category": "lengua",
+        "question": "What would you do if someone _______ your secret to the whole class?",
+        "options": [
+            "told",
+            "tells",
+            "will tell",
+            "has told"
+        ],
+        "correct": 0,
+        "explanation": "Segunda condicional hipotética: 'if someone told'.",
+        "id": "q_eng5_lengua_19"
+    },
+    {
+        "grade": "english5",
+        "category": "lengua",
+        "question": "If I had a spaceship, I _______ fly to Jupiter's moons.",
+        "options": [
+            "would",
+            "will",
+            "can",
+            "shall"
+        ],
+        "correct": 0,
+        "explanation": "Fantasía hipotética con 'would fly'.",
+        "id": "q_eng5_lengua_20"
+    },
+    {
+        "grade": "english5",
+        "category": "lengua",
+        "question": "If we had a car, we _______ visit our cousins more often.",
+        "options": [
+            "could",
+            "can",
+            "will",
+            "shall"
+        ],
+        "correct": 0,
+        "explanation": "'Could' indica la capacidad o posibilidad que tendríamos de visitarlos.",
+        "id": "q_eng5_lengua_21"
+    },
+    {
+        "grade": "english5",
+        "category": "lengua",
+        "question": "If it snowed tomorrow, we _______ build a snowman in the park.",
+        "options": [
+            "might",
+            "will",
+            "must",
+            "can"
+        ],
+        "correct": 0,
+        "explanation": "'Might' expresa una posibilidad tentativa en el Second Conditional.",
+        "id": "q_eng5_lengua_22"
+    },
+    {
+        "grade": "english5",
+        "category": "lengua",
+        "question": "If you asked your teacher politely, she _______ give you an extension.",
+        "options": [
+            "might",
+            "will",
+            "shall",
+            "can"
+        ],
+        "correct": 0,
+        "explanation": "Posibilidad probable en el resultado hipotético: 'might give'.",
+        "id": "q_eng5_lengua_23"
+    },
+    {
+        "grade": "english5",
+        "category": "lengua",
+        "question": "If he took tennis lessons, he _______ become a professional player.",
+        "options": [
+            "could",
+            "can",
+            "will",
+            "shall"
+        ],
+        "correct": 0,
+        "explanation": "Potencial latente expresado con 'could become'.",
+        "id": "q_eng5_lengua_24"
+    },
+    {
+        "grade": "english5",
+        "category": "lengua",
+        "question": "If we saved more money, we _______ afford a trip to Europe.",
+        "options": [
+            "might be able to",
+            "will be able to",
+            "can",
+            "are able to"
+        ],
+        "correct": 0,
+        "explanation": "Expresar una posibilidad futura hipotética: 'might be able to afford'.",
+        "id": "q_eng5_lengua_25"
+    },
+    {
+        "grade": "english5",
+        "category": "lengua",
+        "question": "If she _______ the truth, everyone would be very surprised.",
+        "options": [
+            "told",
+            "tells",
+            "will tell",
+            "telling"
+        ],
+        "correct": 0,
+        "explanation": "Cláusula de condición en pasado: 'If she told the truth'.",
+        "id": "q_eng5_lengua_26"
+    },
+    {
+        "grade": "english5",
+        "category": "lengua",
+        "question": "If they were hungry, they _______ eat some fruit from the bowl.",
+        "options": [
+            "could",
+            "can",
+            "will",
+            "shall"
+        ],
+        "correct": 0,
+        "explanation": "Sugerencia hipotética: 'they could eat'.",
+        "id": "q_eng5_lengua_27"
+    },
+    {
+        "grade": "english5",
+        "category": "lengua",
+        "question": "I might buy that video game if it _______ on sale next week.",
+        "options": [
+            "were",
+            "is",
+            "will be",
+            "has been"
+        ],
+        "correct": 0,
+        "explanation": "Condición hipotética con 'were on sale'.",
+        "id": "q_eng5_lengua_28"
+    },
+    {
+        "grade": "english5",
+        "category": "lengua",
+        "question": "If you didn't have to work tomorrow, what _______ you do?",
+        "options": [
+            "would",
+            "will",
+            "can",
+            "do"
+        ],
+        "correct": 0,
+        "explanation": "Interrogación en Second Conditional: 'what would you do?'.",
+        "id": "q_eng5_lengua_29"
+    },
+    {
+        "grade": "english5",
+        "category": "lengua",
+        "question": "If animals _______ talk, humans would learn fascinating things about nature.",
+        "options": [
+            "could",
+            "can",
+            "will",
+            "shall"
+        ],
+        "correct": 0,
+        "explanation": "Habilidad hipotética imposible en la condición: 'If animals could talk'.",
+        "id": "q_eng5_lengua_30"
+    },
+    {
+        "grade": "english5",
+        "category": "lengua",
+        "question": "I have so much homework tonight. I wish I _______ more free time.",
+        "options": [
+            "had",
+            "have",
+            "will have",
+            "would have"
+        ],
+        "correct": 0,
+        "explanation": "'Wish' para un deseo sobre una situación presente requiere Past Simple: 'I wish I had'.",
+        "id": "q_eng5_lengua_31"
+    },
+    {
+        "grade": "english5",
+        "category": "lengua",
+        "question": "I wish it _______ raining so we could play football outside.",
+        "options": [
+            "would stop",
+            "stops",
+            "will stop",
+            "has stopped"
+        ],
+        "correct": 0,
+        "explanation": "Se utiliza 'wish + would + verbo' para expresar el deseo de que una situación molesta cambie.",
+        "id": "q_eng5_lengua_32"
+    },
+    {
+        "grade": "english5",
+        "category": "lengua",
+        "question": "I hope you _______ your driving test tomorrow morning!",
+        "options": [
+            "pass",
+            "passed",
+            "would pass",
+            "had passed"
+        ],
+        "correct": 0,
+        "explanation": "A diferencia de wish, 'hope' expresa un deseo realizable y va con presente simple: 'hope you pass'.",
+        "id": "q_eng5_lengua_33"
+    },
+    {
+        "grade": "english5",
+        "category": "lengua",
+        "question": "She wishes she _______ speak Italian like her grandmother.",
+        "options": [
+            "could",
+            "can",
+            "will",
+            "would"
+        ],
+        "correct": 0,
+        "explanation": "Deseo sobre una habilidad personal en presente: 'wishes she could speak'.",
+        "id": "q_eng5_lengua_34"
+    },
+    {
+        "grade": "english5",
+        "category": "lengua",
+        "question": "I wish my bedroom _______ bigger; there isn't enough space for my desk.",
+        "options": [
+            "were",
+            "is",
+            "will be",
+            "would be"
+        ],
+        "correct": 0,
+        "explanation": "Deseo sobre un estado presente: 'I wish my bedroom were bigger'.",
+        "id": "q_eng5_lengua_35"
+    },
+    {
+        "grade": "english5",
+        "category": "lengua",
+        "question": "I hope the weather _______ sunny for our school trip on Friday.",
+        "options": [
+            "is",
+            "was",
+            "were",
+            "would be"
+        ],
+        "correct": 0,
+        "explanation": "Con 'hope' referido a un evento futuro se utiliza presente simple: 'hope the weather is'.",
+        "id": "q_eng5_lengua_36"
+    },
+    {
+        "grade": "english5",
+        "category": "lengua",
+        "question": "Lucas wishes he _______ have to wake up at six every morning.",
+        "options": [
+            "didn't",
+            "doesn't",
+            "won't",
+            "wouldn't"
+        ],
+        "correct": 0,
+        "explanation": "Deseo negativo sobre una obligación presente: 'wishes he didn't have to'.",
+        "id": "q_eng5_lengua_37"
+    },
+    {
+        "grade": "english5",
+        "category": "lengua",
+        "question": "I hope we _______ late for the flight; traffic is heavy.",
+        "options": [
+            "aren't",
+            "weren't",
+            "wouldn't be",
+            "hadn't been"
+        ],
+        "correct": 0,
+        "explanation": "Con 'hope' en presente: 'I hope we aren't late'.",
+        "id": "q_eng5_lengua_38"
+    },
+    {
+        "grade": "english5",
+        "category": "lengua",
+        "question": "They wish they _______ in a quiet countryside village.",
+        "options": [
+            "lived",
+            "live",
+            "will live",
+            "are living"
+        ],
+        "correct": 0,
+        "explanation": "Deseo sobre el lugar de residencia: 'wish they lived'.",
+        "id": "q_eng5_lengua_39"
+    },
+    {
+        "grade": "english5",
+        "category": "lengua",
+        "question": "I wish you _______ make so much noise while I am studying!",
+        "options": [
+            "wouldn't",
+            "won't",
+            "don't",
+            "haven't"
+        ],
+        "correct": 0,
+        "explanation": "'Wish + wouldn't' critica y pide el cese de una conducta molesta ajena.",
+        "id": "q_eng5_lengua_40"
+    },
+    {
+        "grade": "english5",
+        "category": "lengua",
+        "question": "If it rains, we will stay at home. This sentence describes a _______ situation.",
+        "options": [
+            "real and probable future",
+            "hypothetical and unreal",
+            "past regret",
+            "impossible dream"
+        ],
+        "correct": 0,
+        "explanation": "El First Conditional expresa situaciones reales y probables del futuro.",
+        "id": "q_eng5_lengua_41"
+    },
+    {
+        "grade": "english5",
+        "category": "lengua",
+        "question": "If I had wings, I would fly across oceans. This sentence describes a _______ situation.",
+        "options": [
+            "hypothetical and imaginary",
+            "real and likely",
+            "routine daily",
+            "scientific certainty"
+        ],
+        "correct": 0,
+        "explanation": "El Second Conditional expresa hipótesis imaginarias o irreales.",
+        "id": "q_eng5_lengua_42"
+    },
+    {
+        "grade": "english5",
+        "category": "lengua",
+        "question": "If she _______ the bus, she will be late for work.",
+        "options": [
+            "misses",
+            "missed",
+            "will miss",
+            "is missing"
+        ],
+        "correct": 0,
+        "explanation": "First Conditional: If + Present Simple ('misses').",
+        "id": "q_eng5_lengua_43"
+    },
+    {
+        "grade": "english5",
+        "category": "lengua",
+        "question": "If she missed the bus, she _______ have to take an expensive taxi.",
+        "options": [
+            "would",
+            "will",
+            "can",
+            "shall"
+        ],
+        "correct": 0,
+        "explanation": "Second Conditional: If + Past Simple, 'would' + infinitivo.",
+        "id": "q_eng5_lengua_44"
+    },
+    {
+        "grade": "english5",
+        "category": "lengua",
+        "question": "Which sentence is grammatically correct in the Second Conditional?",
+        "options": [
+            "If I had a superpower, I would be invisible.",
+            "If I have a superpower, I will be invisible.",
+            "If I had a superpower, I will be invisible.",
+            "If I would have a superpower, I was invisible."
+        ],
+        "correct": 0,
+        "explanation": "La combinación correcta del Second Conditional es: If + past simple ('had'), would + infinitivo ('would be').",
+        "id": "q_eng5_lengua_45"
+    },
+    {
+        "grade": "english5",
+        "category": "lengua",
+        "question": "Never use 'would' in the _______ clause of a conditional sentence.",
+        "options": [
+            "if",
+            "main",
+            "result",
+            "second"
+        ],
+        "correct": 0,
+        "explanation": "Regla fundamental: nunca se coloca 'would' dentro de la cláusula introducida por 'if'.",
+        "id": "q_eng5_lengua_46"
+    },
+    {
+        "grade": "english5",
+        "category": "lengua",
+        "question": "If you _______ water to 100 degrees Celsius, it boils (Zero Conditional).",
+        "options": [
+            "heat",
+            "heated",
+            "will heat",
+            "would heat"
+        ],
+        "correct": 0,
+        "explanation": "El Zero Conditional describe verdades científicas con presente simple en ambas partes: 'heat'.",
+        "id": "q_eng5_lengua_47"
+    },
+    {
+        "grade": "english5",
+        "category": "lengua",
+        "question": "Unless you study, you won't pass. What does 'unless' mean?",
+        "options": [
+            "If not",
+            "If only",
+            "Because",
+            "Although"
+        ],
+        "correct": 0,
+        "explanation": "'Unless' equivale exactamente a 'if not' (a menos que / si no).",
+        "id": "q_eng5_lengua_48"
+    },
+    {
+        "grade": "english5",
+        "category": "lengua",
+        "question": "If I _______ a ticket to the rock concert, I would invite you.",
+        "options": [
+            "had",
+            "have",
+            "will have",
+            "am having"
+        ],
+        "correct": 0,
+        "explanation": "Segunda condicional: 'If I had a ticket'.",
+        "id": "q_eng5_lengua_49"
+    },
+    {
+        "grade": "english5",
+        "category": "lengua",
+        "question": "What would happen if the internet _______ working worldwide for a week?",
+        "options": [
+            "stopped",
+            "stops",
+            "will stop",
+            "is stopping"
+        ],
+        "correct": 0,
+        "explanation": "Condición hipotética en pasado: 'if the internet stopped working'.",
+        "id": "q_eng5_lengua_50"
+    },
+    {
+        "grade": "english5",
+        "category": "naturales",
+        "question": "Look at his brand new Ferrari! He _______ be very wealthy.",
+        "options": [
+            "must",
+            "can't",
+            "shouldn't",
+            "mustn't"
+        ],
+        "correct": 0,
+        "explanation": "'Must be' expresa una deducción lógica con alto grado de certeza positiva: 'debe ser muy rico'.",
+        "id": "q_eng5_naturales_1"
+    },
+    {
+        "grade": "english5",
+        "category": "naturales",
+        "question": "That man _______ be Lucas; Lucas is currently on holiday in Japan!",
+        "options": [
+            "can't",
+            "must",
+            "should",
+            "might"
+        ],
+        "correct": 0,
+        "explanation": "'Can't be' expresa una imposibilidad lógica rotunda: 'no puede ser Lucas'.",
+        "id": "q_eng5_naturales_2"
+    },
+    {
+        "grade": "english5",
+        "category": "naturales",
+        "question": "Where is my smartphone? - I am not sure, it _______ be in your backpack.",
+        "options": [
+            "might or could",
+            "must",
+            "can't",
+            "shouldn't"
+        ],
+        "correct": 0,
+        "explanation": "'Might' o 'could' indican posibilidad tentativa o duda: 'podría estar en tu mochila'.",
+        "id": "q_eng5_naturales_3"
+    },
+    {
+        "grade": "english5",
+        "category": "naturales",
+        "question": "She has been studying for ten hours without a break. She _______ be exhausted.",
+        "options": [
+            "must",
+            "can't",
+            "mightn't",
+            "shouldn't"
+        ],
+        "correct": 0,
+        "explanation": "Deducción lógica indudable: 'debe estar agotada' ('must be exhausted').",
+        "id": "q_eng5_naturales_4"
+    },
+    {
+        "grade": "english5",
+        "category": "naturales",
+        "question": "He _______ be thirty years old; he looks like a teenager of fifteen!",
+        "options": [
+            "can't",
+            "must",
+            "should",
+            "might"
+        ],
+        "correct": 0,
+        "explanation": "Imposibilidad categórica ante evidencia visual: 'no puede tener treinta años' ('can't be').",
+        "id": "q_eng5_naturales_5"
+    },
+    {
+        "grade": "english5",
+        "category": "naturales",
+        "question": "Take an umbrella with you; the sky is grey and it _______ rain later.",
+        "options": [
+            "might",
+            "must",
+            "can't",
+            "shouldn't"
+        ],
+        "correct": 0,
+        "explanation": "Posibilidad climática tentativa: 'might rain' (podría llover).",
+        "id": "q_eng5_naturales_6"
+    },
+    {
+        "grade": "english5",
+        "category": "naturales",
+        "question": "The restaurant is completely packed with people. The food _______ be delicious.",
+        "options": [
+            "must",
+            "can't",
+            "mightn't",
+            "shouldn't"
+        ],
+        "correct": 0,
+        "explanation": "Deducción fundada en la alta concurrencia: 'la comida debe ser deliciosa' ('must be').",
+        "id": "q_eng5_naturales_7"
+    },
+    {
+        "grade": "english5",
+        "category": "naturales",
+        "question": "Martin hasn't arrived yet. He _______ be stuck in morning traffic.",
+        "options": [
+            "could or might",
+            "can't",
+            "mustn't",
+            "shouldn't"
+        ],
+        "correct": 0,
+        "explanation": "Hipótesis probable de tardanza: 'could be stuck'.",
+        "id": "q_eng5_naturales_8"
+    },
+    {
+        "grade": "english5",
+        "category": "naturales",
+        "question": "That answer _______ be correct because 5 times 5 is 25, not 30!",
+        "options": [
+            "can't",
+            "must",
+            "might",
+            "should"
+        ],
+        "correct": 0,
+        "explanation": "Imposibilidad matemática lógica: 'can't be correct'.",
+        "id": "q_eng5_naturales_9"
+    },
+    {
+        "grade": "english5",
+        "category": "naturales",
+        "question": "Listen! Who is knocking at the door? - It _______ be the delivery person.",
+        "options": [
+            "could or might",
+            "can't",
+            "mustn't",
+            "shouldn't"
+        ],
+        "correct": 0,
+        "explanation": "Deducción tentativa de identidad: 'podría ser el repartidor'.",
+        "id": "q_eng5_naturales_10"
+    },
+    {
+        "grade": "english5",
+        "category": "naturales",
+        "question": "This dinosaur skeleton is enormous; it _______ have belonged to a gigantic herbivore.",
+        "options": [
+            "must",
+            "can't",
+            "shouldn't",
+            "wouldn't"
+        ],
+        "correct": 0,
+        "explanation": "Deducción paleontológica con evidencia directa: 'must have belonged'.",
+        "id": "q_eng5_naturales_11"
+    },
+    {
+        "grade": "english5",
+        "category": "naturales",
+        "question": "Penguins have dense feathers and thick fat; they _______ live in freezing Antarctic cold.",
+        "options": [
+            "are able to",
+            "can't",
+            "mustn't",
+            "shouldn't"
+        ],
+        "correct": 0,
+        "explanation": "Adaptación biológica de supervivencia en el frío polar.",
+        "id": "q_eng5_naturales_12"
+    },
+    {
+        "grade": "english5",
+        "category": "naturales",
+        "question": "Scientists concluded that liquid water _______ exist under the icy crust of Europa.",
+        "options": [
+            "might or could",
+            "can't",
+            "mustn't",
+            "shouldn't"
+        ],
+        "correct": 0,
+        "explanation": "Hipótesis astrobiológica de posibilidad tentativa.",
+        "id": "q_eng5_naturales_13"
+    },
+    {
+        "grade": "english5",
+        "category": "naturales",
+        "question": "A creature without chlorophyll _______ carry out photosynthesis.",
+        "options": [
+            "cannot",
+            "must",
+            "should",
+            "might"
+        ],
+        "correct": 0,
+        "explanation": "Imposibilidad biológica: sin clorofila un organismo no puede realizar fotosíntesis.",
+        "id": "q_eng5_naturales_14"
+    },
+    {
+        "grade": "english5",
+        "category": "naturales",
+        "question": "A fossil found in deep rock strata _______ be millions of years old.",
+        "options": [
+            "must",
+            "can't",
+            "shouldn't",
+            "wouldn't"
+        ],
+        "correct": 0,
+        "explanation": "Deducción geológica sobre estratos profundos.",
+        "id": "q_eng5_naturales_15"
+    },
+    {
+        "grade": "english5",
+        "category": "naturales",
+        "question": "That mushroom is brightly coloured with red spots; it _______ be poisonous!",
+        "options": [
+            "might",
+            "mustn't",
+            "can't",
+            "should"
+        ],
+        "correct": 0,
+        "explanation": "Alerta de riesgo toxicológico: 'might be poisonous' (podría ser venenoso).",
+        "id": "q_eng5_naturales_16"
+    },
+    {
+        "grade": "english5",
+        "category": "naturales",
+        "question": "If an animal has gills, it _______ extract oxygen directly from water.",
+        "options": [
+            "can",
+            "can't",
+            "mustn't",
+            "shouldn't"
+        ],
+        "correct": 0,
+        "explanation": "Capacidad fisiológica de los animales branquiados.",
+        "id": "q_eng5_naturales_17"
+    },
+    {
+        "grade": "english5",
+        "category": "naturales",
+        "question": "The temperature in the Earth's inner core _______ be over 5,000 degrees Celsius.",
+        "options": [
+            "is estimated to",
+            "can't",
+            "shouldn't",
+            "wouldn't"
+        ],
+        "correct": 0,
+        "explanation": "Estimación científica de temperatura extrema del núcleo terrestre.",
+        "id": "q_eng5_naturales_18"
+    },
+    {
+        "grade": "english5",
+        "category": "naturales",
+        "question": "Corals _______ survive if seawater temperatures rise excessively.",
+        "options": [
+            "cannot",
+            "must",
+            "should",
+            "might"
+        ],
+        "correct": 0,
+        "explanation": "El blanqueamiento y muerte coralina ante el calentamiento oceánico.",
+        "id": "q_eng5_naturales_19"
+    },
+    {
+        "grade": "english5",
+        "category": "naturales",
+        "question": "A healthy ecosystem _______ have balanced food webs and biodiversity.",
+        "options": [
+            "must",
+            "can't",
+            "shouldn't",
+            "wouldn't"
+        ],
+        "correct": 0,
+        "explanation": "Requisito ecológico indispensable para la estabilidad biológica.",
+        "id": "q_eng5_naturales_20"
+    },
+    {
+        "grade": "english5",
+        "category": "naturales",
+        "question": "Microscopic organisms that cause infections and diseases are called _______.",
+        "options": [
+            "bacteria and viruses",
+            "cells",
+            "organs",
+            "vitamins"
+        ],
+        "correct": 0,
+        "explanation": "Bacterias y virus patógenos son agentes causantes de enfermedades.",
+        "id": "q_eng5_naturales_21"
+    },
+    {
+        "grade": "english5",
+        "category": "naturales",
+        "question": "Medicines used to treat bacterial infections (discovered by Fleming) are called _______.",
+        "options": [
+            "antibiotics",
+            "vitamins",
+            "vaccines",
+            "hormones"
+        ],
+        "correct": 0,
+        "explanation": "Los antibióticos combaten infecciones bacterianas (no tienen efecto sobre virus).",
+        "id": "q_eng5_naturales_22"
+    },
+    {
+        "grade": "english5",
+        "category": "naturales",
+        "question": "A biological preparation that provides active acquired immunity against diseases is a _______.",
+        "options": [
+            "vaccine",
+            "bandage",
+            "tablet",
+            "syrup"
+        ],
+        "correct": 0,
+        "explanation": "Una vacuna ('vaccine') estimula el sistema inmunológico para prevenir enfermedades.",
+        "id": "q_eng5_naturales_23"
+    },
+    {
+        "grade": "english5",
+        "category": "naturales",
+        "question": "White blood cells in your bloodstream are responsible for fighting _______.",
+        "options": [
+            "infections and pathogens",
+            "oxygen",
+            "digestion",
+            "reflexes"
+        ],
+        "correct": 0,
+        "explanation": "Los glóbulos blancos defienden al organismo contra infecciones.",
+        "id": "q_eng5_naturales_24"
+    },
+    {
+        "grade": "english5",
+        "category": "naturales",
+        "question": "The basic genetic material that carries inherited instructions in all living cells is _______.",
+        "options": [
+            "DNA",
+            "RNA only",
+            "protein",
+            "glucose"
+        ],
+        "correct": 0,
+        "explanation": "El ADN ('DNA') almacena la información genética hereditaria.",
+        "id": "q_eng5_naturales_25"
+    },
+    {
+        "grade": "english5",
+        "category": "naturales",
+        "question": "An allergic reaction occurs when the _______ system overreacts to harmless substances.",
+        "options": [
+            "immune",
+            "digestive",
+            "skeletal",
+            "nervous"
+        ],
+        "correct": 0,
+        "explanation": "Las alergias son respuestas exageradas del sistema inmunológico ('immune system').",
+        "id": "q_eng5_naturales_26"
+    },
+    {
+        "grade": "english5",
+        "category": "naturales",
+        "question": "Which vitamin is produced in human skin when exposed to gentle sunlight?",
+        "options": [
+            "Vitamin D",
+            "Vitamin C",
+            "Vitamin A",
+            "Vitamin B12"
+        ],
+        "correct": 0,
+        "explanation": "La vitamina D se sintetiza en la piel mediante la exposición solar moderada.",
+        "id": "q_eng5_naturales_27"
+    },
+    {
+        "grade": "english5",
+        "category": "naturales",
+        "question": "The process by which organisms produce offspring to perpetuate their species is _______.",
+        "options": [
+            "reproduction",
+            "respiration",
+            "digestion",
+            "excretion"
+        ],
+        "correct": 0,
+        "explanation": "La reproducción es una función vital para la continuidad de la especie.",
+        "id": "q_eng5_naturales_28"
+    },
+    {
+        "grade": "english5",
+        "category": "naturales",
+        "question": "Regular physical exercise strengthens your heart and improves your blood _______.",
+        "options": [
+            "circulation",
+            "temperature",
+            "color",
+            "taste"
+        ],
+        "correct": 0,
+        "explanation": "La actividad física mejora la circulación sanguínea ('blood circulation').",
+        "id": "q_eng5_naturales_29"
+    },
+    {
+        "grade": "english5",
+        "category": "naturales",
+        "question": "A balanced diet should provide adequate proteins, carbohydrates, healthy fats and _______.",
+        "options": [
+            "minerals and vitamins",
+            "sugar and salt",
+            "grease",
+            "calories only"
+        ],
+        "correct": 0,
+        "explanation": "Una nutrición completa requiere vitaminas, minerales y macronutrientes esenciales.",
+        "id": "q_eng5_naturales_30"
+    },
+    {
+        "grade": "english5",
+        "category": "naturales",
+        "question": "The total amount of greenhouse gases generated by human actions is known as a carbon _______.",
+        "options": [
+            "footprint",
+            "fingerprint",
+            "handprint",
+            "track"
+        ],
+        "correct": 0,
+        "explanation": "La huella de carbono ('carbon footprint') mide el impacto de gases de efecto invernadero emitidos.",
+        "id": "q_eng5_naturales_31"
+    },
+    {
+        "grade": "english5",
+        "category": "naturales",
+        "question": "Electricity generated by giant rotating wind turbines in open fields is called _______ energy.",
+        "options": [
+            "wind",
+            "coal",
+            "gas",
+            "oil"
+        ],
+        "correct": 0,
+        "explanation": "La energía eólica ('wind energy') aprovecha la fuerza del viento.",
+        "id": "q_eng5_naturales_32"
+    },
+    {
+        "grade": "english5",
+        "category": "naturales",
+        "question": "Energy generated from the natural internal heat of the Earth is called _______ energy.",
+        "options": [
+            "geothermal",
+            "solar",
+            "hydroelectric",
+            "biomass"
+        ],
+        "correct": 0,
+        "explanation": "La energía geotérmica aprovecha el calor del interior de la corteza terrestre.",
+        "id": "q_eng5_naturales_33"
+    },
+    {
+        "grade": "english5",
+        "category": "naturales",
+        "question": "Vehicles powered by rechargeable lithium batteries instead of petrol are _______ cars.",
+        "options": [
+            "electric",
+            "diesel",
+            "steam",
+            "solar"
+        ],
+        "correct": 0,
+        "explanation": "Los autos eléctricos ('electric cars') reducen las emisiones de gases contaminantes urbanos.",
+        "id": "q_eng5_naturales_34"
+    },
+    {
+        "grade": "english5",
+        "category": "naturales",
+        "question": "Energy sources that replenish naturally and do not run out are _______ resources.",
+        "options": [
+            "renewable",
+            "non-renewable",
+            "fossil",
+            "exhaustible"
+        ],
+        "correct": 0,
+        "explanation": "Los recursos renovables no se agotan con su uso continuado.",
+        "id": "q_eng5_naturales_35"
+    },
+    {
+        "grade": "english5",
+        "category": "naturales",
+        "question": "Fossil fuels like coal, oil and natural gas release harmful _______ into the atmosphere.",
+        "options": [
+            "carbon dioxide (CO2)",
+            "oxygen",
+            "water vapor only",
+            "nitrogen"
+        ],
+        "correct": 0,
+        "explanation": "La quema de combustibles fósiles libera dióxido de carbono que acelera el cambio climático.",
+        "id": "q_eng5_naturales_36"
+    },
+    {
+        "grade": "english5",
+        "category": "naturales",
+        "question": "Solar panels contain photovoltaic cells that convert _______ directly into electricity.",
+        "options": [
+            "sunlight",
+            "heat only",
+            "wind",
+            "water"
+        ],
+        "correct": 0,
+        "explanation": "Las celdas fotovoltaicas convierten la luz solar en corriente eléctrica.",
+        "id": "q_eng5_naturales_37"
+    },
+    {
+        "grade": "english5",
+        "category": "naturales",
+        "question": "Energy generated by the movement of falling water in dams is called _______ power.",
+        "options": [
+            "hydroelectric",
+            "geothermal",
+            "wind",
+            "nuclear"
+        ],
+        "correct": 0,
+        "explanation": "Las centrales hidroeléctricas transforman la energía del agua en electricidad.",
+        "id": "q_eng5_naturales_38"
+    },
+    {
+        "grade": "english5",
+        "category": "naturales",
+        "question": "Replacing old incandescent bulbs with _______ bulbs saves substantial amounts of energy.",
+        "options": [
+            "LED",
+            "candle",
+            "gas",
+            "torch"
+        ],
+        "correct": 0,
+        "explanation": "La tecnología LED consume significativamente menos energía.",
+        "id": "q_eng5_naturales_39"
+    },
+    {
+        "grade": "english5",
+        "category": "naturales",
+        "question": "Conserving water and turning off unused appliances helps minimize energy _______.",
+        "options": [
+            "waste",
+            "production",
+            "efficiency",
+            "generation"
+        ],
+        "correct": 0,
+        "explanation": "Evitar el desperdicio energético ('energy waste') beneficia al medio ambiente.",
+        "id": "q_eng5_naturales_40"
+    },
+    {
+        "grade": "english5",
+        "category": "naturales",
+        "question": "The galaxy containing our Solar System, shaped like a spiral, is the _______.",
+        "options": [
+            "Milky Way",
+            "Andromeda",
+            "Triangulum",
+            "Whirlpool"
+        ],
+        "correct": 0,
+        "explanation": "Nuestra galaxia espiral se llama la Vía Láctea ('Milky Way').",
+        "id": "q_eng5_naturales_41"
+    },
+    {
+        "grade": "english5",
+        "category": "naturales",
+        "question": "A celestial body that orbits a star, is spherical and has cleared its orbit is a _______.",
+        "options": [
+            "planet",
+            "comet",
+            "asteroid",
+            "meteor"
+        ],
+        "correct": 0,
+        "explanation": "Definición astronómica formal de planeta según la Unión Astronómica Internacional.",
+        "id": "q_eng5_naturales_42"
+    },
+    {
+        "grade": "english5",
+        "category": "naturales",
+        "question": "A celestial object with a core of ice and dust that forms a glowing tail near the Sun is a _______.",
+        "options": [
+            "comet",
+            "star",
+            "satellite",
+            "black hole"
+        ],
+        "correct": 0,
+        "explanation": "Los cometas ('comets') desarrollan colas brillantes de gas y polvo al aproximarse al Sol.",
+        "id": "q_eng5_naturales_43"
+    },
+    {
+        "grade": "english5",
+        "category": "naturales",
+        "question": "The powerful space telescope launched in 2021 to observe distant galaxies in infrared is _______.",
+        "options": [
+            "James Webb Space Telescope",
+            "Hubble only",
+            "Kepler",
+            "Galileo"
+        ],
+        "correct": 0,
+        "explanation": "El telescopio espacial James Webb estudia el origen del universo en el infrarrojo.",
+        "id": "q_eng5_naturales_44"
+    },
+    {
+        "grade": "english5",
+        "category": "naturales",
+        "question": "A region of spacetime where gravity is so strong that nothing, not even light, can escape is a _______.",
+        "options": [
+            "black hole",
+            "white dwarf",
+            "neutron star",
+            "supernova"
+        ],
+        "correct": 0,
+        "explanation": "Un agujero negro ('black hole') posee una gravedad tan intensa que atrapa la luz.",
+        "id": "q_eng5_naturales_45"
+    },
+    {
+        "grade": "english5",
+        "category": "naturales",
+        "question": "The force that keeps planets in orbit around the Sun is _______.",
+        "options": [
+            "gravity",
+            "magnetism",
+            "friction",
+            "inertia only"
+        ],
+        "correct": 0,
+        "explanation": "La atracción gravitatoria solar mantiene a los planetas en sus órbitas.",
+        "id": "q_eng5_naturales_46"
+    },
+    {
+        "grade": "english5",
+        "category": "naturales",
+        "question": "How long does light from the Sun take to travel to planet Earth?",
+        "options": [
+            "About 8 minutes",
+            "Instantaneously",
+            "1 hour",
+            "24 hours"
+        ],
+        "correct": 0,
+        "explanation": "La luz solar viaja por el espacio y demora aproximadamente 8 minutos y 20 segundos en llegar a la Tierra.",
+        "id": "q_eng5_naturales_47"
+    },
+    {
+        "grade": "english5",
+        "category": "naturales",
+        "question": "The explosive death of a massive star at the end of its life cycle is a _______.",
+        "options": [
+            "supernova",
+            "nebula",
+            "meteorite",
+            "quasar"
+        ],
+        "correct": 0,
+        "explanation": "Una supernova es la explosión estelar más colosal del universo.",
+        "id": "q_eng5_naturales_48"
+    },
+    {
+        "grade": "english5",
+        "category": "naturales",
+        "question": "Mars is often nicknamed the 'Red Planet' because its surface is rich in _______.",
+        "options": [
+            "iron oxide (rust)",
+            "copper",
+            "gold",
+            "sulfur"
+        ],
+        "correct": 0,
+        "explanation": "El óxido de hierro en el suelo marciano le otorga su tonalidad rojiza característica.",
+        "id": "q_eng5_naturales_49"
+    },
+    {
+        "grade": "english5",
+        "category": "naturales",
+        "question": "The path that an object takes around another celestial body in space is its _______.",
+        "options": [
+            "orbit",
+            "axis",
+            "equator",
+            "latitude"
+        ],
+        "correct": 0,
+        "explanation": "La trayectoria orbital se denomina 'orbit'.",
+        "id": "q_eng5_naturales_50"
+    },
+    {
+        "grade": "english5",
+        "category": "sociales",
+        "question": "This time next week, I _______ lying on a sunny beach in Brazil.",
+        "options": [
+            "will be",
+            "am",
+            "was",
+            "will have been"
+        ],
+        "correct": 0,
+        "explanation": "El Future Continuous ('will be lying') describe una acción que estará en progreso en un momento futuro determinado.",
+        "id": "q_eng5_sociales_1"
+    },
+    {
+        "grade": "english5",
+        "category": "sociales",
+        "question": "At eight o'clock tomorrow evening, we _______ watching the Champions League final.",
+        "options": [
+            "will be",
+            "are",
+            "were",
+            "will have"
+        ],
+        "correct": 0,
+        "explanation": "Acción en desarrollo a una hora específica del futuro: 'will be watching'.",
+        "id": "q_eng5_sociales_2"
+    },
+    {
+        "grade": "english5",
+        "category": "sociales",
+        "question": "Don't call her at 3 p.m. because she _______ taking an important exam.",
+        "options": [
+            "will be",
+            "is",
+            "was",
+            "has been"
+        ],
+        "correct": 0,
+        "explanation": "La acción que estará ocurriendo a esa hora se expresa con Future Continuous: 'will be taking'.",
+        "id": "q_eng5_sociales_3"
+    },
+    {
+        "grade": "english5",
+        "category": "sociales",
+        "question": "What _______ you be doing at ten o'clock tonight?",
+        "options": [
+            "will",
+            "are",
+            "do",
+            "did"
+        ],
+        "correct": 0,
+        "explanation": "Estructura interrogativa de Future Continuous: Wh-word + will + sujeto + be + verb-ing.",
+        "id": "q_eng5_sociales_4"
+    },
+    {
+        "grade": "english5",
+        "category": "sociales",
+        "question": "They _______ not be working tomorrow because it is a national bank holiday.",
+        "options": [
+            "will",
+            "are",
+            "were",
+            "do"
+        ],
+        "correct": 0,
+        "explanation": "Forma negativa: 'will not be working'.",
+        "id": "q_eng5_sociales_5"
+    },
+    {
+        "grade": "english5",
+        "category": "sociales",
+        "question": "Soon, more and more people _______ driving electric vehicles.",
+        "options": [
+            "will be",
+            "are",
+            "were",
+            "have"
+        ],
+        "correct": 0,
+        "explanation": "Tendencia futura proyectada en progreso: 'will be driving'.",
+        "id": "q_eng5_sociales_6"
+    },
+    {
+        "grade": "english5",
+        "category": "sociales",
+        "question": "In twenty years, astronauts _______ exploring bases on the Moon and Mars.",
+        "options": [
+            "will be",
+            "are",
+            "were",
+            "have been"
+        ],
+        "correct": 0,
+        "explanation": "Proyección de exploración espacial: 'will be exploring'.",
+        "id": "q_eng5_sociales_7"
+    },
+    {
+        "grade": "english5",
+        "category": "sociales",
+        "question": "She _______ be flying to London at this exact hour tomorrow.",
+        "options": [
+            "will",
+            "is",
+            "was",
+            "has"
+        ],
+        "correct": 0,
+        "explanation": "Vuelo en progreso en un momento exacto del futuro: 'will be flying'.",
+        "id": "q_eng5_sociales_8"
+    },
+    {
+        "grade": "english5",
+        "category": "sociales",
+        "question": "Will you _______ passing by the post office on your way home?",
+        "options": [
+            "be",
+            "been",
+            "being",
+            "are"
+        ],
+        "correct": 0,
+        "explanation": "Uso cortés de Future Continuous para consultar sobre planes habituales de alguien: 'Will you be passing...?'.",
+        "id": "q_eng5_sociales_9"
+    },
+    {
+        "grade": "english5",
+        "category": "sociales",
+        "question": "I am sure everyone _______ celebrating when the results are announced.",
+        "options": [
+            "will be",
+            "is",
+            "was",
+            "are"
+        ],
+        "correct": 0,
+        "explanation": "Celebración en desarrollo: 'will be celebrating'.",
+        "id": "q_eng5_sociales_10"
+    },
+    {
+        "grade": "english5",
+        "category": "sociales",
+        "question": "Computer systems capable of performing tasks that require human intelligence use _______.",
+        "options": [
+            "Artificial Intelligence (AI)",
+            "Manual mechanics",
+            "Paper printing",
+            "Traditional radios"
+        ],
+        "correct": 0,
+        "explanation": "La Inteligencia Artificial (IA) simula procesos de razonamiento y aprendizaje humano.",
+        "id": "q_eng5_sociales_11"
+    },
+    {
+        "grade": "english5",
+        "category": "sociales",
+        "question": "A digital machine that can learn patterns from data without explicit programming uses _______.",
+        "options": [
+            "Machine Learning",
+            "Typewriting",
+            "Morse code",
+            "Analog circuits"
+        ],
+        "correct": 0,
+        "explanation": "El aprendizaje automático ('Machine Learning') es una rama central de la IA.",
+        "id": "q_eng5_sociales_12"
+    },
+    {
+        "grade": "english5",
+        "category": "sociales",
+        "question": "Virtual assistants like Siri and Alexa process human speech using Natural _______ Processing.",
+        "options": [
+            "Language",
+            "Voice only",
+            "Computer",
+            "Mechanical"
+        ],
+        "correct": 0,
+        "explanation": "El procesamiento del lenguaje natural (NLP) permite a las computadoras interpretar la voz humana.",
+        "id": "q_eng5_sociales_13"
+    },
+    {
+        "grade": "english5",
+        "category": "sociales",
+        "question": "Vehicles that navigate and drive safely without a human driver are _______ cars.",
+        "options": [
+            "autonomous or self-driving",
+            "steam",
+            "manual",
+            "pedal"
+        ],
+        "correct": 0,
+        "explanation": "Los autos autónomos ('autonomous' o self-driving) se conducen mediante sensores y algoritmos.",
+        "id": "q_eng5_sociales_14"
+    },
+    {
+        "grade": "english5",
+        "category": "sociales",
+        "question": "A secure digital ledger of transactions distributed across a network of computers is a _______.",
+        "options": [
+            "blockchain",
+            "floppy disk",
+            "database only",
+            "cable"
+        ],
+        "correct": 0,
+        "explanation": "La tecnología blockchain registra transacciones de manera distribuida e inmutable.",
+        "id": "q_eng5_sociales_15"
+    },
+    {
+        "grade": "english5",
+        "category": "sociales",
+        "question": "The simulation of a 3D environment that users can explore using headsets is Virtual _______.",
+        "options": [
+            "Reality (VR)",
+            "Assistance",
+            "Simulation",
+            "Internet"
+        ],
+        "correct": 0,
+        "explanation": "La Realidad Virtual (VR) crea entornos tridimensionales inmersivos.",
+        "id": "q_eng5_sociales_16"
+    },
+    {
+        "grade": "english5",
+        "category": "sociales",
+        "question": "Protecting computer networks and data from unauthorized cyber attacks is called _______.",
+        "options": [
+            "cybersecurity",
+            "hardware",
+            "broadband",
+            "programming"
+        ],
+        "correct": 0,
+        "explanation": "La ciberseguridad resguarda los sistemas e información de ataques informáticos.",
+        "id": "q_eng5_sociales_17"
+    },
+    {
+        "grade": "english5",
+        "category": "sociales",
+        "question": "Connected smart home devices like thermostats and lights communicate via the Internet of _______.",
+        "options": [
+            "Things (IoT)",
+            "Data",
+            "Homes",
+            "Robots"
+        ],
+        "correct": 0,
+        "explanation": "El Internet de las Cosas ('Internet of Things' - IoT) interconecta objetos cotidianos a la red.",
+        "id": "q_eng5_sociales_18"
+    },
+    {
+        "grade": "english5",
+        "category": "sociales",
+        "question": "In the future, surgical operations _______ assisted by high-precision medical robots.",
+        "options": [
+            "will be",
+            "are",
+            "were",
+            "did"
+        ],
+        "correct": 0,
+        "explanation": "Proyección de medicina robótica: 'will be assisted'.",
+        "id": "q_eng5_sociales_19"
+    },
+    {
+        "grade": "english5",
+        "category": "sociales",
+        "question": "Ethical discussions about AI often focus on data privacy and algorithm _______.",
+        "options": [
+            "bias or fairness",
+            "speed only",
+            "color",
+            "size"
+        ],
+        "correct": 0,
+        "explanation": "La ética en IA debate la equidad, transparencia y sesgos en los algoritmos.",
+        "id": "q_eng5_sociales_20"
+    },
+    {
+        "grade": "english5",
+        "category": "sociales",
+        "question": "The first human mission to set foot on Mars will likely take place in the _______.",
+        "options": [
+            "21st century",
+            "19th century",
+            "20th century",
+            "Middle Ages"
+        ],
+        "correct": 0,
+        "explanation": "Las misiones tripuladas a Marte están planificadas para las próximas décadas del siglo XXI.",
+        "id": "q_eng5_sociales_21"
+    },
+    {
+        "grade": "english5",
+        "category": "sociales",
+        "question": "NASA's robotic rover currently searching for signs of ancient microbial life on Mars is _______.",
+        "options": [
+            "Perseverance",
+            "Apollo 11",
+            "Voyager",
+            "Sputnik"
+        ],
+        "correct": 0,
+        "explanation": "El rover Perseverance explora el cráter Jezero en Marte en busca de biofirmas.",
+        "id": "q_eng5_sociales_22"
+    },
+    {
+        "grade": "english5",
+        "category": "sociales",
+        "question": "The international laboratory orbiting Earth where astronauts conduct science is the _______.",
+        "options": [
+            "International Space Station (ISS)",
+            "Mir",
+            "Skylab",
+            "Hubble"
+        ],
+        "correct": 0,
+        "explanation": "La Estación Espacial Internacional (ISS) orbita la Tierra a unos 400 km de altitud.",
+        "id": "q_eng5_sociales_23"
+    },
+    {
+        "grade": "english5",
+        "category": "sociales",
+        "question": "The first person to walk on the Moon in July 1969 was _______.",
+        "options": [
+            "Neil Armstrong",
+            "Yuri Gagarin",
+            "Buzz Aldrin",
+            "John Glenn"
+        ],
+        "correct": 0,
+        "explanation": "Neil Armstrong fue el primer ser humano en caminar sobre la Luna durante la misión Apolo 11.",
+        "id": "q_eng5_sociales_24"
+    },
+    {
+        "grade": "english5",
+        "category": "sociales",
+        "question": "The first human being to travel into outer space in 1961 was the Russian cosmonaut _______.",
+        "options": [
+            "Yuri Gagarin",
+            "Neil Armstrong",
+            "Valentina Tereshkova",
+            "Alexei Leonov"
+        ],
+        "correct": 0,
+        "explanation": "Yuri Gagarin completó la primera órbita espacial tripulada a bordo del Vostok 1.",
+        "id": "q_eng5_sociales_25"
+    },
+    {
+        "grade": "english5",
+        "category": "sociales",
+        "question": "Human settlements built on the Moon or Mars to support scientists are called space _______.",
+        "options": [
+            "colonies or bases",
+            "castles",
+            "hotels",
+            "submarines"
+        ],
+        "correct": 0,
+        "explanation": "Las bases espaciales albergarán a los futuros exploradores interplanetarios.",
+        "id": "q_eng5_sociales_26"
+    },
+    {
+        "grade": "english5",
+        "category": "sociales",
+        "question": "Reusable rocket boosters designed to land vertically after launch were pioneered by _______.",
+        "options": [
+            "SpaceX",
+            "Boeing",
+            "Airbus",
+            "Virgin"
+        ],
+        "correct": 0,
+        "explanation": "Los cohetes reutilizables Falcon 9 de SpaceX revolucionaron la logística aeroespacial.",
+        "id": "q_eng5_sociales_27"
+    },
+    {
+        "grade": "english5",
+        "category": "sociales",
+        "question": "A spacecraft sent to explore outer space without human crew is an unmanned space _______.",
+        "options": [
+            "probe",
+            "glider",
+            "capsule only",
+            "shuttle"
+        ],
+        "correct": 0,
+        "explanation": "Las sondas espaciales no tripuladas ('space probes') exploran el sistema solar exterior.",
+        "id": "q_eng5_sociales_28"
+    },
+    {
+        "grade": "english5",
+        "category": "sociales",
+        "question": "Future astronauts on Mars will have to generate their own _______ to breathe.",
+        "options": [
+            "oxygen",
+            "nitrogen",
+            "helium",
+            "hydrogen"
+        ],
+        "correct": 0,
+        "explanation": "Producir oxígeno a partir de la atmósfera marciana (CO2) es vital para misiones humanas.",
+        "id": "q_eng5_sociales_29"
+    },
+    {
+        "grade": "english5",
+        "category": "sociales",
+        "question": "The distance to Mars is so vast that radio messages take several _______ to reach Earth.",
+        "options": [
+            "minutes",
+            "seconds",
+            "hours",
+            "days"
+        ],
+        "correct": 0,
+        "explanation": "Las señales de radio demoran entre 3 y 22 minutos según la posición orbital de los planetas.",
+        "id": "q_eng5_sociales_30"
+    },
+    {
+        "grade": "english5",
+        "category": "sociales",
+        "question": "False or misleading stories presented as real news on social media are known as _______.",
+        "options": [
+            "fake news",
+            "breaking news",
+            "editorials",
+            "headlines"
+        ],
+        "correct": 0,
+        "explanation": "Las noticias falsas ('fake news') desinforman y se viralizan en plataformas digitales.",
+        "id": "q_eng5_sociales_31"
+    },
+    {
+        "grade": "english5",
+        "category": "sociales",
+        "question": "Evaluating sources critically and verifying facts before sharing posts is digital _______.",
+        "options": [
+            "literacy",
+            "grammar",
+            "spelling",
+            "typing"
+        ],
+        "correct": 0,
+        "explanation": "La alfabetización digital ('digital literacy') permite discernir contenidos verídicos en línea.",
+        "id": "q_eng5_sociales_32"
+    },
+    {
+        "grade": "english5",
+        "category": "sociales",
+        "question": "The practice of sending fraudulent emails to trick people into revealing passwords is _______.",
+        "options": [
+            "phishing",
+            "spamming",
+            "surfing",
+            "streaming"
+        ],
+        "correct": 0,
+        "explanation": "El 'phishing' es una técnica de estafa cibernética mediante suplantación de identidad.",
+        "id": "q_eng5_sociales_33"
+    },
+    {
+        "grade": "english5",
+        "category": "sociales",
+        "question": "The right of individuals to keep their personal information confidential on the internet is digital _______.",
+        "options": [
+            "privacy",
+            "freedom",
+            "security",
+            "copyright"
+        ],
+        "correct": 0,
+        "explanation": "La privacidad digital resguarda los datos de los usuarios en internet.",
+        "id": "q_eng5_sociales_34"
+    },
+    {
+        "grade": "english5",
+        "category": "sociales",
+        "question": "A journalist must always verify information with multiple reliable _______.",
+        "options": [
+            "sources",
+            "readers",
+            "editors",
+            "printers"
+        ],
+        "correct": 0,
+        "explanation": "Chequear con fuentes confiables ('sources') es un principio ético del periodismo.",
+        "id": "q_eng5_sociales_35"
+    },
+    {
+        "grade": "english5",
+        "category": "sociales",
+        "question": "The legal right given to the creator of a book, song or software to control its copying is _______.",
+        "options": [
+            "copyright",
+            "patent only",
+            "trademark",
+            "royalty"
+        ],
+        "correct": 0,
+        "explanation": "El derecho de autor ('copyright') protege la propiedad intelectual de obras originales.",
+        "id": "q_eng5_sociales_36"
+    },
+    {
+        "grade": "english5",
+        "category": "sociales",
+        "question": "Excessive screen time on social networks can negatively affect sleep and mental _______.",
+        "options": [
+            "health or well-being",
+            "speed",
+            "memory only",
+            "hearing"
+        ],
+        "correct": 0,
+        "explanation": "El uso abusivo de pantallas puede alterar el descanso y la salud emocional.",
+        "id": "q_eng5_sociales_37"
+    },
+    {
+        "grade": "english5",
+        "category": "sociales",
+        "question": "The permanent digital trail of data left behind when using the internet is your digital _______.",
+        "options": [
+            "footprint",
+            "history",
+            "identity",
+            "account"
+        ],
+        "correct": 0,
+        "explanation": "La huella digital ('digital footprint') comprende las publicaciones, búsquedas y rastros en la red.",
+        "id": "q_eng5_sociales_38"
+    },
+    {
+        "grade": "english5",
+        "category": "sociales",
+        "question": "An online platform where users publish short articles and opinion pieces is a _______.",
+        "options": [
+            "blog",
+            "podcast",
+            "vlog only",
+            "forum only"
+        ],
+        "correct": 0,
+        "explanation": "Un blog es una bitácora digital de publicaciones periódicas.",
+        "id": "q_eng5_sociales_39"
+    },
+    {
+        "grade": "english5",
+        "category": "sociales",
+        "question": "Media outlets that operate with objectivity and independence from government pressure are _______ media.",
+        "options": [
+            "independent or free",
+            "state",
+            "censored",
+            "controlled"
+        ],
+        "correct": 0,
+        "explanation": "El periodismo independiente es un pilar fundamental de la vida democrática.",
+        "id": "q_eng5_sociales_40"
+    },
+    {
+        "grade": "english5",
+        "category": "sociales",
+        "question": "The international organization founded in 1945 to promote peace and human rights is the _______.",
+        "options": [
+            "United Nations (UN)",
+            "European Union",
+            "NATO",
+            "World Bank"
+        ],
+        "correct": 0,
+        "explanation": "La Organización de las Naciones Unidas (ONU) promueve la paz y seguridad internacional.",
+        "id": "q_eng5_sociales_41"
+    },
+    {
+        "grade": "english5",
+        "category": "sociales",
+        "question": "The 17 global goals set by the UN to achieve a better and more sustainable world are the _______.",
+        "options": [
+            "Sustainable Development Goals (SDGs)",
+            "Millennium Goals",
+            "Paris Accords",
+            "Geneva Treaties"
+        ],
+        "correct": 0,
+        "explanation": "Los Objetivos de Desarrollo Sostenible (ODS) orientan las políticas globales hasta 2030.",
+        "id": "q_eng5_sociales_42"
+    },
+    {
+        "grade": "english5",
+        "category": "sociales",
+        "question": "Extreme weather events and rising sea levels are major consequences of global climate _______.",
+        "options": [
+            "change",
+            "cooling",
+            "stability",
+            "balance"
+        ],
+        "correct": 0,
+        "explanation": "El cambio climático global ('climate change') es uno de los mayores retos de la humanidad.",
+        "id": "q_eng5_sociales_43"
+    },
+    {
+        "grade": "english5",
+        "category": "sociales",
+        "question": "Providing emergency food, water and medical aid after natural disasters is humanitarian _______.",
+        "options": [
+            "relief or aid",
+            "trade",
+            "tourism",
+            "business"
+        ],
+        "correct": 0,
+        "explanation": "La ayuda humanitaria ('humanitarian aid') asiste a poblaciones damnificadas por catástrofes.",
+        "id": "q_eng5_sociales_44"
+    },
+    {
+        "grade": "english5",
+        "category": "sociales",
+        "question": "Treaties signed between countries to protect the ozone layer and limit emissions are international _______.",
+        "options": [
+            "agreements",
+            "debates",
+            "arguments",
+            "contracts"
+        ],
+        "correct": 0,
+        "explanation": "Los acuerdos internacionales (como el Protocolo de Montreal) coordinan la acción ambiental.",
+        "id": "q_eng5_sociales_45"
+    },
+    {
+        "grade": "english5",
+        "category": "sociales",
+        "question": "The specialized agency of the UN responsible for global public health is the _______.",
+        "options": [
+            "World Health Organization (WHO)",
+            "UNICEF",
+            "UNESCO",
+            "FAO"
+        ],
+        "correct": 0,
+        "explanation": "La Organización Mundial de la Salud (OMS / WHO) coordina respuestas sanitarias globales.",
+        "id": "q_eng5_sociales_46"
+    },
+    {
+        "grade": "english5",
+        "category": "sociales",
+        "question": "Fair wages and safe working conditions for farmers and producers in developing nations are promoted by Fair _______.",
+        "options": [
+            "Trade",
+            "Business",
+            "Commerce",
+            "Market"
+        ],
+        "correct": 0,
+        "explanation": "El Comercio Justo ('Fair Trade') fomenta relaciones comerciales equitativas y sustentables.",
+        "id": "q_eng5_sociales_47"
+    },
+    {
+        "grade": "english5",
+        "category": "sociales",
+        "question": "Preserving global cultural monuments and natural sites is overseen by the UN agency _______.",
+        "options": [
+            "UNESCO",
+            "UNICEF",
+            "IMF",
+            "WTO"
+        ],
+        "correct": 0,
+        "explanation": "La UNESCO designa y custodia los sitios declarados Patrimonio de la Humanidad.",
+        "id": "q_eng5_sociales_48"
+    },
+    {
+        "grade": "english5",
+        "category": "sociales",
+        "question": "Clean drinking water and basic sanitation are recognized by the UN as fundamental human _______.",
+        "options": [
+            "rights",
+            "privileges",
+            "options",
+            "luxuries"
+        ],
+        "correct": 0,
+        "explanation": "El acceso al agua potable y al saneamiento es un derecho humano esencial.",
+        "id": "q_eng5_sociales_49"
+    },
+    {
+        "grade": "english5",
+        "category": "sociales",
+        "question": "Young people leading worldwide environmental campaigns demonstrate active global _______.",
+        "options": [
+            "citizenship",
+            "politics",
+            "passivity",
+            "complacency"
+        ],
+        "correct": 0,
+        "explanation": "La ciudadanía global activa ('global citizenship') impulsa soluciones colectivas para el planeta.",
+        "id": "q_eng5_sociales_50"
+    },
+    {
+        "grade": "english5",
+        "category": "ingenio",
+        "question": "We have _______ out of milk; can you buy a bottle on your way home?",
+        "options": [
+            "run",
+            "gone",
+            "walked",
+            "taken"
+        ],
+        "correct": 0,
+        "explanation": "El phrasal verb 'run out of' significa 'quedarse sin' o agotar las existencias de algo.",
+        "id": "q_eng5_ingenio_1"
+    },
+    {
+        "grade": "english5",
+        "category": "ingenio",
+        "question": "They decided to _______ up their own digital marketing agency.",
+        "options": [
+            "set",
+            "make",
+            "put",
+            "take"
+        ],
+        "correct": 0,
+        "explanation": "'Set up' significa fundar o establecer una empresa, negocio o proyecto.",
+        "id": "q_eng5_ingenio_2"
+    },
+    {
+        "grade": "english5",
+        "category": "ingenio",
+        "question": "Our family car broke _______ on the motorway and we had to call a mechanic.",
+        "options": [
+            "down",
+            "up",
+            "out",
+            "off"
+        ],
+        "correct": 0,
+        "explanation": "'Break down' significa descomponerse o averiarse un vehículo o máquina.",
+        "id": "q_eng5_ingenio_3"
+    },
+    {
+        "grade": "english5",
+        "category": "ingenio",
+        "question": "I need to _______ out what time the last train leaves tonight.",
+        "options": [
+            "find",
+            "look",
+            "see",
+            "watch"
+        ],
+        "correct": 0,
+        "explanation": "'Find out' significa averiguar o descubrir una información.",
+        "id": "q_eng5_ingenio_4"
+    },
+    {
+        "grade": "english5",
+        "category": "ingenio",
+        "question": "The school headteacher decided to put _______ the sports day due to thunderstorms.",
+        "options": [
+            "off",
+            "out",
+            "up",
+            "away"
+        ],
+        "correct": 0,
+        "explanation": "'Put off' significa posponer o aplazar un acontecimiento.",
+        "id": "q_eng5_ingenio_5"
+    },
+    {
+        "grade": "english5",
+        "category": "ingenio",
+        "question": "Could you please turn _______ the radio volume? I am trying to concentrate.",
+        "options": [
+            "down",
+            "up",
+            "off",
+            "out"
+        ],
+        "correct": 0,
+        "explanation": "'Turn down' significa bajar la intensidad o volumen de un aparato.",
+        "id": "q_eng5_ingenio_6"
+    },
+    {
+        "grade": "english5",
+        "category": "ingenio",
+        "question": "She always wanted to learn French, so she took _______ evening classes.",
+        "options": [
+            "up",
+            "on",
+            "out",
+            "in"
+        ],
+        "correct": 0,
+        "explanation": "'Take up' significa comenzar a practicar una nueva afición, deporte o estudio.",
+        "id": "q_eng5_ingenio_7"
+    },
+    {
+        "grade": "english5",
+        "category": "ingenio",
+        "question": "He promised to pick me _______ from the airport at midnight.",
+        "options": [
+            "up",
+            "out",
+            "off",
+            "on"
+        ],
+        "correct": 0,
+        "explanation": "'Pick someone up' significa pasar a buscar a alguien en un vehículo.",
+        "id": "q_eng5_ingenio_8"
+    },
+    {
+        "grade": "english5",
+        "category": "ingenio",
+        "question": "The fire brigade managed to put _______ the forest fire before it reached the houses.",
+        "options": [
+            "out",
+            "off",
+            "down",
+            "away"
+        ],
+        "correct": 0,
+        "explanation": "'Put out' significa extinguir o apagar un fuego.",
+        "id": "q_eng5_ingenio_9"
+    },
+    {
+        "grade": "english5",
+        "category": "ingenio",
+        "question": "I ran _______ an old primary school friend while shopping at the supermarket yesterday.",
+        "options": [
+            "into",
+            "out",
+            "after",
+            "over"
+        ],
+        "correct": 0,
+        "explanation": "'Run into someone' significa encontrarse casualmente con alguien.",
+        "id": "q_eng5_ingenio_10"
+    },
+    {
+        "grade": "english5",
+        "category": "ingenio",
+        "question": "What suffix added to the noun 'FRIEND' means the state of being friends?",
+        "options": [
+            "-ship (Friendship)",
+            "-ment",
+            "-ness",
+            "-ity"
+        ],
+        "correct": 0,
+        "explanation": "El sufijo '-ship' forma sustantivos de relación: 'friendship' (amistad).",
+        "id": "q_eng5_ingenio_11"
+    },
+    {
+        "grade": "english5",
+        "category": "ingenio",
+        "question": "What prefix added to 'UNDERSTAND' means 'entender erróneamente'?",
+        "options": [
+            "Mis- (Misunderstand)",
+            "Dis-",
+            "Un-",
+            "In-"
+        ],
+        "correct": 0,
+        "explanation": "El prefijo 'mis-' denota acción equivocada o errónea: 'misunderstand' (malinterpretar).",
+        "id": "q_eng5_ingenio_12"
+    },
+    {
+        "grade": "english5",
+        "category": "ingenio",
+        "question": "What suffix turns the verb 'DEVELOP' into the noun meaning 'desarrollo'?",
+        "options": [
+            "-ment (Development)",
+            "-tion",
+            "-ness",
+            "-ance"
+        ],
+        "correct": 0,
+        "explanation": "El sufijo '-ment' forma el sustantivo abstracto 'development'.",
+        "id": "q_eng5_ingenio_13"
+    },
+    {
+        "grade": "english5",
+        "category": "ingenio",
+        "question": "What prefix added to 'NATIONAL' means 'entre varias naciones'?",
+        "options": [
+            "Inter- (International)",
+            "Multi-",
+            "Sub-",
+            "Trans-"
+        ],
+        "correct": 0,
+        "explanation": "El prefijo 'inter-' significa entre o recíproco: 'international' (internacional).",
+        "id": "q_eng5_ingenio_14"
+    },
+    {
+        "grade": "english5",
+        "category": "ingenio",
+        "question": "What suffix turns the adjective 'RESPONSIBLE' into the noun 'responsabilidad'?",
+        "options": [
+            "-ity (Responsibility)",
+            "-ness",
+            "-ment",
+            "-ance"
+        ],
+        "correct": 0,
+        "explanation": "El sufijo '-ity' forma sustantivos a partir de adjetivos: 'responsibility'.",
+        "id": "q_eng5_ingenio_15"
+    },
+    {
+        "grade": "english5",
+        "category": "ingenio",
+        "question": "What prefix added to 'ESTIMATE' means 'calcular por debajo de la realidad'?",
+        "options": [
+            "Under- (Underestimate)",
+            "Over-",
+            "Mis-",
+            "Sub-"
+        ],
+        "correct": 0,
+        "explanation": "El prefijo 'under-' denota escasez o defecto: 'underestimate' (subestimar).",
+        "id": "q_eng5_ingenio_16"
+    },
+    {
+        "grade": "english5",
+        "category": "ingenio",
+        "question": "What suffix turns the verb 'POLLUTE' into the noun 'contaminación'?",
+        "options": [
+            "-tion (Pollution)",
+            "-ment",
+            "-ness",
+            "-ity"
+        ],
+        "correct": 0,
+        "explanation": "El sufijo '-tion' forma el sustantivo de acción: 'pollution'.",
+        "id": "q_eng5_ingenio_17"
+    },
+    {
+        "grade": "english5",
+        "category": "ingenio",
+        "question": "What prefix added to 'BEHAVE' means 'portarse mal'?",
+        "options": [
+            "Mis- (Misbehave)",
+            "Dis-",
+            "Un-",
+            "In-"
+        ],
+        "correct": 0,
+        "explanation": "'Misbehave' significa comportarse de manera incorrecta.",
+        "id": "q_eng5_ingenio_18"
+    },
+    {
+        "grade": "english5",
+        "category": "ingenio",
+        "question": "What suffix added to the noun 'HARM' makes it mean 'inofensivo'?",
+        "options": [
+            "-less (Harmless)",
+            "-ful",
+            "-able",
+            "-ing"
+        ],
+        "correct": 0,
+        "explanation": "El sufijo privativo '-less' forma 'harmless' (inofensivo, sin daño).",
+        "id": "q_eng5_ingenio_19"
+    },
+    {
+        "grade": "english5",
+        "category": "ingenio",
+        "question": "What prefix added to 'CROWDED' means 'excesivamente poblado o lleno'?",
+        "options": [
+            "Over- (Overcrowded)",
+            "Super-",
+            "Ultra-",
+            "Extra-"
+        ],
+        "correct": 0,
+        "explanation": "El prefijo 'over-' indica exceso: 'overcrowded' (abarrotado de gente).",
+        "id": "q_eng5_ingenio_20"
+    },
+    {
+        "grade": "english5",
+        "category": "ingenio",
+        "question": "Students must _______ attention to the instructions before starting the exam.",
+        "options": [
+            "pay",
+            "make",
+            "give",
+            "do"
+        ],
+        "correct": 0,
+        "explanation": "La colocación correcta en inglés es 'pay attention' (prestar atención).",
+        "id": "q_eng5_ingenio_21"
+    },
+    {
+        "grade": "english5",
+        "category": "ingenio",
+        "question": "She is really _______ progress with her spoken English this term.",
+        "options": [
+            "making",
+            "doing",
+            "taking",
+            "having"
+        ],
+        "correct": 0,
+        "explanation": "Hacer progresos o avanzar se dice 'make progress'.",
+        "id": "q_eng5_ingenio_22"
+    },
+    {
+        "grade": "english5",
+        "category": "ingenio",
+        "question": "Could you _______ me a favour and carry this heavy parcel?",
+        "options": [
+            "do",
+            "make",
+            "give",
+            "take"
+        ],
+        "correct": 0,
+        "explanation": "Hacer un favor se expresa con el verbo 'do': 'do me a favour'.",
+        "id": "q_eng5_ingenio_23"
+    },
+    {
+        "grade": "english5",
+        "category": "ingenio",
+        "question": "Athletes from forty countries will _______ part in the tournament.",
+        "options": [
+            "take",
+            "make",
+            "do",
+            "play"
+        ],
+        "correct": 0,
+        "explanation": "Participar o formar parte se dice 'take part in'.",
+        "id": "q_eng5_ingenio_24"
+    },
+    {
+        "grade": "english5",
+        "category": "ingenio",
+        "question": "I need to _______ a phone call to confirm our dinner reservation.",
+        "options": [
+            "make",
+            "do",
+            "take",
+            "give"
+        ],
+        "correct": 0,
+        "explanation": "Hacer una llamada telefónica se expresa como 'make a call'.",
+        "id": "q_eng5_ingenio_25"
+    },
+    {
+        "grade": "english5",
+        "category": "ingenio",
+        "question": "Don't be afraid to _______ mistakes; they are essential for learning.",
+        "options": [
+            "make",
+            "do",
+            "take",
+            "have"
+        ],
+        "correct": 0,
+        "explanation": "Cometer errores se formula como 'make mistakes'.",
+        "id": "q_eng5_ingenio_26"
+    },
+    {
+        "grade": "english5",
+        "category": "ingenio",
+        "question": "Eating fresh fruit and vegetables will _______ you good.",
+        "options": [
+            "do",
+            "make",
+            "give",
+            "take"
+        ],
+        "correct": 0,
+        "explanation": "La expresión 'do you good' significa hacerte bien o beneficiar tu salud.",
+        "id": "q_eng5_ingenio_27"
+    },
+    {
+        "grade": "english5",
+        "category": "ingenio",
+        "question": "Before making a major decision, always _______ all options into account.",
+        "options": [
+            "take",
+            "make",
+            "do",
+            "keep"
+        ],
+        "correct": 0,
+        "explanation": "Tener algo en cuenta se expresa como 'take into account'.",
+        "id": "q_eng5_ingenio_28"
+    },
+    {
+        "grade": "english5",
+        "category": "ingenio",
+        "question": "He _______ a deep breath and stepped onto the stage to speak.",
+        "options": [
+            "took",
+            "made",
+            "did",
+            "gave"
+        ],
+        "correct": 0,
+        "explanation": "Respirar hondo se dice 'take a deep breath'.",
+        "id": "q_eng5_ingenio_29"
+    },
+    {
+        "grade": "english5",
+        "category": "ingenio",
+        "question": "It doesn't _______ any difference to me whether we leave at six or seven.",
+        "options": [
+            "make",
+            "do",
+            "take",
+            "give"
+        ],
+        "correct": 0,
+        "explanation": "No marcar ninguna diferencia / dar igual se expresa como 'make a difference'.",
+        "id": "q_eng5_ingenio_30"
+    },
+    {
+        "grade": "english5",
+        "category": "ingenio",
+        "question": "When something costs an enormous amount of money, it costs an arm and a _______.",
+        "options": [
+            "leg",
+            "hand",
+            "foot",
+            "head"
+        ],
+        "correct": 0,
+        "explanation": "El modismo 'cost an arm and a leg' significa costar un ojo de la cara.",
+        "id": "q_eng5_ingenio_31"
+    },
+    {
+        "grade": "english5",
+        "category": "ingenio",
+        "question": "If you are feeling slightly indisposed or having a mild cold, you feel under the _______.",
+        "options": [
+            "weather",
+            "blanket",
+            "table",
+            "cloud"
+        ],
+        "correct": 0,
+        "explanation": "'Under the weather' significa no encontrarse del todo bien de salud.",
+        "id": "q_eng5_ingenio_32"
+    },
+    {
+        "grade": "english5",
+        "category": "ingenio",
+        "question": "When you reveal a secret surprise by accident, you let the cat out of the _______.",
+        "options": [
+            "bag",
+            "box",
+            "house",
+            "cage"
+        ],
+        "correct": 0,
+        "explanation": "'Let the cat out of the bag' significa revelar un secreto inadvertidamente.",
+        "id": "q_eng5_ingenio_33"
+    },
+    {
+        "grade": "english5",
+        "category": "ingenio",
+        "question": "Doing something very rarely is described as doing it once in a blue _______.",
+        "options": [
+            "moon",
+            "sun",
+            "sky",
+            "star"
+        ],
+        "correct": 0,
+        "explanation": "'Once in a blue moon' alude a algo que ocurre en contadas ocasiones.",
+        "id": "q_eng5_ingenio_34"
+    },
+    {
+        "grade": "english5",
+        "category": "ingenio",
+        "question": "When someone speaks very clearly and directly to the point, they hit the nail on the _______.",
+        "options": [
+            "head",
+            "finger",
+            "wall",
+            "board"
+        ],
+        "correct": 0,
+        "explanation": "'Hit the nail on the head' significa dar en el clavo.",
+        "id": "q_eng5_ingenio_35"
+    },
+    {
+        "grade": "english5",
+        "category": "ingenio",
+        "question": "To face a difficult or unpleasant situation with courage is to bite the _______.",
+        "options": [
+            "bullet",
+            "apple",
+            "bread",
+            "finger"
+        ],
+        "correct": 0,
+        "explanation": "'Bite the bullet' significa apretar los dientes y afrontar una situación difícil.",
+        "id": "q_eng5_ingenio_36"
+    },
+    {
+        "grade": "english5",
+        "category": "ingenio",
+        "question": "When you hear something directly from the primary source, you hear it from the horse's _______.",
+        "options": [
+            "mouth",
+            "ear",
+            "tail",
+            "hoof"
+        ],
+        "correct": 0,
+        "explanation": "'From the horse's mouth' significa de primerísima fuente confiable.",
+        "id": "q_eng5_ingenio_37"
+    },
+    {
+        "grade": "english5",
+        "category": "ingenio",
+        "question": "When you are on top of the world with happiness, you are on cloud _______.",
+        "options": [
+            "nine",
+            "seven",
+            "five",
+            "ten"
+        ],
+        "correct": 0,
+        "explanation": "'On cloud nine' significa estar en el séptimo cielo o sumamente feliz.",
+        "id": "q_eng5_ingenio_38"
+    },
+    {
+        "grade": "english5",
+        "category": "ingenio",
+        "question": "To study intensely late into the night is to burn the midnight _______.",
+        "options": [
+            "oil",
+            "candle",
+            "lamp",
+            "fire"
+        ],
+        "correct": 0,
+        "explanation": "'Burn the midnight oil' significa quemarse las pestañas estudiando hasta tarde.",
+        "id": "q_eng5_ingenio_39"
+    },
+    {
+        "grade": "english5",
+        "category": "ingenio",
+        "question": "When you change your mind completely about something, you have a change of _______.",
+        "options": [
+            "heart",
+            "mind only",
+            "head",
+            "thought"
+        ],
+        "correct": 0,
+        "explanation": "'A change of heart' expresa un cambio sincero de actitud o decisión.",
+        "id": "q_eng5_ingenio_40"
+    },
+    {
+        "grade": "english5",
+        "category": "ingenio",
+        "question": "What has a spine but no bones, and hundreds of leaves but no branches?",
+        "options": [
+            "A book",
+            "A tree",
+            "A fish",
+            "A library"
+        ],
+        "correct": 0,
+        "explanation": "Un libro tiene lomo ('spine') y hojas ('leaves') pero carece de ramas.",
+        "id": "q_eng5_ingenio_41"
+    },
+    {
+        "grade": "english5",
+        "category": "ingenio",
+        "question": "What five-letter English word becomes shorter when you add two letters to it?",
+        "options": [
+            "Short (adding -er makes 'Shorter')",
+            "Long",
+            "Small",
+            "Brief"
+        ],
+        "correct": 0,
+        "explanation": "Al agregar 'er' a la palabra 'Short' (5 letras) se forma la palabra 'Shorter'.",
+        "id": "q_eng5_ingenio_42"
+    },
+    {
+        "grade": "english5",
+        "category": "ingenio",
+        "question": "What kind of room has no doors and no windows, and grows in moist soil?",
+        "options": [
+            "A mushroom",
+            "A bedroom",
+            "A classroom",
+            "A bathroom"
+        ],
+        "correct": 0,
+        "explanation": "Un hongo ('mushroom') contiene la palabra 'room' pero es un organismo vegetal/fungi.",
+        "id": "q_eng5_ingenio_43"
+    },
+    {
+        "grade": "english5",
+        "category": "ingenio",
+        "question": "A doctor and a boy are fishing. The boy is the doctor's son, but the doctor is not the boy's father. Who is the doctor?",
+        "options": [
+            "His mother",
+            "His grandfather",
+            "His uncle",
+            "His brother"
+        ],
+        "correct": 0,
+        "explanation": "La doctora es la madre del niño.",
+        "id": "q_eng5_ingenio_44"
+    },
+    {
+        "grade": "english5",
+        "category": "ingenio",
+        "question": "What starts with 'T', ends with 'T', and is filled with T (tea)?",
+        "options": [
+            "A teapot",
+            "A ticket",
+            "A tent",
+            "A target"
+        ],
+        "correct": 0,
+        "explanation": "Una tetera ('A teapot') empieza con T, termina con T y contiene té.",
+        "id": "q_eng5_ingenio_45"
+    },
+    {
+        "grade": "english5",
+        "category": "ingenio",
+        "question": "If you have me, you want to share me. If you share me, you haven't got me. What am I?",
+        "options": [
+            "A secret",
+            "A cake",
+            "Money",
+            "A book"
+        ],
+        "correct": 0,
+        "explanation": "Un secreto ('A secret') deja de serlo en el momento en que se comparte.",
+        "id": "q_eng5_ingenio_46"
+    },
+    {
+        "grade": "english5",
+        "category": "ingenio",
+        "question": "What building has the most stories in the entire world?",
+        "options": [
+            "A public library (contains thousands of stories/books)",
+            "A skyscraper",
+            "A hotel",
+            "A castle"
+        ],
+        "correct": 0,
+        "explanation": "Juego de palabras: 'stories' significa tanto pisos de un edificio como cuentos/historias.",
+        "id": "q_eng5_ingenio_47"
+    },
+    {
+        "grade": "english5",
+        "category": "ingenio",
+        "question": "What belongs to you, yet is used by all your friends and family members much more than by yourself?",
+        "options": [
+            "Your name",
+            "Your phone",
+            "Your coat",
+            "Your car"
+        ],
+        "correct": 0,
+        "explanation": "Tu nombre propio es tuyo, pero son los demás quienes lo dicen al llamarte.",
+        "id": "q_eng5_ingenio_48"
+    },
+    {
+        "grade": "english5",
+        "category": "ingenio",
+        "question": "What can you catch but never throw?",
+        "options": [
+            "A cold",
+            "A ball",
+            "A fish",
+            "A frisbee"
+        ],
+        "correct": 0,
+        "explanation": "Pescarse o contagiarse un resfriado se dice 'catch a cold'.",
+        "id": "q_eng5_ingenio_49"
+    },
+    {
+        "grade": "english5",
+        "category": "ingenio",
+        "question": "What runs all around a garden without ever taking a single step?",
+        "options": [
+            "A fence",
+            "A dog",
+            "A child",
+            "A rabbit"
+        ],
+        "correct": 0,
+        "explanation": "Una cerca o alambrado ('A fence') rodea el perímetro sin moverse.",
+        "id": "q_eng5_ingenio_50"
+    }
+    ,
+    {
+        "grade": "english6",
+        "category": "matematica",
+        "question": "If I had known about the traffic jam, I _______ a different route.",
+        "options": [
+            "would have taken",
+            "will have taken",
+            "would take",
+            "took"
+        ],
+        "correct": 0,
+        "explanation": "Tercer condicional para situaciones irreales del pasado: If + had + pp, would have + past participle.",
+        "id": "q_eng6_matematica_1"
+    },
+    {
+        "grade": "english6",
+        "category": "matematica",
+        "question": "If she _______ the train, she would have arrived at the interview on time.",
+        "options": [
+            "hadn't missed",
+            "hasn't missed",
+            "didn't miss",
+            "wouldn't miss"
+        ],
+        "correct": 0,
+        "explanation": "En la cláusula con 'if' del Third Conditional se utiliza Past Perfect: 'hadn't missed'.",
+        "id": "q_eng6_matematica_2"
+    },
+    {
+        "grade": "english6",
+        "category": "matematica",
+        "question": "We would have won the championship match if our goalkeeper _______ injured.",
+        "options": [
+            "hadn't been",
+            "hasn't been",
+            "wasn't",
+            "wouldn't be"
+        ],
+        "correct": 0,
+        "explanation": "Condición en el pasado no realizada: 'if our goalkeeper hadn't been injured'.",
+        "id": "q_eng6_matematica_3"
+    },
+    {
+        "grade": "english6",
+        "category": "matematica",
+        "question": "What _______ you have done if you had failed your final university examination?",
+        "options": [
+            "would",
+            "will",
+            "did",
+            "could"
+        ],
+        "correct": 0,
+        "explanation": "Pregunta en Third Conditional: What would you have done...?",
+        "id": "q_eng6_matematica_4"
+    },
+    {
+        "grade": "english6",
+        "category": "matematica",
+        "question": "If they had left home ten minutes earlier, they _______ caught the flight.",
+        "options": [
+            "would have",
+            "will have",
+            "would",
+            "had"
+        ],
+        "correct": 0,
+        "explanation": "Consecuencia hipotética en el pasado: 'they would have caught'.",
+        "id": "q_eng6_matematica_5"
+    },
+    {
+        "grade": "english6",
+        "category": "matematica",
+        "question": "If you had told me you were in hospital, I _______ you immediately.",
+        "options": [
+            "would have visited",
+            "will have visited",
+            "would visit",
+            "visited"
+        ],
+        "correct": 0,
+        "explanation": "Estructura Third Conditional: 'would have visited'.",
+        "id": "q_eng6_matematica_6"
+    },
+    {
+        "grade": "english6",
+        "category": "matematica",
+        "question": "She _______ passed her driving test if she hadn't been so nervous.",
+        "options": [
+            "would have",
+            "will have",
+            "would",
+            "had"
+        ],
+        "correct": 0,
+        "explanation": "Resultado contrafáctico en pasado: 'She would have passed'.",
+        "id": "q_eng6_matematica_7"
+    },
+    {
+        "grade": "english6",
+        "category": "matematica",
+        "question": "If we _______ a map with us, we wouldn't have gotten lost in the mountains.",
+        "options": [
+            "had taken",
+            "took",
+            "have taken",
+            "would take"
+        ],
+        "correct": 0,
+        "explanation": "Past Perfect en la condición hipotética: 'If we had taken a map'.",
+        "id": "q_eng6_matematica_8"
+    },
+    {
+        "grade": "english6",
+        "category": "matematica",
+        "question": "They wouldn't have bought that old cottage if they _______ how damp it was.",
+        "options": [
+            "had realized",
+            "realized",
+            "have realized",
+            "would realize"
+        ],
+        "correct": 0,
+        "explanation": "Condición pasada: 'if they had realized'.",
+        "id": "q_eng6_matematica_9"
+    },
+    {
+        "grade": "english6",
+        "category": "matematica",
+        "question": "If I _______ that film was so terrifying, I wouldn't have watched it alone.",
+        "options": [
+            "had known",
+            "knew",
+            "have known",
+            "would know"
+        ],
+        "correct": 0,
+        "explanation": "De haberlo sabido en el pasado: 'If I had known'.",
+        "id": "q_eng6_matematica_10"
+    },
+    {
+        "grade": "english6",
+        "category": "matematica",
+        "question": "If you had warned me earlier, I _______ been able to prevent the accident.",
+        "options": [
+            "might have",
+            "will have",
+            "would be",
+            "can have"
+        ],
+        "correct": 0,
+        "explanation": "'Might have' introduce una posibilidad tentativa en el resultado del Third Conditional.",
+        "id": "q_eng6_matematica_11"
+    },
+    {
+        "grade": "english6",
+        "category": "matematica",
+        "question": "She _______ won the gold medal if she hadn't fallen at the final hurdle.",
+        "options": [
+            "could have",
+            "can have",
+            "will have",
+            "had"
+        ],
+        "correct": 0,
+        "explanation": "'Could have won' expresa una capacidad o posibilidad pasada frustrada.",
+        "id": "q_eng6_matematica_12"
+    },
+    {
+        "grade": "english6",
+        "category": "matematica",
+        "question": "If we had booked earlier, we _______ secured much cheaper airline tickets.",
+        "options": [
+            "might have",
+            "will have",
+            "can have",
+            "must have"
+        ],
+        "correct": 0,
+        "explanation": "Posibilidad potencial en pasado: 'might have secured'.",
+        "id": "q_eng6_matematica_13"
+    },
+    {
+        "grade": "english6",
+        "category": "matematica",
+        "question": "He _______ become a concert pianist if his parents had encouraged him.",
+        "options": [
+            "could have",
+            "can have",
+            "will have",
+            "would"
+        ],
+        "correct": 0,
+        "explanation": "Potencial no desarrollado en el pasado: 'could have become'.",
+        "id": "q_eng6_matematica_14"
+    },
+    {
+        "grade": "english6",
+        "category": "matematica",
+        "question": "If the rescue team had arrived an hour later, the hikers _______ survived the blizzard.",
+        "options": [
+            "might not have",
+            "will not have",
+            "cannot have",
+            "hadn't"
+        ],
+        "correct": 0,
+        "explanation": "Posibilidad negativa en pasado: 'might not have survived'.",
+        "id": "q_eng6_matematica_15"
+    },
+    {
+        "grade": "english6",
+        "category": "matematica",
+        "question": "You _______ avoided this fine if you had paid the parking fee on time.",
+        "options": [
+            "could have",
+            "can have",
+            "will have",
+            "would"
+        ],
+        "correct": 0,
+        "explanation": "Capacidad pasada de evitar una sanción: 'could have avoided'.",
+        "id": "q_eng6_matematica_16"
+    },
+    {
+        "grade": "english6",
+        "category": "matematica",
+        "question": "If she hadn't studied medicine, she _______ become a talented graphic designer.",
+        "options": [
+            "might have",
+            "will have",
+            "can have",
+            "had"
+        ],
+        "correct": 0,
+        "explanation": "Ruta profesional alternativa posible: 'might have become'.",
+        "id": "q_eng6_matematica_17"
+    },
+    {
+        "grade": "english6",
+        "category": "matematica",
+        "question": "Had you asked for assistance, we _______ helped you gladly.",
+        "options": [
+            "would have",
+            "will have",
+            "would",
+            "had"
+        ],
+        "correct": 0,
+        "explanation": "Inversión condicional formal ('Had you asked...'): equivale a 'If you had asked...'.",
+        "id": "q_eng6_matematica_18"
+    },
+    {
+        "grade": "english6",
+        "category": "matematica",
+        "question": "Had the alarm sounded, the building _______ evacuated much faster.",
+        "options": [
+            "would have been",
+            "will have been",
+            "would be",
+            "had been"
+        ],
+        "correct": 0,
+        "explanation": "Inversión formal con voz pasiva en Third Conditional: 'would have been evacuated'.",
+        "id": "q_eng6_matematica_19"
+    },
+    {
+        "grade": "english6",
+        "category": "matematica",
+        "question": "If the weather had been warmer, we _______ spent the afternoon at the lake.",
+        "options": [
+            "could have",
+            "can have",
+            "will have",
+            "had"
+        ],
+        "correct": 0,
+        "explanation": "Opción viable en pasado: 'could have spent'.",
+        "id": "q_eng6_matematica_20"
+    },
+    {
+        "grade": "english6",
+        "category": "matematica",
+        "question": "I have a terrible sunburn. I wish I _______ sunscreen at the beach.",
+        "options": [
+            "had applied",
+            "applied",
+            "would apply",
+            "apply"
+        ],
+        "correct": 0,
+        "explanation": "Para expresar arrepentimiento sobre una acción pasada se utiliza 'wish + had + past participle'.",
+        "id": "q_eng6_matematica_21"
+    },
+    {
+        "grade": "english6",
+        "category": "matematica",
+        "question": "If only I _______ so much money on unnecessary clothes last month!",
+        "options": [
+            "hadn't spent",
+            "didn't spend",
+            "wouldn't spend",
+            "haven't spent"
+        ],
+        "correct": 0,
+        "explanation": "'If only' tiene mayor énfasis emocional que 'wish' y rige Past Perfect para lamentos del pasado.",
+        "id": "q_eng6_matematica_22"
+    },
+    {
+        "grade": "english6",
+        "category": "matematica",
+        "question": "She failed the exam. She wishes she _______ harder throughout the semester.",
+        "options": [
+            "had studied",
+            "studied",
+            "would study",
+            "studies"
+        ],
+        "correct": 0,
+        "explanation": "Lamento sobre el rendimiento académico pasado: 'wishes she had studied'.",
+        "id": "q_eng6_matematica_23"
+    },
+    {
+        "grade": "english6",
+        "category": "matematica",
+        "question": "I wish I _______ to my mother's sensible advice before signing the contract.",
+        "options": [
+            "had listened",
+            "listened",
+            "would listen",
+            "listen"
+        ],
+        "correct": 0,
+        "explanation": "Arrepentimiento retrospectivo: 'wish I had listened'.",
+        "id": "q_eng6_matematica_24"
+    },
+    {
+        "grade": "english6",
+        "category": "matematica",
+        "question": "If only we _______ the early morning train; now we are stuck in traffic!",
+        "options": [
+            "had caught",
+            "caught",
+            "would catch",
+            "have caught"
+        ],
+        "correct": 0,
+        "explanation": "Lamento por una oportunidad perdida: 'If only we had caught'.",
+        "id": "q_eng6_matematica_25"
+    },
+    {
+        "grade": "english6",
+        "category": "matematica",
+        "question": "He wishes he _______ his temper during the team meeting yesterday.",
+        "options": [
+            "hadn't lost",
+            "didn't lose",
+            "wouldn't lose",
+            "hasn't lost"
+        ],
+        "correct": 0,
+        "explanation": "Arrepentimiento por una conducta pasada: 'wishes he hadn't lost his temper'.",
+        "id": "q_eng6_matematica_26"
+    },
+    {
+        "grade": "english6",
+        "category": "matematica",
+        "question": "Do you ever wish you _______ a different degree at university?",
+        "options": [
+            "had chosen",
+            "chose",
+            "would choose",
+            "choose"
+        ],
+        "correct": 0,
+        "explanation": "Pregunta sobre decisiones vocacionales pasadas: 'wish you had chosen'.",
+        "id": "q_eng6_matematica_27"
+    },
+    {
+        "grade": "english6",
+        "category": "matematica",
+        "question": "If only the referee _______ that obvious penalty in the final minute!",
+        "options": [
+            "had seen",
+            "saw",
+            "would see",
+            "has seen"
+        ],
+        "correct": 0,
+        "explanation": "Frustración deportiva pasada: 'If only the referee had seen'.",
+        "id": "q_eng6_matematica_28"
+    },
+    {
+        "grade": "english6",
+        "category": "matematica",
+        "question": "I wish we _______ more photos while we were travelling in Japan.",
+        "options": [
+            "had taken",
+            "took",
+            "would take",
+            "have taken"
+        ],
+        "correct": 0,
+        "explanation": "Deseo de haber acumulado más recuerdos: 'wish we had taken'.",
+        "id": "q_eng6_matematica_29"
+    },
+    {
+        "grade": "english6",
+        "category": "matematica",
+        "question": "She wishes she _______ accepted that university scholarship in Canada.",
+        "options": [
+            "had",
+            "has",
+            "would",
+            "did"
+        ],
+        "correct": 0,
+        "explanation": "Auxiliar 'had' para el arrepentimiento pasado.",
+        "id": "q_eng6_matematica_30"
+    },
+    {
+        "grade": "english6",
+        "category": "matematica",
+        "question": "If I had accepted that job in London three years ago, I _______ living in England today.",
+        "options": [
+            "would be",
+            "would have been",
+            "will be",
+            "am"
+        ],
+        "correct": 0,
+        "explanation": "Condicional Mixto (causa pasada, efecto presente): If + had + pp, would + infinitivo ('would be living').",
+        "id": "q_eng6_matematica_31"
+    },
+    {
+        "grade": "english6",
+        "category": "matematica",
+        "question": "If she hadn't broken her leg skiing last winter, she _______ participating in the marathon today.",
+        "options": [
+            "would be",
+            "would have been",
+            "will be",
+            "is"
+        ],
+        "correct": 0,
+        "explanation": "Causa en pasado con consecuencia en el presente: 'she would be participating'.",
+        "id": "q_eng6_matematica_32"
+    },
+    {
+        "grade": "english6",
+        "category": "matematica",
+        "question": "I would be a fluent French speaker today if I _______ in Paris during my childhood.",
+        "options": [
+            "had lived",
+            "lived",
+            "would live",
+            "have lived"
+        ],
+        "correct": 0,
+        "explanation": "Condición en el pasado ('had lived') con resultado actual ('would be fluent').",
+        "id": "q_eng6_matematica_33"
+    },
+    {
+        "grade": "english6",
+        "category": "matematica",
+        "question": "If they had saved more money over the years, they _______ have financial difficulties right now.",
+        "options": [
+            "wouldn't",
+            "won't",
+            "wouldn't have",
+            "hadn't"
+        ],
+        "correct": 0,
+        "explanation": "Resultado negativo en el presente: 'they wouldn't have difficulties right now'.",
+        "id": "q_eng6_matematica_34"
+    },
+    {
+        "grade": "english6",
+        "category": "matematica",
+        "question": "If he _______ more responsible in high school, he would have a better job now.",
+        "options": [
+            "had been",
+            "was",
+            "were",
+            "would be"
+        ],
+        "correct": 0,
+        "explanation": "Condición formativa pasada con efecto laboral presente: 'If he had been'.",
+        "id": "q_eng6_matematica_35"
+    },
+    {
+        "grade": "english6",
+        "category": "matematica",
+        "question": "We _______ lost right now if you had checked the GPS navigation system earlier.",
+        "options": [
+            "wouldn't be",
+            "wouldn't have been",
+            "aren't",
+            "won't be"
+        ],
+        "correct": 0,
+        "explanation": "Estado actual de estar perdidos derivado de no haber mirado el mapa: 'wouldn't be lost'.",
+        "id": "q_eng6_matematica_36"
+    },
+    {
+        "grade": "english6",
+        "category": "matematica",
+        "question": "If you _______ so stubborn yesterday, we would be enjoying the party together today.",
+        "options": [
+            "hadn't been",
+            "weren't",
+            "wouldn't be",
+            "haven't been"
+        ],
+        "correct": 0,
+        "explanation": "Actitud en el pasado que repercute hoy: 'If you hadn't been'.",
+        "id": "q_eng6_matematica_37"
+    },
+    {
+        "grade": "english6",
+        "category": "matematica",
+        "question": "I wouldn't be feeling so exhausted right now if I _______ to bed earlier last night.",
+        "options": [
+            "had gone",
+            "went",
+            "would go",
+            "have gone"
+        ],
+        "correct": 0,
+        "explanation": "Cansancio presente debido a haberse acostado tarde: 'if I had gone'.",
+        "id": "q_eng6_matematica_38"
+    },
+    {
+        "grade": "english6",
+        "category": "matematica",
+        "question": "If she had practiced her presentation, she _______ so anxious right now.",
+        "options": [
+            "wouldn't feel",
+            "wouldn't have felt",
+            "doesn't feel",
+            "won't feel"
+        ],
+        "correct": 0,
+        "explanation": "Sentimiento presente derivado de la falta de ensayo previo: 'wouldn't feel'.",
+        "id": "q_eng6_matematica_39"
+    },
+    {
+        "grade": "english6",
+        "category": "matematica",
+        "question": "He _______ still be unemployed if he hadn't taken that coding bootcamp last year.",
+        "options": [
+            "would",
+            "will",
+            "had",
+            "would have"
+        ],
+        "correct": 0,
+        "explanation": "Consecuencia presente en condicional mixto: 'He would still be unemployed'.",
+        "id": "q_eng6_matematica_40"
+    },
+    {
+        "grade": "english6",
+        "category": "matematica",
+        "question": "You can borrow my car _______ that you return it with a full tank of petrol.",
+        "options": [
+            "provided",
+            "unless",
+            "in case",
+            "otherwise"
+        ],
+        "correct": 0,
+        "explanation": "'Provided that' (siempre y cuando / con tal de que) introduce una condición formal.",
+        "id": "q_eng6_matematica_41"
+    },
+    {
+        "grade": "english6",
+        "category": "matematica",
+        "question": "We will go hiking in the national park _______ as it doesn't rain.",
+        "options": [
+            "as long",
+            "unless",
+            "in case",
+            "provided"
+        ],
+        "correct": 0,
+        "explanation": "'As long as' es una conjunción condicional equivalente a 'siempre que'.",
+        "id": "q_eng6_matematica_42"
+    },
+    {
+        "grade": "english6",
+        "category": "matematica",
+        "question": "Take an umbrella with you _______ it rains later this afternoon.",
+        "options": [
+            "in case",
+            "if only",
+            "provided",
+            "unless"
+        ],
+        "correct": 0,
+        "explanation": "'In case' (por si acaso) expresa una precaución ante una eventualidad futura.",
+        "id": "q_eng6_matematica_43"
+    },
+    {
+        "grade": "english6",
+        "category": "matematica",
+        "question": "You won't be allowed into the examination hall _______ you show your student ID card.",
+        "options": [
+            "unless",
+            "if",
+            "provided",
+            "as long as"
+        ],
+        "correct": 0,
+        "explanation": "'Unless' significa 'a menos que' o 'si no': 'unless you show your ID'.",
+        "id": "q_eng6_matematica_44"
+    },
+    {
+        "grade": "english6",
+        "category": "matematica",
+        "question": "I will write down his address _______ I forget it later.",
+        "options": [
+            "in case",
+            "unless",
+            "provided",
+            "as long as"
+        ],
+        "correct": 0,
+        "explanation": "Medida de prevención: 'in case I forget it' (por si se me olvida).",
+        "id": "q_eng6_matematica_45"
+    },
+    {
+        "grade": "english6",
+        "category": "matematica",
+        "question": "You can stay at our apartment in Madrid on _______ that you feed our cat.",
+        "options": [
+            "condition",
+            "case",
+            "provision",
+            "term"
+        ],
+        "correct": 0,
+        "explanation": "La locución formal es 'on condition that' (bajo la condición de que).",
+        "id": "q_eng6_matematica_46"
+    },
+    {
+        "grade": "english6",
+        "category": "matematica",
+        "question": "Please keep your receipt, _______ you need to exchange the shirt for another size.",
+        "options": [
+            "in case",
+            "unless",
+            "provided",
+            "as long"
+        ],
+        "correct": 0,
+        "explanation": "Guardar el comprobante por si fuera necesario cambiar la prenda: 'in case you need'.",
+        "id": "q_eng6_matematica_47"
+    },
+    {
+        "grade": "english6",
+        "category": "matematica",
+        "question": "_______ that all flights depart on time, we should arrive before midnight.",
+        "options": [
+            "Assuming or Provided",
+            "Unless",
+            "In case",
+            "Lest"
+        ],
+        "correct": 0,
+        "explanation": "'Assuming that' o 'Provided that' introducen la premisa inicial.",
+        "id": "q_eng6_matematica_48"
+    },
+    {
+        "grade": "english6",
+        "category": "matematica",
+        "question": "Hurry up! _______, we are going to miss the start of the theatre performance.",
+        "options": [
+            "Otherwise",
+            "Unless",
+            "In case",
+            "Provided"
+        ],
+        "correct": 0,
+        "explanation": "'Otherwise' (de lo contrario / si no) advierte sobre las consecuencias de no apurarse.",
+        "id": "q_eng6_matematica_49"
+    },
+    {
+        "grade": "english6",
+        "category": "matematica",
+        "question": "Even _______ it rains, the outdoor concert will continue as planned.",
+        "options": [
+            "if",
+            "in case",
+            "unless",
+            "provided"
+        ],
+        "correct": 0,
+        "explanation": "'Even if' (incluso si / aunque) señala que el evento no se suspenderá por lluvia.",
+        "id": "q_eng6_matematica_50"
+    },
+    {
+        "grade": "english6",
+        "category": "lengua",
+        "question": "'I am living in London,' Martin said. -> Martin said that he _______ in London.",
+        "options": [
+            "was living",
+            "is living",
+            "has lived",
+            "had lived"
+        ],
+        "correct": 0,
+        "explanation": "En el estilo indirecto (Reported Speech), el Present Continuous ('am living') cambia a Past Continuous ('was living').",
+        "id": "q_eng6_lengua_1"
+    },
+    {
+        "grade": "english6",
+        "category": "lengua",
+        "question": "'I have finished my essay,' Anna said. -> Anna said that she _______ her essay.",
+        "options": [
+            "had finished",
+            "has finished",
+            "finished",
+            "would finish"
+        ],
+        "correct": 0,
+        "explanation": "El Present Perfect ('have finished') se transforma en Past Perfect ('had finished').",
+        "id": "q_eng6_lengua_2"
+    },
+    {
+        "grade": "english6",
+        "category": "lengua",
+        "question": "'I will help you tomorrow,' Tom told me. -> Tom told me that he _______ help me.",
+        "options": [
+            "would",
+            "will",
+            "can",
+            "shall"
+        ],
+        "correct": 0,
+        "explanation": "El modal 'will' pasa a 'would' en estilo indirecto.",
+        "id": "q_eng6_lengua_3"
+    },
+    {
+        "grade": "english6",
+        "category": "lengua",
+        "question": "'I can play the cello,' Sarah said. -> Sarah said that she _______ play the cello.",
+        "options": [
+            "could",
+            "can",
+            "would",
+            "might"
+        ],
+        "correct": 0,
+        "explanation": "El modal 'can' cambia a 'could'.",
+        "id": "q_eng6_lengua_4"
+    },
+    {
+        "grade": "english6",
+        "category": "lengua",
+        "question": "'I saw a fantastic documentary yesterday,' he said. -> He said he _______ a documentary.",
+        "options": [
+            "had seen",
+            "saw",
+            "has seen",
+            "was seeing"
+        ],
+        "correct": 0,
+        "explanation": "El Past Simple ('saw') habitualmente retrocede a Past Perfect ('had seen') en discurso indirecto.",
+        "id": "q_eng6_lengua_5"
+    },
+    {
+        "grade": "english6",
+        "category": "lengua",
+        "question": "'We must leave now,' they said. -> They said that they _______ leave immediately.",
+        "options": [
+            "had to",
+            "must",
+            "have to",
+            "should"
+        ],
+        "correct": 0,
+        "explanation": "'Must' que expresa obligación cambia a 'had to' en el estilo indirecto pasado.",
+        "id": "q_eng6_lengua_6"
+    },
+    {
+        "grade": "english6",
+        "category": "lengua",
+        "question": "'I don't like horror movies,' she said. -> She said that she _______ horror movies.",
+        "options": [
+            "didn't like",
+            "doesn't like",
+            "hadn't liked",
+            "wouldn't like"
+        ],
+        "correct": 0,
+        "explanation": "El Present Simple negativo ('don't like') cambia a Past Simple ('didn't like').",
+        "id": "q_eng6_lengua_7"
+    },
+    {
+        "grade": "english6",
+        "category": "lengua",
+        "question": "'It is raining heavily,' dad said. -> Dad mentioned that it _______ raining heavily.",
+        "options": [
+            "was",
+            "is",
+            "has been",
+            "had been"
+        ],
+        "correct": 0,
+        "explanation": "'Is raining' se convierte en 'was raining'.",
+        "id": "q_eng6_lengua_8"
+    },
+    {
+        "grade": "english6",
+        "category": "lengua",
+        "question": "'I bought a new bicycle,' Lucas said. -> Lucas stated that he _______ a new bicycle.",
+        "options": [
+            "had bought",
+            "bought",
+            "has bought",
+            "buys"
+        ],
+        "correct": 0,
+        "explanation": "El pasado 'bought' retrocede a 'had bought'.",
+        "id": "q_eng6_lengua_9"
+    },
+    {
+        "grade": "english6",
+        "category": "lengua",
+        "question": "'We are going to visit Rome,' they said. -> They said they _______ to visit Rome.",
+        "options": [
+            "were going",
+            "are going",
+            "had gone",
+            "will go"
+        ],
+        "correct": 0,
+        "explanation": "'Are going to' pasa a 'were going to'.",
+        "id": "q_eng6_lengua_10"
+    },
+    {
+        "grade": "english6",
+        "category": "lengua",
+        "question": "In reported speech, 'yesterday' typically changes to 'the _______'.",
+        "options": [
+            "day before or previous day",
+            "next day",
+            "following day",
+            "last day"
+        ],
+        "correct": 0,
+        "explanation": "'Yesterday' cambia a 'the day before' o 'the previous day'.",
+        "id": "q_eng6_lengua_11"
+    },
+    {
+        "grade": "english6",
+        "category": "lengua",
+        "question": "In reported speech, 'tomorrow' typically changes to 'the _______'.",
+        "options": [
+            "next day or following day",
+            "day before",
+            "previous day",
+            "last day"
+        ],
+        "correct": 0,
+        "explanation": "'Tomorrow' cambia a 'the next day' o 'the following day'.",
+        "id": "q_eng6_lengua_12"
+    },
+    {
+        "grade": "english6",
+        "category": "lengua",
+        "question": "In reported speech, 'here' typically changes to _______.",
+        "options": [
+            "there",
+            "here",
+            "where",
+            "somewhere"
+        ],
+        "correct": 0,
+        "explanation": "La referencia espacial de cercanía 'here' cambia a 'there'.",
+        "id": "q_eng6_lengua_13"
+    },
+    {
+        "grade": "english6",
+        "category": "lengua",
+        "question": "In reported speech, 'this morning' becomes _______ morning.",
+        "options": [
+            "that",
+            "this",
+            "the next",
+            "yesterday"
+        ],
+        "correct": 0,
+        "explanation": "El demostrativo 'this' cambia a 'that': 'that morning'.",
+        "id": "q_eng6_lengua_14"
+    },
+    {
+        "grade": "english6",
+        "category": "lengua",
+        "question": "In reported speech, 'now' typically shifts to _______.",
+        "options": [
+            "then or at that moment",
+            "later",
+            "before",
+            "soon"
+        ],
+        "correct": 0,
+        "explanation": "El adverbio 'now' cambia a 'then' o 'at that moment'.",
+        "id": "q_eng6_lengua_15"
+    },
+    {
+        "grade": "english6",
+        "category": "lengua",
+        "question": "In reported speech, 'next week' typically becomes 'the _______ week'.",
+        "options": [
+            "following or next",
+            "previous",
+            "before",
+            "last"
+        ],
+        "correct": 0,
+        "explanation": "'Next week' se transforma en 'the following week'.",
+        "id": "q_eng6_lengua_16"
+    },
+    {
+        "grade": "english6",
+        "category": "lengua",
+        "question": "In reported speech, 'ago' shifts to _______.",
+        "options": [
+            "before",
+            "after",
+            "then",
+            "later"
+        ],
+        "correct": 0,
+        "explanation": "La expresión temporal con 'ago' (ej. two days ago) cambia a 'two days before'.",
+        "id": "q_eng6_lengua_17"
+    },
+    {
+        "grade": "english6",
+        "category": "lengua",
+        "question": "In reported speech, 'last night' typically changes to 'the _______ night'.",
+        "options": [
+            "previous or night before",
+            "next",
+            "following",
+            "last"
+        ],
+        "correct": 0,
+        "explanation": "'Last night' cambia a 'the previous night' o 'the night before'.",
+        "id": "q_eng6_lengua_18"
+    },
+    {
+        "grade": "english6",
+        "category": "lengua",
+        "question": "She said, 'These are my books.' -> She said that _______ were her books.",
+        "options": [
+            "those",
+            "these",
+            "this",
+            "them"
+        ],
+        "correct": 0,
+        "explanation": "El plural demostrativo 'these' pasa a 'those'.",
+        "id": "q_eng6_lengua_19"
+    },
+    {
+        "grade": "english6",
+        "category": "lengua",
+        "question": "He told me, 'I will call you today.' -> He told me he would call me _______.",
+        "options": [
+            "that day",
+            "today",
+            "the day",
+            "yesterday"
+        ],
+        "correct": 0,
+        "explanation": "'Today' cambia a 'that day' en estilo indirecto.",
+        "id": "q_eng6_lengua_20"
+    },
+    {
+        "grade": "english6",
+        "category": "lengua",
+        "question": "'Where do you live?' the officer asked. -> The officer asked me where I _______.",
+        "options": [
+            "lived",
+            "did live",
+            "do live",
+            "live"
+        ],
+        "correct": 0,
+        "explanation": "En las preguntas indirectas el orden de las palabras es afirmativo (sujeto + verbo, sin auxiliar 'do'): 'where I lived'.",
+        "id": "q_eng6_lengua_21"
+    },
+    {
+        "grade": "english6",
+        "category": "lengua",
+        "question": "'Are you ready for the test?' the teacher asked. -> The teacher asked _______ I was ready.",
+        "options": [
+            "if or whether",
+            "that",
+            "what",
+            "which"
+        ],
+        "correct": 0,
+        "explanation": "Para preguntas de 'Yes/No' se utiliza el nexo 'if' o 'whether': 'asked if/whether I was ready'.",
+        "id": "q_eng6_lengua_22"
+    },
+    {
+        "grade": "english6",
+        "category": "lengua",
+        "question": "'What time does the train leave?' she asked. -> She asked what time the train _______.",
+        "options": [
+            "left",
+            "did leave",
+            "leaves",
+            "had left"
+        ],
+        "correct": 0,
+        "explanation": "El orden es sujeto ('the train') + verbo en pasado ('left'), sin 'does'.",
+        "id": "q_eng6_lengua_23"
+    },
+    {
+        "grade": "english6",
+        "category": "lengua",
+        "question": "'Did you see the match?' he asked. -> He asked me if I _______ the match.",
+        "options": [
+            "had seen",
+            "saw",
+            "did see",
+            "have seen"
+        ],
+        "correct": 0,
+        "explanation": "Pregunta en pasado simple: cambia a 'if I had seen'.",
+        "id": "q_eng6_lengua_24"
+    },
+    {
+        "grade": "english6",
+        "category": "lengua",
+        "question": "'Why are you crying?' she asked the child. -> She asked the child why he _______.",
+        "options": [
+            "was crying",
+            "is crying",
+            "cried",
+            "has cried"
+        ],
+        "correct": 0,
+        "explanation": "La pregunta en Present Continuous pasa a orden afirmativo en pasado: 'why he was crying'.",
+        "id": "q_eng6_lengua_25"
+    },
+    {
+        "grade": "english6",
+        "category": "lengua",
+        "question": "'Can you swim?' the instructor asked. -> The instructor asked me if I _______ swim.",
+        "options": [
+            "could",
+            "can",
+            "would",
+            "should"
+        ],
+        "correct": 0,
+        "explanation": "El modal 'can' cambia a 'could' precedido por 'if': 'if I could swim'.",
+        "id": "q_eng6_lengua_26"
+    },
+    {
+        "grade": "english6",
+        "category": "lengua",
+        "question": "'Have you finished your homework?' mum asked. -> Mum asked if I _______ my homework.",
+        "options": [
+            "had finished",
+            "finished",
+            "have finished",
+            "finish"
+        ],
+        "correct": 0,
+        "explanation": "Pregunta en Present Perfect: pasa a 'if I had finished'.",
+        "id": "q_eng6_lengua_27"
+    },
+    {
+        "grade": "english6",
+        "category": "lengua",
+        "question": "'How much does this jacket cost?' Lucas asked. -> Lucas asked how much the jacket _______.",
+        "options": [
+            "cost",
+            "did cost",
+            "costs",
+            "costed"
+        ],
+        "correct": 0,
+        "explanation": "Orden afirmativo con el pasado irregular 'cost' (cost - cost - cost).",
+        "id": "q_eng6_lengua_28"
+    },
+    {
+        "grade": "english6",
+        "category": "lengua",
+        "question": "She asked me, 'Who is your favourite author?' -> She asked me who my favourite author _______.",
+        "options": [
+            "was",
+            "is",
+            "were",
+            "had been"
+        ],
+        "correct": 0,
+        "explanation": "El verbo 'to be' se traslada al final de la cláusula subordinada: 'who my favourite author was'.",
+        "id": "q_eng6_lengua_29"
+    },
+    {
+        "grade": "english6",
+        "category": "lengua",
+        "question": "'Will it rain tomorrow?' he asked. -> He asked whether it _______ rain the following day.",
+        "options": [
+            "would",
+            "will",
+            "can",
+            "should"
+        ],
+        "correct": 0,
+        "explanation": "El modal 'will' cambia a 'would' con el nexo 'whether'.",
+        "id": "q_eng6_lengua_30"
+    },
+    {
+        "grade": "english6",
+        "category": "lengua",
+        "question": "'You should visit the dentist,' she said. -> She _______ me to visit the dentist.",
+        "options": [
+            "advised",
+            "suggested",
+            "insisted",
+            "demanded"
+        ],
+        "correct": 0,
+        "explanation": "El verbo 'advise' sigue el patrón: advise + objeto + to-infinitive ('advised me to visit').",
+        "id": "q_eng6_lengua_31"
+    },
+    {
+        "grade": "english6",
+        "category": "lengua",
+        "question": "'Let's go for a cycle ride,' Tom said. -> Tom _______ going for a cycle ride.",
+        "options": [
+            "suggested",
+            "encouraged",
+            "demanded",
+            "convinced"
+        ],
+        "correct": 0,
+        "explanation": "El verbo 'suggest' rige gerundio ('suggested going') o una cláusula con 'that'.",
+        "id": "q_eng6_lengua_32"
+    },
+    {
+        "grade": "english6",
+        "category": "lengua",
+        "question": "'I am sorry I was late,' Martin said. -> Martin _______ for being late.",
+        "options": [
+            "apologized",
+            "admitted",
+            "regretted",
+            "complained"
+        ],
+        "correct": 0,
+        "explanation": "El patrón de 'apologize' es: apologize + for + -ing ('apologized for being late').",
+        "id": "q_eng6_lengua_33"
+    },
+    {
+        "grade": "english6",
+        "category": "lengua",
+        "question": "'I stole the golden watch,' the thief said. -> The thief _______ stealing the watch.",
+        "options": [
+            "admitted",
+            "refused",
+            "denied",
+            "warned"
+        ],
+        "correct": 0,
+        "explanation": "'Admitted stealing' (admit + -ing) expresa la confesión del delito.",
+        "id": "q_eng6_lengua_34"
+    },
+    {
+        "grade": "english6",
+        "category": "lengua",
+        "question": "'I didn't break the window,' the boy said. -> The boy _______ breaking the window.",
+        "options": [
+            "denied",
+            "refused",
+            "admitted",
+            "warned"
+        ],
+        "correct": 0,
+        "explanation": "'Denied breaking' (deny + -ing) expresa la negación de haber hecho algo.",
+        "id": "q_eng6_lengua_35"
+    },
+    {
+        "grade": "english6",
+        "category": "lengua",
+        "question": "'Don't touch that hot oven plate!' mum said. -> Mum _______ me not to touch the plate.",
+        "options": [
+            "warned",
+            "suggested",
+            "denied",
+            "recommended"
+        ],
+        "correct": 0,
+        "explanation": "'Warned me not to touch' sigue el patrón: warn + objeto + not to-infinitive.",
+        "id": "q_eng6_lengua_36"
+    },
+    {
+        "grade": "english6",
+        "category": "lengua",
+        "question": "'I will definitely pay you back tomorrow,' she said. -> She _______ to pay me back.",
+        "options": [
+            "promised",
+            "insisted",
+            "suggested",
+            "admitted"
+        ],
+        "correct": 0,
+        "explanation": "El verbo 'promise' rige to-infinitive: 'promised to pay'.",
+        "id": "q_eng6_lengua_37"
+    },
+    {
+        "grade": "english6",
+        "category": "lengua",
+        "question": "'No, I will not do your homework for you!' he said. -> He _______ to do her homework.",
+        "options": [
+            "refused",
+            "denied",
+            "warned",
+            "complained"
+        ],
+        "correct": 0,
+        "explanation": "'Refused to do' (refuse + to-infinitive) expresa negativa a realizar una acción.",
+        "id": "q_eng6_lengua_38"
+    },
+    {
+        "grade": "english6",
+        "category": "lengua",
+        "question": "'You must study harder for the test,' the teacher told him. -> The teacher _______ him to study harder.",
+        "options": [
+            "urged or encouraged",
+            "suggested",
+            "denied",
+            "insisted"
+        ],
+        "correct": 0,
+        "explanation": "'Urged him to study' o 'encouraged him to study' sigue el patrón verbo + objeto + to-infinitive.",
+        "id": "q_eng6_lengua_39"
+    },
+    {
+        "grade": "english6",
+        "category": "lengua",
+        "question": "'You took my mobile phone!' she said to Lucas. -> She accused Lucas _______ taking her phone.",
+        "options": [
+            "of",
+            "for",
+            "with",
+            "about"
+        ],
+        "correct": 0,
+        "explanation": "El patrón del verbo 'accuse' es: accuse + persona + OF + -ing ('accused Lucas of taking').",
+        "id": "q_eng6_lengua_40"
+    },
+    {
+        "grade": "english6",
+        "category": "lengua",
+        "question": "'Please turn off the television,' dad said. -> Dad _______ me to turn off the television.",
+        "options": [
+            "asked",
+            "said",
+            "suggested",
+            "insisted"
+        ],
+        "correct": 0,
+        "explanation": "Los pedidos educados se reportan con 'ask + objeto + to-infinitive': 'asked me to turn off'.",
+        "id": "q_eng6_lengua_41"
+    },
+    {
+        "grade": "english6",
+        "category": "lengua",
+        "question": "'Sit down immediately and open your books!' the teacher said. -> The teacher _______ the students to sit down.",
+        "options": [
+            "ordered or commanded",
+            "begged",
+            "suggested",
+            "admitted"
+        ],
+        "correct": 0,
+        "explanation": "Las órdenes se reportan con 'order + objeto + to-infinitive': 'ordered the students to sit down'.",
+        "id": "q_eng6_lengua_42"
+    },
+    {
+        "grade": "english6",
+        "category": "lengua",
+        "question": "'Shall I carry your heavy suitcase?' he asked. -> He _______ to carry my suitcase.",
+        "options": [
+            "offered",
+            "demanded",
+            "suggested",
+            "insisted"
+        ],
+        "correct": 0,
+        "explanation": "Los ofrecimientos directos se reportan con 'offer + to-infinitive': 'offered to carry'.",
+        "id": "q_eng6_lengua_43"
+    },
+    {
+        "grade": "english6",
+        "category": "lengua",
+        "question": "'Don't forget to lock the back door,' she told me. -> She _______ me to lock the back door.",
+        "options": [
+            "reminded",
+            "warned",
+            "suggested",
+            "admitted"
+        ],
+        "correct": 0,
+        "explanation": "Recordar a alguien una tarea: 'reminded me to lock'.",
+        "id": "q_eng6_lengua_44"
+    },
+    {
+        "grade": "english6",
+        "category": "lengua",
+        "question": "'You ought to eat less fast food,' the doctor said. -> The doctor recommended _______ less fast food.",
+        "options": [
+            "eating",
+            "to eat",
+            "eat",
+            "eaten"
+        ],
+        "correct": 0,
+        "explanation": "El verbo 'recommend' rige gerundio sin objeto: 'recommended eating less fast food'.",
+        "id": "q_eng6_lengua_45"
+    },
+    {
+        "grade": "english6",
+        "category": "lengua",
+        "question": "Which sentence correctly reports: 'I will be there on time'? -> She promised _______ on time.",
+        "options": [
+            "to be there",
+            "being there",
+            "that she will be",
+            "for being there"
+        ],
+        "correct": 0,
+        "explanation": "'Promise' rige to-infinitive: 'promised to be there'.",
+        "id": "q_eng6_lengua_46"
+    },
+    {
+        "grade": "english6",
+        "category": "lengua",
+        "question": "'Don't feed the bears in the national park,' the ranger told tourists. -> The ranger forbade tourists _______ the bears.",
+        "options": [
+            "from feeding or to feed",
+            "feeding",
+            "fed",
+            "feed"
+        ],
+        "correct": 0,
+        "explanation": "'Forbade tourists to feed' o 'warned tourists not to feed'.",
+        "id": "q_eng6_lengua_47"
+    },
+    {
+        "grade": "english6",
+        "category": "lengua",
+        "question": "'Why don't we watch a documentary tonight?' he asked. -> He suggested _______ a documentary.",
+        "options": [
+            "watching",
+            "to watch",
+            "watch",
+            "watched"
+        ],
+        "correct": 0,
+        "explanation": "'Suggested watching' rige la forma en -ing tras suggest.",
+        "id": "q_eng6_lengua_48"
+    },
+    {
+        "grade": "english6",
+        "category": "lengua",
+        "question": "'I really must speak to the restaurant manager,' the customer said. -> The customer insisted on _______ to the manager.",
+        "options": [
+            "speaking",
+            "speak",
+            "to speak",
+            "spoken"
+        ],
+        "correct": 0,
+        "explanation": "La preposición 'on' de 'insist on' obliga a utilizar la forma en -ing: 'insisted on speaking'.",
+        "id": "q_eng6_lengua_49"
+    },
+    {
+        "grade": "english6",
+        "category": "lengua",
+        "question": "The police officer commanded the suspect _______ his hands where he could see them.",
+        "options": [
+            "to put",
+            "putting",
+            "put",
+            "that he puts"
+        ],
+        "correct": 0,
+        "explanation": "Orden reportada: 'commanded the suspect to put his hands'.",
+        "id": "q_eng6_lengua_50"
+    },
+    {
+        "grade": "english6",
+        "category": "naturales",
+        "question": "The pavement is completely wet this morning. It _______ during the night.",
+        "options": [
+            "must have rained",
+            "can't have rained",
+            "should have rained",
+            "must rain"
+        ],
+        "correct": 0,
+        "explanation": "'Must have rained' expresa una conclusión lógica casi certera sobre un hecho del pasado: 'debe de haber llovido'.",
+        "id": "q_eng6_naturales_1"
+    },
+    {
+        "grade": "english6",
+        "category": "naturales",
+        "question": "He _______ his university exam; he studied for eighteen hours every day!",
+        "options": [
+            "can't have failed",
+            "must have failed",
+            "should have failed",
+            "might fail"
+        ],
+        "correct": 0,
+        "explanation": "'Can't have failed' expresa imposibilidad lógica rotunda en el pasado: 'no puede haber desaprobado'.",
+        "id": "q_eng6_naturales_2"
+    },
+    {
+        "grade": "english6",
+        "category": "naturales",
+        "question": "Where are my sunglasses? - You _______ them at the restaurant yesterday.",
+        "options": [
+            "might have left",
+            "must leave",
+            "can't leave",
+            "should leave"
+        ],
+        "correct": 0,
+        "explanation": "'Might have left' expresa una posibilidad tentativa en el pasado: 'podrías haberlas dejado'.",
+        "id": "q_eng6_naturales_3"
+    },
+    {
+        "grade": "english6",
+        "category": "naturales",
+        "question": "The dinosaurs _______ extinct due to a massive asteroid impact 66 million years ago.",
+        "options": [
+            "must have gone",
+            "can't have gone",
+            "should have gone",
+            "must go"
+        ],
+        "correct": 0,
+        "explanation": "Deducción paleontológica ampliamente corroborada: 'must have gone extinct'.",
+        "id": "q_eng6_naturales_4"
+    },
+    {
+        "grade": "english6",
+        "category": "naturales",
+        "question": "She _______ seen my message; her phone was switched off all afternoon.",
+        "options": [
+            "couldn't have",
+            "must have",
+            "should have",
+            "might not have"
+        ],
+        "correct": 0,
+        "explanation": "'Couldn't have seen' indica imposibilidad fáctica en el pasado.",
+        "id": "q_eng6_naturales_5"
+    },
+    {
+        "grade": "english6",
+        "category": "naturales",
+        "question": "Why is Lucas late for the conference? - He _______ the morning train.",
+        "options": [
+            "might have missed",
+            "can't have missed",
+            "should miss",
+            "must miss"
+        ],
+        "correct": 0,
+        "explanation": "Hipótesis plausible en el pasado: 'might have missed'.",
+        "id": "q_eng6_naturales_6"
+    },
+    {
+        "grade": "english6",
+        "category": "naturales",
+        "question": "Someone broke the window and took the laptop. It _______ an opportunistic burglar.",
+        "options": [
+            "must have been",
+            "can't have been",
+            "should have been",
+            "must be"
+        ],
+        "correct": 0,
+        "explanation": "Deducción sobre autoría pasada: 'must have been'.",
+        "id": "q_eng6_naturales_7"
+    },
+    {
+        "grade": "english6",
+        "category": "naturales",
+        "question": "You _______ seen Martin in Buenos Aires yesterday; he was with me in Madrid all day!",
+        "options": [
+            "can't have",
+            "must have",
+            "should have",
+            "might have"
+        ],
+        "correct": 0,
+        "explanation": "Imposibilidad comprobada por coartada: 'can't have seen'.",
+        "id": "q_eng6_naturales_8"
+    },
+    {
+        "grade": "english6",
+        "category": "naturales",
+        "question": "The ancient builders _______ enormous ramps to transport the heavy stone blocks.",
+        "options": [
+            "must have used",
+            "can't have used",
+            "should have used",
+            "might use"
+        ],
+        "correct": 0,
+        "explanation": "Conclusión técnica de ingeniería histórica: 'must have used'.",
+        "id": "q_eng6_naturales_9"
+    },
+    {
+        "grade": "english6",
+        "category": "naturales",
+        "question": "She _______ forgotten about our meeting; she always writes everything in her diary.",
+        "options": [
+            "couldn't have or can't have",
+            "must have",
+            "should have",
+            "might have"
+        ],
+        "correct": 0,
+        "explanation": "Imposibilidad fundada en el hábito metódico de la persona.",
+        "id": "q_eng6_naturales_10"
+    },
+    {
+        "grade": "english6",
+        "category": "naturales",
+        "question": "You _______ driven so fast on the icy mountain road; you could have had an accident!",
+        "options": [
+            "shouldn't have",
+            "mustn't have",
+            "can't have",
+            "wouldn't have"
+        ],
+        "correct": 0,
+        "explanation": "'Shouldn't have driven' expresa una crítica sobre una conducta imprudente del pasado: 'no deberías haber conducido tan rápido'.",
+        "id": "q_eng6_naturales_11"
+    },
+    {
+        "grade": "english6",
+        "category": "naturales",
+        "question": "I failed the physics test. I _______ studied much harder over the weekend.",
+        "options": [
+            "should have",
+            "must have",
+            "could",
+            "would"
+        ],
+        "correct": 0,
+        "explanation": "'Should have studied' expresa arrepentimiento o reproche retrospectivo: 'debería haber estudiado'.",
+        "id": "q_eng6_naturales_12"
+    },
+    {
+        "grade": "english6",
+        "category": "naturales",
+        "question": "You _______ apologized to your sister immediately instead of ignoring her.",
+        "options": [
+            "should have",
+            "must have",
+            "can't have",
+            "might have"
+        ],
+        "correct": 0,
+        "explanation": "Conducta correcta que debió haberse realizado: 'should have apologized'.",
+        "id": "q_eng6_naturales_13"
+    },
+    {
+        "grade": "english6",
+        "category": "naturales",
+        "question": "They _______ left earlier; now they have missed their international flight.",
+        "options": [
+            "ought to have or should have",
+            "must have",
+            "can't have",
+            "might have"
+        ],
+        "correct": 0,
+        "explanation": "'Ought to have' es un sinónimo más formal de 'should have'.",
+        "id": "q_eng6_naturales_14"
+    },
+    {
+        "grade": "english6",
+        "category": "naturales",
+        "question": "He _______ eaten that seafood if he knew he was severely allergic to shellfish.",
+        "options": [
+            "shouldn't have",
+            "mustn't have",
+            "can't have",
+            "wouldn't"
+        ],
+        "correct": 0,
+        "explanation": "Crítica a una acción imprudente del pasado: 'shouldn't have eaten'.",
+        "id": "q_eng6_naturales_15"
+    },
+    {
+        "grade": "english6",
+        "category": "naturales",
+        "question": "The doctor told the patient that he _______ taken his medication regularly.",
+        "options": [
+            "should have",
+            "must have",
+            "can't have",
+            "would have"
+        ],
+        "correct": 0,
+        "explanation": "Obligación médica incumplida: 'should have taken'.",
+        "id": "q_eng6_naturales_16"
+    },
+    {
+        "grade": "english6",
+        "category": "naturales",
+        "question": "We _______ asked for directions instead of driving in circles for forty minutes.",
+        "options": [
+            "should have",
+            "must have",
+            "could",
+            "would"
+        ],
+        "correct": 0,
+        "explanation": "Reconocimiento de error pasado: 'should have asked'.",
+        "id": "q_eng6_naturales_17"
+    },
+    {
+        "grade": "english6",
+        "category": "naturales",
+        "question": "You _______ shared confidential company data on an unsecured public network.",
+        "options": [
+            "shouldn't have",
+            "mustn't have",
+            "can't have",
+            "wouldn't have"
+        ],
+        "correct": 0,
+        "explanation": "Reproche por incumplimiento de seguridad: 'shouldn't have shared'.",
+        "id": "q_eng6_naturales_18"
+    },
+    {
+        "grade": "english6",
+        "category": "naturales",
+        "question": "She _______ worn warm thermal gloves; her fingers are completely frozen.",
+        "options": [
+            "should have",
+            "must have",
+            "can't have",
+            "might have"
+        ],
+        "correct": 0,
+        "explanation": "Recomendación no seguida en el pasado: 'should have worn'.",
+        "id": "q_eng6_naturales_19"
+    },
+    {
+        "grade": "english6",
+        "category": "naturales",
+        "question": "I _______ bought that expensive jacket; now I have no savings left for my holiday.",
+        "options": [
+            "shouldn't have",
+            "mustn't have",
+            "can't have",
+            "wouldn't have"
+        ],
+        "correct": 0,
+        "explanation": "Arrepentimiento financiero retrospectivo: 'shouldn't have bought'.",
+        "id": "q_eng6_naturales_20"
+    },
+    {
+        "grade": "english6",
+        "category": "naturales",
+        "question": "Tiny plastic fragments smaller than 5 millimetres that pollute oceans and soils are called _______.",
+        "options": [
+            "microplastics",
+            "macropolymers",
+            "synthetic fibers",
+            "nanopores"
+        ],
+        "correct": 0,
+        "explanation": "Los microplásticos son partículas diminutas altamente nocivas que contaminan la cadena trófica marina.",
+        "id": "q_eng6_naturales_21"
+    },
+    {
+        "grade": "english6",
+        "category": "naturales",
+        "question": "The absorption of excessive carbon dioxide by seawater causes ocean _______.",
+        "options": [
+            "acidification",
+            "desalination",
+            "purification",
+            "freezing"
+        ],
+        "correct": 0,
+        "explanation": "La acidificación de los océanos daña arrecifes de coral y moluscos al reducir el pH del agua.",
+        "id": "q_eng6_naturales_22"
+    },
+    {
+        "grade": "english6",
+        "category": "naturales",
+        "question": "The rapid destruction and burning of tropical rainforests releases enormous amounts of _______.",
+        "options": [
+            "stored carbon dioxide",
+            "pure oxygen",
+            "liquid water",
+            "nitrogen"
+        ],
+        "correct": 0,
+        "explanation": "La deforestación libera el carbono acumulado por los árboles, agravando el calentamiento global.",
+        "id": "q_eng6_naturales_23"
+    },
+    {
+        "grade": "english6",
+        "category": "naturales",
+        "question": "Chemical substances used in agriculture that run off into waterways and cause algal blooms are _______.",
+        "options": [
+            "synthetic fertilizers and pesticides",
+            "vitamins",
+            "compost",
+            "water filters"
+        ],
+        "correct": 0,
+        "explanation": "Los fertilizantes agrícolas generan eutrofización y proliferación tóxica de algas.",
+        "id": "q_eng6_naturales_24"
+    },
+    {
+        "grade": "english6",
+        "category": "naturales",
+        "question": "The loss of variety among living organisms within an ecosystem is the decline of _______.",
+        "options": [
+            "biodiversity",
+            "atmosphere",
+            "climate",
+            "hydrology"
+        ],
+        "correct": 0,
+        "explanation": "La pérdida de biodiversidad debilita el equilibrio y resiliencia de los ecosistemas.",
+        "id": "q_eng6_naturales_25"
+    },
+    {
+        "grade": "english6",
+        "category": "naturales",
+        "question": "The permanent disappearance of an entire species from Earth is called _______.",
+        "options": [
+            "extinction",
+            "migration",
+            "adaptation",
+            "hibernation"
+        ],
+        "correct": 0,
+        "explanation": "La extinción implica la pérdida definitiva de una especie biológica.",
+        "id": "q_eng6_naturales_26"
+    },
+    {
+        "grade": "english6",
+        "category": "naturales",
+        "question": "Facilities that capture industrial carbon dioxide emissions before they enter the air use carbon _______.",
+        "options": [
+            "capture and storage (CCS)",
+            "release",
+            "recycling",
+            "heating"
+        ],
+        "correct": 0,
+        "explanation": "La captura y almacenamiento de carbono (CCS) busca evitar que los gases industriales lleguen a la atmósfera.",
+        "id": "q_eng6_naturales_27"
+    },
+    {
+        "grade": "english6",
+        "category": "naturales",
+        "question": "Species introduced into non-native ecosystems that outcompete local wildlife are _______ species.",
+        "options": [
+            "invasive",
+            "endangered",
+            "protected",
+            "domesticated"
+        ],
+        "correct": 0,
+        "explanation": "Las especies invasoras desplazan a la fauna y flora autóctona alterando el hábitat.",
+        "id": "q_eng6_naturales_28"
+    },
+    {
+        "grade": "english6",
+        "category": "naturales",
+        "question": "Organic waste in landfills decomposes anaerobically to produce _______, a potent greenhouse gas.",
+        "options": [
+            "methane (CH4)",
+            "helium",
+            "oxygen",
+            "argon"
+        ],
+        "correct": 0,
+        "explanation": "El metano es un gas de efecto invernadero decenas de veces más potente que el CO2.",
+        "id": "q_eng6_naturales_29"
+    },
+    {
+        "grade": "english6",
+        "category": "naturales",
+        "question": "Large-scale international areas protected from commercial exploitation are marine _______.",
+        "options": [
+            "sanctuaries or reserves",
+            "ports",
+            "fisheries",
+            "canals"
+        ],
+        "correct": 0,
+        "explanation": "Las reservas y santuarios marinos resguardan los ecosistemas oceánicos de la sobrepesca.",
+        "id": "q_eng6_naturales_30"
+    },
+    {
+        "grade": "english6",
+        "category": "naturales",
+        "question": "A medical study in which new drugs or treatments are tested on human volunteers is a clinical _______.",
+        "options": [
+            "trial",
+            "experiment",
+            "diagnosis",
+            "surgery"
+        ],
+        "correct": 0,
+        "explanation": "Un ensayo clínico ('clinical trial') evalúa la seguridad y eficacia de nuevos medicamentos.",
+        "id": "q_eng6_naturales_31"
+    },
+    {
+        "grade": "english6",
+        "category": "naturales",
+        "question": "A substance that contains dead or weakened forms of a pathogen to stimulate immunity is a _______.",
+        "options": [
+            "vaccine",
+            "antibiotic",
+            "sedative",
+            "steroid"
+        ],
+        "correct": 0,
+        "explanation": "Una vacuna induce la producción de anticuerpos y memoria inmunitaria protectora.",
+        "id": "q_eng6_naturales_32"
+    },
+    {
+        "grade": "english6",
+        "category": "naturales",
+        "question": "The biological process of modifying an organism's DNA using molecular technology is genetic _______.",
+        "options": [
+            "engineering",
+            "surgery",
+            "transplant",
+            "replication"
+        ],
+        "correct": 0,
+        "explanation": "La ingeniería genética modifica secuencias de ADN para conferir rasgos específicos.",
+        "id": "q_eng6_naturales_33"
+    },
+    {
+        "grade": "english6",
+        "category": "naturales",
+        "question": "A harmless, inactive substance given to a control group in a medical trial to test a drug's effect is a _______.",
+        "options": [
+            "placebo",
+            "pathogen",
+            "toxin",
+            "vaccine"
+        ],
+        "correct": 0,
+        "explanation": "El placebo sirve como referencia de control para medir el efecto psicológico o sugestivo.",
+        "id": "q_eng6_naturales_34"
+    },
+    {
+        "grade": "english6",
+        "category": "naturales",
+        "question": "When bacteria develop the ability to survive exposure to antibiotics, it is antibiotic _______.",
+        "options": [
+            "resistance",
+            "immunity",
+            "tolerance",
+            "evolution"
+        ],
+        "correct": 0,
+        "explanation": "La resistencia a los antibióticos es una grave amenaza para la salud pública global.",
+        "id": "q_eng6_naturales_35"
+    },
+    {
+        "grade": "english6",
+        "category": "naturales",
+        "question": "Proteins produced by the immune system that specifically bind to and neutralize antigens are _______.",
+        "options": [
+            "antibodies",
+            "enzymes",
+            "hormones",
+            "platelets"
+        ],
+        "correct": 0,
+        "explanation": "Los anticuerpos son proteínas defensivas generadas por los linfocitos B.",
+        "id": "q_eng6_naturales_36"
+    },
+    {
+        "grade": "english6",
+        "category": "naturales",
+        "question": "The branch of medicine that investigates the incidence, spread and control of diseases is _______.",
+        "options": [
+            "epidemiology",
+            "toxicology",
+            "genetics",
+            "pathology"
+        ],
+        "correct": 0,
+        "explanation": "La epidemiología estudia los patrones de propagación de enfermedades en poblaciones.",
+        "id": "q_eng6_naturales_37"
+    },
+    {
+        "grade": "english6",
+        "category": "naturales",
+        "question": "A disease that spreads across multiple continents or worldwide, affecting millions, is a _______.",
+        "options": [
+            "pandemic",
+            "epidemic",
+            "outbreak",
+            "syndrome"
+        ],
+        "correct": 0,
+        "explanation": "Una pandemia es una epidemia que se extiende a nivel global.",
+        "id": "q_eng6_naturales_38"
+    },
+    {
+        "grade": "english6",
+        "category": "naturales",
+        "question": "Cells in the human body capable of differentiating into various specialized cell types are _______ cells.",
+        "options": [
+            "stem",
+            "blood",
+            "skin",
+            "muscle"
+        ],
+        "correct": 0,
+        "explanation": "Las células madre ('stem cells') tienen el potencial de originar diversos tipos celulares especializados.",
+        "id": "q_eng6_naturales_39"
+    },
+    {
+        "grade": "english6",
+        "category": "naturales",
+        "question": "The organ responsible for filtering metabolic waste products from the blood to produce urine is the _______.",
+        "options": [
+            "kidney",
+            "liver",
+            "pancreas",
+            "spleen"
+        ],
+        "correct": 0,
+        "explanation": "Los riñones ('kidneys') filtran y purifican la sangre eliminando desechos a través de la orina.",
+        "id": "q_eng6_naturales_40"
+    },
+    {
+        "grade": "english6",
+        "category": "naturales",
+        "question": "The manipulation of matter on an atomic and molecular scale (1 to 100 nanometres) is _______.",
+        "options": [
+            "nanotechnology",
+            "macrophysics",
+            "astronomy",
+            "microscopy"
+        ],
+        "correct": 0,
+        "explanation": "La nanotecnología diseña materiales y dispositivos a escala molecular.",
+        "id": "q_eng6_naturales_41"
+    },
+    {
+        "grade": "english6",
+        "category": "naturales",
+        "question": "A material that can conduct electricity with zero resistance at very low temperatures is a _______.",
+        "options": [
+            "superconductor",
+            "semiconductor",
+            "resistor",
+            "dielectric"
+        ],
+        "correct": 0,
+        "explanation": "Un superconductor transporta corriente eléctrica sin disipación de calor ni resistencia.",
+        "id": "q_eng6_naturales_42"
+    },
+    {
+        "grade": "english6",
+        "category": "naturales",
+        "question": "The fundamental principle stating that energy cannot be created or destroyed, only transformed, is the conservation of _______.",
+        "options": [
+            "energy",
+            "mass",
+            "momentum",
+            "matter"
+        ],
+        "correct": 0,
+        "explanation": "El principio de conservación de la energía es una de las leyes cardinales de la física.",
+        "id": "q_eng6_naturales_43"
+    },
+    {
+        "grade": "english6",
+        "category": "naturales",
+        "question": "Materials that conduct electric current better than insulators but not as well as conductors are _______.",
+        "options": [
+            "semiconductors (like silicon)",
+            "superconductors",
+            "dielectrics",
+            "metals"
+        ],
+        "correct": 0,
+        "explanation": "Los semiconductores como el silicio son la base de los microchips de computadoras.",
+        "id": "q_eng6_naturales_44"
+    },
+    {
+        "grade": "english6",
+        "category": "naturales",
+        "question": "The process by which atomic nuclei split into smaller fragments, releasing immense energy in power plants, is nuclear _______.",
+        "options": [
+            "fission",
+            "fusion",
+            "radiation",
+            "decay"
+        ],
+        "correct": 0,
+        "explanation": "La fisión nuclear es la ruptura de núcleos pesados (uranio) utilizada en reactores de energía.",
+        "id": "q_eng6_naturales_45"
+    },
+    {
+        "grade": "english6",
+        "category": "naturales",
+        "question": "The process powering stars, where hydrogen nuclei combine under immense heat to form helium, is nuclear _______.",
+        "options": [
+            "fusion",
+            "fission",
+            "combustion",
+            "reaction"
+        ],
+        "correct": 0,
+        "explanation": "La fusión nuclear combina núcleos ligeros generando la energía del Sol y las estrellas.",
+        "id": "q_eng6_naturales_46"
+    },
+    {
+        "grade": "english6",
+        "category": "naturales",
+        "question": "Light amplification by stimulated emission of radiation produces a high-energy focused beam called a _______.",
+        "options": [
+            "laser",
+            "x-ray",
+            "microwave",
+            "ultrasound"
+        ],
+        "correct": 0,
+        "explanation": "Un láser emite un haz de luz coherente y altamente concentrado.",
+        "id": "q_eng6_naturales_47"
+    },
+    {
+        "grade": "english6",
+        "category": "naturales",
+        "question": "A substance that speeds up a chemical reaction without undergoing permanent chemical change itself is a _______.",
+        "options": [
+            "catalyst",
+            "solvent",
+            "reagent",
+            "inhibitor"
+        ],
+        "correct": 0,
+        "explanation": "Un catalizador acelera las reacciones químicas disminuyendo la energía de activación.",
+        "id": "q_eng6_naturales_48"
+    },
+    {
+        "grade": "english6",
+        "category": "naturales",
+        "question": "The theory describing the behaviour of subatomic particles at the microscopic scale is _______ mechanics.",
+        "options": [
+            "quantum",
+            "classical",
+            "relativistic",
+            "Newtonian"
+        ],
+        "correct": 0,
+        "explanation": "La mecánica cuántica ('quantum mechanics') describe los fenómenos del mundo atómico.",
+        "id": "q_eng6_naturales_49"
+    },
+    {
+        "grade": "english6",
+        "category": "naturales",
+        "question": "The speed of light in a vacuum is approximately _______ kilometres per second.",
+        "options": [
+            "300,000",
+            "150,000",
+            "1,000,000",
+            "50,000"
+        ],
+        "correct": 0,
+        "explanation": "La velocidad de la luz en el vacío es de aproximadamente 300.000 km/s.",
+        "id": "q_eng6_naturales_50"
+    },
+    {
+        "grade": "english6",
+        "category": "sociales",
+        "question": "An urban metropolitan area with a total population exceeding ten million residents is defined as a _______.",
+        "options": [
+            "megacity",
+            "town",
+            "hamlet",
+            "suburb"
+        ],
+        "correct": 0,
+        "explanation": "Una megaciudad ('megacity') cuenta con más de diez millones de habitantes (ej. Tokio, Buenos Aires, São Paulo).",
+        "id": "q_eng6_sociales_1"
+    },
+    {
+        "grade": "english6",
+        "category": "sociales",
+        "question": "The rapid expansion of cities into surrounding rural areas without structured planning is urban _______.",
+        "options": [
+            "sprawl",
+            "renewal",
+            "gentrification",
+            "density"
+        ],
+        "correct": 0,
+        "explanation": "La dispersión urbana ('urban sprawl') expande las periferias generando dependencia del transporte particular.",
+        "id": "q_eng6_sociales_2"
+    },
+    {
+        "grade": "english6",
+        "category": "sociales",
+        "question": "Designing urban infrastructure to minimize environmental impact and carbon emissions is _______ architecture.",
+        "options": [
+            "sustainable or eco-friendly",
+            "classical",
+            "industrial",
+            "traditional"
+        ],
+        "correct": 0,
+        "explanation": "La arquitectura sustentable optimiza el consumo energético y reduce el impacto ecológico.",
+        "id": "q_eng6_sociales_3"
+    },
+    {
+        "grade": "english6",
+        "category": "sociales",
+        "question": "The process of renovating deteriorated urban neighbourhoods, often leading to increased property prices, is _______.",
+        "options": [
+            "gentrification",
+            "suburbanization",
+            "segregation",
+            "decentralization"
+        ],
+        "correct": 0,
+        "explanation": "La gentrificación transforma barrios céntricos revalorizando inmuebles pero desplazando a residentes tradicionales.",
+        "id": "q_eng6_sociales_4"
+    },
+    {
+        "grade": "english6",
+        "category": "sociales",
+        "question": "Urban networks that integrate sensors, IoT and AI to manage traffic, energy and waste efficiently are _______ cities.",
+        "options": [
+            "smart",
+            "digital only",
+            "modern",
+            "industrial"
+        ],
+        "correct": 0,
+        "explanation": "Las 'smart cities' (ciudades inteligentes) aplican tecnología para optimizar los servicios urbanos.",
+        "id": "q_eng6_sociales_5"
+    },
+    {
+        "grade": "english6",
+        "category": "sociales",
+        "question": "Encouraging bicycle use and creating pedestrianized avenues in city centres significantly reduces urban _______.",
+        "options": [
+            "congestion and air pollution",
+            "employment",
+            "tourism",
+            "green spaces"
+        ],
+        "correct": 0,
+        "explanation": "Las sendas peatonales y bicisendas disminuyen el embotellamiento vehicular y la polución del aire.",
+        "id": "q_eng6_sociales_6"
+    },
+    {
+        "grade": "english6",
+        "category": "sociales",
+        "question": "The concept of an urban neighbourhood where all daily necessities are accessible within a 15-minute walk is the _______-minute city.",
+        "options": [
+            "15",
+            "30",
+            "5",
+            "60"
+        ],
+        "correct": 0,
+        "explanation": "El modelo urbanístico de la 'ciudad de los 15 minutos' busca reducir traslados y mejorar la calidad de vida.",
+        "id": "q_eng6_sociales_7"
+    },
+    {
+        "grade": "english6",
+        "category": "sociales",
+        "question": "A community garden established on a vacant city plot where local citizens grow vegetables is an urban _______.",
+        "options": [
+            "farm or community garden",
+            "park only",
+            "zoo",
+            "market only"
+        ],
+        "correct": 0,
+        "explanation": "Las huertas urbanas comunitarias fomentan el consumo local y la cohesión barrial.",
+        "id": "q_eng6_sociales_8"
+    },
+    {
+        "grade": "english6",
+        "category": "sociales",
+        "question": "Overcrowding in metropolitan centres puts severe pressure on affordable housing and public _______.",
+        "options": [
+            "transportation systems",
+            "weather",
+            "geography",
+            "altitude"
+        ],
+        "correct": 0,
+        "explanation": "El crecimiento demográfico urbano demanda inversiones continuas en vivienda y transporte público.",
+        "id": "q_eng6_sociales_9"
+    },
+    {
+        "grade": "english6",
+        "category": "sociales",
+        "question": "Roof surfaces covered with vegetation to insulate buildings and absorb rainwater are green _______.",
+        "options": [
+            "roofs",
+            "walls only",
+            "balconies",
+            "tiles"
+        ],
+        "correct": 0,
+        "explanation": "Los techos verdes o cubiertas vegetales reducen el efecto 'isla de calor' en las ciudades.",
+        "id": "q_eng6_sociales_10"
+    },
+    {
+        "grade": "english6",
+        "category": "sociales",
+        "question": "The practice of employees performing work duties from home using digital technology is remote _______.",
+        "options": [
+            "working or telecommuting",
+            "travel",
+            "relocation",
+            "internship"
+        ],
+        "correct": 0,
+        "explanation": "El teletrabajo ('remote working') permite trabajar a distancia utilizando conectividad e internet.",
+        "id": "q_eng6_sociales_11"
+    },
+    {
+        "grade": "english6",
+        "category": "sociales",
+        "question": "A labour market characterized by flexible, short-term contract work and freelance gigs is the _______ economy.",
+        "options": [
+            "gig",
+            "traditional",
+            "feudal",
+            "heavy"
+        ],
+        "correct": 0,
+        "explanation": "La economía gig se basa en contratos breves, plataformas digitales y trabajo freelance por proyecto.",
+        "id": "q_eng6_sociales_12"
+    },
+    {
+        "grade": "english6",
+        "category": "sociales",
+        "question": "Balancing professional career demands with personal well-being and family time is work-life _______.",
+        "options": [
+            "balance",
+            "schedule",
+            "struggle",
+            "salary"
+        ],
+        "correct": 0,
+        "explanation": "El equilibrio entre vida laboral y personal ('work-life balance') es prioritario para el bienestar.",
+        "id": "q_eng6_sociales_13"
+    },
+    {
+        "grade": "english6",
+        "category": "sociales",
+        "question": "Automated software and intelligent machines replacing repetitive office and manual tasks is workplace _______.",
+        "options": [
+            "automation",
+            "legislation",
+            "education",
+            "recruitment"
+        ],
+        "correct": 0,
+        "explanation": "La automatización de procesos asume tareas rutinarias en industrias y servicios.",
+        "id": "q_eng6_sociales_14"
+    },
+    {
+        "grade": "english6",
+        "category": "sociales",
+        "question": "Learning new skills to adapt to changing technologies and workplace demands is called _______.",
+        "options": [
+            "upskilling or reskilling",
+            "retiring",
+            "commuting",
+            "teleworking"
+        ],
+        "correct": 0,
+        "explanation": "La capacitación continua ('upskilling / reskilling') es clave ante el avance tecnológico.",
+        "id": "q_eng6_sociales_15"
+    },
+    {
+        "grade": "english6",
+        "category": "sociales",
+        "question": "Professionals who travel across different countries while working online from their laptops are digital _______.",
+        "options": [
+            "nomads",
+            "tourists",
+            "refugees",
+            "emigrants"
+        ],
+        "correct": 0,
+        "explanation": "Los nómadas digitales combinan trabajo remoto con viajes internacionales continuos.",
+        "id": "q_eng6_sociales_16"
+    },
+    {
+        "grade": "english6",
+        "category": "sociales",
+        "question": "A flexible working arrangement where an employee divides their week between the office and home is a _______ model.",
+        "options": [
+            "hybrid",
+            "full-time only",
+            "gig",
+            "manual"
+        ],
+        "correct": 0,
+        "explanation": "El esquema de trabajo híbrido combina días presenciales con jornadas virtuales en el hogar.",
+        "id": "q_eng6_sociales_17"
+    },
+    {
+        "grade": "english6",
+        "category": "sociales",
+        "question": "The legal entitlement of workers to disconnect from work-related messages outside working hours is the right to _______.",
+        "options": [
+            "disconnect",
+            "strike",
+            "retire",
+            "complain"
+        ],
+        "correct": 0,
+        "explanation": "El 'derecho a la desconexión' protege el tiempo libre frente a correos y mensajes laborales fuera de horario.",
+        "id": "q_eng6_sociales_18"
+    },
+    {
+        "grade": "english6",
+        "category": "sociales",
+        "question": "An entrepreneur who launches an innovative, technology-driven business with high growth potential founds a _______.",
+        "options": [
+            "startup",
+            "conglomerate",
+            "corporation only",
+            "franchise"
+        ],
+        "correct": 0,
+        "explanation": "Una startup es una empresa emergente innovadora de base tecnológica.",
+        "id": "q_eng6_sociales_19"
+    },
+    {
+        "grade": "english6",
+        "category": "sociales",
+        "question": "Collaborative workspaces shared by remote workers, freelancers and entrepreneurs are _______ spaces.",
+        "options": [
+            "coworking",
+            "living",
+            "factory",
+            "assembly"
+        ],
+        "correct": 0,
+        "explanation": "Los espacios de 'coworking' ofrecen infraestructura compartida y vinculación profesional.",
+        "id": "q_eng6_sociales_20"
+    },
+    {
+        "grade": "english6",
+        "category": "sociales",
+        "question": "The coexistence of diverse racial, religious and cultural groups within one community is _______.",
+        "options": [
+            "multiculturalism",
+            "isolationism",
+            "monoculture",
+            "nationalism"
+        ],
+        "correct": 0,
+        "explanation": "El multiculturalismo valora la diversidad étnica y cultural en una misma sociedad.",
+        "id": "q_eng6_sociales_21"
+    },
+    {
+        "grade": "english6",
+        "category": "sociales",
+        "question": "Languages with very few remaining native speakers that risk vanishing completely are _______ languages.",
+        "options": [
+            "endangered",
+            "official",
+            "universal",
+            "extinct"
+        ],
+        "correct": 0,
+        "explanation": "Las lenguas en peligro de extinción representan una pérdida irreparable de patrimonio cultural inmaterial.",
+        "id": "q_eng6_sociales_22"
+    },
+    {
+        "grade": "english6",
+        "category": "sociales",
+        "question": "A person who has been forced to flee their home country to escape war, persecution or violence is a _______.",
+        "options": [
+            "refugee",
+            "tourist",
+            "expatriate",
+            "nomad"
+        ],
+        "correct": 0,
+        "explanation": "Un refugiado busca asilo en otro país por persecución política, violencia o conflictos bélicos.",
+        "id": "q_eng6_sociales_23"
+    },
+    {
+        "grade": "english6",
+        "category": "sociales",
+        "question": "The process by which people move from one country to live permanently in another is international _______.",
+        "options": [
+            "migration or immigration",
+            "tourism",
+            "commute",
+            "transit"
+        ],
+        "correct": 0,
+        "explanation": "La migración internacional involucra el traslado de residencia entre Estados nacionales.",
+        "id": "q_eng6_sociales_24"
+    },
+    {
+        "grade": "english6",
+        "category": "sociales",
+        "question": "Cultural traditions, music, oral stories and rituals passed down through generations represent intangible cultural _______.",
+        "options": [
+            "heritage",
+            "property",
+            "goods",
+            "capital"
+        ],
+        "correct": 0,
+        "explanation": "El patrimonio cultural inmaterial comprende saberes, tradiciones orales y celebraciones de un pueblo.",
+        "id": "q_eng6_sociales_25"
+    },
+    {
+        "grade": "english6",
+        "category": "sociales",
+        "question": "A simplified language that develops as a means of communication between two groups who do not share a common tongue is a _______.",
+        "options": [
+            "pidgin",
+            "dialect",
+            "creole",
+            "slang"
+        ],
+        "correct": 0,
+        "explanation": "Un pidgin surge espontáneamente como código de comunicación de emergencia entre comunidades con lenguas distintas.",
+        "id": "q_eng6_sociales_26"
+    },
+    {
+        "grade": "english6",
+        "category": "sociales",
+        "question": "When a pidgin language evolves, matures and becomes the primary mother tongue of a community, it becomes a _______.",
+        "options": [
+            "creole",
+            "jargon",
+            "accent",
+            "register"
+        ],
+        "correct": 0,
+        "explanation": "Una lengua criolla ('creole') es un pidgin que se ha convertido en lengua materna con gramática consolidada.",
+        "id": "q_eng6_sociales_27"
+    },
+    {
+        "grade": "english6",
+        "category": "sociales",
+        "question": "Respecting and valuing cultural traditions different from one's own fosters intercultural _______.",
+        "options": [
+            "understanding and dialogue",
+            "conflict",
+            "isolation",
+            "prejudice"
+        ],
+        "correct": 0,
+        "explanation": "El diálogo intercultural promueve la tolerancia, la empatía y la convivencia pacífica.",
+        "id": "q_eng6_sociales_28"
+    },
+    {
+        "grade": "english6",
+        "category": "sociales",
+        "question": "The widespread dispersal of an ethnic population outside their historical ancestral homeland is a _______.",
+        "options": [
+            "diaspora",
+            "settlement",
+            "colony",
+            "excursion"
+        ],
+        "correct": 0,
+        "explanation": "Una diáspora alude a la dispersión comunitaria de un pueblo en distintos países.",
+        "id": "q_eng6_sociales_29"
+    },
+    {
+        "grade": "english6",
+        "category": "sociales",
+        "question": "Preserving indigenous languages through bilingual education programs safeguards ancestral _______.",
+        "options": [
+            "knowledge and identity",
+            "commerce",
+            "technology",
+            "borders"
+        ],
+        "correct": 0,
+        "explanation": "La educación bilingüe preserva la cosmovisión y memoria histórica de los pueblos originarios.",
+        "id": "q_eng6_sociales_30"
+    },
+    {
+        "grade": "english6",
+        "category": "sociales",
+        "question": "The historic document adopted by the United Nations in Paris in 1948 defining basic rights for all human beings is the _______.",
+        "options": [
+            "Universal Declaration of Human Rights (UDHR)",
+            "Magna Carta",
+            "Geneva Convention",
+            "Bill of Rights"
+        ],
+        "correct": 0,
+        "explanation": "La Declaración Universal de los Derechos Humanos de 1948 consagró los derechos inalienables de toda persona.",
+        "id": "q_eng6_sociales_31"
+    },
+    {
+        "grade": "english6",
+        "category": "sociales",
+        "question": "The British constitutional document signed in 1215 by King John that first established that the king was subject to the law was the _______.",
+        "options": [
+            "Magna Carta",
+            "UDHR",
+            "Declaration of Independence",
+            "Treaty of Versailles"
+        ],
+        "correct": 0,
+        "explanation": "La Carta Magna de 1215 sentó las bases históricas del estado de derecho y los límites al poder monárquico.",
+        "id": "q_eng6_sociales_32"
+    },
+    {
+        "grade": "english6",
+        "category": "sociales",
+        "question": "The South African anti-apartheid leader who was imprisoned for 27 years and became President in 1994 was _______.",
+        "options": [
+            "Nelson Mandela",
+            "Desmond Tutu",
+            "Steve Biko",
+            "Kofi Annan"
+        ],
+        "correct": 0,
+        "explanation": "Nelson Mandela lideró la pacificación y la caída del régimen segregacionista del apartheid en Sudáfrica.",
+        "id": "q_eng6_sociales_33"
+    },
+    {
+        "grade": "english6",
+        "category": "sociales",
+        "question": "The American civil rights leader famous for his historic 1963 speech 'I Have a Dream' was _______.",
+        "options": [
+            "Martin Luther King Jr.",
+            "Malcolm X",
+            "Rosa Parks",
+            "Abraham Lincoln"
+        ],
+        "correct": 0,
+        "explanation": "Martin Luther King Jr. impulsó la lucha pacífica por la igualdad de derechos civiles de la población afroamericana.",
+        "id": "q_eng6_sociales_34"
+    },
+    {
+        "grade": "english6",
+        "category": "sociales",
+        "question": "The heroic African American woman who refused to surrender her bus seat in Montgomery in 1955 was _______.",
+        "options": [
+            "Rosa Parks",
+            "Harriet Tubman",
+            "Sojourner Truth",
+            "Coretta Scott King"
+        ],
+        "correct": 0,
+        "explanation": "El acto de desobediencia civil de Rosa Parks desencadenó el boicot de autobuses en Montgomery.",
+        "id": "q_eng6_sociales_35"
+    },
+    {
+        "grade": "english6",
+        "category": "sociales",
+        "question": "The movement that fought for and secured the legal right for women to vote in democratic elections was the _______ movement.",
+        "options": [
+            "suffragette",
+            "abolitionist",
+            "labor",
+            "pacifist"
+        ],
+        "correct": 0,
+        "explanation": "Las sufragistas lucharon por el reconocimiento del voto femenino y la participación política de la mujer.",
+        "id": "q_eng6_sociales_36"
+    },
+    {
+        "grade": "english6",
+        "category": "sociales",
+        "question": "A form of government where power is vested in the people, who rule either directly or through elected representatives, is a _______.",
+        "options": [
+            "democracy",
+            "monarchy",
+            "oligarchy",
+            "theocracy"
+        ],
+        "correct": 0,
+        "explanation": "La democracia se fundamenta en la soberanía popular y el ejercicio del sufragio libre.",
+        "id": "q_eng6_sociales_37"
+    },
+    {
+        "grade": "english6",
+        "category": "sociales",
+        "question": "The division of government powers into legislative, executive and judicial branches ensures a system of checks and _______.",
+        "options": [
+            "balances",
+            "controls",
+            "powers",
+            "orders"
+        ],
+        "correct": 0,
+        "explanation": "La división republicana de poderes garantiza un sistema de frenos y contrapesos ('checks and balances').",
+        "id": "q_eng6_sociales_38"
+    },
+    {
+        "grade": "english6",
+        "category": "sociales",
+        "question": "Freedom of speech, religious freedom and the right to assemble peacefully are protected fundamental civil _______.",
+        "options": [
+            "liberties or rights",
+            "privileges",
+            "duties only",
+            "taxes"
+        ],
+        "correct": 0,
+        "explanation": "Las libertades civiles son derechos fundamentales que protegen al individuo frente al abuso de poder.",
+        "id": "q_eng6_sociales_39"
+    },
+    {
+        "grade": "english6",
+        "category": "sociales",
+        "question": "The international court located in The Hague, Netherlands, that prosecutes individuals for crimes against humanity is the _______.",
+        "options": [
+            "International Criminal Court (ICC)",
+            "World Bank",
+            "European Council",
+            "Interpol"
+        ],
+        "correct": 0,
+        "explanation": "La Corte Penal Internacional (CPI) juzga crímenes de guerra, genocidio y crímenes de lesa humanidad.",
+        "id": "q_eng6_sociales_40"
+    },
+    {
+        "grade": "english6",
+        "category": "sociales",
+        "question": "Advertising techniques that appeal to viewers' emotions rather than logical arguments use emotional _______.",
+        "options": [
+            "appeal",
+            "logic",
+            "pricing",
+            "discounting"
+        ],
+        "correct": 0,
+        "explanation": "La apelación emocional en publicidad busca generar sensaciones de pertenencia, éxito o felicidad.",
+        "id": "q_eng6_sociales_41"
+    },
+    {
+        "grade": "english6",
+        "category": "sociales",
+        "question": "A recognizable symbol, design or phrase that identifies and distinguishes a commercial brand is a _______.",
+        "options": [
+            "logo or trademark",
+            "manifesto",
+            "patent",
+            "receipt"
+        ],
+        "correct": 0,
+        "explanation": "El logotipo y marca registrada identifican los productos de una empresa en el mercado.",
+        "id": "q_eng6_sociales_42"
+    },
+    {
+        "grade": "english6",
+        "category": "sociales",
+        "question": "Short, catchy phrases used in marketing campaigns that stick in the consumer's memory are _______.",
+        "options": [
+            "slogans or taglines",
+            "headlines",
+            "editorials",
+            "jingles only"
+        ],
+        "correct": 0,
+        "explanation": "Los eslóganes publicitarios son frases breves y recordables asociadas a una marca.",
+        "id": "q_eng6_sociales_43"
+    },
+    {
+        "grade": "english6",
+        "category": "sociales",
+        "question": "Promoting products through famous influencers and celebrities on social media is influencer _______.",
+        "options": [
+            "marketing",
+            "journalism",
+            "blogging",
+            "criticism"
+        ],
+        "correct": 0,
+        "explanation": "El marketing de influencers aprovecha la audiencia y credibilidad de referentes de internet.",
+        "id": "q_eng6_sociales_44"
+    },
+    {
+        "grade": "english6",
+        "category": "sociales",
+        "question": "When an advertisement subtly places a branded product inside a movie or video game scene, it is product _______.",
+        "options": [
+            "placement",
+            "sale",
+            "sampling",
+            "endorsement"
+        ],
+        "correct": 0,
+        "explanation": "El emplazamiento de producto ('product placement') exhibe marcas en películas o videojuegos de forma contextual.",
+        "id": "q_eng6_sociales_45"
+    },
+    {
+        "grade": "english6",
+        "category": "sociales",
+        "question": "Consumers making impulsive purchases driven by emotional urges rather than careful planning are impulse _______.",
+        "options": [
+            "buyers or shoppers",
+            "investors",
+            "critics",
+            "producers"
+        ],
+        "correct": 0,
+        "explanation": "Las compras por impulso responden a estímulos inmediatos en lugar de un análisis racional del presupuesto.",
+        "id": "q_eng6_sociales_46"
+    },
+    {
+        "grade": "english6",
+        "category": "sociales",
+        "question": "Commercial ads that emphasize limited-time offers to create a fear of missing out use the psychological principle of _______.",
+        "options": [
+            "scarcity or urgency",
+            "abundance",
+            "quality",
+            "loyalty"
+        ],
+        "correct": 0,
+        "explanation": "El principio de escasez o urgencia incita a comprar rápido ante el temor a que se agote la oferta.",
+        "id": "q_eng6_sociales_47"
+    },
+    {
+        "grade": "english6",
+        "category": "sociales",
+        "question": "Giving free samples of a new food product to shoppers at a supermarket is product _______.",
+        "options": [
+            "sampling",
+            "placement",
+            "advertising",
+            "sponsorship"
+        ],
+        "correct": 0,
+        "explanation": "El muestreo ('sampling') permite a los consumidores probar un producto antes de adquirirlo.",
+        "id": "q_eng6_sociales_48"
+    },
+    {
+        "grade": "english6",
+        "category": "sociales",
+        "question": "Corporate campaigns that mislead consumers into believing an organization's products are environmentally friendly are green_______.",
+        "options": [
+            "washing",
+            "cleaning",
+            "marketing",
+            "building"
+        ],
+        "correct": 0,
+        "explanation": "El 'greenwashing' o ecoblanqueo es una práctica engañosa que finge compromiso ambiental sin sustento real.",
+        "id": "q_eng6_sociales_49"
+    },
+    {
+        "grade": "english6",
+        "category": "sociales",
+        "question": "Consumer protection laws exist to shield buyers from dangerous products and deceptive _______.",
+        "options": [
+            "advertising",
+            "pricing only",
+            "returns",
+            "packaging"
+        ],
+        "correct": 0,
+        "explanation": "Las leyes de defensa del consumidor sancionan la publicidad engañosa y los abusos comerciales.",
+        "id": "q_eng6_sociales_50"
+    },
+    {
+        "grade": "english6",
+        "category": "ingenio",
+        "question": "Remember _______ your teeth before you go to bed tonight! (a future duty)",
+        "options": [
+            "to brush",
+            "brushing",
+            "brush",
+            "brushed"
+        ],
+        "correct": 0,
+        "explanation": "'Remember to do' significa acordarse de realizar una tarea pendiente en el futuro.",
+        "id": "q_eng6_ingenio_1"
+    },
+    {
+        "grade": "english6",
+        "category": "ingenio",
+        "question": "I clearly remember _______ the front door before leaving this morning. (a past memory)",
+        "options": [
+            "locking",
+            "to lock",
+            "lock",
+            "locked"
+        ],
+        "correct": 0,
+        "explanation": "'Remember doing' significa recordar haber realizado una acción en el pasado.",
+        "id": "q_eng6_ingenio_2"
+    },
+    {
+        "grade": "english6",
+        "category": "ingenio",
+        "question": "He stopped _______ a cigarette because he wanted to live a healthier life. (quit an addiction)",
+        "options": [
+            "smoking",
+            "to smoke",
+            "smoke",
+            "smoked"
+        ],
+        "correct": 0,
+        "explanation": "'Stop doing something' significa interrumpir o abandonar definitivamente un hábito o acción.",
+        "id": "q_eng6_ingenio_3"
+    },
+    {
+        "grade": "english6",
+        "category": "ingenio",
+        "question": "While driving down the highway, we stopped _______ a cup of coffee. (paused in order to do)",
+        "options": [
+            "to have",
+            "having",
+            "have",
+            "had"
+        ],
+        "correct": 0,
+        "explanation": "'Stop to do' significa detener la marcha con el propósito u objetivo de hacer otra cosa.",
+        "id": "q_eng6_ingenio_4"
+    },
+    {
+        "grade": "english6",
+        "category": "ingenio",
+        "question": "I tried _______ that heavy box, but it was far too heavy for me. (attempted with difficulty)",
+        "options": [
+            "to lift",
+            "lifting",
+            "lift",
+            "lifted"
+        ],
+        "correct": 0,
+        "explanation": "'Try to do' significa hacer un esfuerzo por lograr una acción difícil.",
+        "id": "q_eng6_ingenio_5"
+    },
+    {
+        "grade": "english6",
+        "category": "ingenio",
+        "question": "If you have a headache, try _______ a tall glass of fresh water. (experiment as a solution)",
+        "options": [
+            "drinking",
+            "to drink",
+            "drink",
+            "drank"
+        ],
+        "correct": 0,
+        "explanation": "'Try doing' significa probar algo a modo de experimento o solución alternativa.",
+        "id": "q_eng6_ingenio_6"
+    },
+    {
+        "grade": "english6",
+        "category": "ingenio",
+        "question": "I deeply regret _______ you that your job application was unsuccessful. (formal present notice)",
+        "options": [
+            "to inform",
+            "informing",
+            "inform",
+            "informed"
+        ],
+        "correct": 0,
+        "explanation": "'Regret to inform' es la fórmula protocolar para comunicar una mala noticia en el momento.",
+        "id": "q_eng6_ingenio_7"
+    },
+    {
+        "grade": "english6",
+        "category": "ingenio",
+        "question": "She bitterly regrets _______ school at such a young age. (regret about past action)",
+        "options": [
+            "leaving",
+            "to leave",
+            "leave",
+            "left"
+        ],
+        "correct": 0,
+        "explanation": "'Regret doing' expresa arrepentimiento por haber hecho algo en el pasado.",
+        "id": "q_eng6_ingenio_8"
+    },
+    {
+        "grade": "english6",
+        "category": "ingenio",
+        "question": "Don't forget _______ off the lights when you leave the office. (a duty)",
+        "options": [
+            "to turn",
+            "turning",
+            "turn",
+            "turned"
+        ],
+        "correct": 0,
+        "explanation": "'Forget to do' significa olvidarse de hacer algo que se debía realizar.",
+        "id": "q_eng6_ingenio_9"
+    },
+    {
+        "grade": "english6",
+        "category": "ingenio",
+        "question": "I will never forget _______ the Northern Lights in Norway for the first time. (past memory)",
+        "options": [
+            "seeing",
+            "to see",
+            "see",
+            "saw"
+        ],
+        "correct": 0,
+        "explanation": "'Never forget doing' significa no olvidar jamás la vivencia de un acontecimiento pasado.",
+        "id": "q_eng6_ingenio_10"
+    },
+    {
+        "grade": "english6",
+        "category": "ingenio",
+        "question": "Scientists believe humans are capable _______ extraordinary feats of endurance.",
+        "options": [
+            "of",
+            "to",
+            "for",
+            "with"
+        ],
+        "correct": 0,
+        "explanation": "El adjetivo 'capable' rige siempre la preposición 'of': 'capable of endurance'.",
+        "id": "q_eng6_ingenio_11"
+    },
+    {
+        "grade": "english6",
+        "category": "ingenio",
+        "question": "The heavy snow prevented drivers _______ travelling across the mountain pass.",
+        "options": [
+            "from",
+            "to",
+            "of",
+            "with"
+        ],
+        "correct": 0,
+        "explanation": "El patrón verbal de 'prevent' es: prevent + objeto + FROM + -ing.",
+        "id": "q_eng6_ingenio_12"
+    },
+    {
+        "grade": "english6",
+        "category": "ingenio",
+        "question": "Whether we go on a picnic depends entirely _______ the weekend weather.",
+        "options": [
+            "on or upon",
+            "of",
+            "with",
+            "from"
+        ],
+        "correct": 0,
+        "explanation": "El verbo 'depend' rige la preposición 'on' (o 'upon'): 'depends on the weather'.",
+        "id": "q_eng6_ingenio_13"
+    },
+    {
+        "grade": "english6",
+        "category": "ingenio",
+        "question": "The team apologized _______ their manager for arriving late to the press conference.",
+        "options": [
+            "to",
+            "with",
+            "at",
+            "for"
+        ],
+        "correct": 0,
+        "explanation": "Pedir disculpas a alguien: 'apologized to their manager' (y 'for arriving late').",
+        "id": "q_eng6_ingenio_14"
+    },
+    {
+        "grade": "english6",
+        "category": "ingenio",
+        "question": "After years of diligent practice, she finally succeeded _______ passing the audition.",
+        "options": [
+            "in",
+            "at",
+            "to",
+            "for"
+        ],
+        "correct": 0,
+        "explanation": "El verbo 'succeed' rige la preposición 'in' seguida de gerundio: 'succeeded in passing'.",
+        "id": "q_eng6_ingenio_15"
+    },
+    {
+        "grade": "english6",
+        "category": "ingenio",
+        "question": "Are you interested _______ attending the international leadership conference?",
+        "options": [
+            "in",
+            "at",
+            "on",
+            "for"
+        ],
+        "correct": 0,
+        "explanation": "El adjetivo 'interested' rige siempre la preposición 'in': 'interested in attending'.",
+        "id": "q_eng6_ingenio_16"
+    },
+    {
+        "grade": "english6",
+        "category": "ingenio",
+        "question": "My sister is brilliant _______ playing chess and solving logic puzzles.",
+        "options": [
+            "at",
+            "in",
+            "with",
+            "for"
+        ],
+        "correct": 0,
+        "explanation": "Ser muy habilidoso o talentoso se expresa con 'brilliant at' o 'good at'.",
+        "id": "q_eng6_ingenio_17"
+    },
+    {
+        "grade": "english6",
+        "category": "ingenio",
+        "question": "Who is responsible _______ organizing the graduation ceremonies this year?",
+        "options": [
+            "for",
+            "of",
+            "to",
+            "with"
+        ],
+        "correct": 0,
+        "explanation": "El adjetivo 'responsible' se combina con 'for': 'responsible for organizing'.",
+        "id": "q_eng6_ingenio_18"
+    },
+    {
+        "grade": "english6",
+        "category": "ingenio",
+        "question": "He has always been frightened _______ heights and glass elevator shafts.",
+        "options": [
+            "of",
+            "with",
+            "from",
+            "at"
+        ],
+        "correct": 0,
+        "explanation": "Tener miedo de algo: 'frightened of heights' o 'scared of heights'.",
+        "id": "q_eng6_ingenio_19"
+    },
+    {
+        "grade": "english6",
+        "category": "ingenio",
+        "question": "The local community complained _______ the loud music coming from the nightclub.",
+        "options": [
+            "about or of",
+            "with",
+            "at",
+            "for"
+        ],
+        "correct": 0,
+        "explanation": "Quejarse sobre un hecho: 'complained about the loud music'.",
+        "id": "q_eng6_ingenio_20"
+    },
+    {
+        "grade": "english6",
+        "category": "ingenio",
+        "question": "I got completely cold _______ before my stage performance and almost didn't go out.",
+        "options": [
+            "feet",
+            "hands",
+            "head",
+            "fingers"
+        ],
+        "correct": 0,
+        "explanation": "Tener miedo o acobardarse a último momento se expresa como 'get cold feet'.",
+        "id": "q_eng6_ingenio_21"
+    },
+    {
+        "grade": "english6",
+        "category": "ingenio",
+        "question": "Take everything you read on sensationalist social media with a grain of _______.",
+        "options": [
+            "salt",
+            "sugar",
+            "pepper",
+            "rice"
+        ],
+        "correct": 0,
+        "explanation": "'Take with a grain of salt' significa tomar algo con prudencia y escepticismo.",
+        "id": "q_eng6_ingenio_22"
+    },
+    {
+        "grade": "english6",
+        "category": "ingenio",
+        "question": "Never burn your _______ behind you when leaving a job on good terms.",
+        "options": [
+            "bridges",
+            "houses",
+            "boats",
+            "papers"
+        ],
+        "correct": 0,
+        "explanation": "'Burn your bridges' significa romper relaciones de forma que no haya vuelta atrás.",
+        "id": "q_eng6_ingenio_23"
+    },
+    {
+        "grade": "english6",
+        "category": "ingenio",
+        "question": "She decided to bite the _______ and face the consequences of her mistake.",
+        "options": [
+            "bullet",
+            "apple",
+            "coin",
+            "lip"
+        ],
+        "correct": 0,
+        "explanation": "'Bite the bullet' significa armarse de valor y encarar una situación ingrata.",
+        "id": "q_eng6_ingenio_24"
+    },
+    {
+        "grade": "english6",
+        "category": "ingenio",
+        "question": "Hearing that piece of news was a bitter _______ to swallow.",
+        "options": [
+            "pill",
+            "sweet",
+            "cake",
+            "bread"
+        ],
+        "correct": 0,
+        "explanation": "'A bitter pill to swallow' alude a una noticia dura de aceptar.",
+        "id": "q_eng6_ingenio_25"
+    },
+    {
+        "grade": "english6",
+        "category": "ingenio",
+        "question": "My grandfather is as fit as a _______ at eighty-five; he runs every morning.",
+        "options": [
+            "fiddle",
+            "piano",
+            "guitar",
+            "drum"
+        ],
+        "correct": 0,
+        "explanation": "'As fit as a fiddle' es el modismo para describir a alguien con excelente estado de salud.",
+        "id": "q_eng6_ingenio_26"
+    },
+    {
+        "grade": "english6",
+        "category": "ingenio",
+        "question": "Let's call it a _______ and finish the rest of the project tomorrow.",
+        "options": [
+            "day",
+            "night",
+            "week",
+            "break"
+        ],
+        "correct": 0,
+        "explanation": "'Call it a day' significa dar por concluida la jornada de trabajo por hoy.",
+        "id": "q_eng6_ingenio_27"
+    },
+    {
+        "grade": "english6",
+        "category": "ingenio",
+        "question": "He is in two _______ about whether to accept the university offer or travel.",
+        "options": [
+            "minds",
+            "heads",
+            "thoughts",
+            "hearts"
+        ],
+        "correct": 0,
+        "explanation": "'In two minds' significa estar indeciso o vacilando entre dos opciones.",
+        "id": "q_eng6_ingenio_28"
+    },
+    {
+        "grade": "english6",
+        "category": "ingenio",
+        "question": "The new sports stadium cost a pretty _______ to construct.",
+        "options": [
+            "penny",
+            "dollar",
+            "pound",
+            "euro"
+        ],
+        "correct": 0,
+        "explanation": "'Cost a pretty penny' es un modismo británico para señalar que algo costó muchísimo dinero.",
+        "id": "q_eng6_ingenio_29"
+    },
+    {
+        "grade": "english6",
+        "category": "ingenio",
+        "question": "Keep your fingers _______ for me while I do my driving test!",
+        "options": [
+            "crossed",
+            "open",
+            "straight",
+            "bent"
+        ],
+        "correct": 0,
+        "explanation": "'Keep your fingers crossed' significa cruzar los dedos deseando buena suerte.",
+        "id": "q_eng6_ingenio_30"
+    },
+    {
+        "grade": "english6",
+        "category": "ingenio",
+        "question": "The news report was completely _______ and gave the public false impressions.",
+        "options": [
+            "misleading",
+            "leadingly",
+            "unleading",
+            "misleader"
+        ],
+        "correct": 0,
+        "explanation": "'Misleading' (engañoso) describe algo que induce al error.",
+        "id": "q_eng6_ingenio_31"
+    },
+    {
+        "grade": "english6",
+        "category": "ingenio",
+        "question": "Renewable energy is gaining _______ support among citizens worldwide.",
+        "options": [
+            "widespread",
+            "widely",
+            "widen",
+            "broadness"
+        ],
+        "correct": 0,
+        "explanation": "'Widespread' significa generalizado, extendido ampliamente.",
+        "id": "q_eng6_ingenio_32"
+    },
+    {
+        "grade": "english6",
+        "category": "ingenio",
+        "question": "Cutting education budgets to save short-term money is counter_______.",
+        "options": [
+            "productive",
+            "producing",
+            "productively",
+            "product"
+        ],
+        "correct": 0,
+        "explanation": "'Counterproductive' significa contraproducente, que genera el efecto opuesto al buscado.",
+        "id": "q_eng6_ingenio_33"
+    },
+    {
+        "grade": "english6",
+        "category": "ingenio",
+        "question": "The government's plan was criticized for being short-_______ and ignoring future needs.",
+        "options": [
+            "sighted",
+            "viewed",
+            "eyed",
+            "visioned"
+        ],
+        "correct": 0,
+        "explanation": "'Short-sighted' (miope en sentido figurado) alude a una medida sin visión de futuro.",
+        "id": "q_eng6_ingenio_34"
+    },
+    {
+        "grade": "english6",
+        "category": "ingenio",
+        "question": "Air pollution poses a serious threat to the _______ of urban residents.",
+        "options": [
+            "well-being",
+            "good-being",
+            "better-being",
+            "best-being"
+        ],
+        "correct": 0,
+        "explanation": "'Well-being' (bienestar) es un sustantivo compuesto fundamental.",
+        "id": "q_eng6_ingenio_35"
+    },
+    {
+        "grade": "english6",
+        "category": "ingenio",
+        "question": "Due to the unforeseen weather changes, the outdoor festival was postponed _______.",
+        "options": [
+            "indefinitely",
+            "definitely",
+            "definitive",
+            "indefinite"
+        ],
+        "correct": 0,
+        "explanation": "El adverbio 'indefinitely' significa por tiempo indeterminado.",
+        "id": "q_eng6_ingenio_36"
+    },
+    {
+        "grade": "english6",
+        "category": "ingenio",
+        "question": "Her explanation was clear, detailed and thoroughly _______.",
+        "options": [
+            "comprehensible or comprehensive",
+            "comprehend",
+            "comprehensibly",
+            "comprehension"
+        ],
+        "correct": 0,
+        "explanation": "'Comprehensible' (comprensible) o 'comprehensive' (exhaustivo).",
+        "id": "q_eng6_ingenio_37"
+    },
+    {
+        "grade": "english6",
+        "category": "ingenio",
+        "question": "His remarkable courage in rescuing the child was truly _______.",
+        "options": [
+            "praiseworthy or admirable",
+            "praiseful",
+            "praising",
+            "praised"
+        ],
+        "correct": 0,
+        "explanation": "'Praiseworthy' (digno de elogio) califica una acción heroica.",
+        "id": "q_eng6_ingenio_38"
+    },
+    {
+        "grade": "english6",
+        "category": "ingenio",
+        "question": "The archaeological discovery was of immense _______ value.",
+        "options": [
+            "historical",
+            "historicly",
+            "history",
+            "historian"
+        ],
+        "correct": 0,
+        "explanation": "El adjetivo adecuado para referirse a la disciplina y valor de época es 'historical'.",
+        "id": "q_eng6_ingenio_39"
+    },
+    {
+        "grade": "english6",
+        "category": "ingenio",
+        "question": "Water conservation is an urgent and _______ global priority.",
+        "options": [
+            "undeniable",
+            "deniable",
+            "denying",
+            "denial"
+        ],
+        "correct": 0,
+        "explanation": "'Undeniable' significa innegable o indiscutible.",
+        "id": "q_eng6_ingenio_40"
+    },
+    {
+        "grade": "english6",
+        "category": "ingenio",
+        "question": "I speak without a mouth and hear without ears. I have no body, but I come alive with wind. What am I?",
+        "options": [
+            "An echo",
+            "A cloud",
+            "A ghost",
+            "A bell"
+        ],
+        "correct": 0,
+        "explanation": "Un eco ('An echo') no tiene cuerpo pero reproduce sonidos rebotando por el aire.",
+        "id": "q_eng6_ingenio_41"
+    },
+    {
+        "grade": "english6",
+        "category": "ingenio",
+        "question": "You measure my life in hours and I serve you by expiring. I am quick when thin and slow when fat. What am I?",
+        "options": [
+            "A candle",
+            "A clock",
+            "A battery",
+            "A match"
+        ],
+        "correct": 0,
+        "explanation": "Una vela ('A candle') se desgasta al arder; si es delgada se consume antes.",
+        "id": "q_eng6_ingenio_42"
+    },
+    {
+        "grade": "english6",
+        "category": "ingenio",
+        "question": "What has cities, but no houses; forests, but no trees; and rivers, but no water?",
+        "options": [
+            "A map",
+            "A painting",
+            "A dream",
+            "A desert"
+        ],
+        "correct": 0,
+        "explanation": "Un mapa geográfico representa ciudades, bosques y ríos en forma gráfica.",
+        "id": "q_eng6_ingenio_43"
+    },
+    {
+        "grade": "english6",
+        "category": "ingenio",
+        "question": "What five-letter English word has one left when two letters are removed?",
+        "options": [
+            "Stone (removing s-t gives 'One')",
+            "Alone",
+            "Money",
+            "Seven"
+        ],
+        "correct": 0,
+        "explanation": "Juego de palabras: quitando las letras S y T a 'STONE' queda 'ONE' (uno).",
+        "id": "q_eng6_ingenio_44"
+    },
+    {
+        "grade": "english6",
+        "category": "ingenio",
+        "question": "The person who makes it doesn't want it; the person who buys it doesn't use it; the person who uses it doesn't know it. What is it?",
+        "options": [
+            "A coffin",
+            "A present",
+            "A bed",
+            "A car"
+        ],
+        "correct": 0,
+        "explanation": "Un ataúd ('A coffin') cumple todas las condiciones del famoso enigma.",
+        "id": "q_eng6_ingenio_45"
+    },
+    {
+        "grade": "english6",
+        "category": "ingenio",
+        "question": "Forward I am heavy, but backward I am NOT. What word am I?",
+        "options": [
+            "Ton (spelled backwards it is 'Not')",
+            "Iron",
+            "Lead",
+            "Rock"
+        ],
+        "correct": 0,
+        "explanation": "TON (tonelada, muy pesada) al revés se lee N-O-T ('not').",
+        "id": "q_eng6_ingenio_46"
+    },
+    {
+        "grade": "english6",
+        "category": "ingenio",
+        "question": "What has a neck but no head, two arms but no hands?",
+        "options": [
+            "A shirt",
+            "A bottle",
+            "A clock",
+            "A chair"
+        ],
+        "correct": 0,
+        "explanation": "Una camisa tiene cuello ('collar/neck') y mangas/brazos ('sleeves/arms') pero carece de cabeza y manos.",
+        "id": "q_eng6_ingenio_47"
+    },
+    {
+        "grade": "english6",
+        "category": "ingenio",
+        "question": "Which word in the English dictionary is always spelled incorrectly?",
+        "options": [
+            "Incorrectly (that is its actual spelling)",
+            "Misspelled",
+            "Wrongly",
+            "Mistake"
+        ],
+        "correct": 0,
+        "explanation": "Juego lógico: la palabra 'incorrectly' se escribe siempre literalmente 'incorrectly'.",
+        "id": "q_eng6_ingenio_48"
+    },
+    {
+        "grade": "english6",
+        "category": "ingenio",
+        "question": "A man pushes his car to a hotel and tells the owner he is bankrupt. Why?",
+        "options": [
+            "He is playing Monopoly",
+            "His car broke down",
+            "He lost all his money",
+            "He owes rent"
+        ],
+        "correct": 0,
+        "explanation": "Clásico acertijo de pensamiento lateral: está jugando al Monopoly y cayó en un casillero con hotel.",
+        "id": "q_eng6_ingenio_49"
+    },
+    {
+        "grade": "english6",
+        "category": "ingenio",
+        "question": "What gets sharper the more you use it?",
+        "options": [
+            "Your brain or mind",
+            "A pencil",
+            "A knife",
+            "A shoe"
+        ],
+        "correct": 0,
+        "explanation": "El cerebro o intelecto se agudiza ('gets sharper') con la práctica y el entrenamiento continuo.",
+        "id": "q_eng6_ingenio_50"
+    }
+    ,
+    {
+        "grade": "english7",
+        "category": "matematica",
+        "question": "Seldom _______ such an awe-inspiring celestial phenomenon in the night sky.",
+        "options": [
+            "have I witnessed",
+            "I have witnessed",
+            "did I witnessed",
+            "I witnessed"
+        ],
+        "correct": 0,
+        "explanation": "Tras adverbios restrictivos negativos como 'Seldom' se invierte el orden del auxiliar y el sujeto: 'have I witnessed'.",
+        "id": "q_eng7_matematica_1"
+    },
+    {
+        "grade": "english7",
+        "category": "matematica",
+        "question": "Never before _______ a human spacecraft landed on the far side of the Moon.",
+        "options": [
+            "had",
+            "has",
+            "was",
+            "did"
+        ],
+        "correct": 0,
+        "explanation": "Estructura enfática invertida: 'Never before had a spacecraft landed'.",
+        "id": "q_eng7_matematica_2"
+    },
+    {
+        "grade": "english7",
+        "category": "matematica",
+        "question": "Rarely _______ politicians acknowledge their policy misjudgments so openly.",
+        "options": [
+            "do",
+            "they",
+            "have",
+            "are"
+        ],
+        "correct": 0,
+        "explanation": "Con presente simple y sujeto plural se invierte con el auxiliar 'do': 'Rarely do politicians acknowledge'.",
+        "id": "q_eng7_matematica_3"
+    },
+    {
+        "grade": "english7",
+        "category": "matematica",
+        "question": "Little _______ he realize that his scientific discovery would transform modern medicine.",
+        "options": [
+            "did",
+            "does",
+            "had",
+            "was"
+        ],
+        "correct": 0,
+        "explanation": "'Little did he realize' es la expresión idiomática invertida clásica para 'poco se imaginaba que...'.",
+        "id": "q_eng7_matematica_4"
+    },
+    {
+        "grade": "english7",
+        "category": "matematica",
+        "question": "Hardly had the curtain risen _______ the audience broke into thunderous applause.",
+        "options": [
+            "when",
+            "than",
+            "after",
+            "while"
+        ],
+        "correct": 0,
+        "explanation": "La correlación formal de 'Hardly had + pp' se completa obligatoriamente con 'when'.",
+        "id": "q_eng7_matematica_5"
+    },
+    {
+        "grade": "english7",
+        "category": "matematica",
+        "question": "No sooner had the expedition reached the summit _______ a violent blizzard began.",
+        "options": [
+            "than",
+            "when",
+            "after",
+            "then"
+        ],
+        "correct": 0,
+        "explanation": "La correlación enfática de 'No sooner had + pp' se completa con 'than'.",
+        "id": "q_eng7_matematica_6"
+    },
+    {
+        "grade": "english7",
+        "category": "matematica",
+        "question": "Scarcely had the plane touched down _______ the emergency exits were deployed.",
+        "options": [
+            "when",
+            "than",
+            "after",
+            "while"
+        ],
+        "correct": 0,
+        "explanation": "'Scarcely had + pp' se combina con la conjunción 'when'.",
+        "id": "q_eng7_matematica_7"
+    },
+    {
+        "grade": "english7",
+        "category": "matematica",
+        "question": "Barely had the debate started _______ heated arguments erupted among the delegates.",
+        "options": [
+            "when",
+            "than",
+            "while",
+            "since"
+        ],
+        "correct": 0,
+        "explanation": "'Barely had + pp' requiere la conjunción 'when'.",
+        "id": "q_eng7_matematica_8"
+    },
+    {
+        "grade": "english7",
+        "category": "matematica",
+        "question": "Only after the investigation concluded _______ the official report made public.",
+        "options": [
+            "was",
+            "is",
+            "did",
+            "had"
+        ],
+        "correct": 0,
+        "explanation": "La inversión con 'Only after...' se sitúa en la cláusula principal: 'was the report made public'.",
+        "id": "q_eng7_matematica_9"
+    },
+    {
+        "grade": "english7",
+        "category": "matematica",
+        "question": "Not until midnight _______ the rescue team reach the stranded climbers.",
+        "options": [
+            "did",
+            "had",
+            "was",
+            "would"
+        ],
+        "correct": 0,
+        "explanation": "La inversión temporal con 'Not until...' requiere el auxiliar en pasado: 'did the rescue team reach'.",
+        "id": "q_eng7_matematica_10"
+    },
+    {
+        "grade": "english7",
+        "category": "matematica",
+        "question": "Under no circumstances _______ personal banking passwords be shared with third parties.",
+        "options": [
+            "should",
+            "must not",
+            "ought",
+            "shall not"
+        ],
+        "correct": 0,
+        "explanation": "La locución prohibitiva 'Under no circumstances' invierte el modal afirmativo: 'Under no circumstances should passwords be shared'.",
+        "id": "q_eng7_matematica_11"
+    },
+    {
+        "grade": "english7",
+        "category": "matematica",
+        "question": "On no account _______ this emergency fire exit be blocked by furniture or boxes.",
+        "options": [
+            "must",
+            "should not",
+            "is",
+            "can not"
+        ],
+        "correct": 0,
+        "explanation": "'On no account must this exit be blocked' contiene en sí el sentido de prohibición.",
+        "id": "q_eng7_matematica_12"
+    },
+    {
+        "grade": "english7",
+        "category": "matematica",
+        "question": "In no way _______ the author responsible for interpretations made by sensationalist media.",
+        "options": [
+            "is",
+            "the author is",
+            "does",
+            "has"
+        ],
+        "correct": 0,
+        "explanation": "Inversión con el verbo to be: 'In no way is the author responsible'.",
+        "id": "q_eng7_matematica_13"
+    },
+    {
+        "grade": "english7",
+        "category": "matematica",
+        "question": "At no time _______ the security guards notice the intruder entering through the rear gate.",
+        "options": [
+            "did",
+            "had",
+            "was",
+            "would"
+        ],
+        "correct": 0,
+        "explanation": "Inversión enfática en pasado simple: 'At no time did the guards notice'.",
+        "id": "q_eng7_matematica_14"
+    },
+    {
+        "grade": "english7",
+        "category": "matematica",
+        "question": "Not only _______ the championship trophy, but she also broke the world record.",
+        "options": [
+            "did she win",
+            "she won",
+            "she did win",
+            "has she won"
+        ],
+        "correct": 0,
+        "explanation": "'Not only did she win... but also' invierte la primera cláusula subordinada.",
+        "id": "q_eng7_matematica_15"
+    },
+    {
+        "grade": "english7",
+        "category": "matematica",
+        "question": "Not only _______ he a brilliant cellist, but he is also an accomplished composer.",
+        "options": [
+            "is",
+            "he is",
+            "does",
+            "was"
+        ],
+        "correct": 0,
+        "explanation": "Inversión de presente con to be: 'Not only is he...'.",
+        "id": "q_eng7_matematica_16"
+    },
+    {
+        "grade": "english7",
+        "category": "matematica",
+        "question": "Only by working collaboratively _______ we overcome the challenges of climate change.",
+        "options": [
+            "can",
+            "we can",
+            "do",
+            "are"
+        ],
+        "correct": 0,
+        "explanation": "'Only by + -ing' rige inversión en la cláusula principal: 'can we overcome'.",
+        "id": "q_eng7_matematica_17"
+    },
+    {
+        "grade": "english7",
+        "category": "matematica",
+        "question": "Only then _______ the historical significance of the newly unearthed archaeological tablet.",
+        "options": [
+            "did historians comprehend",
+            "historians comprehended",
+            "had historians comprehended",
+            "historians did comprehend"
+        ],
+        "correct": 0,
+        "explanation": "Inversión tras 'Only then': 'did historians comprehend'.",
+        "id": "q_eng7_matematica_18"
+    },
+    {
+        "grade": "english7",
+        "category": "matematica",
+        "question": "Only when the final audit was finished _______ the true deficit revealed.",
+        "options": [
+            "was",
+            "did",
+            "had",
+            "is"
+        ],
+        "correct": 0,
+        "explanation": "La inversión tras 'Only when...' se produce en la cláusula principal pasiva: 'was the deficit revealed'.",
+        "id": "q_eng7_matematica_19"
+    },
+    {
+        "grade": "english7",
+        "category": "matematica",
+        "question": "Nowhere else in the world _______ such breathtaking volcanic scenery.",
+        "options": [
+            "will you find",
+            "you will find",
+            "you find",
+            "did you find"
+        ],
+        "correct": 0,
+        "explanation": "Inversión de lugar enfático: 'Nowhere else will you find...'.",
+        "id": "q_eng7_matematica_20"
+    },
+    {
+        "grade": "english7",
+        "category": "matematica",
+        "question": "_______ we known about the impending hurricane, we would have cancelled the voyage.",
+        "options": [
+            "Had",
+            "If",
+            "Were",
+            "Should"
+        ],
+        "correct": 0,
+        "explanation": "Inversión formal de Third Conditional omitiendo 'if': 'Had we known' equivale a 'If we had known'.",
+        "id": "q_eng7_matematica_21"
+    },
+    {
+        "grade": "english7",
+        "category": "matematica",
+        "question": "_______ you require any further clarification, please do not hesitate to contact our office.",
+        "options": [
+            "Should",
+            "If",
+            "Were",
+            "Had"
+        ],
+        "correct": 0,
+        "explanation": "Inversión formal de cortesía en First Conditional: 'Should you require' equivale a 'If you should require'.",
+        "id": "q_eng7_matematica_22"
+    },
+    {
+        "grade": "english7",
+        "category": "matematica",
+        "question": "_______ he to apologize publicly for his slanderous remarks, the lawsuit might be dropped.",
+        "options": [
+            "Were",
+            "Should",
+            "Had",
+            "Was"
+        ],
+        "correct": 0,
+        "explanation": "Inversión formal de Second Conditional: 'Were he to apologize' equivale a 'If he apologized'.",
+        "id": "q_eng7_matematica_23"
+    },
+    {
+        "grade": "english7",
+        "category": "matematica",
+        "question": "Had the committee _______ the environmental impact assessment, the project would have been halted.",
+        "options": [
+            "read",
+            "reads",
+            "reading",
+            "to read"
+        ],
+        "correct": 0,
+        "explanation": "Participio pasado tras la inversión con 'Had': 'Had the committee read'.",
+        "id": "q_eng7_matematica_24"
+    },
+    {
+        "grade": "english7",
+        "category": "matematica",
+        "question": "_______ it not been for your prompt intervention, the situation would have degenerated into chaos.",
+        "options": [
+            "Had",
+            "Were",
+            "Should",
+            "Was"
+        ],
+        "correct": 0,
+        "explanation": "Estructura condicional formal consagrada: 'Had it not been for your intervention' (de no haber sido por tu intervención).",
+        "id": "q_eng7_matematica_25"
+    },
+    {
+        "grade": "english7",
+        "category": "matematica",
+        "question": "Were I _______ relive my university years, I would dedicate more time to research.",
+        "options": [
+            "to",
+            "in",
+            "for",
+            "with"
+        ],
+        "correct": 0,
+        "explanation": "Estructura 'Were I to + infinitive' para hipótesis formales.",
+        "id": "q_eng7_matematica_26"
+    },
+    {
+        "grade": "english7",
+        "category": "matematica",
+        "question": "Should anyone _______ for me while I am in the boardroom, please take a detailed message.",
+        "options": [
+            "ask",
+            "asks",
+            "asked",
+            "asking"
+        ],
+        "correct": 0,
+        "explanation": "Tras 'Should + sujeto' el verbo permanece siempre en infinitivo sin 'to': 'Should anyone ask'.",
+        "id": "q_eng7_matematica_27"
+    },
+    {
+        "grade": "english7",
+        "category": "matematica",
+        "question": "Had they arrived fifteen minutes earlier, they _______ the keynote address.",
+        "options": [
+            "would have heard",
+            "will hear",
+            "heard",
+            "would hear"
+        ],
+        "correct": 0,
+        "explanation": "Consecuencia de Third Conditional tras la inversión inicial: 'would have heard'.",
+        "id": "q_eng7_matematica_28"
+    },
+    {
+        "grade": "english7",
+        "category": "matematica",
+        "question": "Were the company _______ collapse, thousands of dependent jobs would be jeopardized.",
+        "options": [
+            "to",
+            "for",
+            "in",
+            "by"
+        ],
+        "correct": 0,
+        "explanation": "Patrón formal: 'Were the company to collapse'.",
+        "id": "q_eng7_matematica_29"
+    },
+    {
+        "grade": "english7",
+        "category": "matematica",
+        "question": "Had I not _______ my passport at the embassy, I would be boarding the flight right now.",
+        "options": [
+            "renewed",
+            "renew",
+            "renewing",
+            "renews"
+        ],
+        "correct": 0,
+        "explanation": "Participio en condicional mixto invertido: 'Had I not renewed'.",
+        "id": "q_eng7_matematica_30"
+    },
+    {
+        "grade": "english7",
+        "category": "matematica",
+        "question": "If the dam hadn't been reinforced five years ago, the entire valley _______ underwater right now.",
+        "options": [
+            "would be",
+            "would have been",
+            "is",
+            "will be"
+        ],
+        "correct": 0,
+        "explanation": "Condicional mixto: causa pasada ('hadn't been reinforced') con consecuencia presente ('would be underwater').",
+        "id": "q_eng7_matematica_31"
+    },
+    {
+        "grade": "english7",
+        "category": "matematica",
+        "question": "If he were truly committed to environmental ethics, he _______ bought that high-emission luxury SUV.",
+        "options": [
+            "wouldn't have",
+            "won't have",
+            "hadn't",
+            "wouldn't"
+        ],
+        "correct": 0,
+        "explanation": "Condición general permanente ('If he were...') con resultado puntual pasado ('wouldn't have bought').",
+        "id": "q_eng7_matematica_32"
+    },
+    {
+        "grade": "english7",
+        "category": "matematica",
+        "question": "I wouldn't be giving this lecture today had my mentors not _______ my early research.",
+        "options": [
+            "encouraged",
+            "encourage",
+            "encouraging",
+            "encourages"
+        ],
+        "correct": 0,
+        "explanation": "Condicional mixto con inversión en la cláusula subordinada: 'had my mentors not encouraged'.",
+        "id": "q_eng7_matematica_33"
+    },
+    {
+        "grade": "english7",
+        "category": "matematica",
+        "question": "If she _______ so gifted at diplomatic negotiations, she wouldn't have been appointed ambassador.",
+        "options": [
+            "weren't",
+            "hadn't been",
+            "wouldn't be",
+            "isn't"
+        ],
+        "correct": 0,
+        "explanation": "Rasgo personal permanente que motivó una designación pasada: 'If she weren't so gifted'.",
+        "id": "q_eng7_matematica_34"
+    },
+    {
+        "grade": "english7",
+        "category": "matematica",
+        "question": "The expedition _______ stranded on the ice shelf right now if they had neglected emergency protocols.",
+        "options": [
+            "would be",
+            "would have been",
+            "will be",
+            "is"
+        ],
+        "correct": 0,
+        "explanation": "Resultado presente en condicional mixto: 'would be stranded'.",
+        "id": "q_eng7_matematica_35"
+    },
+    {
+        "grade": "english7",
+        "category": "matematica",
+        "question": "Had the author not published that controversial manifesto, his reputation _______ intact today.",
+        "options": [
+            "would remain",
+            "would have remained",
+            "will remain",
+            "remains"
+        ],
+        "correct": 0,
+        "explanation": "Efecto presente duradero de una publicación pasada: 'would remain intact'.",
+        "id": "q_eng7_matematica_36"
+    },
+    {
+        "grade": "english7",
+        "category": "matematica",
+        "question": "If we _______ so much capital in that volatile startup, our company wouldn't be struggling today.",
+        "options": [
+            "hadn't invested",
+            "weren't investing",
+            "didn't invest",
+            "wouldn't invest"
+        ],
+        "correct": 0,
+        "explanation": "Decisión financiera pasada que genera dificultades presentes: 'If we hadn't invested'.",
+        "id": "q_eng7_matematica_37"
+    },
+    {
+        "grade": "english7",
+        "category": "matematica",
+        "question": "He would still be serving his sentence had new forensic DNA evidence not _______ his innocence.",
+        "options": [
+            "proven or proved",
+            "prove",
+            "proving",
+            "proves"
+        ],
+        "correct": 0,
+        "explanation": "Resultado presente continuado: 'had evidence not proven his innocence'.",
+        "id": "q_eng7_matematica_38"
+    },
+    {
+        "grade": "english7",
+        "category": "matematica",
+        "question": "If I _______ terrified of turbulence, I would have accompanied you on that light aircraft flight.",
+        "options": [
+            "weren't",
+            "hadn't been",
+            "wouldn't be",
+            "am not"
+        ],
+        "correct": 0,
+        "explanation": "Condición psicológica presente permanente: 'If I weren't terrified'.",
+        "id": "q_eng7_matematica_39"
+    },
+    {
+        "grade": "english7",
+        "category": "matematica",
+        "question": "They would be living comfortably in their own home today had they not _______ their savings in 2008.",
+        "options": [
+            "gambled away",
+            "gamble away",
+            "gambling away",
+            "gambled awayed"
+        ],
+        "correct": 0,
+        "explanation": "Causa en pasado con consecuencia habitacional presente: 'had they not gambled away'.",
+        "id": "q_eng7_matematica_40"
+    },
+    {
+        "grade": "english7",
+        "category": "matematica",
+        "question": "Exhausted _______ they were after the arduous trek, the mountaineers pressed on.",
+        "options": [
+            "though or as",
+            "although",
+            "despite",
+            "however"
+        ],
+        "correct": 0,
+        "explanation": "La inversión adjetival concesiva se formula con: Adjetivo + though/as + sujeto + verbo ('Exhausted though they were').",
+        "id": "q_eng7_matematica_41"
+    },
+    {
+        "grade": "english7",
+        "category": "matematica",
+        "question": "Try _______ she might, she could not untie the complex nautical knot.",
+        "options": [
+            "as",
+            "though",
+            "although",
+            "despite"
+        ],
+        "correct": 0,
+        "explanation": "Estructura concesiva de esfuerzo frustrado: 'Try as she might' (por más que lo intentara).",
+        "id": "q_eng7_matematica_42"
+    },
+    {
+        "grade": "english7",
+        "category": "matematica",
+        "question": "Strange _______ it may seem, the desert sands freeze solid during winter nights.",
+        "options": [
+            "as or though",
+            "although",
+            "despite",
+            "even"
+        ],
+        "correct": 0,
+        "explanation": "Inversión de adjetivo con valor concesivo: 'Strange though it may seem'.",
+        "id": "q_eng7_matematica_43"
+    },
+    {
+        "grade": "english7",
+        "category": "matematica",
+        "question": "Much _______ I admire his intellect, I cannot condone his arrogant behaviour.",
+        "options": [
+            "as",
+            "though",
+            "although",
+            "despite"
+        ],
+        "correct": 0,
+        "explanation": "Estructura adverbial concesiva: 'Much as I admire his intellect' (por mucho que admire su intelecto).",
+        "id": "q_eng7_matematica_44"
+    },
+    {
+        "grade": "english7",
+        "category": "matematica",
+        "question": "Hard _______ he worked, he could never meet his perfectionist manager's expectations.",
+        "options": [
+            "as or though",
+            "although",
+            "despite",
+            "whereas"
+        ],
+        "correct": 0,
+        "explanation": "Adverbio antepuesto concesivo: 'Hard as he worked'.",
+        "id": "q_eng7_matematica_45"
+    },
+    {
+        "grade": "english7",
+        "category": "matematica",
+        "question": "So powerful _______ the seismic shockwave that buildings collapsed miles away.",
+        "options": [
+            "was",
+            "did",
+            "had",
+            "is"
+        ],
+        "correct": 0,
+        "explanation": "Inversión enfática con 'So + adjetivo': 'So powerful was the shockwave that...'.",
+        "id": "q_eng7_matematica_46"
+    },
+    {
+        "grade": "english7",
+        "category": "matematica",
+        "question": "Such _______ the public outcry that the controversial legislation was withdrawn.",
+        "options": [
+            "was",
+            "did",
+            "had",
+            "is"
+        ],
+        "correct": 0,
+        "explanation": "Inversión enfática con 'Such': 'Such was the public outcry that...'.",
+        "id": "q_eng7_matematica_47"
+    },
+    {
+        "grade": "english7",
+        "category": "matematica",
+        "question": "Down _______ the torrential rain, washing away roads and bridges.",
+        "options": [
+            "poured",
+            "pouring",
+            "did pour",
+            "was pouring"
+        ],
+        "correct": 0,
+        "explanation": "Inversión de dirección con verbo en pasado: 'Down poured the torrential rain'.",
+        "id": "q_eng7_matematica_48"
+    },
+    {
+        "grade": "english7",
+        "category": "matematica",
+        "question": "Into the open courtroom _______ the unexpected witness.",
+        "options": [
+            "stepped",
+            "did step",
+            "stepping",
+            "had stepped"
+        ],
+        "correct": 0,
+        "explanation": "Inversión estilística locativa literaria: 'Into the room stepped the witness'.",
+        "id": "q_eng7_matematica_49"
+    },
+    {
+        "grade": "english7",
+        "category": "matematica",
+        "question": "Gone _______ the days when letters took weeks to travel across continents.",
+        "options": [
+            "are",
+            "were",
+            "have",
+            "been"
+        ],
+        "correct": 0,
+        "explanation": "Inversión idiomática poética o nostálgica: 'Gone are the days when...'.",
+        "id": "q_eng7_matematica_50"
+    },
+    {
+        "grade": "english7",
+        "category": "lengua",
+        "question": "It was Alexander Fleming _______ discovered the antibacterial properties of penicillin in 1928.",
+        "options": [
+            "who",
+            "which",
+            "whom",
+            "whose"
+        ],
+        "correct": 0,
+        "explanation": "En las 'cleft sentences' que enfatizan a una persona se utiliza 'It was [persona] who/that...'.",
+        "id": "q_eng7_lengua_1"
+    },
+    {
+        "grade": "english7",
+        "category": "lengua",
+        "question": "It was only after midnight _______ the thunderstorm reached its maximum intensity.",
+        "options": [
+            "that",
+            "when",
+            "which",
+            "where"
+        ],
+        "correct": 0,
+        "explanation": "Para focalizar una circunstancia temporal se emplea la estructura de hendidura: 'It was... that...'.",
+        "id": "q_eng7_lengua_2"
+    },
+    {
+        "grade": "english7",
+        "category": "lengua",
+        "question": "It was because of his persistent dedication _______ he achieved the prestigious fellowship.",
+        "options": [
+            "that",
+            "why",
+            "which",
+            "where"
+        ],
+        "correct": 0,
+        "explanation": "Enfatizar la causa con cleft sentence: 'It was because of... that...'.",
+        "id": "q_eng7_lengua_3"
+    },
+    {
+        "grade": "english7",
+        "category": "lengua",
+        "question": "It wasn't until 1969 _______ human beings first walked upon the lunar surface.",
+        "options": [
+            "that",
+            "when",
+            "which",
+            "where"
+        ],
+        "correct": 0,
+        "explanation": "Estructura canónica de hendidura: 'It wasn't until [fecha] that...'.",
+        "id": "q_eng7_lengua_4"
+    },
+    {
+        "grade": "english7",
+        "category": "lengua",
+        "question": "It is his total lack of empathy _______ disturbs his closest colleagues.",
+        "options": [
+            "that or which",
+            "who",
+            "whom",
+            "where"
+        ],
+        "correct": 0,
+        "explanation": "Focalización de un rasgo abstracto del sujeto: 'It is his lack of empathy that disturbs...'.",
+        "id": "q_eng7_lengua_5"
+    },
+    {
+        "grade": "english7",
+        "category": "lengua",
+        "question": "Was it in Florence _______ the Italian Renaissance initially flourished?",
+        "options": [
+            "that",
+            "where",
+            "which",
+            "when"
+        ],
+        "correct": 0,
+        "explanation": "En preguntas de hendidura focalizando el lugar histórico se utiliza 'that'.",
+        "id": "q_eng7_lengua_6"
+    },
+    {
+        "grade": "english7",
+        "category": "lengua",
+        "question": "It was the referee's controversial decision _______ altered the outcome of the match.",
+        "options": [
+            "that",
+            "who",
+            "whom",
+            "where"
+        ],
+        "correct": 0,
+        "explanation": "Enfatizar un elemento desencadenante: 'It was the decision that altered...'.",
+        "id": "q_eng7_lengua_7"
+    },
+    {
+        "grade": "english7",
+        "category": "lengua",
+        "question": "It is not money _______ brings genuine fulfillment, but meaningful relationships.",
+        "options": [
+            "that",
+            "which",
+            "who",
+            "what"
+        ],
+        "correct": 0,
+        "explanation": "Contraste enfático con cleft sentence: 'It is not money that brings...'.",
+        "id": "q_eng7_lengua_8"
+    },
+    {
+        "grade": "english7",
+        "category": "lengua",
+        "question": "It was with great reluctance _______ the prime minister agreed to resign.",
+        "options": [
+            "that",
+            "when",
+            "which",
+            "where"
+        ],
+        "correct": 0,
+        "explanation": "Focalización del modo con que se ejecutó una acción: 'It was with great reluctance that...'.",
+        "id": "q_eng7_lengua_9"
+    },
+    {
+        "grade": "english7",
+        "category": "lengua",
+        "question": "It was during my stay in Edinburgh _______ I became fascinated by Enlightenment philosophy.",
+        "options": [
+            "that",
+            "when",
+            "which",
+            "where"
+        ],
+        "correct": 0,
+        "explanation": "Enfocando el período temporal: 'It was during my stay that I became fascinated'.",
+        "id": "q_eng7_lengua_10"
+    },
+    {
+        "grade": "english7",
+        "category": "lengua",
+        "question": "_______ surprised the jury most was the defendant's calm demeanor during cross-examination.",
+        "options": [
+            "What",
+            "That",
+            "Which",
+            "It"
+        ],
+        "correct": 0,
+        "explanation": "Las pseudo-cleft sentences focalizan la información iniciando con 'What': 'What surprised the jury was...'.",
+        "id": "q_eng7_lengua_11"
+    },
+    {
+        "grade": "english7",
+        "category": "lengua",
+        "question": "What I really need right now _______ a quiet cup of tea and a good book.",
+        "options": [
+            "is",
+            "are",
+            "being",
+            "been"
+        ],
+        "correct": 0,
+        "explanation": "Concordancia en pseudo-cleft singular: 'What I need is...'.",
+        "id": "q_eng7_lengua_12"
+    },
+    {
+        "grade": "english7",
+        "category": "lengua",
+        "question": "_______ all of us admired about her was her unwavering integrity in times of crisis.",
+        "options": [
+            "What",
+            "That",
+            "Which",
+            "Who"
+        ],
+        "correct": 0,
+        "explanation": "Estructura pseudo-cleft con cláusula relativa sustantivada: 'What all of us admired was...'.",
+        "id": "q_eng7_lengua_13"
+    },
+    {
+        "grade": "english7",
+        "category": "lengua",
+        "question": "What the government must do immediately _______ restore public confidence in democratic institutions.",
+        "options": [
+            "is",
+            "are",
+            "to",
+            "being"
+        ],
+        "correct": 0,
+        "explanation": "Pseudo-cleft con verbo de acción: 'What the government must do is [to] restore...'.",
+        "id": "q_eng7_lengua_14"
+    },
+    {
+        "grade": "english7",
+        "category": "lengua",
+        "question": "_______ I want for my birthday is a weekend trip to the Lake District.",
+        "options": [
+            "All",
+            "That",
+            "What all",
+            "Which"
+        ],
+        "correct": 0,
+        "explanation": "'All' focaliza la totalidad excluyente: 'All I want is...' (lo único que quiero es...).",
+        "id": "q_eng7_lengua_15"
+    },
+    {
+        "grade": "english7",
+        "category": "lengua",
+        "question": "All he did was _______ at the floor without answering any of the judge's questions.",
+        "options": [
+            "stare or to stare",
+            "staring",
+            "stared",
+            "stares"
+        ],
+        "correct": 0,
+        "explanation": "Tras 'All [sujeto] did was...' se emplea el infinitivo con o sin 'to': 'stare'.",
+        "id": "q_eng7_lengua_16"
+    },
+    {
+        "grade": "english7",
+        "category": "lengua",
+        "question": "The only thing that kept the climbers alive _______ their high-tech thermal survival bivouac.",
+        "options": [
+            "was",
+            "were",
+            "is",
+            "being"
+        ],
+        "correct": 0,
+        "explanation": "Focalización con 'The only thing that... was...'.",
+        "id": "q_eng7_lengua_17"
+    },
+    {
+        "grade": "english7",
+        "category": "lengua",
+        "question": "What concerns ecologists most _______ the unprecedented rate of global biodiversity loss.",
+        "options": [
+            "is",
+            "are",
+            "being",
+            "to be"
+        ],
+        "correct": 0,
+        "explanation": "Sujeto enfático con 'What concerns ecologists most is...'.",
+        "id": "q_eng7_lengua_18"
+    },
+    {
+        "grade": "english7",
+        "category": "lengua",
+        "question": "The person _______ deserves the most credit for this scientific breakthrough is Dr. Aris.",
+        "options": [
+            "who",
+            "which",
+            "what",
+            "whom"
+        ],
+        "correct": 0,
+        "explanation": "Focalización de persona con cleft: 'The person who deserves credit is...'.",
+        "id": "q_eng7_lengua_19"
+    },
+    {
+        "grade": "english7",
+        "category": "lengua",
+        "question": "The place _______ the peace treaty was signed has now been converted into a museum.",
+        "options": [
+            "where",
+            "that",
+            "which",
+            "what"
+        ],
+        "correct": 0,
+        "explanation": "Focalización locativa: 'The place where the treaty was signed'.",
+        "id": "q_eng7_lengua_20"
+    },
+    {
+        "grade": "english7",
+        "category": "lengua",
+        "question": "I _______ believe that renewable energy can replace fossil fuels if governments invest boldly.",
+        "options": [
+            "do",
+            "did",
+            "am",
+            "have"
+        ],
+        "correct": 0,
+        "explanation": "El auxiliar enfático 'do' en presente refuerza la convicción personal en una afirmación.",
+        "id": "q_eng7_lengua_21"
+    },
+    {
+        "grade": "english7",
+        "category": "lengua",
+        "question": "She rarely speaks in public, but when she does, she _______ speak with tremendous eloquence.",
+        "options": [
+            "does",
+            "is",
+            "did",
+            "has"
+        ],
+        "correct": 0,
+        "explanation": "Uso del auxiliar enfático 'does' en tercera persona singular para contrastar con la reserva previa.",
+        "id": "q_eng7_lengua_22"
+    },
+    {
+        "grade": "english7",
+        "category": "lengua",
+        "question": "Although the team lost the final, they _______ demonstrate remarkable sportsmanship.",
+        "options": [
+            "did",
+            "do",
+            "were",
+            "had"
+        ],
+        "correct": 0,
+        "explanation": "El auxiliar enfático 'did' en pasado subraya el reconocimiento de una cualidad demostrada.",
+        "id": "q_eng7_lengua_23"
+    },
+    {
+        "grade": "english7",
+        "category": "lengua",
+        "question": "You don't think I care about this project, but I _______ care deeply about its success.",
+        "options": [
+            "do",
+            "did",
+            "am",
+            "have"
+        ],
+        "correct": 0,
+        "explanation": "'I do care' rebate una presunción contraria reafirmando el compromiso con énfasis.",
+        "id": "q_eng7_lengua_24"
+    },
+    {
+        "grade": "english7",
+        "category": "lengua",
+        "question": "Please _______ sit down and make yourself completely at home.",
+        "options": [
+            "do",
+            "did",
+            "are",
+            "have"
+        ],
+        "correct": 0,
+        "explanation": "Uso imperativo cortés y enfático: 'Do sit down'.",
+        "id": "q_eng7_lengua_25"
+    },
+    {
+        "grade": "english7",
+        "category": "lengua",
+        "question": "She _______ look exhausted; perhaps she ought to take a sabbatical leave.",
+        "options": [
+            "does",
+            "do",
+            "did",
+            "is"
+        ],
+        "correct": 0,
+        "explanation": "Énfasis presente corroborando una observación visual: 'She does look exhausted'.",
+        "id": "q_eng7_lengua_26"
+    },
+    {
+        "grade": "english7",
+        "category": "lengua",
+        "question": "He claimed he had forgotten my birthday, but he _______ send me a lovely bouquet of flowers.",
+        "options": [
+            "did",
+            "does",
+            "do",
+            "had"
+        ],
+        "correct": 0,
+        "explanation": "'He did send' enfatiza que la acción afirmativa en pasado sí tuvo lugar.",
+        "id": "q_eng7_lengua_27"
+    },
+    {
+        "grade": "english7",
+        "category": "lengua",
+        "question": "I _______ hope that the diplomatic peace talks yield lasting solutions.",
+        "options": [
+            "do",
+            "did",
+            "am",
+            "have"
+        ],
+        "correct": 0,
+        "explanation": "Reforzar un deseo formal sincero: 'I do hope that...'.",
+        "id": "q_eng7_lengua_28"
+    },
+    {
+        "grade": "english7",
+        "category": "lengua",
+        "question": "Despite his modesty, he _______ contribute significantly to the theoretical framework.",
+        "options": [
+            "did",
+            "do",
+            "does",
+            "was"
+        ],
+        "correct": 0,
+        "explanation": "Énfasis en pasado: 'he did contribute significantly'.",
+        "id": "q_eng7_lengua_29"
+    },
+    {
+        "grade": "english7",
+        "category": "lengua",
+        "question": "Do _______ careful when handling those delicate laboratory petri dishes!",
+        "options": [
+            "be",
+            "been",
+            "being",
+            "to be"
+        ],
+        "correct": 0,
+        "explanation": "Imperativo enfático preventivo: 'Do be careful!'.",
+        "id": "q_eng7_lengua_30"
+    },
+    {
+        "grade": "english7",
+        "category": "lengua",
+        "question": "_______, the experimental results were not as definitive as we had initially hypothesized.",
+        "options": [
+            "Admittedly",
+            "Surprisingly",
+            "Frankly",
+            "Curiously"
+        ],
+        "correct": 0,
+        "explanation": "'Admittedly' reconoce con honestidad un hecho desfavorable o una limitación previa.",
+        "id": "q_eng7_lengua_31"
+    },
+    {
+        "grade": "english7",
+        "category": "lengua",
+        "question": "_______, the candidate who spent the least money on advertising won the democratic election.",
+        "options": [
+            "Remarkably or Surprisingly",
+            "Admittedly",
+            "Naturally",
+            "Typically"
+        ],
+        "correct": 0,
+        "explanation": "'Remarkably' expresa asombro ante un resultado inesperado o extraordinario.",
+        "id": "q_eng7_lengua_32"
+    },
+    {
+        "grade": "english7",
+        "category": "lengua",
+        "question": "_______ speaking, I have serious reservations about the financial viability of this acquisition.",
+        "options": [
+            "Frankly or Strictly",
+            "Admittedly",
+            "Evidently",
+            "Notably"
+        ],
+        "correct": 0,
+        "explanation": "'Frankly speaking' introduce una opinión sincera, directa y sin tapujos.",
+        "id": "q_eng7_lengua_33"
+    },
+    {
+        "grade": "english7",
+        "category": "lengua",
+        "question": "_______, both scientists arrived at the same mathematical conclusion independently.",
+        "options": [
+            "Coincidentally",
+            "Admittedly",
+            "Predictably",
+            "Strictly"
+        ],
+        "correct": 0,
+        "explanation": "'Coincidentally' señala la coincidencia fortuita y simultánea de dos sucesos.",
+        "id": "q_eng7_lengua_34"
+    },
+    {
+        "grade": "english7",
+        "category": "lengua",
+        "question": "_______, regular physical exercise reduces the risk of cardiovascular ailments.",
+        "options": [
+            "Undoubtedly or Indisputably",
+            "Coincidentally",
+            "Surprisingly",
+            "Supposedly"
+        ],
+        "correct": 0,
+        "explanation": "'Undoubtedly' establece una certeza científica sin lugar a dudas.",
+        "id": "q_eng7_lengua_35"
+    },
+    {
+        "grade": "english7",
+        "category": "lengua",
+        "question": "The treaty was signed in Geneva, _______ in the very room where the first convention was held.",
+        "options": [
+            "coincidentally",
+            "strictly",
+            "undoubtedly",
+            "allegedly"
+        ],
+        "correct": 0,
+        "explanation": "Uso del adverbio oracional para remarcar una singular coincidencia histórica.",
+        "id": "q_eng7_lengua_36"
+    },
+    {
+        "grade": "english7",
+        "category": "lengua",
+        "question": "_______, he is innocent until proven guilty in a competent court of law.",
+        "options": [
+            "Presumably or Technically",
+            "Remarkably",
+            "Ironically",
+            "Admittedly"
+        ],
+        "correct": 0,
+        "explanation": "'Presumably' o 'Technically' alude a la presunción jurídica formal.",
+        "id": "q_eng7_lengua_37"
+    },
+    {
+        "grade": "english7",
+        "category": "lengua",
+        "question": "_______, the politician who championed fiscal austerity was caught embezzling public funds.",
+        "options": [
+            "Ironically",
+            "Admittedly",
+            "Coincidentally",
+            "Frankly"
+        ],
+        "correct": 0,
+        "explanation": "'Ironically' remarca la paradoja e incongruencia flagrante entre el discurso y la conducta.",
+        "id": "q_eng7_lengua_38"
+    },
+    {
+        "grade": "english7",
+        "category": "lengua",
+        "question": "_______, the new tax reforms will disproportionately impact low-income households.",
+        "options": [
+            "Inevitably or Regrettably",
+            "Coincidentally",
+            "Surprisingly",
+            "Strictly"
+        ],
+        "correct": 0,
+        "explanation": "'Regrettably' o 'Inevitably' expresa pesar ante una consecuencia adversa previsible.",
+        "id": "q_eng7_lengua_39"
+    },
+    {
+        "grade": "english7",
+        "category": "lengua",
+        "question": "_______ speaking, this biological specimen belongs to an unclassified deep-sea genus.",
+        "options": [
+            "Scientifically or Strictly",
+            "Frankly",
+            "Admittedly",
+            "Ironically"
+        ],
+        "correct": 0,
+        "explanation": "'Strictly speaking' acota la definición al rigor taxonómico formal.",
+        "id": "q_eng7_lengua_40"
+    },
+    {
+        "grade": "english7",
+        "category": "lengua",
+        "question": "The sudden _______ of the monarch triggered months of political instability.",
+        "options": [
+            "demise or abdication",
+            "falling",
+            "dying",
+            "stepping"
+        ],
+        "correct": 0,
+        "explanation": "Uso de vocabulario formal elevado: 'demise' (fallecimiento) o 'abdication' (abdicación).",
+        "id": "q_eng7_lengua_41"
+    },
+    {
+        "grade": "english7",
+        "category": "lengua",
+        "question": "Instead of 'The economy got worse', academic prose prefers: 'The economy experienced severe _______'.",
+        "options": [
+            "deterioration",
+            "baddening",
+            "dropping",
+            "worseness"
+        ],
+        "correct": 0,
+        "explanation": "La nominalización académica transforma adjetivos en sustantivos formales: 'deterioration'.",
+        "id": "q_eng7_lengua_42"
+    },
+    {
+        "grade": "english7",
+        "category": "lengua",
+        "question": "Instead of 'We need to analyze this carefully', formal style favors: 'A careful _______ is required'.",
+        "options": [
+            "analysis",
+            "analyzation",
+            "analyzing",
+            "analyze"
+        ],
+        "correct": 0,
+        "explanation": "Sustantivo técnico derivado: 'analysis'.",
+        "id": "q_eng7_lengua_43"
+    },
+    {
+        "grade": "english7",
+        "category": "lengua",
+        "question": "The minister's ambiguous statement served only to _______ public confusion.",
+        "options": [
+            "exacerbate",
+            "improve",
+            "mitigate",
+            "allay"
+        ],
+        "correct": 0,
+        "explanation": "'Exacerbate' (exacerbar / empeorar) es el término culto preciso frente a make worse.",
+        "id": "q_eng7_lengua_44"
+    },
+    {
+        "grade": "english7",
+        "category": "lengua",
+        "question": "The scientific committee took steps to _______ public anxiety regarding vaccination safety.",
+        "options": [
+            "allay or mitigate",
+            "exacerbate",
+            "provoke",
+            "amplify"
+        ],
+        "correct": 0,
+        "explanation": "'Allay anxiety' es la colocación formal para aplacar o calmar temores.",
+        "id": "q_eng7_lengua_45"
+    },
+    {
+        "grade": "english7",
+        "category": "lengua",
+        "question": "The company implemented rigorous cost-cutting measures to maintain commercial _______.",
+        "options": [
+            "viability",
+            "viable",
+            "viableness",
+            "viably"
+        ],
+        "correct": 0,
+        "explanation": "Sustantivo formal que denota capacidad de subsistencia económica: 'viability'.",
+        "id": "q_eng7_lengua_46"
+    },
+    {
+        "grade": "english7",
+        "category": "lengua",
+        "question": "The widespread _______ of synthetic plastics has caused irreversible environmental damage.",
+        "options": [
+            "proliferation",
+            "increase",
+            "growing",
+            "expansion only"
+        ],
+        "correct": 0,
+        "explanation": "'Proliferation' alude al crecimiento masivo y descontrolado de un fenómeno.",
+        "id": "q_eng7_lengua_47"
+    },
+    {
+        "grade": "english7",
+        "category": "lengua",
+        "question": "In academic discourse, 'in a nutshell' is replaced by the more formal phrase 'in _______'.",
+        "options": [
+            "summary or conclusion",
+            "briefness",
+            "shorting",
+            "reduction"
+        ],
+        "correct": 0,
+        "explanation": "En registro formal se prefieren conectores analíticos: 'in summary'.",
+        "id": "q_eng7_lengua_48"
+    },
+    {
+        "grade": "english7",
+        "category": "lengua",
+        "question": "The profound _______ of the digital revolution on human cognition is still being evaluated.",
+        "options": [
+            "ramifications or repercussions",
+            "impacts only",
+            "hits",
+            "shakes"
+        ],
+        "correct": 0,
+        "explanation": "'Ramifications' (ramificaciones/repercusiones) denota consecuencias complejas a largo plazo.",
+        "id": "q_eng7_lengua_49"
+    },
+    {
+        "grade": "english7",
+        "category": "lengua",
+        "question": "Her groundbreaking research will undoubtedly _______ a new era in biomedical engineering.",
+        "options": [
+            "usher in",
+            "bring in",
+            "kick off",
+            "put in"
+        ],
+        "correct": 0,
+        "explanation": "'Usher in' es la colocación literaria formal para marcar el inicio o inauguración de una era.",
+        "id": "q_eng7_lengua_50"
+    },
+    {
+        "grade": "english7",
+        "category": "naturales",
+        "question": "The volcanic eruption _______ been catastrophic given the thick layer of ash preserved in the ice core.",
+        "options": [
+            "must have",
+            "can't have",
+            "should have",
+            "would"
+        ],
+        "correct": 0,
+        "explanation": "Deducción retrospectiva con evidencia estratigráfica sólida: 'must have been catastrophic'.",
+        "id": "q_eng7_naturales_1"
+    },
+    {
+        "grade": "english7",
+        "category": "naturales",
+        "question": "With so many flight delays across Europe, the delegates _______ been delayed in transit.",
+        "options": [
+            "might well have",
+            "must not have",
+            "can't have",
+            "should have"
+        ],
+        "correct": 0,
+        "explanation": "'Might well have' expresa una alta probabilidad tentativa sobre un suceso pasado.",
+        "id": "q_eng7_naturales_2"
+    },
+    {
+        "grade": "english7",
+        "category": "naturales",
+        "question": "Considering their lack of winter preparation, the expedition _______ to have encountered severe hardship.",
+        "options": [
+            "was bound",
+            "was must",
+            "was should",
+            "was can"
+        ],
+        "correct": 0,
+        "explanation": "'Was bound to have' indica que un desenlace adverso era inevitable dadas las circunstancias.",
+        "id": "q_eng7_naturales_3"
+    },
+    {
+        "grade": "english7",
+        "category": "naturales",
+        "question": "Given that the fossil is found exclusively in marine limestone, the creature _______ lived on dry land.",
+        "options": [
+            "couldn't possibly have",
+            "must have",
+            "might have",
+            "should have"
+        ],
+        "correct": 0,
+        "explanation": "'Couldn't possibly have' subraya la imposibilidad biológica tajante ante la evidencia geológica.",
+        "id": "q_eng7_naturales_4"
+    },
+    {
+        "grade": "english7",
+        "category": "naturales",
+        "question": "The architect's revolutionary bridge design _______ failed under standard loads; sabotage is suspected.",
+        "options": [
+            "cannot have",
+            "must have",
+            "should have",
+            "might have"
+        ],
+        "correct": 0,
+        "explanation": "Imposibilidad estructural técnica: 'cannot have failed'.",
+        "id": "q_eng7_naturales_5"
+    },
+    {
+        "grade": "english7",
+        "category": "naturales",
+        "question": "She _______ taken the earlier high-speed train; otherwise, she wouldn't be standing here right now.",
+        "options": [
+            "must have",
+            "can't have",
+            "should have",
+            "would have"
+        ],
+        "correct": 0,
+        "explanation": "Deducción fundamentada en su presencia física actual: 'must have taken'.",
+        "id": "q_eng7_naturales_6"
+    },
+    {
+        "grade": "english7",
+        "category": "naturales",
+        "question": "The sudden drop in core temperature _______ caused the nuclear reactor to shut down automatically.",
+        "options": [
+            "is presumed to have",
+            "can't have",
+            "mustn't have",
+            "should have"
+        ],
+        "correct": 0,
+        "explanation": "Explicación técnica formal fundamentada en telemetría.",
+        "id": "q_eng7_naturales_7"
+    },
+    {
+        "grade": "english7",
+        "category": "naturales",
+        "question": "Had the asteroid struck 30 seconds later, the dinosaurs _______ survived.",
+        "options": [
+            "might well have",
+            "must not have",
+            "can't have",
+            "should have"
+        ],
+        "correct": 0,
+        "explanation": "Hipótesis evolutiva contrafáctica de alta probabilidad: 'might well have survived'.",
+        "id": "q_eng7_naturales_8"
+    },
+    {
+        "grade": "english7",
+        "category": "naturales",
+        "question": "The specimen was so fragile that it _______ disintegrated during excavation.",
+        "options": [
+            "could easily have",
+            "can have",
+            "must not have",
+            "should have"
+        ],
+        "correct": 0,
+        "explanation": "'Could easily have disintegrated' expresa vulnerabilidad física pasada.",
+        "id": "q_eng7_naturales_9"
+    },
+    {
+        "grade": "english7",
+        "category": "naturales",
+        "question": "The ancient manuscript was so well preserved that it _______ kept in an airtight jar.",
+        "options": [
+            "must have been",
+            "can't have been",
+            "should have been",
+            "might be"
+        ],
+        "correct": 0,
+        "explanation": "Deducción sobre las condiciones de conservación histórica: 'must have been kept'.",
+        "id": "q_eng7_naturales_10"
+    },
+    {
+        "grade": "english7",
+        "category": "naturales",
+        "question": "The groundbreaking molecular tool that allows precise editing of targeted DNA sequences is _______.",
+        "options": [
+            "CRISPR-Cas9",
+            "mRNA only",
+            "PCR only",
+            "ELISA"
+        ],
+        "correct": 0,
+        "explanation": "El sistema CRISPR-Cas9 permite cortar y editar secuencias de ADN con precisión quirúrgica.",
+        "id": "q_eng7_naturales_11"
+    },
+    {
+        "grade": "english7",
+        "category": "naturales",
+        "question": "Ethical debates surrounding human germline editing focus on the risk of creating 'designer _______'.",
+        "options": [
+            "babies",
+            "organs",
+            "clones only",
+            "species"
+        ],
+        "correct": 0,
+        "explanation": "La edición genética en línea germinal plantea dilemas bioéticos sobre modificaciones hereditarias.",
+        "id": "q_eng7_naturales_12"
+    },
+    {
+        "grade": "english7",
+        "category": "naturales",
+        "question": "Altering the genetic code of non-reproductive body cells to treat inherited disorders is _______ gene therapy.",
+        "options": [
+            "somatic",
+            "germline",
+            "embryonic",
+            "universal"
+        ],
+        "correct": 0,
+        "explanation": "La terapia génica somática modifica células no reproductoras sin transmitir cambios a la descendencia.",
+        "id": "q_eng7_naturales_13"
+    },
+    {
+        "grade": "english7",
+        "category": "naturales",
+        "question": "An organism whose genome has been engineered to contain foreign genes from an unrelated species is _______.",
+        "options": [
+            "transgenic",
+            "cloned",
+            "hybrid only",
+            "mutant only"
+        ],
+        "correct": 0,
+        "explanation": "Un organismo transgénico contiene secuencias de ADN transferidas artificialmente de otra especie.",
+        "id": "q_eng7_naturales_14"
+    },
+    {
+        "grade": "english7",
+        "category": "naturales",
+        "question": "The ethical framework that guides medical decision-making to ensure patient autonomy and justice is bio_______.",
+        "options": [
+            "ethics",
+            "technology",
+            "chemistry",
+            "physics"
+        ],
+        "correct": 0,
+        "explanation": "La bioética analiza los dilemas morales de las ciencias biológicas y la práctica médica.",
+        "id": "q_eng7_naturales_15"
+    },
+    {
+        "grade": "english7",
+        "category": "naturales",
+        "question": "A duplicate copy of an entire biological entity, genetically identical to the original donor, is a _______.",
+        "options": [
+            "clone",
+            "chimera",
+            "mutant",
+            "hybrid"
+        ],
+        "correct": 0,
+        "explanation": "Un clon es un duplicado genéticamente idéntico de una célula u organismo preexistente.",
+        "id": "q_eng7_naturales_16"
+    },
+    {
+        "grade": "english7",
+        "category": "naturales",
+        "question": "The use of biological organisms or enzymes to clean up polluted soil and contaminated water is bio_______.",
+        "options": [
+            "remediation",
+            "degradation",
+            "synthesis",
+            "accumulation"
+        ],
+        "correct": 0,
+        "explanation": "La biorremediación emplea microorganismos para descontaminar ecosistemas alterados por hidrocarburos.",
+        "id": "q_eng7_naturales_17"
+    },
+    {
+        "grade": "english7",
+        "category": "naturales",
+        "question": "Synthetic biology aims to design and construct novel artificial biological _______ not found in nature.",
+        "options": [
+            "pathways and organisms",
+            "minerals",
+            "elements",
+            "fossil fuels"
+        ],
+        "correct": 0,
+        "explanation": "La biología sintética diseña sistemas biológicos artificiales desde cero con fines terapéuticos e industriales.",
+        "id": "q_eng7_naturales_18"
+    },
+    {
+        "grade": "english7",
+        "category": "naturales",
+        "question": "Patent laws concerning genetic discoveries raise concerns over commercial monopolization of biological _______.",
+        "options": [
+            "resources and data",
+            "machines",
+            "hardware",
+            "software"
+        ],
+        "correct": 0,
+        "explanation": "El patentamiento de secuencias genéticas genera debates sobre el acceso equitativo a la medicina.",
+        "id": "q_eng7_naturales_19"
+    },
+    {
+        "grade": "english7",
+        "category": "naturales",
+        "question": "Genetic screening allows prospective parents to identify hereditary mutations before _______.",
+        "options": [
+            "conception or implantation",
+            "graduation",
+            "surgery",
+            "retirement"
+        ],
+        "correct": 0,
+        "explanation": "El diagnóstico genético preimplantacional detecta anomalías antes de la transferencia embrionaria.",
+        "id": "q_eng7_naturales_20"
+    },
+    {
+        "grade": "english7",
+        "category": "naturales",
+        "question": "Thresholds in the Earth's climate system that, once crossed, trigger irreversible planetary changes are tipping _______.",
+        "options": [
+            "points",
+            "lines",
+            "marks",
+            "curves"
+        ],
+        "correct": 0,
+        "explanation": "Los puntos de inflexión climáticos ('climate tipping points') desatan cambios abruptos e irreversibles.",
+        "id": "q_eng7_naturales_21"
+    },
+    {
+        "grade": "english7",
+        "category": "naturales",
+        "question": "The collapse of the Atlantic Meridional Overturning Circulation (AMOC) would drastically alter European _______.",
+        "options": [
+            "weather and temperatures",
+            "geography only",
+            "altitude",
+            "tides only"
+        ],
+        "correct": 0,
+        "explanation": "El colapso de la corriente termohalina atlántica enfriaría abruptamente el norte europeo alterando los monzones.",
+        "id": "q_eng7_naturales_22"
+    },
+    {
+        "grade": "english7",
+        "category": "naturales",
+        "question": "The thawing of Arctic permafrost risks releasing vast underground stores of trapped _______.",
+        "options": [
+            "methane and carbon dioxide",
+            "pure nitrogen",
+            "liquid helium",
+            "oxygen"
+        ],
+        "correct": 0,
+        "explanation": "El derretimiento del permafrost ártico libera metano acumulado durante milenios acelerando el calentamiento.",
+        "id": "q_eng7_naturales_23"
+    },
+    {
+        "grade": "english7",
+        "category": "naturales",
+        "question": "The loss of reflective white ice cover in polar regions that causes oceans to absorb more solar heat is the ice-_______ feedback.",
+        "options": [
+            "albedo",
+            "convection",
+            "greenhouse",
+            "solar"
+        ],
+        "correct": 0,
+        "explanation": "El efecto albedo del hielo polar refleja la radiación solar; su retroceso aumenta la absorción térmica del mar.",
+        "id": "q_eng7_naturales_24"
+    },
+    {
+        "grade": "english7",
+        "category": "naturales",
+        "question": "Large-scale deliberate technological interventions in the Earth's climate to counteract global warming are geo_______.",
+        "options": [
+            "engineering",
+            "physics",
+            "morphology",
+            "thermal"
+        ],
+        "correct": 0,
+        "explanation": "La geoingeniería solar y climática propone intervenir artificialmente la radiación o el albedo planetario.",
+        "id": "q_eng7_naturales_25"
+    },
+    {
+        "grade": "english7",
+        "category": "naturales",
+        "question": "The permanent dieback of the Amazon rainforest into degraded dry savannah would disrupt global water _______.",
+        "options": [
+            "cycles and rainfall",
+            "levels only",
+            "temperatures only",
+            "salinity"
+        ],
+        "correct": 0,
+        "explanation": "La sabanización de la Amazonía reduciría las precipitaciones en todo el Cono Sur americano.",
+        "id": "q_eng7_naturales_26"
+    },
+    {
+        "grade": "english7",
+        "category": "naturales",
+        "question": "The geological epoch defined by the profound, measurable impact of human activities on Earth's ecosystems is the _______.",
+        "options": [
+            "Anthropocene",
+            "Holocene",
+            "Pleistocene",
+            "Jurassic"
+        ],
+        "correct": 0,
+        "explanation": "El Antropoceno es la época geológica marcada por la huella humana global en los sedimentos y la atmósfera.",
+        "id": "q_eng7_naturales_27"
+    },
+    {
+        "grade": "english7",
+        "category": "naturales",
+        "question": "The release of greenhouse gases trapped inside frozen oceanic deposits of gas hydrates is called methane _______.",
+        "options": [
+            "hydrate dissociation",
+            "condensation",
+            "freezing",
+            "solidification"
+        ],
+        "correct": 0,
+        "explanation": "La disociación de hidratos de metano en el lecho marino representa un riesgo latente de retroalimentación climática.",
+        "id": "q_eng7_naturales_28"
+    },
+    {
+        "grade": "english7",
+        "category": "naturales",
+        "question": "Rapid sea level rise is heavily driven by the melting of massive ice sheets in Greenland and _______.",
+        "options": [
+            "Antarctica",
+            "the Sahara",
+            "Australia",
+            "the Amazon"
+        ],
+        "correct": 0,
+        "explanation": "Los casquetes glaciares de Groenlandia y la Antártida contienen la mayor reserva de hielo continental del mundo.",
+        "id": "q_eng7_naturales_29"
+    },
+    {
+        "grade": "english7",
+        "category": "naturales",
+        "question": "International scientific consensus on climate trajectories is regularly evaluated and synthesized by the _______.",
+        "options": [
+            "IPCC (Intergovernmental Panel on Climate Change)",
+            "NATO",
+            "OPEC",
+            "IMF"
+        ],
+        "correct": 0,
+        "explanation": "El Panel Intergubernamental sobre Cambio Climático (IPCC) sintetiza la evidencia científica de vanguardia.",
+        "id": "q_eng7_naturales_30"
+    },
+    {
+        "grade": "english7",
+        "category": "naturales",
+        "question": "The brain's lifelong ability to reorganize neural pathways in response to learning and experience is neuro_______.",
+        "options": [
+            "plasticity",
+            "genesis only",
+            "degeneration",
+            "transmission"
+        ],
+        "correct": 0,
+        "explanation": "La neuroplasticidad es la capacidad del cerebro de formar nuevas conexiones sinápticas a lo largo de la vida.",
+        "id": "q_eng7_naturales_31"
+    },
+    {
+        "grade": "english7",
+        "category": "naturales",
+        "question": "Specialized brain cells that transmit electrical and chemical signals across synapses are _______.",
+        "options": [
+            "neurons",
+            "nephrons",
+            "platelets",
+            "enzymes"
+        ],
+        "correct": 0,
+        "explanation": "Las neuronas son las células fundamentales del sistema nervioso central.",
+        "id": "q_eng7_naturales_32"
+    },
+    {
+        "grade": "english7",
+        "category": "naturales",
+        "question": "Chemical messengers that transmit nerve impulses across synaptic clefts between neurons are _______.",
+        "options": [
+            "neurotransmitters (like dopamine)",
+            "hormones only",
+            "antibodies",
+            "vitamins"
+        ],
+        "correct": 0,
+        "explanation": "Los neurotransmisores (como dopamina, serotonina y acetilcolina) median la comunicación sináptica.",
+        "id": "q_eng7_naturales_33"
+    },
+    {
+        "grade": "english7",
+        "category": "naturales",
+        "question": "The protective lipid sheath that insulates nerve axons and speeds up impulse transmission is _______.",
+        "options": [
+            "myelin",
+            "collagen",
+            "keratin",
+            "cellulose"
+        ],
+        "correct": 0,
+        "explanation": "La vaina de mielina acelera la conducción de los impulsos nerviosos en el axón.",
+        "id": "q_eng7_naturales_34"
+    },
+    {
+        "grade": "english7",
+        "category": "naturales",
+        "question": "The neurodegenerative disorder characterized by amyloid plaques and progressive cognitive decline is _______ disease.",
+        "options": [
+            "Alzheimer's",
+            "Parkinson's",
+            "Huntington's",
+            "Crohn's"
+        ],
+        "correct": 0,
+        "explanation": "La enfermedad de Alzheimer se caracteriza por la pérdida progresiva de la memoria y la autonomía cognitiva.",
+        "id": "q_eng7_naturales_35"
+    },
+    {
+        "grade": "english7",
+        "category": "naturales",
+        "question": "Direct communication pathways established between the brain and external computerized devices are brain-computer _______.",
+        "options": [
+            "interfaces (BCIs)",
+            "screens",
+            "cables",
+            "sensors only"
+        ],
+        "correct": 0,
+        "explanation": "Las interfaces cerebro-computadora (BCI) permiten a personas con parálisis controlar prótesis con el pensamiento.",
+        "id": "q_eng7_naturales_36"
+    },
+    {
+        "grade": "english7",
+        "category": "naturales",
+        "question": "The physiological process that consolidates short-term experiences into long-term memories primarily occurs during deep _______.",
+        "options": [
+            "sleep",
+            "exercise",
+            "digestion",
+            "fasting"
+        ],
+        "correct": 0,
+        "explanation": "El sueño profundo y la fase REM son cruciales para la consolidación de la memoria a largo plazo en el hipocampo.",
+        "id": "q_eng7_naturales_37"
+    },
+    {
+        "grade": "english7",
+        "category": "naturales",
+        "question": "The brain structure critical for emotional processing, particularly fear and threat detection, is the _______.",
+        "options": [
+            "amygdala",
+            "cerebellum",
+            "thalamus",
+            "pons"
+        ],
+        "correct": 0,
+        "explanation": "La amígdala cerebral procesa respuestas emocionales primarias como el miedo y la alerta de peligro.",
+        "id": "q_eng7_naturales_38"
+    },
+    {
+        "grade": "english7",
+        "category": "naturales",
+        "question": "The prefrontal cortex of the human brain is predominantly responsible for executive functions, impulse control and _______.",
+        "options": [
+            "decision-making and planning",
+            "vision only",
+            "breathing reflex",
+            "balance only"
+        ],
+        "correct": 0,
+        "explanation": "La corteza prefrontal modula la toma de decisiones, la planificación estratégica y el control inhibitorio.",
+        "id": "q_eng7_naturales_39"
+    },
+    {
+        "grade": "english7",
+        "category": "naturales",
+        "question": "The philosophical and scientific mystery of how subjective qualitative experiences arise from neural matter is the '_______ problem' of consciousness.",
+        "options": [
+            "hard",
+            "soft",
+            "complex",
+            "dual"
+        ],
+        "correct": 0,
+        "explanation": "El 'hard problem of consciousness' (formulado por Chalmers) debate cómo la materia física genera experiencias subjetivas.",
+        "id": "q_eng7_naturales_40"
+    },
+    {
+        "grade": "english7",
+        "category": "naturales",
+        "question": "Hydrogen produced through water electrolysis powered entirely by renewable wind and solar electricity is _______ hydrogen.",
+        "options": [
+            "green",
+            "grey",
+            "blue",
+            "brown"
+        ],
+        "correct": 0,
+        "explanation": "El hidrógeno verde se produce por electrólisis del agua utilizando exclusivamente fuentes renovables.",
+        "id": "q_eng7_naturales_41"
+    },
+    {
+        "grade": "english7",
+        "category": "naturales",
+        "question": "Devices that convert the chemical energy of hydrogen directly into electricity, emitting only pure water, are fuel _______.",
+        "options": [
+            "cells",
+            "burners",
+            "turbines",
+            "reactors"
+        ],
+        "correct": 0,
+        "explanation": "Las celdas de combustible de hidrógeno generan electricidad sin emisiones de carbono (solo vapor de agua).",
+        "id": "q_eng7_naturales_42"
+    },
+    {
+        "grade": "english7",
+        "category": "naturales",
+        "question": "Large-scale electrical energy storage systems designed to balance intermittent solar and wind generation use utility-scale _______.",
+        "options": [
+            "batteries (BESS)",
+            "flywheels only",
+            "capacitors",
+            "diesel generators"
+        ],
+        "correct": 0,
+        "explanation": "Los sistemas de almacenamiento en baterías a escala de red estabilizan la fluctuación eólica y solar.",
+        "id": "q_eng7_naturales_43"
+    },
+    {
+        "grade": "english7",
+        "category": "naturales",
+        "question": "The transition from carbon-intensive fossil infrastructure to zero-emission technology is termed the green _______ transition.",
+        "options": [
+            "energy",
+            "fuel",
+            "power",
+            "grid"
+        ],
+        "correct": 0,
+        "explanation": "La transición energética promueve la descarbonización de la matriz eléctrica e industrial mundial.",
+        "id": "q_eng7_naturales_44"
+    },
+    {
+        "grade": "english7",
+        "category": "naturales",
+        "question": "Smart electrical grids that utilize bidirectional digital communication to optimize power distribution are _______ grids.",
+        "options": [
+            "smart",
+            "analog",
+            "isolated",
+            "manual"
+        ],
+        "correct": 0,
+        "explanation": "Las redes eléctricas inteligentes ('smart grids') equilibran la oferta y demanda en tiempo real.",
+        "id": "q_eng7_naturales_45"
+    },
+    {
+        "grade": "english7",
+        "category": "naturales",
+        "question": "Nuclear power plants that generate low-carbon base-load electricity produce radioactive _______ that requires deep geological repositories.",
+        "options": [
+            "waste",
+            "exhaust",
+            "ash",
+            "soot"
+        ],
+        "correct": 0,
+        "explanation": "Los residuos radiactivos requieren confinamiento seguro en depósitos geológicos profundos.",
+        "id": "q_eng7_naturales_46"
+    },
+    {
+        "grade": "english7",
+        "category": "naturales",
+        "question": "Advanced nuclear reactor designs that are factory-built, modular and significantly smaller than traditional reactors are _______.",
+        "options": [
+            "Small Modular Reactors (SMRs)",
+            "supercolliders",
+            "tokamaks",
+            "turbines"
+        ],
+        "correct": 0,
+        "explanation": "Los reactores modulares pequeños (SMR) ofrecen mayor flexibilidad y seguridad intrínseca pasiva.",
+        "id": "q_eng7_naturales_47"
+    },
+    {
+        "grade": "english7",
+        "category": "naturales",
+        "question": "The experimental fusion reactor currently under construction in Cadarache, France, by an international consortium is _______.",
+        "options": [
+            "ITER",
+            "CERN",
+            "Hubble",
+            "ISS"
+        ],
+        "correct": 0,
+        "explanation": "El proyecto ITER investiga la viabilidad de la fusión nuclear por confinamiento magnético comercial.",
+        "id": "q_eng7_naturales_48"
+    },
+    {
+        "grade": "english7",
+        "category": "naturales",
+        "question": "Materials capable of generating an electric charge in response to applied mechanical stress exhibit _______ electricity.",
+        "options": [
+            "piezo-",
+            "thermo-",
+            "photo-",
+            "bio-"
+        ],
+        "correct": 0,
+        "explanation": "La piezoelectricidad transforma la presión o vibración mecánica en voltaje eléctrico.",
+        "id": "q_eng7_naturales_49"
+    },
+    {
+        "grade": "english7",
+        "category": "naturales",
+        "question": "Energy efficiency programs aim to reduce energy consumption without compromising economic productivity or societal _______.",
+        "options": [
+            "well-being and comfort",
+            "taxes",
+            "pollution",
+            "speed"
+        ],
+        "correct": 0,
+        "explanation": "La eficiencia energética maximiza el rendimiento reduciendo el desperdicio sin mermar la calidad de vida.",
+        "id": "q_eng7_naturales_50"
+    },
+    {
+        "grade": "english7",
+        "category": "sociales",
+        "question": "In formal debate, acknowledging opposing viewpoints before refuting them demonstrates intellectual _______.",
+        "options": [
+            "rigour and fairness",
+            "weakness",
+            "indecision",
+            "hesitation"
+        ],
+        "correct": 0,
+        "explanation": "Considerar y refutar con argumentos las posturas contrarias fortalece la solidez dialéctica.",
+        "id": "q_eng7_sociales_1"
+    },
+    {
+        "grade": "english7",
+        "category": "sociales",
+        "question": "A flawed argument that appears superficially convincing but violates principles of logic is a logical _______.",
+        "options": [
+            "fallacy",
+            "premise",
+            "paradox",
+            "syllogism"
+        ],
+        "correct": 0,
+        "explanation": "Una falacia lógica es un razonamiento defectuoso que aparenta validez pero carece de rigor formal.",
+        "id": "q_eng7_sociales_2"
+    },
+    {
+        "grade": "english7",
+        "category": "sociales",
+        "question": "Attacking an opponent's character rather than addressing the substance of their argument is an ad _______ fallacy.",
+        "options": [
+            "hominem",
+            "nauseam",
+            "infinitum",
+            "hoc"
+        ],
+        "correct": 0,
+        "explanation": "La falacia 'ad hominem' descalifica a la persona en lugar de rebatir sus ideas.",
+        "id": "q_eng7_sociales_3"
+    },
+    {
+        "grade": "english7",
+        "category": "sociales",
+        "question": "Misrepresenting an opponent's argument to make it easier to attack and disprove is the _______ man fallacy.",
+        "options": [
+            "straw",
+            "iron",
+            "wooden",
+            "paper"
+        ],
+        "correct": 0,
+        "explanation": "La falacia del 'hombre de paja' (straw man) caricaturiza la postura del adversario para atacarla falsamente.",
+        "id": "q_eng7_sociales_4"
+    },
+    {
+        "grade": "english7",
+        "category": "sociales",
+        "question": "A form of deductive reasoning where a conclusion is drawn from two given premises is a _______.",
+        "options": [
+            "syllogism",
+            "metaphor",
+            "hypothesis",
+            "euphemism"
+        ],
+        "correct": 0,
+        "explanation": "El silogismo clásico deduce una conclusión necesaria a partir de premisas mayor y menor.",
+        "id": "q_eng7_sociales_5"
+    },
+    {
+        "grade": "english7",
+        "category": "sociales",
+        "question": "In classical rhetoric, appealing to the audience's sense of reason and evidence is _______.",
+        "options": [
+            "logos",
+            "pathos",
+            "ethos",
+            "kairos"
+        ],
+        "correct": 0,
+        "explanation": "El 'logos' aristotélico apela a la lógica, los datos y la coherencia demostrativa.",
+        "id": "q_eng7_sociales_6"
+    },
+    {
+        "grade": "english7",
+        "category": "sociales",
+        "question": "In classical rhetoric, establishing the speaker's credibility, character and moral authority is _______.",
+        "options": [
+            "ethos",
+            "pathos",
+            "logos",
+            "mythos"
+        ],
+        "correct": 0,
+        "explanation": "El 'ethos' construye la autoridad moral y credibilidad del orador ante su auditorio.",
+        "id": "q_eng7_sociales_7"
+    },
+    {
+        "grade": "english7",
+        "category": "sociales",
+        "question": "In classical rhetoric, appealing to the audience's emotions, values and passions is _______.",
+        "options": [
+            "pathos",
+            "logos",
+            "ethos",
+            "telos"
+        ],
+        "correct": 0,
+        "explanation": "El 'pathos' conmueve y moviliza las emociones y empatía de los oyentes.",
+        "id": "q_eng7_sociales_8"
+    },
+    {
+        "grade": "english7",
+        "category": "sociales",
+        "question": "A statement that appears self-contradictory on the surface but reveals a deeper truth upon reflection is a _______.",
+        "options": [
+            "paradox",
+            "oxymoron",
+            "hyperbole",
+            "tautology"
+        ],
+        "correct": 0,
+        "explanation": "Una paradoja plantea una contradicción aparente que encierra una verdad filosófica profunda.",
+        "id": "q_eng7_sociales_9"
+    },
+    {
+        "grade": "english7",
+        "category": "sociales",
+        "question": "The rhetorical device of deliberately understating a fact to emphasize its true magnitude is _______.",
+        "options": [
+            "litotes or understatement",
+            "hyperbole",
+            "irony only",
+            "euphemism"
+        ],
+        "correct": 0,
+        "explanation": "La litote o atenuación enfática afirma algo negando su contrario (ej. 'no fue una tarea sencilla').",
+        "id": "q_eng7_sociales_10"
+    },
+    {
+        "grade": "english7",
+        "category": "sociales",
+        "question": "The extensive collection and monetization of personal behavioural data by tech monopolies is surveillance _______.",
+        "options": [
+            "capitalism",
+            "democracy",
+            "socialism",
+            "anarchy"
+        ],
+        "correct": 0,
+        "explanation": "El 'capitalismo de vigilancia' (Zuboff) comercializa predicciones sobre la conducta de los usuarios.",
+        "id": "q_eng7_sociales_11"
+    },
+    {
+        "grade": "english7",
+        "category": "sociales",
+        "question": "Government programs that intercept and analyze communications data across whole populations engage in mass _______.",
+        "options": [
+            "surveillance",
+            "censorship",
+            "encryption",
+            "education"
+        ],
+        "correct": 0,
+        "explanation": "La vigilancia masiva digital suscita intensos debates sobre la vulneración de los derechos civiles.",
+        "id": "q_eng7_sociales_12"
+    },
+    {
+        "grade": "english7",
+        "category": "sociales",
+        "question": "Converting digital data into unreadable code that can only be deciphered with a secret key is end-to-end _______.",
+        "options": [
+            "encryption",
+            "compression",
+            "decoding",
+            "streaming"
+        ],
+        "correct": 0,
+        "explanation": "El cifrado de extremo a extremo protege la confidencialidad de las comunicaciones privadas.",
+        "id": "q_eng7_sociales_13"
+    },
+    {
+        "grade": "english7",
+        "category": "sociales",
+        "question": "Biometric surveillance systems that identify individuals in public spaces using camera feeds use facial _______ technology.",
+        "options": [
+            "recognition",
+            "filtering",
+            "scanning only",
+            "tracking only"
+        ],
+        "correct": 0,
+        "explanation": "El reconocimiento facial en la vía pública plantea riesgos para la privacidad y la libertad de reunión.",
+        "id": "q_eng7_sociales_14"
+    },
+    {
+        "grade": "english7",
+        "category": "sociales",
+        "question": "Legislation enacted in the European Union that establishes comprehensive data privacy rights for citizens is the _______.",
+        "options": [
+            "GDPR (General Data Protection Regulation)",
+            "DMCA",
+            "Patriot Act",
+            "ACTA"
+        ],
+        "correct": 0,
+        "explanation": "El RGPD (GDPR) europeo consagra el derecho al olvido y la protección de datos personales.",
+        "id": "q_eng7_sociales_15"
+    },
+    {
+        "grade": "english7",
+        "category": "sociales",
+        "question": "The digital divide refers to the socioeconomic inequality between demographic groups regarding access to modern _______.",
+        "options": [
+            "information and communication technology",
+            "transport",
+            "healthcare only",
+            "energy only"
+        ],
+        "correct": 0,
+        "explanation": "La brecha digital ('digital divide') profundiza desigualdades entre quienes acceden a la red y quienes no.",
+        "id": "q_eng7_sociales_16"
+    },
+    {
+        "grade": "english7",
+        "category": "sociales",
+        "question": "Whistleblowers who leak classified evidence of government wrongdoing risk facing charges under state _______ acts.",
+        "options": [
+            "secrets or espionage",
+            "privacy",
+            "freedom",
+            "copyright"
+        ],
+        "correct": 0,
+        "explanation": "Las leyes de espionaje o secretos de estado suelen penalizar la filtración de documentos gubernamentales.",
+        "id": "q_eng7_sociales_17"
+    },
+    {
+        "grade": "english7",
+        "category": "sociales",
+        "question": "The principle that internet service providers must treat all data traffic equally without discrimination is net _______.",
+        "options": [
+            "neutrality",
+            "governance",
+            "security",
+            "monopoly"
+        ],
+        "correct": 0,
+        "explanation": "La neutralidad de la red impide que las operadoras bloqueen o ralenticen contenidos según intereses comerciales.",
+        "id": "q_eng7_sociales_18"
+    },
+    {
+        "grade": "english7",
+        "category": "sociales",
+        "question": "Algorithmic systems that score citizens' reliability based on financial and social compliance constitute a social _______ system.",
+        "options": [
+            "credit",
+            "security",
+            "welfare",
+            "ranking"
+        ],
+        "correct": 0,
+        "explanation": "Los sistemas de crédito social condicionan el acceso a servicios públicos según el comportamiento individual.",
+        "id": "q_eng7_sociales_19"
+    },
+    {
+        "grade": "english7",
+        "category": "sociales",
+        "question": "Balancing the imperatives of national security with the preservation of fundamental individual liberties is a core democratic _______.",
+        "options": [
+            "dilemma or tension",
+            "solution",
+            "certainty",
+            "policy"
+        ],
+        "correct": 0,
+        "explanation": "La tensión entre seguridad nacional y libertades individuales es un debate permanente en las democracias.",
+        "id": "q_eng7_sociales_20"
+    },
+    {
+        "grade": "english7",
+        "category": "sociales",
+        "question": "A recurring symbol, motif or character type across universal literature and mythology is an _______.",
+        "options": [
+            "archetype (Jungian archetype)",
+            "hyperbole",
+            "onomatopoeia",
+            "irony"
+        ],
+        "correct": 0,
+        "explanation": "Un arquetipo es un patrón o personaje universal arraigado en el inconsciente colectivo (ej. el Héroe, el Mentor).",
+        "id": "q_eng7_sociales_21"
+    },
+    {
+        "grade": "english7",
+        "category": "sociales",
+        "question": "The narrative arc common to mythological hero stories across cultures, analyzed by Joseph Campbell, is the _______ Journey.",
+        "options": [
+            "Hero's",
+            "Wanderer's",
+            "Pilgrim's",
+            "King's"
+        ],
+        "correct": 0,
+        "explanation": "'El viaje del héroe' (monomito) describe las etapas arquetípicas de la aventura iniciática.",
+        "id": "q_eng7_sociales_22"
+    },
+    {
+        "grade": "english7",
+        "category": "sociales",
+        "question": "A protagonist who lacks conventional heroic attributes such as idealism, courage or morality is an anti_______.",
+        "options": [
+            "hero",
+            "villain",
+            "mentor",
+            "foil"
+        ],
+        "correct": 0,
+        "explanation": "Un antihéroe protagoniza una obra sin exhibir virtudes morales convencionales (ej. Don Quijote, Macbeth).",
+        "id": "q_eng7_sociales_23"
+    },
+    {
+        "grade": "english7",
+        "category": "sociales",
+        "question": "A character whose attributes contrast sharply with another character to highlight their qualities is a dramatic _______.",
+        "options": [
+            "foil",
+            "nemesis",
+            "catalyst",
+            "double"
+        ],
+        "correct": 0,
+        "explanation": "Un 'foil' o personaje de contraste resalta los rasgos del protagonista por oposición.",
+        "id": "q_eng7_sociales_24"
+    },
+    {
+        "grade": "english7",
+        "category": "sociales",
+        "question": "The release of intense pent-up emotional tension and pity experienced by the audience of a tragedy is _______.",
+        "options": [
+            "catharsis",
+            "hubris",
+            "hamartia",
+            "nemesis"
+        ],
+        "correct": 0,
+        "explanation": "La catarsis aristotélica es la purificación emocional que experimenta el espectador ante el drama trágico.",
+        "id": "q_eng7_sociales_25"
+    },
+    {
+        "grade": "english7",
+        "category": "sociales",
+        "question": "The tragic flaw or fatal error of judgment that leads to the downfall of a dramatic protagonist is _______.",
+        "options": [
+            "hamartia",
+            "hubris",
+            "catharsis",
+            "anagnorisis"
+        ],
+        "correct": 0,
+        "explanation": "La 'hamartia' es el error fatal o debilidad trágica que precipita la ruina del héroe.",
+        "id": "q_eng7_sociales_26"
+    },
+    {
+        "grade": "english7",
+        "category": "sociales",
+        "question": "Excessive pride, arrogance or defiance toward the gods that invites divine retribution in Greek tragedy is _______.",
+        "options": [
+            "hubris",
+            "nemesis",
+            "catharsis",
+            "pathos"
+        ],
+        "correct": 0,
+        "explanation": "La 'hubris' (arrogancia desmedida) desafía el orden natural y despierta el castigo de Némesis.",
+        "id": "q_eng7_sociales_27"
+    },
+    {
+        "grade": "english7",
+        "category": "sociales",
+        "question": "The literary technique of providing subtle hints and clues about future narrative events is _______.",
+        "options": [
+            "foreshadowing",
+            "flashback",
+            "alliteration",
+            "allegory"
+        ],
+        "correct": 0,
+        "explanation": "El 'foreshadowing' (presagio narrativo) anticipa acontecimientos venideros mediante pistas sutiles.",
+        "id": "q_eng7_sociales_28"
+    },
+    {
+        "grade": "english7",
+        "category": "sociales",
+        "question": "A narrative in which characters, settings and events symbolize broader moral, religious or political concepts is an _______.",
+        "options": [
+            "allegory (like Animal Farm)",
+            "epic",
+            "satire only",
+            "parody"
+        ],
+        "correct": 0,
+        "explanation": "Una alegoría representa simbólicamente ideas morales o políticas complejas a través de la ficción.",
+        "id": "q_eng7_sociales_29"
+    },
+    {
+        "grade": "english7",
+        "category": "sociales",
+        "question": "The perspective from which a fictional story is communicated to the reader is the narrative point of _______.",
+        "options": [
+            "view",
+            "interest",
+            "action",
+            "climax"
+        ],
+        "correct": 0,
+        "explanation": "El punto de vista narrativo (primera, tercera persona omnisciente) determina la focalización del relato.",
+        "id": "q_eng7_sociales_30"
+    },
+    {
+        "grade": "english7",
+        "category": "sociales",
+        "question": "The tendency of globalization to erode distinct local traditions in favour of uniform consumer culture is cultural _______.",
+        "options": [
+            "homogenization",
+            "diversification",
+            "preservation",
+            "enrichment"
+        ],
+        "correct": 0,
+        "explanation": "La homogeneización cultural reduce la diversidad regional ante la estandarización global de hábitos de consumo.",
+        "id": "q_eng7_sociales_31"
+    },
+    {
+        "grade": "english7",
+        "category": "sociales",
+        "question": "The adaptation of international products or ideas to suit local tastes, cultures and conditions is termed _______.",
+        "options": [
+            "glocalization",
+            "isolation",
+            "colonization",
+            "emigration"
+        ],
+        "correct": 0,
+        "explanation": "La 'glocalización' fusiona tendencias globales con particularidades culturales locales.",
+        "id": "q_eng7_sociales_32"
+    },
+    {
+        "grade": "english7",
+        "category": "sociales",
+        "question": "The dominance of global languages like English in international academia and commerce is linguistic _______.",
+        "options": [
+            "hegemony or imperialism",
+            "democracy",
+            "pluralism",
+            "diversity"
+        ],
+        "correct": 0,
+        "explanation": "La hegemonía del inglés como lengua franca plantea desafíos a la producción científica en otros idiomas.",
+        "id": "q_eng7_sociales_33"
+    },
+    {
+        "grade": "english7",
+        "category": "sociales",
+        "question": "Efforts to document, teach and revitalize endangered indigenous languages represent language _______.",
+        "options": [
+            "revitalization",
+            "standardization",
+            "simplification",
+            "translation"
+        ],
+        "correct": 0,
+        "explanation": "La revitalización lingüística busca rescatar y transmitir lenguas amenazadas a nuevas generaciones.",
+        "id": "q_eng7_sociales_34"
+    },
+    {
+        "grade": "english7",
+        "category": "sociales",
+        "question": "The economic doctrine advocating free international markets, minimal state regulation and privatization is neo_______.",
+        "options": [
+            "liberalism",
+            "feudalism",
+            "mercantilism",
+            "socialism"
+        ],
+        "correct": 0,
+        "explanation": "El neoliberalismo promueve la apertura comercial global y la reducción de la intervención estatal.",
+        "id": "q_eng7_sociales_35"
+    },
+    {
+        "grade": "english7",
+        "category": "sociales",
+        "question": "Multinational trade agreements that reduce import tariffs and quotas between member nations establish free _______ areas.",
+        "options": [
+            "trade",
+            "customs only",
+            "currency",
+            "border"
+        ],
+        "correct": 0,
+        "explanation": "Las zonas de libre comercio suprimen aranceles aduaneros para dinamizar el intercambio mercantil.",
+        "id": "q_eng7_sociales_36"
+    },
+    {
+        "grade": "english7",
+        "category": "sociales",
+        "question": "The relocation of manufacturing operations by corporations to countries with lower production costs is _______.",
+        "options": [
+            "offshoring or outsourcing",
+            "nationalization",
+            "insourcing",
+            "protectionism"
+        ],
+        "correct": 0,
+        "explanation": "La deslocalización ('offshoring') traslada plantas productivas en busca de menores costos laborales.",
+        "id": "q_eng7_sociales_37"
+    },
+    {
+        "grade": "english7",
+        "category": "sociales",
+        "question": "Trade policies that impose tariffs on foreign imports to shield domestic industries from competition are _______.",
+        "options": [
+            "protectionist",
+            "free market",
+            "globalist",
+            "multilateral"
+        ],
+        "correct": 0,
+        "explanation": "El proteccionismo arancelario busca resguardar la producción y el empleo industrial nacional.",
+        "id": "q_eng7_sociales_38"
+    },
+    {
+        "grade": "english7",
+        "category": "sociales",
+        "question": "The global phenomenon of highly educated and skilled professionals emigrating from developing nations is brain _______.",
+        "options": [
+            "drain",
+            "gain",
+            "trade",
+            "trust"
+        ],
+        "correct": 0,
+        "explanation": "La fuga de cerebros ('brain drain') priva a las naciones de origen de capital humano calificado.",
+        "id": "q_eng7_sociales_39"
+    },
+    {
+        "grade": "english7",
+        "category": "sociales",
+        "question": "Economic interconnectedness where disruptions in one nation trigger financial shocks across global markets reflects economic _______.",
+        "options": [
+            "interdependence",
+            "isolation",
+            "independence",
+            "autarky"
+        ],
+        "correct": 0,
+        "explanation": "La interdependencia económica mundial propaga fluctuaciones bursátiles y cadenas de suministro.",
+        "id": "q_eng7_sociales_40"
+    },
+    {
+        "grade": "english7",
+        "category": "sociales",
+        "question": "The political theory holding that legitimate state authority is derived from an implicit agreement among citizens is the social _______ theory.",
+        "options": [
+            "contract (Hobbes, Locke, Rousseau)",
+            "welfare",
+            "order",
+            "charter"
+        ],
+        "correct": 0,
+        "explanation": "La teoría del contrato social fundamenta la legitimidad del Estado en el consentimiento ciudadano.",
+        "id": "q_eng7_sociales_41"
+    },
+    {
+        "grade": "english7",
+        "category": "sociales",
+        "question": "The philosophical concept introduced by John Rawls where individuals design just laws from behind a 'veil of _______' is fair justice.",
+        "options": [
+            "ignorance",
+            "knowledge",
+            "power",
+            "wealth"
+        ],
+        "correct": 0,
+        "explanation": "El 'velo de la ignorancia' de Rawls propone concebir leyes justas ignorando la posición social que se ocupará.",
+        "id": "q_eng7_sociales_42"
+    },
+    {
+        "grade": "english7",
+        "category": "sociales",
+        "question": "The ethical philosophy arguing that the most moral action is the one that produces the greatest happiness for the greatest number is _______.",
+        "options": [
+            "utilitarianism (Bentham, Mill)",
+            "deontology",
+            "existentialism",
+            "stoicism"
+        ],
+        "correct": 0,
+        "explanation": "El utilitarismo evalúa la moralidad de una acción en función de sus consecuencias y el bienestar colectivo.",
+        "id": "q_eng7_sociales_43"
+    },
+    {
+        "grade": "english7",
+        "category": "sociales",
+        "question": "The ethical theory holding that actions are inherently right or wrong regardless of consequences is deontological _______.",
+        "options": [
+            "ethics (Kant's categorical imperative)",
+            "consequentialism",
+            "utilitarianism",
+            "relativism"
+        ],
+        "correct": 0,
+        "explanation": "La deontología kantiana sostiene que los deberes morales son absolutos (imperativo categórico).",
+        "id": "q_eng7_sociales_44"
+    },
+    {
+        "grade": "english7",
+        "category": "sociales",
+        "question": "The political philosophy emphasizing absolute individual liberty, free markets and minimal government intervention is _______.",
+        "options": [
+            "libertarianism",
+            "socialism",
+            "collectivism",
+            "totalitarianism"
+        ],
+        "correct": 0,
+        "explanation": "El libertarianismo defiende la autonomía individual irrestricta y el libre mercado desregulado.",
+        "id": "q_eng7_sociales_45"
+    },
+    {
+        "grade": "english7",
+        "category": "sociales",
+        "question": "A political system where all power is concentrated in the hands of an authoritarian state that tolerates no opposition is _______.",
+        "options": [
+            "totalitarianism",
+            "pluralism",
+            "anarchism",
+            "federalism"
+        ],
+        "correct": 0,
+        "explanation": "El totalitarismo somete la vida política, económica y civil al control hegemónico del Estado.",
+        "id": "q_eng7_sociales_46"
+    },
+    {
+        "grade": "english7",
+        "category": "sociales",
+        "question": "Universal human rights that cannot be surrendered, transferred or legitimately revoked by any government are in_______ rights.",
+        "options": [
+            "alienable",
+            "accessible",
+            "negotiable",
+            "conditional"
+        ],
+        "correct": 0,
+        "explanation": "Los derechos humanos inalienables pertenecen a la persona por su intrínseca dignidad humana.",
+        "id": "q_eng7_sociales_47"
+    },
+    {
+        "grade": "english7",
+        "category": "sociales",
+        "question": "The principle that laws must be administered equally, transparently and fairly to all individuals without exception is the rule of _______.",
+        "options": [
+            "law",
+            "power",
+            "majority",
+            "force"
+        ],
+        "correct": 0,
+        "explanation": "El estado de derecho ('rule of law') asegura que gobernantes y ciudadanos se hallen sometidos a la ley.",
+        "id": "q_eng7_sociales_48"
+    },
+    {
+        "grade": "english7",
+        "category": "sociales",
+        "question": "Civil disobedience consists of the public, nonviolent breach of law undertaken to demonstrate the injustice of that law, championed by _______.",
+        "options": [
+            "Henry David Thoreau and Gandhi",
+            "Machiavelli",
+            "Hobbes",
+            "Bismarck"
+        ],
+        "correct": 0,
+        "explanation": "La desobediencia civil pacífica impugna leyes ilegítimas mediante la resistencia moral pública.",
+        "id": "q_eng7_sociales_49"
+    },
+    {
+        "grade": "english7",
+        "category": "sociales",
+        "question": "The moral requirement that historical social injustices and structural inequalities be redressed through proactive policy is social _______.",
+        "options": [
+            "justice",
+            "darwinism",
+            "isolation",
+            "conformity"
+        ],
+        "correct": 0,
+        "explanation": "La justicia social busca garantizar la equidad de oportunidades y la protección de los sectores vulnerables.",
+        "id": "q_eng7_sociales_50"
+    },
+    {
+        "grade": "english7",
+        "category": "ingenio",
+        "question": "An obvious major problem or controversial issue that everybody avoids discussing is the elephant in the _______.",
+        "options": [
+            "room",
+            "house",
+            "street",
+            "garden"
+        ],
+        "correct": 0,
+        "explanation": "'The elephant in the room' es una metáfora para un problema enorme y evidente que todos eligen ignorar.",
+        "id": "q_eng7_ingenio_1"
+    },
+    {
+        "grade": "english7",
+        "category": "ingenio",
+        "question": "An apparent misfortune that unexpectedly turns out to have positive consequences is a blessing in _______.",
+        "options": [
+            "disguise",
+            "secret",
+            "costume",
+            "mask"
+        ],
+        "correct": 0,
+        "explanation": "'A blessing in disguise' es un contratiempo que a la postre resulta ser beneficioso.",
+        "id": "q_eng7_ingenio_2"
+    },
+    {
+        "grade": "english7",
+        "category": "ingenio",
+        "question": "When you take on a commitment or responsibility that exceeds your capacity to handle, you bite off more than you can _______.",
+        "options": [
+            "chew",
+            "eat",
+            "swallow",
+            "digest"
+        ],
+        "correct": 0,
+        "explanation": "'Bite off more than you can chew' significa asumir más tareas de las que se pueden abarcar.",
+        "id": "q_eng7_ingenio_3"
+    },
+    {
+        "grade": "english7",
+        "category": "ingenio",
+        "question": "Advocating an opposing or unpopular argument solely to test its validity or provoke debate is playing the devil's _______.",
+        "options": [
+            "advocate",
+            "lawyer",
+            "judge",
+            "friend"
+        ],
+        "correct": 0,
+        "explanation": "'Play devil's advocate' (hacer de abogado del diablo) es defender una postura contraria para evaluar su solidez.",
+        "id": "q_eng7_ingenio_4"
+    },
+    {
+        "grade": "english7",
+        "category": "ingenio",
+        "question": "When someone makes a questionable argument sound legitimate by using confusing technical jargon, they are throwing dust in your _______.",
+        "options": [
+            "eyes",
+            "ears",
+            "face",
+            "hands"
+        ],
+        "correct": 0,
+        "explanation": "'Throw dust in someone's eyes' significa desorientar o engañar a alguien con argucias.",
+        "id": "q_eng7_ingenio_5"
+    },
+    {
+        "grade": "english7",
+        "category": "ingenio",
+        "question": "The final tiny problem that causes an entire complex situation or patient person to collapse is the straw that broke the _______ back.",
+        "options": [
+            "camel's",
+            "horse's",
+            "donkey's",
+            "ox's"
+        ],
+        "correct": 0,
+        "explanation": "'The straw that broke the camel's back' es la gota que colmó el vaso.",
+        "id": "q_eng7_ingenio_6"
+    },
+    {
+        "grade": "english7",
+        "category": "ingenio",
+        "question": "To face reality and confront unpleasant facts without illusions is to look facts in the _______.",
+        "options": [
+            "face",
+            "eye",
+            "head",
+            "mirror"
+        ],
+        "correct": 0,
+        "explanation": "'Look facts in the face' significa mirar la realidad de frente.",
+        "id": "q_eng7_ingenio_7"
+    },
+    {
+        "grade": "english7",
+        "category": "ingenio",
+        "question": "When an agreement or achievement is considered certain and guaranteed, it is in the _______.",
+        "options": [
+            "bag",
+            "box",
+            "pocket",
+            "hand"
+        ],
+        "correct": 0,
+        "explanation": "'It's in the bag' significa que la victoria o el resultado ya está prácticamente asegurado.",
+        "id": "q_eng7_ingenio_8"
+    },
+    {
+        "grade": "english7",
+        "category": "ingenio",
+        "question": "To reveal one's true plans or vulnerability unintentionally is to show one's _______.",
+        "options": [
+            "hand or cards",
+            "face",
+            "eyes",
+            "heart"
+        ],
+        "correct": 0,
+        "explanation": "'Show one's hand' (mostrar las cartas) alude a revelar la estrategia.",
+        "id": "q_eng7_ingenio_9"
+    },
+    {
+        "grade": "english7",
+        "category": "ingenio",
+        "question": "When you are on very friendly, informal speaking terms with an influential figure, you are on a first-_______ basis.",
+        "options": [
+            "name",
+            "call",
+            "word",
+            "step"
+        ],
+        "correct": 0,
+        "explanation": "'On a first-name basis' denota un trato familiar y de confianza con alguien.",
+        "id": "q_eng7_ingenio_10"
+    },
+    {
+        "grade": "english7",
+        "category": "ingenio",
+        "question": "Which word has the most formal and academic register for 'make easier'?",
+        "options": [
+            "Facilitate",
+            "Help out",
+            "Ease up",
+            "Smooth out"
+        ],
+        "correct": 0,
+        "explanation": "'Facilitate' pertenece al registro formal académico frente a expresiones más coloquiales.",
+        "id": "q_eng7_ingenio_11"
+    },
+    {
+        "grade": "english7",
+        "category": "ingenio",
+        "question": "Which word has a distinctly pejorative (negative) connotation for 'persistent'?",
+        "options": [
+            "Stubborn or Obstinate",
+            "Tenacious",
+            "Resolute",
+            "Determined"
+        ],
+        "correct": 0,
+        "explanation": "'Stubborn' u 'obstinate' (terco/obstinado) tiene una connotación negativa que desaprueba la rigidez.",
+        "id": "q_eng7_ingenio_12"
+    },
+    {
+        "grade": "english7",
+        "category": "ingenio",
+        "question": "Which word has an elevated, formal connotation for 'friendly and sociable'?",
+        "options": [
+            "Gregarious or Convivial",
+            "Chatty",
+            "Nice",
+            "Lively"
+        ],
+        "correct": 0,
+        "explanation": "'Gregarious' o 'convivial' describen la sociabilidad en un registro culto y preciso.",
+        "id": "q_eng7_ingenio_13"
+    },
+    {
+        "grade": "english7",
+        "category": "ingenio",
+        "question": "Which term is a diplomatic euphemism for 'poor developing country'?",
+        "options": [
+            "Economically emerging nation",
+            "Broke country",
+            "Underdeveloped place",
+            "Needy state"
+        ],
+        "correct": 0,
+        "explanation": "El lenguaje diplomático prefiere 'emerging nation' o 'developing economy' por consideración respetuosa.",
+        "id": "q_eng7_ingenio_14"
+    },
+    {
+        "grade": "english7",
+        "category": "ingenio",
+        "question": "Which word has a formal connotation for 'very short and fleeting'?",
+        "options": [
+            "Ephemeral or Transient",
+            "Quick",
+            "Snappy",
+            "Briefly"
+        ],
+        "correct": 0,
+        "explanation": "'Ephemeral' o 'transient' (efímero/transitorio) expresa la brevedad con matiz poético o filosófico.",
+        "id": "q_eng7_ingenio_15"
+    },
+    {
+        "grade": "english7",
+        "category": "ingenio",
+        "question": "Which term represents a pejorative connotation for 'careful with money'?",
+        "options": [
+            "Miserly or Stingy",
+            "Frugal",
+            "Thrifty",
+            "Economical"
+        ],
+        "correct": 0,
+        "explanation": "'Miserly' o 'stingy' califica a alguien de tacaño (mientras frugal y thrifty son elogiosos).",
+        "id": "q_eng7_ingenio_16"
+    },
+    {
+        "grade": "english7",
+        "category": "ingenio",
+        "question": "Which word is an elevated, literary synonym for 'unpleasant noise'?",
+        "options": [
+            "Cacophony",
+            "Loudness",
+            "Racket",
+            "Clatter"
+        ],
+        "correct": 0,
+        "explanation": "'Cacophony' (cacofonía) denota una mezcla discordante y estridente de sonidos.",
+        "id": "q_eng7_ingenio_17"
+    },
+    {
+        "grade": "english7",
+        "category": "ingenio",
+        "question": "Which word is the most formal equivalent for 'happening at the same time'?",
+        "options": [
+            "Simultaneous or Concurrent",
+            "Together",
+            "All at once",
+            "Same-time"
+        ],
+        "correct": 0,
+        "explanation": "'Concurrent' o 'simultaneous' es el término técnico formal adecuado en redacción jurídica o académica.",
+        "id": "q_eng7_ingenio_18"
+    },
+    {
+        "grade": "english7",
+        "category": "ingenio",
+        "question": "Which word has a formal, elevated register for 'huge, immense and impressive'?",
+        "options": [
+            "Monumental or Colossal",
+            "Massive",
+            "Giant",
+            "Super-big"
+        ],
+        "correct": 0,
+        "explanation": "'Monumental' o 'colossal' aportan solemnidad estilística a la descripción de una escala colosal.",
+        "id": "q_eng7_ingenio_19"
+    },
+    {
+        "grade": "english7",
+        "category": "ingenio",
+        "question": "Which expression represents an academic equivalent for 'at the end of the day'?",
+        "options": [
+            "Ultimately or In the final analysis",
+            "Basically",
+            "When all is said",
+            "Finally speaking"
+        ],
+        "correct": 0,
+        "explanation": "'Ultimately' o 'In the final analysis' sustituye adecuadamente al cliché coloquial en ensayos.",
+        "id": "q_eng7_ingenio_20"
+    },
+    {
+        "grade": "english7",
+        "category": "ingenio",
+        "question": "The international community voiced _______ concern over the military escalation.",
+        "options": [
+            "grave or deep",
+            "heavy",
+            "tall",
+            "wide"
+        ],
+        "correct": 0,
+        "explanation": "'Voice grave concern' (expresar honda preocupación) es la colocación diplomática estándar.",
+        "id": "q_eng7_ingenio_21"
+    },
+    {
+        "grade": "english7",
+        "category": "ingenio",
+        "question": "Her groundbreaking discovery shed light _______ the evolutionary history of hominids.",
+        "options": [
+            "on or upon",
+            "in",
+            "at",
+            "over"
+        ],
+        "correct": 0,
+        "explanation": "La colocación 'shed light on/upon' significa arrojar luz o esclarecer un enigma.",
+        "id": "q_eng7_ingenio_22"
+    },
+    {
+        "grade": "english7",
+        "category": "ingenio",
+        "question": "The suspect's contradictory statements aroused _______ among the investigators.",
+        "options": [
+            "suspicion",
+            "doubtness",
+            "wonder",
+            "hesitance"
+        ],
+        "correct": 0,
+        "explanation": "Despertar sospechas se formula formalmente como 'arouse suspicion'.",
+        "id": "q_eng7_ingenio_23"
+    },
+    {
+        "grade": "english7",
+        "category": "ingenio",
+        "question": "The newly introduced tax measures will take _______ on the first day of next month.",
+        "options": [
+            "effect",
+            "action",
+            "force",
+            "place"
+        ],
+        "correct": 0,
+        "explanation": "Entrar en vigor una ley o disposición legal se dice 'take effect'.",
+        "id": "q_eng7_ingenio_24"
+    },
+    {
+        "grade": "english7",
+        "category": "ingenio",
+        "question": "The board of directors passed a unanimous resolution to _______ tribute to the founder.",
+        "options": [
+            "pay",
+            "make",
+            "give",
+            "do"
+        ],
+        "correct": 0,
+        "explanation": "Rendir homenaje o tributo formal se formula con 'pay tribute to'.",
+        "id": "q_eng7_ingenio_25"
+    },
+    {
+        "grade": "english7",
+        "category": "ingenio",
+        "question": "I am writing with _______ to the job advertisement published in yesterday's journal.",
+        "options": [
+            "reference or regard",
+            "respects",
+            "relation only",
+            "attention"
+        ],
+        "correct": 0,
+        "explanation": "La fórmula de apertura epistolar formal es 'with reference to' o 'with regard to'.",
+        "id": "q_eng7_ingenio_26"
+    },
+    {
+        "grade": "english7",
+        "category": "ingenio",
+        "question": "Scientific researchers must adhere _______ rigorous ethical protocols throughout clinical trials.",
+        "options": [
+            "to",
+            "with",
+            "for",
+            "at"
+        ],
+        "correct": 0,
+        "explanation": "El verbo 'adhere' se combina obligatoriamente con la preposición 'to': 'adhere to protocols'.",
+        "id": "q_eng7_ingenio_27"
+    },
+    {
+        "grade": "english7",
+        "category": "ingenio",
+        "question": "The sudden stock market crash dealt a severe _______ to consumer confidence.",
+        "options": [
+            "blow",
+            "hit",
+            "strike",
+            "cut"
+        ],
+        "correct": 0,
+        "explanation": "Asestar un duro golpe se formula mediante la colocación 'deal a severe blow'.",
+        "id": "q_eng7_ingenio_28"
+    },
+    {
+        "grade": "english7",
+        "category": "ingenio",
+        "question": "The witness's testimony lent _______ to the prosecution's central theory.",
+        "options": [
+            "credibility or weight",
+            "trust",
+            "truth",
+            "belief"
+        ],
+        "correct": 0,
+        "explanation": "'Lend credibility/weight to' significa otorgar solidez y credibilidad a una tesis.",
+        "id": "q_eng7_ingenio_29"
+    },
+    {
+        "grade": "english7",
+        "category": "ingenio",
+        "question": "She made a _______ attempt to conceal her anxiety, but her trembling hands betrayed her.",
+        "options": [
+            "valiant or futile",
+            "big",
+            "strong",
+            "hard"
+        ],
+        "correct": 0,
+        "explanation": "'A valiant attempt' (un intento valeroso) o 'futile attempt' (intento vano) son colocaciones elegantes.",
+        "id": "q_eng7_ingenio_30"
+    },
+    {
+        "grade": "english7",
+        "category": "ingenio",
+        "question": "What abstract noun derived from the adjective 'AMBIGUOUS' denotes the quality of having multiple meanings?",
+        "options": [
+            "Ambiguity",
+            "Ambiguousness",
+            "Ambiguation",
+            "Ambiguism"
+        ],
+        "correct": 0,
+        "explanation": "El sustantivo abstracto formal correspondiente es 'ambiguity'.",
+        "id": "q_eng7_ingenio_31"
+    },
+    {
+        "grade": "english7",
+        "category": "ingenio",
+        "question": "What noun derived from the verb 'ACQUIESCE' means 'conformidad tácita o asentimiento'?",
+        "options": [
+            "Acquiescence",
+            "Acquiescement",
+            "Acquiescity",
+            "Acquiescion"
+        ],
+        "correct": 0,
+        "explanation": "'Acquiescence' expresa el consentimiento silencioso sin protesta explícita.",
+        "id": "q_eng7_ingenio_32"
+    },
+    {
+        "grade": "english7",
+        "category": "ingenio",
+        "question": "What adjective derived from 'CATASTROPHE' describes an event of calamitous proportions?",
+        "options": [
+            "Catastrophic",
+            "Catastrophous",
+            "Catastrophical",
+            "Catastrophicly"
+        ],
+        "correct": 0,
+        "explanation": "El adjetivo regular consagrado es 'catastrophic'.",
+        "id": "q_eng7_ingenio_33"
+    },
+    {
+        "grade": "english7",
+        "category": "ingenio",
+        "question": "What abstract noun derived from 'METICULOUS' means extreme care and attention to detail?",
+        "options": [
+            "Meticulousness",
+            "Meticulosity",
+            "Meticulism",
+            "Meticulance"
+        ],
+        "correct": 0,
+        "explanation": "El sustantivo abstracto es 'meticulousness'.",
+        "id": "q_eng7_ingenio_34"
+    },
+    {
+        "grade": "english7",
+        "category": "ingenio",
+        "question": "What verb derived from 'RESILIENT' means to recover strength or elasticity quickly?",
+        "options": [
+            "Resile (or demonstrate resilience)",
+            "Resilify",
+            "Resilientize",
+            "Resiliate"
+        ],
+        "correct": 0,
+        "explanation": "El verbo formal etimológico en inglés es 'resile' (o la perífrasis 'demonstrate resilience').",
+        "id": "q_eng7_ingenio_35"
+    },
+    {
+        "grade": "english7",
+        "category": "ingenio",
+        "question": "What adjective derived from 'EPHEMERAL' means 'transitorio y de corta duración'?",
+        "options": [
+            "Ephemeral (adjective itself) / Ephemerous",
+            "Ephemeric",
+            "Ephemerate",
+            "Ephemerish"
+        ],
+        "correct": 0,
+        "explanation": "'Ephemeral' es en sí mismo el adjetivo de raíz griega que denota transitoriedad.",
+        "id": "q_eng7_ingenio_36"
+    },
+    {
+        "grade": "english7",
+        "category": "ingenio",
+        "question": "What abstract noun derived from 'OMNIPRESENT' denotes being present everywhere simultaneously?",
+        "options": [
+            "Omnipresence",
+            "Omnipresency",
+            "Omnipresentness",
+            "Omnipresencehood"
+        ],
+        "correct": 0,
+        "explanation": "El sustantivo abstracto correspondiente es 'omnipresence'.",
+        "id": "q_eng7_ingenio_37"
+    },
+    {
+        "grade": "english7",
+        "category": "ingenio",
+        "question": "What adjective derived from 'MAGNANIMOUS' describes noble generosity toward a defeated rival?",
+        "options": [
+            "Magnanimous",
+            "Magnanimic",
+            "Magnanimful",
+            "Magnanimousish"
+        ],
+        "correct": 0,
+        "explanation": "'Magnanimous' califica la grandeza de ánimo y la nobleza generosa.",
+        "id": "q_eng7_ingenio_38"
+    },
+    {
+        "grade": "english7",
+        "category": "ingenio",
+        "question": "What noun derived from 'PLACATE' means 'la acción de apaciguar o calmar'?",
+        "options": [
+            "Placation",
+            "Placatement",
+            "Placacity",
+            "Placature"
+        ],
+        "correct": 0,
+        "explanation": "El sustantivo de acción es 'placation'.",
+        "id": "q_eng7_ingenio_39"
+    },
+    {
+        "grade": "english7",
+        "category": "ingenio",
+        "question": "What adjective derived from 'INDOMITABLE' describes a spirit that cannot be conquered or subdued?",
+        "options": [
+            "Indomitable",
+            "Indomitful",
+            "Indomitless",
+            "Indomiting"
+        ],
+        "correct": 0,
+        "explanation": "'Indomitable' (indómito/invencible) caracteriza un coraje inquebrantable.",
+        "id": "q_eng7_ingenio_40"
+    },
+    {
+        "grade": "english7",
+        "category": "ingenio",
+        "question": "A father and son are in a horrible car crash. The father dies. The boy is rushed to surgery. The surgeon looks at the boy and gasps: 'I cannot operate on him, he is my son!' Who is the surgeon?",
+        "options": [
+            "His mother",
+            "His uncle",
+            "A ghost",
+            "His stepfather"
+        ],
+        "correct": 0,
+        "explanation": "La cirujana es la madre del niño (acertijo clásico que revela sesgos cognitivos inconscientes).",
+        "id": "q_eng7_ingenio_41"
+    },
+    {
+        "grade": "english7",
+        "category": "ingenio",
+        "question": "I am not alive, but I grow; I don't have lungs, but I need air; I don't have a mouth, but water kills me. What am I?",
+        "options": [
+            "Fire",
+            "A plant",
+            "A cloud",
+            "A stone"
+        ],
+        "correct": 0,
+        "explanation": "El fuego ('Fire') crece, consume oxígeno del aire y se apaga con el agua.",
+        "id": "q_eng7_ingenio_42"
+    },
+    {
+        "grade": "english7",
+        "category": "ingenio",
+        "question": "Give me food and I will live; give me water and I will die. What am I?",
+        "options": [
+            "Fire",
+            "A sponge",
+            "A fish",
+            "A shadow"
+        ],
+        "correct": 0,
+        "explanation": "El fuego se alimenta de combustible y se extingue con agua.",
+        "id": "q_eng7_ingenio_43"
+    },
+    {
+        "grade": "english7",
+        "category": "ingenio",
+        "question": "What flies without wings, cries without eyes, and brings darkness wherever it goes?",
+        "options": [
+            "A cloud",
+            "The wind",
+            "Night",
+            "A bat"
+        ],
+        "correct": 0,
+        "explanation": "Una nube de tormenta vuela con el viento, precipita lluvia ('cries') y oscurece el cielo.",
+        "id": "q_eng7_ingenio_44"
+    },
+    {
+        "grade": "english7",
+        "category": "ingenio",
+        "question": "What disappears the very moment you mention its name?",
+        "options": [
+            "Silence",
+            "A secret",
+            "A shadow",
+            "Darkness"
+        ],
+        "correct": 0,
+        "explanation": "El silencio ('Silence') cesa inmediatamente al pronunciarse una palabra.",
+        "id": "q_eng7_ingenio_45"
+    },
+    {
+        "grade": "english7",
+        "category": "ingenio",
+        "question": "The person who made it didn't want it. The person who bought it didn't need it. The person who used it never saw it. What is it?",
+        "options": [
+            "A coffin",
+            "A present",
+            "A coin",
+            "A key"
+        ],
+        "correct": 0,
+        "explanation": "Un ataúd ('A coffin') cumple con todas las condiciones del acertijo.",
+        "id": "q_eng7_ingenio_46"
+    },
+    {
+        "grade": "english7",
+        "category": "ingenio",
+        "question": "What can fill an entire room without taking up any physical space?",
+        "options": [
+            "Light or music",
+            "Water",
+            "Air only",
+            "Furniture"
+        ],
+        "correct": 0,
+        "explanation": "La luz ('Light') ilumina y llena una habitación sin ocupar volumen físico.",
+        "id": "q_eng7_ingenio_47"
+    },
+    {
+        "grade": "english7",
+        "category": "ingenio",
+        "question": "Which word in the English language becomes plural when you remove one letter from it?",
+        "options": [
+            "Princes (removing the 'c' gives 'Princes' / plural)",
+            "Feet",
+            "Children",
+            "Mice"
+        ],
+        "correct": 0,
+        "explanation": "Al quitar la letra 's' a 'Princes' queda singular 'Prince', o quitar letras para alterar el número.",
+        "id": "q_eng7_ingenio_48"
+    },
+    {
+        "grade": "english7",
+        "category": "ingenio",
+        "question": "If an electric train travels at 120 km/h heading due north, and the gale wind blows from the west at 40 km/h, which direction does the smoke blow?",
+        "options": [
+            "Electric trains do not emit smoke",
+            "North-east",
+            "South-west",
+            "East"
+        ],
+        "correct": 0,
+        "explanation": "Los trenes eléctricos no emiten humo.",
+        "id": "q_eng7_ingenio_49"
+    },
+    {
+        "grade": "english7",
+        "category": "ingenio",
+        "question": "What possesses keys without locks, space without rooms, and allows you to enter but never walk outside?",
+        "options": [
+            "A computer keyboard",
+            "A hotel",
+            "A prison",
+            "A piano"
+        ],
+        "correct": 0,
+        "explanation": "Un teclado de computadora ('keyboard') tiene teclas ('keys'), barra espaciadora ('space') y tecla 'Enter'.",
+        "id": "q_eng7_ingenio_50"
+    },
+  {
+    "id": "q_eng8_matematica_1",
+    "grade": "english8",
+    "category": "matematica",
+    "question": "Had we known about the storm, we ___ our trip.",
+    "options": [
+      "would cancel",
+      "would have cancelled",
+      "will cancel",
+      "cancelled"
+    ],
+    "correct": 1,
+    "explanation": "En condicionales mixtos/terceros invertidos: 'Had we known' equivale a 'If we had known', requiriendo 'would have + participio'."
+  },
+  {
+    "id": "q_eng8_matematica_2",
+    "grade": "english8",
+    "category": "matematica",
+    "question": "___ you require any further assistance, do not hesitate to contact us.",
+    "options": [
+      "Should",
+      "Had",
+      "Were",
+      "Did"
+    ],
+    "correct": 0,
+    "explanation": "'Should you require' es la inversión formal de 'If you should require' / 'If you require'."
+  },
+  {
+    "id": "q_eng8_matematica_3",
+    "grade": "english8",
+    "category": "matematica",
+    "question": "Were they ___ to accept the offer, the merger would proceed immediately.",
+    "options": [
+      "to agree",
+      "agreed",
+      "agreeing",
+      "had agreed"
+    ],
+    "correct": 0,
+    "explanation": "Inversión del segundo condicional con 'were to': 'Were they to agree' equivale a 'If they agreed'."
+  },
+  {
+    "id": "q_eng8_matematica_4",
+    "grade": "english8",
+    "category": "matematica",
+    "question": "Had it not been ___ his swift intervention, the deal would have collapsed.",
+    "options": [
+      "for",
+      "with",
+      "from",
+      "by"
+    ],
+    "correct": 0,
+    "explanation": "La locución fija es 'Had it not been for...' (Si no hubiera sido por...)."
+  },
+  {
+    "id": "q_eng8_matematica_5",
+    "grade": "english8",
+    "category": "matematica",
+    "question": "Were I ___ your shoes, I would reconsider the proposition.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "under"
+    ],
+    "correct": 0,
+    "explanation": "'Were I in your shoes' invierte 'If I were in your shoes' (Si estuviera en tu lugar)."
+  },
+  {
+    "id": "q_eng8_matematica_6",
+    "grade": "english8",
+    "category": "matematica",
+    "question": "Should the package not arrive by tomorrow, please ___ customer service.",
+    "options": [
+      "notifying",
+      "notified",
+      "notify",
+      "to notify"
+    ],
+    "correct": 2,
+    "explanation": "Tras 'Should the package not arrive', la cláusula principal usa imperativo o futuro: 'please notify'."
+  },
+  {
+    "id": "q_eng8_matematica_7",
+    "grade": "english8",
+    "category": "matematica",
+    "question": "___ I known the truth beforehand, I would never have agreed.",
+    "options": [
+      "Did",
+      "Had",
+      "Were",
+      "Would"
+    ],
+    "correct": 1,
+    "explanation": "Inversión de tercer condicional: 'Had I known' = 'If I had known'."
+  },
+  {
+    "id": "q_eng8_matematica_8",
+    "grade": "english8",
+    "category": "matematica",
+    "question": "Were the company ___ expand abroad, significant capital would be required.",
+    "options": [
+      "to",
+      "in order",
+      "for",
+      "about"
+    ],
+    "correct": 0,
+    "explanation": "Estructura 'Were + sujeto + to-infinitive' para hipótesis futuras."
+  },
+  {
+    "id": "q_eng8_matematica_9",
+    "grade": "english8",
+    "category": "matematica",
+    "question": "Had he ___ warned in time, the accident could have been averted.",
+    "options": [
+      "be",
+      "being",
+      "been",
+      "was"
+    ],
+    "correct": 2,
+    "explanation": "Voz pasiva en tercer condicional invertido: 'Had he been warned' = 'If he had been warned'."
+  },
+  {
+    "id": "q_eng8_matematica_10",
+    "grade": "english8",
+    "category": "matematica",
+    "question": "Should anyone inquire about the audit, refer them ___ the legal department.",
+    "options": [
+      "at",
+      "to",
+      "with",
+      "towards"
+    ],
+    "correct": 1,
+    "explanation": "El verbo 'refer someone to' lleva la preposición 'to'."
+  },
+  {
+    "id": "q_eng8_matematica_11",
+    "grade": "english8",
+    "category": "matematica",
+    "question": "Seldom ___ witnessed such an extraordinary display of talent.",
+    "options": [
+      "we have",
+      "have we",
+      "we had",
+      "did we have"
+    ],
+    "correct": 1,
+    "explanation": "Adverbios negativos iniciales como 'Seldom' exigen inversión auxiliar-sujeto: 'have we'."
+  },
+  {
+    "id": "q_eng8_matematica_12",
+    "grade": "english8",
+    "category": "matematica",
+    "question": "Under no circumstances ___ the safety seal be broken before inspection.",
+    "options": [
+      "should",
+      "ought",
+      "it should",
+      "must not"
+    ],
+    "correct": 0,
+    "explanation": "Con 'Under no circumstances', se invierte: 'should the safety seal be broken'."
+  },
+  {
+    "id": "q_eng8_matematica_13",
+    "grade": "english8",
+    "category": "matematica",
+    "question": "Scarcely had the lecture begun ___ the fire alarm sounded.",
+    "options": [
+      "than",
+      "when",
+      "then",
+      "after"
+    ],
+    "correct": 1,
+    "explanation": "La correlación temporal formal es 'Scarcely / Hardly had ... when ...'."
+  },
+  {
+    "id": "q_eng8_matematica_14",
+    "grade": "english8",
+    "category": "matematica",
+    "question": "No sooner had the plane landed ___ the passengers stood up.",
+    "options": [
+      "when",
+      "than",
+      "then",
+      "as soon as"
+    ],
+    "correct": 1,
+    "explanation": "La correlación con 'No sooner had ...' es estrictamente 'than'."
+  },
+  {
+    "id": "q_eng8_matematica_15",
+    "grade": "english8",
+    "category": "matematica",
+    "question": "Little ___ suspect that a surprise awaited him at home.",
+    "options": [
+      "he did",
+      "did he",
+      "he was",
+      "was he"
+    ],
+    "correct": 1,
+    "explanation": "Con 'Little' enfático inicial, se invierte con auxiliar pasado: 'did he suspect'."
+  },
+  {
+    "id": "q_eng8_matematica_16",
+    "grade": "english8",
+    "category": "matematica",
+    "question": "Not only ___ exceed our quarterly targets, but we also won an industry award.",
+    "options": [
+      "we did",
+      "did we",
+      "we have",
+      "have we"
+    ],
+    "correct": 1,
+    "explanation": "'Not only did we exceed...' requiere inversión auxiliar-sujeto en la primera cláusula."
+  },
+  {
+    "id": "q_eng8_matematica_17",
+    "grade": "english8",
+    "category": "matematica",
+    "question": "Only after the investigation concluded ___ the official report released.",
+    "options": [
+      "was",
+      "did",
+      "were",
+      "it was"
+    ],
+    "correct": 0,
+    "explanation": "Con 'Only after...', la cláusula principal sufre inversión: 'was the official report released'."
+  },
+  {
+    "id": "q_eng8_matematica_18",
+    "grade": "english8",
+    "category": "matematica",
+    "question": "On no account ___ unattended luggage be left in the terminal.",
+    "options": [
+      "must",
+      "can",
+      "should not",
+      "ought"
+    ],
+    "correct": 0,
+    "explanation": "'On no account must / should...' expresa prohibición estricta con inversión."
+  },
+  {
+    "id": "q_eng8_matematica_19",
+    "grade": "english8",
+    "category": "matematica",
+    "question": "Rarely ___ such a unanimous consensus achieved among delegates.",
+    "options": [
+      "has",
+      "is",
+      "was",
+      "did"
+    ],
+    "correct": 2,
+    "explanation": "Inversión pasiva en pasado: 'Rarely was such a unanimous consensus achieved'."
+  },
+  {
+    "id": "q_eng8_matematica_20",
+    "grade": "english8",
+    "category": "matematica",
+    "question": "Hardly ___ entered the room when everyone applauded.",
+    "options": [
+      "she had",
+      "had she",
+      "did she",
+      "was she"
+    ],
+    "correct": 1,
+    "explanation": "'Hardly had she entered...' sigue la pauta de inversión con Past Perfect."
+  },
+  {
+    "id": "q_eng8_matematica_21",
+    "grade": "english8",
+    "category": "matematica",
+    "question": "The committee recommended that the proposal ___ adopted without delay.",
+    "options": [
+      "is",
+      "was",
+      "be",
+      "being"
+    ],
+    "correct": 2,
+    "explanation": "El subjuntivo mandatario en inglés culto usa la forma base 'be' (bare infinitive)."
+  },
+  {
+    "id": "q_eng8_matematica_22",
+    "grade": "english8",
+    "category": "matematica",
+    "question": "It is imperative that every member ___ present at the hearing.",
+    "options": [
+      "is",
+      "be",
+      "were",
+      "to be"
+    ],
+    "correct": 1,
+    "explanation": "Tras adjetivos de necesidad/urgencia ('imperative that...'), se usa el subjuntivo con la base: 'be'."
+  },
+  {
+    "id": "q_eng8_matematica_23",
+    "grade": "english8",
+    "category": "matematica",
+    "question": "She insisted that he ___ given an opportunity to defend his thesis.",
+    "options": [
+      "be",
+      "is",
+      "was",
+      "being"
+    ],
+    "correct": 0,
+    "explanation": "Mandatario pasivo: 'insisted that he be given'."
+  },
+  {
+    "id": "q_eng8_matematica_24",
+    "grade": "english8",
+    "category": "matematica",
+    "question": "It is crucial that the medication ___ administered at regular intervals.",
+    "options": [
+      "is",
+      "be",
+      "must be",
+      "should being"
+    ],
+    "correct": 1,
+    "explanation": "Construcción formal con subjuntivo: 'crucial that the medication be administered'."
+  },
+  {
+    "id": "q_eng8_matematica_25",
+    "grade": "english8",
+    "category": "matematica",
+    "question": "The director requested that all reports ___ submitted by noon Friday.",
+    "options": [
+      "are",
+      "were",
+      "be",
+      "will be"
+    ],
+    "correct": 2,
+    "explanation": "'requested that ... be submitted' es la forma subjuntiva estándar."
+  },
+  {
+    "id": "q_eng8_matematica_26",
+    "grade": "english8",
+    "category": "matematica",
+    "question": "Suffice it to ___, the project was an unqualified triumph.",
+    "options": [
+      "tell",
+      "speak",
+      "say",
+      "mention"
+    ],
+    "correct": 2,
+    "explanation": "Modismo subjuntivo arcaico fijado: 'Suffice it to say' (Baste decir)."
+  },
+  {
+    "id": "q_eng8_matematica_27",
+    "grade": "english8",
+    "category": "matematica",
+    "question": "Be that as it ___, we must proceed according to protocol.",
+    "options": [
+      "can",
+      "will",
+      "may",
+      "might"
+    ],
+    "correct": 2,
+    "explanation": "Expresión idiomática en subjuntivo: 'Be that as it may' (Sea como fuere)."
+  },
+  {
+    "id": "q_eng8_matematica_28",
+    "grade": "english8",
+    "category": "matematica",
+    "question": "Come what ___, we shall remain committed to our principles.",
+    "options": [
+      "can",
+      "will",
+      "may",
+      "shall"
+    ],
+    "correct": 2,
+    "explanation": "Expresión fijada: 'Come what may' (Pase lo que pase)."
+  },
+  {
+    "id": "q_eng8_matematica_29",
+    "grade": "english8",
+    "category": "matematica",
+    "question": "God ___ the Queen! / Long ___ the King!",
+    "options": [
+      "saves / lives",
+      "save / live",
+      "saving / living",
+      "saved / lived"
+    ],
+    "correct": 1,
+    "explanation": "Subjuntivo desiderativo tradicional: 'save' y 'live' en su forma base invariable."
+  },
+  {
+    "id": "q_eng8_matematica_30",
+    "grade": "english8",
+    "category": "matematica",
+    "question": "He suggested that she ___ an expert witness before proceeding.",
+    "options": [
+      "consult",
+      "consults",
+      "consulted",
+      "will consult"
+    ],
+    "correct": 0,
+    "explanation": "Subjuntivo mandatario en 3.ª persona singular: 'that she consult' (sin -s)."
+  },
+  {
+    "id": "q_eng8_matematica_31",
+    "grade": "english8",
+    "category": "matematica",
+    "question": "It was ___ who initiated the negotiations, not the competitors.",
+    "options": [
+      "he",
+      "him",
+      "his",
+      "himself"
+    ],
+    "correct": 0,
+    "explanation": "En registro formal estricto, el pronombre sujeto sigue al verbo to be en it-clefts: 'It was he who...'."
+  },
+  {
+    "id": "q_eng8_matematica_32",
+    "grade": "english8",
+    "category": "matematica",
+    "question": "What surprised us the most ___ his complete composure during the crisis.",
+    "options": [
+      "was",
+      "were",
+      "being",
+      "had been"
+    ],
+    "correct": 0,
+    "explanation": "Wh-cleft con cláusula nominal singular como sujeto: 'What surprised us... was...'."
+  },
+  {
+    "id": "q_eng8_matematica_33",
+    "grade": "english8",
+    "category": "matematica",
+    "question": "It is not until tomorrow ___ the official figures will be made public.",
+    "options": [
+      "when",
+      "that",
+      "than",
+      "which"
+    ],
+    "correct": 1,
+    "explanation": "En it-clefts enfáticos, el nexo estándar es 'that': 'It is not until... that...'."
+  },
+  {
+    "id": "q_eng8_matematica_34",
+    "grade": "english8",
+    "category": "matematica",
+    "question": "All ___ wants is a fair chance to present his arguments.",
+    "options": [
+      "what he",
+      "that he",
+      "which he",
+      "whom he"
+    ],
+    "correct": 1,
+    "explanation": "Con 'All' como pronombre enfático ('todo lo que él quiere'), se usa 'that he wants' o el nexo omitido."
+  },
+  {
+    "id": "q_eng8_matematica_35",
+    "grade": "english8",
+    "category": "matematica",
+    "question": "What I find remarkable about this theory ___ its sheer elegance.",
+    "options": [
+      "is",
+      "are",
+      "being",
+      "be"
+    ],
+    "correct": 0,
+    "explanation": "Pseudo-cleft singular: 'What I find remarkable... is...'."
+  },
+  {
+    "id": "q_eng8_matematica_36",
+    "grade": "english8",
+    "category": "matematica",
+    "question": "It was because of heavy fog ___ flights were temporarily suspended.",
+    "options": [
+      "why",
+      "that",
+      "since",
+      "which"
+    ],
+    "correct": 1,
+    "explanation": "Cleft causal: 'It was because of... that flights were suspended'."
+  },
+  {
+    "id": "q_eng8_matematica_37",
+    "grade": "english8",
+    "category": "matematica",
+    "question": "The person ___ inspired the movement was a modest schoolteacher.",
+    "options": [
+      "which",
+      "who",
+      "whom",
+      "what"
+    ],
+    "correct": 1,
+    "explanation": "Cleft de sujeto animado: 'The person who inspired...'."
+  },
+  {
+    "id": "q_eng8_matematica_38",
+    "grade": "english8",
+    "category": "matematica",
+    "question": "The reason ___ he resigned was fundamentally ideological.",
+    "options": [
+      "why",
+      "how",
+      "what",
+      "which"
+    ],
+    "correct": 0,
+    "explanation": "Fórmula hendida: 'The reason why he resigned was...'."
+  },
+  {
+    "id": "q_eng8_matematica_39",
+    "grade": "english8",
+    "category": "matematica",
+    "question": "What needs to be addressed immediately ___ the systemic flaws in the protocol.",
+    "options": [
+      "are",
+      "is",
+      "being",
+      "be"
+    ],
+    "correct": 1,
+    "explanation": "La cláusula hendida introducida por 'What needs...' concuerda en singular ('is') con el concepto abstracto."
+  },
+  {
+    "id": "q_eng8_matematica_40",
+    "grade": "english8",
+    "category": "matematica",
+    "question": "It was only by sheer coincidence ___ they crossed paths again.",
+    "options": [
+      "when",
+      "that",
+      "where",
+      "how"
+    ],
+    "correct": 1,
+    "explanation": "Cleft adverbial: 'It was only by sheer coincidence that...'."
+  },
+  {
+    "id": "q_eng8_matematica_41",
+    "grade": "english8",
+    "category": "matematica",
+    "question": "Down the hillside ___ the raging torrent of water.",
+    "options": [
+      "cascaded",
+      "did cascade",
+      "was cascading",
+      "it cascaded"
+    ],
+    "correct": 0,
+    "explanation": "Fronting de dirección/lugar con verbo intransitivo: 'Down the hillside cascaded the torrent'."
+  },
+  {
+    "id": "q_eng8_matematica_42",
+    "grade": "english8",
+    "category": "matematica",
+    "question": "So intense ___ the heat that the tarmac began to soften.",
+    "options": [
+      "was",
+      "did",
+      "had",
+      "became"
+    ],
+    "correct": 0,
+    "explanation": "Inversión con 'So + adjetivo': 'So intense was the heat that...'."
+  },
+  {
+    "id": "q_eng8_matematica_43",
+    "grade": "english8",
+    "category": "matematica",
+    "question": "Such ___ the severity of the blizzard that roads were blocked for days.",
+    "options": [
+      "was",
+      "did",
+      "had",
+      "became"
+    ],
+    "correct": 0,
+    "explanation": "Inversión con 'Such + be': 'Such was the severity...' (Tal fue la gravedad...)."
+  },
+  {
+    "id": "q_eng8_matematica_44",
+    "grade": "english8",
+    "category": "matematica",
+    "question": "Having ___ the manuscript meticulously, the editor sent it to print.",
+    "options": [
+      "reviewing",
+      "reviewed",
+      "been reviewed",
+      "review"
+    ],
+    "correct": 1,
+    "explanation": "Perfect participle clause: 'Having reviewed' indica una acción anterior completada por el sujeto."
+  },
+  {
+    "id": "q_eng8_matematica_45",
+    "grade": "english8",
+    "category": "matematica",
+    "question": "Situated on a high cliff, the fortress ___ magnificent views of the valley.",
+    "options": [
+      "commands",
+      "commanding",
+      "commanded",
+      "has commanded"
+    ],
+    "correct": 0,
+    "explanation": "El verbo principal completa la oración tras la cláusula participial: 'the fortress commands...'."
+  },
+  {
+    "id": "q_eng8_matematica_46",
+    "grade": "english8",
+    "category": "matematica",
+    "question": "Tired though she ___, she continued working through the night.",
+    "options": [
+      "was",
+      "is",
+      "were",
+      "had been"
+    ],
+    "correct": 0,
+    "explanation": "Fronting concesivo: 'Adjetivo + though + sujeto + verbo': 'Tired though she was...' (Por cansada que estuviera)."
+  },
+  {
+    "id": "q_eng8_matematica_47",
+    "grade": "english8",
+    "category": "matematica",
+    "question": "Much as I ___ his determination, I cannot endorse his methods.",
+    "options": [
+      "admire",
+      "admiring",
+      "admired",
+      "am admiring"
+    ],
+    "correct": 0,
+    "explanation": "Construcción concesiva 'Much as I admire...' equivale a 'Although I admire greatly...'."
+  },
+  {
+    "id": "q_eng8_matematica_48",
+    "grade": "english8",
+    "category": "matematica",
+    "question": "Try as he ___, he could not solve the encrypted riddle.",
+    "options": [
+      "might",
+      "must",
+      "can",
+      "should"
+    ],
+    "correct": 0,
+    "explanation": "Expresión concesiva: 'Try as he might' (Por mucho que lo intentara)."
+  },
+  {
+    "id": "q_eng8_matematica_49",
+    "grade": "english8",
+    "category": "matematica",
+    "question": "Not having received prior notification, we ___ unaware of the change.",
+    "options": [
+      "were",
+      "are",
+      "have been",
+      "had"
+    ],
+    "correct": 0,
+    "explanation": "Cláusula de participio negativo que actúa como causa en pasado: 'we were unaware'."
+  },
+  {
+    "id": "q_eng8_matematica_50",
+    "grade": "english8",
+    "category": "matematica",
+    "question": "Attached ___ the revised schedule for the international summit.",
+    "options": [
+      "is",
+      "are",
+      "being",
+      "it is"
+    ],
+    "correct": 0,
+    "explanation": "Inversión pasiva de encabezado: 'Attached is the schedule' (cuando el núcleo nominal es singular)."
+  },
+  {
+    "id": "q_eng8_lengua_1",
+    "grade": "english8",
+    "category": "lengua",
+    "question": "The proposal has merit; ___, there remain formidable financial hurdles.",
+    "options": [
+      "notwithstanding",
+      "nevertheless",
+      "conversely",
+      "moreover"
+    ],
+    "correct": 1,
+    "explanation": "'Nevertheless' (no obstante) enlaza un contraste tras punto y coma."
+  },
+  {
+    "id": "q_eng8_lengua_2",
+    "grade": "english8",
+    "category": "lengua",
+    "question": "He decided to purchase the estate, ___ its slightly dilapidated condition.",
+    "options": [
+      "albeit",
+      "notwithstanding",
+      "inasmuch as",
+      "whereas"
+    ],
+    "correct": 1,
+    "explanation": "'Notwithstanding' (a pesar de / no obstante) funciona como preposición seguida de frase nominal."
+  },
+  {
+    "id": "q_eng8_lengua_3",
+    "grade": "english8",
+    "category": "lengua",
+    "question": "The lecture was enlightening, ___ somewhat lengthy for the younger audience.",
+    "options": [
+      "albeit",
+      "whereas",
+      "nonetheless",
+      "furthermore"
+    ],
+    "correct": 0,
+    "explanation": "'Albeit' equivale a 'although / even if' y suele preceder a un adjetivo o frase breve sin verbo conjugado."
+  },
+  {
+    "id": "q_eng8_lengua_4",
+    "grade": "english8",
+    "category": "lengua",
+    "question": "Urban areas enjoy high-speed rail, ___ rural districts remain largely isolated.",
+    "options": [
+      "whereas",
+      "in spite of",
+      "notwithstanding",
+      "owing to"
+    ],
+    "correct": 0,
+    "explanation": "'Whereas' expresa una comparación directa de oposición entre dos cláusulas."
+  },
+  {
+    "id": "q_eng8_lengua_5",
+    "grade": "english8",
+    "category": "lengua",
+    "question": "He is an exceptional pianist; ___, his compositional skills are somewhat lacking.",
+    "options": [
+      "by contrast",
+      "in addition",
+      "likewise",
+      "henceforth"
+    ],
+    "correct": 0,
+    "explanation": "'By contrast' introduce una contraposición directa con lo expuesto."
+  },
+  {
+    "id": "q_eng8_lengua_6",
+    "grade": "english8",
+    "category": "lengua",
+    "question": "The treaty was signed; ___, diplomatic relations were formally normalized.",
+    "options": [
+      "henceforth",
+      "whereupon",
+      "insofar as",
+      "heretofore"
+    ],
+    "correct": 1,
+    "explanation": "'Whereupon' significa 'tras lo cual' o 'en consecuencia inmediata de ello'."
+  },
+  {
+    "id": "q_eng8_lengua_7",
+    "grade": "english8",
+    "category": "lengua",
+    "question": "The funds are restricted, ___ they may only be used for scientific research.",
+    "options": [
+      "in that",
+      "so that",
+      "such that",
+      "as that"
+    ],
+    "correct": 0,
+    "explanation": "'In that' (en el sentido de que / en la medida en que) precisa la afirmación anterior."
+  },
+  {
+    "id": "q_eng8_lengua_8",
+    "grade": "english8",
+    "category": "lengua",
+    "question": "The evidence is valid only ___ it conforms to rigorous peer-review standards.",
+    "options": [
+      "insofar as",
+      "in spite of",
+      "whereas",
+      "as well as"
+    ],
+    "correct": 0,
+    "explanation": "'Insofar as' (en la medida en que / hasta el punto de que) establece una delimitación formal."
+  },
+  {
+    "id": "q_eng8_lengua_9",
+    "grade": "english8",
+    "category": "lengua",
+    "question": "The company had, ___, adhered strictly to domestic trade regulations.",
+    "options": [
+      "heretofore",
+      "henceforth",
+      "hereinafter",
+      "wherefore"
+    ],
+    "correct": 0,
+    "explanation": "'Heretofore' es un término formal para 'hasta este momento / hasta la fecha'."
+  },
+  {
+    "id": "q_eng8_lengua_10",
+    "grade": "english8",
+    "category": "lengua",
+    "question": "From this day forward, all employees will, ___, submit digital expense reports.",
+    "options": [
+      "heretofore",
+      "henceforth",
+      "whereby",
+      "thereupon"
+    ],
+    "correct": 1,
+    "explanation": "'Henceforth' significa 'de aquí en adelante' / 'a partir de ahora'."
+  },
+  {
+    "id": "q_eng8_lengua_11",
+    "grade": "english8",
+    "category": "lengua",
+    "question": "The delay was entirely ___ an unforeseen failure in the power grid.",
+    "options": [
+      "owing to",
+      "on account",
+      "due",
+      "in light"
+    ],
+    "correct": 0,
+    "explanation": "'Owing to' (debido a) encabeza el complemento de causa precedido de 'was'."
+  },
+  {
+    "id": "q_eng8_lengua_12",
+    "grade": "english8",
+    "category": "lengua",
+    "question": "___ recent developments, the board decided to postpone the acquisition.",
+    "options": [
+      "In light of",
+      "In regard with",
+      "By virtue in",
+      "With respect on"
+    ],
+    "correct": 0,
+    "explanation": "'In light of' (A la luz de / En consideración de) es la colocación formal correcta."
+  },
+  {
+    "id": "q_eng8_lengua_13",
+    "grade": "english8",
+    "category": "lengua",
+    "question": "He secured the fellowship by ___ of his pioneering doctoral research.",
+    "options": [
+      "virtue",
+      "means",
+      "behalf",
+      "merit"
+    ],
+    "correct": 0,
+    "explanation": "La locución preposicional culta es 'by virtue of' (en virtud de / gracias a)."
+  },
+  {
+    "id": "q_eng8_lengua_14",
+    "grade": "english8",
+    "category": "lengua",
+    "question": "The executive resigned, ___ opening up the position for new leadership.",
+    "options": [
+      "thereby",
+      "whereas",
+      "insofar",
+      "wherein"
+    ],
+    "correct": 0,
+    "explanation": "'Thereby + gerundio' expresa 'con ello / de ese modo logrando...'."
+  },
+  {
+    "id": "q_eng8_lengua_15",
+    "grade": "english8",
+    "category": "lengua",
+    "question": "We examined the mechanism ___ the software encrypts confidential data.",
+    "options": [
+      "whereby",
+      "whereupon",
+      "whereas",
+      "wherein"
+    ],
+    "correct": 0,
+    "explanation": "'Whereby' significa 'por el cual / mediante el cual'."
+  },
+  {
+    "id": "q_eng8_lengua_16",
+    "grade": "english8",
+    "category": "lengua",
+    "question": "The contract outlines the conditions ___ both parties must comply.",
+    "options": [
+      "wherein",
+      "whereupon",
+      "whereas",
+      "whereby"
+    ],
+    "correct": 0,
+    "explanation": "'Wherein' significa 'en el cual / en el que' dentro de un documento o contexto legal."
+  },
+  {
+    "id": "q_eng8_lengua_17",
+    "grade": "english8",
+    "category": "lengua",
+    "question": "He was found innocent; ___, his reputation suffered irreparable harm.",
+    "options": [
+      "even so",
+      "furthermore",
+      "likewise",
+      "consequently"
+    ],
+    "correct": 0,
+    "explanation": "'Even so' (aun así) introduce un hecho adverso a pesar de la premisa favorable previa."
+  },
+  {
+    "id": "q_eng8_lengua_18",
+    "grade": "english8",
+    "category": "lengua",
+    "question": "The applicant possesses extensive field experience and, ___, holds two master's degrees.",
+    "options": [
+      "moreover",
+      "in contrast",
+      "conversely",
+      "notwithstanding"
+    ],
+    "correct": 0,
+    "explanation": "'Moreover' (asimismo / es más) introduce un argumento adicional de gran peso."
+  },
+  {
+    "id": "q_eng8_lengua_19",
+    "grade": "english8",
+    "category": "lengua",
+    "question": "A well-crafted argument requires evidence; ___, it must acknowledge opposing views.",
+    "options": [
+      "conversely",
+      "likewise",
+      "otherwise",
+      "whereas"
+    ],
+    "correct": 1,
+    "explanation": "'Likewise' (del mismo modo / igualmente) añade un requisito análogo."
+  },
+  {
+    "id": "q_eng8_lengua_20",
+    "grade": "english8",
+    "category": "lengua",
+    "question": "The reform was well intended; ___, its execution was deeply flawed.",
+    "options": [
+      "however",
+      "consequently",
+      "besides",
+      "therefore"
+    ],
+    "correct": 0,
+    "explanation": "'However' puntúa el giro de contraste formal."
+  },
+  {
+    "id": "q_eng8_lengua_21",
+    "grade": "english8",
+    "category": "lengua",
+    "question": "Which figure of speech describes expressing a positive by denying its opposite (e.g., 'not bad')?",
+    "options": [
+      "Litotes",
+      "Hyperbole",
+      "Synecdoche",
+      "Metonymy"
+    ],
+    "correct": 0,
+    "explanation": "La 'lítote' (litotes) es la atenuación enfática mediante la negación del contrario ('not uncommon')."
+  },
+  {
+    "id": "q_eng8_lengua_22",
+    "grade": "english8",
+    "category": "lengua",
+    "question": "The phrase 'All hands on deck' uses which rhetorical device?",
+    "options": [
+      "Synecdoche",
+      "Chiasmus",
+      "Oxymoron",
+      "Zeugma"
+    ],
+    "correct": 0,
+    "explanation": "La 'sinécdoque' (synecdoche) toma la parte por el todo ('hands' representando a marineros)."
+  },
+  {
+    "id": "q_eng8_lengua_23",
+    "grade": "english8",
+    "category": "lengua",
+    "question": "Replacing 'the monarch' with 'the Crown' is a prime example of:",
+    "options": [
+      "Metonymy",
+      "Hyperbole",
+      "Personification",
+      "Litotes"
+    ],
+    "correct": 0,
+    "explanation": "La 'metonimia' (metonymy) sustituye un concepto por un objeto íntimamente asociado a él ('the Crown')."
+  },
+  {
+    "id": "q_eng8_lengua_24",
+    "grade": "english8",
+    "category": "lengua",
+    "question": "'Jumbo shrimp' and 'deafening silence' are classic examples of a(n):",
+    "options": [
+      "Oxymoron",
+      "Paradox",
+      "Apostrophe",
+      "Euphemism"
+    ],
+    "correct": 0,
+    "explanation": "Un 'oxímoron' (oxymoron) une dos términos de significado aparentemente incompatible."
+  },
+  {
+    "id": "q_eng8_lengua_25",
+    "grade": "english8",
+    "category": "lengua",
+    "question": "The sentence 'She broke his heart and his car window' is an example of:",
+    "options": [
+      "Zeugma",
+      "Metaphor",
+      "Alliteration",
+      "Anaphora"
+    ],
+    "correct": 0,
+    "explanation": "El 'zeugma' o silepsis usa un solo verbo ('broke') con dos complementos en sentidos literal y figurado."
+  },
+  {
+    "id": "q_eng8_lengua_26",
+    "grade": "english8",
+    "category": "lengua",
+    "question": "What is an appropriate formal equivalent for the colloquial 'to get rid of'?",
+    "options": [
+      "To discard / eradicate",
+      "To throw away",
+      "To dump out",
+      "To trash"
+    ],
+    "correct": 0,
+    "explanation": "En registro académico o formal C1/C2 se prefieren 'discard', 'eliminate' o 'eradicate'."
+  },
+  {
+    "id": "q_eng8_lengua_27",
+    "grade": "english8",
+    "category": "lengua",
+    "question": "In academic writing, 'huge difference' is best substituted by:",
+    "options": [
+      "Substantial disparity",
+      "Big contrast",
+      "Massive gap",
+      "Gigantic variance"
+    ],
+    "correct": 0,
+    "explanation": "'Substantial disparity' ofrece la precisión léxica y el registro académico esperados."
+  },
+  {
+    "id": "q_eng8_lengua_28",
+    "grade": "english8",
+    "category": "lengua",
+    "question": "Which word best formalizes 'put off until later'?",
+    "options": [
+      "Defer / Postpone",
+      "Delay away",
+      "Hold backwards",
+      "Sit on"
+    ],
+    "correct": 0,
+    "explanation": "'Defer' o 'postpone' son las formas cultas precisas."
+  },
+  {
+    "id": "q_eng8_lengua_29",
+    "grade": "english8",
+    "category": "lengua",
+    "question": "Instead of 'make sure of', an academic text would typically use:",
+    "options": [
+      "Ascertain",
+      "Look into",
+      "Check out",
+      "Suss out"
+    ],
+    "correct": 0,
+    "explanation": "'Ascertain' significa indagar y asegurarse con certeza de un hecho."
+  },
+  {
+    "id": "q_eng8_lengua_30",
+    "grade": "english8",
+    "category": "lengua",
+    "question": "Which verb formalizes 'to get worse' in a medical or economic analysis?",
+    "options": [
+      "Deteriorate",
+      "Break down",
+      "Go down",
+      "Weaken up"
+    ],
+    "correct": 0,
+    "explanation": "'Deteriorate' es el término estándar de alto registro."
+  },
+  {
+    "id": "q_eng8_lengua_31",
+    "grade": "english8",
+    "category": "lengua",
+    "question": "An argument that is superficially plausible but actually fallacious is called:",
+    "options": [
+      "Specious",
+      "Meticulous",
+      "Veracious",
+      "Pugnacious"
+    ],
+    "correct": 0,
+    "explanation": "'Specious' (especioso) alude a algo engañosamente atractivo o convincente pero falso."
+  },
+  {
+    "id": "q_eng8_lengua_32",
+    "grade": "english8",
+    "category": "lengua",
+    "question": "Someone who is reluctant to speak or extraordinarily reserved is:",
+    "options": [
+      "Reticent",
+      "Loquacious",
+      "Garrulous",
+      "Effusive"
+    ],
+    "correct": 0,
+    "explanation": "'Reticent' designa a una persona reservada que habla con parquedad."
+  },
+  {
+    "id": "q_eng8_lengua_33",
+    "grade": "english8",
+    "category": "lengua",
+    "question": "A statement that is clear, decisive, and leaves no room for doubt is:",
+    "options": [
+      "Unequivocal",
+      "Ambiguous",
+      "Equivocal",
+      "Tentative"
+    ],
+    "correct": 0,
+    "explanation": "'Unequivocal' (inequívoco) describe una postura terminante y libre de ambigüedad."
+  },
+  {
+    "id": "q_eng8_lengua_34",
+    "grade": "english8",
+    "category": "lengua",
+    "question": "A transient or fleeting phenomenon of very short duration is:",
+    "options": [
+      "Ephemeral",
+      "Perennial",
+      "Everlasting",
+      "Indelible"
+    ],
+    "correct": 0,
+    "explanation": "'Ephemeral' significa efímero o fugaz."
+  },
+  {
+    "id": "q_eng8_lengua_35",
+    "grade": "english8",
+    "category": "lengua",
+    "question": "Behavior that shows keen insight, shrewd judgment, and discernment is:",
+    "options": [
+      "Sagacious",
+      "Insolent",
+      "Callow",
+      "Pedantic"
+    ],
+    "correct": 0,
+    "explanation": "'Sagacious' (sagaz) califica una sabiduría y discernimiento excepcionales."
+  },
+  {
+    "id": "q_eng8_lengua_36",
+    "grade": "english8",
+    "category": "lengua",
+    "question": "A person who flatters excessively to gain personal advantage is a(n):",
+    "options": [
+      "Sycophant",
+      "Iconoclast",
+      "Misanthrope",
+      "Altruist"
+    ],
+    "correct": 0,
+    "explanation": "'Sycophant' (sicofante / adulador servil) busca favores mediante la lisonja."
+  },
+  {
+    "id": "q_eng8_lengua_37",
+    "grade": "english8",
+    "category": "lengua",
+    "question": "An opinion that defies orthodox, conventional, or accepted beliefs is:",
+    "options": [
+      "Heterodox",
+      "Dogmatic",
+      "Canonical",
+      "Monolithic"
+    ],
+    "correct": 0,
+    "explanation": "'Heterodox' (heterodoxo) disiente de las normas o doctrinas establecidas."
+  },
+  {
+    "id": "q_eng8_lengua_38",
+    "grade": "english8",
+    "category": "lengua",
+    "question": "To officially revoke, repeal, or annul a law or decree is to:",
+    "options": [
+      "Rescind",
+      "Promulgate",
+      "Ratify",
+      "Enact"
+    ],
+    "correct": 0,
+    "explanation": "'Rescind' significa revocar o derogar oficialmente un contrato o ley."
+  },
+  {
+    "id": "q_eng8_lengua_39",
+    "grade": "english8",
+    "category": "lengua",
+    "question": "A subtle, slight distinction in meaning, expression, or tone is a:",
+    "options": [
+      "Nuance",
+      "Chasm",
+      "Platitude",
+      "Paradigm"
+    ],
+    "correct": 0,
+    "explanation": "'Nuance' (matiz) es una gradación sutil en significado o expresión."
+  },
+  {
+    "id": "q_eng8_lengua_40",
+    "grade": "english8",
+    "category": "lengua",
+    "question": "An overused, trite remark that lacks originality or freshness is a:",
+    "options": [
+      "Platitude",
+      "Epigram",
+      "Aphorism",
+      "Maxim"
+    ],
+    "correct": 0,
+    "explanation": "'Platitude' (lugar común / perogrullada) denota una frase trillada y vacía de novedad."
+  },
+  {
+    "id": "q_eng8_lengua_41",
+    "grade": "english8",
+    "category": "lengua",
+    "question": "When two events happen simultaneously by coincidence, they are:",
+    "options": [
+      "Concurrent",
+      "Consecutive",
+      "Antecedent",
+      "Subsequent"
+    ],
+    "correct": 0,
+    "explanation": "'Concurrent' designa sucesos que ocurren al mismo tiempo."
+  },
+  {
+    "id": "q_eng8_lengua_42",
+    "grade": "english8",
+    "category": "lengua",
+    "question": "A temporary suspension of an activity or hostilites is a(n):",
+    "options": [
+      "Moratorium",
+      "Proliferation",
+      "Ratification",
+      "Inception"
+    ],
+    "correct": 0,
+    "explanation": "'Moratorium' (moratoria) es una prórroga o suspensión acordada temporalmente."
+  },
+  {
+    "id": "q_eng8_lengua_43",
+    "grade": "english8",
+    "category": "lengua",
+    "question": "A speech or writing in high praise of someone, often deceased, is a(n):",
+    "options": [
+      "Eulogy",
+      "Elegy",
+      "Parody",
+      "Satire"
+    ],
+    "correct": 0,
+    "explanation": "Un 'eulogy' (panegírico / elogio fúnebre) destaca las virtudes de una persona."
+  },
+  {
+    "id": "q_eng8_lengua_44",
+    "grade": "english8",
+    "category": "lengua",
+    "question": "Which adjective describes something so delicate or light that it seems otherworldly?",
+    "options": [
+      "Ethereal",
+      "Corporeal",
+      "Visceral",
+      "Pedestrian"
+    ],
+    "correct": 0,
+    "explanation": "'Ethereal' (etéreo) describe algo intangible, sutil y de belleza casi espiritual."
+  },
+  {
+    "id": "q_eng8_lengua_45",
+    "grade": "english8",
+    "category": "lengua",
+    "question": "To make something bad or unpleasant less severe is to:",
+    "options": [
+      "Mitigate",
+      "Exacerbate",
+      "Foment",
+      "Instigate"
+    ],
+    "correct": 0,
+    "explanation": "'Mitigate' (mitigar) significa atenuar o disminuir la severidad de un daño."
+  },
+  {
+    "id": "q_eng8_lengua_46",
+    "grade": "english8",
+    "category": "lengua",
+    "question": "To aggravate a problem and make it significantly worse is to:",
+    "options": [
+      "Exacerbate",
+      "Alleviate",
+      "Ameliorate",
+      "Appease"
+    ],
+    "correct": 0,
+    "explanation": "'Exacerbate' (exacerbar) significa empeorar una situación o conflicto."
+  },
+  {
+    "id": "q_eng8_lengua_47",
+    "grade": "english8",
+    "category": "lengua",
+    "question": "A feeling of deep, longstanding bitterness or resentment is called:",
+    "options": [
+      "Rancour",
+      "Empathy",
+      "Benevolence",
+      "Candour"
+    ],
+    "correct": 0,
+    "explanation": "'Rancour' (rencor) denota un resentimiento enconado."
+  },
+  {
+    "id": "q_eng8_lengua_48",
+    "grade": "english8",
+    "category": "lengua",
+    "question": "Being open, honest, and frankly outspoken in expression is having:",
+    "options": [
+      "Candour",
+      "Duplicity",
+      "Hypocrisy",
+      "Guile"
+    ],
+    "correct": 0,
+    "explanation": "'Candour' (franqueza / sinceridad sincera) excluye el disimulo."
+  },
+  {
+    "id": "q_eng8_lengua_49",
+    "grade": "english8",
+    "category": "lengua",
+    "question": "Deceitfulness, double-dealing, or contradictory speech is:",
+    "options": [
+      "Duplicity",
+      "Veracity",
+      "Integrity",
+      "Fidelity"
+    ],
+    "correct": 0,
+    "explanation": "'Duplicity' (duplicidad / falsedad) alude a actuar con mala fe disimulada."
+  },
+  {
+    "id": "q_eng8_lengua_50",
+    "grade": "english8",
+    "category": "lengua",
+    "question": "Existing everywhere simultaneously or very commonly encountered is:",
+    "options": [
+      "Ubiquitous",
+      "Sparse",
+      "Obsolete",
+      "Localized"
+    ],
+    "correct": 0,
+    "explanation": "'Ubiquitous' (ubícuo) describe lo omnipresente o visible en todas partes."
+  },
+  {
+    "id": "q_eng8_naturales_1",
+    "grade": "english8",
+    "category": "naturales",
+    "question": "Karl Popper established that for a hypothesis to be genuinely scientific, it must be:",
+    "options": [
+      "Falsifiable",
+      "Indisputable",
+      "Unconditional",
+      "Empirically proven"
+    ],
+    "correct": 0,
+    "explanation": "El principio popperiano de falsabilidad exige que una teoría pueda ser refutada por la observación."
+  },
+  {
+    "id": "q_eng8_naturales_2",
+    "grade": "english8",
+    "category": "naturales",
+    "question": "A fundamental shift in the basic concepts and experimental practices of a discipline is a:",
+    "options": [
+      "Paradigm shift",
+      "Dogmatic variance",
+      "Static doctrine",
+      "Linear progression"
+    ],
+    "correct": 0,
+    "explanation": "Thomas Kuhn acuñó 'paradigm shift' (cambio de paradigma) en 'La estructura de las revoluciones científicas'."
+  },
+  {
+    "id": "q_eng8_naturales_3",
+    "grade": "english8",
+    "category": "naturales",
+    "question": "The philosophical principle that the simplest explanation is generally preferred is known as:",
+    "options": [
+      "Occam's razor",
+      "Fermi's paradox",
+      "Laplace's demon",
+      "Schrödinger's cat"
+    ],
+    "correct": 0,
+    "explanation": "La navaja de Ockham ('Occam's razor') postula la parsimonia ontológica: no multiplicar entes sin necesidad."
+  },
+  {
+    "id": "q_eng8_naturales_4",
+    "grade": "english8",
+    "category": "naturales",
+    "question": "Drawing general principles from repeated specific observations is termed:",
+    "options": [
+      "Inductive reasoning",
+      "Deductive reasoning",
+      "Abductive proof",
+      "Axiomatic deduction"
+    ],
+    "correct": 0,
+    "explanation": "El razonamiento inductivo ('inductive reasoning') extrapola premisas universales desde casos particulares."
+  },
+  {
+    "id": "q_eng8_naturales_5",
+    "grade": "english8",
+    "category": "naturales",
+    "question": "The tendency to search for and favor data confirming preexisting beliefs is:",
+    "options": [
+      "Confirmation bias",
+      "Hindsight bias",
+      "Observer bias",
+      "Selection variance"
+    ],
+    "correct": 0,
+    "explanation": "El 'confirmation bias' (sesgo de confirmación) es la tendencia cognitiva a corroborar ideas previas."
+  },
+  {
+    "id": "q_eng8_naturales_6",
+    "grade": "english8",
+    "category": "naturales",
+    "question": "In clinical trials, a study in which neither patient nor researcher knows who receives the drug is:",
+    "options": [
+      "Double-blind",
+      "Single-tier",
+      "Open-label",
+      "Cross-sectional"
+    ],
+    "correct": 0,
+    "explanation": "Un ensayo 'double-blind' (doble ciego) previene el sesgo de experimentadores y sujetos."
+  },
+  {
+    "id": "q_eng8_naturales_7",
+    "grade": "english8",
+    "category": "naturales",
+    "question": "A variable that influences both the dependent and independent variables is a:",
+    "options": [
+      "Confounding variable",
+      "Constant variable",
+      "Control scalar",
+      "Null factor"
+    ],
+    "correct": 0,
+    "explanation": "Una 'confounding variable' (variable de confusión) puede generar correlaciones espurias."
+  },
+  {
+    "id": "q_eng8_naturales_8",
+    "grade": "english8",
+    "category": "naturales",
+    "question": "The 'null hypothesis' typically states that:",
+    "options": [
+      "There is no significant effect or relationship",
+      "The theory is definitively proven",
+      "The sample size is biased",
+      "The outcome is catastrophic"
+    ],
+    "correct": 0,
+    "explanation": "La hipótesis nula ($H_0$) postula la ausencia de efecto o diferencia estadística entre grupos."
+  },
+  {
+    "id": "q_eng8_naturales_9",
+    "grade": "english8",
+    "category": "naturales",
+    "question": "The probability of obtaining test results at least as extreme as observed, assuming $H_0$ is true, is the:",
+    "options": [
+      "p-value",
+      "Alpha score",
+      "Standard deviation",
+      "Coefficient of variance"
+    ],
+    "correct": 0,
+    "explanation": "El 'p-value' cuantifica la consistencia de los datos con la hipótesis nula."
+  },
+  {
+    "id": "q_eng8_naturales_10",
+    "grade": "english8",
+    "category": "naturales",
+    "question": "A statistical result is considered significant when p is typically less than:",
+    "options": [
+      "0.05",
+      "0.50",
+      "0.95",
+      "0.001 only"
+    ],
+    "correct": 0,
+    "explanation": "Por convención en la mayoría de disciplinas, un valor de $p < 0.05$ denota significancia estadística."
+  },
+  {
+    "id": "q_eng8_naturales_11",
+    "grade": "english8",
+    "category": "naturales",
+    "question": "The brain's lifelong capacity to reorganize its neural pathways and adapt is called:",
+    "options": [
+      "Neuroplasticity",
+      "Neurogenesis only",
+      "Synaptic pruning",
+      "Cerebral rigidity"
+    ],
+    "correct": 0,
+    "explanation": "'Neuroplasticity' (neuroplasticidad) es la facultad adaptativa de reconfiguración neuronal del cerebro."
+  },
+  {
+    "id": "q_eng8_naturales_12",
+    "grade": "english8",
+    "category": "naturales",
+    "question": "The molecular tool allowing precise targeted editing of genomes is:",
+    "options": [
+      "CRISPR-Cas9",
+      "ELISA",
+      "Polymerase Chain",
+      "Western Blot"
+    ],
+    "correct": 0,
+    "explanation": "CRISPR-Cas9 es el sistema biomolecular revolucionario para la edición genómica específica."
+  },
+  {
+    "id": "q_eng8_naturales_13",
+    "grade": "english8",
+    "category": "naturales",
+    "question": "Modifying the DNA of eggs, sperm, or early embryos involves which type of gene editing?",
+    "options": [
+      "Germline editing",
+      "Somatic editing",
+      "Epigenetic silencing",
+      "Mitochondrial transfer"
+    ],
+    "correct": 0,
+    "explanation": "La 'germline editing' (edición de línea germinal) introduce cambios genéticos hereditarios para la descendencia."
+  },
+  {
+    "id": "q_eng8_naturales_14",
+    "grade": "english8",
+    "category": "naturales",
+    "question": "Changes in gene expression that do not alter the underlying nucleotide sequence are termed:",
+    "options": [
+      "Epigenetics",
+      "Mutagenesis",
+      "Recombination",
+      "Translocation"
+    ],
+    "correct": 0,
+    "explanation": "La epigenética ('epigenetics') estudia modificaciones fenotípicas heredables sin alterar la secuencia de ADN."
+  },
+  {
+    "id": "q_eng8_naturales_15",
+    "grade": "english8",
+    "category": "naturales",
+    "question": "The bioethical principle obligating medical professionals to 'do no harm' is:",
+    "options": [
+      "Non-maleficence",
+      "Beneficence",
+      "Autonomy",
+      "Justice"
+    ],
+    "correct": 0,
+    "explanation": "'Non-maleficence' (no maleficencia) consagra el mandato hipocrático de no infligir daño."
+  },
+  {
+    "id": "q_eng8_naturales_16",
+    "grade": "english8",
+    "category": "naturales",
+    "question": "Respecting a patient's moral right to make independent decisions regarding treatment is:",
+    "options": [
+      "Autonomy",
+      "Paternalism",
+      "Benevolence",
+      "Utilitarianism"
+    ],
+    "correct": 0,
+    "explanation": "La 'autonomy' (autonomía del paciente) salvaguarda el consentimiento informado libre."
+  },
+  {
+    "id": "q_eng8_naturales_17",
+    "grade": "english8",
+    "category": "naturales",
+    "question": "Programmed cellular death crucial for tissue development and tumor suppression is:",
+    "options": [
+      "Apoptosis",
+      "Necrosis",
+      "Lysis",
+      "Phagocytosis"
+    ],
+    "correct": 0,
+    "explanation": "'Apoptosis' es el suicidio celular programado biológicamente ordenado."
+  },
+  {
+    "id": "q_eng8_naturales_18",
+    "grade": "english8",
+    "category": "naturales",
+    "question": "Proteins acting as biological catalysts to accelerate biochemical reactions are:",
+    "options": [
+      "Enzymes",
+      "Hormones",
+      "Lipids",
+      "Polysaccharides"
+    ],
+    "correct": 0,
+    "explanation": "Las enzimas ('enzymes') reducen la energía de activación de los procesos celulares."
+  },
+  {
+    "id": "q_eng8_naturales_19",
+    "grade": "english8",
+    "category": "naturales",
+    "question": "The protective caps at the ends of eukaryotic chromosomes that shorten with division are:",
+    "options": [
+      "Telomeres",
+      "Centromeres",
+      "Chromatids",
+      "Histones"
+    ],
+    "correct": 0,
+    "explanation": "Los 'telomeres' (telómeros) protegen la integridad de los cromosomas y marcan la senescencia celular."
+  },
+  {
+    "id": "q_eng8_naturales_20",
+    "grade": "english8",
+    "category": "naturales",
+    "question": "The maintenance of a stable internal physiological environment despite external shifts is:",
+    "options": [
+      "Homeostasis",
+      "Hemostasis",
+      "Metabolism",
+      "Allostasis"
+    ],
+    "correct": 0,
+    "explanation": "'Homeostasis' es el equilibrio dinámico regulado por sistemas de retroalimentación."
+  },
+  {
+    "id": "q_eng8_naturales_21",
+    "grade": "english8",
+    "category": "naturales",
+    "question": "The principle that one cannot simultaneously measure a particle's exact position and momentum is:",
+    "options": [
+      "Heisenberg's uncertainty principle",
+      "Pauli exclusion principle",
+      "Einstein's relativity",
+      "Planck's postulate"
+    ],
+    "correct": 0,
+    "explanation": "El principio de incertidumbre de Heisenberg establece los límites fundamentales de medición cuántica."
+  },
+  {
+    "id": "q_eng8_naturales_22",
+    "grade": "english8",
+    "category": "naturales",
+    "question": "Quantum phenomenon where two entangled particles instantaneously correlate across any distance:",
+    "options": [
+      "Quantum entanglement",
+      "Quantum tunneling",
+      "Superposition",
+      "Wave-particle duality"
+    ],
+    "correct": 0,
+    "explanation": "El entrelazamiento cuántico ('quantum entanglement') fue llamado por Einstein 'spooky action at a distance'."
+  },
+  {
+    "id": "q_eng8_naturales_23",
+    "grade": "english8",
+    "category": "naturales",
+    "question": "The theoretical boundary surrounding a black hole from which not even light can escape is the:",
+    "options": [
+      "Event horizon",
+      "Singularity",
+      "Accretion disc",
+      "Photon sphere"
+    ],
+    "correct": 0,
+    "explanation": "El 'event horizon' (horizonte de sucesos) delimita la zona de no retorno gravitacional del agujero negro."
+  },
+  {
+    "id": "q_eng8_naturales_24",
+    "grade": "english8",
+    "category": "naturales",
+    "question": "The observed phenomenon that distant galaxies are moving away from Earth indicates:",
+    "options": [
+      "The expansion of the universe",
+      "A static cosmic model",
+      "Gravitational contraction",
+      "Planetary migration"
+    ],
+    "correct": 0,
+    "explanation": "El corrimiento al rojo medido por Edwin Hubble evidencia la expansión métrica del cosmos."
+  },
+  {
+    "id": "q_eng8_naturales_25",
+    "grade": "english8",
+    "category": "naturales",
+    "question": "The quantum effect where a particle passes through a potential energy barrier higher than its kinetic energy is:",
+    "options": [
+      "Quantum tunneling",
+      "Diffraction",
+      "Superposition",
+      "Pair production"
+    ],
+    "correct": 0,
+    "explanation": "El efecto túnel cuántico ('quantum tunneling') permite a partículas atravesar barreras energéticas."
+  },
+  {
+    "id": "q_eng8_naturales_26",
+    "grade": "english8",
+    "category": "naturales",
+    "question": "Entropy, as defined by the Second Law of Thermodynamics, measures:",
+    "options": [
+      "The degree of disorder in an isolated system",
+      "Total thermal energy",
+      "The mass-energy equivalence",
+      "Gravitational radiation"
+    ],
+    "correct": 0,
+    "explanation": "La entropía cuantifica el grado de desorden o dispersión energética en un sistema cerrado."
+  },
+  {
+    "id": "q_eng8_naturales_27",
+    "grade": "english8",
+    "category": "naturales",
+    "question": "The mysterious unseen mass comprising approximately 85% of total cosmic matter is:",
+    "options": [
+      "Dark matter",
+      "Baryonic matter",
+      "Antimatter",
+      "Plasma"
+    ],
+    "correct": 0,
+    "explanation": "La materia oscura ('dark matter') no emite radiación electromagnética pero ejerce atracción gravitatoria."
+  },
+  {
+    "id": "q_eng8_naturales_28",
+    "grade": "english8",
+    "category": "naturales",
+    "question": "Einstein's equation $E = mc^2$ asserts the equivalence of:",
+    "options": [
+      "Energy and mass",
+      "Electricity and magnetism",
+      "Entropy and momentum",
+      "Gravity and velocity"
+    ],
+    "correct": 0,
+    "explanation": "Demuestra que la masa y la energía son manifestaciones equivalentes e intercambiables."
+  },
+  {
+    "id": "q_eng8_naturales_29",
+    "grade": "english8",
+    "category": "naturales",
+    "question": "A state of matter where atoms are cooled near absolute zero and act as a single macroscopic quantum object is a:",
+    "options": [
+      "Bose-Einstein condensate",
+      "Plasma",
+      "Superfluid liquid",
+      "Neutron degenerate gas"
+    ],
+    "correct": 0,
+    "explanation": "El condensado de Bose-Einstein manifiesta propiedades cuánticas a escala macroscópica."
+  },
+  {
+    "id": "q_eng8_naturales_30",
+    "grade": "english8",
+    "category": "naturales",
+    "question": "The hypothesized hypothetical cosmic microwave background is relic radiation from the:",
+    "options": [
+      "Big Bang",
+      "Supernova 1987A",
+      "Solar core",
+      "Formation of Earth"
+    ],
+    "correct": 0,
+    "explanation": "La radiación cósmica de fondo de microondas (CMBR) es el remanente térmico primordial del Big Bang."
+  },
+  {
+    "id": "q_eng8_naturales_31",
+    "grade": "english8",
+    "category": "naturales",
+    "question": "The geological epoch characterized by profound human impact on Earth's ecosystems is the:",
+    "options": [
+      "Anthropocene",
+      "Holocene",
+      "Pleistocene",
+      "Pliocene"
+    ],
+    "correct": 0,
+    "explanation": "El 'Anthropocene' (Antropoceno) denota el impacto geológico y ecológico de la actividad humana."
+  },
+  {
+    "id": "q_eng8_naturales_32",
+    "grade": "english8",
+    "category": "naturales",
+    "question": "A species whose presence disproportionately sustains biodiversity within an ecosystem is a:",
+    "options": [
+      "Keystone species",
+      "Invasive species",
+      "Endemic species",
+      "Apex predator only"
+    ],
+    "correct": 0,
+    "explanation": "Una especie clave ('keystone species') ejerce un control vital sobre la estructura de la comunidad."
+  },
+  {
+    "id": "q_eng8_naturales_33",
+    "grade": "english8",
+    "category": "naturales",
+    "question": "The gradual buildup of toxic substances in organisms at higher trophic levels of a food web is:",
+    "options": [
+      "Biomagnification",
+      "Eutrophication",
+      "Biofiltration",
+      "Biodegradation"
+    ],
+    "correct": 0,
+    "explanation": "La 'biomagnification' (biomagnificación) incrementa la concentración de toxinas a lo largo de la cadena trófica."
+  },
+  {
+    "id": "q_eng8_naturales_34",
+    "grade": "english8",
+    "category": "naturales",
+    "question": "Dense blooms of algae caused by excessive agricultural nutrient runoff into water bodies is:",
+    "options": [
+      "Eutrophication",
+      "Salinization",
+      "Acidification",
+      "Stratification"
+    ],
+    "correct": 0,
+    "explanation": "La 'eutrophication' (eutrofización) provoca proliferación de algas y desoxigenación acuática."
+  },
+  {
+    "id": "q_eng8_naturales_35",
+    "grade": "english8",
+    "category": "naturales",
+    "question": "In AI research, ensuring that artificial agents act in accordance with human values and intentions is:",
+    "options": [
+      "AI Alignment",
+      "Machine Superintelligence",
+      "Algorithmic Tokenization",
+      "Quantization"
+    ],
+    "correct": 0,
+    "explanation": "La alineación de IA ('AI alignment') busca que los modelos avanzados persigan metas beneficiosas para la humanidad."
+  },
+  {
+    "id": "q_eng8_naturales_36",
+    "grade": "english8",
+    "category": "naturales",
+    "question": "An economic model prioritizing closed loops where materials and products are reused and recycled is the:",
+    "options": [
+      "Circular economy",
+      "Linear economy",
+      "Command economy",
+      "Extraction model"
+    ],
+    "correct": 0,
+    "explanation": "La 'circular economy' (economía circular) reemplaza el modelo lineal de 'extraer, fabricar, desechar'."
+  },
+  {
+    "id": "q_eng8_naturales_37",
+    "grade": "english8",
+    "category": "naturales",
+    "question": "The ability of an ecosystem to withstand disturbances and recover its structural equilibrium is:",
+    "options": [
+      "Resilience",
+      "Fragility",
+      "Vulnerability",
+      "Stagnation"
+    ],
+    "correct": 0,
+    "explanation": "'Ecological resilience' (resiliencia ecológica) es la capacidad de absorción y regeneración tras una perturbación."
+  },
+  {
+    "id": "q_eng8_naturales_38",
+    "grade": "english8",
+    "category": "naturales",
+    "question": "The theoretical threshold where AI surpasses human intelligence across all cognitive domains is called:",
+    "options": [
+      "Technological Singularity",
+      "Moore's Law",
+      "Turing Threshold",
+      "Cybernetic Horizon"
+    ],
+    "correct": 0,
+    "explanation": "La 'Singularidad Tecnológica' postula un punto de inflexión donde la superinteligencia artificial se auto-mejora."
+  },
+  {
+    "id": "q_eng8_naturales_39",
+    "grade": "english8",
+    "category": "naturales",
+    "question": "The process by which oceans absorb carbon dioxide, resulting in declining pH levels, is:",
+    "options": [
+      "Ocean acidification",
+      "Ocean salinization",
+      "Thermal stratification",
+      "Upwelling"
+    ],
+    "correct": 0,
+    "explanation": "'Ocean acidification' pone en riesgo arrecifes de coral y fauna marina calcárea."
+  },
+  {
+    "id": "q_eng8_naturales_40",
+    "grade": "english8",
+    "category": "naturales",
+    "question": "The capture and long-term geological storage of atmospheric carbon dioxide is known as:",
+    "options": [
+      "Carbon sequestration",
+      "Carbon offsetting",
+      "Carbon trading",
+      "Carbon taxation"
+    ],
+    "correct": 0,
+    "explanation": "La captura y secuestro de carbono ('carbon sequestration') mitiga la concentración de $CO_2$ en la atmósfera."
+  },
+  {
+    "id": "q_eng8_naturales_41",
+    "grade": "english8",
+    "category": "naturales",
+    "question": "In clinical medicine, a false positive test result is statistically classified as a:",
+    "options": [
+      "Type I error",
+      "Type II error",
+      "Sampling error",
+      "Standard bias"
+    ],
+    "correct": 0,
+    "explanation": "Un error de tipo I (falso positivo) ocurre al rechazar erróneamente una hipótesis nula verdadera."
+  },
+  {
+    "id": "q_eng8_naturales_42",
+    "grade": "english8",
+    "category": "naturales",
+    "question": "Failing to reject a false null hypothesis (a false negative) corresponds to a:",
+    "options": [
+      "Type II error",
+      "Type I error",
+      "Systemic bias",
+      "Confounder"
+    ],
+    "correct": 0,
+    "explanation": "Un error de tipo II (falso negativo) ocurre al aceptar la hipótesis nula cuando existe un efecto real."
+  },
+  {
+    "id": "q_eng8_naturales_43",
+    "grade": "english8",
+    "category": "naturales",
+    "question": "A systemic biological mechanism where the output diminishes or halts the original stimulus is:",
+    "options": [
+      "Negative feedback loop",
+      "Positive feedback loop",
+      "Cascade reaction",
+      "Autonomous loop"
+    ],
+    "correct": 0,
+    "explanation": "Los bucles de retroalimentación negativa ('negative feedback') son fundamentales para la homeostasis."
+  },
+  {
+    "id": "q_eng8_naturales_44",
+    "grade": "english8",
+    "category": "naturales",
+    "question": "Which renewable resource technique harnesses Earth's internal core heat for power generation?",
+    "options": [
+      "Geothermal energy",
+      "Biomass energy",
+      "Hydroelectric energy",
+      "Tidal power"
+    ],
+    "correct": 0,
+    "explanation": "La energía geotérmica ('geothermal energy') aprovecha el calor natural del subsuelo terrestre."
+  },
+  {
+    "id": "q_eng8_naturales_45",
+    "grade": "english8",
+    "category": "naturales",
+    "question": "The loss of all individuals of a species globally is scientific known as:",
+    "options": [
+      "Extinction",
+      "Extirpation",
+      "Speciation",
+      "Domestication"
+    ],
+    "correct": 0,
+    "explanation": "'Extinction' es la desaparición definitiva de un taxón biológico a nivel planetario."
+  },
+  {
+    "id": "q_eng8_naturales_46",
+    "grade": "english8",
+    "category": "naturales",
+    "question": "The formation of new and distinct species in the course of biological evolution is called:",
+    "options": [
+      "Speciation",
+      "Hybridization",
+      "Convergence",
+      "Adaptation"
+    ],
+    "correct": 0,
+    "explanation": "'Speciation' (especiación) ocurre cuando poblaciones quedan reproductivamente aisladas."
+  },
+  {
+    "id": "q_eng8_naturales_47",
+    "grade": "english8",
+    "category": "naturales",
+    "question": "A medical intervention whose primary intent is to relieve suffering without curing the disease is:",
+    "options": [
+      "Palliative care",
+      "Curative therapy",
+      "Prophylactic care",
+      "Ambulatory care"
+    ],
+    "correct": 0,
+    "explanation": "Los cuidados paliativos ('palliative care') priorizan el confort y la calidad de vida en enfermedades graves."
+  },
+  {
+    "id": "q_eng8_naturales_48",
+    "grade": "english8",
+    "category": "naturales",
+    "question": "The complete genetic material contained within an individual organism is its:",
+    "options": [
+      "Genome",
+      "Proteome",
+      "Phenotype",
+      "Ribosome"
+    ],
+    "correct": 0,
+    "explanation": "El 'genome' (genoma) abarca la totalidad de la información genética de una especie o individuo."
+  },
+  {
+    "id": "q_eng8_naturales_49",
+    "grade": "english8",
+    "category": "naturales",
+    "question": "The evolutionary process whereby unrelated organisms independently develop similar traits is:",
+    "options": [
+      "Convergent evolution",
+      "Divergent evolution",
+      "Adaptive radiation",
+      "Parallel genetics"
+    ],
+    "correct": 0,
+    "explanation": "La evolución convergente ('convergent evolution') genera analogías estructurales (como alas en aves y murciélagos)."
+  },
+  {
+    "id": "q_eng8_naturales_50",
+    "grade": "english8",
+    "category": "naturales",
+    "question": "A substance capable of causing cancer in living tissue is designated as a(n):",
+    "options": [
+      "Carcinogen",
+      "Pathogen",
+      "Allergen",
+      "Antigen"
+    ],
+    "correct": 0,
+    "explanation": "Un 'carcinogen' (carcinógeno) altera el genoma celular promoviendo neoplasias malignas."
+  },
+  {
+    "id": "q_eng8_sociales_1",
+    "grade": "english8",
+    "category": "sociales",
+    "question": "Thomas Hobbes famously characterized life in the natural state without a sovereign as:",
+    "options": [
+      "'Nasty, brutish, and short'",
+      "'Innocent, peaceful, and noble'",
+      "'Equal, just, and harmonious'",
+      "'Productive and enlightened'"
+    ],
+    "correct": 0,
+    "explanation": "En 'Leviatán' (1651), Hobbes describió el estado de naturaleza como solitario, pobre, tosco, embrutecido y breve."
+  },
+  {
+    "id": "q_eng8_sociales_2",
+    "grade": "english8",
+    "category": "sociales",
+    "question": "John Locke argued that legitimate governance derives solely from:",
+    "options": [
+      "The consent of the governed",
+      "The divine right of kings",
+      "Military supremacy",
+      "Customary tradition"
+    ],
+    "correct": 0,
+    "explanation": "Locke fundamentó el liberalismo clásico en el consentimiento voluntario de los ciudadanos."
+  },
+  {
+    "id": "q_eng8_sociales_3",
+    "grade": "english8",
+    "category": "sociales",
+    "question": "Jean-Jacques Rousseau's political philosophy centers on the moral concept of the:",
+    "options": [
+      "General Will",
+      "Invisible Hand",
+      "Separation of Powers",
+      "Categorical Imperative"
+    ],
+    "correct": 0,
+    "explanation": "Rousseau postuló que la soberanía reside en la 'General Will' (Voluntad General) orientada al bien común."
+  },
+  {
+    "id": "q_eng8_sociales_4",
+    "grade": "english8",
+    "category": "sociales",
+    "question": "Baron de Montesquieu is celebrated for formulating the constitutional doctrine of:",
+    "options": [
+      "Separation of powers",
+      "Universal suffrage",
+      "Direct democracy",
+      "State socialism"
+    ],
+    "correct": 0,
+    "explanation": "Montesquieu propuso la división tripartita de poderes (ejecutivo, legislativo y judicial) para frenar la tiranía."
+  },
+  {
+    "id": "q_eng8_sociales_5",
+    "grade": "english8",
+    "category": "sociales",
+    "question": "The concept of the 'Invisible Hand' in classical market economics was introduced by:",
+    "options": [
+      "Adam Smith",
+      "Karl Marx",
+      "David Ricardo",
+      "John Maynard Keynes"
+    ],
+    "correct": 0,
+    "explanation": "Adam Smith introdujo la 'mano invisible' en 'La riqueza de las naciones' (1776)."
+  },
+  {
+    "id": "q_eng8_sociales_6",
+    "grade": "english8",
+    "category": "sociales",
+    "question": "Which philosopher advocated for utilitarianism, aiming for 'the greatest happiness for the greatest number'?",
+    "options": [
+      "Jeremy Bentham",
+      "Immanuel Kant",
+      "Friedrich Nietzsche",
+      "Edmund Burke"
+    ],
+    "correct": 0,
+    "explanation": "Jeremy Bentham y John Stuart Mill fundaron y desarrollaron el utilitarismo ético y político."
+  },
+  {
+    "id": "q_eng8_sociales_7",
+    "grade": "english8",
+    "category": "sociales",
+    "question": "Immanuel Kant's moral rule that one should act only according to maxims one could will to become universal law is the:",
+    "options": [
+      "Categorical Imperative",
+      "Social Contract",
+      "Golden Mean",
+      "Veil of Ignorance"
+    ],
+    "correct": 0,
+    "explanation": "El imperativo categórico kantiano exige actuar bajo máximas universalizables sin contradicción."
+  },
+  {
+    "id": "q_eng8_sociales_8",
+    "grade": "english8",
+    "category": "sociales",
+    "question": "John Rawls introduced which thought experiment to design a just constitutional order?",
+    "options": [
+      "The Veil of Ignorance",
+      "The Panopticon",
+      "The Allegory of the Cave",
+      "The Trolley Problem"
+    ],
+    "correct": 0,
+    "explanation": "En 'Teoría de la Justicia', Rawls plantea elegir principios bajo un 'Velo de Ignorancia' sobre la propia posición social."
+  },
+  {
+    "id": "q_eng8_sociales_9",
+    "grade": "english8",
+    "category": "sociales",
+    "question": "Niccolò Machiavelli's treatise 'The Prince' is regarded as a foundational text of:",
+    "options": [
+      "Political Realism (Realpolitik)",
+      "Utopian Socialism",
+      "Pacifist Idealism",
+      "Constitutional Monarchism"
+    ],
+    "correct": 0,
+    "explanation": "Maquiavelo separó la política de la moral cristiana, sentando las bases del realismo político."
+  },
+  {
+    "id": "q_eng8_sociales_10",
+    "grade": "english8",
+    "category": "sociales",
+    "question": "Alexis de Tocqueville warned against which vulnerability inherent to democratic societies?",
+    "options": [
+      "The tyranny of the majority",
+      "The divine right fallacy",
+      "Feudal fragmentation",
+      "Military junta rule"
+    ],
+    "correct": 0,
+    "explanation": "En 'La democracia en América', Tocqueville advirtió sobre la tiranía de la mayoría que sofoca la individualidad."
+  },
+  {
+    "id": "q_eng8_sociales_11",
+    "grade": "english8",
+    "category": "sociales",
+    "question": "The doctrine granting equal sovereign authority to states regardless of size stems from the Peace of:",
+    "options": [
+      "Westphalia (1648)",
+      "Versailles (1919)",
+      "Utrecht (1713)",
+      "Vienna (1815)"
+    ],
+    "correct": 0,
+    "explanation": "La Paz de Westfalia consolidó el orden internacional de estados soberanos con fronteras inviolables."
+  },
+  {
+    "id": "q_eng8_sociales_12",
+    "grade": "english8",
+    "category": "sociales",
+    "question": "The supreme court of the United Nations situated at The Hague is the:",
+    "options": [
+      "International Court of Justice (ICJ)",
+      "International Criminal Court (ICC)",
+      "European Court of Human Rights",
+      "Permanent Arbitration Tribunal"
+    ],
+    "correct": 0,
+    "explanation": "La Corte Internacional de Justicia (CIJ) es el principal órgano judicial de las Naciones Unidas."
+  },
+  {
+    "id": "q_eng8_sociales_13",
+    "grade": "english8",
+    "category": "sociales",
+    "question": "Which permanent tribunal prosecutes individuals accused of genocide, war crimes, and crimes against humanity?",
+    "options": [
+      "International Criminal Court (ICC)",
+      "International Court of Justice (ICJ)",
+      "Security Council Tribunal",
+      "World Trade Court"
+    ],
+    "correct": 0,
+    "explanation": "La Corte Penal Internacional (CPI / ICC) juzga a individuos por crímenes de lesa humanidad."
+  },
+  {
+    "id": "q_eng8_sociales_14",
+    "grade": "english8",
+    "category": "sociales",
+    "question": "Non-derogable, peremptory norms in international law from which no derogation is permitted are called:",
+    "options": [
+      "Jus cogens",
+      "Opinio juris",
+      "Lex mercatoria",
+      "Terra nullius"
+    ],
+    "correct": 0,
+    "explanation": "'Jus cogens' abarca normas imperativas absolutas (prohibición de esclavitud, tortura, genocidio)."
+  },
+  {
+    "id": "q_eng8_sociales_15",
+    "grade": "english8",
+    "category": "sociales",
+    "question": "The Universal Declaration of Human Rights was proclaimed by the UN General Assembly in:",
+    "options": [
+      "1948",
+      "1918",
+      "1968",
+      "1939"
+    ],
+    "correct": 0,
+    "explanation": "La Declaración Universal de los Derechos Humanos fue proclamada en París en diciembre de 1948."
+  },
+  {
+    "id": "q_eng8_sociales_16",
+    "grade": "english8",
+    "category": "sociales",
+    "question": "The fundamental legal right preventing unlawful, arbitrary imprisonment without judicial review is:",
+    "options": [
+      "Habeas corpus",
+      "Stare decisis",
+      "Quid pro quo",
+      "Subpoena"
+    ],
+    "correct": 0,
+    "explanation": "'Habeas corpus' tutela la libertad individual exigiendo la comparecencia ante un juez competente."
+  },
+  {
+    "id": "q_eng8_sociales_17",
+    "grade": "english8",
+    "category": "sociales",
+    "question": "The legal doctrine that binds judges to follow judicial precedents established in prior decisions is:",
+    "options": [
+      "Stare decisis",
+      "Obiter dictum",
+      "Res judicata",
+      "Mens rea"
+    ],
+    "correct": 0,
+    "explanation": "'Stare decisis' es el pilar del derecho anglosajón (Common Law) que consagra la fuerza del precedente."
+  },
+  {
+    "id": "q_eng8_sociales_18",
+    "grade": "english8",
+    "category": "sociales",
+    "question": "In criminal jurisprudence, the mental intention to commit a wrongful act is known as:",
+    "options": [
+      "Mens rea",
+      "Actus reus",
+      "Corpus delicti",
+      "Bona fide"
+    ],
+    "correct": 0,
+    "explanation": "'Mens rea' (mente culpable) alude al elemento subjetivo de dolo o culpa en el delito."
+  },
+  {
+    "id": "q_eng8_sociales_19",
+    "grade": "english8",
+    "category": "sociales",
+    "question": "The physical voluntary act or omission that constitutes a crime is legally termed:",
+    "options": [
+      "Actus reus",
+      "Mens rea",
+      "Ex post facto",
+      "Caveat emptor"
+    ],
+    "correct": 0,
+    "explanation": "'Actus reus' representa la materialización fáctica del acto punible."
+  },
+  {
+    "id": "q_eng8_sociales_20",
+    "grade": "english8",
+    "category": "sociales",
+    "question": "The five permanent members of the UN Security Council holding veto power are:",
+    "options": [
+      "USA, UK, France, Russia, China",
+      "USA, UK, Germany, France, Japan",
+      "USA, Russia, China, India, Brazil",
+      "USA, UK, Canada, Australia, France"
+    ],
+    "correct": 0,
+    "explanation": "Los cinco miembros permanentes del Consejo de Seguridad son EE. UU., Reino Unido, Francia, Rusia y China."
+  },
+  {
+    "id": "q_eng8_sociales_21",
+    "grade": "english8",
+    "category": "sociales",
+    "question": "A geopolitical situation in which a dominant state exercises pervasive authority over others is:",
+    "options": [
+      "Hegemony",
+      "Autarky",
+      "Bilateralism",
+      "Pluralism"
+    ],
+    "correct": 0,
+    "explanation": "'Hegemony' (hegemonía) define la supremacía política, económica y militar de una potencia."
+  },
+  {
+    "id": "q_eng8_sociales_22",
+    "grade": "english8",
+    "category": "sociales",
+    "question": "An economic policy of absolute self-sufficiency and independence from foreign trade is:",
+    "options": [
+      "Autarky",
+      "Mercantilism",
+      "Protectionism",
+      "Neoliberalism"
+    ],
+    "correct": 0,
+    "explanation": "'Autarky' (autarquía) pretende autoabastecerse prescindiendo del comercio internacional."
+  },
+  {
+    "id": "q_eng8_sociales_23",
+    "grade": "english8",
+    "category": "sociales",
+    "question": "Max Weber's concept of an ideal-type administrative organisation governed by formal rules is:",
+    "options": [
+      "Bureaucracy",
+      "Oligarchy",
+      "Plutocracy",
+      "Meritocracy only"
+    ],
+    "correct": 0,
+    "explanation": "Weber definió la 'bureaucracy' como la forma de administración racional y jerarquizada."
+  },
+  {
+    "id": "q_eng8_sociales_24",
+    "grade": "english8",
+    "category": "sociales",
+    "question": "The social mechanism whereby cultures borrow, adopt, and integrate traits across boundaries is:",
+    "options": [
+      "Acculturation",
+      "Ethnocentrism",
+      "Xenophobia",
+      "Stratification"
+    ],
+    "correct": 0,
+    "explanation": "'Acculturation' (aculturación) es la asimilación y transformación por contacto intercultural."
+  },
+  {
+    "id": "q_eng8_sociales_25",
+    "grade": "english8",
+    "category": "sociales",
+    "question": "The economic dilemma where individuals deplete a shared limited resource contrary to collective interest is:",
+    "options": [
+      "The Tragedy of the Commons",
+      "The Prisoner's Dilemma",
+      "The Paradox of Thrift",
+      "The Dutch Disease"
+    ],
+    "correct": 0,
+    "explanation": "La 'tragedia de los bienes comunes' analiza la sobreexplotación irracional de recursos compartidos."
+  },
+  {
+    "id": "q_eng8_sociales_26",
+    "grade": "english8",
+    "category": "sociales",
+    "question": "A state governed by a wealthy elite minority is formally classified as a(n):",
+    "options": [
+      "Plutocracy",
+      "Oligarchy",
+      "Theocracy",
+      "Meritocracy"
+    ],
+    "correct": 0,
+    "explanation": "Una 'plutocracy' (plutocracia) es el gobierno detentado por los sectores de mayor riqueza económica."
+  },
+  {
+    "id": "q_eng8_sociales_27",
+    "grade": "english8",
+    "category": "sociales",
+    "question": "The concept of 'soft power'—persuasion via cultural appeal and diplomacy—was coined by:",
+    "options": [
+      "Joseph Nye",
+      "Samuel Huntington",
+      "Francis Fukuyama",
+      "Henry Kissinger"
+    ],
+    "correct": 0,
+    "explanation": "Joseph Nye distinguió el poder blando ('soft power') de la coerción militar o económica ('hard power')."
+  },
+  {
+    "id": "q_eng8_sociales_28",
+    "grade": "english8",
+    "category": "sociales",
+    "question": "Francis Fukuyama's seminal essay declaring the culmination of human ideological evolution was titled:",
+    "options": [
+      "'The End of History'",
+      "'The Clash of Civilizations'",
+      "'The Wealth of Nations'",
+      "'The Road to Serfdom'"
+    ],
+    "correct": 0,
+    "explanation": "Fukuyama postuló en 1989 que la democracia liberal constituía el punto final evolutivo del gobierno humano."
+  },
+  {
+    "id": "q_eng8_sociales_29",
+    "grade": "english8",
+    "category": "sociales",
+    "question": "Samuel Huntington countered Fukuyama by arguing that future global conflicts would occur along:",
+    "options": [
+      "Cultural and religious civilizational fault lines",
+      "Class struggle between proletariat and bourgeoisie",
+      "Purely nuclear competition between superpowers",
+      "Territorial borders within Europe"
+    ],
+    "correct": 0,
+    "explanation": "Huntington planteó 'The Clash of Civilizations' basado en fracturas culturales identitarias."
+  },
+  {
+    "id": "q_eng8_sociales_30",
+    "grade": "english8",
+    "category": "sociales",
+    "question": "A form of governance where religious authorities rule directly under divine inspiration is a:",
+    "options": [
+      "Theocracy",
+      "Monarchy",
+      "Autocracy",
+      "Kakistocracy"
+    ],
+    "correct": 0,
+    "explanation": "Una 'theocracy' (teocracia) es el gobierno ejercido por jerarcas religiosos o sacerdotes."
+  },
+  {
+    "id": "q_eng8_sociales_31",
+    "grade": "english8",
+    "category": "sociales",
+    "question": "The international humanitarian law treaties establishing standards for the treatment of wounded and POWs are the:",
+    "options": [
+      "Geneva Conventions",
+      "Hague Protocols",
+      "Treaty of Versailles",
+      "Camp David Accords"
+    ],
+    "correct": 0,
+    "explanation": "Los Convenios de Ginebra ('Geneva Conventions') protegen a víctimas y prisioneros en conflictos armados."
+  },
+  {
+    "id": "q_eng8_sociales_32",
+    "grade": "english8",
+    "category": "sociales",
+    "question": "A formal diplomatic representative ranked just below an ambassador is a(n):",
+    "options": [
+      "Envoy / Minister",
+      "Attaché",
+      "Consul General only",
+      "Charge d'affaires"
+    ],
+    "correct": 0,
+    "explanation": "Un enviado extraordinario ('envoy') representa al estado soberano en misiones específicas."
+  },
+  {
+    "id": "q_eng8_sociales_33",
+    "grade": "english8",
+    "category": "sociales",
+    "question": "The diplomatic immunity privilege ensuring envoys are exempt from host nation prosecution is protected by the:",
+    "options": [
+      "Vienna Convention on Diplomatic Relations (1961)",
+      "Treaty of Utrecht",
+      "Charter of the UN",
+      "Maastricht Treaty"
+    ],
+    "correct": 0,
+    "explanation": "La Convención de Viena de 1961 garantiza la inviolabilidad y la inmunidad diplomática."
+  },
+  {
+    "id": "q_eng8_sociales_34",
+    "grade": "english8",
+    "category": "sociales",
+    "question": "A legal writ requiring a person to appear before a court to testify as a witness is a:",
+    "options": [
+      "Subpoena",
+      "Affidavit",
+      "Injunction",
+      "Indictment"
+    ],
+    "correct": 0,
+    "explanation": "Una 'subpoena' es una citación judicial obligatoria bajo apercibimiento de sanción penal."
+  },
+  {
+    "id": "q_eng8_sociales_35",
+    "grade": "english8",
+    "category": "sociales",
+    "question": "A written statement confirmed by oath or affirmation for use as judicial evidence is a(n):",
+    "options": [
+      "Affidavit",
+      "Deposition",
+      "Brief",
+      "Verdict"
+    ],
+    "correct": 0,
+    "explanation": "Un 'affidavit' es una declaración jurada escrita con plena validez testimonial ante el tribunal."
+  },
+  {
+    "id": "q_eng8_sociales_36",
+    "grade": "english8",
+    "category": "sociales",
+    "question": "A judicial order prohibiting a party from initiating or continuing a specific course of action is an:",
+    "options": [
+      "Injunction",
+      "Acquittal",
+      "Indictment",
+      "Appellate mandate"
+    ],
+    "correct": 0,
+    "explanation": "Una 'injunction' (medida cautelar de no innovar) veda judicialmente determinadas conductas."
+  },
+  {
+    "id": "q_eng8_sociales_37",
+    "grade": "english8",
+    "category": "sociales",
+    "question": "A formal charge or accusation of a serious crime handed down by a grand jury is an:",
+    "options": [
+      "Indictment",
+      "Arraignment",
+      "Acquittal",
+      "Inquest"
+    ],
+    "correct": 0,
+    "explanation": "Un 'indictment' es la acusación formal formalizada por un gran jurado para iniciar juicio penal."
+  },
+  {
+    "id": "q_eng8_sociales_38",
+    "grade": "english8",
+    "category": "sociales",
+    "question": "A person appointed to act for or represent another in voting or contractual transactions is a:",
+    "options": [
+      "Proxy",
+      "Fiduciary",
+      "Beneficiary",
+      "Bailiff"
+    ],
+    "correct": 0,
+    "explanation": "Un 'proxy' es un mandatario autorizado legalmente a votar o actuar en representación de otro."
+  },
+  {
+    "id": "q_eng8_sociales_39",
+    "grade": "english8",
+    "category": "sociales",
+    "question": "The Latin maxim 'Pacta sunt servanda' signifies that:",
+    "options": [
+      "Agreements and treaties must be observed in good faith",
+      "The buyer alone bears full responsibility",
+      "An eye for an eye",
+      "Ignorance of the law excuses no one"
+    ],
+    "correct": 0,
+    "explanation": "'Pacta sunt servanda' (los pactos deben cumplirse) es la base del derecho de contratos y tratados."
+  },
+  {
+    "id": "q_eng8_sociales_40",
+    "grade": "english8",
+    "category": "sociales",
+    "question": "The Latin legal maxim 'Ignorantia juris non excusat' translates to:",
+    "options": [
+      "Ignorance of the law excuses not",
+      "Justice delayed is justice denied",
+      "To each his own",
+      "The truth will set you free"
+    ],
+    "correct": 0,
+    "explanation": "Establece que nadie puede alegar desconocimiento de la ley para eludir su cumplimiento."
+  },
+  {
+    "id": "q_eng8_sociales_41",
+    "grade": "english8",
+    "category": "sociales",
+    "question": "The standard of proof required in criminal trials in Anglo-American law is:",
+    "options": [
+      "Beyond a reasonable doubt",
+      "Preponderance of evidence",
+      "Clear and convincing certainty",
+      "Prima facie indication"
+    ],
+    "correct": 0,
+    "explanation": "En materia penal se exige prueba concluyente 'beyond a reasonable doubt' para condenar."
+  },
+  {
+    "id": "q_eng8_sociales_42",
+    "grade": "english8",
+    "category": "sociales",
+    "question": "In civil litigation, the typical evidentiary standard is:",
+    "options": [
+      "Preponderance of the evidence",
+      "Beyond a reasonable doubt",
+      "Absolute certainty",
+      "Moral conviction"
+    ],
+    "correct": 0,
+    "explanation": "En pleitos civiles basta demostrar que una versión es más probable que la otra ('preponderance of evidence')."
+  },
+  {
+    "id": "q_eng8_sociales_43",
+    "grade": "english8",
+    "category": "sociales",
+    "question": "A body of citizens sworn to render an impartial verdict in a trial is a:",
+    "options": [
+      "Jury",
+      "Panel",
+      "Bench",
+      "Tribunal"
+    ],
+    "correct": 0,
+    "explanation": "Un 'jury' (jurado) determina la culpabilidad fáctica en los sistemas anglosajones."
+  },
+  {
+    "id": "q_eng8_sociales_44",
+    "grade": "english8",
+    "category": "sociales",
+    "question": "An economic indicator combining both the unemployment rate and the annual inflation rate is the:",
+    "options": [
+      "Misery Index",
+      "Gini Coefficient",
+      "Purchasing Power Parity",
+      "Consumer Price Index"
+    ],
+    "correct": 0,
+    "explanation": "El 'Misery Index' ideado por Arthur Okun suma tasa de desempleo e inflación."
+  },
+  {
+    "id": "q_eng8_sociales_45",
+    "grade": "english8",
+    "category": "sociales",
+    "question": "The statistical metric used universally to gauge income or wealth inequality within a nation is the:",
+    "options": [
+      "Gini coefficient",
+      "Engel curve",
+      "Pareto distribution",
+      "Lorenz ratio"
+    ],
+    "correct": 0,
+    "explanation": "El coeficiente de Gini oscila entre 0 (igualdad absoluta) y 1 (máxima concentración)."
+  },
+  {
+    "id": "q_eng8_sociales_46",
+    "grade": "english8",
+    "category": "sociales",
+    "question": "A prolonged period of stagnant economic growth accompanied by high inflation and unemployment is:",
+    "options": [
+      "Stagflation",
+      "Deflation",
+      "Recession",
+      "Hyperinflation"
+    ],
+    "correct": 0,
+    "explanation": "'Stagflation' (estanflación) combina estancamiento del PIB con inflación persistente."
+  },
+  {
+    "id": "q_eng8_sociales_47",
+    "grade": "english8",
+    "category": "sociales",
+    "question": "The process by which central banks inject liquidity directly by purchasing government bonds is:",
+    "options": [
+      "Quantitative Easing (QE)",
+      "Fiscal Stimulus",
+      "Austerity",
+      "Tariff Indexing"
+    ],
+    "correct": 0,
+    "explanation": "'Quantitative Easing' es la política monetaria no convencional de expansión del balance del banco central."
+  },
+  {
+    "id": "q_eng8_sociales_48",
+    "grade": "english8",
+    "category": "sociales",
+    "question": "Which post-WWII reconstruction plan provided over $13 billion to rebuild Western European economies?",
+    "options": [
+      "The Marshall Plan",
+      "The Dawes Plan",
+      "The New Deal",
+      "The Bretton Woods Agreement"
+    ],
+    "correct": 0,
+    "explanation": "El 'Marshall Plan' (1948) revitalizó Europa occidental e impulsó el libre comercio tras la contienda."
+  },
+  {
+    "id": "q_eng8_sociales_49",
+    "grade": "english8",
+    "category": "sociales",
+    "question": "The 1944 conference that established the IMF, World Bank, and the gold-backed dollar standard was held at:",
+    "options": [
+      "Bretton Woods, New Hampshire",
+      "Geneva, Switzerland",
+      "Yalta, Crimea",
+      "Potsdam, Germany"
+    ],
+    "correct": 0,
+    "explanation": "La conferencia de Bretton Woods diseñó la arquitectura financiera global de posguerra."
+  },
+  {
+    "id": "q_eng8_sociales_50",
+    "grade": "english8",
+    "category": "sociales",
+    "question": "The political situation where neither side in a conflict can win or make headway is a(n):",
+    "options": [
+      "Stalemate / Deadlock",
+      "Breakthrough",
+      "Incursion",
+      "Armistice"
+    ],
+    "correct": 0,
+    "explanation": "'Stalemate' (punto muerto / tablas) alude a un callejón sin salida estratégico."
+  },
+  {
+    "id": "q_eng8_ingenio_1",
+    "grade": "english8",
+    "category": "ingenio",
+    "question": "The Latin phrase 'ad hoc' means created or done for a:",
+    "options": [
+      "Particular purpose only",
+      "Perpetual duration",
+      "Historical record",
+      "Secret agenda"
+    ],
+    "correct": 0,
+    "explanation": "'Ad hoc' significa constituido especialmente para un fin u ocasión particular."
+  },
+  {
+    "id": "q_eng8_ingenio_2",
+    "grade": "english8",
+    "category": "ingenio",
+    "question": "The existing state of affairs, especially in social or political matters, is the:",
+    "options": [
+      "Status quo",
+      "Modus operandi",
+      "Quid pro quo",
+      "De facto"
+    ],
+    "correct": 0,
+    "explanation": "El 'status quo' designa el orden de cosas o situación actual vigente."
+  },
+  {
+    "id": "q_eng8_ingenio_3",
+    "grade": "english8",
+    "category": "ingenio",
+    "question": "A mutual exchange of goods or favors ('this for that') is described as a:",
+    "options": [
+      "Quid pro quo",
+      "Bona fide",
+      "Per se",
+      "De jure"
+    ],
+    "correct": 0,
+    "explanation": "'Quid pro quo' alude a una reciprocidad estricta o compensación recíproca."
+  },
+  {
+    "id": "q_eng8_ingenio_4",
+    "grade": "english8",
+    "category": "ingenio",
+    "question": "If an arrangement exists in reality though not officially sanctioned by law, it is:",
+    "options": [
+      "De facto",
+      "De jure",
+      "Ipso facto",
+      "Ex officio"
+    ],
+    "correct": 0,
+    "explanation": "'De facto' (de hecho) se contrapone a 'de jure' (de derecho o legalmente reconocido)."
+  },
+  {
+    "id": "q_eng8_ingenio_5",
+    "grade": "english8",
+    "category": "ingenio",
+    "question": "Evidence that is sufficient on its face to establish a fact unless disproven is:",
+    "options": [
+      "Prima facie",
+      "Post mortem",
+      "In absentia",
+      "Sui generis"
+    ],
+    "correct": 0,
+    "explanation": "'Prima facie' alude a una presunción legal inicial a primera vista convincente."
+  },
+  {
+    "id": "q_eng8_ingenio_6",
+    "grade": "english8",
+    "category": "ingenio",
+    "question": "Something that is unique, in a class of its own and incomparable to others is:",
+    "options": [
+      "Sui generis",
+      "Bona fide",
+      "Ipso facto",
+      "Inter alia"
+    ],
+    "correct": 0,
+    "explanation": "'Sui generis' califica aquello que posee una naturaleza singular e irreductible."
+  },
+  {
+    "id": "q_eng8_ingenio_7",
+    "grade": "english8",
+    "category": "ingenio",
+    "question": "A document or action made in authentic good faith, without fraud, is:",
+    "options": [
+      "Bona fide",
+      "Mala fide",
+      "Modus vivendi",
+      "Ultra vires"
+    ],
+    "correct": 0,
+    "explanation": "'Bona fide' (de buena fe) certifica honestidad e integridad genuinas."
+  },
+  {
+    "id": "q_eng8_ingenio_8",
+    "grade": "english8",
+    "category": "ingenio",
+    "question": "Latin term used when quoting text to indicate that an error in the original is reproduced verbatim:",
+    "options": [
+      "[sic]",
+      "et al.",
+      "ibid.",
+      "q.v."
+    ],
+    "correct": 0,
+    "explanation": "'[sic]' (así en el original) avisa al lector que la errata pertenece a la fuente citada."
+  },
+  {
+    "id": "q_eng8_ingenio_9",
+    "grade": "english8",
+    "category": "ingenio",
+    "question": "When an author cites the very same source and page consecutively, academic citation uses:",
+    "options": [
+      "Ibid.",
+      "Op. cit.",
+      "Et al.",
+      "Loc. cit."
+    ],
+    "correct": 0,
+    "explanation": "'Ibid.' (ibídem) remite a la misma fuente inmediatamente citada con anterioridad."
+  },
+  {
+    "id": "q_eng8_ingenio_10",
+    "grade": "english8",
+    "category": "ingenio",
+    "question": "An action committed by a corporation or official exceeding their legitimate legal power is:",
+    "options": [
+      "Ultra vires",
+      "Intra vires",
+      "Pro bono",
+      "Amicus curiae"
+    ],
+    "correct": 0,
+    "explanation": "'Ultra vires' (más allá de los poderes) califica actos nulos por falta de competencia legal."
+  },
+  {
+    "id": "q_eng8_ingenio_11",
+    "grade": "english8",
+    "category": "ingenio",
+    "question": "To 'cross the Rubicon' idiomatically means to:",
+    "options": [
+      "Take an irrevocable, decisive step with no turning back",
+      "Achieve a pyrrhic victory",
+      "Negotiate a ceasefire",
+      "Betray an ally covertly"
+    ],
+    "correct": 0,
+    "explanation": "Al cruzar el Rubicón en el 49 a.C., Julio César tomó una decisión irreversible ('alea iacta est')."
+  },
+  {
+    "id": "q_eng8_ingenio_12",
+    "grade": "english8",
+    "category": "ingenio",
+    "question": "A victory won at such devastating cost that it is tantamount to defeat is a:",
+    "options": [
+      "Pyrrhic victory",
+      "Trojan horse",
+      "Gordian knot",
+      "Sisyphean triumph"
+    ],
+    "correct": 0,
+    "explanation": "Una 'victoria pírrica' evoca al rey Pirro de Epiro tras sus ruinosas victorias frente a Roma."
+  },
+  {
+    "id": "q_eng8_ingenio_13",
+    "grade": "english8",
+    "category": "ingenio",
+    "question": "An intractable or seemingly unsolvable problem that requires a bold, decisive solution is a:",
+    "options": [
+      "Gordian knot",
+      "Achilles heel",
+      "Pandora's box",
+      "Damocles sword"
+    ],
+    "correct": 0,
+    "explanation": "Cortar el 'nudo gordiano' alude a la resolución audaz efectuada por Alejandro Magno."
+  },
+  {
+    "id": "q_eng8_ingenio_14",
+    "grade": "english8",
+    "category": "ingenio",
+    "question": "A task that is endless, laborious, and ultimately futile is described as:",
+    "options": [
+      "Sisyphean",
+      "Herculean",
+      "Promethean",
+      "Dionysian"
+    ],
+    "correct": 0,
+    "explanation": "El tormento de Sísifo consistía en empujar eternamente una roca cuesta arriba."
+  },
+  {
+    "id": "q_eng8_ingenio_15",
+    "grade": "english8",
+    "category": "ingenio",
+    "question": "A persistent and threatening danger that hangs over someone at all times is a(n):",
+    "options": [
+      "Sword of Damocles",
+      "Trojan Horse",
+      "Albatross around the neck",
+      "Scowling omen"
+    ],
+    "correct": 0,
+    "explanation": "La 'espada de Damocles' pende de una crin de caballo simbolizando la fragilidad del poder."
+  },
+  {
+    "id": "q_eng8_ingenio_16",
+    "grade": "english8",
+    "category": "ingenio",
+    "question": "A burdensome, inescapable encumbrance that causes deep remorse is a(n):",
+    "options": [
+      "Albatross around one's neck",
+      "Red herring",
+      "White elephant",
+      "Paper tiger"
+    ],
+    "correct": 0,
+    "explanation": "En 'The Rime of the Ancient Mariner' de Coleridge, el albatros encarna una pesada culpa moral."
+  },
+  {
+    "id": "q_eng8_ingenio_17",
+    "grade": "english8",
+    "category": "ingenio",
+    "question": "A valuable but exceedingly expensive possession that brings more burden than benefit is a:",
+    "options": [
+      "White elephant",
+      "Golden handshake",
+      "Silver bullet",
+      "Trojan horse"
+    ],
+    "correct": 0,
+    "explanation": "Un 'white elephant' es una posesión ruinosa y de altísimo costo de mantenimiento."
+  },
+  {
+    "id": "q_eng8_ingenio_18",
+    "grade": "english8",
+    "category": "ingenio",
+    "question": "A misleading clue deliberately introduced to divert attention from the real issue is a:",
+    "options": [
+      "Red herring",
+      "Wild goose chase",
+      "Shot in the dark",
+      "Smoke screen"
+    ],
+    "correct": 0,
+    "explanation": "Un 'red herring' (pista falsa) distrae o desvía el hilo lógico principal."
+  },
+  {
+    "id": "q_eng8_ingenio_19",
+    "grade": "english8",
+    "category": "ingenio",
+    "question": "To 'gild the lily' means to:",
+    "options": [
+      "Add unnecessary ornamentation to something already beautiful",
+      "Express sincere gratitude",
+      "Apologize insincerely",
+      "Undervalue a precious gem"
+    ],
+    "correct": 0,
+    "explanation": "'Gild the lily' (dorar el lirio) significa adornar superfluamente algo ya perfecto."
+  },
+  {
+    "id": "q_eng8_ingenio_20",
+    "grade": "english8",
+    "category": "ingenio",
+    "question": "A person who remains cheerful and foolishly optimistic amidst grave catastrophe is a(n):",
+    "options": [
+      "Pollyanna / Panglossian",
+      "Cassandra",
+      "Scrooge",
+      "Iago"
+    ],
+    "correct": 0,
+    "explanation": "El doctor Pangloss (de Voltaire) o Pollyanna encarnan el optimismo ciego e ingenuo."
+  },
+  {
+    "id": "q_eng8_ingenio_21",
+    "grade": "english8",
+    "category": "ingenio",
+    "question": "Complete the fixed collocation: 'Through no ___ of his own, the project failed.'",
+    "options": [
+      "fault",
+      "blame",
+      "error",
+      "mistake"
+    ],
+    "correct": 0,
+    "explanation": "La colocación idiomática fija es 'through no fault of one's own' (sin culpa suya)."
+  },
+  {
+    "id": "q_eng8_ingenio_22",
+    "grade": "english8",
+    "category": "ingenio",
+    "question": "Which verb collocates naturally: 'The committee was tasked to ___ light on the mystery.'",
+    "options": [
+      "shed",
+      "throw",
+      "cast",
+      "shine"
+    ],
+    "correct": 0,
+    "explanation": "'To shed light on' (arrojar luz sobre) es la colocación estándar."
+  },
+  {
+    "id": "q_eng8_ingenio_23",
+    "grade": "english8",
+    "category": "ingenio",
+    "question": "Complete the formal collocation: 'The defendant entered a plea of ___.'",
+    "options": [
+      "mitigation",
+      "sympathy",
+      "relief",
+      "mercy"
+    ],
+    "correct": 0,
+    "explanation": "'A plea of mitigation' es la alegación formal para reducir la gravedad de la pena."
+  },
+  {
+    "id": "q_eng8_ingenio_24",
+    "grade": "english8",
+    "category": "ingenio",
+    "question": "Which adjective collocates with 'silence' to mean total and stunned stillness?",
+    "options": [
+      "Deafening",
+      "Hollow",
+      "Resonant",
+      "Vibrant"
+    ],
+    "correct": 0,
+    "explanation": "'A deafening silence' es el oxímoron y colocación consagrada."
+  },
+  {
+    "id": "q_eng8_ingenio_25",
+    "grade": "english8",
+    "category": "ingenio",
+    "question": "Complete the phrase: 'He made an off-the-___ remark that sparked a media storm.'",
+    "options": [
+      "cuff",
+      "sleeve",
+      "wrist",
+      "collar"
+    ],
+    "correct": 0,
+    "explanation": "'Off-the-cuff' significa improvisado o dicho espontáneamente sin preparación previa."
+  },
+  {
+    "id": "q_eng8_ingenio_26",
+    "grade": "english8",
+    "category": "ingenio",
+    "question": "To maintain a calm, unperturbed demeanor despite acute crisis is to keep one's:",
+    "options": [
+      "Poise / Composure",
+      "Temper",
+      "Grip",
+      "Temperament"
+    ],
+    "correct": 0,
+    "explanation": "'To keep one's composure / poise' es mantenerse sereno y dueño de sí."
+  },
+  {
+    "id": "q_eng8_ingenio_27",
+    "grade": "english8",
+    "category": "ingenio",
+    "question": "Which verb collocates with 'consequences': 'Unchecked deregulation will ___ dire consequences.'",
+    "options": [
+      "wreak / yield",
+      "provoke",
+      "spawn",
+      "inflict"
+    ],
+    "correct": 0,
+    "explanation": "'Wreak havoc' o 'yield / have dire consequences' son colocaciones elevadas."
+  },
+  {
+    "id": "q_eng8_ingenio_28",
+    "grade": "english8",
+    "category": "ingenio",
+    "question": "Complete the collocation: 'The new evidence casts serious ___ on the witness's testimony.'",
+    "options": [
+      "doubt",
+      "shadow",
+      "mistrust",
+      "suspicion"
+    ],
+    "correct": 0,
+    "explanation": "'To cast doubt on' (sembrar dudas sobre) es la locución verbal fija."
+  },
+  {
+    "id": "q_eng8_ingenio_29",
+    "grade": "english8",
+    "category": "ingenio",
+    "question": "Which word fits: 'The contract was declared null and ___.'",
+    "options": [
+      "void",
+      "blank",
+      "empty",
+      "bare"
+    ],
+    "correct": 0,
+    "explanation": "'Null and void' (nulo y sin valor) es el binomio legal canónico."
+  },
+  {
+    "id": "q_eng8_ingenio_30",
+    "grade": "english8",
+    "category": "ingenio",
+    "question": "A person with an unyielding, determined character is described as having nerves of:",
+    "options": [
+      "Steel",
+      "Iron",
+      "Stone",
+      "Brass"
+    ],
+    "correct": 0,
+    "explanation": "'Nerves of steel' (nervios de acero) denota temple imperturbable."
+  },
+  {
+    "id": "q_eng8_ingenio_31",
+    "grade": "english8",
+    "category": "ingenio",
+    "question": "Which preposition completes: 'He acted ___ accordance with established protocols.'",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "by"
+    ],
+    "correct": 0,
+    "explanation": "La locución correcta es 'in accordance with' (de conformidad con)."
+  },
+  {
+    "id": "q_eng8_ingenio_32",
+    "grade": "english8",
+    "category": "ingenio",
+    "question": "Complete the idiom: 'He had to bite the ___ and make the agonizing decision.'",
+    "options": [
+      "bullet",
+      "dust",
+      "wire",
+      "tongue"
+    ],
+    "correct": 0,
+    "explanation": "'Bite the bullet' significa apretar los dientes y afrontar una situación difícil."
+  },
+  {
+    "id": "q_eng8_ingenio_33",
+    "grade": "english8",
+    "category": "ingenio",
+    "question": "Which word completes: 'She possesses an insatiable ___ for scholarly knowledge.'",
+    "options": [
+      "thirst / appetite",
+      "hunger",
+      "craving",
+      "yearning"
+    ],
+    "correct": 0,
+    "explanation": "'An insatiable thirst for knowledge' es la colocación más natural y académica."
+  },
+  {
+    "id": "q_eng8_ingenio_34",
+    "grade": "english8",
+    "category": "ingenio",
+    "question": "Complete: 'The witness gave a ___ account that left no detail unexamined.'",
+    "options": [
+      "meticulous",
+      "sloppy",
+      "fragmentary",
+      "cursory"
+    ],
+    "correct": 0,
+    "explanation": "'A meticulous account' alude a un relato exhaustivo y riguroso."
+  },
+  {
+    "id": "q_eng8_ingenio_35",
+    "grade": "english8",
+    "category": "ingenio",
+    "question": "A person who predicts disaster but is never believed resembles which mythological figure?",
+    "options": [
+      "Cassandra",
+      "Midas",
+      "Narcissus",
+      "Orpheus"
+    ],
+    "correct": 0,
+    "explanation": "Casandra fue maldecida por Apolo a vaticinar tragedias sin que nadie creyera en sus profecías."
+  },
+  {
+    "id": "q_eng8_ingenio_36",
+    "grade": "english8",
+    "category": "ingenio",
+    "question": "I am taken from a mine and shut up in a wooden case, from which I am never released, yet I am used by almost everyone. What am I?",
+    "options": [
+      "Pencil lead (graphite)",
+      "A diamond",
+      "Coal",
+      "Gold coin"
+    ],
+    "correct": 0,
+    "explanation": "El grafito ('pencil lead') se extrae de la mina y se encierra en madera de lápiz."
+  },
+  {
+    "id": "q_eng8_ingenio_37",
+    "grade": "english8",
+    "category": "ingenio",
+    "question": "What word in the English language becomes shorter when you add two letters to it?",
+    "options": [
+      "Short",
+      "Brief",
+      "Small",
+      "Tiny"
+    ],
+    "correct": 0,
+    "explanation": "La palabra 'Short' (5 letras) al añadirle 'er' se convierte en 'Shorter' (más corto)."
+  },
+  {
+    "id": "q_eng8_ingenio_38",
+    "grade": "english8",
+    "category": "ingenio",
+    "question": "I speak without a mouth and hear without ears. I have no body, but I come alive with wind. What am I?",
+    "options": [
+      "An echo",
+      "A shadow",
+      "A cloud",
+      "A whisper"
+    ],
+    "correct": 0,
+    "explanation": "Un 'echo' (eco) devuelve sonidos resonando a través del aire sin poseer boca ni cuerpo."
+  },
+  {
+    "id": "q_eng8_ingenio_39",
+    "grade": "english8",
+    "category": "ingenio",
+    "question": "The person who makes it doesn't want it; the person who buys it doesn't use it; the person who uses it can't see it. What is it?",
+    "options": [
+      "A coffin",
+      "A wedding ring",
+      "A blindfold",
+      "A gift card"
+    ],
+    "correct": 0,
+    "explanation": "Un ataúd ('a coffin') lo fabrica un artesano, lo adquiere un deudo y el difunto no lo ve."
+  },
+  {
+    "id": "q_eng8_ingenio_40",
+    "grade": "english8",
+    "category": "ingenio",
+    "question": "A word of five letters: remove the first, and four remain. Remove the first and second, and four remain. What word is it?",
+    "options": [
+      "Queue",
+      "Stone",
+      "Level",
+      "Empty"
+    ],
+    "correct": 0,
+    "explanation": "En 'Queue', al quitar 'Q' suena 'ueue' (four letters), y al quitar 'Qu' aún quedan 'eue'."
+  },
+  {
+    "id": "q_eng8_ingenio_41",
+    "grade": "english8",
+    "category": "ingenio",
+    "question": "Which 8-letter English word can have a letter taken away and it still makes a word until only one letter is left?",
+    "options": [
+      "Starting",
+      "Creating",
+      "Thinking",
+      "Planting"
+    ],
+    "correct": 0,
+    "explanation": "'Starting' -> staring -> string -> sting -> sing -> sin -> in -> I."
+  },
+  {
+    "id": "q_eng8_ingenio_42",
+    "grade": "english8",
+    "category": "ingenio",
+    "question": "What has cities, but no houses; forests, but no trees; and water, but no fish?",
+    "options": [
+      "A map",
+      "A globe",
+      "A desert",
+      "A dream"
+    ],
+    "correct": 0,
+    "explanation": "Un mapa ('a map') contiene representaciones cartográficas de ciudades y ríos sin contenido físico."
+  },
+  {
+    "id": "q_eng8_ingenio_43",
+    "grade": "english8",
+    "category": "ingenio",
+    "question": "What can travel all around the world while remaining in one single corner?",
+    "options": [
+      "A postage stamp",
+      "A compass",
+      "A satellite",
+      "A postcard"
+    ],
+    "correct": 0,
+    "explanation": "Una estampilla postal ('a postage stamp') permanece en la esquina del sobre mientras viaja."
+  },
+  {
+    "id": "q_eng8_ingenio_44",
+    "grade": "english8",
+    "category": "ingenio",
+    "question": "I have branches, but no fruit, trunk, or leaves. What am I?",
+    "options": [
+      "A bank (or river)",
+      "A library",
+      "A vineyard",
+      "A book"
+    ],
+    "correct": 0,
+    "explanation": "Un banco o un río tienen 'branches' (sucursales / afluentes) sin ser árboles."
+  },
+  {
+    "id": "q_eng8_ingenio_45",
+    "grade": "english8",
+    "category": "ingenio",
+    "question": "What runs but never walks, has a mouth but never talks, has a head but never weeps, has a bed but never sleeps?",
+    "options": [
+      "A river",
+      "A clock",
+      "A car",
+      "A cloud"
+    ],
+    "correct": 0,
+    "explanation": "Un río corre ('runs'), tiene cauce/lecho ('bed') y desembocadura ('mouth')."
+  },
+  {
+    "id": "q_eng8_ingenio_46",
+    "grade": "english8",
+    "category": "ingenio",
+    "question": "What gets wetter the more it dries?",
+    "options": [
+      "A towel",
+      "A sponge",
+      "A cloud",
+      "A mop"
+    ],
+    "correct": 0,
+    "explanation": "Una toalla ('a towel') se moja mientras seca cosas."
+  },
+  {
+    "id": "q_eng8_ingenio_47",
+    "grade": "english8",
+    "category": "ingenio",
+    "question": "Forward I am heavy, but backward I am not. What am I?",
+    "options": [
+      "Ton (backward is 'not')",
+      "An anchor",
+      "A mountain",
+      "Lead"
+    ],
+    "correct": 0,
+    "explanation": "Juego de palabras: 'Ton' hacia adelante es pesado (una tonelada), y al revés se lee 'not'."
+  },
+  {
+    "id": "q_eng8_ingenio_48",
+    "grade": "english8",
+    "category": "ingenio",
+    "question": "What begins with an 'E', ends with an 'E', but only contains one single letter?",
+    "options": [
+      "An envelope",
+      "An eye",
+      "An eagle",
+      "An engine"
+    ],
+    "correct": 0,
+    "explanation": "'An envelope' (sobre) empieza y termina con 'E' y contiene una carta ('one letter')."
+  },
+  {
+    "id": "q_eng8_ingenio_49",
+    "grade": "english8",
+    "category": "ingenio",
+    "question": "What breaks yet never falls, and what falls yet never breaks?",
+    "options": [
+      "Day breaks and night falls",
+      "Ice and rain",
+      "Glass and snow",
+      "Silence and lightning"
+    ],
+    "correct": 0,
+    "explanation": "Locución idiomática poética inglesa: 'Day breaks and night falls'."
+  },
+  {
+    "id": "q_eng8_ingenio_50",
+    "grade": "english8",
+    "category": "ingenio",
+    "question": "The more you take, the more you leave behind. What are they?",
+    "options": [
+      "Footsteps",
+      "Memories",
+      "Breaths",
+      "Minutes"
+    ],
+    "correct": 0,
+    "explanation": "Cuantos más pasos ('footsteps') das, más huellas dejas atrás."
+  }
 ];
 
 // Soporte para exportación en entornos Node/CommonJS si fuera necesario

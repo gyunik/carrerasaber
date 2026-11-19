@@ -1213,3 +1213,25 @@ body {
         font-size: 1.15rem;
     }
 }
+
+/* --- UTILIDADES PARA CARRUSELES TÁCTILES HORIZONTALES --- */
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+.no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+}
+
+.carousel-snap-container {
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+}
+
+.carousel-snap-item {
+    scroll-snap-align: start;
+    flex-shrink: 0;
+}
+
