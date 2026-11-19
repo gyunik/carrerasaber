@@ -42052,6 +42052,10509 @@ const QUESTIONS_DATA = [
         "explanation": "Al ser un tren eléctrico impulsado por corriente eléctrica, no produce humo.",
         "id": "q_g4_ingenio_50"
     }
+    ,
+    {
+        "grade": "english1",
+        "category": "matematica",
+        "question": "Hello! I _______ Lucas. Nice to meet you.",
+        "options": [
+            "am",
+            "is",
+            "are",
+            "be"
+        ],
+        "correct": 0,
+        "explanation": "Con el pronombre 'I' (yo) utilizamos la forma 'am' del verbo to be: 'I am Lucas'.",
+        "id": "q_eng1_matematica_1"
+    },
+    {
+        "grade": "english1",
+        "category": "matematica",
+        "question": "She _______ my English teacher. Her name is Sarah.",
+        "options": [
+            "are",
+            "is",
+            "am",
+            "be"
+        ],
+        "correct": 1,
+        "explanation": "Con la tercera persona singular 'She' (ella) corresponde usar 'is'.",
+        "id": "q_eng1_matematica_2"
+    },
+    {
+        "grade": "english1",
+        "category": "matematica",
+        "question": "They _______ best friends at school.",
+        "options": [
+            "is",
+            "am",
+            "are",
+            "be"
+        ],
+        "correct": 2,
+        "explanation": "Con el pronombre plural 'They' (ellos) se utiliza 'are'.",
+        "id": "q_eng1_matematica_3"
+    },
+    {
+        "grade": "english1",
+        "category": "matematica",
+        "question": "Look at the cat! It _______ sleeping under the table.",
+        "options": [
+            "are",
+            "am",
+            "is",
+            "be"
+        ],
+        "correct": 2,
+        "explanation": "Para animales u objetos en singular ('It') se emplea la forma 'is'.",
+        "id": "q_eng1_matematica_4"
+    },
+    {
+        "grade": "english1",
+        "category": "matematica",
+        "question": "We _______ happy today because it is Friday!",
+        "options": [
+            "is",
+            "am",
+            "are",
+            "be"
+        ],
+        "correct": 2,
+        "explanation": "Con 'We' (nosotros) la conjugación correcta del verbo to be es 'are'.",
+        "id": "q_eng1_matematica_5"
+    },
+    {
+        "grade": "english1",
+        "category": "matematica",
+        "question": "You _______ very tall for your age.",
+        "options": [
+            "are",
+            "is",
+            "am",
+            "be"
+        ],
+        "correct": 0,
+        "explanation": "Con 'You' (tú/ustedes) se utiliza siempre 'are'.",
+        "id": "q_eng1_matematica_6"
+    },
+    {
+        "grade": "english1",
+        "category": "matematica",
+        "question": "My brother and I _______ in the garden.",
+        "options": [
+            "is",
+            "am",
+            "are",
+            "be"
+        ],
+        "correct": 2,
+        "explanation": "'My brother and I' equivale al pronombre plural 'We' (nosotros), por lo que va con 'are'.",
+        "id": "q_eng1_matematica_7"
+    },
+    {
+        "grade": "english1",
+        "category": "matematica",
+        "question": "This book _______ very interesting.",
+        "options": [
+            "are",
+            "is",
+            "am",
+            "be"
+        ],
+        "correct": 1,
+        "explanation": "'This book' es singular (tercera persona 'it'), por lo que lleva 'is'.",
+        "id": "q_eng1_matematica_8"
+    },
+    {
+        "grade": "english1",
+        "category": "matematica",
+        "question": "The pencils _______ in my pencil case.",
+        "options": [
+            "is",
+            "are",
+            "am",
+            "be"
+        ],
+        "correct": 1,
+        "explanation": "'The pencils' es un sustantivo plural, por lo tanto corresponde el verbo 'are'.",
+        "id": "q_eng1_matematica_9"
+    },
+    {
+        "grade": "english1",
+        "category": "matematica",
+        "question": "Peter _______ ten years old today.",
+        "options": [
+            "have",
+            "has",
+            "is",
+            "are"
+        ],
+        "correct": 2,
+        "explanation": "En inglés las edades se expresan con el verbo to be: 'Peter is ten years old'.",
+        "id": "q_eng1_matematica_10"
+    },
+    {
+        "grade": "english1",
+        "category": "matematica",
+        "question": "I _______ tired today. I have lots of energy!",
+        "options": [
+            "am not",
+            "is not",
+            "are not",
+            "no am"
+        ],
+        "correct": 0,
+        "explanation": "La forma negativa para 'I' es 'am not' ('I am not tired').",
+        "id": "q_eng1_matematica_11"
+    },
+    {
+        "grade": "english1",
+        "category": "matematica",
+        "question": "Tom _______ at school today because he is sick.",
+        "options": [
+            "aren't",
+            "isn't",
+            "am not",
+            "not is"
+        ],
+        "correct": 1,
+        "explanation": "La contracción negativa para la tercera persona singular ('Tom' / 'he') es 'isn't'.",
+        "id": "q_eng1_matematica_12"
+    },
+    {
+        "grade": "english1",
+        "category": "matematica",
+        "question": "We _______ angry, we are just surprised.",
+        "options": [
+            "isn't",
+            "aren't",
+            "am not",
+            "not are"
+        ],
+        "correct": 1,
+        "explanation": "Con el pronombre plural 'We' la negación correcta es 'aren't' (are not).",
+        "id": "q_eng1_matematica_13"
+    },
+    {
+        "grade": "english1",
+        "category": "matematica",
+        "question": "_______ you ready for the game?",
+        "options": [
+            "Is",
+            "Are",
+            "Am",
+            "Do"
+        ],
+        "correct": 1,
+        "explanation": "Para formular una pregunta con 'you' se coloca 'Are' al inicio: 'Are you ready?'.",
+        "id": "q_eng1_matematica_14"
+    },
+    {
+        "grade": "english1",
+        "category": "matematica",
+        "question": "_______ she your sister? - Yes, she is.",
+        "options": [
+            "Are",
+            "Is",
+            "Am",
+            "Do"
+        ],
+        "correct": 1,
+        "explanation": "Para preguntar por 'she' se inicia con 'Is': 'Is she your sister?'.",
+        "id": "q_eng1_matematica_15"
+    },
+    {
+        "grade": "english1",
+        "category": "matematica",
+        "question": "Are they at home? - No, they _______.",
+        "options": [
+            "isn't",
+            "aren't",
+            "are",
+            "not"
+        ],
+        "correct": 1,
+        "explanation": "En la respuesta corta negativa con 'they' se responde: 'No, they aren't'.",
+        "id": "q_eng1_matematica_16"
+    },
+    {
+        "grade": "english1",
+        "category": "matematica",
+        "question": "Is your dog big? - Yes, it _______.",
+        "options": [
+            "is",
+            "are",
+            "isn't",
+            "it is"
+        ],
+        "correct": 0,
+        "explanation": "En la respuesta corta afirmativa con 'it' se usa: 'Yes, it is'.",
+        "id": "q_eng1_matematica_17"
+    },
+    {
+        "grade": "english1",
+        "category": "matematica",
+        "question": "The door _______ open; it is closed.",
+        "options": [
+            "aren't",
+            "isn't",
+            "am not",
+            "not be"
+        ],
+        "correct": 1,
+        "explanation": "'The door' es singular ('it'), por lo que la negación adecuada es 'isn't'.",
+        "id": "q_eng1_matematica_18"
+    },
+    {
+        "grade": "english1",
+        "category": "matematica",
+        "question": "Where _______ my shoes?",
+        "options": [
+            "is",
+            "am",
+            "are",
+            "be"
+        ],
+        "correct": 2,
+        "explanation": "'My shoes' es plural ('they'), por lo que la pregunta requiere 'are': 'Where are my shoes?'.",
+        "id": "q_eng1_matematica_19"
+    },
+    {
+        "grade": "english1",
+        "category": "matematica",
+        "question": "Who _______ that boy over there?",
+        "options": [
+            "are",
+            "is",
+            "am",
+            "be"
+        ],
+        "correct": 1,
+        "explanation": "'That boy' es singular ('he'), por lo que preguntamos 'Who is that boy?'.",
+        "id": "q_eng1_matematica_20"
+    },
+    {
+        "grade": "english1",
+        "category": "matematica",
+        "question": "This is Mary. _______ is my best friend.",
+        "options": [
+            "He",
+            "She",
+            "It",
+            "They"
+        ],
+        "correct": 1,
+        "explanation": "Para referirse a una mujer o niña en singular se utiliza el pronombre 'She' (ella).",
+        "id": "q_eng1_matematica_21"
+    },
+    {
+        "grade": "english1",
+        "category": "matematica",
+        "question": "My father is a doctor. _______ works in a hospital.",
+        "options": [
+            "She",
+            "He",
+            "They",
+            "We"
+        ],
+        "correct": 1,
+        "explanation": "Para referirse a un varón en singular se emplea el pronombre 'He' (él).",
+        "id": "q_eng1_matematica_22"
+    },
+    {
+        "grade": "english1",
+        "category": "matematica",
+        "question": "I have a dog. _______ name is Toby.",
+        "options": [
+            "My",
+            "His",
+            "Her",
+            "Its"
+        ],
+        "correct": 3,
+        "explanation": "Para indicar la posesión de un animal u objeto se usa el adjetivo posesivo 'Its'.",
+        "id": "q_eng1_matematica_23"
+    },
+    {
+        "grade": "english1",
+        "category": "matematica",
+        "question": "Tom and I love football. _______ play every Saturday.",
+        "options": [
+            "They",
+            "We",
+            "You",
+            "He"
+        ],
+        "correct": 1,
+        "explanation": "'Tom and I' incluye a la primera persona, por lo que el pronombre correspondiente es 'We' (nosotros).",
+        "id": "q_eng1_matematica_24"
+    },
+    {
+        "grade": "english1",
+        "category": "matematica",
+        "question": "This is my mother. _______ car is red.",
+        "options": [
+            "His",
+            "Her",
+            "My",
+            "Their"
+        ],
+        "correct": 1,
+        "explanation": "Para la posesión de una mujer ('ella') se usa el adjetivo posesivo 'Her' (su de ella).",
+        "id": "q_eng1_matematica_25"
+    },
+    {
+        "grade": "english1",
+        "category": "matematica",
+        "question": "David has a new bicycle. _______ bike is blue.",
+        "options": [
+            "Her",
+            "His",
+            "Their",
+            "Your"
+        ],
+        "correct": 1,
+        "explanation": "Para la posesión de un varón ('él') se utiliza 'His' (su de él).",
+        "id": "q_eng1_matematica_26"
+    },
+    {
+        "grade": "english1",
+        "category": "matematica",
+        "question": "Look at the children! _______ are playing in the park.",
+        "options": [
+            "He",
+            "She",
+            "They",
+            "It"
+        ],
+        "correct": 2,
+        "explanation": "'Children' es el plural de child (niños), por lo que se sustituye por 'They' (ellos).",
+        "id": "q_eng1_matematica_27"
+    },
+    {
+        "grade": "english1",
+        "category": "matematica",
+        "question": "Is this _______ pencil, Anna? - Yes, thank you!",
+        "options": [
+            "your",
+            "his",
+            "their",
+            "its"
+        ],
+        "correct": 0,
+        "explanation": "Al hablarle directamente a Anna le preguntamos: 'Is this your pencil?' (¿Es tu lápiz?).",
+        "id": "q_eng1_matematica_28"
+    },
+    {
+        "grade": "english1",
+        "category": "matematica",
+        "question": "We live in a nice house. _______ house has a big garden.",
+        "options": [
+            "Our",
+            "Their",
+            "Your",
+            "Its"
+        ],
+        "correct": 0,
+        "explanation": "El adjetivo posesivo correspondiente a 'we' (nosotros) es 'Our' (nuestra/nuestro).",
+        "id": "q_eng1_matematica_29"
+    },
+    {
+        "grade": "english1",
+        "category": "matematica",
+        "question": "The students love _______ new English teacher.",
+        "options": [
+            "his",
+            "her",
+            "their",
+            "our"
+        ],
+        "correct": 2,
+        "explanation": "'The students' es plural (ellos), por lo que el posesivo adecuado es 'their' (su de ellos).",
+        "id": "q_eng1_matematica_30"
+    },
+    {
+        "grade": "english1",
+        "category": "matematica",
+        "question": "I _______ a new blue schoolbag.",
+        "options": [
+            "have got",
+            "has got",
+            "got have",
+            "having"
+        ],
+        "correct": 0,
+        "explanation": "Con la primera persona 'I' se utiliza 'have got' para expresar posesión.",
+        "id": "q_eng1_matematica_31"
+    },
+    {
+        "grade": "english1",
+        "category": "matematica",
+        "question": "She _______ two brothers and one sister.",
+        "options": [
+            "have got",
+            "has got",
+            "is got",
+            "having"
+        ],
+        "correct": 1,
+        "explanation": "Con la tercera persona singular 'she' se emplea 'has got'.",
+        "id": "q_eng1_matematica_32"
+    },
+    {
+        "grade": "english1",
+        "category": "matematica",
+        "question": "We _______ any milk in the fridge.",
+        "options": [
+            "haven't got",
+            "hasn't got",
+            "not have",
+            "haven't"
+        ],
+        "correct": 0,
+        "explanation": "La forma negativa de posesión para 'we' es 'haven't got'.",
+        "id": "q_eng1_matematica_33"
+    },
+    {
+        "grade": "english1",
+        "category": "matematica",
+        "question": "He _______ a pet dog; he only has a cat.",
+        "options": [
+            "haven't got",
+            "hasn't got",
+            "isn't got",
+            "not has"
+        ],
+        "correct": 1,
+        "explanation": "Con 'He' la negación de posesión correcta es 'hasn't got'.",
+        "id": "q_eng1_matematica_34"
+    },
+    {
+        "grade": "english1",
+        "category": "matematica",
+        "question": "_______ you got a ruler? - Yes, I have.",
+        "options": [
+            "Has",
+            "Have",
+            "Are",
+            "Do"
+        ],
+        "correct": 1,
+        "explanation": "Para preguntar posesión a 'you' se inicia con 'Have': 'Have you got a ruler?'.",
+        "id": "q_eng1_matematica_35"
+    },
+    {
+        "grade": "english1",
+        "category": "matematica",
+        "question": "Birds _______ fly high in the sky.",
+        "options": [
+            "can",
+            "can't",
+            "are",
+            "have"
+        ],
+        "correct": 0,
+        "explanation": "El verbo modal 'can' expresa habilidad: las aves pueden volar ('Birds can fly').",
+        "id": "q_eng1_matematica_36"
+    },
+    {
+        "grade": "english1",
+        "category": "matematica",
+        "question": "Fish _______ walk on land.",
+        "options": [
+            "can",
+            "can't",
+            "isn't",
+            "aren't"
+        ],
+        "correct": 1,
+        "explanation": "'Can't' expresa imposibilidad o incapacidad: los peces no pueden caminar.",
+        "id": "q_eng1_matematica_37"
+    },
+    {
+        "grade": "english1",
+        "category": "matematica",
+        "question": "_______ you swim? - Yes, I can!",
+        "options": [
+            "Can",
+            "Do",
+            "Are",
+            "Have"
+        ],
+        "correct": 0,
+        "explanation": "Para preguntar por una habilidad se coloca 'Can' al principio: 'Can you swim?'.",
+        "id": "q_eng1_matematica_38"
+    },
+    {
+        "grade": "english1",
+        "category": "matematica",
+        "question": "A kangaroo _______ jump very high.",
+        "options": [
+            "can",
+            "can't",
+            "is",
+            "have"
+        ],
+        "correct": 0,
+        "explanation": "El canguro tiene la habilidad de saltar muy alto, por eso usamos 'can'.",
+        "id": "q_eng1_matematica_39"
+    },
+    {
+        "grade": "english1",
+        "category": "matematica",
+        "question": "Can dogs talk like humans? - No, they _______.",
+        "options": [
+            "can",
+            "can't",
+            "don't",
+            "aren't"
+        ],
+        "correct": 1,
+        "explanation": "En la respuesta corta negativa con can se responde 'No, they can't'.",
+        "id": "q_eng1_matematica_40"
+    },
+    {
+        "grade": "english1",
+        "category": "matematica",
+        "question": "There _______ a book on the desk.",
+        "options": [
+            "are",
+            "is",
+            "am",
+            "be"
+        ],
+        "correct": 1,
+        "explanation": "Se utiliza 'There is' para señalar la existencia de un solo elemento singular ('a book').",
+        "id": "q_eng1_matematica_41"
+    },
+    {
+        "grade": "english1",
+        "category": "matematica",
+        "question": "There _______ five apples in the basket.",
+        "options": [
+            "is",
+            "are",
+            "am",
+            "be"
+        ],
+        "correct": 1,
+        "explanation": "Se utiliza 'There are' para indicar la existencia de varios elementos en plural ('five apples').",
+        "id": "q_eng1_matematica_42"
+    },
+    {
+        "grade": "english1",
+        "category": "matematica",
+        "question": "_______ there a cat in the garden? - Yes, there is.",
+        "options": [
+            "Are",
+            "Is",
+            "Am",
+            "Do"
+        ],
+        "correct": 1,
+        "explanation": "Para preguntar por la existencia de un elemento singular se invierte a 'Is there...?'.",
+        "id": "q_eng1_matematica_43"
+    },
+    {
+        "grade": "english1",
+        "category": "matematica",
+        "question": "I have _______ apple and a banana for lunch.",
+        "options": [
+            "a",
+            "an",
+            "the",
+            "two"
+        ],
+        "correct": 1,
+        "explanation": "Se usa el artículo indefinido 'an' antes de palabras que empiezan con sonido de vocal ('an apple').",
+        "id": "q_eng1_matematica_44"
+    },
+    {
+        "grade": "english1",
+        "category": "matematica",
+        "question": "She has _______ red bicycle.",
+        "options": [
+            "an",
+            "a",
+            "two",
+            "some"
+        ],
+        "correct": 1,
+        "explanation": "Se utiliza 'a' antes de palabras que comienzan con sonido de consonante ('a red bicycle').",
+        "id": "q_eng1_matematica_45"
+    },
+    {
+        "grade": "english1",
+        "category": "matematica",
+        "question": "Look at _______ birds flying in the sky over there!",
+        "options": [
+            "this",
+            "that",
+            "those",
+            "these"
+        ],
+        "correct": 2,
+        "explanation": "'Those' se emplea para señalar elementos plurales que se encuentran lejos ('aquellos').",
+        "id": "q_eng1_matematica_46"
+    },
+    {
+        "grade": "english1",
+        "category": "matematica",
+        "question": "_______ is my favourite pen in my hand.",
+        "options": [
+            "This",
+            "These",
+            "Those",
+            "They"
+        ],
+        "correct": 0,
+        "explanation": "'This' (este/esta) se usa para un objeto singular que está cerca o en la mano.",
+        "id": "q_eng1_matematica_47"
+    },
+    {
+        "grade": "english1",
+        "category": "matematica",
+        "question": "There _______ any cookies left in the jar.",
+        "options": [
+            "aren't",
+            "isn't",
+            "not are",
+            "haven't"
+        ],
+        "correct": 0,
+        "explanation": "Con sustantivos plurales ('cookies') la negación de existencia es 'There aren't'.",
+        "id": "q_eng1_matematica_48"
+    },
+    {
+        "grade": "english1",
+        "category": "matematica",
+        "question": "He _______ to school by bus every morning.",
+        "options": [
+            "go",
+            "goes",
+            "going",
+            "is go"
+        ],
+        "correct": 1,
+        "explanation": "En Present Simple, con la tercera persona singular ('he') se añade -es al verbo 'go': 'goes'.",
+        "id": "q_eng1_matematica_49"
+    },
+    {
+        "grade": "english1",
+        "category": "matematica",
+        "question": "Do you like pizza? - Yes, I _______.",
+        "options": [
+            "like",
+            "do",
+            "am",
+            "have"
+        ],
+        "correct": 1,
+        "explanation": "La respuesta corta afirmativa para preguntas con 'Do you...?' es 'Yes, I do'.",
+        "id": "q_eng1_matematica_50"
+    },
+    {
+        "grade": "english1",
+        "category": "lengua",
+        "question": "What colour is the sky on a sunny day?",
+        "options": [
+            "Green",
+            "Blue",
+            "Yellow",
+            "Red"
+        ],
+        "correct": 1,
+        "explanation": "El cielo despejado en un día soleado es de color azul ('Blue').",
+        "id": "q_eng1_lengua_1"
+    },
+    {
+        "grade": "english1",
+        "category": "lengua",
+        "question": "What colour do you get if you mix red and yellow?",
+        "options": [
+            "Green",
+            "Orange",
+            "Purple",
+            "Pink"
+        ],
+        "correct": 1,
+        "explanation": "Al mezclar rojo ('red') y amarillo ('yellow') se obtiene naranja ('Orange').",
+        "id": "q_eng1_lengua_2"
+    },
+    {
+        "grade": "english1",
+        "category": "lengua",
+        "question": "Grass and leaves on trees are usually _______.",
+        "options": [
+            "blue",
+            "green",
+            "black",
+            "purple"
+        ],
+        "correct": 1,
+        "explanation": "El pasto y las hojas de los árboles son generalmente de color verde ('green').",
+        "id": "q_eng1_lengua_3"
+    },
+    {
+        "grade": "english1",
+        "category": "lengua",
+        "question": "Flamingos and cotton candy are typically _______.",
+        "options": [
+            "pink",
+            "brown",
+            "grey",
+            "orange"
+        ],
+        "correct": 0,
+        "explanation": "Los flamencos y el algodón de azúcar son de color rosa ('pink').",
+        "id": "q_eng1_lengua_4"
+    },
+    {
+        "grade": "english1",
+        "category": "lengua",
+        "question": "A zebra has black and _______ stripes.",
+        "options": [
+            "yellow",
+            "white",
+            "blue",
+            "red"
+        ],
+        "correct": 1,
+        "explanation": "Las cebras tienen rayas negras y blancas ('white').",
+        "id": "q_eng1_lengua_5"
+    },
+    {
+        "grade": "english1",
+        "category": "lengua",
+        "question": "What colour is a ripe banana?",
+        "options": [
+            "Purple",
+            "Yellow",
+            "Blue",
+            "Brown"
+        ],
+        "correct": 1,
+        "explanation": "Una banana madura es de color amarillo ('Yellow').",
+        "id": "q_eng1_lengua_6"
+    },
+    {
+        "grade": "english1",
+        "category": "lengua",
+        "question": "Snow is cold and _______.",
+        "options": [
+            "white",
+            "black",
+            "green",
+            "red"
+        ],
+        "correct": 0,
+        "explanation": "La nieve es fría y de color blanco ('white').",
+        "id": "q_eng1_lengua_7"
+    },
+    {
+        "grade": "english1",
+        "category": "lengua",
+        "question": "What shape has three sides?",
+        "options": [
+            "A circle",
+            "A triangle",
+            "A square",
+            "A rectangle"
+        ],
+        "correct": 1,
+        "explanation": "La figura geométrica de tres lados es el triángulo ('A triangle').",
+        "id": "q_eng1_lengua_8"
+    },
+    {
+        "grade": "english1",
+        "category": "lengua",
+        "question": "A football ball has the shape of a _______.",
+        "options": [
+            "square",
+            "triangle",
+            "circle",
+            "line"
+        ],
+        "correct": 2,
+        "explanation": "Una pelota de fútbol tiene forma circular o esférica ('circle').",
+        "id": "q_eng1_lengua_9"
+    },
+    {
+        "grade": "english1",
+        "category": "lengua",
+        "question": "Night is dark and the sky is _______.",
+        "options": [
+            "black",
+            "yellow",
+            "pink",
+            "orange"
+        ],
+        "correct": 0,
+        "explanation": "La noche es oscura y el cielo se ve negro ('black').",
+        "id": "q_eng1_lengua_10"
+    },
+    {
+        "grade": "english1",
+        "category": "lengua",
+        "question": "How do you spell the number 8 in English?",
+        "options": [
+            "Eigt",
+            "Eight",
+            "Eigth",
+            "Aight"
+        ],
+        "correct": 1,
+        "explanation": "El número 8 se escribe correctamente como 'Eight'.",
+        "id": "q_eng1_lengua_11"
+    },
+    {
+        "grade": "english1",
+        "category": "lengua",
+        "question": "What number comes after eleven (11)?",
+        "options": [
+            "Ten",
+            "Twelve",
+            "Thirteen",
+            "Twenty"
+        ],
+        "correct": 1,
+        "explanation": "El número que sigue al 11 (eleven) es el 12 ('Twelve').",
+        "id": "q_eng1_lengua_12"
+    },
+    {
+        "grade": "english1",
+        "category": "lengua",
+        "question": "What is 10 plus 5?",
+        "options": [
+            "Fourteen",
+            "Fifteen",
+            "Fifty",
+            "Sixteen"
+        ],
+        "correct": 1,
+        "explanation": "10 + 5 = 15, que en inglés se dice 'Fifteen'.",
+        "id": "q_eng1_lengua_13"
+    },
+    {
+        "grade": "english1",
+        "category": "lengua",
+        "question": "How do you write the number 20 in words?",
+        "options": [
+            "Twelve",
+            "Twenty",
+            "Twelve-teen",
+            "Twenteen"
+        ],
+        "correct": 1,
+        "explanation": "El número 20 se escribe 'Twenty'.",
+        "id": "q_eng1_lengua_14"
+    },
+    {
+        "grade": "english1",
+        "category": "lengua",
+        "question": "What number is between nineteen (19) and twenty-one (21)?",
+        "options": [
+            "Eighteen",
+            "Twenty",
+            "Thirty",
+            "Twelve"
+        ],
+        "correct": 1,
+        "explanation": "El número intermedio entre 19 y 21 es el 20 ('Twenty').",
+        "id": "q_eng1_lengua_15"
+    },
+    {
+        "grade": "english1",
+        "category": "lengua",
+        "question": "How many days are there in one week?",
+        "options": [
+            "Five",
+            "Six",
+            "Seven",
+            "Eight"
+        ],
+        "correct": 2,
+        "explanation": "Una semana tiene 7 días ('Seven days').",
+        "id": "q_eng1_lengua_16"
+    },
+    {
+        "grade": "english1",
+        "category": "lengua",
+        "question": "What is 20 plus 30?",
+        "options": [
+            "Forty",
+            "Fifty",
+            "Sixty",
+            "Fifteen"
+        ],
+        "correct": 1,
+        "explanation": "20 + 30 = 50, que en inglés se escribe 'Fifty'.",
+        "id": "q_eng1_lengua_17"
+    },
+    {
+        "grade": "english1",
+        "category": "lengua",
+        "question": "How do you write the number 100 in English?",
+        "options": [
+            "One hundred",
+            "One thousand",
+            "Ten ten",
+            "A million"
+        ],
+        "correct": 0,
+        "explanation": "El número 100 se dice 'One hundred' (o 'a hundred').",
+        "id": "q_eng1_lengua_18"
+    },
+    {
+        "grade": "english1",
+        "category": "lengua",
+        "question": "What number comes before ten (10)?",
+        "options": [
+            "Eight",
+            "Nine",
+            "Eleven",
+            "Seven"
+        ],
+        "correct": 1,
+        "explanation": "El número anterior al 10 es el 9 ('Nine').",
+        "id": "q_eng1_lengua_19"
+    },
+    {
+        "grade": "english1",
+        "category": "lengua",
+        "question": "How many fingers have you got on two hands?",
+        "options": [
+            "Five",
+            "Ten",
+            "Twenty",
+            "Twelve"
+        ],
+        "correct": 1,
+        "explanation": "En dos manos tenemos 10 dedos ('Ten fingers').",
+        "id": "q_eng1_lengua_20"
+    },
+    {
+        "grade": "english1",
+        "category": "lengua",
+        "question": "My mother's mother is my _______.",
+        "options": [
+            "sister",
+            "grandmother",
+            "aunt",
+            "cousin"
+        ],
+        "correct": 1,
+        "explanation": "La madre de mi madre es mi abuela ('grandmother' o 'grandma').",
+        "id": "q_eng1_lengua_21"
+    },
+    {
+        "grade": "english1",
+        "category": "lengua",
+        "question": "My father's brother is my _______.",
+        "options": [
+            "uncle",
+            "aunt",
+            "brother",
+            "grandfather"
+        ],
+        "correct": 0,
+        "explanation": "El hermano de mi padre es mi tío ('uncle').",
+        "id": "q_eng1_lengua_22"
+    },
+    {
+        "grade": "english1",
+        "category": "lengua",
+        "question": "The daughter of my parents is my _______.",
+        "options": [
+            "brother",
+            "sister",
+            "cousin",
+            "grandmother"
+        ],
+        "correct": 1,
+        "explanation": "La hija de mis padres es mi hermana ('sister').",
+        "id": "q_eng1_lengua_23"
+    },
+    {
+        "grade": "english1",
+        "category": "lengua",
+        "question": "My father's father is my _______.",
+        "options": [
+            "uncle",
+            "brother",
+            "grandfather",
+            "nephew"
+        ],
+        "correct": 2,
+        "explanation": "El padre de mi padre es mi abuelo ('grandfather' o 'grandpa').",
+        "id": "q_eng1_lengua_24"
+    },
+    {
+        "grade": "english1",
+        "category": "lengua",
+        "question": "My aunt's son is my _______.",
+        "options": [
+            "brother",
+            "cousin",
+            "uncle",
+            "father"
+        ],
+        "correct": 1,
+        "explanation": "El hijo de mi tía es mi primo ('cousin').",
+        "id": "q_eng1_lengua_25"
+    },
+    {
+        "grade": "english1",
+        "category": "lengua",
+        "question": "A very young child who cannot walk yet is a _______.",
+        "options": [
+            "baby",
+            "teenager",
+            "parent",
+            "grandparent"
+        ],
+        "correct": 0,
+        "explanation": "Un niño muy pequeño que aún no camina es un bebé ('baby').",
+        "id": "q_eng1_lengua_26"
+    },
+    {
+        "grade": "english1",
+        "category": "lengua",
+        "question": "My mother and my father are my _______.",
+        "options": [
+            "uncles",
+            "parents",
+            "brothers",
+            "children"
+        ],
+        "correct": 1,
+        "explanation": "Madre y padre juntos se denominan padres ('parents').",
+        "id": "q_eng1_lengua_27"
+    },
+    {
+        "grade": "english1",
+        "category": "lengua",
+        "question": "The sister of my mother is my _______.",
+        "options": [
+            "sister",
+            "aunt",
+            "grandmother",
+            "cousin"
+        ],
+        "correct": 1,
+        "explanation": "La hermana de mi madre es mi tía ('aunt').",
+        "id": "q_eng1_lengua_28"
+    },
+    {
+        "grade": "english1",
+        "category": "lengua",
+        "question": "My mother's son is my _______.",
+        "options": [
+            "brother",
+            "sister",
+            "uncle",
+            "cousin"
+        ],
+        "correct": 0,
+        "explanation": "El hijo de mi madre es mi hermano ('brother').",
+        "id": "q_eng1_lengua_29"
+    },
+    {
+        "grade": "english1",
+        "category": "lengua",
+        "question": "A family with a mother, a father and two children has _______ members.",
+        "options": [
+            "two",
+            "three",
+            "four",
+            "five"
+        ],
+        "correct": 2,
+        "explanation": "1 madre + 1 padre + 2 hijos = 4 integrantes ('four').",
+        "id": "q_eng1_lengua_30"
+    },
+    {
+        "grade": "english1",
+        "category": "lengua",
+        "question": "You use a _______ to write in your notebook.",
+        "options": [
+            "ruler",
+            "pen",
+            "sharpener",
+            "rubber"
+        ],
+        "correct": 1,
+        "explanation": "Utilizamos una lapicera ('pen') para escribir en el cuaderno.",
+        "id": "q_eng1_lengua_31"
+    },
+    {
+        "grade": "english1",
+        "category": "lengua",
+        "question": "If you make a mistake with a pencil, you use a _______ to erase it.",
+        "options": [
+            "rubber",
+            "ruler",
+            "scissors",
+            "pencil case"
+        ],
+        "correct": 0,
+        "explanation": "Para borrar un trazo de lápiz se utiliza la goma de borrar ('rubber' o 'eraser').",
+        "id": "q_eng1_lengua_32"
+    },
+    {
+        "grade": "english1",
+        "category": "lengua",
+        "question": "You carry your books and pencil case to school in a _______.",
+        "options": [
+            "desk",
+            "schoolbag",
+            "chair",
+            "board"
+        ],
+        "correct": 1,
+        "explanation": "Llevamos los útiles escolares dentro de la mochila ('schoolbag' o 'backpack').",
+        "id": "q_eng1_lengua_33"
+    },
+    {
+        "grade": "english1",
+        "category": "lengua",
+        "question": "You use a _______ to draw straight lines.",
+        "options": [
+            "rubber",
+            "pencil",
+            "ruler",
+            "sharpener"
+        ],
+        "correct": 2,
+        "explanation": "Para trazar líneas rectas se utiliza una regla ('ruler').",
+        "id": "q_eng1_lengua_34"
+    },
+    {
+        "grade": "english1",
+        "category": "lengua",
+        "question": "You use a _______ when your pencil tip breaks.",
+        "options": [
+            "pencil sharpener",
+            "rubber",
+            "book",
+            "glue"
+        ],
+        "correct": 0,
+        "explanation": "Cuando se rompe la punta del lápiz usamos el sacapuntas ('pencil sharpener').",
+        "id": "q_eng1_lengua_35"
+    },
+    {
+        "grade": "english1",
+        "category": "lengua",
+        "question": "The teacher writes notes for the whole class on the _______.",
+        "options": [
+            "desk",
+            "board",
+            "chair",
+            "bag"
+        ],
+        "correct": 1,
+        "explanation": "El docente escribe notas y explicaciones en el pizarrón ('board').",
+        "id": "q_eng1_lengua_36"
+    },
+    {
+        "grade": "english1",
+        "category": "lengua",
+        "question": "You sit on a _______ at your desk.",
+        "options": [
+            "table",
+            "chair",
+            "floor",
+            "book"
+        ],
+        "correct": 1,
+        "explanation": "En el aula nos sentamos en una silla ('chair').",
+        "id": "q_eng1_lengua_37"
+    },
+    {
+        "grade": "english1",
+        "category": "lengua",
+        "question": "You use _______ to cut paper in art class.",
+        "options": [
+            "a ruler",
+            "scissors",
+            "a pen",
+            "a pencil"
+        ],
+        "correct": 1,
+        "explanation": "Para cortar papel utilizamos las tijeras ('scissors').",
+        "id": "q_eng1_lengua_38"
+    },
+    {
+        "grade": "english1",
+        "category": "lengua",
+        "question": "You use _______ to stick paper together in your notebook.",
+        "options": [
+            "glue",
+            "rubber",
+            "sharpener",
+            "ruler"
+        ],
+        "correct": 0,
+        "explanation": "Para pegar hojas de papel usamos pegamento ('glue').",
+        "id": "q_eng1_lengua_39"
+    },
+    {
+        "grade": "english1",
+        "category": "lengua",
+        "question": "You keep your pencils, pens and rubber inside a _______.",
+        "options": [
+            "pencil case",
+            "book",
+            "folder",
+            "chair"
+        ],
+        "correct": 0,
+        "explanation": "Guardamos los lápices y útiles pequeños en la cartuchera ('pencil case').",
+        "id": "q_eng1_lengua_40"
+    },
+    {
+        "grade": "english1",
+        "category": "lengua",
+        "question": "You see with your _______.",
+        "options": [
+            "ears",
+            "eyes",
+            "nose",
+            "hands"
+        ],
+        "correct": 1,
+        "explanation": "Vemos con nuestros ojos ('eyes').",
+        "id": "q_eng1_lengua_41"
+    },
+    {
+        "grade": "english1",
+        "category": "lengua",
+        "question": "You hear music and sounds with your _______.",
+        "options": [
+            "eyes",
+            "ears",
+            "mouth",
+            "feet"
+        ],
+        "correct": 1,
+        "explanation": "Escuchamos con nuestros oídos u orejas ('ears').",
+        "id": "q_eng1_lengua_42"
+    },
+    {
+        "grade": "english1",
+        "category": "lengua",
+        "question": "You smell flowers with your _______.",
+        "options": [
+            "mouth",
+            "nose",
+            "eyes",
+            "arms"
+        ],
+        "correct": 1,
+        "explanation": "Olemos aromas con la nariz ('nose').",
+        "id": "q_eng1_lengua_43"
+    },
+    {
+        "grade": "english1",
+        "category": "lengua",
+        "question": "You use your _______ to speak and eat.",
+        "options": [
+            "nose",
+            "ears",
+            "mouth",
+            "hair"
+        ],
+        "correct": 2,
+        "explanation": "Usamos la boca ('mouth') para hablar y comer.",
+        "id": "q_eng1_lengua_44"
+    },
+    {
+        "grade": "english1",
+        "category": "lengua",
+        "question": "You put your shoes on your _______.",
+        "options": [
+            "hands",
+            "feet",
+            "ears",
+            "arms"
+        ],
+        "correct": 1,
+        "explanation": "Nos ponemos los zapatos en los pies ('feet', plural de foot).",
+        "id": "q_eng1_lengua_45"
+    },
+    {
+        "grade": "english1",
+        "category": "lengua",
+        "question": "You wear a hat on your _______.",
+        "options": [
+            "knee",
+            "head",
+            "foot",
+            "leg"
+        ],
+        "correct": 1,
+        "explanation": "Usamos el sombrero sobre la cabeza ('head').",
+        "id": "q_eng1_lengua_46"
+    },
+    {
+        "grade": "english1",
+        "category": "lengua",
+        "question": "How many toes do you have on one foot?",
+        "options": [
+            "Ten",
+            "Five",
+            "Two",
+            "One"
+        ],
+        "correct": 1,
+        "explanation": "En un pie tenemos cinco dedos ('Five toes').",
+        "id": "q_eng1_lengua_47"
+    },
+    {
+        "grade": "english1",
+        "category": "lengua",
+        "question": "You have two _______ to hug your friends.",
+        "options": [
+            "legs",
+            "arms",
+            "feet",
+            "heads"
+        ],
+        "correct": 1,
+        "explanation": "Usamos los dos brazos ('arms') para abrazar.",
+        "id": "q_eng1_lengua_48"
+    },
+    {
+        "grade": "english1",
+        "category": "lengua",
+        "question": "You use your _______ to kick a football.",
+        "options": [
+            "head",
+            "foot",
+            "hand",
+            "shoulder"
+        ],
+        "correct": 1,
+        "explanation": "Pateamos la pelota con el pie ('foot').",
+        "id": "q_eng1_lengua_49"
+    },
+    {
+        "grade": "english1",
+        "category": "lengua",
+        "question": "You use your _______ to write and hold a glass.",
+        "options": [
+            "feet",
+            "hand",
+            "elbow",
+            "knee"
+        ],
+        "correct": 1,
+        "explanation": "Sostenemos un vaso y escribimos con la mano ('hand').",
+        "id": "q_eng1_lengua_50"
+    },
+    {
+        "grade": "english1",
+        "category": "naturales",
+        "question": "A _______ is a friendly pet that barks and wags its tail.",
+        "options": [
+            "cat",
+            "dog",
+            "fish",
+            "hamster"
+        ],
+        "correct": 1,
+        "explanation": "El perro ('dog') es una mascota que ladra ('barks') y mueve la cola.",
+        "id": "q_eng1_naturales_1"
+    },
+    {
+        "grade": "english1",
+        "category": "naturales",
+        "question": "A _______ loves milk, purrs and says 'meow'.",
+        "options": [
+            "dog",
+            "cat",
+            "bird",
+            "rabbit"
+        ],
+        "correct": 1,
+        "explanation": "El gato ('cat') ronronea y maúlla diciendo 'meow'.",
+        "id": "q_eng1_naturales_2"
+    },
+    {
+        "grade": "english1",
+        "category": "naturales",
+        "question": "A small animal with long ears that loves eating carrots is a _______.",
+        "options": [
+            "turtle",
+            "rabbit",
+            "cat",
+            "horse"
+        ],
+        "correct": 1,
+        "explanation": "El conejo ('rabbit') tiene orejas largas y come zanahorias.",
+        "id": "q_eng1_naturales_3"
+    },
+    {
+        "grade": "english1",
+        "category": "naturales",
+        "question": "A _______ swims in an aquarium or a bowl.",
+        "options": [
+            "goldfish",
+            "hamster",
+            "parrot",
+            "dog"
+        ],
+        "correct": 0,
+        "explanation": "El pez dorado ('goldfish') nada en una pecera o acuario.",
+        "id": "q_eng1_naturales_4"
+    },
+    {
+        "grade": "english1",
+        "category": "naturales",
+        "question": "A colourful bird that can sometimes learn to repeat words is a _______.",
+        "options": [
+            "canary",
+            "parrot",
+            "duck",
+            "hen"
+        ],
+        "correct": 1,
+        "explanation": "El loro ('parrot') es un ave colorida que puede imitar palabras.",
+        "id": "q_eng1_naturales_5"
+    },
+    {
+        "grade": "english1",
+        "category": "naturales",
+        "question": "Which animal gives us fresh milk on a farm?",
+        "options": [
+            "A pig",
+            "A cow",
+            "A dog",
+            "A duck"
+        ],
+        "correct": 1,
+        "explanation": "La vaca ('cow') es el animal de granja que produce leche fresca.",
+        "id": "q_eng1_naturales_6"
+    },
+    {
+        "grade": "english1",
+        "category": "naturales",
+        "question": "A farm animal with wool that says 'baa' is a _______.",
+        "options": [
+            "horse",
+            "sheep",
+            "pig",
+            "goat"
+        ],
+        "correct": 1,
+        "explanation": "La oveja ('sheep') tiene lana ('wool') y hace 'baa'.",
+        "id": "q_eng1_naturales_7"
+    },
+    {
+        "grade": "english1",
+        "category": "naturales",
+        "question": "A farm bird that lays eggs every morning is a _______.",
+        "options": [
+            "cow",
+            "hen",
+            "horse",
+            "sheep"
+        ],
+        "correct": 1,
+        "explanation": "La gallina ('hen') es el ave de granja que pone huevos.",
+        "id": "q_eng1_naturales_8"
+    },
+    {
+        "grade": "english1",
+        "category": "naturales",
+        "question": "A strong farm animal that people can ride is a _______.",
+        "options": [
+            "pig",
+            "horse",
+            "duck",
+            "chicken"
+        ],
+        "correct": 1,
+        "explanation": "El caballo ('horse') es un animal fuerte que se puede montar.",
+        "id": "q_eng1_naturales_9"
+    },
+    {
+        "grade": "english1",
+        "category": "naturales",
+        "question": "A pink farm animal that loves rolling in the mud is a _______.",
+        "options": [
+            "sheep",
+            "pig",
+            "cow",
+            "hen"
+        ],
+        "correct": 1,
+        "explanation": "El cerdo ('pig') es de color rosa y disfruta del lodo.",
+        "id": "q_eng1_naturales_10"
+    },
+    {
+        "grade": "english1",
+        "category": "naturales",
+        "question": "The _______ is known as the King of the Jungle and has a big mane.",
+        "options": [
+            "tiger",
+            "lion",
+            "monkey",
+            "elephant"
+        ],
+        "correct": 1,
+        "explanation": "El león ('lion') es conocido como el rey de la selva y tiene una gran melena.",
+        "id": "q_eng1_naturales_11"
+    },
+    {
+        "grade": "english1",
+        "category": "naturales",
+        "question": "The animal with the longest neck in the world is the _______.",
+        "options": [
+            "elephant",
+            "giraffe",
+            "zebra",
+            "hippo"
+        ],
+        "correct": 1,
+        "explanation": "La jirafa ('giraffe') es el animal terrestre con el cuello más largo.",
+        "id": "q_eng1_naturales_12"
+    },
+    {
+        "grade": "english1",
+        "category": "naturales",
+        "question": "The largest land animal with a long trunk and big ears is the _______.",
+        "options": [
+            "rhino",
+            "elephant",
+            "bear",
+            "lion"
+        ],
+        "correct": 1,
+        "explanation": "El elefante ('elephant') es el animal terrestre más grande y posee una trompa larga.",
+        "id": "q_eng1_naturales_13"
+    },
+    {
+        "grade": "english1",
+        "category": "naturales",
+        "question": "A black and white animal from Africa that looks like a striped horse is a _______.",
+        "options": [
+            "giraffe",
+            "zebra",
+            "tiger",
+            "panda"
+        ],
+        "correct": 1,
+        "explanation": "La cebra ('zebra') tiene rayas blancas y negras.",
+        "id": "q_eng1_naturales_14"
+    },
+    {
+        "grade": "english1",
+        "category": "naturales",
+        "question": "A playful animal that climbs trees and loves bananas is a _______.",
+        "options": [
+            "crocodile",
+            "monkey",
+            "lion",
+            "snake"
+        ],
+        "correct": 1,
+        "explanation": "El mono ('monkey') trepa a los árboles y come bananas.",
+        "id": "q_eng1_naturales_15"
+    },
+    {
+        "grade": "english1",
+        "category": "naturales",
+        "question": "A large reptile with sharp teeth that lives in rivers is a _______.",
+        "options": [
+            "dolphin",
+            "crocodile",
+            "frog",
+            "duck"
+        ],
+        "correct": 1,
+        "explanation": "El cocodrilo ('crocodile') es un gran reptil acuático con dientes afilados.",
+        "id": "q_eng1_naturales_16"
+    },
+    {
+        "grade": "english1",
+        "category": "naturales",
+        "question": "A black and white bird from Antarctica that cannot fly but swims fast is a _______.",
+        "options": [
+            "parrot",
+            "penguin",
+            "eagle",
+            "duck"
+        ],
+        "correct": 1,
+        "explanation": "El pingüino ('penguin') es un ave marina no voladora pero excelente nadadora.",
+        "id": "q_eng1_naturales_17"
+    },
+    {
+        "grade": "english1",
+        "category": "naturales",
+        "question": "An intelligent mammal that lives in the ocean and jumps out of the water is a _______.",
+        "options": [
+            "dolphin",
+            "shark",
+            "octopus",
+            "crab"
+        ],
+        "correct": 0,
+        "explanation": "El delfín ('dolphin') es un mamífero marino muy inteligente y juguetón.",
+        "id": "q_eng1_naturales_18"
+    },
+    {
+        "grade": "english1",
+        "category": "naturales",
+        "question": "A big wild cat with orange fur and black stripes is a _______.",
+        "options": [
+            "lion",
+            "tiger",
+            "cheetah",
+            "leopard"
+        ],
+        "correct": 1,
+        "explanation": "El tigre ('tiger') tiene pelaje naranja con rayas negras.",
+        "id": "q_eng1_naturales_19"
+    },
+    {
+        "grade": "english1",
+        "category": "naturales",
+        "question": "A bear from China that loves eating green bamboo is the _______.",
+        "options": [
+            "polar bear",
+            "giant panda",
+            "brown bear",
+            "grizzly"
+        ],
+        "correct": 1,
+        "explanation": "El oso panda ('giant panda') se alimenta principalmente de bambú.",
+        "id": "q_eng1_naturales_20"
+    },
+    {
+        "grade": "english1",
+        "category": "naturales",
+        "question": "A red or green round fruit that keeps the doctor away is an _______.",
+        "options": [
+            "orange",
+            "apple",
+            "banana",
+            "onion"
+        ],
+        "correct": 1,
+        "explanation": "La manzana ('apple') es una fruta redonda roja o verde.",
+        "id": "q_eng1_naturales_21"
+    },
+    {
+        "grade": "english1",
+        "category": "naturales",
+        "question": "A long yellow fruit that monkeys love to eat is a _______.",
+        "options": [
+            "lemon",
+            "banana",
+            "pear",
+            "peach"
+        ],
+        "correct": 1,
+        "explanation": "La banana ('banana') es una fruta amarilla y alargada.",
+        "id": "q_eng1_naturales_22"
+    },
+    {
+        "grade": "english1",
+        "category": "naturales",
+        "question": "A round citrus fruit that is orange in colour is an _______.",
+        "options": [
+            "orange",
+            "apple",
+            "grape",
+            "watermelon"
+        ],
+        "correct": 0,
+        "explanation": "La naranja ('orange') comparte nombre con su propio color.",
+        "id": "q_eng1_naturales_23"
+    },
+    {
+        "grade": "english1",
+        "category": "naturales",
+        "question": "What white liquid comes from cows and is good for bones?",
+        "options": [
+            "Juice",
+            "Milk",
+            "Tea",
+            "Soda"
+        ],
+        "correct": 1,
+        "explanation": "La leche ('milk') es una bebida blanca rica en calcio.",
+        "id": "q_eng1_naturales_24"
+    },
+    {
+        "grade": "english1",
+        "category": "naturales",
+        "question": "A popular Italian food with a round dough base, tomato sauce and cheese is _______.",
+        "options": [
+            "soup",
+            "pizza",
+            "salad",
+            "cake"
+        ],
+        "correct": 1,
+        "explanation": "La pizza es una comida clásica de masa redonda con salsa y queso.",
+        "id": "q_eng1_naturales_25"
+    },
+    {
+        "grade": "english1",
+        "category": "naturales",
+        "question": "Two slices of bread with ham and cheese in the middle make a _______.",
+        "options": [
+            "sandwich",
+            "cookie",
+            "pancake",
+            "pie"
+        ],
+        "correct": 0,
+        "explanation": "Dos rebanadas de pan con relleno forman un sándwich ('sandwich').",
+        "id": "q_eng1_naturales_26"
+    },
+    {
+        "grade": "english1",
+        "category": "naturales",
+        "question": "A cold, sweet dessert popular in summer that comes in a cone is _______.",
+        "options": [
+            "soup",
+            "ice cream",
+            "bread",
+            "steak"
+        ],
+        "correct": 1,
+        "explanation": "El helado ('ice cream') es un postre frío y dulce muy popular en verano.",
+        "id": "q_eng1_naturales_27"
+    },
+    {
+        "grade": "english1",
+        "category": "naturales",
+        "question": "What healthy liquid must we drink every day to stay hydrated?",
+        "options": [
+            "Cola",
+            "Water",
+            "Coffee",
+            "Hot chocolate"
+        ],
+        "correct": 1,
+        "explanation": "El agua ('water') es la bebida natural indispensable para la vida.",
+        "id": "q_eng1_naturales_28"
+    },
+    {
+        "grade": "english1",
+        "category": "naturales",
+        "question": "Small sweet red fruits with tiny seeds on the outside are _______.",
+        "options": [
+            "lemons",
+            "strawberries",
+            "bananas",
+            "potatoes"
+        ],
+        "correct": 1,
+        "explanation": "Las frutillas o fresas ('strawberries') son frutas rojas y dulces.",
+        "id": "q_eng1_naturales_29"
+    },
+    {
+        "grade": "english1",
+        "category": "naturales",
+        "question": "You fry or boil an _______ for breakfast, laid by a hen.",
+        "options": [
+            "egg",
+            "apple",
+            "onion",
+            "olive"
+        ],
+        "correct": 0,
+        "explanation": "Un huevo ('egg') puesto por la gallina se consume hervido o frito.",
+        "id": "q_eng1_naturales_30"
+    },
+    {
+        "grade": "english1",
+        "category": "naturales",
+        "question": "Do you like broccoli? - No, I _______.",
+        "options": [
+            "don't",
+            "doesn't",
+            "am not",
+            "haven't"
+        ],
+        "correct": 0,
+        "explanation": "En la respuesta corta negativa con 'Do you...?' se responde 'No, I don't'.",
+        "id": "q_eng1_naturales_31"
+    },
+    {
+        "grade": "english1",
+        "category": "naturales",
+        "question": "I am thirsty. I want a glass of _______.",
+        "options": [
+            "bread",
+            "water",
+            "cheese",
+            "cake"
+        ],
+        "correct": 1,
+        "explanation": "Cuando tenemos sed ('thirsty') necesitamos beber agua ('water').",
+        "id": "q_eng1_naturales_32"
+    },
+    {
+        "grade": "english1",
+        "category": "naturales",
+        "question": "I am hungry. Let's make a _______.",
+        "options": [
+            "pencil",
+            "sandwich",
+            "notebook",
+            "desk"
+        ],
+        "correct": 1,
+        "explanation": "Cuando tenemos hambre ('hungry') preparamos comida como un sándwich.",
+        "id": "q_eng1_naturales_33"
+    },
+    {
+        "grade": "english1",
+        "category": "naturales",
+        "question": "Which of these animals can fly?",
+        "options": [
+            "A dog",
+            "A bird",
+            "A snake",
+            "An elephant"
+        ],
+        "correct": 1,
+        "explanation": "Las aves ('A bird') tienen alas y pueden volar.",
+        "id": "q_eng1_naturales_34"
+    },
+    {
+        "grade": "english1",
+        "category": "naturales",
+        "question": "Which of these animals lives under water?",
+        "options": [
+            "A rabbit",
+            "A fish",
+            "A horse",
+            "A lion"
+        ],
+        "correct": 1,
+        "explanation": "Los peces ('A fish') viven y respiran bajo el agua.",
+        "id": "q_eng1_naturales_35"
+    },
+    {
+        "grade": "english1",
+        "category": "naturales",
+        "question": "Vegetables like carrots and lettuce are good for your _______.",
+        "options": [
+            "health",
+            "computer",
+            "bicycle",
+            "pencil"
+        ],
+        "correct": 0,
+        "explanation": "Las verduras son muy saludables y benefician la salud ('health').",
+        "id": "q_eng1_naturales_36"
+    },
+    {
+        "grade": "english1",
+        "category": "naturales",
+        "question": "Apples, bananas and oranges belong to the group of _______.",
+        "options": [
+            "meat",
+            "fruits",
+            "drinks",
+            "sweets"
+        ],
+        "correct": 1,
+        "explanation": "Las manzanas, bananas y naranjas forman parte del grupo de las frutas ('fruits').",
+        "id": "q_eng1_naturales_37"
+    },
+    {
+        "grade": "english1",
+        "category": "naturales",
+        "question": "Which animal is small, green and jumps near water?",
+        "options": [
+            "A frog",
+            "A bear",
+            "An elephant",
+            "A horse"
+        ],
+        "correct": 0,
+        "explanation": "La rana ('A frog') es pequeña, verde y da grandes saltos cerca del agua.",
+        "id": "q_eng1_naturales_38"
+    },
+    {
+        "grade": "english1",
+        "category": "naturales",
+        "question": "What do bees make that is sweet and golden?",
+        "options": [
+            "Milk",
+            "Honey",
+            "Juice",
+            "Bread"
+        ],
+        "correct": 1,
+        "explanation": "Las abejas producen miel dulce ('honey').",
+        "id": "q_eng1_naturales_39"
+    },
+    {
+        "grade": "english1",
+        "category": "naturales",
+        "question": "What do cows and sheep eat in the green fields?",
+        "options": [
+            "Fish",
+            "Grass",
+            "Meat",
+            "Pizza"
+        ],
+        "correct": 1,
+        "explanation": "Las vacas y ovejas son herbívoros y comen pasto ('grass').",
+        "id": "q_eng1_naturales_40"
+    },
+    {
+        "grade": "english1",
+        "category": "naturales",
+        "question": "The green parts of a tree that fall in autumn are the _______.",
+        "options": [
+            "roots",
+            "leaves",
+            "fruits",
+            "branches"
+        ],
+        "correct": 1,
+        "explanation": "Las hojas ('leaves', plural de leaf) son las partes verdes que caen en otoño.",
+        "id": "q_eng1_naturales_41"
+    },
+    {
+        "grade": "english1",
+        "category": "naturales",
+        "question": "What gives light and warmth to plants so they can grow?",
+        "options": [
+            "The Moon",
+            "The Sun",
+            "A lamp",
+            "The stars"
+        ],
+        "correct": 1,
+        "explanation": "El Sol ('The Sun') brinda luz y calor indispensables para las plantas.",
+        "id": "q_eng1_naturales_42"
+    },
+    {
+        "grade": "english1",
+        "category": "naturales",
+        "question": "Plants absorb water from the soil through their _______.",
+        "options": [
+            "flowers",
+            "roots",
+            "leaves",
+            "seeds"
+        ],
+        "correct": 1,
+        "explanation": "Las raíces ('roots') absorben agua y nutrientes de la tierra.",
+        "id": "q_eng1_naturales_43"
+    },
+    {
+        "grade": "english1",
+        "category": "naturales",
+        "question": "A colourful and fragrant part of a plant is the _______.",
+        "options": [
+            "root",
+            "flower",
+            "trunk",
+            "bark"
+        ],
+        "correct": 1,
+        "explanation": "La flor ('flower') es la parte colorida y aromática de muchas plantas.",
+        "id": "q_eng1_naturales_44"
+    },
+    {
+        "grade": "english1",
+        "category": "naturales",
+        "question": "A tiny object that you plant in the soil to grow a new plant is a _______.",
+        "options": [
+            "leaf",
+            "seed",
+            "branch",
+            "stem"
+        ],
+        "correct": 1,
+        "explanation": "Una semilla ('seed') se siembra en la tierra para que germine una planta.",
+        "id": "q_eng1_naturales_45"
+    },
+    {
+        "grade": "english1",
+        "category": "naturales",
+        "question": "Which season comes after winter when flowers begin to bloom?",
+        "options": [
+            "Summer",
+            "Spring",
+            "Autumn",
+            "Winter"
+        ],
+        "correct": 1,
+        "explanation": "La primavera ('Spring') es la estación en la que florecen las plantas.",
+        "id": "q_eng1_naturales_46"
+    },
+    {
+        "grade": "english1",
+        "category": "naturales",
+        "question": "Trees have a thick brown wooden _______ in the center.",
+        "options": [
+            "leaf",
+            "trunk",
+            "flower",
+            "seed"
+        ],
+        "correct": 1,
+        "explanation": "Los árboles tienen un tronco leñoso ('trunk') central.",
+        "id": "q_eng1_naturales_47"
+    },
+    {
+        "grade": "english1",
+        "category": "naturales",
+        "question": "Rain falls from the clouds as drops of _______.",
+        "options": [
+            "sand",
+            "water",
+            "ice cream",
+            "juice"
+        ],
+        "correct": 1,
+        "explanation": "La lluvia ('rain') cae en forma de gotas de agua.",
+        "id": "q_eng1_naturales_48"
+    },
+    {
+        "grade": "english1",
+        "category": "naturales",
+        "question": "At night, the _______ shines in the sky with many stars.",
+        "options": [
+            "Sun",
+            "Moon",
+            "Cloud",
+            "Rainbow"
+        ],
+        "correct": 1,
+        "explanation": "La Luna ('Moon') brilla de noche junto a las estrellas.",
+        "id": "q_eng1_naturales_49"
+    },
+    {
+        "grade": "english1",
+        "category": "naturales",
+        "question": "A beautiful curved arch of seven colours in the sky after rain is a _______.",
+        "options": [
+            "cloud",
+            "rainbow",
+            "star",
+            "sun"
+        ],
+        "correct": 1,
+        "explanation": "El arcoíris ('rainbow') muestra siete colores cuando llueve y sale el sol.",
+        "id": "q_eng1_naturales_50"
+    },
+    {
+        "grade": "english1",
+        "category": "sociales",
+        "question": "You cook food and wash dishes in the _______.",
+        "options": [
+            "bedroom",
+            "kitchen",
+            "bathroom",
+            "garden"
+        ],
+        "correct": 1,
+        "explanation": "Cocinamos y preparamos alimentos en la cocina ('kitchen').",
+        "id": "q_eng1_sociales_1"
+    },
+    {
+        "grade": "english1",
+        "category": "sociales",
+        "question": "You sleep in a comfortable bed in the _______.",
+        "options": [
+            "kitchen",
+            "bedroom",
+            "garage",
+            "hall"
+        ],
+        "correct": 1,
+        "explanation": "Dormimos en el dormitorio o habitación ('bedroom').",
+        "id": "q_eng1_sociales_2"
+    },
+    {
+        "grade": "english1",
+        "category": "sociales",
+        "question": "You take a shower and brush your teeth in the _______.",
+        "options": [
+            "bathroom",
+            "living room",
+            "kitchen",
+            "dining room"
+        ],
+        "correct": 0,
+        "explanation": "Nos bañamos y cepillamos los dientes en el baño ('bathroom').",
+        "id": "q_eng1_sociales_3"
+    },
+    {
+        "grade": "english1",
+        "category": "sociales",
+        "question": "The family sits on the sofa and watches TV in the _______.",
+        "options": [
+            "bathroom",
+            "living room",
+            "garage",
+            "attic"
+        ],
+        "correct": 1,
+        "explanation": "La sala de estar o living ('living room') es donde se mira televisión en el sillón.",
+        "id": "q_eng1_sociales_4"
+    },
+    {
+        "grade": "english1",
+        "category": "sociales",
+        "question": "You park your family car in the _______.",
+        "options": [
+            "bedroom",
+            "garage",
+            "kitchen",
+            "bathroom"
+        ],
+        "correct": 1,
+        "explanation": "Guardamos el automóvil en el garaje o cochera ('garage').",
+        "id": "q_eng1_sociales_5"
+    },
+    {
+        "grade": "english1",
+        "category": "sociales",
+        "question": "An outdoor green area with grass and flowers behind the house is the _______.",
+        "options": [
+            "kitchen",
+            "garden",
+            "hall",
+            "balcony"
+        ],
+        "correct": 1,
+        "explanation": "El jardín ('garden') es el espacio exterior con pasto y plantas.",
+        "id": "q_eng1_sociales_6"
+    },
+    {
+        "grade": "english1",
+        "category": "sociales",
+        "question": "Where do you keep cold milk and yogurt in the kitchen?",
+        "options": [
+            "In the wardrobe",
+            "In the fridge",
+            "Under the bed",
+            "On the sofa"
+        ],
+        "correct": 1,
+        "explanation": "Guardamos los alimentos fríos en la heladera ('fridge' o refrigerator).",
+        "id": "q_eng1_sociales_7"
+    },
+    {
+        "grade": "english1",
+        "category": "sociales",
+        "question": "You keep your clothes organized inside a _______ in your bedroom.",
+        "options": [
+            "fridge",
+            "wardrobe",
+            "cooker",
+            "sink"
+        ],
+        "correct": 1,
+        "explanation": "Guardamos la ropa en el ropero o armario ('wardrobe' o closet).",
+        "id": "q_eng1_sociales_8"
+    },
+    {
+        "grade": "english1",
+        "category": "sociales",
+        "question": "You eat dinner together with your family in the _______.",
+        "options": [
+            "bathroom",
+            "dining room",
+            "garage",
+            "garden"
+        ],
+        "correct": 1,
+        "explanation": "Cenamos en el comedor ('dining room').",
+        "id": "q_eng1_sociales_9"
+    },
+    {
+        "grade": "english1",
+        "category": "sociales",
+        "question": "You use a soft _______ to rest your head when sleeping in bed.",
+        "options": [
+            "pillow",
+            "table",
+            "door",
+            "window"
+        ],
+        "correct": 0,
+        "explanation": "Apoyamos la cabeza sobre una almohada suave ('pillow').",
+        "id": "q_eng1_sociales_10"
+    },
+    {
+        "grade": "english1",
+        "category": "sociales",
+        "question": "In winter when it is very cold, you wear a warm _______.",
+        "options": [
+            "T-shirt",
+            "coat",
+            "swimsuit",
+            "shorts"
+        ],
+        "correct": 1,
+        "explanation": "En invierno usamos un abrigo o campera gruesa ('coat' o jacket).",
+        "id": "q_eng1_sociales_11"
+    },
+    {
+        "grade": "english1",
+        "category": "sociales",
+        "question": "You wear _______ on your feet inside your shoes.",
+        "options": [
+            "gloves",
+            "socks",
+            "hats",
+            "belts"
+        ],
+        "correct": 1,
+        "explanation": "Usamos medias o calcetines ('socks') en los pies antes de los zapatos.",
+        "id": "q_eng1_sociales_12"
+    },
+    {
+        "grade": "english1",
+        "category": "sociales",
+        "question": "On a sunny summer day at the beach, you wear _______ and a T-shirt.",
+        "options": [
+            "boots",
+            "shorts",
+            "gloves",
+            "a scarf"
+        ],
+        "correct": 1,
+        "explanation": "En verano y con calor usamos pantalones cortos ('shorts').",
+        "id": "q_eng1_sociales_13"
+    },
+    {
+        "grade": "english1",
+        "category": "sociales",
+        "question": "You wear _______ on your hands when it is freezing cold.",
+        "options": [
+            "shoes",
+            "gloves",
+            "socks",
+            "trousers"
+        ],
+        "correct": 1,
+        "explanation": "Usamos guantes ('gloves') en las manos para protegernos del frío.",
+        "id": "q_eng1_sociales_14"
+    },
+    {
+        "grade": "english1",
+        "category": "sociales",
+        "question": "You wear a _______ around your neck in winter.",
+        "options": [
+            "belt",
+            "scarf",
+            "hat",
+            "sock"
+        ],
+        "correct": 1,
+        "explanation": "Usamos una bufanda ('scarf') alrededor del cuello.",
+        "id": "q_eng1_sociales_15"
+    },
+    {
+        "grade": "english1",
+        "category": "sociales",
+        "question": "Girls and women often wear a pretty _______ to a birthday party.",
+        "options": [
+            "tie",
+            "dress",
+            "cap",
+            "swimsuit"
+        ],
+        "correct": 1,
+        "explanation": "Un vestido ('dress') es una prenda clásica para fiestas y eventos.",
+        "id": "q_eng1_sociales_16"
+    },
+    {
+        "grade": "english1",
+        "category": "sociales",
+        "question": "When it rains, you open your _______ to stay dry.",
+        "options": [
+            "wallet",
+            "umbrella",
+            "backpack",
+            "shoe"
+        ],
+        "correct": 1,
+        "explanation": "Abrimos un paraguas ('umbrella') para no mojarnos con la lluvia.",
+        "id": "q_eng1_sociales_17"
+    },
+    {
+        "grade": "english1",
+        "category": "sociales",
+        "question": "You wear _______ on your feet when you go running or play sports.",
+        "options": [
+            "slippers",
+            "trainers",
+            "high heels",
+            "sandals"
+        ],
+        "correct": 1,
+        "explanation": "Usamos zapatillas deportivas ('trainers' o sneakers) para correr y hacer deportes.",
+        "id": "q_eng1_sociales_18"
+    },
+    {
+        "grade": "english1",
+        "category": "sociales",
+        "question": "You wear a _______ on your head to protect yourself from the sun.",
+        "options": [
+            "cap",
+            "belt",
+            "sock",
+            "scarf"
+        ],
+        "correct": 0,
+        "explanation": "Usamos una gorra ('cap') o sombrero ('hat') en la cabeza para protegernos del sol.",
+        "id": "q_eng1_sociales_19"
+    },
+    {
+        "grade": "english1",
+        "category": "sociales",
+        "question": "What clothes do you wear when you go swimming in a pool?",
+        "options": [
+            "A jacket",
+            "A swimsuit",
+            "A coat",
+            "A scarf"
+        ],
+        "correct": 1,
+        "explanation": "Para nadar en la pileta usamos traje de baño ('swimsuit').",
+        "id": "q_eng1_sociales_20"
+    },
+    {
+        "grade": "english1",
+        "category": "sociales",
+        "question": "What is the first day of the school week?",
+        "options": [
+            "Sunday",
+            "Monday",
+            "Friday",
+            "Saturday"
+        ],
+        "correct": 1,
+        "explanation": "El primer día de la semana escolar es el lunes ('Monday').",
+        "id": "q_eng1_sociales_21"
+    },
+    {
+        "grade": "english1",
+        "category": "sociales",
+        "question": "Which two days make up the weekend?",
+        "options": [
+            "Monday and Tuesday",
+            "Saturday and Sunday",
+            "Thursday and Friday",
+            "Wednesday and Thursday"
+        ],
+        "correct": 1,
+        "explanation": "El fin de semana ('weekend') está formado por sábado ('Saturday') y domingo ('Sunday').",
+        "id": "q_eng1_sociales_22"
+    },
+    {
+        "grade": "english1",
+        "category": "sociales",
+        "question": "What day comes after Tuesday?",
+        "options": [
+            "Monday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+        ],
+        "correct": 1,
+        "explanation": "El día que sigue al martes es el miércoles ('Wednesday').",
+        "id": "q_eng1_sociales_23"
+    },
+    {
+        "grade": "english1",
+        "category": "sociales",
+        "question": "What day comes before Friday?",
+        "options": [
+            "Wednesday",
+            "Thursday",
+            "Saturday",
+            "Sunday"
+        ],
+        "correct": 1,
+        "explanation": "El día anterior al viernes es el jueves ('Thursday').",
+        "id": "q_eng1_sociales_24"
+    },
+    {
+        "grade": "english1",
+        "category": "sociales",
+        "question": "What is the first month of the calendar year?",
+        "options": [
+            "February",
+            "January",
+            "December",
+            "March"
+        ],
+        "correct": 1,
+        "explanation": "El primer mes del año es enero ('January').",
+        "id": "q_eng1_sociales_25"
+    },
+    {
+        "grade": "english1",
+        "category": "sociales",
+        "question": "Christmas is celebrated in the month of _______.",
+        "options": [
+            "October",
+            "November",
+            "December",
+            "January"
+        ],
+        "correct": 2,
+        "explanation": "La Navidad se celebra en el mes de diciembre ('December').",
+        "id": "q_eng1_sociales_26"
+    },
+    {
+        "grade": "english1",
+        "category": "sociales",
+        "question": "How many months are there in one whole year?",
+        "options": [
+            "Seven",
+            "Ten",
+            "Twelve",
+            "Twenty-four"
+        ],
+        "correct": 2,
+        "explanation": "Un año completo tiene 12 meses ('Twelve months').",
+        "id": "q_eng1_sociales_27"
+    },
+    {
+        "grade": "english1",
+        "category": "sociales",
+        "question": "Which month has only 28 or 29 days?",
+        "options": [
+            "January",
+            "February",
+            "March",
+            "April"
+        ],
+        "correct": 1,
+        "explanation": "Febrero ('February') es el mes más corto del año con 28 o 29 días.",
+        "id": "q_eng1_sociales_28"
+    },
+    {
+        "grade": "english1",
+        "category": "sociales",
+        "question": "What day comes after Friday?",
+        "options": [
+            "Thursday",
+            "Saturday",
+            "Sunday",
+            "Monday"
+        ],
+        "correct": 1,
+        "explanation": "El día posterior al viernes es el sábado ('Saturday').",
+        "id": "q_eng1_sociales_29"
+    },
+    {
+        "grade": "english1",
+        "category": "sociales",
+        "question": "The middle day of the regular work week is _______.",
+        "options": [
+            "Monday",
+            "Wednesday",
+            "Friday",
+            "Sunday"
+        ],
+        "correct": 1,
+        "explanation": "El miércoles ('Wednesday') se ubica justo a mitad de la semana laboral.",
+        "id": "q_eng1_sociales_30"
+    },
+    {
+        "grade": "english1",
+        "category": "sociales",
+        "question": "When the sun shines brightly and there are no clouds, the weather is _______.",
+        "options": [
+            "rainy",
+            "sunny",
+            "snowy",
+            "foggy"
+        ],
+        "correct": 1,
+        "explanation": "Cuando brilla el sol y el cielo está despejado, está soleado ('sunny').",
+        "id": "q_eng1_sociales_31"
+    },
+    {
+        "grade": "english1",
+        "category": "sociales",
+        "question": "When water drops fall from the sky, the weather is _______.",
+        "options": [
+            "sunny",
+            "rainy",
+            "windy",
+            "dry"
+        ],
+        "correct": 1,
+        "explanation": "Cuando caen gotas de agua decimos que está lluvioso ('rainy').",
+        "id": "q_eng1_sociales_32"
+    },
+    {
+        "grade": "english1",
+        "category": "sociales",
+        "question": "When white snowflakes fall and cover the streets, it is _______.",
+        "options": [
+            "snowy",
+            "hot",
+            "sunny",
+            "cloudy"
+        ],
+        "correct": 0,
+        "explanation": "Cuando caen copos de nieve el clima es nevado ('snowy').",
+        "id": "q_eng1_sociales_33"
+    },
+    {
+        "grade": "english1",
+        "category": "sociales",
+        "question": "When trees bend and your hat blows away, it is very _______.",
+        "options": [
+            "windy",
+            "calm",
+            "sunny",
+            "hot"
+        ],
+        "correct": 0,
+        "explanation": "Cuando sopla aire con fuerza el clima es ventoso ('windy').",
+        "id": "q_eng1_sociales_34"
+    },
+    {
+        "grade": "english1",
+        "category": "sociales",
+        "question": "Which season is the hottest time of the year with school holidays?",
+        "options": [
+            "Winter",
+            "Summer",
+            "Autumn",
+            "Spring"
+        ],
+        "correct": 1,
+        "explanation": "El verano ('Summer') es la estación más calurosa del año.",
+        "id": "q_eng1_sociales_35"
+    },
+    {
+        "grade": "english1",
+        "category": "sociales",
+        "question": "Which season is the coldest when we wear coats and scarves?",
+        "options": [
+            "Summer",
+            "Spring",
+            "Winter",
+            "Autumn"
+        ],
+        "correct": 2,
+        "explanation": "El invierno ('Winter') es la estación más fría.",
+        "id": "q_eng1_sociales_36"
+    },
+    {
+        "grade": "english1",
+        "category": "sociales",
+        "question": "In which season do brown and yellow leaves fall from the trees?",
+        "options": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "correct": 2,
+        "explanation": "En otoño ('Autumn' o fall) caen las hojas secas de los árboles.",
+        "id": "q_eng1_sociales_37"
+    },
+    {
+        "grade": "english1",
+        "category": "sociales",
+        "question": "What do you need to take when it is rainy outside?",
+        "options": [
+            "Sunglasses",
+            "An umbrella",
+            "A swimsuit",
+            "A fan"
+        ],
+        "correct": 1,
+        "explanation": "Llevamos un paraguas ('An umbrella') para resguardarnos de la lluvia.",
+        "id": "q_eng1_sociales_38"
+    },
+    {
+        "grade": "english1",
+        "category": "sociales",
+        "question": "When the sky is completely grey and covered with clouds, it is _______.",
+        "options": [
+            "sunny",
+            "cloudy",
+            "clear",
+            "hot"
+        ],
+        "correct": 1,
+        "explanation": "Cuando el cielo está cubierto de nubes decimos que está nublado ('cloudy').",
+        "id": "q_eng1_sociales_39"
+    },
+    {
+        "grade": "english1",
+        "category": "sociales",
+        "question": "When you feel very warm in summer, the temperature is _______.",
+        "options": [
+            "cold",
+            "freezing",
+            "hot",
+            "cool"
+        ],
+        "correct": 2,
+        "explanation": "Con temperaturas elevadas en verano decimos que hace calor ('hot').",
+        "id": "q_eng1_sociales_40"
+    },
+    {
+        "grade": "english1",
+        "category": "sociales",
+        "question": "What do you say when you meet someone in the morning?",
+        "options": [
+            "Good night",
+            "Good morning",
+            "Goodbye",
+            "Sweet dreams"
+        ],
+        "correct": 1,
+        "explanation": "Por la mañana saludamos diciendo 'Good morning' (buenos días).",
+        "id": "q_eng1_sociales_41"
+    },
+    {
+        "grade": "english1",
+        "category": "sociales",
+        "question": "What do you say when you go to bed at night?",
+        "options": [
+            "Good morning",
+            "Good night",
+            "Hello",
+            "See you later"
+        ],
+        "correct": 1,
+        "explanation": "Al ir a dormir a la noche decimos 'Good night' (buenas noches).",
+        "id": "q_eng1_sociales_42"
+    },
+    {
+        "grade": "english1",
+        "category": "sociales",
+        "question": "What polite word do you say when asking for something?",
+        "options": [
+            "Thanks",
+            "Please",
+            "Sorry",
+            "Hello"
+        ],
+        "correct": 1,
+        "explanation": "Al pedir algo con educación decimos por favor: 'Please'.",
+        "id": "q_eng1_sociales_43"
+    },
+    {
+        "grade": "english1",
+        "category": "sociales",
+        "question": "What do you say when someone gives you a wonderful present?",
+        "options": [
+            "Please",
+            "Thank you",
+            "Sorry",
+            "Goodbye"
+        ],
+        "correct": 1,
+        "explanation": "Al recibir un regalo o favor agradecemos diciendo 'Thank you' (gracias).",
+        "id": "q_eng1_sociales_44"
+    },
+    {
+        "grade": "english1",
+        "category": "sociales",
+        "question": "If you bump into someone by accident, what do you say?",
+        "options": [
+            "Hello",
+            "I am sorry",
+            "You're welcome",
+            "Good morning"
+        ],
+        "correct": 1,
+        "explanation": "Si tropezamos sin querer pedimos disculpas diciendo 'I am sorry' (lo siento).",
+        "id": "q_eng1_sociales_45"
+    },
+    {
+        "grade": "english1",
+        "category": "sociales",
+        "question": "Where do children go every day to learn with teachers?",
+        "options": [
+            "Hospital",
+            "School",
+            "Supermarket",
+            "Cinema"
+        ],
+        "correct": 1,
+        "explanation": "Los niños asisten a la escuela ('School') para aprender.",
+        "id": "q_eng1_sociales_46"
+    },
+    {
+        "grade": "english1",
+        "category": "sociales",
+        "question": "Where do doctors and nurses take care of sick people?",
+        "options": [
+            "School",
+            "Hospital",
+            "Park",
+            "Museum"
+        ],
+        "correct": 1,
+        "explanation": "El hospital ('Hospital') es donde médicos y enfermeros atienden a los pacientes.",
+        "id": "q_eng1_sociales_47"
+    },
+    {
+        "grade": "english1",
+        "category": "sociales",
+        "question": "Where do you go to buy food, bread and drinks for your home?",
+        "options": [
+            "Cinema",
+            "Supermarket",
+            "Library",
+            "Zoo"
+        ],
+        "correct": 1,
+        "explanation": "Compramos alimentos en el supermercado ('Supermarket').",
+        "id": "q_eng1_sociales_48"
+    },
+    {
+        "grade": "english1",
+        "category": "sociales",
+        "question": "Where can you see wild animals like lions and giraffes safely?",
+        "options": [
+            "School",
+            "Zoo",
+            "Cinema",
+            "Hospital"
+        ],
+        "correct": 1,
+        "explanation": "En el zoológico o bioparque ('Zoo') podemos observar animales de todo el mundo.",
+        "id": "q_eng1_sociales_49"
+    },
+    {
+        "grade": "english1",
+        "category": "sociales",
+        "question": "Where do children play on swings and slides outdoors?",
+        "options": [
+            "Hospital",
+            "Park",
+            "Supermarket",
+            "Bank"
+        ],
+        "correct": 1,
+        "explanation": "Los niños se divierten en los juegos del parque o plaza ('Park').",
+        "id": "q_eng1_sociales_50"
+    },
+    {
+        "grade": "english1",
+        "category": "ingenio",
+        "question": "Which word does NOT belong: Apple, Banana, Orange, Dog?",
+        "options": [
+            "Apple",
+            "Banana",
+            "Orange",
+            "Dog"
+        ],
+        "correct": 3,
+        "explanation": "'Dog' (perro) es un animal, mientras que las otras tres son frutas.",
+        "id": "q_eng1_ingenio_1"
+    },
+    {
+        "grade": "english1",
+        "category": "ingenio",
+        "question": "Which word is the odd one out: Red, Blue, Five, Green?",
+        "options": [
+            "Red",
+            "Blue",
+            "Five",
+            "Green"
+        ],
+        "correct": 2,
+        "explanation": "'Five' (cinco) es un número, mientras que red, blue y green son colores.",
+        "id": "q_eng1_ingenio_2"
+    },
+    {
+        "grade": "english1",
+        "category": "ingenio",
+        "question": "Which animal does NOT belong: Lion, Tiger, Cat, Elephant?",
+        "options": [
+            "Lion",
+            "Tiger",
+            "Cat",
+            "Elephant"
+        ],
+        "correct": 2,
+        "explanation": "'Cat' (gato) es una mascota doméstica, mientras que los demás son animales salvajes.",
+        "id": "q_eng1_ingenio_3"
+    },
+    {
+        "grade": "english1",
+        "category": "ingenio",
+        "question": "Which object does NOT belong in a pencil case: Pen, Rubber, Ruler, Bed?",
+        "options": [
+            "Pen",
+            "Rubber",
+            "Ruler",
+            "Bed"
+        ],
+        "correct": 3,
+        "explanation": "'Bed' (cama) es un mueble del dormitorio, no un útil escolar.",
+        "id": "q_eng1_ingenio_4"
+    },
+    {
+        "grade": "english1",
+        "category": "ingenio",
+        "question": "Which word does NOT belong: Mother, Father, Brother, Pencil?",
+        "options": [
+            "Mother",
+            "Father",
+            "Brother",
+            "Pencil"
+        ],
+        "correct": 3,
+        "explanation": "'Pencil' (lápiz) es un objeto escolar; los otros son miembros de la familia.",
+        "id": "q_eng1_ingenio_5"
+    },
+    {
+        "grade": "english1",
+        "category": "ingenio",
+        "question": "Which vehicle travels on water: Car, Bus, Boat, Bicycle?",
+        "options": [
+            "Car",
+            "Bus",
+            "Boat",
+            "Bicycle"
+        ],
+        "correct": 2,
+        "explanation": "'Boat' (barco) navega por el agua, mientras que los demás van por tierra.",
+        "id": "q_eng1_ingenio_6"
+    },
+    {
+        "grade": "english1",
+        "category": "ingenio",
+        "question": "Which word is NOT a day of the week: Monday, July, Friday, Sunday?",
+        "options": [
+            "Monday",
+            "July",
+            "Friday",
+            "Sunday"
+        ],
+        "correct": 1,
+        "explanation": "'July' (julio) es un mes del año, no un día de la semana.",
+        "id": "q_eng1_ingenio_7"
+    },
+    {
+        "grade": "english1",
+        "category": "ingenio",
+        "question": "Which word is NOT a part of the body: Arm, Leg, Nose, Chair?",
+        "options": [
+            "Arm",
+            "Leg",
+            "Nose",
+            "Chair"
+        ],
+        "correct": 3,
+        "explanation": "'Chair' (silla) es un mueble, mientras que arm, leg y nose son partes del cuerpo.",
+        "id": "q_eng1_ingenio_8"
+    },
+    {
+        "grade": "english1",
+        "category": "ingenio",
+        "question": "Which room is NOT inside a house: Kitchen, Bedroom, Airport, Bathroom?",
+        "options": [
+            "Kitchen",
+            "Bedroom",
+            "Airport",
+            "Bathroom"
+        ],
+        "correct": 2,
+        "explanation": "'Airport' (aeropuerto) es un lugar público de la ciudad, no una habitación de la casa.",
+        "id": "q_eng1_ingenio_9"
+    },
+    {
+        "grade": "english1",
+        "category": "ingenio",
+        "question": "Which word is NOT a piece of clothing: T-shirt, Socks, Shoe, Window?",
+        "options": [
+            "T-shirt",
+            "Socks",
+            "Shoe",
+            "Window"
+        ],
+        "correct": 3,
+        "explanation": "'Window' (ventana) es una abertura de la casa, no una prenda de vestir.",
+        "id": "q_eng1_ingenio_10"
+    },
+    {
+        "grade": "english1",
+        "category": "ingenio",
+        "question": "I am green. I can jump and I can swim. I say 'ribbit'. What am I?",
+        "options": [
+            "A dog",
+            "A frog",
+            "A bird",
+            "A fish"
+        ],
+        "correct": 1,
+        "explanation": "La rana ('A frog') es verde, salta, nada en el agua y hace 'ribbit'.",
+        "id": "q_eng1_ingenio_11"
+    },
+    {
+        "grade": "english1",
+        "category": "ingenio",
+        "question": "I have four legs and a tail. I love bones and I bark: 'Woof woof!'. What am I?",
+        "options": [
+            "A cat",
+            "A dog",
+            "A cow",
+            "A horse"
+        ],
+        "correct": 1,
+        "explanation": "El perro ('A dog') tiene cuatro patas, ladra ('woof') y le gustan los huesos.",
+        "id": "q_eng1_ingenio_12"
+    },
+    {
+        "grade": "english1",
+        "category": "ingenio",
+        "question": "I am yellow. Monkeys love to eat me. Peel my skin and eat. What am I?",
+        "options": [
+            "An apple",
+            "A banana",
+            "An orange",
+            "A strawberry"
+        ],
+        "correct": 1,
+        "explanation": "La banana ('A banana') es amarilla, se pela y es la favorita de los monos.",
+        "id": "q_eng1_ingenio_13"
+    },
+    {
+        "grade": "english1",
+        "category": "ingenio",
+        "question": "I am big and grey. I have a long trunk and two big ears. What am I?",
+        "options": [
+            "A mouse",
+            "An elephant",
+            "A giraffe",
+            "A lion"
+        ],
+        "correct": 1,
+        "explanation": "El elefante ('An elephant') es grande, gris y tiene una trompa larga.",
+        "id": "q_eng1_ingenio_14"
+    },
+    {
+        "grade": "english1",
+        "category": "ingenio",
+        "question": "You can find me on your face. You use me to smell flowers. What am I?",
+        "options": [
+            "Your eyes",
+            "Your nose",
+            "Your mouth",
+            "Your ears"
+        ],
+        "correct": 1,
+        "explanation": "La nariz ('Your nose') está en la cara y sirve para oler.",
+        "id": "q_eng1_ingenio_15"
+    },
+    {
+        "grade": "english1",
+        "category": "ingenio",
+        "question": "I have hands but no arms. I have a face but no eyes. I tell the time. What am I?",
+        "options": [
+            "A book",
+            "A clock",
+            "A mirror",
+            "A phone"
+        ],
+        "correct": 1,
+        "explanation": "El reloj ('A clock') tiene manecillas ('hands'), esfera ('face') y marca la hora.",
+        "id": "q_eng1_ingenio_16"
+    },
+    {
+        "grade": "english1",
+        "category": "ingenio",
+        "question": "I am white and cold. Children make snowmen with me in winter. What am I?",
+        "options": [
+            "Rain",
+            "Snow",
+            "Sun",
+            "Wind"
+        ],
+        "correct": 1,
+        "explanation": "La nieve ('Snow') es blanca, fría y sirve para armar muñecos de nieve.",
+        "id": "q_eng1_ingenio_17"
+    },
+    {
+        "grade": "english1",
+        "category": "ingenio",
+        "question": "I live in the ocean. I have eight long arms and two eyes. What am I?",
+        "options": [
+            "A crab",
+            "An octopus",
+            "A starfish",
+            "A dolphin"
+        ],
+        "correct": 1,
+        "explanation": "El pulpo ('An octopus') tiene ocho tentáculos ('arms').",
+        "id": "q_eng1_ingenio_18"
+    },
+    {
+        "grade": "english1",
+        "category": "ingenio",
+        "question": "I have pages with words and pictures. You read me to learn stories. What am I?",
+        "options": [
+            "A book",
+            "A ruler",
+            "A pencil",
+            "A chair"
+        ],
+        "correct": 0,
+        "explanation": "Un libro ('A book') tiene páginas, ilustraciones y se lee para aprender historias.",
+        "id": "q_eng1_ingenio_19"
+    },
+    {
+        "grade": "english1",
+        "category": "ingenio",
+        "question": "I am tall with many green leaves and a brown trunk. Birds build nests in me. What am I?",
+        "options": [
+            "A flower",
+            "A tree",
+            "A rock",
+            "A house"
+        ],
+        "correct": 1,
+        "explanation": "El árbol ('A tree') tiene tronco leñoso, hojas y nidos de pájaros.",
+        "id": "q_eng1_ingenio_20"
+    },
+    {
+        "grade": "english1",
+        "category": "ingenio",
+        "question": "The cat is sleeping _______ the bed, directly on the floor below it.",
+        "options": [
+            "on",
+            "under",
+            "in",
+            "above"
+        ],
+        "correct": 1,
+        "explanation": "'Under' significa debajo: el gato duerme debajo de la cama en el suelo.",
+        "id": "q_eng1_ingenio_21"
+    },
+    {
+        "grade": "english1",
+        "category": "ingenio",
+        "question": "The apple is _______ the table, resting on its surface.",
+        "options": [
+            "in",
+            "on",
+            "under",
+            "behind"
+        ],
+        "correct": 1,
+        "explanation": "'On' indica que el objeto está sobre la superficie de la mesa.",
+        "id": "q_eng1_ingenio_22"
+    },
+    {
+        "grade": "english1",
+        "category": "ingenio",
+        "question": "The pencils are _______ the pencil case, safely inside it.",
+        "options": [
+            "on",
+            "in",
+            "under",
+            "behind"
+        ],
+        "correct": 1,
+        "explanation": "'In' indica que los lápices están dentro de la cartuchera.",
+        "id": "q_eng1_ingenio_23"
+    },
+    {
+        "grade": "english1",
+        "category": "ingenio",
+        "question": "The boy is hiding _______ the door; you can't see him from the front.",
+        "options": [
+            "behind",
+            "on",
+            "in",
+            "under"
+        ],
+        "correct": 0,
+        "explanation": "'Behind' significa detrás: el niño se esconde detrás de la puerta.",
+        "id": "q_eng1_ingenio_24"
+    },
+    {
+        "grade": "english1",
+        "category": "ingenio",
+        "question": "My best friend sits _______ to me in English class.",
+        "options": [
+            "under",
+            "next",
+            "in",
+            "on"
+        ],
+        "correct": 1,
+        "explanation": "La frase preposicional 'next to' significa al lado de o junto a.",
+        "id": "q_eng1_ingenio_25"
+    },
+    {
+        "grade": "english1",
+        "category": "ingenio",
+        "question": "The dog is standing in _______ of the house, welcoming visitors.",
+        "options": [
+            "front",
+            "behind",
+            "under",
+            "on"
+        ],
+        "correct": 0,
+        "explanation": "La expresión 'in front of' significa delante de la casa.",
+        "id": "q_eng1_ingenio_26"
+    },
+    {
+        "grade": "english1",
+        "category": "ingenio",
+        "question": "The bird is flying _______ the clouds high up in the sky.",
+        "options": [
+            "under",
+            "above",
+            "behind",
+            "in"
+        ],
+        "correct": 1,
+        "explanation": "'Above' significa por encima de las nubes.",
+        "id": "q_eng1_ingenio_27"
+    },
+    {
+        "grade": "english1",
+        "category": "ingenio",
+        "question": "There is a poster of Spider-Man _______ the wall in my room.",
+        "options": [
+            "in",
+            "on",
+            "under",
+            "between"
+        ],
+        "correct": 1,
+        "explanation": "Los pósters y cuadros colgados en la pared se ubican 'on the wall'.",
+        "id": "q_eng1_ingenio_28"
+    },
+    {
+        "grade": "english1",
+        "category": "ingenio",
+        "question": "The ball rolled _______ the sofa and I can't reach it.",
+        "options": [
+            "under",
+            "on",
+            "in",
+            "above"
+        ],
+        "correct": 0,
+        "explanation": "La pelota rodó por debajo del sillón ('under the sofa').",
+        "id": "q_eng1_ingenio_29"
+    },
+    {
+        "grade": "english1",
+        "category": "ingenio",
+        "question": "Anna sits _______ Tom and Lucas in the classroom.",
+        "options": [
+            "between",
+            "under",
+            "on",
+            "behind"
+        ],
+        "correct": 0,
+        "explanation": "'Between' se utiliza para indicar que algo o alguien está en medio de dos elementos.",
+        "id": "q_eng1_ingenio_30"
+    },
+    {
+        "grade": "english1",
+        "category": "ingenio",
+        "question": "What is the opposite of 'big'?",
+        "options": [
+            "Tall",
+            "Small",
+            "Long",
+            "Heavy"
+        ],
+        "correct": 1,
+        "explanation": "El opuesto de grande ('big') es pequeño ('small').",
+        "id": "q_eng1_ingenio_31"
+    },
+    {
+        "grade": "english1",
+        "category": "ingenio",
+        "question": "What is the opposite of 'hot'?",
+        "options": [
+            "Warm",
+            "Cold",
+            "Sunny",
+            "Fast"
+        ],
+        "correct": 1,
+        "explanation": "El antónimo de caliente ('hot') es frío ('cold').",
+        "id": "q_eng1_ingenio_32"
+    },
+    {
+        "grade": "english1",
+        "category": "ingenio",
+        "question": "What is the opposite of 'happy'?",
+        "options": [
+            "Glad",
+            "Sad",
+            "Angry",
+            "Tired"
+        ],
+        "correct": 1,
+        "explanation": "El opuesto de feliz ('happy') es triste ('sad').",
+        "id": "q_eng1_ingenio_33"
+    },
+    {
+        "grade": "english1",
+        "category": "ingenio",
+        "question": "What is the opposite of 'fast'?",
+        "options": [
+            "Quick",
+            "Slow",
+            "Heavy",
+            "Tall"
+        ],
+        "correct": 1,
+        "explanation": "El opuesto de rápido ('fast') es lento ('slow').",
+        "id": "q_eng1_ingenio_34"
+    },
+    {
+        "grade": "english1",
+        "category": "ingenio",
+        "question": "What is the opposite of 'tall'?",
+        "options": [
+            "Short",
+            "Long",
+            "Fat",
+            "Thin"
+        ],
+        "correct": 0,
+        "explanation": "El opuesto de alto ('tall') referido a personas es bajo ('short').",
+        "id": "q_eng1_ingenio_35"
+    },
+    {
+        "grade": "english1",
+        "category": "ingenio",
+        "question": "What is the opposite of 'day'?",
+        "options": [
+            "Morning",
+            "Night",
+            "Evening",
+            "Noon"
+        ],
+        "correct": 1,
+        "explanation": "El opuesto de día ('day') es noche ('night').",
+        "id": "q_eng1_ingenio_36"
+    },
+    {
+        "grade": "english1",
+        "category": "ingenio",
+        "question": "What is the opposite of 'clean'?",
+        "options": [
+            "Dirty",
+            "Nice",
+            "Tidy",
+            "Bright"
+        ],
+        "correct": 0,
+        "explanation": "El opuesto de limpio ('clean') es sucio ('dirty').",
+        "id": "q_eng1_ingenio_37"
+    },
+    {
+        "grade": "english1",
+        "category": "ingenio",
+        "question": "What is the opposite of 'open'?",
+        "options": [
+            "Closed",
+            "Free",
+            "Wide",
+            "Near"
+        ],
+        "correct": 0,
+        "explanation": "El opuesto de abierto ('open') es cerrado ('closed').",
+        "id": "q_eng1_ingenio_38"
+    },
+    {
+        "grade": "english1",
+        "category": "ingenio",
+        "question": "What is the opposite of 'good'?",
+        "options": [
+            "Nice",
+            "Bad",
+            "Fine",
+            "Great"
+        ],
+        "correct": 1,
+        "explanation": "El opuesto de bueno ('good') es malo ('bad').",
+        "id": "q_eng1_ingenio_39"
+    },
+    {
+        "grade": "english1",
+        "category": "ingenio",
+        "question": "What is the opposite of 'old' when talking about a person?",
+        "options": [
+            "Young",
+            "New",
+            "Modern",
+            "Fresh"
+        ],
+        "correct": 0,
+        "explanation": "Para personas, el opuesto de anciano/viejo ('old') es joven ('young').",
+        "id": "q_eng1_ingenio_40"
+    },
+    {
+        "grade": "english1",
+        "category": "ingenio",
+        "question": "Unscramble the letters to find an animal: D - O - G",
+        "options": [
+            "CAT",
+            "DOG",
+            "PIG",
+            "COW"
+        ],
+        "correct": 1,
+        "explanation": "Las letras D-O-G forman la palabra DOG (perro).",
+        "id": "q_eng1_ingenio_41"
+    },
+    {
+        "grade": "english1",
+        "category": "ingenio",
+        "question": "Unscramble the letters to find a colour: B - L - U - E",
+        "options": [
+            "RED",
+            "BLUE",
+            "PINK",
+            "GREY"
+        ],
+        "correct": 1,
+        "explanation": "Las letras B-L-U-E forman el color BLUE (azul).",
+        "id": "q_eng1_ingenio_42"
+    },
+    {
+        "grade": "english1",
+        "category": "ingenio",
+        "question": "Which word is spelled correctly?",
+        "options": [
+            "Skool",
+            "School",
+            "Scool",
+            "Schol"
+        ],
+        "correct": 1,
+        "explanation": "La palabra escuela se escribe correctamente 'School'.",
+        "id": "q_eng1_ingenio_43"
+    },
+    {
+        "grade": "english1",
+        "category": "ingenio",
+        "question": "Which word is spelled correctly for the number 3?",
+        "options": [
+            "Tree",
+            "Three",
+            "Tre",
+            "Thre"
+        ],
+        "correct": 1,
+        "explanation": "El número 3 se escribe 'Three' ('tree' significa árbol).",
+        "id": "q_eng1_ingenio_44"
+    },
+    {
+        "grade": "english1",
+        "category": "ingenio",
+        "question": "Unscramble the letters to find a fruit: A - P - P - L - E",
+        "options": [
+            "BANANA",
+            "ORANGE",
+            "APPLE",
+            "PEAR"
+        ],
+        "correct": 2,
+        "explanation": "Las letras A-P-P-L-E forman APPLE (manzana).",
+        "id": "q_eng1_ingenio_45"
+    },
+    {
+        "grade": "english1",
+        "category": "ingenio",
+        "question": "How many letters are there in the English word 'FRIEND'?",
+        "options": [
+            "Five",
+            "Six",
+            "Seven",
+            "Eight"
+        ],
+        "correct": 1,
+        "explanation": "F-R-I-E-N-D tiene 6 letras ('Six letters').",
+        "id": "q_eng1_ingenio_46"
+    },
+    {
+        "grade": "english1",
+        "category": "ingenio",
+        "question": "What is the missing vowel in the word: P _ N C I L?",
+        "options": [
+            "A",
+            "E",
+            "O",
+            "U"
+        ],
+        "correct": 1,
+        "explanation": "La vocal que falta en lapiz es la 'E': P-E-N-C-I-L.",
+        "id": "q_eng1_ingenio_47"
+    },
+    {
+        "grade": "english1",
+        "category": "ingenio",
+        "question": "If you have 4 apples and you eat 1, how many apples do you have left?",
+        "options": [
+            "Two",
+            "Three",
+            "Four",
+            "Five"
+        ],
+        "correct": 1,
+        "explanation": "4 - 1 = 3 ('Three apples').",
+        "id": "q_eng1_ingenio_48"
+    },
+    {
+        "grade": "english1",
+        "category": "ingenio",
+        "question": "What letter comes after 'M' in the English alphabet?",
+        "options": [
+            "L",
+            "N",
+            "O",
+            "P"
+        ],
+        "correct": 1,
+        "explanation": "En el abecedario, la letra que sigue a la M es la N (L, M, N, O...).",
+        "id": "q_eng1_ingenio_49"
+    },
+    {
+        "grade": "english1",
+        "category": "ingenio",
+        "question": "Unscramble the letters: B - O - O - K. What object is it?",
+        "options": [
+            "PEN",
+            "DESK",
+            "BOOK",
+            "DOOR"
+        ],
+        "correct": 2,
+        "explanation": "B-O-O-K forma la palabra BOOK (libro).",
+        "id": "q_eng1_ingenio_50"
+    }
+    ,
+    {
+        "grade": "english2",
+        "category": "matematica",
+        "question": "Yesterday I _______ at home all afternoon studying for my test.",
+        "options": [
+            "was",
+            "were",
+            "is",
+            "are"
+        ],
+        "correct": 0,
+        "explanation": "Con la primera persona 'I' en pasado simple se utiliza 'was' ('I was at home').",
+        "id": "q_eng2_matematica_1"
+    },
+    {
+        "grade": "english2",
+        "category": "matematica",
+        "question": "Where _______ you last Saturday evening?",
+        "options": [
+            "was",
+            "were",
+            "are",
+            "did"
+        ],
+        "correct": 1,
+        "explanation": "Con el pronombre 'you' en pasado se pregunta con 'were': 'Where were you?'.",
+        "id": "q_eng2_matematica_2"
+    },
+    {
+        "grade": "english2",
+        "category": "matematica",
+        "question": "The weather _______ wonderful during our holiday in Salta.",
+        "options": [
+            "were",
+            "was",
+            "is",
+            "be"
+        ],
+        "correct": 1,
+        "explanation": "'The weather' es incontable y singular ('it'), por lo que lleva 'was'.",
+        "id": "q_eng2_matematica_3"
+    },
+    {
+        "grade": "english2",
+        "category": "matematica",
+        "question": "Tom and Jerry _______ very noisy yesterday.",
+        "options": [
+            "was",
+            "were",
+            "is",
+            "did"
+        ],
+        "correct": 1,
+        "explanation": "'Tom and Jerry' es un sujeto plural ('they'), por lo que corresponde 'were'.",
+        "id": "q_eng2_matematica_4"
+    },
+    {
+        "grade": "english2",
+        "category": "matematica",
+        "question": "She _______ at school on Monday because she had a cold.",
+        "options": [
+            "wasn't",
+            "weren't",
+            "isn't",
+            "didn't"
+        ],
+        "correct": 0,
+        "explanation": "La forma negativa de pasado para 'she' es 'wasn't' (was not).",
+        "id": "q_eng2_matematica_5"
+    },
+    {
+        "grade": "english2",
+        "category": "matematica",
+        "question": "We _______ very tired after running the five-kilometre race.",
+        "options": [
+            "was",
+            "were",
+            "are",
+            "be"
+        ],
+        "correct": 1,
+        "explanation": "Con el pronombre plural 'We' (nosotros) se utiliza 'were' en pasado.",
+        "id": "q_eng2_matematica_6"
+    },
+    {
+        "grade": "english2",
+        "category": "matematica",
+        "question": "_______ there many people at the cinema last night?",
+        "options": [
+            "Was",
+            "Were",
+            "Did",
+            "Are"
+        ],
+        "correct": 1,
+        "explanation": "Con el sustantivo plural 'many people' (mucha gente) en pasado se usa 'Were there...?'.",
+        "id": "q_eng2_matematica_7"
+    },
+    {
+        "grade": "english2",
+        "category": "matematica",
+        "question": "There _______ a great concert in the central park last weekend.",
+        "options": [
+            "were",
+            "was",
+            "are",
+            "did"
+        ],
+        "correct": 1,
+        "explanation": "Con el sustantivo singular 'a great concert' se emplea 'There was'.",
+        "id": "q_eng2_matematica_8"
+    },
+    {
+        "grade": "english2",
+        "category": "matematica",
+        "question": "Was your mother angry with you? - No, she _______.",
+        "options": [
+            "wasn't",
+            "weren't",
+            "didn't",
+            "isn't"
+        ],
+        "correct": 0,
+        "explanation": "En la respuesta corta negativa con 'she' y was se contesta 'No, she wasn't'.",
+        "id": "q_eng2_matematica_9"
+    },
+    {
+        "grade": "english2",
+        "category": "matematica",
+        "question": "Why _______ they late for class this morning?",
+        "options": [
+            "was",
+            "were",
+            "did",
+            "are"
+        ],
+        "correct": 1,
+        "explanation": "Con 'they' en pasado la forma interrogativa correcta es 'Why were they late?'.",
+        "id": "q_eng2_matematica_10"
+    },
+    {
+        "grade": "english2",
+        "category": "matematica",
+        "question": "Last night we _______ an exciting action movie on television.",
+        "options": [
+            "watch",
+            "watched",
+            "watching",
+            "watches"
+        ],
+        "correct": 1,
+        "explanation": "El verbo regular 'watch' forma su pasado simple agregando -ed: 'watched'.",
+        "id": "q_eng2_matematica_11"
+    },
+    {
+        "grade": "english2",
+        "category": "matematica",
+        "question": "My sister _______ English for two hours yesterday afternoon.",
+        "options": [
+            "studyed",
+            "studied",
+            "studys",
+            "study"
+        ],
+        "correct": 1,
+        "explanation": "En verbos terminados en consonante + 'y' como 'study', se cambia la 'y' por 'i' antes de -ed: 'studied'.",
+        "id": "q_eng2_matematica_12"
+    },
+    {
+        "grade": "english2",
+        "category": "matematica",
+        "question": "He _______ tennis with his friends last Sunday.",
+        "options": [
+            "played",
+            "plaied",
+            "plays",
+            "playing"
+        ],
+        "correct": 0,
+        "explanation": "Como 'play' termina en vocal + 'y', simplemente se agrega -ed: 'played'.",
+        "id": "q_eng2_matematica_13"
+    },
+    {
+        "grade": "english2",
+        "category": "matematica",
+        "question": "The bus _______ suddenly at the red traffic light.",
+        "options": [
+            "stoped",
+            "stopped",
+            "stops",
+            "stopping"
+        ],
+        "correct": 1,
+        "explanation": "En verbos monosílabos con consonante-vocal-consonante como 'stop', se duplica la consonante final: 'stopped'.",
+        "id": "q_eng2_matematica_14"
+    },
+    {
+        "grade": "english2",
+        "category": "matematica",
+        "question": "We _______ to the music and danced all night at the party.",
+        "options": [
+            "listened",
+            "listen",
+            "listenned",
+            "listening"
+        ],
+        "correct": 0,
+        "explanation": "El verbo 'listen' forma su pasado regular como 'listened'.",
+        "id": "q_eng2_matematica_15"
+    },
+    {
+        "grade": "english2",
+        "category": "matematica",
+        "question": "They _______ in a beautiful house near the beach ten years ago.",
+        "options": [
+            "lived",
+            "liveed",
+            "livved",
+            "living"
+        ],
+        "correct": 0,
+        "explanation": "En verbos que terminan en 'e' como 'live', solo se agrega una -d: 'lived'.",
+        "id": "q_eng2_matematica_16"
+    },
+    {
+        "grade": "english2",
+        "category": "matematica",
+        "question": "Lucas _______ his bedroom yesterday morning.",
+        "options": [
+            "tidyed",
+            "tidied",
+            "tidyes",
+            "tidying"
+        ],
+        "correct": 1,
+        "explanation": "El verbo 'tidy' termina en consonante + 'y', por lo que su pasado regular es 'tidied'.",
+        "id": "q_eng2_matematica_17"
+    },
+    {
+        "grade": "english2",
+        "category": "matematica",
+        "question": "I _______ my grandparents on the phone yesterday.",
+        "options": [
+            "called",
+            "calld",
+            "called",
+            "calling"
+        ],
+        "correct": 0,
+        "explanation": "El pasado regular de 'call' es 'called'.",
+        "id": "q_eng2_matematica_18"
+    },
+    {
+        "grade": "english2",
+        "category": "matematica",
+        "question": "She _______ delicious chocolate cookies for the whole family.",
+        "options": [
+            "baked",
+            "bakeed",
+            "baking",
+            "bakes"
+        ],
+        "correct": 0,
+        "explanation": "'Bake' termina en -e, por lo que su pasado regular es 'baked'.",
+        "id": "q_eng2_matematica_19"
+    },
+    {
+        "grade": "english2",
+        "category": "matematica",
+        "question": "The baby _______ a lot during the night because his tooth hurt.",
+        "options": [
+            "cried",
+            "cryed",
+            "crying",
+            "cries"
+        ],
+        "correct": 0,
+        "explanation": "El verbo 'cry' cambia su 'y' por 'i' + -ed: 'cried'.",
+        "id": "q_eng2_matematica_20"
+    },
+    {
+        "grade": "english2",
+        "category": "matematica",
+        "question": "Last year we _______ to Bariloche on our winter holiday.",
+        "options": [
+            "go",
+            "went",
+            "goed",
+            "gone"
+        ],
+        "correct": 1,
+        "explanation": "El pasado irregular del verbo 'go' (ir) es 'went'.",
+        "id": "q_eng2_matematica_21"
+    },
+    {
+        "grade": "english2",
+        "category": "matematica",
+        "question": "I _______ a very interesting documentary about dinosaurs yesterday.",
+        "options": [
+            "see",
+            "saw",
+            "seen",
+            "seed"
+        ],
+        "correct": 1,
+        "explanation": "El pasado simple del verbo irregular 'see' (ver) es 'saw'.",
+        "id": "q_eng2_matematica_22"
+    },
+    {
+        "grade": "english2",
+        "category": "matematica",
+        "question": "She _______ delicious pasta and a salad for lunch.",
+        "options": [
+            "eat",
+            "ate",
+            "eated",
+            "eaten"
+        ],
+        "correct": 1,
+        "explanation": "El pasado simple del verbo 'eat' (comer) es 'ate'.",
+        "id": "q_eng2_matematica_23"
+    },
+    {
+        "grade": "english2",
+        "category": "matematica",
+        "question": "My father _______ a new blue car two months ago.",
+        "options": [
+            "bought",
+            "buyed",
+            "buy",
+            "boughted"
+        ],
+        "correct": 0,
+        "explanation": "El pasado irregular de 'buy' (comprar) es 'bought'.",
+        "id": "q_eng2_matematica_24"
+    },
+    {
+        "grade": "english2",
+        "category": "matematica",
+        "question": "They _______ their homework before going out to play.",
+        "options": [
+            "did",
+            "doed",
+            "done",
+            "does"
+        ],
+        "correct": 0,
+        "explanation": "El pasado simple del verbo 'do' (hacer) es 'did'.",
+        "id": "q_eng2_matematica_25"
+    },
+    {
+        "grade": "english2",
+        "category": "matematica",
+        "question": "We _______ three glasses of fresh orange juice after running.",
+        "options": [
+            "drink",
+            "drank",
+            "drunk",
+            "drinked"
+        ],
+        "correct": 1,
+        "explanation": "El pasado simple del verbo 'drink' (beber) es 'drank'.",
+        "id": "q_eng2_matematica_26"
+    },
+    {
+        "grade": "english2",
+        "category": "matematica",
+        "question": "He _______ a letter to his pen friend in London.",
+        "options": [
+            "write",
+            "wrote",
+            "written",
+            "writed"
+        ],
+        "correct": 1,
+        "explanation": "El pasado irregular del verbo 'write' (escribir) es 'wrote'.",
+        "id": "q_eng2_matematica_27"
+    },
+    {
+        "grade": "english2",
+        "category": "matematica",
+        "question": "I _______ my house keys at school yesterday.",
+        "options": [
+            "lost",
+            "losed",
+            "lose",
+            "losted"
+        ],
+        "correct": 0,
+        "explanation": "El pasado simple del verbo 'lose' (perder) es 'lost'.",
+        "id": "q_eng2_matematica_28"
+    },
+    {
+        "grade": "english2",
+        "category": "matematica",
+        "question": "She _______ a lovely present from her best friend on her birthday.",
+        "options": [
+            "took",
+            "had",
+            "got",
+            "all options are grammatically correct past forms"
+        ],
+        "correct": 3,
+        "explanation": "'Got', 'had' y 'took' son formas de pasado; 'got' (recibió) es la más habitual para regalos.",
+        "id": "q_eng2_matematica_29"
+    },
+    {
+        "grade": "english2",
+        "category": "matematica",
+        "question": "Martin _______ early this morning and caught the first bus.",
+        "options": [
+            "woke up",
+            "waked up",
+            "woken up",
+            "wake up"
+        ],
+        "correct": 0,
+        "explanation": "El pasado simple de 'wake up' (despertarse) es el irregular 'woke up'.",
+        "id": "q_eng2_matematica_30"
+    },
+    {
+        "grade": "english2",
+        "category": "matematica",
+        "question": "I _______ go to the cinema yesterday because I had no money.",
+        "options": [
+            "didn't",
+            "don't",
+            "wasn't",
+            "haven't"
+        ],
+        "correct": 0,
+        "explanation": "En pasado simple la negación se forma con el auxiliar 'didn't' + verbo en infinitivo: 'didn't go'.",
+        "id": "q_eng2_matematica_31"
+    },
+    {
+        "grade": "english2",
+        "category": "matematica",
+        "question": "She didn't _______ the football match on TV last night.",
+        "options": [
+            "watched",
+            "watch",
+            "watching",
+            "watches"
+        ],
+        "correct": 1,
+        "explanation": "Luego del auxiliar negativo 'didn't', el verbo principal siempre va en su forma base o infinitivo: 'watch'.",
+        "id": "q_eng2_matematica_32"
+    },
+    {
+        "grade": "english2",
+        "category": "matematica",
+        "question": "_______ you see the fireworks yesterday evening?",
+        "options": [
+            "Do",
+            "Did",
+            "Were",
+            "Was"
+        ],
+        "correct": 1,
+        "explanation": "Para formular preguntas en pasado simple con cualquier persona se usa el auxiliar 'Did' al comienzo.",
+        "id": "q_eng2_matematica_33"
+    },
+    {
+        "grade": "english2",
+        "category": "matematica",
+        "question": "Did Martin finish his science project? - Yes, he _______.",
+        "options": [
+            "did",
+            "finished",
+            "was",
+            "does"
+        ],
+        "correct": 0,
+        "explanation": "La respuesta corta afirmativa en pasado simple con 'Did' es 'Yes, he did'.",
+        "id": "q_eng2_matematica_34"
+    },
+    {
+        "grade": "english2",
+        "category": "matematica",
+        "question": "Did they travel by train? - No, they _______.",
+        "options": [
+            "didn't",
+            "weren't",
+            "don't",
+            "not did"
+        ],
+        "correct": 0,
+        "explanation": "La respuesta corta negativa en pasado simple es 'No, they didn't'.",
+        "id": "q_eng2_matematica_35"
+    },
+    {
+        "grade": "english2",
+        "category": "matematica",
+        "question": "Where _______ you go for your last summer vacation?",
+        "options": [
+            "did",
+            "were",
+            "went",
+            "do"
+        ],
+        "correct": 0,
+        "explanation": "Estructura interrogativa en pasado: Wh-word + did + sujeto + verbo base: 'Where did you go?'.",
+        "id": "q_eng2_matematica_36"
+    },
+    {
+        "grade": "english2",
+        "category": "matematica",
+        "question": "Why did she _______ during the movie?",
+        "options": [
+            "cry",
+            "cried",
+            "crying",
+            "cries"
+        ],
+        "correct": 0,
+        "explanation": "El verbo que acompaña al auxiliar 'did' en la pregunta debe permanecer en su forma base: 'cry'.",
+        "id": "q_eng2_matematica_37"
+    },
+    {
+        "grade": "english2",
+        "category": "matematica",
+        "question": "We didn't _______ any photos because we forgot our camera.",
+        "options": [
+            "took",
+            "take",
+            "taking",
+            "taken"
+        ],
+        "correct": 1,
+        "explanation": "Tras 'didn't' se utiliza el verbo en infinitivo: 'didn't take'.",
+        "id": "q_eng2_matematica_38"
+    },
+    {
+        "grade": "english2",
+        "category": "matematica",
+        "question": "What time did you _______ up this morning?",
+        "options": [
+            "woke",
+            "wake",
+            "waking",
+            "wakes"
+        ],
+        "correct": 1,
+        "explanation": "En la pregunta con 'did', el verbo va en infinitivo: 'wake'.",
+        "id": "q_eng2_matematica_39"
+    },
+    {
+        "grade": "english2",
+        "category": "matematica",
+        "question": "He _______ eat meat when he was young, but now he does.",
+        "options": [
+            "didn't",
+            "wasn't",
+            "don't",
+            "not"
+        ],
+        "correct": 0,
+        "explanation": "La negación en pasado para el verbo 'eat' es 'didn't eat'.",
+        "id": "q_eng2_matematica_40"
+    },
+    {
+        "grade": "english2",
+        "category": "matematica",
+        "question": "I visited my grandparents three days _______.",
+        "options": [
+            "before",
+            "ago",
+            "last",
+            "yesterday"
+        ],
+        "correct": 1,
+        "explanation": "'Ago' se coloca al final de un período de tiempo para indicar hace cuánto ocurrió: 'three days ago'.",
+        "id": "q_eng2_matematica_41"
+    },
+    {
+        "grade": "english2",
+        "category": "matematica",
+        "question": "We had an English exam _______ Friday.",
+        "options": [
+            "ago",
+            "last",
+            "yesterday",
+            "in"
+        ],
+        "correct": 1,
+        "explanation": "Usamos 'last' con días de la semana y períodos pasados: 'last Friday' (el viernes pasado).",
+        "id": "q_eng2_matematica_42"
+    },
+    {
+        "grade": "english2",
+        "category": "matematica",
+        "question": "She arrived in Buenos Aires _______ morning.",
+        "options": [
+            "yesterday",
+            "last",
+            "ago",
+            "passed"
+        ],
+        "correct": 0,
+        "explanation": "La expresión correcta para 'ayer por la mañana' es 'yesterday morning'.",
+        "id": "q_eng2_matematica_43"
+    },
+    {
+        "grade": "english2",
+        "category": "matematica",
+        "question": "He bought that mobile phone two years _______.",
+        "options": [
+            "ago",
+            "last",
+            "before",
+            "past"
+        ],
+        "correct": 0,
+        "explanation": "Se utiliza 'ago' para expresar 'hace dos años': 'two years ago'.",
+        "id": "q_eng2_matematica_44"
+    },
+    {
+        "grade": "english2",
+        "category": "matematica",
+        "question": "Where were you _______ night at eight o'clock?",
+        "options": [
+            "yesterday",
+            "last",
+            "ago",
+            "passed"
+        ],
+        "correct": 1,
+        "explanation": "La expresión habitual en inglés para anoche es 'last night'.",
+        "id": "q_eng2_matematica_45"
+    },
+    {
+        "grade": "english2",
+        "category": "matematica",
+        "question": "They moved to Mendoza _______ 2018.",
+        "options": [
+            "in",
+            "at",
+            "on",
+            "ago"
+        ],
+        "correct": 0,
+        "explanation": "Para indicar años específicos en pasado se utiliza la preposición 'in': 'in 2018'.",
+        "id": "q_eng2_matematica_46"
+    },
+    {
+        "grade": "english2",
+        "category": "matematica",
+        "question": "I saw an eagle in the mountains the day before _______.",
+        "options": [
+            "yesterday",
+            "last",
+            "ago",
+            "before"
+        ],
+        "correct": 0,
+        "explanation": "'The day before yesterday' es la frase idiomática para decir 'anteayer'.",
+        "id": "q_eng2_matematica_47"
+    },
+    {
+        "grade": "english2",
+        "category": "matematica",
+        "question": "Did you speak to your teacher _______ afternoon?",
+        "options": [
+            "yesterday",
+            "last",
+            "ago",
+            "then"
+        ],
+        "correct": 0,
+        "explanation": "'Yesterday afternoon' significa 'ayer por la tarde'.",
+        "id": "q_eng2_matematica_48"
+    },
+    {
+        "grade": "english2",
+        "category": "matematica",
+        "question": "Our team won the championship _______ month.",
+        "options": [
+            "last",
+            "ago",
+            "yesterday",
+            "in"
+        ],
+        "correct": 0,
+        "explanation": "Usamos 'last month' para decir 'el mes pasado'.",
+        "id": "q_eng2_matematica_49"
+    },
+    {
+        "grade": "english2",
+        "category": "matematica",
+        "question": "How long _______ did you finish your homework?",
+        "options": [
+            "ago",
+            "last",
+            "yesterday",
+            "before"
+        ],
+        "correct": 0,
+        "explanation": "'How long ago...?' es la pregunta estándar para '¿Hace cuánto tiempo...?'",
+        "id": "q_eng2_matematica_50"
+    },
+    {
+        "grade": "english2",
+        "category": "lengua",
+        "question": "An elephant is _______ than a horse.",
+        "options": [
+            "bigger",
+            "biger",
+            "more big",
+            "biggest"
+        ],
+        "correct": 0,
+        "explanation": "En adjetivos cortos con consonante-vocal-consonante como 'big', se duplica la consonante + -er: 'bigger than'.",
+        "id": "q_eng2_lengua_1"
+    },
+    {
+        "grade": "english2",
+        "category": "lengua",
+        "question": "A giraffe is _______ than a lion.",
+        "options": [
+            "taller",
+            "more tall",
+            "tallest",
+            "as tall"
+        ],
+        "correct": 0,
+        "explanation": "Para el adjetivo corto 'tall' se añade el sufijo -er: 'taller than' (más alto que).",
+        "id": "q_eng2_lengua_2"
+    },
+    {
+        "grade": "english2",
+        "category": "lengua",
+        "question": "A cheetah runs _______ than a rabbit.",
+        "options": [
+            "faster",
+            "more fast",
+            "fastest",
+            "fast"
+        ],
+        "correct": 0,
+        "explanation": "El comparativo de 'fast' es 'faster than' (más rápido que).",
+        "id": "q_eng2_lengua_3"
+    },
+    {
+        "grade": "english2",
+        "category": "lengua",
+        "question": "Winter is usually _______ than spring in Argentina.",
+        "options": [
+            "colder",
+            "coldest",
+            "more cold",
+            "as cold"
+        ],
+        "correct": 0,
+        "explanation": "El comparativo de 'cold' es 'colder than' (más frío que).",
+        "id": "q_eng2_lengua_4"
+    },
+    {
+        "grade": "english2",
+        "category": "lengua",
+        "question": "A plane is _______ than a bicycle.",
+        "options": [
+            "faster",
+            "more fast",
+            "fastest",
+            "slow"
+        ],
+        "correct": 0,
+        "explanation": "Un avión es más rápido ('faster than') que una bicicleta.",
+        "id": "q_eng2_lengua_5"
+    },
+    {
+        "grade": "english2",
+        "category": "lengua",
+        "question": "My bedroom is _______ than my sister's bedroom.",
+        "options": [
+            "larger",
+            "more large",
+            "largest",
+            "as large"
+        ],
+        "correct": 0,
+        "explanation": "Los adjetivos cortos terminados en -e como 'large' solo agregan -r: 'larger than'.",
+        "id": "q_eng2_lengua_6"
+    },
+    {
+        "grade": "english2",
+        "category": "lengua",
+        "question": "Today is _______ than yesterday; the sun is shining brightly.",
+        "options": [
+            "hotter",
+            "hoter",
+            "more hot",
+            "hottest"
+        ],
+        "correct": 0,
+        "explanation": "El comparativo del adjetivo 'hot' duplica la 't': 'hotter than'.",
+        "id": "q_eng2_lengua_7"
+    },
+    {
+        "grade": "english2",
+        "category": "lengua",
+        "question": "This puzzle is _______ than the last one.",
+        "options": [
+            "easier",
+            "easyer",
+            "more easy",
+            "easiest"
+        ],
+        "correct": 0,
+        "explanation": "Adjetivos de dos sílabas terminados en -y como 'easy' cambian la -y por -ier: 'easier than'.",
+        "id": "q_eng2_lengua_8"
+    },
+    {
+        "grade": "english2",
+        "category": "lengua",
+        "question": "A mouse is _______ than a cat.",
+        "options": [
+            "smaller",
+            "more small",
+            "smallest",
+            "as small"
+        ],
+        "correct": 0,
+        "explanation": "El comparativo de 'small' es 'smaller than' (más pequeño que).",
+        "id": "q_eng2_lengua_9"
+    },
+    {
+        "grade": "english2",
+        "category": "lengua",
+        "question": "The blue whale is _______ than any other animal on Earth.",
+        "options": [
+            "heavier",
+            "heavyer",
+            "more heavy",
+            "heaviest"
+        ],
+        "correct": 0,
+        "explanation": "'Heavy' cambia la -y por -ier: 'heavier than' (más pesado que).",
+        "id": "q_eng2_lengua_10"
+    },
+    {
+        "grade": "english2",
+        "category": "lengua",
+        "question": "A sports car is _______ than a regular bicycle.",
+        "options": [
+            "more expensive",
+            "expensiver",
+            "most expensive",
+            "as expensive"
+        ],
+        "correct": 0,
+        "explanation": "Los adjetivos largos de tres o más sílabas forman el comparativo con 'more ... than': 'more expensive than'.",
+        "id": "q_eng2_lengua_11"
+    },
+    {
+        "grade": "english2",
+        "category": "lengua",
+        "question": "Science fiction movies are _______ than documentaries for most kids.",
+        "options": [
+            "more exciting",
+            "excitinger",
+            "most exciting",
+            "as exciting"
+        ],
+        "correct": 0,
+        "explanation": "Con el adjetivo largo 'exciting' se utiliza 'more exciting than' (más emocionante que).",
+        "id": "q_eng2_lengua_12"
+    },
+    {
+        "grade": "english2",
+        "category": "lengua",
+        "question": "A lion is _______ than a domestic cat.",
+        "options": [
+            "more dangerous",
+            "dangerouser",
+            "most dangerous",
+            "dangerous"
+        ],
+        "correct": 0,
+        "explanation": "'Dangerous' es un adjetivo largo, por lo que su comparativo es 'more dangerous than'.",
+        "id": "q_eng2_lengua_13"
+    },
+    {
+        "grade": "english2",
+        "category": "lengua",
+        "question": "London is _______ than Cambridge.",
+        "options": [
+            "more crowded",
+            "crowdeder",
+            "most crowded",
+            "crowded"
+        ],
+        "correct": 0,
+        "explanation": "Con 'crowded' (concurrido) se utiliza 'more crowded than'.",
+        "id": "q_eng2_lengua_14"
+    },
+    {
+        "grade": "english2",
+        "category": "lengua",
+        "question": "Watching a film in 3D is _______ than watching it on a phone.",
+        "options": [
+            "more interesting",
+            "interestinger",
+            "most interesting",
+            "interesting"
+        ],
+        "correct": 0,
+        "explanation": "El comparativo del adjetivo largo 'interesting' es 'more interesting than'.",
+        "id": "q_eng2_lengua_15"
+    },
+    {
+        "grade": "english2",
+        "category": "lengua",
+        "question": "A diamond ring is _______ than a plastic toy.",
+        "options": [
+            "more valuable",
+            "valuabler",
+            "most valuable",
+            "valuable"
+        ],
+        "correct": 0,
+        "explanation": "'Valuable' forma su comparación de superioridad con 'more valuable than'.",
+        "id": "q_eng2_lengua_16"
+    },
+    {
+        "grade": "english2",
+        "category": "lengua",
+        "question": "Playing chess is _______ than playing tic-tac-toe.",
+        "options": [
+            "more difficult",
+            "difficulter",
+            "most difficult",
+            "difficult"
+        ],
+        "correct": 0,
+        "explanation": "Con el adjetivo 'difficult' se usa 'more difficult than'.",
+        "id": "q_eng2_lengua_17"
+    },
+    {
+        "grade": "english2",
+        "category": "lengua",
+        "question": "A sofa is _______ than a wooden chair.",
+        "options": [
+            "more comfortable",
+            "comfortabler",
+            "most comfortable",
+            "comfortable"
+        ],
+        "correct": 0,
+        "explanation": "El comparativo de 'comfortable' es 'more comfortable than' (más cómodo que).",
+        "id": "q_eng2_lengua_18"
+    },
+    {
+        "grade": "english2",
+        "category": "lengua",
+        "question": "My sister is _______ than my brother when drawing pictures.",
+        "options": [
+            "more creative",
+            "creativer",
+            "most creative",
+            "creative"
+        ],
+        "correct": 0,
+        "explanation": "El comparativo de 'creative' se forma con 'more creative than'.",
+        "id": "q_eng2_lengua_19"
+    },
+    {
+        "grade": "english2",
+        "category": "lengua",
+        "question": "Dolphins are considered _______ than sharks.",
+        "options": [
+            "more intelligent",
+            "intelligenter",
+            "most intelligent",
+            "intelligent"
+        ],
+        "correct": 0,
+        "explanation": "Con 'intelligent' se usa la estructura 'more intelligent than'.",
+        "id": "q_eng2_lengua_20"
+    },
+    {
+        "grade": "english2",
+        "category": "lengua",
+        "question": "My exam mark today was _______ than my mark last week.",
+        "options": [
+            "better",
+            "gooder",
+            "more good",
+            "best"
+        ],
+        "correct": 0,
+        "explanation": "El comparativo irregular del adjetivo 'good' (bueno) es 'better than' (mejor que).",
+        "id": "q_eng2_lengua_21"
+    },
+    {
+        "grade": "english2",
+        "category": "lengua",
+        "question": "The weather today is _______ than yesterday; it's raining heavily.",
+        "options": [
+            "worse",
+            "badder",
+            "more bad",
+            "worst"
+        ],
+        "correct": 0,
+        "explanation": "El comparativo irregular del adjetivo 'bad' (malo) es 'worse than' (peor que).",
+        "id": "q_eng2_lengua_22"
+    },
+    {
+        "grade": "english2",
+        "category": "lengua",
+        "question": "Lionel Messi is one of the _______ football players in history.",
+        "options": [
+            "best",
+            "goodest",
+            "better",
+            "most good"
+        ],
+        "correct": 0,
+        "explanation": "El superlativo irregular de 'good' es 'the best' (el mejor).",
+        "id": "q_eng2_lengua_23"
+    },
+    {
+        "grade": "english2",
+        "category": "lengua",
+        "question": "That was the _______ movie I have ever seen; it was terrible!",
+        "options": [
+            "worst",
+            "baddest",
+            "worse",
+            "most bad"
+        ],
+        "correct": 0,
+        "explanation": "El superlativo irregular de 'bad' es 'the worst' (el peor).",
+        "id": "q_eng2_lengua_24"
+    },
+    {
+        "grade": "english2",
+        "category": "lengua",
+        "question": "Pluto is _______ from the Sun than Mars.",
+        "options": [
+            "further",
+            "farer",
+            "more far",
+            "farthest"
+        ],
+        "correct": 0,
+        "explanation": "El comparativo de distancia para 'far' (lejos) es 'further than' o 'farther than'.",
+        "id": "q_eng2_lengua_25"
+    },
+    {
+        "grade": "english2",
+        "category": "lengua",
+        "question": "Who is the _______ student at maths in your class?",
+        "options": [
+            "best",
+            "better",
+            "goodest",
+            "most good"
+        ],
+        "correct": 0,
+        "explanation": "Para designar al número uno en una cualidad se usa el superlativo: 'the best'.",
+        "id": "q_eng2_lengua_26"
+    },
+    {
+        "grade": "english2",
+        "category": "lengua",
+        "question": "Eating fruit is _______ for your body than drinking sugary soda.",
+        "options": [
+            "better",
+            "gooder",
+            "best",
+            "more well"
+        ],
+        "correct": 0,
+        "explanation": "Comparando dos opciones con good: 'better than' (mejor que).",
+        "id": "q_eng2_lengua_27"
+    },
+    {
+        "grade": "english2",
+        "category": "lengua",
+        "question": "Catching the flu is _______ than having a simple cold.",
+        "options": [
+            "worse",
+            "worst",
+            "badder",
+            "more bad"
+        ],
+        "correct": 0,
+        "explanation": "El comparativo de bad es 'worse than'.",
+        "id": "q_eng2_lengua_28"
+    },
+    {
+        "grade": "english2",
+        "category": "lengua",
+        "question": "Which continent is the _______ away from Antarctica: Europe or South America?",
+        "options": [
+            "further",
+            "more far",
+            "farer",
+            "farthest"
+        ],
+        "correct": 0,
+        "explanation": "Al comparar la distancia entre dos continentes usamos el comparativo 'further'.",
+        "id": "q_eng2_lengua_29"
+    },
+    {
+        "grade": "english2",
+        "category": "lengua",
+        "question": "This restaurant has the _______ pizzas in the whole city!",
+        "options": [
+            "best",
+            "better",
+            "goodest",
+            "most good"
+        ],
+        "correct": 0,
+        "explanation": "Ante el artículo 'the' y destacando entre todas las pizzas de la ciudad se usa 'the best'.",
+        "id": "q_eng2_lengua_30"
+    },
+    {
+        "grade": "english2",
+        "category": "lengua",
+        "question": "Mount Everest is the _______ mountain on Earth.",
+        "options": [
+            "highest",
+            "higher",
+            "most high",
+            "high"
+        ],
+        "correct": 0,
+        "explanation": "Para adjetivos cortos en grado superlativo se añade -est: 'the highest mountain'.",
+        "id": "q_eng2_lengua_31"
+    },
+    {
+        "grade": "english2",
+        "category": "lengua",
+        "question": "The blue whale is the _______ animal in the world.",
+        "options": [
+            "biggest",
+            "biger",
+            "more big",
+            "most big"
+        ],
+        "correct": 0,
+        "explanation": "El superlativo de 'big' duplica la consonante y agrega -est: 'the biggest'.",
+        "id": "q_eng2_lengua_32"
+    },
+    {
+        "grade": "english2",
+        "category": "lengua",
+        "question": "Russia is the _______ country by land area in the world.",
+        "options": [
+            "largest",
+            "larger",
+            "most large",
+            "large"
+        ],
+        "correct": 0,
+        "explanation": "El superlativo de 'large' es 'the largest' (el más extenso).",
+        "id": "q_eng2_lengua_33"
+    },
+    {
+        "grade": "english2",
+        "category": "lengua",
+        "question": "The cheetah is the _______ land mammal on our planet.",
+        "options": [
+            "fastest",
+            "faster",
+            "most fast",
+            "fast"
+        ],
+        "correct": 0,
+        "explanation": "El superlativo de 'fast' es 'the fastest' (el más veloz).",
+        "id": "q_eng2_lengua_34"
+    },
+    {
+        "grade": "english2",
+        "category": "lengua",
+        "question": "That was the _______ book I have ever read in my life.",
+        "options": [
+            "most interesting",
+            "interestigest",
+            "more interesting",
+            "interesting"
+        ],
+        "correct": 0,
+        "explanation": "Para adjetivos largos en grado superlativo se antepone 'the most': 'the most interesting'.",
+        "id": "q_eng2_lengua_35"
+    },
+    {
+        "grade": "english2",
+        "category": "lengua",
+        "question": "Who is the _______ person in your family?",
+        "options": [
+            "oldest",
+            "older",
+            "most old",
+            "elder"
+        ],
+        "correct": 0,
+        "explanation": "El superlativo del adjetivo 'old' es 'the oldest' (el de mayor edad).",
+        "id": "q_eng2_lengua_36"
+    },
+    {
+        "grade": "english2",
+        "category": "lengua",
+        "question": "English is one of the _______ spoken languages in the world.",
+        "options": [
+            "most widely",
+            "wideliest",
+            "more widely",
+            "widest"
+        ],
+        "correct": 0,
+        "explanation": "Con adverbios y adjetivos largos se utiliza 'the most widely spoken'.",
+        "id": "q_eng2_lengua_37"
+    },
+    {
+        "grade": "english2",
+        "category": "lengua",
+        "question": "The Nile is considered the _______ river in Africa.",
+        "options": [
+            "longest",
+            "longer",
+            "most long",
+            "long"
+        ],
+        "correct": 0,
+        "explanation": "El superlativo de 'long' es 'the longest' (el más largo).",
+        "id": "q_eng2_lengua_38"
+    },
+    {
+        "grade": "english2",
+        "category": "lengua",
+        "question": "Which is the _______ subject for you at school?",
+        "options": [
+            "most difficult",
+            "difficulter",
+            "difficulteest",
+            "more difficult"
+        ],
+        "correct": 0,
+        "explanation": "El superlativo de 'difficult' es 'the most difficult'.",
+        "id": "q_eng2_lengua_39"
+    },
+    {
+        "grade": "english2",
+        "category": "lengua",
+        "question": "February is the _______ month of the year.",
+        "options": [
+            "shortest",
+            "shorter",
+            "most short",
+            "short"
+        ],
+        "correct": 0,
+        "explanation": "El superlativo del adjetivo corto 'short' es 'the shortest' (el más corto).",
+        "id": "q_eng2_lengua_40"
+    },
+    {
+        "grade": "english2",
+        "category": "lengua",
+        "question": "My dog is as _______ as your dog; they both weigh 15 kg.",
+        "options": [
+            "heavy",
+            "heavier",
+            "heaviest",
+            "more heavy"
+        ],
+        "correct": 0,
+        "explanation": "En la estructura de igualdad 'as ... as' el adjetivo se coloca en su forma base: 'as heavy as'.",
+        "id": "q_eng2_lengua_41"
+    },
+    {
+        "grade": "english2",
+        "category": "lengua",
+        "question": "He is not as _______ as his older brother yet.",
+        "options": [
+            "tall",
+            "taller",
+            "tallest",
+            "more tall"
+        ],
+        "correct": 0,
+        "explanation": "En la comparación 'not as ... as' el adjetivo va sin modificaciones: 'not as tall as'.",
+        "id": "q_eng2_lengua_42"
+    },
+    {
+        "grade": "english2",
+        "category": "lengua",
+        "question": "A person who always shares their snacks with friends is _______.",
+        "options": [
+            "generous",
+            "selfish",
+            "lazy",
+            "impatient"
+        ],
+        "correct": 0,
+        "explanation": "'Generous' (generoso) describe a alguien que comparte con los demás.",
+        "id": "q_eng2_lengua_43"
+    },
+    {
+        "grade": "english2",
+        "category": "lengua",
+        "question": "Someone who doesn't like working and prefers sleeping all day is _______.",
+        "options": [
+            "lazy",
+            "hard-working",
+            "brave",
+            "polite"
+        ],
+        "correct": 0,
+        "explanation": "'Lazy' (perezoso o vago) es lo opuesto a trabajador ('hard-working').",
+        "id": "q_eng2_lengua_44"
+    },
+    {
+        "grade": "english2",
+        "category": "lengua",
+        "question": "A firefighter must be very _______ to enter burning buildings.",
+        "options": [
+            "brave",
+            "scared",
+            "quiet",
+            "rude"
+        ],
+        "correct": 0,
+        "explanation": "'Brave' significa valiente, necesario para afrontar situaciones de peligro.",
+        "id": "q_eng2_lengua_45"
+    },
+    {
+        "grade": "english2",
+        "category": "lengua",
+        "question": "A student who always says 'please' and 'thank you' is very _______.",
+        "options": [
+            "polite",
+            "rude",
+            "mean",
+            "angry"
+        ],
+        "correct": 0,
+        "explanation": "'Polite' significa educado o cortés.",
+        "id": "q_eng2_lengua_46"
+    },
+    {
+        "grade": "english2",
+        "category": "lengua",
+        "question": "Someone who talks very little and doesn't make much noise is _______.",
+        "options": [
+            "quiet",
+            "loud",
+            "cheerful",
+            "funny"
+        ],
+        "correct": 0,
+        "explanation": "'Quiet' describe a una persona callada y tranquila.",
+        "id": "q_eng2_lengua_47"
+    },
+    {
+        "grade": "english2",
+        "category": "lengua",
+        "question": "Is football as _______ as basketball in your country?",
+        "options": [
+            "popular",
+            "more popular",
+            "most popular",
+            "popularer"
+        ],
+        "correct": 0,
+        "explanation": "En la estructura 'as ... as' se utiliza el adjetivo neutro: 'as popular as'.",
+        "id": "q_eng2_lengua_48"
+    },
+    {
+        "grade": "english2",
+        "category": "lengua",
+        "question": "A person who makes everybody laugh with funny jokes is _______.",
+        "options": [
+            "funny",
+            "boring",
+            "serious",
+            "sad"
+        ],
+        "correct": 0,
+        "explanation": "'Funny' (divertido/gracioso) describe a quien hace reír a los demás.",
+        "id": "q_eng2_lengua_49"
+    },
+    {
+        "grade": "english2",
+        "category": "lengua",
+        "question": "The opposite of 'generous' is _______.",
+        "options": [
+            "selfish",
+            "kind",
+            "friendly",
+            "helpful"
+        ],
+        "correct": 0,
+        "explanation": "El antónimo directo de generoso ('generous') es egoísta ('selfish').",
+        "id": "q_eng2_lengua_50"
+    },
+    {
+        "grade": "english2",
+        "category": "naturales",
+        "question": "I have a terrible _______; my head hurts so much!",
+        "options": [
+            "headache",
+            "stomach ache",
+            "toothache",
+            "broken arm"
+        ],
+        "correct": 0,
+        "explanation": "El dolor de cabeza en inglés se denomina 'headache'.",
+        "id": "q_eng2_naturales_1"
+    },
+    {
+        "grade": "english2",
+        "category": "naturales",
+        "question": "If you eat too many candies and don't brush your teeth, you might get a _______.",
+        "options": [
+            "toothache",
+            "cough",
+            "earache",
+            "fever"
+        ],
+        "correct": 0,
+        "explanation": "El dolor de dientes o muelas se llama 'toothache'.",
+        "id": "q_eng2_naturales_2"
+    },
+    {
+        "grade": "english2",
+        "category": "naturales",
+        "question": "He ate five slices of pizza and now has a bad _______.",
+        "options": [
+            "stomach ache",
+            "headache",
+            "broken leg",
+            "sore finger"
+        ],
+        "correct": 0,
+        "explanation": "El dolor de estómago o panza se denomina 'stomach ache'.",
+        "id": "q_eng2_naturales_3"
+    },
+    {
+        "grade": "english2",
+        "category": "naturales",
+        "question": "She has a high temperature and feels very hot; she has a _______.",
+        "options": [
+            "fever",
+            "cut",
+            "bruise",
+            "toothache"
+        ],
+        "correct": 0,
+        "explanation": "Tener fiebre y temperatura corporal elevada se expresa como 'have a fever'.",
+        "id": "q_eng2_naturales_4"
+    },
+    {
+        "grade": "english2",
+        "category": "naturales",
+        "question": "When you have a bad cold, you often sneeze and have a runny _______.",
+        "options": [
+            "nose",
+            "ear",
+            "eye",
+            "knee"
+        ],
+        "correct": 0,
+        "explanation": "Tener la nariz congestionada o con mucosidad se dice 'runny nose'.",
+        "id": "q_eng2_naturales_5"
+    },
+    {
+        "grade": "english2",
+        "category": "naturales",
+        "question": "It hurts when I swallow food; I have a sore _______.",
+        "options": [
+            "throat",
+            "elbow",
+            "ankle",
+            "toe"
+        ],
+        "correct": 0,
+        "explanation": "El dolor de garganta se expresa en inglés como 'sore throat'.",
+        "id": "q_eng2_naturales_6"
+    },
+    {
+        "grade": "english2",
+        "category": "naturales",
+        "question": "You _______ stay in bed and rest when you have the flu.",
+        "options": [
+            "should",
+            "shouldn't",
+            "mustn't",
+            "can't"
+        ],
+        "correct": 0,
+        "explanation": "El modal 'should' se utiliza para dar consejos saludables: 'You should stay in bed'.",
+        "id": "q_eng2_naturales_7"
+    },
+    {
+        "grade": "english2",
+        "category": "naturales",
+        "question": "You _______ eat cold ice cream when you have a sore throat.",
+        "options": [
+            "shouldn't",
+            "should",
+            "must",
+            "can"
+        ],
+        "correct": 0,
+        "explanation": "'Shouldn't' (no deberías) expresa consejo negativo.",
+        "id": "q_eng2_naturales_8"
+    },
+    {
+        "grade": "english2",
+        "category": "naturales",
+        "question": "If you break a bone in your arm, the doctor puts it in a white _______.",
+        "options": [
+            "plaster cast",
+            "bandage",
+            "towel",
+            "hat"
+        ],
+        "correct": 0,
+        "explanation": "Un yeso ortopédico para inmovilizar un hueso fracturado se llama 'plaster cast' (o 'cast').",
+        "id": "q_eng2_naturales_9"
+    },
+    {
+        "grade": "english2",
+        "category": "naturales",
+        "question": "A medical professional who examines you and prescribes medicine is a _______.",
+        "options": [
+            "doctor",
+            "pilot",
+            "mechanic",
+            "carpenter"
+        ],
+        "correct": 0,
+        "explanation": "El médico ('doctor') examina a los pacientes y prescribe medicamentos.",
+        "id": "q_eng2_naturales_10"
+    },
+    {
+        "grade": "english2",
+        "category": "naturales",
+        "question": "A hot, dry habitat with very little rain and lots of sand is a _______.",
+        "options": [
+            "desert",
+            "rainforest",
+            "ocean",
+            "tundra"
+        ],
+        "correct": 0,
+        "explanation": "El desierto ('desert') es un bioma caracterizado por la aridez y escasez de lluvias.",
+        "id": "q_eng2_naturales_11"
+    },
+    {
+        "grade": "english2",
+        "category": "naturales",
+        "question": "A dense, humid forest with tall trees and diverse wildlife is a _______.",
+        "options": [
+            "rainforest",
+            "desert",
+            "glacier",
+            "savannah"
+        ],
+        "correct": 0,
+        "explanation": "La selva tropical ('rainforest' o jungle) tiene clima cálido, lluvias abundantes y gran biodiversidad.",
+        "id": "q_eng2_naturales_12"
+    },
+    {
+        "grade": "english2",
+        "category": "naturales",
+        "question": "Whales, sharks, corals and sea turtles live in the _______ habitat.",
+        "options": [
+            "ocean",
+            "desert",
+            "mountain",
+            "forest"
+        ],
+        "correct": 0,
+        "explanation": "El océano ('ocean' o marine habitat) es el ecosistema acuático salino.",
+        "id": "q_eng2_naturales_13"
+    },
+    {
+        "grade": "english2",
+        "category": "naturales",
+        "question": "Penguins and polar bears are adapted to live in _______ regions.",
+        "options": [
+            "polar",
+            "desert",
+            "tropical",
+            "volcanic"
+        ],
+        "correct": 0,
+        "explanation": "Las regiones polares ('polar regions') tienen hielo permanente y temperaturas bajo cero.",
+        "id": "q_eng2_naturales_14"
+    },
+    {
+        "grade": "english2",
+        "category": "naturales",
+        "question": "A high, rocky landform with cold temperatures and snow at the top is a _______.",
+        "options": [
+            "mountain",
+            "valley",
+            "swamp",
+            "beach"
+        ],
+        "correct": 0,
+        "explanation": "Las montañas ('mountains') presentan laderas rocosas y cimas nevadas.",
+        "id": "q_eng2_naturales_15"
+    },
+    {
+        "grade": "english2",
+        "category": "naturales",
+        "question": "Lions, zebras and giraffes roam the wide grasslands of the African _______.",
+        "options": [
+            "savannah",
+            "polar ice",
+            "ocean floor",
+            "cave"
+        ],
+        "correct": 0,
+        "explanation": "La sabana africana ('savannah') es un pastizal abierto con árboles dispersos.",
+        "id": "q_eng2_naturales_16"
+    },
+    {
+        "grade": "english2",
+        "category": "naturales",
+        "question": "Camels store fat in their humps to survive long journeys across the _______.",
+        "options": [
+            "desert",
+            "ocean",
+            "jungle",
+            "river"
+        ],
+        "correct": 0,
+        "explanation": "Los camellos están adaptados para resistir las duras condiciones del desierto.",
+        "id": "q_eng2_naturales_17"
+    },
+    {
+        "grade": "english2",
+        "category": "naturales",
+        "question": "Frogs, ducks and dragonflies commonly live in or near a freshwater _______.",
+        "options": [
+            "pond",
+            "ocean",
+            "glacier",
+            "desert"
+        ],
+        "correct": 0,
+        "explanation": "Una charca o estanque de agua dulce se denomina 'pond'.",
+        "id": "q_eng2_naturales_18"
+    },
+    {
+        "grade": "english2",
+        "category": "naturales",
+        "question": "Bats and bears often use dark _______ to sleep and hibernate.",
+        "options": [
+            "caves",
+            "trees",
+            "nests",
+            "rivers"
+        ],
+        "correct": 0,
+        "explanation": "Las cuevas ('caves') brindan refugio oscuro para hibernar o descansar.",
+        "id": "q_eng2_naturales_19"
+    },
+    {
+        "grade": "english2",
+        "category": "naturales",
+        "question": "Coral reefs are often called the rainforests of the _______.",
+        "options": [
+            "sea",
+            "sky",
+            "mountain",
+            "desert"
+        ],
+        "correct": 0,
+        "explanation": "Los arrecifes de coral son los ecosistemas más diversos del mar ('sea' / ocean).",
+        "id": "q_eng2_naturales_20"
+    },
+    {
+        "grade": "english2",
+        "category": "naturales",
+        "question": "Which sea animal has eight arms, three hearts and squirts black ink?",
+        "options": [
+            "An octopus",
+            "A dolphin",
+            "A seal",
+            "A crab"
+        ],
+        "correct": 0,
+        "explanation": "El pulpo ('octopus') tiene 8 tentáculos, 3 corazones y expulsa tinta para defenderse.",
+        "id": "q_eng2_naturales_21"
+    },
+    {
+        "grade": "english2",
+        "category": "naturales",
+        "question": "What large mammal sleeps through the cold winter (hibernates)?",
+        "options": [
+            "A bear",
+            "A giraffe",
+            "A zebra",
+            "An eagle"
+        ],
+        "correct": 0,
+        "explanation": "El oso ('bear') hiberna en invierno disminuyendo su ritmo metabólico.",
+        "id": "q_eng2_naturales_22"
+    },
+    {
+        "grade": "english2",
+        "category": "naturales",
+        "question": "Birds have light skeletons and light _______ that allow them to fly.",
+        "options": [
+            "feathers",
+            "scales",
+            "shells",
+            "fur"
+        ],
+        "correct": 0,
+        "explanation": "Las plumas ('feathers') brindan sustentación y aerodinámica a las aves.",
+        "id": "q_eng2_naturales_23"
+    },
+    {
+        "grade": "english2",
+        "category": "naturales",
+        "question": "Reptiles like snakes and lizards have dry skin covered with _______.",
+        "options": [
+            "scales",
+            "fur",
+            "feathers",
+            "wool"
+        ],
+        "correct": 0,
+        "explanation": "Los reptiles tienen la piel recubierta de escamas ('scales').",
+        "id": "q_eng2_naturales_24"
+    },
+    {
+        "grade": "english2",
+        "category": "naturales",
+        "question": "Mammals feed their babies with _______.",
+        "options": [
+            "milk",
+            "grass",
+            "insects",
+            "leaves"
+        ],
+        "correct": 0,
+        "explanation": "Los mamíferos hembra amamantan a sus crías con leche ('milk').",
+        "id": "q_eng2_naturales_25"
+    },
+    {
+        "grade": "english2",
+        "category": "naturales",
+        "question": "A sharp curved claw that eagles and owls use to catch prey is a _______.",
+        "options": [
+            "talon",
+            "hoof",
+            "fin",
+            "wing"
+        ],
+        "correct": 0,
+        "explanation": "Las garras curvas de las aves rapaces se llaman 'talons'.",
+        "id": "q_eng2_naturales_26"
+    },
+    {
+        "grade": "english2",
+        "category": "naturales",
+        "question": "Which animal carries its baby in a front pouch?",
+        "options": [
+            "A kangaroo",
+            "A lion",
+            "An elephant",
+            "A horse"
+        ],
+        "correct": 0,
+        "explanation": "El canguro ('kangaroo') es un marsupial que lleva a su cría en una bolsa ventral.",
+        "id": "q_eng2_naturales_27"
+    },
+    {
+        "grade": "english2",
+        "category": "naturales",
+        "question": "A beaver uses its strong teeth to cut wood and build a _______ on rivers.",
+        "options": [
+            "dam",
+            "nest",
+            "hive",
+            "burrow"
+        ],
+        "correct": 0,
+        "explanation": "Los castores construyen represas o diques ('dams') en los arroyos.",
+        "id": "q_eng2_naturales_28"
+    },
+    {
+        "grade": "english2",
+        "category": "naturales",
+        "question": "Which bird can swim underwater exceptionally well but cannot fly in the air?",
+        "options": [
+            "A penguin",
+            "A parrot",
+            "A sparrow",
+            "A seagull"
+        ],
+        "correct": 0,
+        "explanation": "El pingüino no puede volar por el aire pero nada con gran agilidad.",
+        "id": "q_eng2_naturales_29"
+    },
+    {
+        "grade": "english2",
+        "category": "naturales",
+        "question": "What do chameleons change to blend into their surroundings?",
+        "options": [
+            "Their colour",
+            "Their teeth",
+            "Their ears",
+            "Their legs"
+        ],
+        "correct": 0,
+        "explanation": "Los camaleones cambian de color para camuflarse en el entorno.",
+        "id": "q_eng2_naturales_30"
+    },
+    {
+        "grade": "english2",
+        "category": "naturales",
+        "question": "A loud sound that follows a flash of lightning during a storm is called _______.",
+        "options": [
+            "thunder",
+            "wind",
+            "rain",
+            "fog"
+        ],
+        "correct": 0,
+        "explanation": "El trueno ('thunder') es el estruendo sonoro provocado por el rayo ('lightning').",
+        "id": "q_eng2_naturales_31"
+    },
+    {
+        "grade": "english2",
+        "category": "naturales",
+        "question": "A thick low cloud that makes it difficult to see ahead on the road is _______.",
+        "options": [
+            "fog",
+            "sunshine",
+            "breeze",
+            "snow"
+        ],
+        "correct": 0,
+        "explanation": "La niebla ('fog') es una nube a ras del suelo que reduce la visibilidad.",
+        "id": "q_eng2_naturales_32"
+    },
+    {
+        "grade": "english2",
+        "category": "naturales",
+        "question": "When the temperature drops below 0 degrees Celsius, water starts to _______.",
+        "options": [
+            "freeze",
+            "boil",
+            "evaporate",
+            "burn"
+        ],
+        "correct": 0,
+        "explanation": "A temperaturas bajo cero el agua líquida se congela ('freeze').",
+        "id": "q_eng2_naturales_33"
+    },
+    {
+        "grade": "english2",
+        "category": "naturales",
+        "question": "A violent rotating column of wind that touches the ground is a _______.",
+        "options": [
+            "tornado",
+            "breeze",
+            "shower",
+            "cloud"
+        ],
+        "correct": 0,
+        "explanation": "Un tornado es una columna de aire que gira a gran velocidad en contacto con la tierra.",
+        "id": "q_eng2_naturales_34"
+    },
+    {
+        "grade": "english2",
+        "category": "naturales",
+        "question": "Small balls of ice that fall from dark thunderclouds during a storm are _______.",
+        "options": [
+            "hailstones",
+            "dew",
+            "raindrops",
+            "fog"
+        ],
+        "correct": 0,
+        "explanation": "El granizo ('hail' o 'hailstones') son bolas de hielo que caen en tormentas severas.",
+        "id": "q_eng2_naturales_35"
+    },
+    {
+        "grade": "english2",
+        "category": "naturales",
+        "question": "A gentle and pleasant wind is called a _______.",
+        "options": [
+            "breeze",
+            "hurricane",
+            "tornado",
+            "gale"
+        ],
+        "correct": 0,
+        "explanation": "Una brisa ('breeze') es un viento suave y agradable.",
+        "id": "q_eng2_naturales_36"
+    },
+    {
+        "grade": "english2",
+        "category": "naturales",
+        "question": "When there is no rain for many months and crops dry up, it is a _______.",
+        "options": [
+            "drought",
+            "flood",
+            "storm",
+            "rainbow"
+        ],
+        "correct": 0,
+        "explanation": "La sequía ('drought') es un período prolongado sin precipitaciones.",
+        "id": "q_eng2_naturales_37"
+    },
+    {
+        "grade": "english2",
+        "category": "naturales",
+        "question": "When rivers overflow and streets fill with water, it causes a _______.",
+        "options": [
+            "flood",
+            "drought",
+            "fire",
+            "earthquake"
+        ],
+        "correct": 0,
+        "explanation": "Una inundación ('flood') ocurre cuando el agua desborda e invade zonas secas.",
+        "id": "q_eng2_naturales_38"
+    },
+    {
+        "grade": "english2",
+        "category": "naturales",
+        "question": "You can check the air temperature using an instrument called a _______.",
+        "options": [
+            "thermometer",
+            "ruler",
+            "compass",
+            "microscope"
+        ],
+        "correct": 0,
+        "explanation": "El termómetro ('thermometer') mide la temperatura ambiental o corporal.",
+        "id": "q_eng2_naturales_39"
+    },
+    {
+        "grade": "english2",
+        "category": "naturales",
+        "question": "The sudden shaking of the Earth's crust is an _______.",
+        "options": [
+            "earthquake",
+            "avalanche",
+            "eclipse",
+            "aurora"
+        ],
+        "correct": 0,
+        "explanation": "Un sismo o terremoto se llama 'earthquake' en inglés.",
+        "id": "q_eng2_naturales_40"
+    },
+    {
+        "grade": "english2",
+        "category": "naturales",
+        "question": "Which organ inside your chest pumps blood through your blood vessels?",
+        "options": [
+            "The heart",
+            "The stomach",
+            "The brain",
+            "The liver"
+        ],
+        "correct": 0,
+        "explanation": "El corazón ('heart') es el órgano muscular que bombea la sangre a todo el organismo.",
+        "id": "q_eng2_naturales_41"
+    },
+    {
+        "grade": "english2",
+        "category": "naturales",
+        "question": "Which pair of organs in your chest takes in oxygen when you breathe?",
+        "options": [
+            "The lungs",
+            "The kidneys",
+            "The ears",
+            "The bones"
+        ],
+        "correct": 0,
+        "explanation": "Los pulmones ('lungs') absorben oxígeno del aire durante la respiración.",
+        "id": "q_eng2_naturales_42"
+    },
+    {
+        "grade": "english2",
+        "category": "naturales",
+        "question": "Your skeleton is made of hard white structures called _______.",
+        "options": [
+            "bones",
+            "muscles",
+            "tendons",
+            "veins"
+        ],
+        "correct": 0,
+        "explanation": "El esqueleto está constituido por huesos ('bones').",
+        "id": "q_eng2_naturales_43"
+    },
+    {
+        "grade": "english2",
+        "category": "naturales",
+        "question": "The joint that connects your foot to your leg is your _______.",
+        "options": [
+            "ankle",
+            "wrist",
+            "elbow",
+            "shoulder"
+        ],
+        "correct": 0,
+        "explanation": "El tobillo ('ankle') es la articulación que une la pierna con el pie.",
+        "id": "q_eng2_naturales_44"
+    },
+    {
+        "grade": "english2",
+        "category": "naturales",
+        "question": "The joint in the middle of your arm that lets you bend it is your _______.",
+        "options": [
+            "elbow",
+            "knee",
+            "wrist",
+            "hip"
+        ],
+        "correct": 0,
+        "explanation": "El codo ('elbow') es la articulación central del brazo.",
+        "id": "q_eng2_naturales_45"
+    },
+    {
+        "grade": "english2",
+        "category": "naturales",
+        "question": "The joint in the middle of your leg that lets you bend your leg is your _______.",
+        "options": [
+            "knee",
+            "ankle",
+            "wrist",
+            "neck"
+        ],
+        "correct": 0,
+        "explanation": "La rodilla ('knee') permite flexionar la pierna.",
+        "id": "q_eng2_naturales_46"
+    },
+    {
+        "grade": "english2",
+        "category": "naturales",
+        "question": "Which sense organ allows you to taste sweet, salty and sour flavours?",
+        "options": [
+            "The tongue",
+            "The nose",
+            "The skin",
+            "The eye"
+        ],
+        "correct": 0,
+        "explanation": "La lengua ('tongue') contiene las papilas gustativas para percibir sabores.",
+        "id": "q_eng2_naturales_47"
+    },
+    {
+        "grade": "english2",
+        "category": "naturales",
+        "question": "Which outer organ protects your internal organs and allows you to feel touch?",
+        "options": [
+            "The skin",
+            "The hair",
+            "The nail",
+            "The tooth"
+        ],
+        "correct": 0,
+        "explanation": "La piel ('skin') es el órgano más grande y nos brinda el sentido del tacto.",
+        "id": "q_eng2_naturales_48"
+    },
+    {
+        "grade": "english2",
+        "category": "naturales",
+        "question": "Food travels down from your mouth through your esophagus into your _______.",
+        "options": [
+            "stomach",
+            "brain",
+            "lungs",
+            "heart"
+        ],
+        "correct": 0,
+        "explanation": "Los alimentos pasan al estómago ('stomach') donde se realiza la digestión.",
+        "id": "q_eng2_naturales_49"
+    },
+    {
+        "grade": "english2",
+        "category": "naturales",
+        "question": "To maintain strong teeth and bones, children should consume foods rich in _______.",
+        "options": [
+            "calcium",
+            "sugar",
+            "salt",
+            "grease"
+        ],
+        "correct": 0,
+        "explanation": "El calcio ('calcium') presente en lácteos fortalece huesos y dientes.",
+        "id": "q_eng2_naturales_50"
+    },
+    {
+        "grade": "english2",
+        "category": "sociales",
+        "question": "You go to the _______ to borrow books or study in silence.",
+        "options": [
+            "library",
+            "cinema",
+            "supermarket",
+            "stadium"
+        ],
+        "correct": 0,
+        "explanation": "La biblioteca ('library') es el lugar público donde se consultan y piden prestados libros.",
+        "id": "q_eng2_sociales_1"
+    },
+    {
+        "grade": "english2",
+        "category": "sociales",
+        "question": "You go to the _______ to watch the latest films on a giant screen.",
+        "options": [
+            "cinema",
+            "library",
+            "bank",
+            "pharmacy"
+        ],
+        "correct": 0,
+        "explanation": "El cine ('cinema' o movie theater) proyecta películas en pantalla gigante.",
+        "id": "q_eng2_sociales_2"
+    },
+    {
+        "grade": "english2",
+        "category": "sociales",
+        "question": "You buy medicines and vitamins at the _______.",
+        "options": [
+            "chemist's or pharmacy",
+            "bakery",
+            "butcher's",
+            "stationery shop"
+        ],
+        "correct": 0,
+        "explanation": "Compramos medicamentos en la farmacia ('pharmacy' o 'chemist's').",
+        "id": "q_eng2_sociales_3"
+    },
+    {
+        "grade": "english2",
+        "category": "sociales",
+        "question": "You buy fresh bread, croissants and cakes at the _______.",
+        "options": [
+            "bakery",
+            "butcher's",
+            "library",
+            "museum"
+        ],
+        "correct": 0,
+        "explanation": "La panadería ('bakery') vende pan y productos horneados.",
+        "id": "q_eng2_sociales_4"
+    },
+    {
+        "grade": "english2",
+        "category": "sociales",
+        "question": "You can see historical paintings, fossils and ancient statues at the _______.",
+        "options": [
+            "museum",
+            "gym",
+            "train station",
+            "hotel"
+        ],
+        "correct": 0,
+        "explanation": "El museo ('museum') exhibe colecciones históricas, científicas o artísticas.",
+        "id": "q_eng2_sociales_5"
+    },
+    {
+        "grade": "english2",
+        "category": "sociales",
+        "question": "You wait on a platform to catch a train at the _______.",
+        "options": [
+            "train station",
+            "airport",
+            "bus stop",
+            "harbour"
+        ],
+        "correct": 0,
+        "explanation": "La estación de tren se denomina 'train station'.",
+        "id": "q_eng2_sociales_6"
+    },
+    {
+        "grade": "english2",
+        "category": "sociales",
+        "question": "You send letters and post parcels at the _______.",
+        "options": [
+            "post office",
+            "police station",
+            "bank",
+            "restaurant"
+        ],
+        "correct": 0,
+        "explanation": "En la oficina de correos ('post office') se envían cartas y paquetes.",
+        "id": "q_eng2_sociales_7"
+    },
+    {
+        "grade": "english2",
+        "category": "sociales",
+        "question": "You report a lost bag or ask for help at the _______.",
+        "options": [
+            "police station",
+            "cinema",
+            "supermarket",
+            "bakery"
+        ],
+        "correct": 0,
+        "explanation": "La comisaría o destacamento policial es la 'police station'.",
+        "id": "q_eng2_sociales_8"
+    },
+    {
+        "grade": "english2",
+        "category": "sociales",
+        "question": "You deposit or withdraw money securely at the _______.",
+        "options": [
+            "bank",
+            "library",
+            "museum",
+            "school"
+        ],
+        "correct": 0,
+        "explanation": "El banco ('bank') es la entidad financiera donde se guarda o retira dinero.",
+        "id": "q_eng2_sociales_9"
+    },
+    {
+        "grade": "english2",
+        "category": "sociales",
+        "question": "You sit at a table and order delicious meals cooked by a chef at a _______.",
+        "options": [
+            "restaurant",
+            "hospital",
+            "bookshop",
+            "pharmacy"
+        ],
+        "correct": 0,
+        "explanation": "En un restaurante ('restaurant') se disfruta de comidas preparadas.",
+        "id": "q_eng2_sociales_10"
+    },
+    {
+        "grade": "english2",
+        "category": "sociales",
+        "question": "To find the museum, go _______ ahead for two blocks, don't turn.",
+        "options": [
+            "straight",
+            "around",
+            "left",
+            "back"
+        ],
+        "correct": 0,
+        "explanation": "'Go straight ahead' es la expresión habitual para decir 'siga derecho'.",
+        "id": "q_eng2_sociales_11"
+    },
+    {
+        "grade": "english2",
+        "category": "sociales",
+        "question": "At the traffic lights, _______ left into Oxford Street.",
+        "options": [
+            "turn",
+            "make",
+            "pass",
+            "have"
+        ],
+        "correct": 0,
+        "explanation": "Para indicar giro se utiliza el verbo 'turn': 'turn left' (gire a la izquierda).",
+        "id": "q_eng2_sociales_12"
+    },
+    {
+        "grade": "english2",
+        "category": "sociales",
+        "question": "The bank is on the other side of the street, _______ the supermarket.",
+        "options": [
+            "opposite",
+            "inside",
+            "under",
+            "behind"
+        ],
+        "correct": 0,
+        "explanation": "'Opposite' significa enfrente o en la vereda de enfrente cruzando la calle.",
+        "id": "q_eng2_sociales_13"
+    },
+    {
+        "grade": "english2",
+        "category": "sociales",
+        "question": "The cafe is on the _______ of the street where two roads meet.",
+        "options": [
+            "corner",
+            "middle",
+            "straight",
+            "end"
+        ],
+        "correct": 0,
+        "explanation": "En la esquina de la calle se dice 'on the corner'.",
+        "id": "q_eng2_sociales_14"
+    },
+    {
+        "grade": "english2",
+        "category": "sociales",
+        "question": "Use the pedestrian crossing when you _______ the busy street.",
+        "options": [
+            "cross",
+            "turn",
+            "run",
+            "stop"
+        ],
+        "correct": 0,
+        "explanation": "Cruzar la calle se dice 'cross the street'.",
+        "id": "q_eng2_sociales_15"
+    },
+    {
+        "grade": "english2",
+        "category": "sociales",
+        "question": "Walk _______ the park until you see the big white church.",
+        "options": [
+            "past",
+            "passed",
+            "cross",
+            "next"
+        ],
+        "correct": 0,
+        "explanation": "'Walk past the park' significa 'pase de largo por delante del parque'.",
+        "id": "q_eng2_sociales_16"
+    },
+    {
+        "grade": "english2",
+        "category": "sociales",
+        "question": "Excuse me, _______ can I get to the central train station?",
+        "options": [
+            "how",
+            "what",
+            "who",
+            "which"
+        ],
+        "correct": 0,
+        "explanation": "'How can I get to...?' es la pregunta cortés estándar para pedir indicaciones de cómo llegar.",
+        "id": "q_eng2_sociales_17"
+    },
+    {
+        "grade": "english2",
+        "category": "sociales",
+        "question": "The bookshop is _______ the pharmacy and the bakery.",
+        "options": [
+            "between",
+            "on",
+            "through",
+            "over"
+        ],
+        "correct": 0,
+        "explanation": "Estar en medio de dos comercios se expresa con 'between'.",
+        "id": "q_eng2_sociales_18"
+    },
+    {
+        "grade": "english2",
+        "category": "sociales",
+        "question": "Is there a hospital _______ here? - Yes, just two blocks away.",
+        "options": [
+            "near",
+            "far",
+            "next",
+            "across"
+        ],
+        "correct": 0,
+        "explanation": "'Near here' significa cerca de aquí.",
+        "id": "q_eng2_sociales_19"
+    },
+    {
+        "grade": "english2",
+        "category": "sociales",
+        "question": "Be careful and wait for the green light at the pedestrian _______.",
+        "options": [
+            "crossing",
+            "stopping",
+            "turning",
+            "turning point"
+        ],
+        "correct": 0,
+        "explanation": "El cruce peatonal o senda se llama 'pedestrian crossing'.",
+        "id": "q_eng2_sociales_20"
+    },
+    {
+        "grade": "english2",
+        "category": "sociales",
+        "question": "A person who extinguishes dangerous fires and rescues people is a _______.",
+        "options": [
+            "firefighter",
+            "chef",
+            "mechanic",
+            "dentist"
+        ],
+        "correct": 0,
+        "explanation": "El bombero ('firefighter') combate incendios y rescata a personas.",
+        "id": "q_eng2_sociales_21"
+    },
+    {
+        "grade": "english2",
+        "category": "sociales",
+        "question": "A professional who flies aeroplanes across different countries is a _______.",
+        "options": [
+            "pilot",
+            "driver",
+            "sailor",
+            "engineer"
+        ],
+        "correct": 0,
+        "explanation": "El piloto ('pilot') comanda y vuela aviones comerciales.",
+        "id": "q_eng2_sociales_22"
+    },
+    {
+        "grade": "english2",
+        "category": "sociales",
+        "question": "A doctor who specializes in looking after your teeth and gums is a _______.",
+        "options": [
+            "dentist",
+            "optician",
+            "surgeon",
+            "nurse"
+        ],
+        "correct": 0,
+        "explanation": "El dentista u odontólogo se denomina 'dentist'.",
+        "id": "q_eng2_sociales_23"
+    },
+    {
+        "grade": "english2",
+        "category": "sociales",
+        "question": "A person who prepares delicious food in a restaurant kitchen is a _______.",
+        "options": [
+            "chef",
+            "waiter",
+            "baker",
+            "manager"
+        ],
+        "correct": 0,
+        "explanation": "El cocinero profesional o jefe de cocina se llama 'chef'.",
+        "id": "q_eng2_sociales_24"
+    },
+    {
+        "grade": "english2",
+        "category": "sociales",
+        "question": "A professional who designs and builds bridges, roads and machines is an _______.",
+        "options": [
+            "engineer",
+            "artist",
+            "actor",
+            "author"
+        ],
+        "correct": 0,
+        "explanation": "El ingeniero ('engineer') diseña y calcula estructuras, puentes y máquinas.",
+        "id": "q_eng2_sociales_25"
+    },
+    {
+        "grade": "english2",
+        "category": "sociales",
+        "question": "A person who repairs broken cars, engines and buses is a _______.",
+        "options": [
+            "mechanic",
+            "carpenter",
+            "plumber",
+            "electrician"
+        ],
+        "correct": 0,
+        "explanation": "El mecánico ('mechanic') arregla vehículos y motores.",
+        "id": "q_eng2_sociales_26"
+    },
+    {
+        "grade": "english2",
+        "category": "sociales",
+        "question": "A person who brings food and drinks to your table in a restaurant is a _______.",
+        "options": [
+            "waiter or waitress",
+            "cook",
+            "cashier",
+            "cleaner"
+        ],
+        "correct": 0,
+        "explanation": "El mozo o camarera se llama 'waiter' (varón) o 'waitress' (mujer).",
+        "id": "q_eng2_sociales_27"
+    },
+    {
+        "grade": "english2",
+        "category": "sociales",
+        "question": "A person who cuts, styles and washes your hair in a salon is a _______.",
+        "options": [
+            "hairdresser",
+            "painter",
+            "tailor",
+            "mechanic"
+        ],
+        "correct": 0,
+        "explanation": "El peluquero o estilista se denomina 'hairdresser'.",
+        "id": "q_eng2_sociales_28"
+    },
+    {
+        "grade": "english2",
+        "category": "sociales",
+        "question": "A journalist who reports news on television or writes for newspapers is a _______.",
+        "options": [
+            "journalist",
+            "actor",
+            "singer",
+            "pilot"
+        ],
+        "correct": 0,
+        "explanation": "El periodista ('journalist' o reporter) investiga y difunde noticias.",
+        "id": "q_eng2_sociales_29"
+    },
+    {
+        "grade": "english2",
+        "category": "sociales",
+        "question": "A person who protects communities and enforces the law is a _______.",
+        "options": [
+            "police officer",
+            "firefighter",
+            "soldier",
+            "judge"
+        ],
+        "correct": 0,
+        "explanation": "El oficial de policía se llama 'police officer'.",
+        "id": "q_eng2_sociales_30"
+    },
+    {
+        "grade": "english2",
+        "category": "sociales",
+        "question": "A large underground railway system in cities like London and Buenos Aires is the _______.",
+        "options": [
+            "underground or subway",
+            "tram",
+            "ferry",
+            "helicopter"
+        ],
+        "correct": 0,
+        "explanation": "El ferrocarril subterráneo se conoce como 'underground' (Reino Unido) o 'subway' (Estados Unidos).",
+        "id": "q_eng2_sociales_31"
+    },
+    {
+        "grade": "english2",
+        "category": "sociales",
+        "question": "A two-wheeled vehicle that you pedal with your feet is a _______.",
+        "options": [
+            "bicycle",
+            "motorbike",
+            "scooter",
+            "car"
+        ],
+        "correct": 0,
+        "explanation": "La bicicleta ('bicycle' o bike) se propulsa pedaleando.",
+        "id": "q_eng2_sociales_32"
+    },
+    {
+        "grade": "english2",
+        "category": "sociales",
+        "question": "A large boat that carries passengers and vehicles across a river or sea is a _______.",
+        "options": [
+            "ferry",
+            "canoe",
+            "submarine",
+            "rowboat"
+        ],
+        "correct": 0,
+        "explanation": "El transbordador o ferry transporta personas y vehículos sobre el agua.",
+        "id": "q_eng2_sociales_33"
+    },
+    {
+        "grade": "english2",
+        "category": "sociales",
+        "question": "An aircraft with rotating blades on top that can take off vertically is a _______.",
+        "options": [
+            "helicopter",
+            "glider",
+            "jet",
+            "hot-air balloon"
+        ],
+        "correct": 0,
+        "explanation": "El helicóptero ('helicopter') despega y aterriza verticalmente gracias a sus hélices.",
+        "id": "q_eng2_sociales_34"
+    },
+    {
+        "grade": "english2",
+        "category": "sociales",
+        "question": "A car with a driver that you hire to take you to a destination for a fare is a _______.",
+        "options": [
+            "taxi or cab",
+            "bus",
+            "train",
+            "tram"
+        ],
+        "correct": 0,
+        "explanation": "El taxi ('taxi' o cab) es un vehículo de alquiler con chofer.",
+        "id": "q_eng2_sociales_35"
+    },
+    {
+        "grade": "english2",
+        "category": "sociales",
+        "question": "People who travel on a bus, train or plane without driving it are _______.",
+        "options": [
+            "passengers",
+            "drivers",
+            "pilots",
+            "conductors"
+        ],
+        "correct": 0,
+        "explanation": "Los pasajeros se denominan 'passengers'.",
+        "id": "q_eng2_sociales_36"
+    },
+    {
+        "grade": "english2",
+        "category": "sociales",
+        "question": "The place where airplanes take off and land is an _______.",
+        "options": [
+            "airport",
+            "harbour",
+            "station",
+            "depot"
+        ],
+        "correct": 0,
+        "explanation": "El aeropuerto ('airport') cuenta con pistas e instalaciones para vuelos.",
+        "id": "q_eng2_sociales_37"
+    },
+    {
+        "grade": "english2",
+        "category": "sociales",
+        "question": "What must you buy before you board a train or enter the cinema?",
+        "options": [
+            "A ticket",
+            "A receipt",
+            "A menu",
+            "A passport"
+        ],
+        "correct": 0,
+        "explanation": "Debemos adquirir un boleto o entrada ('A ticket').",
+        "id": "q_eng2_sociales_38"
+    },
+    {
+        "grade": "english2",
+        "category": "sociales",
+        "question": "You wait for the public bus at a designated street shelter called a bus _______.",
+        "options": [
+            "stop",
+            "station",
+            "gate",
+            "platform"
+        ],
+        "correct": 0,
+        "explanation": "La parada de colectivo o autobús en la vía pública se llama 'bus stop'.",
+        "id": "q_eng2_sociales_39"
+    },
+    {
+        "grade": "english2",
+        "category": "sociales",
+        "question": "Travelling by bicycle instead of a car helps reduce urban _______.",
+        "options": [
+            "pollution",
+            "health",
+            "exercise",
+            "safety"
+        ],
+        "correct": 0,
+        "explanation": "El uso de la bicicleta disminuye la contaminación ambiental ('pollution').",
+        "id": "q_eng2_sociales_40"
+    },
+    {
+        "grade": "english2",
+        "category": "sociales",
+        "question": "_______ is this T-shirt? - It is twenty pounds.",
+        "options": [
+            "How much",
+            "How many",
+            "How long",
+            "How old"
+        ],
+        "correct": 0,
+        "explanation": "'How much is...?' es la pregunta que se utiliza para averiguar el precio de un artículo.",
+        "id": "q_eng2_sociales_41"
+    },
+    {
+        "grade": "english2",
+        "category": "sociales",
+        "question": "After paying for items in a shop, the cashier hands you a paper _______.",
+        "options": [
+            "receipt",
+            "menu",
+            "ticket",
+            "cheque"
+        ],
+        "correct": 0,
+        "explanation": "El comprobante de compra o ticket fiscal se llama 'receipt' (se pronuncia sin la 'p').",
+        "id": "q_eng2_sociales_42"
+    },
+    {
+        "grade": "english2",
+        "category": "sociales",
+        "question": "The official currency of the United Kingdom is the British _______.",
+        "options": [
+            "pound",
+            "dollar",
+            "euro",
+            "peso"
+        ],
+        "correct": 0,
+        "explanation": "La moneda oficial del Reino Unido es la libra esterlina ('pound').",
+        "id": "q_eng2_sociales_43"
+    },
+    {
+        "grade": "english2",
+        "category": "sociales",
+        "question": "When you buy something on a special discount, it is on _______.",
+        "options": [
+            "sale",
+            "buy",
+            "sell",
+            "cost"
+        ],
+        "correct": 0,
+        "explanation": "Estar en oferta o con descuento se dice 'on sale'.",
+        "id": "q_eng2_sociales_44"
+    },
+    {
+        "grade": "english2",
+        "category": "sociales",
+        "question": "The person who buys goods or services in a shop is a _______.",
+        "options": [
+            "customer",
+            "shop assistant",
+            "cashier",
+            "manager"
+        ],
+        "correct": 0,
+        "explanation": "El cliente o comprador en una tienda es el 'customer'.",
+        "id": "q_eng2_sociales_45"
+    },
+    {
+        "grade": "english2",
+        "category": "sociales",
+        "question": "If you pay with a 50-pound note for a 40-pound jacket, you receive 10 pounds in _______.",
+        "options": [
+            "change",
+            "receipt",
+            "discount",
+            "price"
+        ],
+        "correct": 0,
+        "explanation": "El vuelto o cambio monetario se llama 'change'.",
+        "id": "q_eng2_sociales_46"
+    },
+    {
+        "grade": "english2",
+        "category": "sociales",
+        "question": "The small basket on wheels that you push around a supermarket is a _______.",
+        "options": [
+            "trolley or cart",
+            "bag",
+            "box",
+            "case"
+        ],
+        "correct": 0,
+        "explanation": "El changuito o carrito de supermercado se denomina 'trolley' en inglés británico.",
+        "id": "q_eng2_sociales_47"
+    },
+    {
+        "grade": "english2",
+        "category": "sociales",
+        "question": "The person who scans your products and takes your payment is the _______.",
+        "options": [
+            "cashier",
+            "customer",
+            "chef",
+            "pilot"
+        ],
+        "correct": 0,
+        "explanation": "El cajero o cajera que cobra en la caja se llama 'cashier'.",
+        "id": "q_eng2_sociales_48"
+    },
+    {
+        "grade": "english2",
+        "category": "sociales",
+        "question": "Can I try _______ this blue jacket to see if it fits me?",
+        "options": [
+            "on",
+            "in",
+            "up",
+            "at"
+        ],
+        "correct": 0,
+        "explanation": "El phrasal verb 'try on' significa probarse una prenda de vestir.",
+        "id": "q_eng2_sociales_49"
+    },
+    {
+        "grade": "english2",
+        "category": "sociales",
+        "question": "This jacket fits perfectly; it is my exact _______.",
+        "options": [
+            "size",
+            "colour",
+            "brand",
+            "weight"
+        ],
+        "correct": 0,
+        "explanation": "El talle o tamaño de una prenda se denomina 'size'.",
+        "id": "q_eng2_sociales_50"
+    },
+    {
+        "grade": "english2",
+        "category": "ingenio",
+        "question": "The children ran _______ the playground when the bell rang for break.",
+        "options": [
+            "into",
+            "out",
+            "under",
+            "above"
+        ],
+        "correct": 0,
+        "explanation": "'Into' indica movimiento hacia el interior de un lugar: 'ran into the playground'.",
+        "id": "q_eng2_ingenio_1"
+    },
+    {
+        "grade": "english2",
+        "category": "ingenio",
+        "question": "The cat jumped _______ of the box and ran away.",
+        "options": [
+            "out",
+            "into",
+            "through",
+            "across"
+        ],
+        "correct": 0,
+        "explanation": "'Out of' expresa movimiento hacia afuera del interior de un objeto.",
+        "id": "q_eng2_ingenio_2"
+    },
+    {
+        "grade": "english2",
+        "category": "ingenio",
+        "question": "The train went _______ a long dark tunnel in the mountain.",
+        "options": [
+            "through",
+            "across",
+            "along",
+            "underneath"
+        ],
+        "correct": 0,
+        "explanation": "'Through' significa 'a través de' o cruzando un espacio cerrado como un túnel.",
+        "id": "q_eng2_ingenio_3"
+    },
+    {
+        "grade": "english2",
+        "category": "ingenio",
+        "question": "We walked _______ the pedestrian bridge to reach the other side of the river.",
+        "options": [
+            "across",
+            "through",
+            "into",
+            "out of"
+        ],
+        "correct": 0,
+        "explanation": "'Across' indica cruzar de un lado al otro sobre una superficie (puente, calle, río).",
+        "id": "q_eng2_ingenio_4"
+    },
+    {
+        "grade": "english2",
+        "category": "ingenio",
+        "question": "The birds flew _______ the lake towards the mountains.",
+        "options": [
+            "over",
+            "into",
+            "through",
+            "under"
+        ],
+        "correct": 0,
+        "explanation": "'Over' significa sobrevolar por encima de la superficie del lago.",
+        "id": "q_eng2_ingenio_5"
+    },
+    {
+        "grade": "english2",
+        "category": "ingenio",
+        "question": "He walked _______ the street looking at all the shop windows.",
+        "options": [
+            "along",
+            "into",
+            "across",
+            "through"
+        ],
+        "correct": 0,
+        "explanation": "'Along' indica movimiento en línea longitudinal a lo largo de la calle.",
+        "id": "q_eng2_ingenio_6"
+    },
+    {
+        "grade": "english2",
+        "category": "ingenio",
+        "question": "The squirrel ran _______ the tree trunk to escape from the dog.",
+        "options": [
+            "up",
+            "down",
+            "into",
+            "through"
+        ],
+        "correct": 0,
+        "explanation": "'Ran up the tree' significa trepó o corrió hacia arriba por el tronco del árbol.",
+        "id": "q_eng2_ingenio_7"
+    },
+    {
+        "grade": "english2",
+        "category": "ingenio",
+        "question": "The ball rolled _______ the hill and stopped near the river.",
+        "options": [
+            "down",
+            "up",
+            "through",
+            "into"
+        ],
+        "correct": 0,
+        "explanation": "'Down the hill' indica desplazamiento hacia abajo por la colina.",
+        "id": "q_eng2_ingenio_8"
+    },
+    {
+        "grade": "english2",
+        "category": "ingenio",
+        "question": "The thief jumped _______ the low wooden garden fence.",
+        "options": [
+            "over",
+            "through",
+            "under",
+            "into"
+        ],
+        "correct": 0,
+        "explanation": "'Jumped over' indica saltar por encima de un obstáculo como una cerca.",
+        "id": "q_eng2_ingenio_9"
+    },
+    {
+        "grade": "english2",
+        "category": "ingenio",
+        "question": "She walked _______ the room and closed the door behind her.",
+        "options": [
+            "out of",
+            "across",
+            "over",
+            "along"
+        ],
+        "correct": 0,
+        "explanation": "'Walked out of the room' significa salir del interior de la habitación.",
+        "id": "q_eng2_ingenio_10"
+    },
+    {
+        "grade": "english2",
+        "category": "ingenio",
+        "question": "What compound word is formed by: SUN + FLOWER?",
+        "options": [
+            "Sunflower",
+            "Sunflour",
+            "Flowersun",
+            "Sunnyflower"
+        ],
+        "correct": 0,
+        "explanation": "Sun + flower forman la palabra compuesta 'Sunflower' (girasol).",
+        "id": "q_eng2_ingenio_11"
+    },
+    {
+        "grade": "english2",
+        "category": "ingenio",
+        "question": "What compound word do you use to brush your teeth: TOOTH + BRUSH?",
+        "options": [
+            "Toothbrush",
+            "Teethbrush",
+            "Brushtooth",
+            "Toothbrusher"
+        ],
+        "correct": 0,
+        "explanation": "Tooth + brush forman 'Toothbrush' (cepillo de dientes).",
+        "id": "q_eng2_ingenio_12"
+    },
+    {
+        "grade": "english2",
+        "category": "ingenio",
+        "question": "What waterproof coat do you wear when it rains: RAIN + COAT?",
+        "options": [
+            "Raincoat",
+            "Coattrain",
+            "Watercoat",
+            "Rainjacket"
+        ],
+        "correct": 0,
+        "explanation": "Rain + coat forman 'Raincoat' (piloto o impermeable para la lluvia).",
+        "id": "q_eng2_ingenio_13"
+    },
+    {
+        "grade": "english2",
+        "category": "ingenio",
+        "question": "What sweet breakfast food is made in a pan: PAN + CAKE?",
+        "options": [
+            "Pancake",
+            "Panpie",
+            "Cakepan",
+            "Breadcake"
+        ],
+        "correct": 0,
+        "explanation": "Pan + cake forman 'Pancake' (panqueque).",
+        "id": "q_eng2_ingenio_14"
+    },
+    {
+        "grade": "english2",
+        "category": "ingenio",
+        "question": "What object with a bed and a room means dormitorio: BED + ROOM?",
+        "options": [
+            "Bedroom",
+            "Bedhouse",
+            "Roombed",
+            "Sleeproom"
+        ],
+        "correct": 0,
+        "explanation": "Bed + room forman 'Bedroom' (dormitorio).",
+        "id": "q_eng2_ingenio_15"
+    },
+    {
+        "grade": "english2",
+        "category": "ingenio",
+        "question": "What ball game is played using feet: FOOT + BALL?",
+        "options": [
+            "Football",
+            "Ballfoot",
+            "Legball",
+            "Feetball"
+        ],
+        "correct": 0,
+        "explanation": "Foot + ball forman 'Football' (fútbol).",
+        "id": "q_eng2_ingenio_16"
+    },
+    {
+        "grade": "english2",
+        "category": "ingenio",
+        "question": "What insect makes honey and has a butter name: BUTTER + FLY?",
+        "options": [
+            "Butterfly",
+            "Flybutter",
+            "Honeyfly",
+            "Butterbee"
+        ],
+        "correct": 0,
+        "explanation": "Butter + fly forman 'Butterfly' (mariposa).",
+        "id": "q_eng2_ingenio_17"
+    },
+    {
+        "grade": "english2",
+        "category": "ingenio",
+        "question": "What board has keys for typing on a computer: KEY + BOARD?",
+        "options": [
+            "Keyboard",
+            "Boardkey",
+            "Typeboard",
+            "Keydesk"
+        ],
+        "correct": 0,
+        "explanation": "Key + board forman 'Keyboard' (teclado de computadora).",
+        "id": "q_eng2_ingenio_18"
+    },
+    {
+        "grade": "english2",
+        "category": "ingenio",
+        "question": "What paper has daily news printed on it: NEWS + PAPER?",
+        "options": [
+            "Newspaper",
+            "Papernews",
+            "Dailyprint",
+            "Newsbook"
+        ],
+        "correct": 0,
+        "explanation": "News + paper forman 'Newspaper' (diario o periódico).",
+        "id": "q_eng2_ingenio_19"
+    },
+    {
+        "grade": "english2",
+        "category": "ingenio",
+        "question": "What fish has the shape of a star: STAR + FISH?",
+        "options": [
+            "Starfish",
+            "Fishstar",
+            "Seastar",
+            "Starshark"
+        ],
+        "correct": 0,
+        "explanation": "Star + fish forman 'Starfish' (estrella de mar).",
+        "id": "q_eng2_ingenio_20"
+    },
+    {
+        "grade": "english2",
+        "category": "ingenio",
+        "question": "What is the plural of 'child'?",
+        "options": [
+            "Children",
+            "Childs",
+            "Childrens",
+            "Childes"
+        ],
+        "correct": 0,
+        "explanation": "El plural irregular de 'child' (niño) es 'children' (niños).",
+        "id": "q_eng2_ingenio_21"
+    },
+    {
+        "grade": "english2",
+        "category": "ingenio",
+        "question": "What is the plural of 'foot'?",
+        "options": [
+            "Feet",
+            "Foots",
+            "Feets",
+            "Footes"
+        ],
+        "correct": 0,
+        "explanation": "El plural irregular de 'foot' (pie) es 'feet' (pies).",
+        "id": "q_eng2_ingenio_22"
+    },
+    {
+        "grade": "english2",
+        "category": "ingenio",
+        "question": "What is the plural of 'tooth'?",
+        "options": [
+            "Teeth",
+            "Tooths",
+            "Teeths",
+            "Toothes"
+        ],
+        "correct": 0,
+        "explanation": "El plural de 'tooth' (diente) es 'teeth' (dientes).",
+        "id": "q_eng2_ingenio_23"
+    },
+    {
+        "grade": "english2",
+        "category": "ingenio",
+        "question": "What is the plural of 'person'?",
+        "options": [
+            "People",
+            "Persons",
+            "Peoples",
+            "Persones"
+        ],
+        "correct": 0,
+        "explanation": "El plural estándar de 'person' (persona) es 'people' (personas o gente).",
+        "id": "q_eng2_ingenio_24"
+    },
+    {
+        "grade": "english2",
+        "category": "ingenio",
+        "question": "What is the plural of 'man'?",
+        "options": [
+            "Men",
+            "Mans",
+            "Mens",
+            "Manes"
+        ],
+        "correct": 0,
+        "explanation": "El plural de 'man' (hombre) es 'men' (hombres).",
+        "id": "q_eng2_ingenio_25"
+    },
+    {
+        "grade": "english2",
+        "category": "ingenio",
+        "question": "What is the plural of 'woman'?",
+        "options": [
+            "Women",
+            "Womans",
+            "Womens",
+            "Womanes"
+        ],
+        "correct": 0,
+        "explanation": "El plural de 'woman' (mujer) es 'women' (mujeres).",
+        "id": "q_eng2_ingenio_26"
+    },
+    {
+        "grade": "english2",
+        "category": "ingenio",
+        "question": "What is the plural of 'mouse'?",
+        "options": [
+            "Mice",
+            "Mouses",
+            "Mices",
+            "Mousees"
+        ],
+        "correct": 0,
+        "explanation": "El plural irregular de 'mouse' (ratón) es 'mice' (ratones).",
+        "id": "q_eng2_ingenio_27"
+    },
+    {
+        "grade": "english2",
+        "category": "ingenio",
+        "question": "What is the plural of 'sheep'?",
+        "options": [
+            "Sheep",
+            "Sheeps",
+            "Sheepes",
+            "Shop"
+        ],
+        "correct": 0,
+        "explanation": "'Sheep' es invariable: tanto en singular como en plural se dice 'sheep'.",
+        "id": "q_eng2_ingenio_28"
+    },
+    {
+        "grade": "english2",
+        "category": "ingenio",
+        "question": "What is the plural of 'fish'?",
+        "options": [
+            "Fish",
+            "Fishes",
+            "Fishs",
+            "Fishi"
+        ],
+        "correct": 0,
+        "explanation": "El plural común para peces de la misma especie es 'fish'.",
+        "id": "q_eng2_ingenio_29"
+    },
+    {
+        "grade": "english2",
+        "category": "ingenio",
+        "question": "What is the plural of 'leaf'?",
+        "options": [
+            "Leaves",
+            "Leafs",
+            "Leafes",
+            "Leavs"
+        ],
+        "correct": 0,
+        "explanation": "Sustantivos terminados en -f como 'leaf' forman el plural cambiando a -ves: 'leaves'.",
+        "id": "q_eng2_ingenio_30"
+    },
+    {
+        "grade": "english2",
+        "category": "ingenio",
+        "question": "If yesterday was Sunday, what day will it be in three days?",
+        "options": [
+            "Thursday",
+            "Wednesday",
+            "Friday",
+            "Tuesday"
+        ],
+        "correct": 0,
+        "explanation": "Si ayer fue domingo, hoy es lunes. En tres días (martes, miércoles, jueves) será jueves ('Thursday').",
+        "id": "q_eng2_ingenio_31"
+    },
+    {
+        "grade": "english2",
+        "category": "ingenio",
+        "question": "Tom is older than Sam, and Sam is older than Ben. Who is the youngest?",
+        "options": [
+            "Ben",
+            "Tom",
+            "Sam",
+            "They are the same age"
+        ],
+        "correct": 0,
+        "explanation": "El orden de mayor a menor es Tom > Sam > Ben. El menor es Ben ('the youngest').",
+        "id": "q_eng2_ingenio_32"
+    },
+    {
+        "grade": "english2",
+        "category": "ingenio",
+        "question": "I have no wings, but I can fly through the sky when you pull my string on a windy day. What am I?",
+        "options": [
+            "A kite",
+            "A balloon",
+            "An airplane",
+            "A bird"
+        ],
+        "correct": 0,
+        "explanation": "El barrilete o cometa ('A kite') vuela al ser sostenido por un hilo en un día ventoso.",
+        "id": "q_eng2_ingenio_33"
+    },
+    {
+        "grade": "english2",
+        "category": "ingenio",
+        "question": "What gets wetter the more it dries?",
+        "options": [
+            "A towel",
+            "A sponge",
+            "The sun",
+            "Water"
+        ],
+        "correct": 0,
+        "explanation": "La toalla ('A towel') absorbe agua y se humedece mientras seca el cuerpo.",
+        "id": "q_eng2_ingenio_34"
+    },
+    {
+        "grade": "english2",
+        "category": "ingenio",
+        "question": "What goes up when rain comes down?",
+        "options": [
+            "An umbrella",
+            "A cloud",
+            "A shoe",
+            "A roof"
+        ],
+        "correct": 0,
+        "explanation": "El paraguas ('An umbrella') se levanta y abre cuando cae la lluvia.",
+        "id": "q_eng2_ingenio_35"
+    },
+    {
+        "grade": "english2",
+        "category": "ingenio",
+        "question": "Which word does NOT belong: Dog, Cat, Horse, Car?",
+        "options": [
+            "Car",
+            "Dog",
+            "Cat",
+            "Horse"
+        ],
+        "correct": 0,
+        "explanation": "'Car' es un vehículo motorizado, mientras que los demás son animales.",
+        "id": "q_eng2_ingenio_36"
+    },
+    {
+        "grade": "english2",
+        "category": "ingenio",
+        "question": "What has a ring but no finger?",
+        "options": [
+            "A telephone",
+            "A book",
+            "A hat",
+            "A tree"
+        ],
+        "correct": 0,
+        "explanation": "El teléfono suena ('rings') pero no tiene dedos.",
+        "id": "q_eng2_ingenio_37"
+    },
+    {
+        "grade": "english2",
+        "category": "ingenio",
+        "question": "If a train leaves at 10:15 and the journey takes 45 minutes, what time does it arrive?",
+        "options": [
+            "11:00",
+            "11:15",
+            "10:45",
+            "11:30"
+        ],
+        "correct": 0,
+        "explanation": "10:15 + 45 minutos = 11:00 en punto.",
+        "id": "q_eng2_ingenio_38"
+    },
+    {
+        "grade": "english2",
+        "category": "ingenio",
+        "question": "How many seconds are there in two full minutes?",
+        "options": [
+            "120 seconds",
+            "60 seconds",
+            "100 seconds",
+            "180 seconds"
+        ],
+        "correct": 0,
+        "explanation": "Un minuto tiene 60 segundos; dos minutos tienen 60 x 2 = 120 segundos.",
+        "id": "q_eng2_ingenio_39"
+    },
+    {
+        "grade": "english2",
+        "category": "ingenio",
+        "question": "What has many teeth but cannot bite?",
+        "options": [
+            "A comb",
+            "A dog",
+            "A shark",
+            "A zipper"
+        ],
+        "correct": 0,
+        "explanation": "El peine ('A comb') tiene dientes pero no muerde.",
+        "id": "q_eng2_ingenio_40"
+    },
+    {
+        "grade": "english2",
+        "category": "ingenio",
+        "question": "What verb do you use with 'homework': do or make?",
+        "options": [
+            "Do homework",
+            "Make homework",
+            "Take homework",
+            "Have homework"
+        ],
+        "correct": 0,
+        "explanation": "En inglés se dice 'do homework' (hacer la tarea escolar).",
+        "id": "q_eng2_ingenio_41"
+    },
+    {
+        "grade": "english2",
+        "category": "ingenio",
+        "question": "What verb do you use with 'a mistake': do or make?",
+        "options": [
+            "Make a mistake",
+            "Do a mistake",
+            "Take a mistake",
+            "Have a mistake"
+        ],
+        "correct": 0,
+        "explanation": "La colocación correcta en inglés es 'make a mistake' (cometer un error).",
+        "id": "q_eng2_ingenio_42"
+    },
+    {
+        "grade": "english2",
+        "category": "ingenio",
+        "question": "What verb do you use with 'a shower': do or take/have?",
+        "options": [
+            "Take or have a shower",
+            "Make a shower",
+            "Do a shower",
+            "Put a shower"
+        ],
+        "correct": 0,
+        "explanation": "Darse una ducha se dice 'take a shower' o 'have a shower'.",
+        "id": "q_eng2_ingenio_43"
+    },
+    {
+        "grade": "english2",
+        "category": "ingenio",
+        "question": "What verb do you use when you clean your bed in the morning?",
+        "options": [
+            "Make the bed",
+            "Do the bed",
+            "Build the bed",
+            "Take the bed"
+        ],
+        "correct": 0,
+        "explanation": "Hacer o tender la cama se dice 'make the bed'.",
+        "id": "q_eng2_ingenio_44"
+    },
+    {
+        "grade": "english2",
+        "category": "ingenio",
+        "question": "What is the opposite of the adjective 'noisy'?",
+        "options": [
+            "Quiet",
+            "Loud",
+            "Busy",
+            "Crowded"
+        ],
+        "correct": 0,
+        "explanation": "El opuesto de ruidoso ('noisy') es silencioso o tranquilo ('quiet').",
+        "id": "q_eng2_ingenio_45"
+    },
+    {
+        "grade": "english2",
+        "category": "ingenio",
+        "question": "What is the opposite of 'cheap'?",
+        "options": [
+            "Expensive",
+            "Poor",
+            "Low",
+            "Simple"
+        ],
+        "correct": 0,
+        "explanation": "El antónimo de barato ('cheap') es caro o costoso ('expensive').",
+        "id": "q_eng2_ingenio_46"
+    },
+    {
+        "grade": "english2",
+        "category": "ingenio",
+        "question": "What is the opposite of 'safe'?",
+        "options": [
+            "Dangerous",
+            "Secure",
+            "Fine",
+            "Clean"
+        ],
+        "correct": 0,
+        "explanation": "El opuesto de seguro ('safe') es peligroso ('dangerous').",
+        "id": "q_eng2_ingenio_47"
+    },
+    {
+        "grade": "english2",
+        "category": "ingenio",
+        "question": "Complete the idiom: It's raining cats and _______!",
+        "options": [
+            "dogs",
+            "birds",
+            "frogs",
+            "mice"
+        ],
+        "correct": 0,
+        "explanation": "'It's raining cats and dogs' es la conocida expresión idiomática para decir que llueve a cántaros.",
+        "id": "q_eng2_ingenio_48"
+    },
+    {
+        "grade": "english2",
+        "category": "ingenio",
+        "question": "Which preposition completes the phrase: 'interested _______ science'?",
+        "options": [
+            "in",
+            "at",
+            "on",
+            "with"
+        ],
+        "correct": 0,
+        "explanation": "El adjetivo 'interested' rige siempre la preposición 'in': 'interested in science'.",
+        "id": "q_eng2_ingenio_49"
+    },
+    {
+        "grade": "english2",
+        "category": "ingenio",
+        "question": "Which preposition completes the phrase: 'good _______ football'?",
+        "options": [
+            "at",
+            "in",
+            "on",
+            "for"
+        ],
+        "correct": 0,
+        "explanation": "Ser bueno en una disciplina o deporte se expresa como 'good at': 'good at football'.",
+        "id": "q_eng2_ingenio_50"
+    }
+    ,
+    {
+        "grade": "english3",
+        "category": "matematica",
+        "question": "At 8 o'clock yesterday evening, I _______ my dinner with my family.",
+        "options": [
+            "was having",
+            "were having",
+            "had",
+            "have"
+        ],
+        "correct": 0,
+        "explanation": "Para una acción que estaba en desarrollo en un momento específico del pasado se usa Past Continuous: 'was having'.",
+        "id": "q_eng3_matematica_1"
+    },
+    {
+        "grade": "english3",
+        "category": "matematica",
+        "question": "What _______ you doing when the lights went out?",
+        "options": [
+            "were",
+            "was",
+            "did",
+            "are"
+        ],
+        "correct": 0,
+        "explanation": "Con el pronombre 'you' en Past Continuous se utiliza 'were': 'What were you doing?'.",
+        "id": "q_eng3_matematica_2"
+    },
+    {
+        "grade": "english3",
+        "category": "matematica",
+        "question": "It _______ heavily all through the night, so the streets were wet.",
+        "options": [
+            "was raining",
+            "were raining",
+            "rained",
+            "rains"
+        ],
+        "correct": 0,
+        "explanation": "Para una acción climática continua en el pasado se usa 'was raining'.",
+        "id": "q_eng3_matematica_3"
+    },
+    {
+        "grade": "english3",
+        "category": "matematica",
+        "question": "The children _______ computer games while their parents were cooking.",
+        "options": [
+            "were playing",
+            "was playing",
+            "played",
+            "playing"
+        ],
+        "correct": 0,
+        "explanation": "'The children' es un sujeto plural, por lo que corresponde 'were playing'.",
+        "id": "q_eng3_matematica_4"
+    },
+    {
+        "grade": "english3",
+        "category": "matematica",
+        "question": "She _______ a lovely blue dress at the graduation party.",
+        "options": [
+            "was wearing",
+            "were wearing",
+            "wore",
+            "is wearing"
+        ],
+        "correct": 0,
+        "explanation": "Past Continuous describe la acción continuada de vestir una prenda: 'was wearing'.",
+        "id": "q_eng3_matematica_5"
+    },
+    {
+        "grade": "english3",
+        "category": "matematica",
+        "question": "While we _______ through the forest, we spotted a wild deer.",
+        "options": [
+            "were walking",
+            "was walking",
+            "walked",
+            "are walking"
+        ],
+        "correct": 0,
+        "explanation": "La cláusula con 'While' lleva Past Continuous con sujeto 'we': 'were walking'.",
+        "id": "q_eng3_matematica_6"
+    },
+    {
+        "grade": "english3",
+        "category": "matematica",
+        "question": "I _______ listening to music, so I didn't hear the doorbell ring.",
+        "options": [
+            "was",
+            "were",
+            "am",
+            "did"
+        ],
+        "correct": 0,
+        "explanation": "Con 'I' se utiliza 'was' en la perífrasis de Past Continuous: 'I was listening'.",
+        "id": "q_eng3_matematica_7"
+    },
+    {
+        "grade": "english3",
+        "category": "matematica",
+        "question": "They _______ not paying attention when the teacher explained the homework.",
+        "options": [
+            "were",
+            "was",
+            "did",
+            "are"
+        ],
+        "correct": 0,
+        "explanation": "Con el pronombre 'they' la forma negativa en Past Continuous es 'were not' (weren't).",
+        "id": "q_eng3_matematica_8"
+    },
+    {
+        "grade": "english3",
+        "category": "matematica",
+        "question": "Why _______ he running so fast down the street?",
+        "options": [
+            "was",
+            "were",
+            "did",
+            "is"
+        ],
+        "correct": 0,
+        "explanation": "En preguntas de Past Continuous con 'he' se antepone 'was': 'Why was he running?'.",
+        "id": "q_eng3_matematica_9"
+    },
+    {
+        "grade": "english3",
+        "category": "matematica",
+        "question": "The sun _______ brightly and birds were singing in the trees.",
+        "options": [
+            "was shining",
+            "were shining",
+            "shined",
+            "shining"
+        ],
+        "correct": 0,
+        "explanation": "'The sun' es singular ('it'), por lo que lleva 'was shining'.",
+        "id": "q_eng3_matematica_10"
+    },
+    {
+        "grade": "english3",
+        "category": "matematica",
+        "question": "I was doing my homework _______ my mobile phone suddenly rang.",
+        "options": [
+            "when",
+            "while",
+            "as",
+            "during"
+        ],
+        "correct": 0,
+        "explanation": "Se utiliza 'when' para introducir una acción puntual en Past Simple que interrumpe una acción continua.",
+        "id": "q_eng3_matematica_11"
+    },
+    {
+        "grade": "english3",
+        "category": "matematica",
+        "question": "_______ I was walking home from school, it started to rain.",
+        "options": [
+            "While",
+            "When",
+            "During",
+            "Where"
+        ],
+        "correct": 0,
+        "explanation": "'While' (mientras) se utiliza comúnmente para introducir una acción continua en Past Continuous.",
+        "id": "q_eng3_matematica_12"
+    },
+    {
+        "grade": "english3",
+        "category": "matematica",
+        "question": "She _______ her ankle while she was playing volleyball.",
+        "options": [
+            "twisted",
+            "was twisting",
+            "twists",
+            "is twisting"
+        ],
+        "correct": 0,
+        "explanation": "La acción puntual en Past Simple ('twisted') interrumpe la actividad continua ('was playing').",
+        "id": "q_eng3_matematica_13"
+    },
+    {
+        "grade": "english3",
+        "category": "matematica",
+        "question": "We were watching TV when someone _______ at the front door.",
+        "options": [
+            "knocked",
+            "was knocking",
+            "knocks",
+            "is knocking"
+        ],
+        "correct": 0,
+        "explanation": "La acción breve que ocurre repentinamente va en Past Simple: 'knocked'.",
+        "id": "q_eng3_matematica_14"
+    },
+    {
+        "grade": "english3",
+        "category": "matematica",
+        "question": "The electricity went off while my dad _______ dinner in the kitchen.",
+        "options": [
+            "was preparing",
+            "prepared",
+            "prepares",
+            "is preparing"
+        ],
+        "correct": 0,
+        "explanation": "La acción de fondo que estaba en progreso durante el corte de luz se expresa con 'was preparing'.",
+        "id": "q_eng3_matematica_15"
+    },
+    {
+        "grade": "english3",
+        "category": "matematica",
+        "question": "He fell asleep while he _______ a book in bed.",
+        "options": [
+            "was reading",
+            "read",
+            "reads",
+            "is reading"
+        ],
+        "correct": 0,
+        "explanation": "Estar leyendo en la cama era la acción en desarrollo ('was reading') cuando se quedó dormido.",
+        "id": "q_eng3_matematica_16"
+    },
+    {
+        "grade": "english3",
+        "category": "matematica",
+        "question": "What were they doing _______ the fire alarm sounded?",
+        "options": [
+            "when",
+            "while",
+            "during",
+            "as soon"
+        ],
+        "correct": 0,
+        "explanation": "'When' introduce la acción repentina en Past Simple ('the alarm sounded').",
+        "id": "q_eng3_matematica_17"
+    },
+    {
+        "grade": "english3",
+        "category": "matematica",
+        "question": "The dog ran into the living room while we _______ dinner.",
+        "options": [
+            "were eating",
+            "was eating",
+            "ate",
+            "are eating"
+        ],
+        "correct": 0,
+        "explanation": "Con el sujeto plural 'we' la acción prolongada en progreso es 'were eating'.",
+        "id": "q_eng3_matematica_18"
+    },
+    {
+        "grade": "english3",
+        "category": "matematica",
+        "question": "She was cycling to school when she _______ her best friend on the pavement.",
+        "options": [
+            "saw",
+            "was seeing",
+            "seen",
+            "sees"
+        ],
+        "correct": 0,
+        "explanation": "El verbo 'see' describe una acción puntual en Past Simple: 'saw'.",
+        "id": "q_eng3_matematica_19"
+    },
+    {
+        "grade": "english3",
+        "category": "matematica",
+        "question": "While the teacher _______ on the board, the students copied the notes.",
+        "options": [
+            "was writing",
+            "wrote",
+            "writes",
+            "is writing"
+        ],
+        "correct": 0,
+        "explanation": "'While' introduce la acción que estaba teniendo lugar: 'was writing'.",
+        "id": "q_eng3_matematica_20"
+    },
+    {
+        "grade": "english3",
+        "category": "matematica",
+        "question": "When I was six years old, I _______ live in a small village in Córdoba.",
+        "options": [
+            "used to",
+            "use to",
+            "was used",
+            "using to"
+        ],
+        "correct": 0,
+        "explanation": "'Used to' + infinitivo expresa un hábito o estado que era cierto en el pasado pero ya no lo es.",
+        "id": "q_eng3_matematica_21"
+    },
+    {
+        "grade": "english3",
+        "category": "matematica",
+        "question": "Did you _______ play with toy cars when you were a little boy?",
+        "options": [
+            "use to",
+            "used to",
+            "used",
+            "using to"
+        ],
+        "correct": 0,
+        "explanation": "En preguntas con el auxiliar 'Did' se utiliza la forma base 'use to'.",
+        "id": "q_eng3_matematica_22"
+    },
+    {
+        "grade": "english3",
+        "category": "matematica",
+        "question": "My grandfather _______ have a vintage red motorcycle.",
+        "options": [
+            "used to",
+            "use to",
+            "was using",
+            "is used to"
+        ],
+        "correct": 0,
+        "explanation": "'Used to have' indica una posesión o estado habitual en el pasado.",
+        "id": "q_eng3_matematica_23"
+    },
+    {
+        "grade": "english3",
+        "category": "matematica",
+        "question": "She didn't _______ like olives when she was younger, but now she loves them.",
+        "options": [
+            "use to",
+            "used to",
+            "used",
+            "uses to"
+        ],
+        "correct": 0,
+        "explanation": "Tras el auxiliar negativo 'didn't' se escribe 'use to' sin la 'd' final.",
+        "id": "q_eng3_matematica_24"
+    },
+    {
+        "grade": "english3",
+        "category": "matematica",
+        "question": "There _______ be an old cinema in this street many years ago.",
+        "options": [
+            "used to",
+            "use to",
+            "was used",
+            "is used"
+        ],
+        "correct": 0,
+        "explanation": "'There used to be' significa 'solía haber' en el pasado.",
+        "id": "q_eng3_matematica_25"
+    },
+    {
+        "grade": "english3",
+        "category": "matematica",
+        "question": "We _______ go camping by the lake every summer when we were kids.",
+        "options": [
+            "used to",
+            "use to",
+            "are used",
+            "got used"
+        ],
+        "correct": 0,
+        "explanation": "'Used to go' expresa la costumbre reiterada de acampar en la niñez.",
+        "id": "q_eng3_matematica_26"
+    },
+    {
+        "grade": "english3",
+        "category": "matematica",
+        "question": "He _______ eat meat, but three years ago he became a strict vegetarian.",
+        "options": [
+            "used to",
+            "use to",
+            "is used",
+            "was used"
+        ],
+        "correct": 0,
+        "explanation": "'Used to eat' indica que antes comía carne pero ya no lo hace.",
+        "id": "q_eng3_matematica_27"
+    },
+    {
+        "grade": "english3",
+        "category": "matematica",
+        "question": "Did they _______ go to the same primary school as you?",
+        "options": [
+            "use to",
+            "used to",
+            "used",
+            "using to"
+        ],
+        "correct": 0,
+        "explanation": "En la interrogación con 'Did' se mantiene la forma base 'use to'.",
+        "id": "q_eng3_matematica_28"
+    },
+    {
+        "grade": "english3",
+        "category": "matematica",
+        "question": "People didn't _______ have smartphones in the twentieth century.",
+        "options": [
+            "use to",
+            "used to",
+            "used",
+            "uses"
+        ],
+        "correct": 0,
+        "explanation": "La estructura negativa es 'didn't use to have'.",
+        "id": "q_eng3_matematica_29"
+    },
+    {
+        "grade": "english3",
+        "category": "matematica",
+        "question": "I _______ be very shy, but now I enjoy giving presentations.",
+        "options": [
+            "used to",
+            "use to",
+            "am used to",
+            "used"
+        ],
+        "correct": 0,
+        "explanation": "'I used to be' expresa un estado personal anterior que ha cambiado.",
+        "id": "q_eng3_matematica_30"
+    },
+    {
+        "grade": "english3",
+        "category": "matematica",
+        "question": "We _______ to Bariloche tomorrow morning; here are our boarding passes!",
+        "options": [
+            "are flying",
+            "fly",
+            "flew",
+            "flown"
+        ],
+        "correct": 0,
+        "explanation": "El Present Continuous se utiliza para arreglos personales futuros ya confirmados: 'are flying'.",
+        "id": "q_eng3_matematica_31"
+    },
+    {
+        "grade": "english3",
+        "category": "matematica",
+        "question": "What _______ you doing this Saturday evening?",
+        "options": [
+            "are",
+            "do",
+            "will",
+            "have"
+        ],
+        "correct": 0,
+        "explanation": "Preguntar planes y compromisos confirmados para el fin de semana: 'What are you doing...?'.",
+        "id": "q_eng3_matematica_32"
+    },
+    {
+        "grade": "english3",
+        "category": "matematica",
+        "question": "She is _______ the dentist at four o'clock this afternoon.",
+        "options": [
+            "seeing",
+            "see",
+            "saw",
+            "seen"
+        ],
+        "correct": 0,
+        "explanation": "'Seeing the dentist' (con cita previa pactada) se expresa con Present Continuous.",
+        "id": "q_eng3_matematica_33"
+    },
+    {
+        "grade": "english3",
+        "category": "matematica",
+        "question": "I am _______ tennis with Martin after school today.",
+        "options": [
+            "playing",
+            "played",
+            "play",
+            "am play"
+        ],
+        "correct": 0,
+        "explanation": "Present Continuous para un plan acordado: 'I am playing'.",
+        "id": "q_eng3_matematica_34"
+    },
+    {
+        "grade": "english3",
+        "category": "matematica",
+        "question": "They _______ having a big birthday barbecue next Sunday.",
+        "options": [
+            "are",
+            "is",
+            "were",
+            "do"
+        ],
+        "correct": 0,
+        "explanation": "Con el sujeto plural 'They' se usa 'are having'.",
+        "id": "q_eng3_matematica_35"
+    },
+    {
+        "grade": "english3",
+        "category": "matematica",
+        "question": "My family and I _______ having dinner at an Italian restaurant tonight.",
+        "options": [
+            "are",
+            "is",
+            "am",
+            "do"
+        ],
+        "correct": 0,
+        "explanation": "'My family and I' equivale a 'we', por lo que lleva 'are having'.",
+        "id": "q_eng3_matematica_36"
+    },
+    {
+        "grade": "english3",
+        "category": "matematica",
+        "question": "Is Lucas _______ to the cinema with us later?",
+        "options": [
+            "coming",
+            "come",
+            "came",
+            "comes"
+        ],
+        "correct": 0,
+        "explanation": "Present Continuous en pregunta para planes cercanos: 'Is Lucas coming...?'.",
+        "id": "q_eng3_matematica_37"
+    },
+    {
+        "grade": "english3",
+        "category": "matematica",
+        "question": "We _______ not having classes next Monday because it is a national holiday.",
+        "options": [
+            "are",
+            "is",
+            "were",
+            "do"
+        ],
+        "correct": 0,
+        "explanation": "Para el pronombre 'we' se utiliza 'are not having'.",
+        "id": "q_eng3_matematica_38"
+    },
+    {
+        "grade": "english3",
+        "category": "matematica",
+        "question": "What time are you _______ tomorrow morning?",
+        "options": [
+            "leaving",
+            "leave",
+            "left",
+            "leaves"
+        ],
+        "correct": 0,
+        "explanation": "Arreglos de salida y viajes programados: 'are you leaving'.",
+        "id": "q_eng3_matematica_39"
+    },
+    {
+        "grade": "english3",
+        "category": "matematica",
+        "question": "She _______ meeting her friends at the shopping mall at five.",
+        "options": [
+            "is",
+            "are",
+            "am",
+            "be"
+        ],
+        "correct": 0,
+        "explanation": "Con la tercera persona singular 'she' se emplea 'is meeting'.",
+        "id": "q_eng3_matematica_40"
+    },
+    {
+        "grade": "english3",
+        "category": "matematica",
+        "question": "Please wash your hands _______ you sit down to eat dinner.",
+        "options": [
+            "before",
+            "after",
+            "during",
+            "while"
+        ],
+        "correct": 0,
+        "explanation": "'Before' (antes de) indica la acción previa necesaria: lavarse las manos antes de cenar.",
+        "id": "q_eng3_matematica_41"
+    },
+    {
+        "grade": "english3",
+        "category": "matematica",
+        "question": "I will call you as _______ as I arrive at the hotel.",
+        "options": [
+            "soon",
+            "fast",
+            "quick",
+            "early"
+        ],
+        "correct": 0,
+        "explanation": "La locución conjuntiva 'as soon as' significa 'tan pronto como' o 'en cuanto'.",
+        "id": "q_eng3_matematica_42"
+    },
+    {
+        "grade": "english3",
+        "category": "matematica",
+        "question": "Don't cross the street _______ the traffic light turns green.",
+        "options": [
+            "until",
+            "while",
+            "after",
+            "since"
+        ],
+        "correct": 0,
+        "explanation": "'Until' (hasta que) expresa el límite de tiempo que debe respetarse antes de avanzar.",
+        "id": "q_eng3_matematica_43"
+    },
+    {
+        "grade": "english3",
+        "category": "matematica",
+        "question": "We went for a walk in the park _______ the heavy rain stopped.",
+        "options": [
+            "after",
+            "before",
+            "until",
+            "during"
+        ],
+        "correct": 0,
+        "explanation": "'After' (después de que) señala que el paseo ocurrió una vez que cesó la lluvia.",
+        "id": "q_eng3_matematica_44"
+    },
+    {
+        "grade": "english3",
+        "category": "matematica",
+        "question": "Brush your teeth _______ going to sleep at night.",
+        "options": [
+            "before",
+            "after",
+            "during",
+            "while"
+        ],
+        "correct": 0,
+        "explanation": "Cepillarse los dientes antes de ir a dormir: 'before going to sleep'.",
+        "id": "q_eng3_matematica_45"
+    },
+    {
+        "grade": "english3",
+        "category": "matematica",
+        "question": "Always look both ways _______ you cross a busy road.",
+        "options": [
+            "before",
+            "after",
+            "while",
+            "during"
+        ],
+        "correct": 0,
+        "explanation": "Mirar a ambos lados antes de cruzar la calle: 'before you cross'.",
+        "id": "q_eng3_matematica_46"
+    },
+    {
+        "grade": "english3",
+        "category": "matematica",
+        "question": "He did his homework _______ he played video games with his brother.",
+        "options": [
+            "before",
+            "until",
+            "during",
+            "as"
+        ],
+        "correct": 0,
+        "explanation": "Hizo primero la tarea antes de jugar: 'before he played'.",
+        "id": "q_eng3_matematica_47"
+    },
+    {
+        "grade": "english3",
+        "category": "matematica",
+        "question": "Wait here _______ I come back with the cinema tickets.",
+        "options": [
+            "until",
+            "after",
+            "before",
+            "during"
+        ],
+        "correct": 0,
+        "explanation": "'Wait here until...' significa 'espera aquí hasta que vuelva'.",
+        "id": "q_eng3_matematica_48"
+    },
+    {
+        "grade": "english3",
+        "category": "matematica",
+        "question": "As soon as the school bell _______, the students packed their bags.",
+        "options": [
+            "rang",
+            "ring",
+            "rung",
+            "rings"
+        ],
+        "correct": 0,
+        "explanation": "En una narración pasada con 'as soon as' se usa Past Simple: 'rang'.",
+        "id": "q_eng3_matematica_49"
+    },
+    {
+        "grade": "english3",
+        "category": "matematica",
+        "question": "She felt much better _______ drinking a warm cup of herbal tea.",
+        "options": [
+            "after",
+            "before",
+            "during",
+            "until"
+        ],
+        "correct": 0,
+        "explanation": "Se sintió mucho mejor después de tomar el té: 'after drinking' (preposición + -ing).",
+        "id": "q_eng3_matematica_50"
+    },
+    {
+        "grade": "english3",
+        "category": "lengua",
+        "question": "I _______ never been to London, but I would love to visit it one day.",
+        "options": [
+            "have",
+            "has",
+            "am",
+            "did"
+        ],
+        "correct": 0,
+        "explanation": "Con 'I' se utiliza el auxiliar 'have' para formar el Present Perfect: 'I have never been'.",
+        "id": "q_eng3_lengua_1"
+    },
+    {
+        "grade": "english3",
+        "category": "lengua",
+        "question": "She _______ already finished her English homework.",
+        "options": [
+            "has",
+            "have",
+            "is",
+            "did"
+        ],
+        "correct": 0,
+        "explanation": "Con la tercera persona singular 'she' se emplea el auxiliar 'has': 'She has already finished'.",
+        "id": "q_eng3_lengua_2"
+    },
+    {
+        "grade": "english3",
+        "category": "lengua",
+        "question": "They _______ lived in this house for over ten years.",
+        "options": [
+            "have",
+            "has",
+            "are",
+            "were"
+        ],
+        "correct": 0,
+        "explanation": "Con el sujeto plural 'they' el auxiliar es 'have': 'They have lived'.",
+        "id": "q_eng3_lengua_3"
+    },
+    {
+        "grade": "english3",
+        "category": "lengua",
+        "question": "We haven't _______ the new superhero movie yet.",
+        "options": [
+            "seen",
+            "saw",
+            "see",
+            "seeing"
+        ],
+        "correct": 0,
+        "explanation": "Luego del auxiliar 'haven't' se debe emplear el participio pasado del verbo 'see': 'seen'.",
+        "id": "q_eng3_lengua_4"
+    },
+    {
+        "grade": "english3",
+        "category": "lengua",
+        "question": "Martin has _______ his keys and cannot open his apartment door.",
+        "options": [
+            "lost",
+            "lose",
+            "losing",
+            "losed"
+        ],
+        "correct": 0,
+        "explanation": "El participio pasado del verbo irregular 'lose' es 'lost'.",
+        "id": "q_eng3_lengua_5"
+    },
+    {
+        "grade": "english3",
+        "category": "lengua",
+        "question": "My parents _______ bought a new television for the living room.",
+        "options": [
+            "have",
+            "has",
+            "are",
+            "did"
+        ],
+        "correct": 0,
+        "explanation": "'My parents' es plural (ellos), por lo que lleva el auxiliar 'have'.",
+        "id": "q_eng3_lengua_6"
+    },
+    {
+        "grade": "english3",
+        "category": "lengua",
+        "question": "He has _______ three glasses of water because it is very hot.",
+        "options": [
+            "drunk",
+            "drank",
+            "drink",
+            "drinking"
+        ],
+        "correct": 0,
+        "explanation": "El participio pasado del verbo 'drink' es 'drunk' (drink - drank - drunk).",
+        "id": "q_eng3_lengua_7"
+    },
+    {
+        "grade": "english3",
+        "category": "lengua",
+        "question": "Have you ever _______ an email in English to a penfriend?",
+        "options": [
+            "written",
+            "wrote",
+            "write",
+            "writing"
+        ],
+        "correct": 0,
+        "explanation": "El participio pasado del verbo irregular 'write' es 'written'.",
+        "id": "q_eng3_lengua_8"
+    },
+    {
+        "grade": "english3",
+        "category": "lengua",
+        "question": "The train has already _______ the station, so we missed it.",
+        "options": [
+            "left",
+            "leave",
+            "leaved",
+            "leaving"
+        ],
+        "correct": 0,
+        "explanation": "El participio pasado del verbo 'leave' (partir) es 'left'.",
+        "id": "q_eng3_lengua_9"
+    },
+    {
+        "grade": "english3",
+        "category": "lengua",
+        "question": "She hasn't _______ her grandmother on the phone this week.",
+        "options": [
+            "called",
+            "calling",
+            "call",
+            "calls"
+        ],
+        "correct": 0,
+        "explanation": "En Present Perfect negativo con verbos regulares se usa la forma en -ed: 'called'.",
+        "id": "q_eng3_lengua_10"
+    },
+    {
+        "grade": "english3",
+        "category": "lengua",
+        "question": "Have you _______ ridden a horse on a farm?",
+        "options": [
+            "ever",
+            "never",
+            "yet",
+            "already"
+        ],
+        "correct": 0,
+        "explanation": "'Ever' se utiliza en oraciones interrogativas para preguntar '¿alguna vez en tu vida...?': 'Have you ever...?'.",
+        "id": "q_eng3_lengua_11"
+    },
+    {
+        "grade": "english3",
+        "category": "lengua",
+        "question": "I have _______ seen a ghost; I don't believe in them.",
+        "options": [
+            "never",
+            "ever",
+            "yet",
+            "always"
+        ],
+        "correct": 0,
+        "explanation": "'Never' (nunca) se utiliza en oraciones afirmativas con sentido negativo: 'I have never seen'.",
+        "id": "q_eng3_lengua_12"
+    },
+    {
+        "grade": "english3",
+        "category": "lengua",
+        "question": "Has she _______ travelled by plane to another country?",
+        "options": [
+            "ever",
+            "never",
+            "yet",
+            "just"
+        ],
+        "correct": 0,
+        "explanation": "En preguntas sobre experiencias de vida con 'Has she...' se emplea 'ever'.",
+        "id": "q_eng3_lengua_13"
+    },
+    {
+        "grade": "english3",
+        "category": "lengua",
+        "question": "We have _______ eaten sushi before; this is our very first time!",
+        "options": [
+            "never",
+            "ever",
+            "yet",
+            "already"
+        ],
+        "correct": 0,
+        "explanation": "Expresar que es la primera vez que se hace algo: 'We have never eaten sushi before'.",
+        "id": "q_eng3_lengua_14"
+    },
+    {
+        "grade": "english3",
+        "category": "lengua",
+        "question": "Have they _______ won a football tournament?",
+        "options": [
+            "ever",
+            "never",
+            "yet",
+            "already"
+        ],
+        "correct": 0,
+        "explanation": "La fórmula estándar para indagar sobre logros es 'Have they ever won...?'.",
+        "id": "q_eng3_lengua_15"
+    },
+    {
+        "grade": "english3",
+        "category": "lengua",
+        "question": "He has _______ been late for school; he is always punctual.",
+        "options": [
+            "never",
+            "ever",
+            "yet",
+            "already"
+        ],
+        "correct": 0,
+        "explanation": "'Has never been late' significa que nunca ha llegado tarde.",
+        "id": "q_eng3_lengua_16"
+    },
+    {
+        "grade": "english3",
+        "category": "lengua",
+        "question": "This is the best pizza I have _______ tasted in my whole life!",
+        "options": [
+            "ever",
+            "never",
+            "yet",
+            "since"
+        ],
+        "correct": 0,
+        "explanation": "Con estructuras superlativas ('the best...') se utiliza 'ever': 'I have ever tasted'.",
+        "id": "q_eng3_lengua_17"
+    },
+    {
+        "grade": "english3",
+        "category": "lengua",
+        "question": "Have you _______ slept in a tent under the stars?",
+        "options": [
+            "ever",
+            "never",
+            "yet",
+            "just"
+        ],
+        "correct": 0,
+        "explanation": "Pregunta de experiencia personal: 'Have you ever slept...?'.",
+        "id": "q_eng3_lengua_18"
+    },
+    {
+        "grade": "english3",
+        "category": "lengua",
+        "question": "My little brother has _______ seen snow because he lives in Corrientes.",
+        "options": [
+            "never",
+            "ever",
+            "yet",
+            "already"
+        ],
+        "correct": 0,
+        "explanation": "'Has never seen' expresa que jamás ha visto nieve.",
+        "id": "q_eng3_lengua_19"
+    },
+    {
+        "grade": "english3",
+        "category": "lengua",
+        "question": "Have you ever _______ a bone in your body?",
+        "options": [
+            "broken",
+            "broke",
+            "break",
+            "breaking"
+        ],
+        "correct": 0,
+        "explanation": "El participio pasado de 'break' es 'broken': 'Have you ever broken a bone?'.",
+        "id": "q_eng3_lengua_20"
+    },
+    {
+        "grade": "english3",
+        "category": "lengua",
+        "question": "I have _______ finished my project; I submitted it one minute ago!",
+        "options": [
+            "just",
+            "yet",
+            "ever",
+            "never"
+        ],
+        "correct": 0,
+        "explanation": "'Just' se coloca entre el auxiliar y el participio para indicar una acción recién concluida: 'have just finished'.",
+        "id": "q_eng3_lengua_21"
+    },
+    {
+        "grade": "english3",
+        "category": "lengua",
+        "question": "Have you done your homework _______? - Yes, I finished it an hour ago.",
+        "options": [
+            "yet",
+            "just",
+            "already",
+            "ever"
+        ],
+        "correct": 0,
+        "explanation": "'Yet' se coloca al final de oraciones interrogativas para preguntar '¿ya...?'.",
+        "id": "q_eng3_lengua_22"
+    },
+    {
+        "grade": "english3",
+        "category": "lengua",
+        "question": "I haven't tidied my bedroom _______, but I will do it later.",
+        "options": [
+            "yet",
+            "already",
+            "just",
+            "never"
+        ],
+        "correct": 0,
+        "explanation": "'Yet' se coloca al final de oraciones negativas para expresar 'todavía no' o 'aún no'.",
+        "id": "q_eng3_lengua_23"
+    },
+    {
+        "grade": "english3",
+        "category": "lengua",
+        "question": "Don't worry about buying milk; I have _______ bought two bottles.",
+        "options": [
+            "already",
+            "yet",
+            "ever",
+            "still"
+        ],
+        "correct": 0,
+        "explanation": "'Already' (ya) se usa en oraciones afirmativas para indicar que algo se completó antes de lo esperado.",
+        "id": "q_eng3_lengua_24"
+    },
+    {
+        "grade": "english3",
+        "category": "lengua",
+        "question": "The match has _______ started! Come quickly and sit down!",
+        "options": [
+            "just",
+            "yet",
+            "never",
+            "since"
+        ],
+        "correct": 0,
+        "explanation": "'Has just started' significa 'acaba de empezar'.",
+        "id": "q_eng3_lengua_25"
+    },
+    {
+        "grade": "english3",
+        "category": "lengua",
+        "question": "She has _______ packed her suitcase for the school trip tomorrow.",
+        "options": [
+            "already",
+            "yet",
+            "ever",
+            "never"
+        ],
+        "correct": 0,
+        "explanation": "'Has already packed' indica que ya preparó la valija con anticipación.",
+        "id": "q_eng3_lengua_26"
+    },
+    {
+        "grade": "english3",
+        "category": "lengua",
+        "question": "Has the postman arrived _______? - No, not yet.",
+        "options": [
+            "yet",
+            "already",
+            "just",
+            "ever"
+        ],
+        "correct": 0,
+        "explanation": "'Has the postman arrived yet?' pregunta si el cartero ya llegó.",
+        "id": "q_eng3_lengua_27"
+    },
+    {
+        "grade": "english3",
+        "category": "lengua",
+        "question": "We haven't had breakfast _______, and we are very hungry.",
+        "options": [
+            "yet",
+            "already",
+            "just",
+            "never"
+        ],
+        "correct": 0,
+        "explanation": "'Haven't had breakfast yet' significa 'aún no hemos desayunado'.",
+        "id": "q_eng3_lengua_28"
+    },
+    {
+        "grade": "english3",
+        "category": "lengua",
+        "question": "Lucas has _______ scored a fantastic goal; everyone is cheering!",
+        "options": [
+            "just",
+            "yet",
+            "already",
+            "never"
+        ],
+        "correct": 0,
+        "explanation": "'Has just scored' expresa que acaba de meter un gol en este preciso instante.",
+        "id": "q_eng3_lengua_29"
+    },
+    {
+        "grade": "english3",
+        "category": "lengua",
+        "question": "Have you read that book _______? It is brilliant!",
+        "options": [
+            "yet",
+            "just",
+            "ever",
+            "already"
+        ],
+        "correct": 0,
+        "explanation": "'Have you read that book yet?' indaga si la persona ya leyó el libro.",
+        "id": "q_eng3_lengua_30"
+    },
+    {
+        "grade": "english3",
+        "category": "lengua",
+        "question": "I have lived in Buenos Aires _______ 2015.",
+        "options": [
+            "since",
+            "for",
+            "during",
+            "ago"
+        ],
+        "correct": 0,
+        "explanation": "'Since' se utiliza para señalar el momento o año exacto en que comenzó una acción ('desde 2015').",
+        "id": "q_eng3_lengua_31"
+    },
+    {
+        "grade": "english3",
+        "category": "lengua",
+        "question": "She has studied English _______ five years at our school.",
+        "options": [
+            "for",
+            "since",
+            "during",
+            "ago"
+        ],
+        "correct": 0,
+        "explanation": "'For' se utiliza para indicar la duración o cantidad de tiempo acumulada ('durante cinco años').",
+        "id": "q_eng3_lengua_32"
+    },
+    {
+        "grade": "english3",
+        "category": "lengua",
+        "question": "We have been best friends _______ kindergarten.",
+        "options": [
+            "since",
+            "for",
+            "during",
+            "from"
+        ],
+        "correct": 0,
+        "explanation": "'Since kindergarten' marca el punto de inicio en el tiempo: 'desde el jardín de infantes'.",
+        "id": "q_eng3_lengua_33"
+    },
+    {
+        "grade": "english3",
+        "category": "lengua",
+        "question": "My father has worked at this hospital _______ twelve years.",
+        "options": [
+            "for",
+            "since",
+            "during",
+            "ago"
+        ],
+        "correct": 0,
+        "explanation": "Con una cantidad de tiempo determinada ('twelve years') se utiliza 'for'.",
+        "id": "q_eng3_lengua_34"
+    },
+    {
+        "grade": "english3",
+        "category": "lengua",
+        "question": "It hasn't rained here _______ last month.",
+        "options": [
+            "since",
+            "for",
+            "during",
+            "ago"
+        ],
+        "correct": 0,
+        "explanation": "'Since last month' indica el momento inicial desde el cual no ha llovido.",
+        "id": "q_eng3_lengua_35"
+    },
+    {
+        "grade": "english3",
+        "category": "lengua",
+        "question": "They have waited at the bus stop _______ forty minutes.",
+        "options": [
+            "for",
+            "since",
+            "during",
+            "ago"
+        ],
+        "correct": 0,
+        "explanation": "'For forty minutes' expresa la duración del período de espera.",
+        "id": "q_eng3_lengua_36"
+    },
+    {
+        "grade": "english3",
+        "category": "lengua",
+        "question": "Martin has had this bicycle _______ his tenth birthday.",
+        "options": [
+            "since",
+            "for",
+            "during",
+            "ago"
+        ],
+        "correct": 0,
+        "explanation": "'Since his tenth birthday' marca el momento temporal de inicio del suceso.",
+        "id": "q_eng3_lengua_37"
+    },
+    {
+        "grade": "english3",
+        "category": "lengua",
+        "question": "We haven't seen our cousins _______ a very long time.",
+        "options": [
+            "for",
+            "since",
+            "during",
+            "ago"
+        ],
+        "correct": 0,
+        "explanation": "La frase idiomática 'for a long time' (por mucho tiempo) rige la preposición 'for'.",
+        "id": "q_eng3_lengua_38"
+    },
+    {
+        "grade": "english3",
+        "category": "lengua",
+        "question": "She has been in her bedroom _______ eight o'clock this morning.",
+        "options": [
+            "since",
+            "for",
+            "during",
+            "ago"
+        ],
+        "correct": 0,
+        "explanation": "'Since eight o'clock' refiere a la hora puntual de inicio.",
+        "id": "q_eng3_lengua_39"
+    },
+    {
+        "grade": "english3",
+        "category": "lengua",
+        "question": "He has played the guitar _______ three months.",
+        "options": [
+            "for",
+            "since",
+            "during",
+            "ago"
+        ],
+        "correct": 0,
+        "explanation": "'For three months' expresa el tiempo total de duración acumulado.",
+        "id": "q_eng3_lengua_40"
+    },
+    {
+        "grade": "english3",
+        "category": "lengua",
+        "question": "What is the past participle of the verb 'fly'?",
+        "options": [
+            "Flown",
+            "Flew",
+            "Flyed",
+            "Flying"
+        ],
+        "correct": 0,
+        "explanation": "Las formas del verbo fly son: fly (infinitivo) - flew (pasado) - flown (participio pasado).",
+        "id": "q_eng3_lengua_41"
+    },
+    {
+        "grade": "english3",
+        "category": "lengua",
+        "question": "What is the past participle of 'be'?",
+        "options": [
+            "Been",
+            "Was",
+            "Were",
+            "Being"
+        ],
+        "correct": 0,
+        "explanation": "El participio pasado del verbo 'to be' es 'been' (be - was/were - been).",
+        "id": "q_eng3_lengua_42"
+    },
+    {
+        "grade": "english3",
+        "category": "lengua",
+        "question": "What is the past participle of 'swim'?",
+        "options": [
+            "Swum",
+            "Swam",
+            "Swimmed",
+            "Swimming"
+        ],
+        "correct": 0,
+        "explanation": "La conjugación de swim es: swim - swam - swum.",
+        "id": "q_eng3_lengua_43"
+    },
+    {
+        "grade": "english3",
+        "category": "lengua",
+        "question": "What is the past participle of 'eat'?",
+        "options": [
+            "Eaten",
+            "Ate",
+            "Eated",
+            "Eating"
+        ],
+        "correct": 0,
+        "explanation": "El participio pasado del verbo 'eat' es 'eaten'.",
+        "id": "q_eng3_lengua_44"
+    },
+    {
+        "grade": "english3",
+        "category": "lengua",
+        "question": "What is the past participle of 'do'?",
+        "options": [
+            "Done",
+            "Did",
+            "Doed",
+            "Doing"
+        ],
+        "correct": 0,
+        "explanation": "El participio pasado de 'do' es 'done' (do - did - done).",
+        "id": "q_eng3_lengua_45"
+    },
+    {
+        "grade": "english3",
+        "category": "lengua",
+        "question": "What is the past participle of 'go'?",
+        "options": [
+            "Gone",
+            "Went",
+            "Goed",
+            "Going"
+        ],
+        "correct": 0,
+        "explanation": "El participio de 'go' cuando alguien ha ido y aún no vuelve es 'gone' (go - went - gone).",
+        "id": "q_eng3_lengua_46"
+    },
+    {
+        "grade": "english3",
+        "category": "lengua",
+        "question": "What is the past participle of 'give'?",
+        "options": [
+            "Given",
+            "Gave",
+            "Gived",
+            "Giving"
+        ],
+        "correct": 0,
+        "explanation": "El participio pasado de 'give' es 'given' (give - gave - given).",
+        "id": "q_eng3_lengua_47"
+    },
+    {
+        "grade": "english3",
+        "category": "lengua",
+        "question": "What is the past participle of 'take'?",
+        "options": [
+            "Taken",
+            "Took",
+            "Taked",
+            "Taking"
+        ],
+        "correct": 0,
+        "explanation": "El participio pasado del verbo 'take' es 'taken' (take - took - taken).",
+        "id": "q_eng3_lengua_48"
+    },
+    {
+        "grade": "english3",
+        "category": "lengua",
+        "question": "What is the past participle of 'speak'?",
+        "options": [
+            "Spoken",
+            "Spoke",
+            "Speaked",
+            "Speaking"
+        ],
+        "correct": 0,
+        "explanation": "El participio de 'speak' es 'spoken' (speak - spoke - spoken).",
+        "id": "q_eng3_lengua_49"
+    },
+    {
+        "grade": "english3",
+        "category": "lengua",
+        "question": "What is the past participle of 'make'?",
+        "options": [
+            "Made",
+            "Maked",
+            "Maken",
+            "Making"
+        ],
+        "correct": 0,
+        "explanation": "Tanto el pasado simple como el participio de 'make' son 'made'.",
+        "id": "q_eng3_lengua_50"
+    },
+    {
+        "grade": "english3",
+        "category": "naturales",
+        "question": "You _______ be quiet and not make noise in the school library.",
+        "options": [
+            "must",
+            "mustn't",
+            "can't",
+            "shouldn't"
+        ],
+        "correct": 0,
+        "explanation": "'Must' expresa una obligación o norma estricta: 'You must be quiet'.",
+        "id": "q_eng3_naturales_1"
+    },
+    {
+        "grade": "english3",
+        "category": "naturales",
+        "question": "You _______ take photographs inside the art museum; it is strictly prohibited.",
+        "options": [
+            "mustn't",
+            "must",
+            "should",
+            "have to"
+        ],
+        "correct": 0,
+        "explanation": "'Mustn't' (must not) se utiliza para expresar prohibición formal.",
+        "id": "q_eng3_naturales_2"
+    },
+    {
+        "grade": "english3",
+        "category": "naturales",
+        "question": "Drivers _______ stop when the traffic light is red.",
+        "options": [
+            "must",
+            "mustn't",
+            "shouldn't",
+            "can"
+        ],
+        "correct": 0,
+        "explanation": "Detenerse ante el semáforo en rojo es una obligación legal: 'Drivers must stop'.",
+        "id": "q_eng3_naturales_3"
+    },
+    {
+        "grade": "english3",
+        "category": "naturales",
+        "question": "You _______ touch that electrical wire! It is extremely dangerous!",
+        "options": [
+            "mustn't",
+            "must",
+            "can",
+            "should"
+        ],
+        "correct": 0,
+        "explanation": "'Mustn't' advierte una prohibición vital por peligro inminente.",
+        "id": "q_eng3_naturales_4"
+    },
+    {
+        "grade": "english3",
+        "category": "naturales",
+        "question": "Students _______ wear their school uniform during exams.",
+        "options": [
+            "must",
+            "mustn't",
+            "shouldn't",
+            "can't"
+        ],
+        "correct": 0,
+        "explanation": "Uso de 'must' para el cumplimiento de una normativa escolar obligatoria.",
+        "id": "q_eng3_naturales_5"
+    },
+    {
+        "grade": "english3",
+        "category": "naturales",
+        "question": "You _______ eat or drink anything during a computer lab lesson.",
+        "options": [
+            "mustn't",
+            "must",
+            "have to",
+            "can"
+        ],
+        "correct": 0,
+        "explanation": "'Mustn't' expresa la prohibición de consumir alimentos en la sala de computación.",
+        "id": "q_eng3_naturales_6"
+    },
+    {
+        "grade": "english3",
+        "category": "naturales",
+        "question": "You _______ fasten your seat belt before the aeroplane takes off.",
+        "options": [
+            "must",
+            "mustn't",
+            "shouldn't",
+            "couldn't"
+        ],
+        "correct": 0,
+        "explanation": "Abrocharse el cinturón de seguridad en un vuelo es obligatorio: 'You must fasten...'.",
+        "id": "q_eng3_naturales_7"
+    },
+    {
+        "grade": "english3",
+        "category": "naturales",
+        "question": "Visitors _______ feed the animals at the national park.",
+        "options": [
+            "mustn't",
+            "must",
+            "should",
+            "have to"
+        ],
+        "correct": 0,
+        "explanation": "Alimentar fauna silvestre está prohibido: 'Visitors mustn't feed the animals'.",
+        "id": "q_eng3_naturales_8"
+    },
+    {
+        "grade": "english3",
+        "category": "naturales",
+        "question": "You _______ wash your hands before handling food in the kitchen.",
+        "options": [
+            "must",
+            "mustn't",
+            "can't",
+            "couldn't"
+        ],
+        "correct": 0,
+        "explanation": "Higiene indispensable obligatoria: 'You must wash your hands'.",
+        "id": "q_eng3_naturales_9"
+    },
+    {
+        "grade": "english3",
+        "category": "naturales",
+        "question": "Pedestrians _______ cross the motorway on foot; use the pedestrian bridge.",
+        "options": [
+            "mustn't",
+            "must",
+            "should",
+            "can"
+        ],
+        "correct": 0,
+        "explanation": "'Mustn't cross' expresa la prohibición de cruzar una autopista a pie.",
+        "id": "q_eng3_naturales_10"
+    },
+    {
+        "grade": "english3",
+        "category": "naturales",
+        "question": "You have a bad cough. You _______ drink warm tea with honey.",
+        "options": [
+            "should",
+            "shouldn't",
+            "mustn't",
+            "can't"
+        ],
+        "correct": 0,
+        "explanation": "'Should' (deberías) se emplea para dar recomendaciones o consejos amistosos.",
+        "id": "q_eng3_naturales_11"
+    },
+    {
+        "grade": "english3",
+        "category": "naturales",
+        "question": "You _______ spend more than five hours a day staring at computer screens.",
+        "options": [
+            "shouldn't",
+            "should",
+            "must",
+            "have to"
+        ],
+        "correct": 0,
+        "explanation": "'Shouldn't' (no deberías) aconseja moderar conductas nocivas para la vista.",
+        "id": "q_eng3_naturales_12"
+    },
+    {
+        "grade": "english3",
+        "category": "naturales",
+        "question": "If you don't understand the exercise, you _______ ask the teacher for help.",
+        "options": [
+            "should",
+            "shouldn't",
+            "mustn't",
+            "can't"
+        ],
+        "correct": 0,
+        "explanation": "Consejo positivo para el alumno: 'You should ask the teacher'.",
+        "id": "q_eng3_naturales_13"
+    },
+    {
+        "grade": "english3",
+        "category": "naturales",
+        "question": "You _______ go to bed very late before an important school exam.",
+        "options": [
+            "shouldn't",
+            "should",
+            "must",
+            "have to"
+        ],
+        "correct": 0,
+        "explanation": "'Shouldn't' aconseja descansar bien la noche previa a un examen.",
+        "id": "q_eng3_naturales_14"
+    },
+    {
+        "grade": "english3",
+        "category": "naturales",
+        "question": "Everyone _______ drink at least two litres of fresh water every day.",
+        "options": [
+            "should",
+            "shouldn't",
+            "mustn't",
+            "can't"
+        ],
+        "correct": 0,
+        "explanation": "Recomendación general de salud: 'Everyone should drink...'.",
+        "id": "q_eng3_naturales_15"
+    },
+    {
+        "grade": "english3",
+        "category": "naturales",
+        "question": "You _______ eat too much junk food and candy if you want to be healthy.",
+        "options": [
+            "shouldn't",
+            "should",
+            "must",
+            "have to"
+        ],
+        "correct": 0,
+        "explanation": "'Shouldn't eat' aconseja no abusar de la comida chatarra.",
+        "id": "q_eng3_naturales_16"
+    },
+    {
+        "grade": "english3",
+        "category": "naturales",
+        "question": "What _______ I do if I find a lost puppy in the street?",
+        "options": [
+            "should",
+            "mustn't",
+            "shouldn't",
+            "can't"
+        ],
+        "correct": 0,
+        "explanation": "Pedir un consejo o sugerencia: 'What should I do...?'.",
+        "id": "q_eng3_naturales_17"
+    },
+    {
+        "grade": "english3",
+        "category": "naturales",
+        "question": "You _______ wear comfortable trainers when going on a long mountain hike.",
+        "options": [
+            "should",
+            "shouldn't",
+            "mustn't",
+            "couldn't"
+        ],
+        "correct": 0,
+        "explanation": "Consejo práctico para caminatas: 'You should wear comfortable trainers'.",
+        "id": "q_eng3_naturales_18"
+    },
+    {
+        "grade": "english3",
+        "category": "naturales",
+        "question": "You _______ talk with your mouth full of food; it is impolite.",
+        "options": [
+            "shouldn't",
+            "should",
+            "must",
+            "have to"
+        ],
+        "correct": 0,
+        "explanation": "Norma de cortesía expresada como recomendación: 'You shouldn't talk...'.",
+        "id": "q_eng3_naturales_19"
+    },
+    {
+        "grade": "english3",
+        "category": "naturales",
+        "question": "You look exhausted. You _______ take a short nap and relax.",
+        "options": [
+            "should",
+            "shouldn't",
+            "mustn't",
+            "can't"
+        ],
+        "correct": 0,
+        "explanation": "Recomendación para alguien fatigado: 'You should take a nap'.",
+        "id": "q_eng3_naturales_20"
+    },
+    {
+        "grade": "english3",
+        "category": "naturales",
+        "question": "Tomorrow is Sunday, so I _______ wake up early.",
+        "options": [
+            "don't have to",
+            "must",
+            "have to",
+            "mustn't"
+        ],
+        "correct": 0,
+        "explanation": "'Don't have to' expresa falta de obligación o necesidad: 'no tengo que madrugar'.",
+        "id": "q_eng3_naturales_21"
+    },
+    {
+        "grade": "english3",
+        "category": "naturales",
+        "question": "In the UK, drivers _______ drive on the left side of the road.",
+        "options": [
+            "have to",
+            "don't have to",
+            "mustn't",
+            "shouldn't"
+        ],
+        "correct": 0,
+        "explanation": "'Have to' expresa obligación derivada de una ley vial externa.",
+        "id": "q_eng3_naturales_22"
+    },
+    {
+        "grade": "english3",
+        "category": "naturales",
+        "question": "She _______ wear glasses because she cannot see the board clearly.",
+        "options": [
+            "has to",
+            "have to",
+            "doesn't have to",
+            "mustn't"
+        ],
+        "correct": 0,
+        "explanation": "Con la tercera persona singular se utiliza 'has to'.",
+        "id": "q_eng3_naturales_23"
+    },
+    {
+        "grade": "english3",
+        "category": "naturales",
+        "question": "The museum is completely free of charge. You _______ buy a ticket.",
+        "options": [
+            "don't have to",
+            "have to",
+            "must",
+            "should"
+        ],
+        "correct": 0,
+        "explanation": "Al ser gratuito no existe necesidad de comprar entrada: 'don't have to'.",
+        "id": "q_eng3_naturales_24"
+    },
+    {
+        "grade": "english3",
+        "category": "naturales",
+        "question": "Does your brother _______ wear a uniform at his high school?",
+        "options": [
+            "have to",
+            "has to",
+            "must",
+            "should"
+        ],
+        "correct": 0,
+        "explanation": "En preguntas con 'Does' se utiliza la forma base 'have to'.",
+        "id": "q_eng3_naturales_25"
+    },
+    {
+        "grade": "english3",
+        "category": "naturales",
+        "question": "A pilot _______ pass rigorous physical and flight exams.",
+        "options": [
+            "has to",
+            "have to",
+            "don't have to",
+            "mustn't"
+        ],
+        "correct": 0,
+        "explanation": "Tercera persona singular en requerimiento profesional: 'has to pass'.",
+        "id": "q_eng3_naturales_26"
+    },
+    {
+        "grade": "english3",
+        "category": "naturales",
+        "question": "You _______ finish the entire dessert if you are already full.",
+        "options": [
+            "don't have to",
+            "must",
+            "have to",
+            "should"
+        ],
+        "correct": 0,
+        "explanation": "Falta de obligación: 'no tienes por qué terminarlo si ya estás lleno'.",
+        "id": "q_eng3_naturales_27"
+    },
+    {
+        "grade": "english3",
+        "category": "naturales",
+        "question": "Doctors _______ work long night shifts in emergencies.",
+        "options": [
+            "have to",
+            "has to",
+            "doesn't have to",
+            "mustn't"
+        ],
+        "correct": 0,
+        "explanation": "'Doctors' es plural, por lo que rige 'have to'.",
+        "id": "q_eng3_naturales_28"
+    },
+    {
+        "grade": "english3",
+        "category": "naturales",
+        "question": "He _______ study hard if he wants to pass all his final exams.",
+        "options": [
+            "has to",
+            "have to",
+            "don't have to",
+            "mustn't"
+        ],
+        "correct": 0,
+        "explanation": "Con el pronombre 'he' se usa 'has to study'.",
+        "id": "q_eng3_naturales_29"
+    },
+    {
+        "grade": "english3",
+        "category": "naturales",
+        "question": "We _______ bring lunch tomorrow because the school will provide sandwiches.",
+        "options": [
+            "don't have to",
+            "must",
+            "have to",
+            "should"
+        ],
+        "correct": 0,
+        "explanation": "No es necesario llevar comida: 'don't have to bring lunch'.",
+        "id": "q_eng3_naturales_30"
+    },
+    {
+        "grade": "english3",
+        "category": "naturales",
+        "question": "When Mozart was only five years old, he _______ play the piano brilliantly.",
+        "options": [
+            "could",
+            "can",
+            "should",
+            "must"
+        ],
+        "correct": 0,
+        "explanation": "'Could' es el pasado del modal 'can' y expresa habilidad en el pasado.",
+        "id": "q_eng3_naturales_31"
+    },
+    {
+        "grade": "english3",
+        "category": "naturales",
+        "question": "I _______ hear what the speaker said because the room was too noisy.",
+        "options": [
+            "couldn't",
+            "can't",
+            "mustn't",
+            "shouldn't"
+        ],
+        "correct": 0,
+        "explanation": "'Couldn't' expresa imposibilidad o incapacidad en el pasado.",
+        "id": "q_eng3_naturales_32"
+    },
+    {
+        "grade": "english3",
+        "category": "naturales",
+        "question": "Excuse me, _______ you please pass me the salt?",
+        "options": [
+            "could",
+            "must",
+            "should",
+            "shall"
+        ],
+        "correct": 0,
+        "explanation": "'Could you please...?' es una fórmula cortés estándar para pedir algo.",
+        "id": "q_eng3_naturales_33"
+    },
+    {
+        "grade": "english3",
+        "category": "naturales",
+        "question": "She _______ swim when she was four, but she learned when she was seven.",
+        "options": [
+            "couldn't",
+            "can't",
+            "mustn't",
+            "shouldn't"
+        ],
+        "correct": 0,
+        "explanation": "Incapacidad en una etapa pasada: 'She couldn't swim when she was four'.",
+        "id": "q_eng3_naturales_34"
+    },
+    {
+        "grade": "english3",
+        "category": "naturales",
+        "question": "_______ you open the window, please? It is very warm in here.",
+        "options": [
+            "Could",
+            "Must",
+            "Should",
+            "Shall"
+        ],
+        "correct": 0,
+        "explanation": "Petición educada de ayuda o acción: 'Could you open the window, please?'.",
+        "id": "q_eng3_naturales_35"
+    },
+    {
+        "grade": "english3",
+        "category": "naturales",
+        "question": "Before glasses were invented, many people _______ see clearly in old age.",
+        "options": [
+            "couldn't",
+            "can't",
+            "shouldn't",
+            "mustn't"
+        ],
+        "correct": 0,
+        "explanation": "Imposibilidad visual en tiempos históricos pasados: 'couldn't see'.",
+        "id": "q_eng3_naturales_36"
+    },
+    {
+        "grade": "english3",
+        "category": "naturales",
+        "question": "My grandfather _______ speak four different languages fluently.",
+        "options": [
+            "could",
+            "can",
+            "must",
+            "should"
+        ],
+        "correct": 0,
+        "explanation": "Habilidad del abuelo en el pasado: 'could speak'.",
+        "id": "q_eng3_naturales_37"
+    },
+    {
+        "grade": "english3",
+        "category": "naturales",
+        "question": "I searched everywhere, but I _______ find my car keys yesterday.",
+        "options": [
+            "couldn't",
+            "can't",
+            "mustn't",
+            "shouldn't"
+        ],
+        "correct": 0,
+        "explanation": "Incapacidad en un momento pasado concreto: 'couldn't find'.",
+        "id": "q_eng3_naturales_38"
+    },
+    {
+        "grade": "english3",
+        "category": "naturales",
+        "question": "_______ you tell me the way to the railway station, please?",
+        "options": [
+            "Could",
+            "Must",
+            "Should",
+            "Shall"
+        ],
+        "correct": 0,
+        "explanation": "Fórmula cortés de consulta en la calle: 'Could you tell me...?'.",
+        "id": "q_eng3_naturales_39"
+    },
+    {
+        "grade": "english3",
+        "category": "naturales",
+        "question": "She was so shocked that she _______ say a single word.",
+        "options": [
+            "couldn't",
+            "can't",
+            "mustn't",
+            "shouldn't"
+        ],
+        "correct": 0,
+        "explanation": "Incapacidad momentánea en pasado: 'couldn't say'.",
+        "id": "q_eng3_naturales_40"
+    },
+    {
+        "grade": "english3",
+        "category": "naturales",
+        "question": "Animals that might disappear from the planet forever are called _______ species.",
+        "options": [
+            "endangered",
+            "dangerous",
+            "domestic",
+            "common"
+        ],
+        "correct": 0,
+        "explanation": "Las especies en peligro de extinción se denominan 'endangered species'.",
+        "id": "q_eng3_naturales_41"
+    },
+    {
+        "grade": "english3",
+        "category": "naturales",
+        "question": "Cutting down large areas of forests and trees is known as _______.",
+        "options": [
+            "deforestation",
+            "pollution",
+            "recycling",
+            "conservation"
+        ],
+        "correct": 0,
+        "explanation": "La tala masiva de bosques se denomina deforestación ('deforestation').",
+        "id": "q_eng3_naturales_42"
+    },
+    {
+        "grade": "english3",
+        "category": "naturales",
+        "question": "Clean electricity produced from sunlight using photovoltaic panels is _______ energy.",
+        "options": [
+            "solar",
+            "nuclear",
+            "fossil",
+            "coal"
+        ],
+        "correct": 0,
+        "explanation": "La energía solar ('solar energy') se genera a partir de la radiación del sol.",
+        "id": "q_eng3_naturales_43"
+    },
+    {
+        "grade": "english3",
+        "category": "naturales",
+        "question": "Harmful gases in the air from car exhausts and factories cause air _______.",
+        "options": [
+            "pollution",
+            "protection",
+            "cleaning",
+            "harvesting"
+        ],
+        "correct": 0,
+        "explanation": "La polución o contaminación del aire se llama 'air pollution'.",
+        "id": "q_eng3_naturales_44"
+    },
+    {
+        "grade": "english3",
+        "category": "naturales",
+        "question": "Plastics, cardboard and glass bottles should be placed in designated bins for _______.",
+        "options": [
+            "recycling",
+            "burning",
+            "throwing away",
+            "wasting"
+        ],
+        "correct": 0,
+        "explanation": "El reciclaje ('recycling') permite procesar materiales para nuevos usos.",
+        "id": "q_eng3_naturales_45"
+    },
+    {
+        "grade": "english3",
+        "category": "naturales",
+        "question": "The gradual increase in global temperatures across our planet is called global _______.",
+        "options": [
+            "warming",
+            "cooling",
+            "freezing",
+            "drying"
+        ],
+        "correct": 0,
+        "explanation": "El calentamiento global se denomina 'global warming'.",
+        "id": "q_eng3_naturales_46"
+    },
+    {
+        "grade": "english3",
+        "category": "naturales",
+        "question": "Melting glaciers at the Earth's poles cause the sea level to _______.",
+        "options": [
+            "rise",
+            "fall",
+            "freeze",
+            "disappear"
+        ],
+        "correct": 0,
+        "explanation": "El derretimiento de glaciares hace que el nivel del mar se eleve ('rise').",
+        "id": "q_eng3_naturales_47"
+    },
+    {
+        "grade": "english3",
+        "category": "naturales",
+        "question": "Giant pandas, blue whales and polar bears are examples of _______ animals.",
+        "options": [
+            "protected",
+            "dangerous",
+            "harmful",
+            "extinct"
+        ],
+        "correct": 0,
+        "explanation": "Son animales protegidos ('protected' o endangered) con planes de conservación.",
+        "id": "q_eng3_naturales_48"
+    },
+    {
+        "grade": "english3",
+        "category": "naturales",
+        "question": "Using reusable cloth shopping bags instead of single-use plastic bags helps protect marine _______.",
+        "options": [
+            "wildlife",
+            "machines",
+            "factories",
+            "transport"
+        ],
+        "correct": 0,
+        "explanation": "Evitar el plástico de un solo uso protege la fauna marina ('marine wildlife').",
+        "id": "q_eng3_naturales_49"
+    },
+    {
+        "grade": "english3",
+        "category": "naturales",
+        "question": "Electricity produced by giant wind turbines in windy areas is called _______ power.",
+        "options": [
+            "wind",
+            "coal",
+            "gas",
+            "oil"
+        ],
+        "correct": 0,
+        "explanation": "La energía eólica producida por aerogeneradores se llama 'wind power'.",
+        "id": "q_eng3_naturales_50"
+    },
+    {
+        "grade": "english3",
+        "category": "sociales",
+        "question": "I think it _______ rain this afternoon; look at those dark grey clouds.",
+        "options": [
+            "will",
+            "is",
+            "was",
+            "has"
+        ],
+        "correct": 0,
+        "explanation": "'Will' se emplea para expresar predicciones sobre el futuro: 'I think it will rain'.",
+        "id": "q_eng3_sociales_1"
+    },
+    {
+        "grade": "english3",
+        "category": "sociales",
+        "question": "Don't worry about the heavy bags; I _______ help you carry them.",
+        "options": [
+            "will",
+            "am",
+            "was",
+            "did"
+        ],
+        "correct": 0,
+        "explanation": "'Will' se utiliza para decisiones u ofrecimientos de ayuda espontáneos en el momento.",
+        "id": "q_eng3_sociales_2"
+    },
+    {
+        "grade": "english3",
+        "category": "sociales",
+        "question": "Scientists believe robots _______ do many household chores in the future.",
+        "options": [
+            "will",
+            "are",
+            "were",
+            "did"
+        ],
+        "correct": 0,
+        "explanation": "Predicción a largo plazo sobre tecnología: 'robots will do'.",
+        "id": "q_eng3_sociales_3"
+    },
+    {
+        "grade": "english3",
+        "category": "sociales",
+        "question": "I promise I _______ tell anyone your secret.",
+        "options": [
+            "won't",
+            "will",
+            "am not",
+            "don't"
+        ],
+        "correct": 0,
+        "explanation": "'Won't' (will not) se utiliza habitualmente para hacer promesas: 'I won't tell anyone'.",
+        "id": "q_eng3_sociales_4"
+    },
+    {
+        "grade": "english3",
+        "category": "sociales",
+        "question": "_______ people live on Mars in the next century?",
+        "options": [
+            "Will",
+            "Are",
+            "Do",
+            "Have"
+        ],
+        "correct": 0,
+        "explanation": "Para preguntar por predicciones futuras se inicia con 'Will people live...?'.",
+        "id": "q_eng3_sociales_5"
+    },
+    {
+        "grade": "english3",
+        "category": "sociales",
+        "question": "Wait a second! I _______ open the door for you.",
+        "options": [
+            "will",
+            "am",
+            "did",
+            "have"
+        ],
+        "correct": 0,
+        "explanation": "Decisión inmediata y voluntaria: 'I will open the door'.",
+        "id": "q_eng3_sociales_6"
+    },
+    {
+        "grade": "english3",
+        "category": "sociales",
+        "question": "I am sure you _______ pass your English exam; you studied very hard.",
+        "options": [
+            "will",
+            "are",
+            "did",
+            "have"
+        ],
+        "correct": 0,
+        "explanation": "Expresar certeza o confianza sobre el futuro: 'you will pass'.",
+        "id": "q_eng3_sociales_7"
+    },
+    {
+        "grade": "english3",
+        "category": "sociales",
+        "question": "They _______ win the championship if their best striker is injured.",
+        "options": [
+            "won't",
+            "will",
+            "aren't",
+            "haven't"
+        ],
+        "correct": 0,
+        "explanation": "Predicción negativa: 'They won't win' (no ganarán).",
+        "id": "q_eng3_sociales_8"
+    },
+    {
+        "grade": "english3",
+        "category": "sociales",
+        "question": "What _______ the world look like in the year 2050?",
+        "options": [
+            "will",
+            "is",
+            "did",
+            "does"
+        ],
+        "correct": 0,
+        "explanation": "Pregunta sobre el porvenir: 'What will the world look like...?'.",
+        "id": "q_eng3_sociales_9"
+    },
+    {
+        "grade": "english3",
+        "category": "sociales",
+        "question": "Leave the phone; I _______ answer it.",
+        "options": [
+            "will",
+            "am",
+            "do",
+            "have"
+        ],
+        "correct": 0,
+        "explanation": "Ofrecimiento espontáneo: 'I will answer it' (yo atiendo).",
+        "id": "q_eng3_sociales_10"
+    },
+    {
+        "grade": "english3",
+        "category": "sociales",
+        "question": "Next summer, my family and I _______ visit our grandparents in Spain.",
+        "options": [
+            "are going to",
+            "is going to",
+            "will to",
+            "going to"
+        ],
+        "correct": 0,
+        "explanation": "'Be going to' se utiliza para expresar planes e intenciones previamente decididos: 'are going to visit'.",
+        "id": "q_eng3_sociales_11"
+    },
+    {
+        "grade": "english3",
+        "category": "sociales",
+        "question": "Look at that little boy running too fast! He _______ fall over!",
+        "options": [
+            "is going to",
+            "are going to",
+            "will to",
+            "goes to"
+        ],
+        "correct": 0,
+        "explanation": "Se usa 'is going to' para predecir algo inminente con evidencia visual clara.",
+        "id": "q_eng3_sociales_12"
+    },
+    {
+        "grade": "english3",
+        "category": "sociales",
+        "question": "What are you _______ do after you finish high school?",
+        "options": [
+            "going to",
+            "will",
+            "go to",
+            "gone to"
+        ],
+        "correct": 0,
+        "explanation": "Estructura interrogativa de planes futuros: 'What are you going to do...?'.",
+        "id": "q_eng3_sociales_13"
+    },
+    {
+        "grade": "english3",
+        "category": "sociales",
+        "question": "She _______ study medicine at university because she wants to be a doctor.",
+        "options": [
+            "is going to",
+            "are going to",
+            "will to",
+            "going to"
+        ],
+        "correct": 0,
+        "explanation": "Intención personal meditada de estudio: 'She is going to study'.",
+        "id": "q_eng3_sociales_14"
+    },
+    {
+        "grade": "english3",
+        "category": "sociales",
+        "question": "They are _______ buy a new house near the beach next month.",
+        "options": [
+            "going to",
+            "will",
+            "go to",
+            "gone to"
+        ],
+        "correct": 0,
+        "explanation": "Plan de compra programado: 'They are going to buy'.",
+        "id": "q_eng3_sociales_15"
+    },
+    {
+        "grade": "english3",
+        "category": "sociales",
+        "question": "Be careful! That tower of books _______ collapse!",
+        "options": [
+            "is going to",
+            "are going to",
+            "will to",
+            "goes to"
+        ],
+        "correct": 0,
+        "explanation": "Predicción basada en evidencia visual presente: 'is going to collapse'.",
+        "id": "q_eng3_sociales_16"
+    },
+    {
+        "grade": "english3",
+        "category": "sociales",
+        "question": "I am _______ watch the football match with my friends tonight.",
+        "options": [
+            "going to",
+            "will",
+            "go to",
+            "gone to"
+        ],
+        "correct": 0,
+        "explanation": "Plan personal: 'I am going to watch'.",
+        "id": "q_eng3_sociales_17"
+    },
+    {
+        "grade": "english3",
+        "category": "sociales",
+        "question": "Is Lucas _______ join the school basketball team this year?",
+        "options": [
+            "going to",
+            "will",
+            "go to",
+            "gone to"
+        ],
+        "correct": 0,
+        "explanation": "Pregunta sobre intención: 'Is Lucas going to join...?'.",
+        "id": "q_eng3_sociales_18"
+    },
+    {
+        "grade": "english3",
+        "category": "sociales",
+        "question": "We _______ not going to travel anywhere this weekend; we will rest at home.",
+        "options": [
+            "are",
+            "is",
+            "am",
+            "do"
+        ],
+        "correct": 0,
+        "explanation": "Con el sujeto 'we' la forma negativa es 'are not going to'.",
+        "id": "q_eng3_sociales_19"
+    },
+    {
+        "grade": "english3",
+        "category": "sociales",
+        "question": "Look at the dark clouds! It _______ rain any minute now!",
+        "options": [
+            "is going to",
+            "are going to",
+            "will to",
+            "goes to"
+        ],
+        "correct": 0,
+        "explanation": "Evidencia inmediata de lluvia: 'It is going to rain'.",
+        "id": "q_eng3_sociales_20"
+    },
+    {
+        "grade": "english3",
+        "category": "sociales",
+        "question": "If it rains tomorrow, we _______ stay inside and watch a film.",
+        "options": [
+            "will",
+            "would",
+            "are",
+            "did"
+        ],
+        "correct": 0,
+        "explanation": "Estructura del First Conditional: If + presente simple, will + infinitivo.",
+        "id": "q_eng3_sociales_21"
+    },
+    {
+        "grade": "english3",
+        "category": "sociales",
+        "question": "If you study hard, you _______ pass your English examination.",
+        "options": [
+            "will",
+            "would",
+            "did",
+            "have"
+        ],
+        "correct": 0,
+        "explanation": "Consecuencia real y probable en First Conditional: 'you will pass'.",
+        "id": "q_eng3_sociales_22"
+    },
+    {
+        "grade": "english3",
+        "category": "sociales",
+        "question": "If she _______ early, she will catch the morning train.",
+        "options": [
+            "wakes up",
+            "wake up",
+            "will wake up",
+            "woke up"
+        ],
+        "correct": 0,
+        "explanation": "En la cláusula condicional con 'If' se usa Present Simple: 'she wakes up'.",
+        "id": "q_eng3_sociales_23"
+    },
+    {
+        "grade": "english3",
+        "category": "sociales",
+        "question": "We will miss the bus if we _______ hurry up right now.",
+        "options": [
+            "don't",
+            "won't",
+            "didn't",
+            "aren't"
+        ],
+        "correct": 0,
+        "explanation": "En la cláusula con 'if' en presente se niega con 'don't' o 'doesn't': 'if we don't hurry'.",
+        "id": "q_eng3_sociales_24"
+    },
+    {
+        "grade": "english3",
+        "category": "sociales",
+        "question": "If you eat too much candy, you _______ get a terrible stomach ache.",
+        "options": [
+            "will",
+            "would",
+            "did",
+            "are"
+        ],
+        "correct": 0,
+        "explanation": "Resultado previsible en futuro: 'you will get a stomach ache'.",
+        "id": "q_eng3_sociales_25"
+    },
+    {
+        "grade": "english3",
+        "category": "sociales",
+        "question": "What will you do if it _______ hot and sunny this Saturday?",
+        "options": [
+            "is",
+            "will be",
+            "was",
+            "were"
+        ],
+        "correct": 0,
+        "explanation": "En la condición con 'if' va el verbo en presente simple: 'if it is hot'.",
+        "id": "q_eng3_sociales_26"
+    },
+    {
+        "grade": "english3",
+        "category": "sociales",
+        "question": "If he _______ invite me to his birthday party, I won't go.",
+        "options": [
+            "doesn't",
+            "won't",
+            "didn't",
+            "isn't"
+        ],
+        "correct": 0,
+        "explanation": "Con la tercera persona singular 'he' la negación en presente es 'doesn't'.",
+        "id": "q_eng3_sociales_27"
+    },
+    {
+        "grade": "english3",
+        "category": "sociales",
+        "question": "If we protect forests, many endangered animals _______ survive.",
+        "options": [
+            "will",
+            "would",
+            "did",
+            "are"
+        ],
+        "correct": 0,
+        "explanation": "Cláusula principal con futuro 'will survive'.",
+        "id": "q_eng3_sociales_28"
+    },
+    {
+        "grade": "english3",
+        "category": "sociales",
+        "question": "The ice cream will melt if you _______ put it in the freezer.",
+        "options": [
+            "don't",
+            "won't",
+            "didn't",
+            "aren't"
+        ],
+        "correct": 0,
+        "explanation": "Condición en presente: 'if you don't put it in the freezer'.",
+        "id": "q_eng3_sociales_29"
+    },
+    {
+        "grade": "english3",
+        "category": "sociales",
+        "question": "If you _______ the red button, the alarm will sound immediately.",
+        "options": [
+            "press",
+            "will press",
+            "pressed",
+            "pressing"
+        ],
+        "correct": 0,
+        "explanation": "El verbo en la cláusula con 'if' va en infinitivo o presente simple: 'press'.",
+        "id": "q_eng3_sociales_30"
+    },
+    {
+        "grade": "english3",
+        "category": "sociales",
+        "question": "Which is the largest ocean on planet Earth?",
+        "options": [
+            "The Pacific Ocean",
+            "The Atlantic Ocean",
+            "The Indian Ocean",
+            "The Arctic Ocean"
+        ],
+        "correct": 0,
+        "explanation": "El Océano Pacífico ('Pacific Ocean') es el más extenso y profundo del planeta.",
+        "id": "q_eng3_sociales_31"
+    },
+    {
+        "grade": "english3",
+        "category": "sociales",
+        "question": "Which is the coldest, windiest and driest continent covered with ice?",
+        "options": [
+            "Antarctica",
+            "Europe",
+            "Australia",
+            "South America"
+        ],
+        "correct": 0,
+        "explanation": "La Antártida ('Antarctica') es el continente más frío y desértico de hielo.",
+        "id": "q_eng3_sociales_32"
+    },
+    {
+        "grade": "english3",
+        "category": "sociales",
+        "question": "Which continent has the most countries and includes Egypt, Kenya and Nigeria?",
+        "options": [
+            "Africa",
+            "Asia",
+            "Europe",
+            "North America"
+        ],
+        "correct": 0,
+        "explanation": "África ('Africa') cuenta con 54 países soberanos reconocidos.",
+        "id": "q_eng3_sociales_33"
+    },
+    {
+        "grade": "english3",
+        "category": "sociales",
+        "question": "The longest river in South America flowing through the Amazon rainforest is the _______.",
+        "options": [
+            "Amazon River",
+            "Nile River",
+            "Danube River",
+            "Mississippi River"
+        ],
+        "correct": 0,
+        "explanation": "El río Amazonas ('Amazon River') es el más caudaloso del mundo y cruza Sudamérica.",
+        "id": "q_eng3_sociales_34"
+    },
+    {
+        "grade": "english3",
+        "category": "sociales",
+        "question": "Which mountain range is the highest in the world and contains Mount Everest?",
+        "options": [
+            "The Himalayas",
+            "The Andes",
+            "The Alps",
+            "The Rocky Mountains"
+        ],
+        "correct": 0,
+        "explanation": "El Himalaya ('The Himalayas') en Asia alberga los picos más elevados de la Tierra.",
+        "id": "q_eng3_sociales_35"
+    },
+    {
+        "grade": "english3",
+        "category": "sociales",
+        "question": "The meridian line of 0 degrees longitude passes through Greenwich in _______.",
+        "options": [
+            "London, United Kingdom",
+            "Paris, France",
+            "Madrid, Spain",
+            "Rome, Italy"
+        ],
+        "correct": 0,
+        "explanation": "El meridiano de Greenwich (0°) pasa por el observatorio de Londres en el Reino Unido.",
+        "id": "q_eng3_sociales_36"
+    },
+    {
+        "grade": "english3",
+        "category": "sociales",
+        "question": "Which is the smallest continent by land area, often called an island continent?",
+        "options": [
+            "Australia or Oceania",
+            "Europe",
+            "Antarctica",
+            "South America"
+        ],
+        "correct": 0,
+        "explanation": "Australia u Oceanía es el continente de menor superficie terrestre.",
+        "id": "q_eng3_sociales_37"
+    },
+    {
+        "grade": "english3",
+        "category": "sociales",
+        "question": "The line that divides the Earth into the Northern and Southern Hemispheres is the _______.",
+        "options": [
+            "Equator",
+            "Prime Meridian",
+            "Tropic of Cancer",
+            "Arctic Circle"
+        ],
+        "correct": 0,
+        "explanation": "El Ecuador ('Equator', paralelo 0°) divide al planeta en los dos hemisferios.",
+        "id": "q_eng3_sociales_38"
+    },
+    {
+        "grade": "english3",
+        "category": "sociales",
+        "question": "In which continent are countries like France, Germany, Italy and Spain located?",
+        "options": [
+            "Europe",
+            "Asia",
+            "Africa",
+            "North America"
+        ],
+        "correct": 0,
+        "explanation": "Francia, Alemania, Italia y España forman parte del continente europeo ('Europe').",
+        "id": "q_eng3_sociales_39"
+    },
+    {
+        "grade": "english3",
+        "category": "sociales",
+        "question": "Which country has the largest population in the world, alongside India?",
+        "options": [
+            "China",
+            "Brazil",
+            "Canada",
+            "Australia"
+        ],
+        "correct": 0,
+        "explanation": "India y China son los dos países más poblados del planeta.",
+        "id": "q_eng3_sociales_40"
+    },
+    {
+        "grade": "english3",
+        "category": "sociales",
+        "question": "Where is the famous ancient Inca citadel of Machu Picchu located?",
+        "options": [
+            "In Peru",
+            "In Brazil",
+            "In Mexico",
+            "In Argentina"
+        ],
+        "correct": 0,
+        "explanation": "La ciudadela incaica de Machu Picchu se encuentra en la cordillera de Perú.",
+        "id": "q_eng3_sociales_41"
+    },
+    {
+        "grade": "english3",
+        "category": "sociales",
+        "question": "The famous clock tower located next to the Houses of Parliament in London is known as _______.",
+        "options": [
+            "Big Ben",
+            "The Eiffel Tower",
+            "The Colosseum",
+            "The Empire State"
+        ],
+        "correct": 0,
+        "explanation": "Big Ben es el apodo de la famosa gran campana y torre del reloj de Londres.",
+        "id": "q_eng3_sociales_42"
+    },
+    {
+        "grade": "english3",
+        "category": "sociales",
+        "question": "In which country can you visit the ancient Pyramids of Giza and the Sphinx?",
+        "options": [
+            "Egypt",
+            "Greece",
+            "Italy",
+            "Turkey"
+        ],
+        "correct": 0,
+        "explanation": "Las famosas pirámides de Guiza y la Gran Esfinge se encuentran en Egipto.",
+        "id": "q_eng3_sociales_43"
+    },
+    {
+        "grade": "english3",
+        "category": "sociales",
+        "question": "The Statue of Liberty was a gift from France and stands in the harbour of _______.",
+        "options": [
+            "New York City",
+            "Los Angeles",
+            "Chicago",
+            "Washington D.C."
+        ],
+        "correct": 0,
+        "explanation": "La Estatua de la Libertad se erige en la bahía de la ciudad de Nueva York.",
+        "id": "q_eng3_sociales_44"
+    },
+    {
+        "grade": "english3",
+        "category": "sociales",
+        "question": "The Eiffel Tower is a world-famous iron monument situated in _______.",
+        "options": [
+            "Paris, France",
+            "Rome, Italy",
+            "Berlin, Germany",
+            "Madrid, Spain"
+        ],
+        "correct": 0,
+        "explanation": "La Torre Eiffel es el ícono arquitectónico de París, Francia.",
+        "id": "q_eng3_sociales_45"
+    },
+    {
+        "grade": "english3",
+        "category": "sociales",
+        "question": "The ancient amphitheatre where gladiators fought in ancient Rome is the _______.",
+        "options": [
+            "Colosseum",
+            "Parthenon",
+            "Kremlin",
+            "Taj Mahal"
+        ],
+        "correct": 0,
+        "explanation": "El Coliseo romano ('The Colosseum') es uno de los monumentos históricos más célebres de Italia.",
+        "id": "q_eng3_sociales_46"
+    },
+    {
+        "grade": "english3",
+        "category": "sociales",
+        "question": "The magnificent white marble mausoleum built in Agra, India, is the _______.",
+        "options": [
+            "Taj Mahal",
+            "Pyramid of Giza",
+            "Angkor Wat",
+            "Alhambra"
+        ],
+        "correct": 0,
+        "explanation": "El Taj Mahal es una joya de la arquitectura mogola en Agra, India.",
+        "id": "q_eng3_sociales_47"
+    },
+    {
+        "grade": "english3",
+        "category": "sociales",
+        "question": "Which impressive waterfalls are shared between Argentina and Brazil?",
+        "options": [
+            "Iguazú Falls",
+            "Niagara Falls",
+            "Victoria Falls",
+            "Angel Falls"
+        ],
+        "correct": 0,
+        "explanation": "Las Cataratas del Iguazú ('Iguazú Falls') se ubican en el límite entre Argentina y Brasil.",
+        "id": "q_eng3_sociales_48"
+    },
+    {
+        "grade": "english3",
+        "category": "sociales",
+        "question": "The Sydney Opera House with its sail-like roof design is located in _______.",
+        "options": [
+            "Australia",
+            "New Zealand",
+            "Canada",
+            "South Africa"
+        ],
+        "correct": 0,
+        "explanation": "La Ópera de Sídney es el emblema cultural de Australia.",
+        "id": "q_eng3_sociales_49"
+    },
+    {
+        "grade": "english3",
+        "category": "sociales",
+        "question": "What is the official currency used across many countries of the European Union?",
+        "options": [
+            "The Euro",
+            "The Pound",
+            "The Dollar",
+            "The Yen"
+        ],
+        "correct": 0,
+        "explanation": "El Euro ('The Euro') es la moneda común de la eurozona en la Unión Europea.",
+        "id": "q_eng3_sociales_50"
+    },
+    {
+        "grade": "english3",
+        "category": "ingenio",
+        "question": "A teacher is a person _______ helps students learn new things.",
+        "options": [
+            "who",
+            "which",
+            "where",
+            "whose"
+        ],
+        "correct": 0,
+        "explanation": "'Who' se utiliza para referirse a personas: 'a person who helps students'.",
+        "id": "q_eng3_ingenio_1"
+    },
+    {
+        "grade": "english3",
+        "category": "ingenio",
+        "question": "A hospital is a place _______ doctors and nurses care for patients.",
+        "options": [
+            "where",
+            "who",
+            "which",
+            "whose"
+        ],
+        "correct": 0,
+        "explanation": "'Where' se utiliza para referirse a lugares: 'a place where doctors care...'.",
+        "id": "q_eng3_ingenio_2"
+    },
+    {
+        "grade": "english3",
+        "category": "ingenio",
+        "question": "A thermometer is an instrument _______ measures temperature.",
+        "options": [
+            "which or that",
+            "who",
+            "where",
+            "whose"
+        ],
+        "correct": 0,
+        "explanation": "'Which' o 'that' se emplea para referirse a objetos, animales o instrumentos.",
+        "id": "q_eng3_ingenio_3"
+    },
+    {
+        "grade": "english3",
+        "category": "ingenio",
+        "question": "That is the boy _______ dog won first prize at the pet show.",
+        "options": [
+            "whose",
+            "who",
+            "which",
+            "where"
+        ],
+        "correct": 0,
+        "explanation": "'Whose' (cuyo/cuya) expresa relación de posesión: 'whose dog won first prize'.",
+        "id": "q_eng3_ingenio_4"
+    },
+    {
+        "grade": "english3",
+        "category": "ingenio",
+        "question": "A kangaroo is an Australian animal _______ carries its baby in a pouch.",
+        "options": [
+            "which or that",
+            "who",
+            "where",
+            "whose"
+        ],
+        "correct": 0,
+        "explanation": "Para animales se utiliza el pronombre relativo 'which' o 'that'.",
+        "id": "q_eng3_ingenio_5"
+    },
+    {
+        "grade": "english3",
+        "category": "ingenio",
+        "question": "A library is a quiet building _______ people can borrow and read books.",
+        "options": [
+            "where",
+            "who",
+            "which",
+            "whose"
+        ],
+        "correct": 0,
+        "explanation": "'Where' especifica el lugar donde se realiza la acción.",
+        "id": "q_eng3_ingenio_6"
+    },
+    {
+        "grade": "english3",
+        "category": "ingenio",
+        "question": "Meet Lucas, the student _______ scored the highest mark in the maths test.",
+        "options": [
+            "who",
+            "which",
+            "where",
+            "whose"
+        ],
+        "correct": 0,
+        "explanation": "Para el estudiante (persona) se usa 'who'.",
+        "id": "q_eng3_ingenio_7"
+    },
+    {
+        "grade": "english3",
+        "category": "ingenio",
+        "question": "This is the exciting book _______ my English teacher recommended.",
+        "options": [
+            "which or that",
+            "who",
+            "where",
+            "whose"
+        ],
+        "correct": 0,
+        "explanation": "Para el libro (cosa/objeto) se usa 'which' o 'that'.",
+        "id": "q_eng3_ingenio_8"
+    },
+    {
+        "grade": "english3",
+        "category": "ingenio",
+        "question": "A bakery is a shop _______ you can buy fresh bread and croissants.",
+        "options": [
+            "where",
+            "who",
+            "which",
+            "whose"
+        ],
+        "correct": 0,
+        "explanation": "'Where' hace referencia al local comercial donde se compra pan.",
+        "id": "q_eng3_ingenio_9"
+    },
+    {
+        "grade": "english3",
+        "category": "ingenio",
+        "question": "She is the girl _______ mother is a famous wildlife photographer.",
+        "options": [
+            "whose",
+            "who",
+            "which",
+            "where"
+        ],
+        "correct": 0,
+        "explanation": "'Whose mother' indica 'cuya madre es fotógrafa' (posesión).",
+        "id": "q_eng3_ingenio_10"
+    },
+    {
+        "grade": "english3",
+        "category": "ingenio",
+        "question": "Could you please _______ after my pet cat while I am on holiday?",
+        "options": [
+            "look",
+            "take",
+            "see",
+            "watch"
+        ],
+        "correct": 0,
+        "explanation": "El phrasal verb 'look after' significa 'cuidar' o 'hacerse cargo de' alguien o una mascota.",
+        "id": "q_eng3_ingenio_11"
+    },
+    {
+        "grade": "english3",
+        "category": "ingenio",
+        "question": "It is getting dark outside. Please _______ on the living room light.",
+        "options": [
+            "turn",
+            "put",
+            "take",
+            "make"
+        ],
+        "correct": 0,
+        "explanation": "'Turn on' significa encender un dispositivo o luz (opuesto: 'turn off').",
+        "id": "q_eng3_ingenio_12"
+    },
+    {
+        "grade": "english3",
+        "category": "ingenio",
+        "question": "I always _______ up at seven o'clock on school mornings.",
+        "options": [
+            "wake",
+            "get",
+            "stand",
+            "make"
+        ],
+        "correct": 0,
+        "explanation": "'Wake up' significa despertarse.",
+        "id": "q_eng3_ingenio_13"
+    },
+    {
+        "grade": "english3",
+        "category": "ingenio",
+        "question": "Never _______ up on your dreams; keep practising and working hard!",
+        "options": [
+            "give",
+            "take",
+            "put",
+            "look"
+        ],
+        "correct": 0,
+        "explanation": "'Give up' significa rendirse o bajar los brazos.",
+        "id": "q_eng3_ingenio_14"
+    },
+    {
+        "grade": "english3",
+        "category": "ingenio",
+        "question": "Make sure to _______ off your computer before you leave the office.",
+        "options": [
+            "turn",
+            "take",
+            "put",
+            "make"
+        ],
+        "correct": 0,
+        "explanation": "'Turn off' significa apagar un aparato electrónico.",
+        "id": "q_eng3_ingenio_15"
+    },
+    {
+        "grade": "english3",
+        "category": "ingenio",
+        "question": "I am _______ for my keys; have you seen them anywhere?",
+        "options": [
+            "looking",
+            "watching",
+            "seeing",
+            "taking"
+        ],
+        "correct": 0,
+        "explanation": "'Look for' significa buscar algo extraviado.",
+        "id": "q_eng3_ingenio_16"
+    },
+    {
+        "grade": "english3",
+        "category": "ingenio",
+        "question": "It's cold outside. _______ on your warm coat and gloves.",
+        "options": [
+            "Put",
+            "Take",
+            "Turn",
+            "Look"
+        ],
+        "correct": 0,
+        "explanation": "'Put on' significa ponerse una prenda de vestir.",
+        "id": "q_eng3_ingenio_17"
+    },
+    {
+        "grade": "english3",
+        "category": "ingenio",
+        "question": "We arrived at the bus stop and _______ on the bus just in time.",
+        "options": [
+            "got",
+            "took",
+            "put",
+            "turned"
+        ],
+        "correct": 0,
+        "explanation": "'Get on' significa subir o abordar un autobús, tren o avión (pasado: 'got on').",
+        "id": "q_eng3_ingenio_18"
+    },
+    {
+        "grade": "english3",
+        "category": "ingenio",
+        "question": "Please _______ off your shoes when entering the house to keep floors clean.",
+        "options": [
+            "take",
+            "turn",
+            "put",
+            "get"
+        ],
+        "correct": 0,
+        "explanation": "'Take off' significa quitarse una prenda o calzado.",
+        "id": "q_eng3_ingenio_19"
+    },
+    {
+        "grade": "english3",
+        "category": "ingenio",
+        "question": "My little brother _______ along very well with his classmates.",
+        "options": [
+            "gets",
+            "takes",
+            "looks",
+            "turns"
+        ],
+        "correct": 0,
+        "explanation": "'Get along with' significa llevarse bien con otras personas.",
+        "id": "q_eng3_ingenio_20"
+    },
+    {
+        "grade": "english3",
+        "category": "ingenio",
+        "question": "What prefix added to 'HAPPY' creates its opposite meaning?",
+        "options": [
+            "Un- (Unhappy)",
+            "Dis-",
+            "Im-",
+            "Re-"
+        ],
+        "correct": 0,
+        "explanation": "El prefijo negativo 'un-' forma 'unhappy' (infeliz o triste).",
+        "id": "q_eng3_ingenio_21"
+    },
+    {
+        "grade": "english3",
+        "category": "ingenio",
+        "question": "What suffix added to 'HELP' means 'dispuesto a ayudar o servicial'?",
+        "options": [
+            "-ful (Helpful)",
+            "-less",
+            "-able",
+            "-ment"
+        ],
+        "correct": 0,
+        "explanation": "El sufijo '-ful' denota abundancia o cualidad positiva: 'helpful' (útil/servicial).",
+        "id": "q_eng3_ingenio_22"
+    },
+    {
+        "grade": "english3",
+        "category": "ingenio",
+        "question": "What suffix added to 'CARE' means 'descuidado o sin cuidado'?",
+        "options": [
+            "-less (Careless)",
+            "-ful",
+            "-able",
+            "-ness"
+        ],
+        "correct": 0,
+        "explanation": "El sufijo '-less' indica carencia o ausencia: 'careless' (descuidado).",
+        "id": "q_eng3_ingenio_23"
+    },
+    {
+        "grade": "english3",
+        "category": "ingenio",
+        "question": "What prefix added to 'POSSIBLE' makes it mean 'imposible'?",
+        "options": [
+            "Im- (Impossible)",
+            "Un-",
+            "Dis-",
+            "In-"
+        ],
+        "correct": 0,
+        "explanation": "Antes de la letra 'p', el prefijo negativo habitual es 'im-': 'impossible'.",
+        "id": "q_eng3_ingenio_24"
+    },
+    {
+        "grade": "english3",
+        "category": "ingenio",
+        "question": "What suffix added to the verb 'TEACH' creates the person noun?",
+        "options": [
+            "-er (Teacher)",
+            "-or",
+            "-ist",
+            "-ant"
+        ],
+        "correct": 0,
+        "explanation": "El sufijo '-er' forma sustantivos de personas que realizan una profesión: 'teacher'.",
+        "id": "q_eng3_ingenio_25"
+    },
+    {
+        "grade": "english3",
+        "category": "ingenio",
+        "question": "What prefix added to 'AGREE' means 'estar en desacuerdo'?",
+        "options": [
+            "Dis- (Disagree)",
+            "Un-",
+            "Im-",
+            "Non-"
+        ],
+        "correct": 0,
+        "explanation": "El prefijo 'dis-' forma 'disagree' (no estar de acuerdo).",
+        "id": "q_eng3_ingenio_26"
+    },
+    {
+        "grade": "english3",
+        "category": "ingenio",
+        "question": "What suffix turns the adjective 'KIND' into the abstract noun 'amabilidad'?",
+        "options": [
+            "-ness (Kindness)",
+            "-ment",
+            "-ful",
+            "-tion"
+        ],
+        "correct": 0,
+        "explanation": "El sufijo '-ness' forma sustantivos abstractos de cualidad: 'kindness' (amabilidad).",
+        "id": "q_eng3_ingenio_27"
+    },
+    {
+        "grade": "english3",
+        "category": "ingenio",
+        "question": "What prefix added to 'WRITE' means 'volver a escribir'?",
+        "options": [
+            "Re- (Rewrite)",
+            "Pre-",
+            "Un-",
+            "Dis-"
+        ],
+        "correct": 0,
+        "explanation": "El prefijo 're-' denota repetición o reiteración: 'rewrite' (reescribir).",
+        "id": "q_eng3_ingenio_28"
+    },
+    {
+        "grade": "english3",
+        "category": "ingenio",
+        "question": "What suffix turns the verb 'CREATE' into the adjective 'creativo'?",
+        "options": [
+            "-ive (Creative)",
+            "-able",
+            "-ful",
+            "-less"
+        ],
+        "correct": 0,
+        "explanation": "El sufijo '-ive' crea adjetivos de acción: 'creative'.",
+        "id": "q_eng3_ingenio_29"
+    },
+    {
+        "grade": "english3",
+        "category": "ingenio",
+        "question": "What prefix added to 'PATIENT' means 'impaciente'?",
+        "options": [
+            "Im- (Impatient)",
+            "Un-",
+            "Dis-",
+            "In-"
+        ],
+        "correct": 0,
+        "explanation": "Antes de la 'p', el prefijo negativo correspondiente es 'im-': 'impatient'.",
+        "id": "q_eng3_ingenio_30"
+    },
+    {
+        "grade": "english3",
+        "category": "ingenio",
+        "question": "What does the idiom 'a piece of cake' mean?",
+        "options": [
+            "Something very easy to do",
+            "A delicious dessert",
+            "A difficult challenge",
+            "A birthday party"
+        ],
+        "correct": 0,
+        "explanation": "'A piece of cake' es una expresión idiomática que significa que algo es pan comido o sumamente fácil.",
+        "id": "q_eng3_ingenio_31"
+    },
+    {
+        "grade": "english3",
+        "category": "ingenio",
+        "question": "When someone says 'Break a leg!' before a theatrical play, what do they mean?",
+        "options": [
+            "Good luck!",
+            "Be careful not to fall",
+            "Run faster",
+            "Stop talking"
+        ],
+        "correct": 0,
+        "explanation": "'Break a leg!' es la forma tradicional de desear buena suerte a los actores en el teatro.",
+        "id": "q_eng3_ingenio_32"
+    },
+    {
+        "grade": "english3",
+        "category": "ingenio",
+        "question": "What does the expression 'kill two birds with one stone' mean?",
+        "options": [
+            "Solve two problems with a single action",
+            "Go birdwatching",
+            "Throw stones at animals",
+            "Make a big mistake"
+        ],
+        "correct": 0,
+        "explanation": "Matar dos pájaros de un tiro significa resolver dos asuntos mediante una sola acción.",
+        "id": "q_eng3_ingenio_33"
+    },
+    {
+        "grade": "english3",
+        "category": "ingenio",
+        "question": "When people say 'once in a blue moon', how often does it happen?",
+        "options": [
+            "Very rarely or almost never",
+            "Every Monday",
+            "Every month",
+            "Every day"
+        ],
+        "correct": 0,
+        "explanation": "'Once in a blue moon' alude a algo que ocurre muy rara vez.",
+        "id": "q_eng3_ingenio_34"
+    },
+    {
+        "grade": "english3",
+        "category": "ingenio",
+        "question": "What does it mean to 'let the cat out of the bag'?",
+        "options": [
+            "Reveal a secret by accident",
+            "Adopt a new pet",
+            "Go shopping",
+            "Clean your bedroom"
+        ],
+        "correct": 0,
+        "explanation": "'Let the cat out of the bag' significa revelar un secreto o sorpresa inadvertidamente.",
+        "id": "q_eng3_ingenio_35"
+    },
+    {
+        "grade": "english3",
+        "category": "ingenio",
+        "question": "When you are feeling slightly ill or indisposed, you are feeling 'under the _______'.",
+        "options": [
+            "weather",
+            "water",
+            "blanket",
+            "table"
+        ],
+        "correct": 0,
+        "explanation": "'Under the weather' es la expresión habitual para decir que no te sientes bien de salud.",
+        "id": "q_eng3_ingenio_36"
+    },
+    {
+        "grade": "english3",
+        "category": "ingenio",
+        "question": "If you hit the 'nail on the head', you are _______.",
+        "options": [
+            "completely right about something",
+            "doing carpentry",
+            "hurting your fingers",
+            "making a loud noise"
+        ],
+        "correct": 0,
+        "explanation": "'Hit the nail on the head' significa dar en el clavo o acertar con exactitud.",
+        "id": "q_eng3_ingenio_37"
+    },
+    {
+        "grade": "english3",
+        "category": "ingenio",
+        "question": "Complete the proverb: Actions speak louder than _______.",
+        "options": [
+            "words",
+            "shouts",
+            "thoughts",
+            "books"
+        ],
+        "correct": 0,
+        "explanation": "'Actions speak louder than words' significa que los hechos valen más que las palabras.",
+        "id": "q_eng3_ingenio_38"
+    },
+    {
+        "grade": "english3",
+        "category": "ingenio",
+        "question": "Complete the proverb: Better late than _______.",
+        "options": [
+            "never",
+            "ever",
+            "always",
+            "early"
+        ],
+        "correct": 0,
+        "explanation": "'Better late than never' es el equivalente en inglés de 'más vale tarde que nunca'.",
+        "id": "q_eng3_ingenio_39"
+    },
+    {
+        "grade": "english3",
+        "category": "ingenio",
+        "question": "If an item costs 'an arm and a leg', it is _______.",
+        "options": [
+            "extremely expensive",
+            "free of charge",
+            "broken and unusable",
+            "cheap and simple"
+        ],
+        "correct": 0,
+        "explanation": "'Cost an arm and a leg' significa que algo cuesta un ojo de la cara o es carísimo.",
+        "id": "q_eng3_ingenio_40"
+    },
+    {
+        "grade": "english3",
+        "category": "ingenio",
+        "question": "What has to be broken before you can use it to make an omelette?",
+        "options": [
+            "An egg",
+            "A plate",
+            "A glass",
+            "A pan"
+        ],
+        "correct": 0,
+        "explanation": "Un huevo ('An egg') debe romperse para poder cocinarlo.",
+        "id": "q_eng3_ingenio_41"
+    },
+    {
+        "grade": "english3",
+        "category": "ingenio",
+        "question": "I am full of holes, yet I can hold plenty of water. What am I?",
+        "options": [
+            "A sponge",
+            "A bucket",
+            "A bottle",
+            "A bowl"
+        ],
+        "correct": 0,
+        "explanation": "Una esponja ('A sponge') está llena de poros pero retiene gran cantidad de agua.",
+        "id": "q_eng3_ingenio_42"
+    },
+    {
+        "grade": "english3",
+        "category": "ingenio",
+        "question": "What question can you never answer 'YES' to if you are being honest?",
+        "options": [
+            "Are you asleep right now?",
+            "Are you awake?",
+            "Do you speak English?",
+            "What is your name?"
+        ],
+        "correct": 0,
+        "explanation": "Si estás dormido no puedes responder 'sí' verbalmente.",
+        "id": "q_eng3_ingenio_43"
+    },
+    {
+        "grade": "english3",
+        "category": "ingenio",
+        "question": "What has a head and a tail, but no body or legs?",
+        "options": [
+            "A coin",
+            "A snake",
+            "A book",
+            "A pencil"
+        ],
+        "correct": 0,
+        "explanation": "Una moneda tiene cara ('head') y cruz ('tail'), pero carece de cuerpo.",
+        "id": "q_eng3_ingenio_44"
+    },
+    {
+        "grade": "english3",
+        "category": "ingenio",
+        "question": "The more of this you take away, the larger it becomes. What is it?",
+        "options": [
+            "A hole",
+            "A cake",
+            "A pile",
+            "A tower"
+        ],
+        "correct": 0,
+        "explanation": "Cuanta más tierra retiras, más grande se vuelve un hoyo o pozo ('A hole').",
+        "id": "q_eng3_ingenio_45"
+    },
+    {
+        "grade": "english3",
+        "category": "ingenio",
+        "question": "I follow you everywhere in the bright sun, but I disappear in the dark. What am I?",
+        "options": [
+            "Your shadow",
+            "Your hat",
+            "Your friend",
+            "A dog"
+        ],
+        "correct": 0,
+        "explanation": "Tu sombra ('Your shadow') te sigue con la luz del sol pero desaparece en la oscuridad.",
+        "id": "q_eng3_ingenio_46"
+    },
+    {
+        "grade": "english3",
+        "category": "ingenio",
+        "question": "What month of the year has 28 days?",
+        "options": [
+            "All twelve months",
+            "Only February",
+            "Only July",
+            "Only leap years"
+        ],
+        "correct": 0,
+        "explanation": "Todos los meses del año tienen al menos 28 días.",
+        "id": "q_eng3_ingenio_47"
+    },
+    {
+        "grade": "english3",
+        "category": "ingenio",
+        "question": "What runs but never walks, has a bed but never sleeps, and has a mouth but never talks?",
+        "options": [
+            "A river",
+            "A car",
+            "A horse",
+            "A clock"
+        ],
+        "correct": 0,
+        "explanation": "Un río corre ('runs'), tiene cauce/lecho ('bed') y desembocadura ('mouth').",
+        "id": "q_eng3_ingenio_48"
+    },
+    {
+        "grade": "english3",
+        "category": "ingenio",
+        "question": "What belongs to you, but other people use it much more than you do?",
+        "options": [
+            "Your name",
+            "Your bicycle",
+            "Your coat",
+            "Your money"
+        ],
+        "correct": 0,
+        "explanation": "Tu nombre ('Your name') es tuyo, pero son los demás quienes lo pronuncian al llamarte.",
+        "id": "q_eng3_ingenio_49"
+    },
+    {
+        "grade": "english3",
+        "category": "ingenio",
+        "question": "What can travel around the entire world while staying in one single corner?",
+        "options": [
+            "A postage stamp",
+            "An airplane",
+            "A ship",
+            "A train"
+        ],
+        "correct": 0,
+        "explanation": "Una estampilla postal ('postage stamp') viaja por todo el mundo pegada en la esquina del sobre.",
+        "id": "q_eng3_ingenio_50"
+    }
 ];
 
 // Soporte para exportación en entornos Node/CommonJS si fuera necesario

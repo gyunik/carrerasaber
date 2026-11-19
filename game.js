@@ -330,6 +330,174 @@ const SUBJECT_THEME = {
     }
 };
 
+const SUBJECT_THEME_ENGLISH1 = {
+    matematica: {
+        headerBg: '#2563eb',
+        name: 'To Be & Pronouns',
+        short: 'Be',
+        emoji: '⏱️',
+        subtitle: 'To Be, Have Got & Can',
+        icon: `<svg class="w-4 h-4 text-blue-600" fill="none" viewBox="0 0 24 24"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.3"></path></svg>`,
+        activeRing: 'bg-white/90 border border-blue-200 text-blue-700 shadow-2xs'
+    },
+    lengua: {
+        headerBg: '#dc2626',
+        name: 'Vocabulary & Words',
+        short: 'Voc',
+        emoji: '🎒',
+        subtitle: 'Numbers, Colours & Family',
+        icon: `<svg class="w-4 h-4 text-rose-500" fill="none" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.3"></path></svg>`,
+        activeRing: 'bg-white/90 border border-rose-200 text-rose-600 shadow-2xs'
+    },
+    naturales: {
+        headerBg: '#16a34a',
+        name: 'Animals & Food',
+        short: 'Ani',
+        emoji: '🍏',
+        subtitle: 'Pets, Wild Animals & Food',
+        icon: `<svg class="w-4 h-4 text-emerald-600" fill="none" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>`,
+        activeRing: 'bg-white/90 border border-emerald-200 text-emerald-700 shadow-2xs'
+    },
+    sociales: {
+        headerBg: '#ea580c',
+        name: 'Daily Life & House',
+        short: 'Day',
+        emoji: '🏠',
+        subtitle: 'Rooms, Clothes & Days',
+        icon: `<svg class="w-4 h-4 text-amber-500" fill="none" viewBox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>`,
+        activeRing: 'bg-white/90 border border-amber-200 text-amber-700 shadow-2xs'
+    },
+    ingenio: {
+        headerBg: '#9333ea',
+        name: 'Puzzles & Riddles',
+        short: 'Puz',
+        emoji: '🧩',
+        subtitle: 'Odd One Out & Riddles',
+        icon: `<svg class="w-4 h-4 text-purple-600" fill="none" viewBox="0 0 24 24"><path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>`,
+        activeRing: 'bg-white/90 border border-purple-200 text-purple-700 shadow-2xs'
+    },
+    comodin: {
+        headerBg: '#6366f1',
+        name: 'Comodín',
+        short: 'Com',
+        emoji: '🃏',
+        icon: `<span class="text-base">🃏</span>`,
+        activeRing: 'bg-gradient-to-b from-purple-50 to-indigo-100 ring-1.5 ring-indigo-400 text-indigo-700 shadow-2xs'
+    }
+};
+
+const SUBJECT_THEME_ENGLISH2 = {
+    matematica: {
+        headerBg: '#2563eb',
+        name: 'Past Simple & Time',
+        short: 'Pas',
+        emoji: '⏱️',
+        subtitle: 'Was/Were & Past Verbs',
+        icon: `<svg class="w-4 h-4 text-blue-600" fill="none" viewBox="0 0 24 24"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.3"></path></svg>`,
+        activeRing: 'bg-white/90 border border-blue-200 text-blue-700 shadow-2xs'
+    },
+    lengua: {
+        headerBg: '#dc2626',
+        name: 'Comparatives',
+        short: 'Com',
+        emoji: '🎒',
+        subtitle: 'Adjectives & Comparison',
+        icon: `<svg class="w-4 h-4 text-rose-500" fill="none" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.3"></path></svg>`,
+        activeRing: 'bg-white/90 border border-rose-200 text-rose-600 shadow-2xs'
+    },
+    naturales: {
+        headerBg: '#16a34a',
+        name: 'Health & Nature',
+        short: 'Nat',
+        emoji: '🌿',
+        subtitle: 'Body, Habitats & Weather',
+        icon: `<svg class="w-4 h-4 text-emerald-600" fill="none" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>`,
+        activeRing: 'bg-white/90 border border-emerald-200 text-emerald-700 shadow-2xs'
+    },
+    sociales: {
+        headerBg: '#ea580c',
+        name: 'Town & Places',
+        short: 'Plc',
+        emoji: '🏙️',
+        subtitle: 'Places, Jobs & Transport',
+        icon: `<svg class="w-4 h-4 text-amber-500" fill="none" viewBox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>`,
+        activeRing: 'bg-white/90 border border-amber-200 text-amber-700 shadow-2xs'
+    },
+    ingenio: {
+        headerBg: '#9333ea',
+        name: 'Puzzles & Logic',
+        short: 'Puz',
+        emoji: '🧩',
+        subtitle: 'Prepositions, Opposites & Riddles',
+        icon: `<svg class="w-4 h-4 text-purple-600" fill="none" viewBox="0 0 24 24"><path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>`,
+        activeRing: 'bg-white/90 border border-purple-200 text-purple-700 shadow-2xs'
+    },
+    comodin: {
+        headerBg: '#6366f1',
+        name: 'Comodín',
+        short: 'Com',
+        emoji: '🃏',
+        icon: `<span class="text-base">🃏</span>`,
+        activeRing: 'bg-gradient-to-b from-purple-50 to-indigo-100 ring-1.5 ring-indigo-400 text-indigo-700 shadow-2xs'
+    }
+};
+
+const SUBJECT_THEME_ENGLISH3 = {
+    matematica: {
+        headerBg: '#2563eb',
+        name: 'Past & Continuous',
+        short: 'Ten',
+        emoji: '⏱️',
+        subtitle: 'Past Continuous & Past Simple',
+        icon: `<svg class="w-4 h-4 text-blue-600" fill="none" viewBox="0 0 24 24"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.3"></path></svg>`,
+        activeRing: 'bg-white/90 border border-blue-200 text-blue-700 shadow-2xs'
+    },
+    lengua: {
+        headerBg: '#dc2626',
+        name: 'Present Perfect',
+        short: 'Per',
+        emoji: '🎒',
+        subtitle: 'Experiences & Result',
+        icon: `<svg class="w-4 h-4 text-rose-500" fill="none" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.3"></path></svg>`,
+        activeRing: 'bg-white/90 border border-rose-200 text-rose-600 shadow-2xs'
+    },
+    naturales: {
+        headerBg: '#16a34a',
+        name: 'Modals & Rules',
+        short: 'Mod',
+        emoji: '📋',
+        subtitle: 'Must, Should, Have to',
+        icon: `<svg class="w-4 h-4 text-emerald-600" fill="none" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>`,
+        activeRing: 'bg-white/90 border border-emerald-200 text-emerald-700 shadow-2xs'
+    },
+    sociales: {
+        headerBg: '#ea580c',
+        name: 'Future & If',
+        short: 'Fut',
+        emoji: '🔮',
+        subtitle: 'Will, Going to & First Conditional',
+        icon: `<svg class="w-4 h-4 text-amber-500" fill="none" viewBox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>`,
+        activeRing: 'bg-white/90 border border-amber-200 text-amber-700 shadow-2xs'
+    },
+    ingenio: {
+        headerBg: '#9333ea',
+        name: 'Clauses & Words',
+        short: 'Voc',
+        emoji: '🧩',
+        subtitle: 'Relative Clauses & Phrasal Verbs',
+        icon: `<svg class="w-4 h-4 text-purple-600" fill="none" viewBox="0 0 24 24"><path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>`,
+        activeRing: 'bg-white/90 border border-purple-200 text-purple-700 shadow-2xs'
+    },
+    comodin: {
+        headerBg: '#6366f1',
+        name: 'Comodín',
+        short: 'Com',
+        emoji: '🃏',
+        icon: `<span class="text-base">🃏</span>`,
+        activeRing: 'bg-gradient-to-b from-purple-50 to-indigo-100 ring-1.5 ring-indigo-400 text-indigo-700 shadow-2xs'
+    }
+};
+
 const SUBJECT_THEME_GOGETTER4 = {
     matematica: {
         headerBg: '#2563eb',
@@ -489,7 +657,7 @@ class CarreraDelSaberApp {
         const cleanedText = text.replace(/_{2,}/g, ' ... ');
         const utterance = new SpeechSynthesisUtterance(cleanedText);
 
-        const isEnglish = (typeof this.grade === 'string' && this.grade.startsWith('gogetter')) || lang === 'en';
+        const isEnglish = this.isEnglishGrade() || lang === 'en';
 
         const voices = window.speechSynthesis.getVoices();
 
@@ -542,6 +710,15 @@ class CarreraDelSaberApp {
 
     getSubjectTheme(catKey) {
         if (this.isEnglishGrade()) {
+            if (this.grade === 'english1' || this.grade === 'gogetter1') {
+                return SUBJECT_THEME_ENGLISH1[catKey] || SUBJECT_THEME_GOGETTER4[catKey] || SUBJECT_THEME[catKey];
+            }
+            if (this.grade === 'english2' || this.grade === 'gogetter2') {
+                return SUBJECT_THEME_ENGLISH2[catKey] || SUBJECT_THEME_GOGETTER4[catKey] || SUBJECT_THEME[catKey];
+            }
+            if (this.grade === 'english3' || this.grade === 'gogetter3') {
+                return SUBJECT_THEME_ENGLISH3[catKey] || SUBJECT_THEME_GOGETTER4[catKey] || SUBJECT_THEME[catKey];
+            }
             return SUBJECT_THEME_GOGETTER4[catKey] || SUBJECT_THEME[catKey];
         }
         return SUBJECT_THEME[catKey];
@@ -1255,7 +1432,7 @@ class CarreraDelSaberApp {
                 badgeKeys.forEach(k => {
                     const meta = this.getSubjectTheme(k);
                     const has = p.badges.has(k);
-                    const badgeIcon = (this.grade === 'gogetter4' && meta.emoji)
+                    const badgeIcon = (this.isEnglishGrade() && meta.emoji)
                         ? `<span class="text-base leading-none">${meta.emoji}</span>`
                         : meta.icon;
 
@@ -1331,7 +1508,7 @@ class CarreraDelSaberApp {
                 badgeKeys.forEach(k => {
                     const meta = this.getSubjectTheme(k);
                     const has = p.badges.has(k);
-                    const miniIcon = (this.grade === 'gogetter4' && meta.emoji)
+                    const miniIcon = (this.isEnglishGrade() && meta.emoji)
                         ? `<span class="text-[11px] leading-none">${meta.emoji}</span>`
                         : meta.icon;
                     if (has) {
@@ -1973,7 +2150,7 @@ class CarreraDelSaberApp {
                 player.badges.forEach(catKey => {
                     const theme = this.getSubjectTheme(catKey);
                     if (!theme) return;
-                    const badgeIcon = (this.grade === 'gogetter4' && theme.emoji)
+                    const badgeIcon = (this.isEnglishGrade() && theme.emoji)
                         ? `<span class="text-xl leading-none">${theme.emoji}</span>`
                         : theme.icon;
                     const badgeCard = document.createElement('div');
