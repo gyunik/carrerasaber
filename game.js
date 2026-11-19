@@ -1877,88 +1877,6 @@ class CarreraDelSaberApp {
         }
     }
 
-    startDiceRollVisuals() {
-        const centerStage = document.getElementById('centerStage') || document.querySelector('[data-purpose="center-game-stage"]');
-        const rollOverlay = document.getElementById('activeRollOverlay');
-        const rollBtn = document.getElementById('rollDiceBtn');
-        const diceCube = document.getElementById('diceCubeFace') || document.getElementById('diceCube');
-
-        if (centerStage) {
-            centerStage.classList.add('active-energy');
-        }
-        if (rollBtn) {
-            rollBtn.classList.add('btn-rolling');
-        }
-        if (rollOverlay) {
-            rollOverlay.classList.remove('opacity-0', 'pointer-events-none');
-            rollOverlay.classList.add('opacity-100');
-        }
-        if (diceCube) {
-            diceCube.classList.remove('dice-rolling');
-            void diceCube.offsetWidth;
-            diceCube.classList.add('dice-rolling');
-        }
-        this.createRollSparks();
-    }
-
-    stopDiceRollVisuals() {
-        const centerStage = document.getElementById('centerStage') || document.querySelector('[data-purpose="center-game-stage"]');
-        const rollOverlay = document.getElementById('activeRollOverlay');
-        const rollBtn = document.getElementById('rollDiceBtn');
-        const diceCube = document.getElementById('diceCubeFace') || document.getElementById('diceCube');
-
-        if (diceCube) {
-            diceCube.classList.remove('dice-rolling');
-        }
-        if (rollBtn) {
-            rollBtn.classList.remove('btn-rolling');
-        }
-        if (centerStage) {
-            centerStage.classList.remove('active-energy');
-        }
-        if (rollOverlay) {
-            // Suave fade-out volviendo al reposo limpio
-            rollOverlay.classList.remove('opacity-100');
-            rollOverlay.classList.add('opacity-0', 'pointer-events-none');
-        }
-    }
-
-    createRollSparks() {
-        const container = document.getElementById('btnSparksContainer');
-        if (!container) return;
-        container.innerHTML = '';
-        const sparkColors = ['#38bdf8', '#0ea5e9', '#c084fc', '#fde047', '#ffffff'];
-        const sparkCount = 14;
-
-        for (let i = 0; i < sparkCount; i++) {
-            const spark = document.createElement('div');
-            spark.className = 'btn-spark';
-            const size = Math.floor(Math.random() * 5 + 3);
-            spark.style.width = `${size}px`;
-            spark.style.height = `${size}px`;
-            spark.style.backgroundColor = sparkColors[Math.floor(Math.random() * sparkColors.length)];
-            spark.style.boxShadow = `0 0 8px ${spark.style.backgroundColor}`;
-
-            spark.style.left = `${Math.random() * 90 + 5}%`;
-            spark.style.top = `${Math.random() * 90 + 5}%`;
-
-            const angle = Math.random() * 2 * Math.PI;
-            const dist = Math.random() * 45 + 25;
-            const spX = Math.cos(angle) * dist;
-            const spY = Math.sin(angle) * dist;
-
-            spark.style.setProperty('--sp-x', `${spX}px`);
-            spark.style.setProperty('--sp-y', `${spY}px`);
-            spark.style.animationDelay = `${(Math.random() * 0.35).toFixed(2)}s`;
-
-            container.appendChild(spark);
-        }
-
-        setTimeout(() => {
-            if (container) container.innerHTML = '';
-        }, 1200);
-    }
-
     rollDice() {
         if (this.isRolling || this.isMoving) return;
         this.isRolling = true;
@@ -1966,6 +1884,7 @@ class CarreraDelSaberApp {
         this.audio.init();
 
         const rollBtn = document.getElementById('rollDiceBtn');
+        const diceCube = document.getElementById('diceCubeFace') || document.getElementById('diceCube');
         const btnText = document.getElementById('btnText');
         const btnIcon = document.getElementById('btnIcon');
         const turnPill = document.getElementById('turnPill');
@@ -1995,8 +1914,12 @@ class CarreraDelSaberApp {
             resultToast.classList.remove('pop-in-toast');
         }
 
-        // Estado activo: Anillos de energía cian, órbita mágica de partículas y destello en botón
-        this.startDiceRollVisuals();
+        // Animación 3D del cubo
+        if (diceCube) {
+            diceCube.classList.remove('dice-rolling');
+            void diceCube.offsetWidth;
+            diceCube.classList.add('dice-rolling');
+        }
 
         let rollStep = 0;
         const totalSteps = 10;
@@ -2009,8 +1932,9 @@ class CarreraDelSaberApp {
         }, 85);
 
         setTimeout(() => {
-            // Retorno suave al reposo: el dado frena, la órbita y destellos se desvanecen
-            this.stopDiceRollVisuals();
+            if (diceCube) {
+                diceCube.classList.remove('dice-rolling');
+            }
 
             // Quitar el cartel de "Tirando..." apenas el dado frena su movimiento
             if (btnText) btnText.textContent = '¡TIRAR DADO!';
@@ -2552,12 +2476,17 @@ class CarreraDelSaberApp {
             helperMsg.textContent = `${roller.name} está tirando el dado en vivo...`;
         }
 
-        // Animación activa de energía y partículas
-        this.startDiceRollVisuals();
+        const diceCube = document.getElementById('diceCubeFace') || document.getElementById('diceCube');
+        if (diceCube) {
+            diceCube.classList.remove('dice-rolling');
+            void diceCube.offsetWidth;
+            diceCube.classList.add('dice-rolling');
+        }
 
         setTimeout(() => {
-            // Retorno suave al reposo
-            this.stopDiceRollVisuals();
+            if (diceCube) {
+                diceCube.classList.remove('dice-rolling');
+            }
 
             this.renderDiceFace(diceValue);
             this.audio.playDingSuccess();
