@@ -1698,8 +1698,8 @@ class CarreraDelSaberApp {
             if (desktopContainer) {
                 const article = document.createElement('article');
                 article.className = isActive
-                    ? 'bg-gradient-to-r from-blue-50/90 to-indigo-50/70 border-2 border-blue-400 rounded-2xl p-3 sm:p-3.5 shadow-sm relative transition-all'
-                    : 'bg-white border border-slate-200/90 rounded-2xl p-3 sm:p-3.5 shadow-xs transition-all';
+                    ? 'bg-gradient-to-r from-[#1e293b] via-[#1a2d48] to-[#1e293b] border-2 border-[#38bdf8] rounded-2xl p-3 sm:p-3.5 shadow-[0_0_20px_rgba(56,189,248,0.35)] relative transition-all ring-1 ring-[#38bdf8]/40'
+                    : 'bg-[#1e293b] border border-[#334155] rounded-2xl p-3 sm:p-3.5 shadow-md relative transition-all';
 
                 let badgesHtml = '';
                 badgeKeys.forEach(k => {
@@ -1711,17 +1711,17 @@ class CarreraDelSaberApp {
 
                     if (has) {
                         badgesHtml += `
-                            <div class="bg-white border-2 border-amber-300/80 rounded-xl py-1.5 px-0.5 flex flex-col items-center justify-center shadow-2xs hover:bg-amber-50/40 transition relative cursor-default" title="${meta.name} lograda">
+                            <div class="bg-[#0f172a] border-2 border-amber-400/90 rounded-xl py-1.5 px-0.5 flex flex-col items-center justify-center shadow-[0_0_12px_rgba(251,191,36,0.3)] hover:bg-[#1e293b] transition relative cursor-default" title="${meta.name} lograda">
                                 ${badgeIcon}
-                                <span class="text-[10px] font-black text-slate-800 leading-none mt-0.5">${meta.short}</span>
+                                <span class="text-[10px] font-black text-amber-300 leading-none mt-0.5">${meta.short}</span>
                                 <span class="absolute -top-1.5 -right-1 text-[10px]">⭐</span>
                             </div>
                         `;
                     } else {
                         badgesHtml += `
-                            <div class="bg-slate-50/80 border border-slate-200 rounded-xl py-1.5 px-0.5 flex flex-col items-center justify-center shadow-2xs opacity-40 grayscale hover:opacity-60 transition cursor-default" title="${meta.name} pendiente">
-                                ${badgeIcon}
-                                <span class="text-[10px] font-bold text-slate-400 leading-none mt-0.5">${meta.short}</span>
+                            <div class="bg-[#0f172a]/85 border border-[#334155] rounded-xl py-1.5 px-0.5 flex flex-col items-center justify-center shadow-inner opacity-85 hover:opacity-100 transition cursor-default" title="${meta.name} pendiente">
+                                <div class="opacity-75 contrast-125 filter">${badgeIcon}</div>
+                                <span class="text-[10px] font-bold text-slate-300 leading-none mt-0.5">${meta.short}</span>
                             </div>
                         `;
                     }
@@ -1730,22 +1730,22 @@ class CarreraDelSaberApp {
                 article.innerHTML = `
                     <div class="flex items-center justify-between">
                         <div class="flex items-center gap-2.5">
-                            <div class="w-11 h-11 rounded-xl ${p.avatarBg || 'bg-amber-100'} border-2 border-amber-300 flex items-center justify-center text-xl shadow-inner relative shrink-0">
+                            <div class="w-11 h-11 rounded-xl ${p.avatarBg || 'bg-slate-800'} border-2 ${isActive ? 'border-cyan-400 shadow-[0_0_10px_rgba(56,189,248,0.5)]' : 'border-slate-700'} flex items-center justify-center text-xl shadow-inner relative shrink-0">
                                 ${p.avatar}
                                 ${isActive ? '<span class="absolute -bottom-1 -right-1 text-xs">⭐</span>' : ''}
                             </div>
                             <div class="min-w-0">
-                                <h3 class="font-black text-slate-900 text-sm sm:text-base truncate max-w-[120px] leading-tight">${p.name}</h3>
-                                <p class="text-xs font-extrabold ${isActive ? 'text-blue-600' : 'text-slate-500'} leading-tight">
+                                <h3 class="font-black text-white text-sm sm:text-base truncate max-w-[120px] leading-tight">${p.name}</h3>
+                                <p class="text-xs font-extrabold ${isActive ? 'text-sky-400' : 'text-slate-400'} leading-tight">
                                     ${p.badges.size} / 5 Insignias
                                 </p>
                             </div>
                         </div>
                         <div class="flex flex-col items-end gap-1 shrink-0">
                             ${isActive ? `
-                            <span class="text-[9px] font-black tracking-wider bg-blue-600 text-white px-2 py-0.5 rounded-full uppercase shadow-xs">TURNO</span>
+                            <span class="text-[9px] font-black tracking-wider bg-[#38bdf8] text-slate-950 px-2 py-0.5 rounded-full uppercase shadow-xs">TURNO</span>
                             ` : ''}
-                            <span class="text-xs font-bold text-slate-500" id="player-tile-tag-${p.id}">
+                            <span class="text-xs font-bold text-slate-400" id="player-tile-tag-${p.id}">
                                 Casilla #${p.position + 1}
                             </span>
                         </div>
@@ -1753,17 +1753,17 @@ class CarreraDelSaberApp {
 
                     <!-- Barra de progreso hacia canje de 300 puntos -->
                     <div class="mt-2 flex flex-col gap-0.5 w-full">
-                        <div class="flex items-center justify-between text-xs font-bold text-slate-600">
-                            <span class="flex items-center gap-1">⭐ Puntos: <strong class="text-indigo-700 font-extrabold text-xs sm:text-sm">${p.score}</strong></span>
-                            <span class="text-amber-700 font-extrabold text-xs">${p.score % 300}/300 pts</span>
+                        <div class="flex items-center justify-between text-xs font-bold text-slate-300">
+                            <span class="flex items-center gap-1">⭐ Puntos: <strong class="text-amber-400 font-extrabold text-xs sm:text-sm">${p.score}</strong></span>
+                            <span class="text-amber-400 font-extrabold text-xs">${p.score % 300}/300 pts</span>
                         </div>
-                        <div class="w-full h-1.5 bg-slate-100 rounded-full overflow-hidden border border-slate-200">
+                        <div class="w-full h-1.5 bg-slate-800 rounded-full overflow-hidden border border-[#334155]">
                             <div class="h-full bg-gradient-to-r from-amber-400 to-amber-500 rounded-full transition-all duration-300" style="width: ${Math.min(100, ((p.score % 300) / 300) * 100)}%"></div>
                         </div>
                     </div>
 
                     <!-- 5 Subject Insignia Medal Slots -->
-                    <div class="mt-2.5 pt-2 border-t ${isActive ? 'border-blue-100' : 'border-slate-100'} grid grid-cols-5 gap-1 text-center">
+                    <div class="mt-2.5 pt-2 border-t ${isActive ? 'border-[#38bdf8]/30' : 'border-[#334155]/60'} grid grid-cols-5 gap-1 text-center">
                         ${badgesHtml}
                     </div>
                 `;
@@ -1774,8 +1774,8 @@ class CarreraDelSaberApp {
             if (mobileContainer) {
                 const mobArticle = document.createElement('article');
                 mobArticle.className = isActive
-                    ? 'p-2 rounded-2xl border-2 border-blue-500 bg-blue-50/70 shadow-xs relative flex flex-col justify-between'
-                    : 'p-2 rounded-2xl border border-slate-200 bg-white shadow-xs flex flex-col justify-between';
+                    ? 'p-2 rounded-2xl border-2 border-[#38bdf8] bg-[#1e293b] shadow-[0_0_15px_rgba(56,189,248,0.3)] relative flex flex-col justify-between'
+                    : 'p-2 rounded-2xl border border-[#334155] bg-[#1e293b] shadow-xs flex flex-col justify-between';
 
                 let miniBadges = '';
                 badgeKeys.forEach(k => {
@@ -1787,25 +1787,25 @@ class CarreraDelSaberApp {
                     if (has) {
                         miniBadges += `<span title="${meta.name}">⭐</span>`;
                     } else {
-                        miniBadges += `<span class="opacity-25 grayscale flex items-center justify-center" title="${meta.name}">${miniIcon}</span>`;
+                        miniBadges += `<span class="opacity-75 contrast-125 flex items-center justify-center text-slate-300" title="${meta.name}">${miniIcon}</span>`;
                     }
                 });
 
                 mobArticle.innerHTML = `
                     ${isActive ? `
-                    <div class="absolute -top-2 right-2 bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-black text-[9px] tracking-wider px-2 py-0.5 rounded-full uppercase turn-glow shadow-xs">
+                    <div class="absolute -top-2 right-2 bg-gradient-to-r from-cyan-400 to-blue-500 text-slate-950 font-black text-[9px] tracking-wider px-2 py-0.5 rounded-full uppercase turn-glow shadow-xs">
                         Turno
                     </div>` : ''}
                     <div class="flex items-center gap-1.5 mb-1">
-                        <div class="w-7 h-7 rounded-lg ${p.avatarBg} flex items-center justify-center text-sm shrink-0 shadow-inner">
+                        <div class="w-7 h-7 rounded-lg ${p.avatarBg || 'bg-slate-800'} flex items-center justify-center text-sm shrink-0 shadow-inner">
                             ${p.avatar}
                         </div>
                         <div class="min-w-0">
-                            <h3 class="font-extrabold text-[11px] text-slate-900 leading-none truncate">${p.name}</h3>
-                            <span class="text-[9px] ${isActive ? 'text-blue-700 font-black' : 'text-slate-500 font-bold'}">Casilla #${p.position + 1}</span>
+                            <h3 class="font-extrabold text-[11px] text-white leading-none truncate">${p.name}</h3>
+                            <span class="text-[9px] ${isActive ? 'text-cyan-400 font-black' : 'text-slate-400 font-bold'}">Casilla #${p.position + 1}</span>
                         </div>
                     </div>
-                    <div class="flex items-center justify-between ${isActive ? 'bg-white/95 border-blue-100' : 'bg-slate-50 border-slate-100'} px-1 py-0.5 rounded-lg border text-[11px]">
+                    <div class="flex items-center justify-between ${isActive ? 'bg-[#0f172a] border-cyan-500/40' : 'bg-[#0f172a]/70 border-[#334155]'} px-1 py-0.5 rounded-lg border text-[11px]">
                         ${miniBadges}
                     </div>
                 `;
@@ -1819,8 +1819,8 @@ class CarreraDelSaberApp {
         const turnPill = document.getElementById('turnPill');
         if (turnPill) {
             turnPill.innerHTML = `
-                <span class="w-2.5 h-2.5 rounded-full bg-blue-500 animate-pulse"></span>
-                Es el turno de <span class="text-blue-600 font-extrabold">${player.name}</span> (${player.avatar})
+                <span class="w-2.5 h-2.5 rounded-full bg-cyan-400 shadow-[0_0_8px_#38bdf8] animate-pulse"></span>
+                Es el turno de <span class="text-[#38bdf8] font-black">${player.name}</span> (${player.avatar})
             `;
         }
 
@@ -1877,6 +1877,88 @@ class CarreraDelSaberApp {
         }
     }
 
+    startDiceRollVisuals() {
+        const centerStage = document.getElementById('centerStage') || document.querySelector('[data-purpose="center-game-stage"]');
+        const rollOverlay = document.getElementById('activeRollOverlay');
+        const rollBtn = document.getElementById('rollDiceBtn');
+        const diceCube = document.getElementById('diceCubeFace') || document.getElementById('diceCube');
+
+        if (centerStage) {
+            centerStage.classList.add('active-energy');
+        }
+        if (rollBtn) {
+            rollBtn.classList.add('btn-rolling');
+        }
+        if (rollOverlay) {
+            rollOverlay.classList.remove('opacity-0', 'pointer-events-none');
+            rollOverlay.classList.add('opacity-100');
+        }
+        if (diceCube) {
+            diceCube.classList.remove('dice-rolling');
+            void diceCube.offsetWidth;
+            diceCube.classList.add('dice-rolling');
+        }
+        this.createRollSparks();
+    }
+
+    stopDiceRollVisuals() {
+        const centerStage = document.getElementById('centerStage') || document.querySelector('[data-purpose="center-game-stage"]');
+        const rollOverlay = document.getElementById('activeRollOverlay');
+        const rollBtn = document.getElementById('rollDiceBtn');
+        const diceCube = document.getElementById('diceCubeFace') || document.getElementById('diceCube');
+
+        if (diceCube) {
+            diceCube.classList.remove('dice-rolling');
+        }
+        if (rollBtn) {
+            rollBtn.classList.remove('btn-rolling');
+        }
+        if (centerStage) {
+            centerStage.classList.remove('active-energy');
+        }
+        if (rollOverlay) {
+            // Suave fade-out volviendo al reposo limpio
+            rollOverlay.classList.remove('opacity-100');
+            rollOverlay.classList.add('opacity-0', 'pointer-events-none');
+        }
+    }
+
+    createRollSparks() {
+        const container = document.getElementById('btnSparksContainer');
+        if (!container) return;
+        container.innerHTML = '';
+        const sparkColors = ['#38bdf8', '#0ea5e9', '#c084fc', '#fde047', '#ffffff'];
+        const sparkCount = 14;
+
+        for (let i = 0; i < sparkCount; i++) {
+            const spark = document.createElement('div');
+            spark.className = 'btn-spark';
+            const size = Math.floor(Math.random() * 5 + 3);
+            spark.style.width = `${size}px`;
+            spark.style.height = `${size}px`;
+            spark.style.backgroundColor = sparkColors[Math.floor(Math.random() * sparkColors.length)];
+            spark.style.boxShadow = `0 0 8px ${spark.style.backgroundColor}`;
+
+            spark.style.left = `${Math.random() * 90 + 5}%`;
+            spark.style.top = `${Math.random() * 90 + 5}%`;
+
+            const angle = Math.random() * 2 * Math.PI;
+            const dist = Math.random() * 45 + 25;
+            const spX = Math.cos(angle) * dist;
+            const spY = Math.sin(angle) * dist;
+
+            spark.style.setProperty('--sp-x', `${spX}px`);
+            spark.style.setProperty('--sp-y', `${spY}px`);
+            spark.style.animationDelay = `${(Math.random() * 0.35).toFixed(2)}s`;
+
+            container.appendChild(spark);
+        }
+
+        setTimeout(() => {
+            if (container) container.innerHTML = '';
+        }, 1200);
+    }
+
     rollDice() {
         if (this.isRolling || this.isMoving) return;
         this.isRolling = true;
@@ -1884,7 +1966,6 @@ class CarreraDelSaberApp {
         this.audio.init();
 
         const rollBtn = document.getElementById('rollDiceBtn');
-        const diceCube = document.getElementById('diceCubeFace') || document.getElementById('diceCube');
         const btnText = document.getElementById('btnText');
         const btnIcon = document.getElementById('btnIcon');
         const turnPill = document.getElementById('turnPill');
@@ -1904,7 +1985,7 @@ class CarreraDelSaberApp {
         }
 
         if (turnPill) {
-            turnPill.innerHTML = `<span class="w-2.5 h-2.5 rounded-full bg-amber-400 animate-ping"></span> Rodando el dado de la suerte...`;
+            turnPill.innerHTML = `<span class="w-2.5 h-2.5 rounded-full bg-cyan-400 shadow-[0_0_8px_#38bdf8] animate-ping"></span> Rodando el dado de la suerte...`;
         }
         if (helperIcon) helperIcon.textContent = '🎲';
         if (helperMsg) helperMsg.textContent = '¡El dado está en el aire! Crucemos los dedos...';
@@ -1914,12 +1995,8 @@ class CarreraDelSaberApp {
             resultToast.classList.remove('pop-in-toast');
         }
 
-        // Animación 3D del cubo
-        if (diceCube) {
-            diceCube.classList.remove('dice-rolling');
-            void diceCube.offsetWidth;
-            diceCube.classList.add('dice-rolling');
-        }
+        // Estado activo: Anillos de energía cian, órbita mágica de partículas y destello en botón
+        this.startDiceRollVisuals();
 
         let rollStep = 0;
         const totalSteps = 10;
@@ -1932,9 +2009,8 @@ class CarreraDelSaberApp {
         }, 85);
 
         setTimeout(() => {
-            if (diceCube) {
-                diceCube.classList.remove('dice-rolling');
-            }
+            // Retorno suave al reposo: el dado frena, la órbita y destellos se desvanecen
+            this.stopDiceRollVisuals();
 
             // Quitar el cartel de "Tirando..." apenas el dado frena su movimiento
             if (btnText) btnText.textContent = '¡TIRAR DADO!';
@@ -1966,8 +2042,8 @@ class CarreraDelSaberApp {
             }
             if (turnPill) {
                 turnPill.innerHTML = `
-                    <span class="w-2.5 h-2.5 rounded-full bg-blue-500"></span>
-                    Es el turno de <span class="text-blue-600 font-extrabold">${currPlayer.name}</span> (${currPlayer.avatar})
+                    <span class="w-2.5 h-2.5 rounded-full bg-cyan-400 shadow-[0_0_8px_#38bdf8]"></span>
+                    Es el turno de <span class="text-[#38bdf8] font-black">${currPlayer.name}</span> (${currPlayer.avatar})
                 `;
             }
 
@@ -2026,7 +2102,7 @@ class CarreraDelSaberApp {
         if (tile.cat === 'comodin') {
             const turnPill = document.getElementById('turnPill');
             if (turnPill) {
-                turnPill.innerHTML = `<span class="w-2.5 h-2.5 rounded-full bg-purple-500 animate-pulse"></span> ¡${player.name} cayó en <strong class="text-purple-600 font-black text-sm ml-1">COMODÍN</strong> (Casilla #${tile.id})!`;
+                turnPill.innerHTML = `<span class="w-2.5 h-2.5 rounded-full bg-purple-400 shadow-[0_0_8px_#c084fc] animate-pulse"></span> ¡${player.name} cayó en <strong class="text-purple-300 font-black text-sm ml-1">COMODÍN</strong> (Casilla #${tile.id})!`;
             }
             const helperMsg = document.getElementById('helperMessage');
             if (helperMsg) {
@@ -2045,7 +2121,7 @@ class CarreraDelSaberApp {
 
         const turnPill = document.getElementById('turnPill');
         if (turnPill) {
-            turnPill.innerHTML = `<span class="w-2.5 h-2.5 rounded-full bg-emerald-500"></span> ¡${player.name} cayó en <strong class="text-blue-600 font-black text-sm ml-1">${tile.label}</strong> (Casilla #${tile.id})!`;
+            turnPill.innerHTML = `<span class="w-2.5 h-2.5 rounded-full bg-cyan-400 shadow-[0_0_8px_#38bdf8]"></span> ¡${player.name} cayó en <strong class="text-cyan-300 font-black text-sm ml-1">${tile.label}</strong> (Casilla #${tile.id})!`;
         }
 
         const helperMsg = document.getElementById('helperMessage');
@@ -2177,9 +2253,9 @@ class CarreraDelSaberApp {
 
             mappedOptions.forEach((opt, idx) => {
                 const btn = document.createElement('button');
-                btn.className = 'option-btn flex items-center gap-2.5 py-2.5 px-3 sm:py-3 sm:px-3.5 rounded-xl bg-slate-50 hover:bg-blue-50/60 font-bold text-xs sm:text-sm text-left border-2 border-slate-200 hover:border-blue-400 transition-all cursor-pointer shadow-xs active:translate-y-0.5 text-slate-800';
+                btn.className = 'option-btn flex items-center gap-2.5 py-2.5 px-3 sm:py-3 sm:px-3.5 rounded-xl bg-slate-800 hover:bg-slate-700 font-bold text-xs sm:text-sm text-left border-2 border-slate-700 hover:border-cyan-400 transition-all cursor-pointer shadow-xs active:translate-y-0.5 text-slate-100';
                 btn.innerHTML = `
-                    <span class="w-8 h-8 rounded-xl bg-white shadow-xs flex items-center justify-center font-black text-xs text-slate-700 shrink-0 border border-slate-200">${letters[idx]}</span>
+                    <span class="w-8 h-8 rounded-xl bg-slate-900 shadow-xs flex items-center justify-center font-black text-xs text-cyan-400 shrink-0 border border-slate-700">${letters[idx]}</span>
                     <span class="flex-1">${opt.text}</span>
                 `;
                 btn.addEventListener('click', () => this.handleAnswer(idx));
@@ -2275,15 +2351,15 @@ class CarreraDelSaberApp {
 
         if (selectedIndex >= 0 && optionsBtns[selectedIndex]) {
             if (isCorrect) {
-                optionsBtns[selectedIndex].className = 'option-btn flex items-center gap-3 p-3.5 rounded-2xl bg-green-100 border-2 border-emerald-500 font-bold text-sm text-emerald-900';
+                optionsBtns[selectedIndex].className = 'option-btn flex items-center gap-3 p-3.5 rounded-2xl bg-emerald-950/80 border-2 border-emerald-400 font-bold text-sm text-emerald-200 shadow-[0_0_15px_rgba(52,211,153,0.3)]';
             } else {
-                optionsBtns[selectedIndex].className = 'option-btn flex items-center gap-3 p-3.5 rounded-2xl bg-red-100 border-2 border-red-500 font-bold text-sm text-red-900';
+                optionsBtns[selectedIndex].className = 'option-btn flex items-center gap-3 p-3.5 rounded-2xl bg-rose-950/80 border-2 border-rose-400 font-bold text-sm text-rose-200 shadow-[0_0_15px_rgba(244,63,94,0.3)]';
             }
         }
 
         const correctIdx = (this.currentCorrectOptionIndex !== undefined ? this.currentCorrectOptionIndex : this.currentQuestion.correct);
         if (optionsBtns[correctIdx]) {
-            optionsBtns[correctIdx].className = 'option-btn flex items-center gap-3 p-3.5 rounded-2xl bg-green-100 border-2 border-emerald-500 font-bold text-sm text-emerald-900';
+            optionsBtns[correctIdx].className = 'option-btn flex items-center gap-3 p-3.5 rounded-2xl bg-emerald-950/80 border-2 border-emerald-400 font-bold text-sm text-emerald-200 shadow-[0_0_15px_rgba(52,211,153,0.3)]';
         }
 
         const feedbackBox = document.getElementById('feedback-box');
@@ -2453,7 +2529,6 @@ class CarreraDelSaberApp {
     // =========================================================================
     showRemoteRoll(rollerId, diceValue) {
         const roller = this.players.find(p => p.id === rollerId) || this.players[this.currentPlayerIndex];
-        const diceCube = document.getElementById('diceCubeFace') || document.getElementById('diceCube');
         const turnPill = document.getElementById('turnPill');
         const helperMsg = document.getElementById('helperMessage');
         const resultToast = document.getElementById('resultFloatingToast') || document.getElementById('resultToast');
@@ -2461,22 +2536,19 @@ class CarreraDelSaberApp {
         const lastRollLog = document.getElementById('lastRollLog') || document.getElementById('toastSubtext');
 
         if (turnPill) {
-            turnPill.innerHTML = `<span class="w-2.5 h-2.5 rounded-full bg-amber-400 animate-ping"></span> ${roller.name} está tirando el dado...`;
+            turnPill.innerHTML = `<span class="w-2.5 h-2.5 rounded-full bg-cyan-400 shadow-[0_0_8px_#38bdf8] animate-ping"></span> ${roller.name} está tirando el dado...`;
         }
         if (helperMsg) {
             helperMsg.textContent = `${roller.name} está tirando el dado en vivo...`;
         }
 
-        if (diceCube) {
-            diceCube.classList.remove('dice-rolling');
-            void diceCube.offsetWidth;
-            diceCube.classList.add('dice-rolling');
-        }
+        // Animación activa de energía y partículas
+        this.startDiceRollVisuals();
 
         setTimeout(() => {
-            if (diceCube) {
-                diceCube.classList.remove('dice-rolling');
-            }
+            // Retorno suave al reposo
+            this.stopDiceRollVisuals();
+
             this.renderDiceFace(diceValue);
             this.audio.playDingSuccess();
             this.createBurst();
@@ -2497,8 +2569,8 @@ class CarreraDelSaberApp {
             }
             if (turnPill) {
                 turnPill.innerHTML = `
-                    <span class="w-2.5 h-2.5 rounded-full bg-blue-500"></span>
-                    Es el turno de <span class="text-blue-600 font-extrabold">${currPlayer.name}</span> (${currPlayer.avatar})
+                    <span class="w-2.5 h-2.5 rounded-full bg-cyan-400 shadow-[0_0_8px_#38bdf8]"></span>
+                    Es el turno de <span class="text-[#38bdf8] font-black">${roller.name}</span> (${roller.avatar})
                 `;
             }
 
@@ -2534,7 +2606,7 @@ class CarreraDelSaberApp {
                 const tile = TILES_METADATA[player.position];
                 const turnPill = document.getElementById('turnPill');
                 if (turnPill) {
-                    turnPill.innerHTML = `<span class="w-2.5 h-2.5 rounded-full bg-indigo-500"></span> ¡${player.name} cayó en <strong>${tile.label}</strong> (Casilla #${tile.id})!`;
+                    turnPill.innerHTML = `<span class="w-2.5 h-2.5 rounded-full bg-cyan-400 shadow-[0_0_8px_#38bdf8]"></span> ¡${player.name} cayó en <strong class="text-cyan-300 font-black text-sm ml-1">${tile.label}</strong> (Casilla #${tile.id})!`;
                 }
                 if (helperMsg) {
                     helperMsg.textContent = `${player.name} cayó en ${tile.label}. Esperando que responda su pregunta...`;

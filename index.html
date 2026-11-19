@@ -59,37 +59,65 @@
       z-index: 30;
     }
 
-    /* Playful Action Button */
+    /* Playful Action Button - Resting Cyan/Blue Vibrant with Constant Soft Glow */
     .btn-action-3d {
-      background: linear-gradient(180deg, #3B82F6 0%, #1D4ED8 100%);
-      box-shadow: 0 5px 0 #1E3A8A, 0 10px 18px -4px rgba(29, 78, 216, 0.35), inset 0 2px 3px rgba(255,255,255,0.5);
-      transition: all 0.1s ease-in-out;
+      background: linear-gradient(180deg, #0ea5e9 0%, #0284c7 50%, #0369a1 100%);
+      border: 1.5px solid #38bdf8;
+      box-shadow: 0 5px 0 #075985, 0 0 20px rgba(56, 189, 248, 0.45), 0 10px 18px -4px rgba(14, 165, 233, 0.35), inset 0 2px 2px rgba(255, 255, 255, 0.5);
+      transition: all 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
     }
     .btn-action-3d:hover {
-      transform: translateY(-1px);
-      box-shadow: 0 6px 0 #1E3A8A, 0 14px 20px -4px rgba(29, 78, 216, 0.4), inset 0 2px 3px rgba(255,255,255,0.6);
+      transform: translateY(-2px);
+      box-shadow: 0 7px 0 #075985, 0 0 28px rgba(56, 189, 248, 0.7), 0 14px 22px -3px rgba(14, 165, 233, 0.5), inset 0 2px 3px rgba(255, 255, 255, 0.65);
     }
     .btn-action-3d:active {
-      transform: translateY(4px);
-      box-shadow: 0 1px 0 #1E3A8A, 0 4px 6px rgba(29, 78, 216, 0.25), inset 0 1px 2px rgba(255,255,255,0.3);
+      transform: translateY(3px);
+      box-shadow: 0 2px 0 #075985, 0 0 15px rgba(56, 189, 248, 0.4), inset 0 1px 2px rgba(255, 255, 255, 0.3);
+    }
+    /* Active State: Intense Cyan Flash & Energy Sparks during Roll */
+    .btn-action-3d.btn-rolling {
+      background: linear-gradient(180deg, #38bdf8 0%, #0284c7 50%, #0369a1 100%) !important;
+      animation: btnRollingFlash 0.35s ease-in-out infinite alternate !important;
+    }
+    @keyframes btnRollingFlash {
+      0% {
+        box-shadow: 0 5px 0 #075985, 0 0 25px #38bdf8, 0 0 50px rgba(56, 189, 248, 0.8), inset 0 0 14px rgba(255, 255, 255, 0.8);
+        filter: brightness(1.15);
+      }
+      100% {
+        box-shadow: 0 5px 0 #075985, 0 0 45px #38bdf8, 0 0 85px rgba(56, 189, 248, 1), inset 0 0 24px rgba(255, 255, 255, 1);
+        filter: brightness(1.35);
+      }
     }
 
-    /* Soft panel surfaces */
+    /* Soft Dark Mode Panel Surfaces */
     .clay-card {
-      background: #FFFFFF;
-      box-shadow: 0 12px 32px -4px rgba(71, 95, 142, 0.08), 0 2px 8px rgba(71, 95, 142, 0.04);
-      border: 1.5px solid rgba(226, 232, 240, 0.85);
+      background: #1e293b;
+      box-shadow: 0 12px 32px -4px rgba(0, 0, 0, 0.45), 0 2px 8px rgba(0, 0, 0, 0.3);
+      border: 1.5px solid #334155;
     }
 
     .card-stitch {
-      background: #FFFFFF;
-      border: 1px solid rgba(219, 230, 248, 0.85);
-      box-shadow: 0 4px 20px -2px rgba(37, 99, 235, 0.06), 0 2px 6px rgba(0, 0, 0, 0.03);
+      background: #1e293b;
+      border: 1px solid rgba(51, 65, 85, 0.85);
+      box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.4), 0 2px 6px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Central Dark Arena Stage */
+    .stage-dark-arena {
+      background: radial-gradient(circle at center, #1e293b 0%, #0f172a 100%) !important;
+      border: 2px solid #38bdf8 !important;
+      box-shadow: 0 0 25px rgba(56, 189, 248, 0.25), inset 0 0 20px rgba(56, 189, 248, 0.12) !important;
+      transition: border-color 0.4s ease, box-shadow 0.4s ease;
+    }
+    .stage-dark-arena.active-energy {
+      border-color: #38bdf8 !important;
+      box-shadow: 0 0 45px rgba(56, 189, 248, 0.55), inset 0 0 35px rgba(56, 189, 248, 0.25) !important;
     }
 
     /* Badge numbers in corner of tiles */
     .num-badge {
-      box-shadow: 0 2px 5px rgba(0,0,0,0.22), inset 0 1px 1px rgba(255,255,255,0.4);
+      box-shadow: 0 2px 5px rgba(0,0,0,0.35), inset 0 1px 1px rgba(255,255,255,0.4);
     }
 
     /* Isometric 3D Dice styling - Clean, distinct realistic design */
@@ -110,8 +138,8 @@
       height: 90px;
       background: #FFFFFF;
       border-radius: 20px;
-      border: 2px solid #D6E0F0;
-      box-shadow: inset 0 0 10px rgba(203, 213, 225, 0.5), 0 8px 16px -2px rgba(30, 58, 138, 0.15);
+      border: 2px solid #cbd5e1;
+      box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.08), 0 12px 28px rgba(0, 0, 0, 0.45);
       display: grid;
       place-items: center;
       padding: 12px;
@@ -129,21 +157,251 @@
     .dot {
       width: 14px;
       height: 14px;
-      background: radial-gradient(circle at 35% 35%, #2563EB 0%, #1D4ED8 100%);
+      background: radial-gradient(circle at 35% 35%, #0284c7 0%, #0369a1 100%);
       border-radius: 50%;
-      box-shadow: inset 0 1.5px 3px rgba(0, 0, 0, 0.35), 0 1px 1px rgba(255, 255, 255, 0.9);
+      box-shadow: inset 0 1.5px 3px rgba(0, 0, 0, 0.45), 0 1px 1px rgba(255, 255, 255, 0.9);
     }
 
-    /* Dice Rolling Jitter Animation */
-    @keyframes rollingJitter {
-      0% { transform: scale(1) translateY(0) rotateX(0deg) rotateY(0deg); }
-      25% { transform: scale(1.08) translateY(-10px) rotateX(240deg) rotateY(180deg); }
-      50% { transform: scale(1.14) translateY(-15px) rotateX(540deg) rotateY(420deg); }
-      75% { transform: scale(1.08) translateY(-6px) rotateX(720deg) rotateY(640deg); }
-      100% { transform: scale(1) translateY(0) rotateX(1080deg) rotateY(900deg); }
+    /* Dynamic 3D Dice Rolling Animation with Perspective Tumble */
+    @keyframes rollingJitter3D {
+      0% {
+        transform: scale(1) translateY(0) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+      }
+      20% {
+        transform: scale(1.1) translateY(-16px) rotateX(180deg) rotateY(140deg) rotateZ(45deg);
+      }
+      40% {
+        transform: scale(1.18) translateY(-22px) rotateX(380deg) rotateY(320deg) rotateZ(-30deg);
+      }
+      60% {
+        transform: scale(1.14) translateY(-14px) rotateX(620deg) rotateY(510deg) rotateZ(60deg);
+      }
+      80% {
+        transform: scale(1.06) translateY(-6px) rotateX(860deg) rotateY(700deg) rotateZ(-20deg);
+      }
+      100% {
+        transform: scale(1) translateY(0) rotateX(1080deg) rotateY(900deg) rotateZ(0deg);
+      }
     }
     .dice-rolling {
-      animation: rollingJitter 0.95s cubic-bezier(0.25, 1, 0.5, 1) infinite;
+      animation: rollingJitter3D 0.85s cubic-bezier(0.25, 1, 0.5, 1) infinite !important;
+      filter: drop-shadow(0 0 20px rgba(56, 189, 248, 0.75)) !important;
+    }
+
+    /* Cyan Energy Rings around the Dice */
+    .cyan-energy-ring {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: 50%;
+      pointer-events: none;
+    }
+    .cyan-energy-ring.outer-ring {
+      width: 210px;
+      height: 210px;
+      border: 2px dashed rgba(56, 189, 248, 0.85);
+      box-shadow: 0 0 25px rgba(56, 189, 248, 0.6), inset 0 0 20px rgba(56, 189, 248, 0.35);
+      animation: spinClockwise 2.5s linear infinite, ringPulse 0.8s ease-in-out infinite alternate;
+    }
+    .cyan-energy-ring.inner-ring {
+      width: 150px;
+      height: 150px;
+      border: 1.8px solid rgba(56, 189, 248, 0.95);
+      box-shadow: 0 0 20px rgba(56, 189, 248, 0.8);
+      animation: spinCounterClockwise 1.8s linear infinite;
+    }
+    .cyan-shockwave-pulse {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      transform: translate(-50%, -50%);
+      border: 2px solid #38bdf8;
+      box-shadow: 0 0 20px #38bdf8;
+      animation: shockwavePulse 0.9s cubic-bezier(0.2, 0.8, 0.2, 1) infinite;
+      pointer-events: none;
+    }
+
+    @keyframes shockwavePulse {
+      0% { transform: translate(-50%, -50%) scale(0.8); opacity: 0.9; }
+      100% { transform: translate(-50%, -50%) scale(2.2); opacity: 0; }
+    }
+    @keyframes spinClockwise {
+      from { transform: translate(-50%, -50%) rotate(0deg); }
+      to { transform: translate(-50%, -50%) rotate(360deg); }
+    }
+    @keyframes spinCounterClockwise {
+      from { transform: translate(-50%, -50%) rotate(0deg); }
+      to { transform: translate(-50%, -50%) rotate(-360deg); }
+    }
+    @keyframes ringPulse {
+      0% { transform: translate(-50%, -50%) scale(0.96); opacity: 0.75; }
+      100% { transform: translate(-50%, -50%) scale(1.06); opacity: 1; }
+    }
+
+    /* Magical Elliptical Particle Orbit System */
+    .magic-orbit-system {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 400px;
+      height: 260px;
+      transform: translate(-50%, -50%);
+      pointer-events: none;
+    }
+    .orbit-trail-svg {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      overflow: visible;
+      filter: drop-shadow(0 0 10px rgba(56, 189, 248, 0.7)) drop-shadow(0 0 22px rgba(192, 132, 252, 0.5));
+    }
+    .orbit-trail-ellipse {
+      fill: none;
+      stroke: url(#orbitGrad);
+      stroke-width: 2.8;
+      stroke-dasharray: 10 7;
+      animation: dashFlow 1s linear infinite;
+    }
+    .orbit-trail-inner-ellipse {
+      fill: none;
+      stroke: rgba(56, 189, 248, 0.4);
+      stroke-width: 1.2;
+      stroke-dasharray: 4 6;
+      animation: dashFlowReverse 1.4s linear infinite;
+    }
+    @keyframes dashFlow {
+      to { stroke-dashoffset: -34; }
+    }
+    @keyframes dashFlowReverse {
+      to { stroke-dashoffset: 30; }
+    }
+
+    /* Orbiting Items: Rocket, Trophy, Coins, Stars, Sparkles */
+    .orbit-item {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-top: -14px;
+      margin-left: -14px;
+      width: 28px;
+      height: 28px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      user-select: none;
+      pointer-events: none;
+      animation: ellipticalOrbit 1.8s linear infinite;
+    }
+    .item-rocket   { animation-delay: 0s; font-size: 26px; filter: drop-shadow(0 0 12px #38bdf8); }
+    .item-trophy   { animation-delay: -0.45s; font-size: 22px; filter: drop-shadow(0 0 12px #facc15); }
+    .item-coin1    { animation-delay: -0.9s; font-size: 20px; filter: drop-shadow(0 0 10px #fbbf24); }
+    .item-coin2    { animation-delay: -1.35s; font-size: 19px; filter: drop-shadow(0 0 10px #fbbf24); }
+    .item-star1    { animation-delay: -0.22s; font-size: 20px; filter: drop-shadow(0 0 10px #fde047); }
+    .item-star2    { animation-delay: -1.12s; font-size: 20px; filter: drop-shadow(0 0 12px #38bdf8); }
+    .item-sparkle1 { animation-delay: -0.67s; font-size: 19px; filter: drop-shadow(0 0 10px #c084fc); }
+    .item-sparkle2 { animation-delay: -1.57s; font-size: 18px; filter: drop-shadow(0 0 10px #38bdf8); }
+
+    @keyframes ellipticalOrbit {
+      0% {
+        transform: rotate(0deg) translateX(165px) translateY(0px) rotate(0deg) scale(0.9);
+        z-index: 5;
+        opacity: 0.85;
+      }
+      25% {
+        transform: rotate(90deg) translateX(65px) translateY(0px) rotate(-90deg) scale(1.22);
+        z-index: 35;
+        opacity: 1;
+      }
+      50% {
+        transform: rotate(180deg) translateX(165px) translateY(0px) rotate(-180deg) scale(0.85);
+        z-index: 5;
+        opacity: 0.75;
+      }
+      75% {
+        transform: rotate(270deg) translateX(65px) translateY(0px) rotate(-270deg) scale(1.18);
+        z-index: 35;
+        opacity: 1;
+      }
+      100% {
+        transform: rotate(360deg) translateX(165px) translateY(0px) rotate(-360deg) scale(0.9);
+        z-index: 5;
+        opacity: 0.85;
+      }
+    }
+
+    /* Orbit Micro Particles */
+    .orbit-particle {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      border-radius: 50%;
+      animation: particleEllipticalOrbit 1.5s linear infinite;
+      pointer-events: none;
+    }
+    .p-cyan-1   { width: 9px; height: 9px; background: #38bdf8; box-shadow: 0 0 12px #38bdf8; animation-delay: -0.15s; }
+    .p-cyan-2   { width: 6px; height: 6px; background: #0ea5e9; box-shadow: 0 0 8px #0ea5e9; animation-delay: -0.8s; }
+    .p-purple-1 { width: 9px; height: 9px; background: #c084fc; box-shadow: 0 0 12px #a855f7; animation-delay: -0.45s; }
+    .p-gold-1   { width: 8px; height: 8px; background: #fde047; box-shadow: 0 0 12px #facc15; animation-delay: -1.05s; }
+    .p-gold-2   { width: 6px; height: 6px; background: #fbbf24; box-shadow: 0 0 9px #f59e0b; animation-delay: -1.35s; }
+
+    @keyframes particleEllipticalOrbit {
+      0% {
+        transform: rotate(0deg) translateX(145px) rotate(0deg);
+      }
+      50% {
+        transform: rotate(180deg) translateX(145px) rotate(-180deg);
+      }
+      100% {
+        transform: rotate(360deg) translateX(145px) rotate(-360deg);
+      }
+    }
+
+    /* Button Sparks Animation */
+    .btn-spark {
+      position: absolute;
+      pointer-events: none;
+      border-radius: 50%;
+      animation: btnSparkFly 0.65s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+    }
+    @keyframes btnSparkFly {
+      0% {
+        transform: translate(0, 0) scale(1);
+        opacity: 1;
+      }
+      100% {
+        transform: translate(var(--sp-x), var(--sp-y)) scale(0);
+        opacity: 0;
+      }
+    }
+
+    /* Burst Particles Layer on Dice Landing */
+    .burst-particle {
+      position: absolute;
+      pointer-events: none;
+      animation: burstFly 0.85s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+      z-index: 50;
+    }
+    @keyframes burstFly {
+      0% {
+        opacity: 1;
+        transform: translate(0, 0) scale(0.6);
+      }
+      60% {
+        opacity: 1;
+        transform: translate(var(--dx), var(--dy)) rotate(var(--rot)) scale(1.2);
+      }
+      100% {
+        opacity: 0;
+        transform: translate(calc(var(--dx) * 1.3), calc(var(--dy) * 1.3)) rotate(var(--rot)) scale(0.3);
+      }
+    }
+    .shockwave-effect {
+      animation: shockwaveExpand 0.8s ease-out forwards;
     }
 
     /* Player Token Bounce on active tile */
@@ -201,7 +459,7 @@
     }
   </style>
 </head>
-<body class="bg-[#F0F4FC] text-slate-800 font-sans min-h-screen p-2 sm:p-3 xl:p-4 flex flex-col justify-between select-none">
+<body class="bg-[#0f172a] text-slate-100 font-sans min-h-screen p-2 sm:p-3 xl:p-4 flex flex-col justify-between select-none">
 
 <!-- BEGIN: MainHeader -->
 <header class="w-full max-w-[1720px] mx-auto flex flex-wrap items-center justify-between gap-3 mb-2.5 xl:mb-3" data-purpose="header-section">
@@ -209,18 +467,18 @@
   <div class="flex flex-col">
     <div class="flex items-center gap-3">
       <a href="#" id="header-brand-link" class="flex items-center gap-3 cursor-pointer group">
-        <div class="w-10 h-10 rounded-2xl bg-rose-100 flex items-center justify-center text-xl shadow-xs border border-rose-200 overflow-hidden shrink-0">
+        <div class="w-10 h-10 rounded-2xl bg-slate-800 flex items-center justify-center text-xl shadow-xs border border-slate-700 overflow-hidden shrink-0">
           <img src="assets/mascot.png" alt="Nelo" class="w-8 h-8 object-contain animate-avatar-trot" onerror="this.outerHTML='🧠'">
         </div>
         <div class="flex items-center gap-2">
-          <h1 class="text-2xl lg:text-3xl font-black tracking-tight text-[#162758]">Carrera del Saber</h1>
-          <span id="header-grade-pill" class="bg-[#4361EE] text-white text-xs lg:text-sm font-black px-3.5 py-1 rounded-full uppercase tracking-wider shadow-sm">
+          <h1 class="text-2xl lg:text-3xl font-black tracking-tight text-white">Carrera del Saber</h1>
+          <span id="header-grade-pill" class="bg-gradient-to-r from-blue-600 to-cyan-500 text-white text-xs lg:text-sm font-black px-3.5 py-1 rounded-full uppercase tracking-wider shadow-sm">
             6.° GRADO
           </span>
         </div>
       </a>
     </div>
-    <p class="text-slate-500 font-semibold text-xs sm:text-sm mt-0.5 ml-12">
+    <p class="text-slate-400 font-semibold text-xs sm:text-sm mt-0.5 ml-12">
       Desafío interactivo de preguntas y respuestas
     </p>
   </div>
@@ -228,30 +486,30 @@
   <!-- Right: Status, Round & Controls -->
   <div class="flex items-center gap-2.5 sm:gap-3.5 text-xs sm:text-sm font-bold flex-wrap">
     <!-- Round Badge -->
-    <div class="bg-white/90 text-[#36519E] border border-blue-100 rounded-full px-4 py-2 flex items-center gap-2 shadow-sm font-extrabold" id="round-indicator">
-      <span class="text-blue-500 tracking-wider">RONDA</span>
-      <span class="text-slate-900 text-base">1 / 10</span>
+    <div class="bg-slate-800/90 text-sky-400 border border-slate-700/80 rounded-full px-4 py-2 flex items-center gap-2 shadow-sm font-extrabold" id="round-indicator">
+      <span class="text-sky-400 tracking-wider">RONDA</span>
+      <span class="text-slate-100 text-base">1 / 10</span>
     </div>
     <!-- Live Match Status -->
-    <div class="bg-[#E6F8EE] text-[#0A7B3E] px-4 py-2 rounded-full flex items-center gap-2 shadow-sm border border-emerald-200">
+    <div class="bg-emerald-950/60 text-emerald-400 px-4 py-2 rounded-full flex items-center gap-2 shadow-sm border border-emerald-800/50">
       <span class="w-2.5 h-2.5 rounded-full bg-[#10B981] animate-pulse"></span>
       <span>Partida en Vivo</span>
     </div>
     
     <!-- Rules Button -->
-    <button id="rulesToggleBtn" aria-label="Reglas" class="w-10 h-10 rounded-full bg-white border border-slate-200 text-slate-600 flex items-center justify-center hover:bg-slate-50 hover:text-blue-600 transition shadow-sm cursor-pointer" title="Reglas y ayuda">
+    <button id="rulesToggleBtn" aria-label="Reglas" class="w-10 h-10 rounded-full bg-slate-800 border border-slate-700 text-slate-200 flex items-center justify-center hover:bg-slate-700 hover:text-cyan-400 transition shadow-sm cursor-pointer" title="Reglas y ayuda">
       <span class="font-extrabold text-base">❓</span>
     </button>
     <!-- Sound Toggle Button -->
-    <button id="soundToggleBtn" aria-label="Sonido" class="w-10 h-10 rounded-full bg-white border border-slate-200 text-slate-600 flex items-center justify-center hover:bg-slate-50 hover:text-blue-600 transition shadow-sm cursor-pointer" title="Alternar Sonido">
+    <button id="soundToggleBtn" aria-label="Sonido" class="w-10 h-10 rounded-full bg-slate-800 border border-slate-700 text-slate-200 flex items-center justify-center hover:bg-slate-700 hover:text-cyan-400 transition shadow-sm cursor-pointer" title="Alternar Sonido">
       🔊
     </button>
     <!-- Restart / Config Button -->
-    <button id="btn-restart-setup" aria-label="Reiniciar" class="w-10 h-10 rounded-full bg-white border border-slate-200 text-slate-600 hidden items-center justify-center hover:bg-slate-50 hover:text-blue-600 transition shadow-sm cursor-pointer" title="Cambiar configuración">
+    <button id="btn-restart-setup" aria-label="Reiniciar" class="w-10 h-10 rounded-full bg-slate-800 border border-slate-700 text-slate-200 hidden items-center justify-center hover:bg-slate-700 hover:text-cyan-400 transition shadow-sm cursor-pointer" title="Cambiar configuración">
       🔄
     </button>
     <!-- Exit Button -->
-    <button id="btn-exit-game" aria-label="Salir de la partida" class="hidden w-10 h-10 rounded-full bg-rose-50 border border-rose-200 text-rose-600 items-center justify-center hover:bg-rose-100 transition shadow-sm cursor-pointer" title="Salir de la partida">
+    <button id="btn-exit-game" aria-label="Salir de la partida" class="hidden w-10 h-10 rounded-full bg-rose-950/60 border border-rose-800/60 text-rose-400 items-center justify-center hover:bg-rose-900/60 transition shadow-sm cursor-pointer" title="Salir de la partida">
       <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
       </svg>
@@ -1207,7 +1465,7 @@
   <div id="mobile-players-hud" class="xl:hidden w-full max-w-md mx-auto grid grid-cols-2 gap-2 shrink-0 mb-3 col-span-12"></div>
 
   <!-- BEGIN: BoardPerimeterCircuit (26 Casilleros, 8 columnas x 7 filas) -->
-  <section class="xl:col-span-9 bg-white/70 backdrop-blur-md rounded-3xl p-3 sm:p-5 border border-white shadow-xl flex flex-col justify-between order-1" data-purpose="game-board-canvas">
+  <section class="xl:col-span-9 bg-slate-900/95 backdrop-blur-md rounded-3xl p-3 sm:p-5 border border-slate-800 shadow-[0_20px_50px_rgba(0,0,0,0.6)] flex flex-col justify-between order-1" data-purpose="game-board-canvas" id="boardCanvas">
     <div class="grid grid-cols-8 grid-rows-7 gap-2 sm:gap-2.5 md:gap-3 w-full aspect-[8/7] max-h-[calc(100vh-145px)]" data-purpose="perimeter-circuit-grid" id="circuitGrid">
       <!-- Casilla 1: Matemática -->
 <div class="col-start-1 row-start-1 relative bg-gradient-to-b from-[#2563EB] to-[#1D4ED8] rounded-2xl p-1 sm:p-2 flex flex-col items-center justify-center text-white tile-3d cursor-pointer group" data-casilla="1" id="tile-1">
@@ -1445,37 +1703,40 @@
 </div>
 
       <!-- ================= CENTER ACTION CANVAS (Cols 2 to 7, Rows 2 to 6) ================= -->
-      <div class="col-start-2 col-span-6 row-start-2 row-span-5 flex flex-col items-center justify-center p-2 sm:p-3 relative rounded-2xl sm:rounded-3xl border border-indigo-100/60 bg-gradient-to-b from-slate-50/50 via-white/30 to-indigo-50/20 shadow-inner overflow-hidden min-h-0 min-w-0" data-purpose="center-game-stage">
+      <div class="col-start-2 col-span-6 row-start-2 row-span-5 flex flex-col items-center justify-center p-2 sm:p-3 relative rounded-2xl sm:rounded-3xl stage-dark-arena overflow-hidden min-h-0 min-w-0" data-purpose="center-game-stage" id="centerStage">
         
-        <!-- THEMATIC BOARD BACKGROUND WATERMARK (TENUE Y EDUCATIVO) -->
+        <!-- THEMATIC BOARD BACKGROUND WATERMARK (TENUE Y EDUCATIVO EN TONO CLARO CON 7% OPACIDAD) -->
         <div class="absolute inset-0 pointer-events-none select-none overflow-hidden rounded-2xl sm:rounded-3xl flex items-center justify-center -z-0">
-          <!-- Soft radial tint -->
-          <div class="absolute inset-0 bg-radial from-indigo-50/40 via-white/10 to-slate-100/30 opacity-70"></div>
-          
-          <!-- Subtle SVG Knowledge & Game Doodles Watermark -->
-          <svg class="w-full h-full text-indigo-900/10" viewBox="0 0 600 450" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <!-- Subtle SVG Knowledge & Game Doodles Watermark: Libro, Bombilla, Planeta, Átomo, Signo de pregunta, Engranaje, Escuadra -->
+          <svg class="w-full h-full text-slate-200" style="opacity: 0.07;" viewBox="0 0 600 450" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
             <!-- Concentric Knowledge Circuit / Orbits -->
-            <circle cx="300" cy="225" r="185" stroke-width="1.2" stroke-dasharray="6 6" class="text-indigo-600/10" />
-            <circle cx="300" cy="225" r="125" stroke-width="0.8" stroke-dasharray="3 5" class="text-indigo-400/10" />
-            <circle cx="300" cy="225" r="65" stroke-width="0.6" stroke-dasharray="2 4" class="text-blue-500/10" />
+            <circle cx="300" cy="225" r="185" stroke-width="1.2" stroke-dasharray="6 6" />
+            <circle cx="300" cy="225" r="125" stroke-width="0.8" stroke-dasharray="3 5" />
+            <circle cx="300" cy="225" r="65" stroke-width="0.6" stroke-dasharray="2 4" />
             
             <!-- Central Cardinal Compass / Starburst hints -->
-            <path d="M300 25 L300 425 M100 225 L500 225" stroke-width="0.5" stroke-dasharray="2 8" class="text-slate-400/10" />
+            <path d="M300 25 L300 425 M100 225 L500 225" stroke-width="0.5" stroke-dasharray="2 8" />
             
+            <!-- SIGNO DE PREGUNTA CENTRAL SUPERIOR -->
+            <g transform="translate(300, 72) scale(1.15)" stroke-width="1.8">
+              <path d="M 0 -14 C -8 -14, -11 -9, -11 -4 C -11 3, 0 6, 0 13" stroke-linecap="round" />
+              <circle cx="0" cy="20" r="2.2" fill="currentColor" stroke="none" />
+            </g>
+
             <!-- TOP-LEFT: Lengua & Literatura (Libro abierto y pluma) -->
-            <g transform="translate(45, 40) scale(1.1)" stroke-width="1.4" class="text-rose-600/15">
+            <g transform="translate(45, 40) scale(1.1)" stroke-width="1.4">
               <path d="M5 25 C15 15, 30 18, 40 22 C50 18, 65 15, 75 25 L75 50 C65 40, 50 43, 40 47 C30 43, 15 40, 5 50 Z" />
               <path d="M40 22 L40 47" />
               <!-- Letras A B C flotantes -->
-              <text x="82" y="32" font-size="11" font-weight="bold" fill="currentColor" stroke="none" opacity="0.7">A</text>
-              <text x="88" y="46" font-size="9" font-weight="bold" fill="currentColor" stroke="none" opacity="0.6">B</text>
-              <text x="78" y="58" font-size="10" font-weight="bold" fill="currentColor" stroke="none" opacity="0.5">C</text>
+              <text x="82" y="32" font-size="11" font-weight="bold" fill="currentColor" stroke="none">A</text>
+              <text x="88" y="46" font-size="9" font-weight="bold" fill="currentColor" stroke="none">B</text>
+              <text x="78" y="58" font-size="10" font-weight="bold" fill="currentColor" stroke="none">C</text>
             </g>
 
             <!-- TOP-RIGHT: C. Naturales (Átomo con órbitas elípticas y Erlenmeyer) -->
-            <g transform="translate(490, 40) scale(1.05)" stroke-width="1.4" class="text-emerald-600/15">
+            <g transform="translate(490, 40) scale(1.05)" stroke-width="1.4">
               <!-- Átomo -->
-              <circle cx="35" cy="35" r="4" fill="currentColor" />
+              <circle cx="35" cy="35" r="4" fill="currentColor" stroke="none" />
               <ellipse cx="35" cy="35" rx="30" ry="11" transform="rotate(30 35 35)" />
               <ellipse cx="35" cy="35" rx="30" ry="11" transform="rotate(-30 35 35)" />
               <ellipse cx="35" cy="35" rx="30" ry="11" transform="rotate(90 35 35)" />
@@ -1484,46 +1745,45 @@
               <path d="M -26 43 Q -18 39 -10 43" stroke-width="1" />
             </g>
 
-            <!-- BOTTOM-LEFT: C. Sociales (Globo terráqueo con paralelos y meridiano) -->
-            <g transform="translate(45, 335) scale(1.1)" stroke-width="1.4" class="text-amber-600/15">
+            <!-- BOTTOM-LEFT: C. Sociales (Planeta / Globo terráqueo con paralelos y meridiano) -->
+            <g transform="translate(45, 335) scale(1.1)" stroke-width="1.4">
               <circle cx="35" cy="35" r="24" />
               <ellipse cx="35" cy="35" rx="12" ry="24" />
               <path d="M11 35 L59 35" />
               <path d="M15 23 Q35 29 55 23" />
               <path d="M15 47 Q35 41 55 47" />
               <!-- Rosa de los vientos / compás pequeño -->
-              <path d="M68 18 L73 10 L78 18 L86 23 L78 28 L73 36 L68 28 L60 23 Z" stroke-width="1" fill="currentColor" fill-opacity="0.08" />
+              <path d="M68 18 L73 10 L78 18 L86 23 L78 28 L73 36 L68 28 L60 23 Z" stroke-width="1" fill="currentColor" fill-opacity="0.2" />
             </g>
 
             <!-- BOTTOM-RIGHT: Matemática (Escuadra, Compás y Símbolos) -->
-            <g transform="translate(490, 340) scale(1.1)" stroke-width="1.4" class="text-blue-600/15">
+            <g transform="translate(490, 340) scale(1.1)" stroke-width="1.4">
               <!-- Escuadra / Triángulo regla -->
               <path d="M10 50 L55 50 L10 10 Z" />
               <path d="M18 44 L40 44 L18 25 Z" stroke-width="1" />
               <!-- Símbolos matemáticos flotantes -->
-              <text x="-15" y="24" font-size="13" font-weight="bold" fill="currentColor" stroke="none" opacity="0.65">π</text>
-              <text x="-25" y="42" font-size="15" font-weight="bold" fill="currentColor" stroke="none" opacity="0.6">∑</text>
-              <text x="-8" y="52" font-size="13" font-weight="bold" fill="currentColor" stroke="none" opacity="0.65">√</text>
-              <text x="25" y="8" font-size="12" font-weight="bold" fill="currentColor" stroke="none" opacity="0.55">%</text>
+              <text x="-15" y="24" font-size="13" font-weight="bold" fill="currentColor" stroke="none">π</text>
+              <text x="-25" y="42" font-size="15" font-weight="bold" fill="currentColor" stroke="none">∑</text>
+              <text x="-8" y="52" font-size="13" font-weight="bold" fill="currentColor" stroke="none">√</text>
+              <text x="25" y="8" font-size="12" font-weight="bold" fill="currentColor" stroke="none">%</text>
             </g>
 
-            <!-- MID-LEFT & MID-RIGHT: Ingenio y Destellos de Conocimiento -->
-            <g transform="translate(35, 195) scale(1)" stroke-width="1.3" class="text-purple-600/15">
-              <!-- Bombita de ideas / creatividad -->
+            <!-- MID-LEFT: Bombilla de ideas / creatividad -->
+            <g transform="translate(35, 195) scale(1)" stroke-width="1.3">
               <path d="M20 12 C13 12 8 17 8 23 C8 27 11 31 13 34 L13 38 L27 38 L27 34 C29 31 32 27 32 23 C32 17 27 12 20 12 Z" />
               <path d="M14 42 L26 42 M16 45 L24 45" />
               <path d="M20 4 L20 8 M6 8 L9 11 M34 8 L31 11" stroke-width="1.2" />
             </g>
 
-            <g transform="translate(525, 200) scale(0.9)" stroke-width="1.3" class="text-purple-600/15">
-              <!-- Engranaje / Pensamiento lógico -->
+            <!-- MID-RIGHT: Engranaje / Pensamiento lógico -->
+            <g transform="translate(525, 200) scale(0.9)" stroke-width="1.3">
               <circle cx="20" cy="20" r="8" />
               <circle cx="20" cy="20" r="14" stroke-dasharray="5 4" stroke-width="2.5" />
               <path d="M20 2 L20 6 M20 34 L20 38 M2 20 L6 20 M34 20 L38 20" stroke-width="2" />
             </g>
 
             <!-- Ambient sparkle stars scattered softly -->
-            <g class="text-amber-500/20" fill="currentColor" stroke="none">
+            <g fill="currentColor" stroke="none">
               <!-- Sparkle 1 -->
               <path d="M170 85 Q170 95 180 95 Q170 95 170 105 Q170 95 160 95 Q170 95 170 85 Z" />
               <!-- Sparkle 2 -->
@@ -1537,29 +1797,76 @@
         </div>
 
         <!-- Turn Indicator Pill -->
-        <div class="relative z-10 flex items-center gap-1.5 sm:gap-2 bg-white/95 backdrop-blur-sm border border-slate-200/90 py-1 px-3 sm:py-1.5 sm:px-5 rounded-full shadow-sm mb-1 sm:mb-2 transition-transform hover:scale-105" id="turnPill" data-purpose="turn-indicator">
-          <span class="w-3.5 h-3.5 rounded-full bg-[#10B981] shadow-xs animate-pulse"></span>
-          <span class="text-[11px] sm:text-base lg:text-lg font-extrabold text-slate-800">
-            Es el turno de <span class="text-blue-600 font-black" id="activePlayerName">Ger</span>
+        <div class="relative z-10 flex items-center gap-1.5 sm:gap-2 bg-slate-800/90 backdrop-blur-md border border-slate-700/80 py-1 px-3 sm:py-1.5 sm:px-5 rounded-full shadow-lg mb-1 sm:mb-2 transition-transform hover:scale-105" id="turnPill" data-purpose="turn-indicator">
+          <span class="w-3.5 h-3.5 rounded-full bg-cyan-400 shadow-[0_0_10px_#38bdf8] animate-pulse"></span>
+          <span class="text-[11px] sm:text-base lg:text-lg font-extrabold text-slate-100">
+            Es el turno de <span class="text-[#38bdf8] font-black" id="activePlayerName">Ger</span>
           </span>
           <span class="text-base sm:text-lg" id="activePlayerAvatar">🐻</span>
         </div>
 
         <!-- FLOATING RESULT BANNER / TOAST -->
-        <div class="hidden w-full max-w-[260px] sm:max-w-md bg-gradient-to-r from-[#172554] via-[#1E3A8A] to-[#1E293B] text-white rounded-xl sm:rounded-2xl py-1 px-2.5 sm:py-2 sm:px-4 shadow-xl border-2 border-indigo-400/50 mb-1 sm:mb-2 text-center relative z-20" id="resultFloatingToast">
+        <div class="hidden w-full max-w-[260px] sm:max-w-md bg-slate-900/95 text-white rounded-xl sm:rounded-2xl py-1 px-2.5 sm:py-2 sm:px-4 shadow-[0_0_25px_rgba(56,189,248,0.35)] border-2 border-cyan-400/80 mb-1 sm:mb-2 text-center relative z-20" id="resultFloatingToast">
           <div class="flex items-center justify-center gap-1.5 font-black text-xs sm:text-base tracking-wide text-amber-300">
             <span class="text-lg">🎲</span>
             <span id="toastValue">¡Sacaste un 6! Avanzas 6 casillas</span>
           </div>
-          <div class="flex items-center justify-center gap-1.5 mt-0.5 text-[10px] sm:text-sm font-bold text-slate-100">
-            <span class="w-2.5 h-2.5 rounded-full bg-[#10B981] animate-ping inline-block"></span>
+          <div class="flex items-center justify-center gap-1.5 mt-0.5 text-[10px] sm:text-sm font-bold text-slate-200">
+            <span class="w-2.5 h-2.5 rounded-full bg-cyan-400 animate-ping inline-block"></span>
             <span id="lastRollLog">¡Ger cayó en <strong class="text-rose-300 font-extrabold">Lengua (Casilla #7)</strong>!</span>
           </div>
         </div>
 
-        <!-- Realistic 3D Dice -->
-        <div class="flex items-center justify-center my-1 sm:my-2">
-          <div class="dice-container p-1 sm:p-2 cursor-pointer filter drop-shadow-xl relative z-30 transform scale-90 sm:scale-100 origin-center" id="diceClickArea" title="¡Haz click para tirar el dado!">
+        <!-- Dice Stage Wrapper with Resting State vs Active Orbit Animation -->
+        <div class="relative flex items-center justify-center my-1 sm:my-2" id="diceOrbitWrapper">
+
+          <!-- ACTIVE ENERGY & MAGIC PARTICLE ORBIT LAYER (Only visible when active / rolling) -->
+          <div id="activeRollOverlay" class="absolute inset-0 flex items-center justify-center pointer-events-none z-20 opacity-0 transition-opacity duration-500 ease-out">
+            <!-- SVG Defs for glowing gradient trail -->
+            <svg class="absolute w-0 h-0" aria-hidden="true" focusable="false">
+              <defs>
+                <linearGradient id="orbitGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#38bdf8" />
+                  <stop offset="50%" stop-color="#c084fc" />
+                  <stop offset="100%" stop-color="#facc15" />
+                </linearGradient>
+              </defs>
+            </svg>
+
+            <!-- Cyan Energy Rings around the tumbling dice -->
+            <div class="cyan-energy-ring outer-ring"></div>
+            <div class="cyan-energy-ring inner-ring"></div>
+            <div class="cyan-shockwave-pulse"></div>
+
+            <!-- Magical Elliptical Orbit & Orbiting Objects -->
+            <div class="magic-orbit-system">
+              <svg class="orbit-trail-svg" viewBox="0 0 400 260">
+                <ellipse cx="200" cy="130" rx="165" ry="75" class="orbit-trail-ellipse" />
+                <ellipse cx="200" cy="130" rx="145" ry="65" class="orbit-trail-inner-ellipse" />
+              </svg>
+              <!-- Orbiting items: Cohete, Trofeo, Moneditas, Estrellas, Destellos -->
+              <div class="orbit-item item-rocket" title="¡Cohete!">🚀</div>
+              <div class="orbit-item item-trophy" title="¡Trofeo!">🏆</div>
+              <div class="orbit-item item-coin1" title="Moneda">🪙</div>
+              <div class="orbit-item item-coin2" title="Moneda">🪙</div>
+              <div class="orbit-item item-star1" title="Estrella">⭐</div>
+              <div class="orbit-item item-star2" title="Estrella">🌟</div>
+              <div class="orbit-item item-sparkle1" title="Destello">✨</div>
+              <div class="orbit-item item-sparkle2" title="Destello">✨</div>
+              <!-- Bright micro spark particles -->
+              <div class="orbit-particle p-cyan-1"></div>
+              <div class="orbit-particle p-cyan-2"></div>
+              <div class="orbit-particle p-purple-1"></div>
+              <div class="orbit-particle p-gold-1"></div>
+              <div class="orbit-particle p-gold-2"></div>
+            </div>
+          </div>
+
+          <!-- Landing Burst Particles Layer -->
+          <div id="particlesLayer" class="absolute inset-0 pointer-events-none z-35 flex items-center justify-center"></div>
+
+          <!-- Realistic 3D Dice (Pristine, clean, static in resting state) -->
+          <div class="dice-container p-1 sm:p-2 cursor-pointer filter drop-shadow-[0_12px_24px_rgba(0,0,0,0.6)] relative z-30 transform scale-90 sm:scale-100 origin-center" id="diceClickArea" title="¡Haz click para tirar el dado!">
             <div class="dice-cube" id="diceCubeFace">
               <!-- Face Front (Value 1: Centered Pip) -->
               <div class="dice-face dice-front">
@@ -1628,29 +1935,32 @@
           </div>
         </div>
 
-        <!-- 3D Primary Button: ¡TIRAR DADO! (Ajustado y compacto) -->
+        <!-- 3D Primary Button: ¡TIRAR DADO! (Con resplandor exterior suave en reposo y chispas al tirar) -->
         <div class="relative z-10 flex flex-col items-center justify-center w-full max-w-sm text-center mt-2 sm:mt-3">
-          <button class="btn-action-3d text-white font-black text-sm sm:text-base md:text-lg tracking-wide py-2 sm:py-2.5 px-6 sm:px-8 rounded-full cursor-pointer select-none w-auto max-w-[240px] sm:max-w-xs flex items-center justify-center gap-2 active:translate-y-0.5 shadow-md" id="rollDiceBtn">
-            <span id="btnIcon" class="text-base sm:text-lg">🎲</span>
-            <span id="btnText">¡TIRAR DADO!</span>
-          </button>
-          <p class="mt-3.5 sm:mt-4 text-[11px] sm:text-xs font-semibold text-slate-500 text-center max-w-xs px-2 leading-relaxed" id="helperMessage">
+          <div class="relative inline-flex items-center justify-center">
+            <div id="btnSparksContainer" class="absolute inset-0 pointer-events-none overflow-visible"></div>
+            <button class="btn-action-3d text-white font-black text-sm sm:text-base md:text-lg tracking-wide py-2 sm:py-2.5 px-6 sm:px-8 rounded-full cursor-pointer select-none w-auto max-w-[240px] sm:max-w-xs flex items-center justify-center gap-2 active:translate-y-0.5" id="rollDiceBtn">
+              <span id="btnIcon" class="text-base sm:text-lg">🎲</span>
+              <span id="btnText">¡TIRAR DADO!</span>
+            </button>
+          </div>
+          <p class="mt-3.5 sm:mt-4 text-[11px] sm:text-xs font-semibold text-slate-400 text-center max-w-xs px-2 leading-relaxed" id="helperMessage">
             ¡Tirá el dado para avanzar por el tablero!
           </p>
         </div>
 
         <!-- Spectator HUD for online multiplayer -->
-        <div id="spectator-hud" class="hidden absolute top-2 left-1/2 transform -translate-x-1/2 w-11/12 max-w-lg bg-indigo-900/95 backdrop-blur-md border-2 border-indigo-400 text-white rounded-2xl p-3 shadow-2xl z-40 flex-col gap-1 text-center">
-          <div class="flex items-center justify-between text-[11px] font-black text-indigo-200">
+        <div id="spectator-hud" class="hidden absolute top-2 left-1/2 transform -translate-x-1/2 w-11/12 max-w-lg bg-slate-900/95 backdrop-blur-md border-2 border-cyan-400 text-white rounded-2xl p-3 shadow-2xl z-40 flex-col gap-1 text-center">
+          <div class="flex items-center justify-between text-[11px] font-black text-cyan-200">
             <span id="spectator-hud-title">EN VIVO · MODO ESPECTADOR</span>
-            <span id="spectator-hud-category" class="bg-indigo-800 px-2 py-0.5 rounded-full">📚 Materia</span>
+            <span id="spectator-hud-category" class="bg-slate-800 px-2 py-0.5 rounded-full">📚 Materia</span>
           </div>
           <p id="spectator-hud-question" class="text-xs sm:text-sm font-extrabold text-white mt-1 line-clamp-2">"Pregunta en vivo..."</p>
           <div id="spectator-hud-status" class="text-[11px] font-bold text-amber-300 mt-0.5">Esperando respuesta...</div>
         </div>
 
         <!-- Bottom subtle stage ambient gradient glow -->
-        <div class="absolute bottom-1 w-2/3 h-5 bg-blue-500/10 rounded-full blur-xl pointer-events-none"></div>
+        <div class="absolute bottom-1 w-2/3 h-5 bg-cyan-500/10 rounded-full blur-xl pointer-events-none"></div>
       </div>
       <!-- END: Center Action Canvas -->
     </div>
@@ -1659,25 +1969,25 @@
 
   <!-- BEGIN: RightSidebar -->
   <aside class="xl:col-span-3 flex flex-col h-full order-2 select-none" data-purpose="player-subject-sidebar">
-    <!-- Player & Ranking Card (Estilizada a altura completa del tablero) -->
-    <div class="clay-card rounded-3xl p-3.5 sm:p-4 flex flex-col h-full shadow-xl justify-between overflow-hidden" data-purpose="rankings-card">
+    <!-- Player & Ranking Card (Estilizada en Dark Mode a altura completa del tablero) -->
+    <div class="rounded-3xl p-3.5 sm:p-4 flex flex-col h-full shadow-2xl justify-between overflow-hidden bg-[#1e293b] border border-[#334155]" data-purpose="rankings-card">
       <!-- Header en una sola línea -->
-      <div class="flex items-center justify-between pb-2 border-b border-slate-100 shrink-0 gap-2">
+      <div class="flex items-center justify-between pb-2 border-b border-[#334155] shrink-0 gap-2">
         <div class="flex items-center gap-2 min-w-0">
           <span class="text-xl shrink-0">🏆</span>
-          <h2 class="text-xs sm:text-sm font-black text-[#172554] tracking-tight whitespace-nowrap">Posiciones y Medallas</h2>
+          <h2 class="text-xs sm:text-sm font-black text-white tracking-tight whitespace-nowrap">Posiciones y Medallas</h2>
         </div>
-        <span class="text-[11px] font-black bg-blue-50 text-blue-700 px-2.5 py-1 rounded-full border border-blue-200/60 shadow-2xs whitespace-nowrap shrink-0" id="sidebar-players-count">2 Jugadores</span>
+        <span class="text-[11px] font-black bg-slate-800 text-sky-400 px-2.5 py-1 rounded-full border border-slate-700 shadow-2xs whitespace-nowrap shrink-0" id="sidebar-players-count">2 Jugadores</span>
       </div>
 
       <!-- Scoreboard List -->
       <div id="scoreboard-list" class="flex flex-col gap-2.5 sm:gap-3 py-2 flex-1 justify-around overflow-y-auto min-h-0"></div>
 
       <!-- Footer de la tarjeta con meta de victoria -->
-      <div class="pt-3 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-slate-500 shrink-0">
+      <div class="pt-3 border-t border-[#334155] flex items-center justify-between text-xs font-bold text-slate-400 shrink-0">
         <div class="flex items-center gap-1.5">
           <span>🎯</span>
-          <span>Meta: <strong class="text-indigo-600 font-extrabold">5 Insignias</strong> o <strong class="text-amber-600 font-extrabold">300 pts</strong></span>
+          <span>Meta: <strong class="text-sky-400 font-extrabold">5 Insignias</strong> o <strong class="text-amber-400 font-extrabold">300 pts</strong></span>
         </div>
         <div class="flex items-center gap-1 text-[11px] text-slate-400 font-extrabold">
           <span>👑</span>
@@ -1702,8 +2012,8 @@
 <!-- END: BottomStatusFooter -->
 
 <!-- BEGIN: Modals -->
-<div id="question-modal" class="fixed inset-0 z-50 bg-slate-900/60 backdrop-blur-sm hidden items-center justify-center p-3 sm:p-4 overflow-y-auto">
-        <div class="w-full max-w-xl max-h-[92vh] bg-white rounded-3xl overflow-hidden shadow-2xl border border-white flex flex-col my-auto transform transition-all animate-in fade-in zoom-in duration-200">
+<div id="question-modal" class="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-md hidden items-center justify-center p-3 sm:p-4 overflow-y-auto">
+        <div class="w-full max-w-xl max-h-[92vh] bg-slate-900 text-slate-100 rounded-3xl overflow-hidden shadow-2xl border border-slate-700 flex flex-col my-auto transform transition-all animate-in fade-in zoom-in duration-200">
             <!-- Modal Header (Compacto) -->
             <div id="modal-header" class="px-4 py-3 sm:px-5 sm:py-3.5 text-white flex items-center justify-between bg-blue-600 shrink-0">
                 <div class="flex items-center gap-2.5 sm:gap-3">
@@ -1714,28 +2024,28 @@
                     </div>
                 </div>
                 <!-- Countdown -->
-                <div class="w-10 h-10 sm:w-11 sm:h-11 rounded-full border-2 border-white/60 bg-black/20 flex items-center justify-center font-black text-lg sm:text-xl shrink-0" id="timer-number">
+                <div class="w-10 h-10 sm:w-11 sm:h-11 rounded-full border-2 border-white/60 bg-black/30 flex items-center justify-center font-black text-lg sm:text-xl shrink-0" id="timer-number">
                     25
                 </div>
             </div>
 
             <!-- Timer Bar -->
-            <div class="w-full h-1.5 bg-slate-100 shrink-0">
+            <div class="w-full h-1.5 bg-slate-800 shrink-0">
                 <div id="timer-bar" class="h-full bg-emerald-500 w-full transition-all duration-1000 ease-linear"></div>
             </div>
 
             <!-- Modal Body (Desplazamiento interno seguro sin desbordar pantalla) -->
-            <div class="p-4 sm:p-5 flex flex-col gap-2.5 sm:gap-3 overflow-y-auto flex-1 min-h-0">
-                <div class="flex items-center justify-between text-xs font-bold text-slate-500 shrink-0">
+            <div class="p-4 sm:p-5 flex flex-col gap-2.5 sm:gap-3 overflow-y-auto flex-1 min-h-0 bg-slate-900">
+                <div class="flex items-center justify-between text-xs font-bold text-slate-400 shrink-0">
                     <span id="q-player-turn">Turno de: <strong>Ger</strong></span>
-                    <span id="q-grade-tag" class="px-2.5 py-0.5 rounded-full bg-slate-100 text-blue-700 text-[11px] font-bold">6.° Grado · 39 restantes</span>
+                    <span id="q-grade-tag" class="px-2.5 py-0.5 rounded-full bg-slate-800 text-sky-400 border border-slate-700 text-[11px] font-bold">6.° Grado · 39 restantes</span>
                 </div>
 
                 <div class="flex items-start justify-between gap-3 shrink-0">
-                    <h3 id="question-text" class="font-extrabold text-slate-800 text-base sm:text-lg leading-snug flex-1">
+                    <h3 id="question-text" class="font-extrabold text-white text-base sm:text-lg leading-snug flex-1">
                         Cargando pregunta...
                     </h3>
-                    <button id="btn-speak-question" type="button" class="hidden shrink-0 items-center gap-1.5 px-3 py-1.5 rounded-xl bg-indigo-50 hover:bg-indigo-100 text-indigo-700 border border-indigo-200 text-xs font-black transition-all shadow-2xs active:scale-95 cursor-pointer select-none" title="Escuchar pronunciación (Inglés británico)">
+                    <button id="btn-speak-question" type="button" class="hidden shrink-0 items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-cyan-300 border border-slate-700 text-xs font-black transition-all shadow-2xs active:scale-95 cursor-pointer select-none" title="Escuchar pronunciación (Inglés británico)">
                         <span class="text-sm">🔊</span>
                         <span class="hidden sm:inline">Escuchar</span>
                     </button>
@@ -1745,9 +2055,9 @@
                 <div id="options-grid" class="flex flex-col gap-2 pt-0.5"></div>
 
                 <!-- Pedagogical Feedback Box -->
-                <div id="feedback-box" class="hidden p-3 sm:p-3.5 rounded-2xl border flex flex-col gap-1.5 mt-1 shrink-0">
-                    <div id="feedback-title" class="font-black text-sm sm:text-base">¡CORRECTO! 🎉</div>
-                    <p id="feedback-explanation" class="text-xs sm:text-sm text-slate-700 leading-relaxed"></p>
+                <div id="feedback-box" class="hidden p-3 sm:p-3.5 rounded-2xl border flex flex-col gap-1.5 mt-1 shrink-0 bg-slate-800/90 border-slate-700">
+                    <div id="feedback-title" class="font-black text-sm sm:text-base text-white">¡CORRECTO! 🎉</div>
+                    <p id="feedback-explanation" class="text-xs sm:text-sm text-slate-300 leading-relaxed"></p>
                     <button id="btn-next-turn" class="w-full py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-black text-xs sm:text-sm tracking-wide uppercase shadow-md transition-all cursor-pointer mt-1" type="button">
                         Continuar ▶
                     </button>
