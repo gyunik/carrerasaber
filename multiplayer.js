@@ -673,27 +673,63 @@ class MultiplayerManager {
         this.applyTurnPermissions();
     }
 
+    canIRollDice() {
+        if (!this.isOnlineGameActive && !this.roomCode) return true;
+        if (!window.game) return false;
+        if (window.game.isQuestionActive || window.game.isRolling || window.game.isMoving) return false;
+
+        const currentTurnPlayer = window.game.players[window.game.currentPlayerIndex];
+        const isMyTurn = currentTurnPlayer && currentTurnPlayer.id === this.myPlayerId;
+        return !!isMyTurn;
+    }
+
     applyTurnPermissions() {
         if (!window.game || !window.game.isOnline) return;
 
         const currentTurnPlayer = window.game.players[window.game.currentPlayerIndex];
         const isMyTurn = currentTurnPlayer && currentTurnPlayer.id === this.myPlayerId;
+        const isQuestionActive = !!window.game.isQuestionActive;
 
         const rollBtn = document.getElementById('rollDiceBtn');
+        const diceArea = document.getElementById('diceClickArea');
         const btnText = document.getElementById('btnText');
         const helperMsg = document.getElementById('helperMessage');
 
+        const canRoll = isMyTurn && !isQuestionActive && !window.game.isRolling && !window.game.isMoving;
+
+        if (diceArea) {
+            if (canRoll) {
+                diceArea.classList.remove('pointer-events-none', 'opacity-50', 'cursor-not-allowed');
+                diceArea.classList.add('cursor-pointer');
+                diceArea.setAttribute('title', '¡Haz click para tirar el dado!');
+            } else {
+                diceArea.classList.add('pointer-events-none', 'opacity-50', 'cursor-not-allowed');
+                diceArea.classList.remove('cursor-pointer');
+                diceArea.setAttribute('title', isQuestionActive ? 'Pregunta en curso...' : 'Esperando tu turno...');
+            }
+        }
+
         if (rollBtn) {
-            if (isMyTurn) {
-                rollBtn.disabled = false;
+            rollBtn.disabled = !canRoll;
+            if (canRoll) {
                 rollBtn.classList.remove('opacity-60', 'cursor-not-allowed');
                 if (btnText) btnText.textContent = '¡TIRAR DADO!';
                 if (helperMsg) helperMsg.textContent = `¡Es tu turno, ${this.playerName}! Tirá el dado para avanzar.`;
             } else {
-                rollBtn.disabled = true;
                 rollBtn.classList.add('opacity-60', 'cursor-not-allowed');
-                if (btnText) btnText.textContent = `Turno de ${currentTurnPlayer ? currentTurnPlayer.name : 'amiga'}...`;
-                if (helperMsg) helperMsg.textContent = `Esperando a que ${currentTurnPlayer ? currentTurnPlayer.name : 'tu amiga'} tire el dado...`;
+                if (isQuestionActive) {
+                    if (btnText) btnText.textContent = 'Pregunta en curso...';
+                    if (helperMsg) {
+                        helperMsg.textContent = isMyTurn
+                            ? 'Respondé la pregunta para continuar la partida.'
+                            : `Esperando a que ${currentTurnPlayer ? currentTurnPlayer.name : 'tu rival'} responda su pregunta...`;
+                    }
+                } else {
+                    if (btnText) btnText.textContent = `Turno de ${currentTurnPlayer ? currentTurnPlayer.name : 'tu rival'}...`;
+                    if (helperMsg) {
+                        helperMsg.textContent = `Esperando a que ${currentTurnPlayer ? currentTurnPlayer.name : 'tu rival'} tire el dado...`;
+                    }
+                }
             }
         }
     }
@@ -803,15 +839,19 @@ class MultiplayerManager {
         }
 
         // 2. EVENTO: Casillero Comodín activo
-        if (gameState.action === 'comodinActive' && gameState.activePlayerId !== this.myPlayerId) {
-            const hud = document.getElementById('spectator-hud');
-            if (hud) {
-                hud.classList.remove('hidden');
-                hud.classList.add('flex');
-            }
-            const status = document.getElementById('spectator-hud-status');
-            if (status) {
-                status.innerHTML = `<span class="flex items-center gap-1.5 font-black text-indigo-700"><span>🃏</span> <span>¡${gameState.activePlayerName} cayó en COMODÍN y está eligiendo materia...!</span></span>`;
+        if (gameState.action === 'comodinActive') {
+            window.game.isQuestionActive = true;
+            this.applyTurnPermissions();
+            if (gameState.activePlayerId !== this.myPlayerId) {
+                const hud = document.getElementById('spectator-hud');
+                if (hud) {
+                    hud.classList.remove('hidden');
+                    hud.classList.add('flex');
+                }
+                const status = document.getElementById('spectator-hud-status');
+                if (status) {
+                    status.innerHTML = `<span class="flex items-center gap-1.5 font-black text-indigo-700"><span>🃏</span> <span>¡${gameState.activePlayerName} cayó en COMODÍN y está eligiendo materia...!</span></span>`;
+                }
             }
         }
 
@@ -826,6 +866,8 @@ class MultiplayerManager {
 
         // 4. EVENTO: Pregunta abierta (Modo Espectador en vivo)
         if (gameState.action === 'questionActive' && gameState.activeQuestion) {
+            window.game.isQuestionActive = true;
+            this.applyTurnPermissions();
             if (gameState.activeQuestion.playerId !== this.myPlayerId && gameState.activeQuestion.questionTimestamp !== this.lastHandledQuestionTimestamp) {
                 this.lastHandledQuestionTimestamp = gameState.activeQuestion.questionTimestamp;
                 console.log("Modo Espectador activado: otra jugadora respondiendo pregunta");
@@ -833,7 +875,7 @@ class MultiplayerManager {
             }
         }
 
-        // 3. EVENTO: Pregunta respondida (Resultado en Modo Espectador)
+        // 5. EVENTO: Pregunta respondida (Resultado en Modo Espectador)
         if (gameState.action === 'questionAnswered' && gameState.lastResult) {
             if (gameState.lastResult.playerId !== this.myPlayerId && gameState.lastResult.answerTimestamp !== this.lastHandledAnswerTimestamp) {
                 this.lastHandledAnswerTimestamp = gameState.lastResult.answerTimestamp;
@@ -842,9 +884,12 @@ class MultiplayerManager {
             }
         }
 
-        // 4. EVENTO: Cambio de turno
-        if (gameState.currentTurnIndex !== undefined && gameState.currentTurnIndex !== window.game.currentPlayerIndex) {
-            window.game.currentPlayerIndex = gameState.currentTurnIndex;
+        // 6. EVENTO: Cambio de turno
+        if (gameState.action === 'turnAdvance' || (gameState.currentTurnIndex !== undefined && gameState.currentTurnIndex !== window.game.currentPlayerIndex)) {
+            window.game.isQuestionActive = false;
+            if (gameState.currentTurnIndex !== undefined) {
+                window.game.currentPlayerIndex = gameState.currentTurnIndex;
+            }
             window.game.hideSpectatorHUD();
             window.game.updateTurnDisplay();
             window.game.updatePawnPositions();

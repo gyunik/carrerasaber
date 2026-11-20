@@ -860,6 +860,7 @@ class CarreraDelSaberApp {
             window.speechSynthesis.onvoiceschanged = () => window.speechSynthesis.getVoices();
         }
 
+        this.isQuestionActive = false;
         this.bindEvents();
         this.renderSetupPlayers();
         this.renderDiceFace(5);
@@ -1983,8 +1984,10 @@ class CarreraDelSaberApp {
     }
 
     rollDice() {
-        if (this.isRolling || this.isMoving) return;
+        if (this.isRolling || this.isMoving || this.isQuestionActive) return;
+        if (this.isOnline && this.onlineManager && !this.onlineManager.canIRollDice()) return;
         this.isRolling = true;
+        this.updateDiceInteractivity();
 
         this.audio.init();
 
@@ -2082,10 +2085,39 @@ class CarreraDelSaberApp {
 
             setTimeout(() => {
                 this.isRolling = false;
+                this.updateDiceInteractivity();
                 this.movePlayer(finalNumber);
             }, 600);
 
         }, 1100);
+    }
+
+    updateDiceInteractivity() {
+        const diceArea = document.getElementById('diceClickArea');
+        const rollBtn = document.getElementById('rollDiceBtn');
+        const isOnlineBlocked = this.isOnline && this.onlineManager && !this.onlineManager.canIRollDice();
+        const canRoll = !this.isRolling && !this.isMoving && !this.isQuestionActive && !isOnlineBlocked;
+
+        if (diceArea) {
+            if (canRoll) {
+                diceArea.classList.remove('pointer-events-none', 'opacity-50', 'cursor-not-allowed');
+                diceArea.classList.add('cursor-pointer');
+                diceArea.setAttribute('title', '¡Haz click para tirar el dado!');
+            } else {
+                diceArea.classList.add('pointer-events-none', 'opacity-50', 'cursor-not-allowed');
+                diceArea.classList.remove('cursor-pointer');
+                diceArea.setAttribute('title', this.isQuestionActive ? 'Pregunta en curso...' : 'Esperando tu turno...');
+            }
+        }
+
+        if (rollBtn) {
+            rollBtn.disabled = !canRoll;
+            if (canRoll) {
+                rollBtn.classList.remove('opacity-60', 'cursor-not-allowed');
+            } else {
+                rollBtn.classList.add('opacity-60', 'cursor-not-allowed');
+            }
+        }
     }
 
     movePlayer(steps) {
@@ -2118,6 +2150,8 @@ class CarreraDelSaberApp {
     }
 
     onPlayerLanded() {
+        this.isQuestionActive = true;
+        this.updateDiceInteractivity();
         const player = this.players[this.currentPlayerIndex];
         const tile = TILES_METADATA[player.position];
         this.currentTile = tile;
@@ -2171,6 +2205,8 @@ class CarreraDelSaberApp {
     }
 
     openQuestionModal(tile) {
+        this.isQuestionActive = true;
+        this.updateDiceInteractivity();
         const player = this.players[this.currentPlayerIndex];
         const theme = this.getSubjectTheme(tile.cat);
 
@@ -2469,6 +2505,8 @@ class CarreraDelSaberApp {
     }
 
     nextTurn() {
+        this.isQuestionActive = false;
+        this.updateDiceInteractivity();
         if ('speechSynthesis' in window) window.speechSynthesis.cancel();
         const modal = document.getElementById('question-modal');
         if (modal) modal.classList.add('hidden'), modal.classList.remove('flex');
@@ -2660,6 +2698,8 @@ class CarreraDelSaberApp {
     }
 
     showSpectatorQuestion(qData) {
+        this.isQuestionActive = true;
+        this.updateDiceInteractivity();
         const hud = document.getElementById('spectator-hud');
         if (!hud) return;
         hud.classList.remove('hidden');
@@ -2714,6 +2754,8 @@ class CarreraDelSaberApp {
     }
 
     hideSpectatorHUD() {
+        this.isQuestionActive = false;
+        this.updateDiceInteractivity();
         const hud = document.getElementById('spectator-hud');
         if (hud) {
             hud.classList.add('hidden');
@@ -2726,6 +2768,8 @@ class CarreraDelSaberApp {
     // MODAL DE COMODÍN Y CANJE DE PUNTOS (OPCIÓN A)
     // =========================================================================
     openComodinModal(player) {
+        this.isQuestionActive = true;
+        this.updateDiceInteractivity();
         const modal = document.getElementById('comodin-modal');
         if (!modal) return;
         modal.classList.remove('hidden');
