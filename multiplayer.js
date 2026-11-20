@@ -133,6 +133,20 @@ class MultiplayerManager {
             });
         });
 
+        // 5b. Cantidad de Participantes Online (2, 3 o 4)
+        document.querySelectorAll('.online-count-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.online-count-btn').forEach(b => {
+                    b.classList.remove('active', 'border-2', 'border-indigo-600', 'bg-indigo-50', 'text-indigo-700', 'font-black', 'shadow-xs');
+                    b.classList.add('border', 'border-slate-200', 'bg-white', 'text-slate-700', 'font-bold');
+                });
+                btn.classList.add('active', 'border-2', 'border-indigo-600', 'bg-indigo-50', 'text-indigo-700', 'font-black', 'shadow-xs');
+                btn.classList.remove('border', 'border-slate-200', 'bg-white', 'text-slate-700', 'font-bold');
+                this.targetPlayers = parseInt(btn.dataset.count, 10) || 2;
+                console.log(`👥 Cantidad de jugadores online seleccionada: ${this.targetPlayers}`);
+            });
+        });
+
         // 6. Botón Crear Sala
         if (this.btnDoCreateRoom) {
             this.btnDoCreateRoom.addEventListener('click', () => this.handleCreateRoom());
@@ -163,7 +177,7 @@ class MultiplayerManager {
             this.btnLeaveRoom.addEventListener('click', () => this.leaveRoom());
         }
 
-        // 10. Comenzar Partida Online (Anfitriona)
+        // 10. Comenzar Partida Online (Anfitrión)
         if (this.btnStartOnlineGame) {
             this.btnStartOnlineGame.addEventListener('click', () => this.startOnlineGame());
         }
@@ -427,7 +441,7 @@ class MultiplayerManager {
     // =========================================================================
     async handleJoinRoom() {
         const code = this.joinCodeInput ? this.joinCodeInput.value.trim().toUpperCase() : '';
-        const name = this.guestNameInput ? this.guestNameInput.value.trim() || 'Amiga' : 'Amiga';
+        const name = this.guestNameInput ? this.guestNameInput.value.trim() || 'Amigo' : 'Amigo';
         
         if (!code || code.length < 3) {
             alert('Por favor ingresá un código de sala válido.');
@@ -446,7 +460,7 @@ class MultiplayerManager {
                 const snapshot = await this.roomRef.once('value');
 
                 if (!snapshot.exists()) {
-                    alert(`La sala "${this.roomCode}" no existe. Verificá el código con tu amiga.`);
+                    alert(`La sala "${this.roomCode}" no existe. Verificá el código con tu amigo.`);
                     return;
                 }
 
@@ -459,13 +473,13 @@ class MultiplayerManager {
                 const currentPlayers = room.players ? Object.keys(room.players) : [];
                 const maxAllowed = room.targetPlayers || 2;
                 if (currentPlayers.length >= maxAllowed) {
-                    alert(`La sala ya está completa (máximo ${maxAllowed} jugadoras).`);
+                    alert(`La sala ya está completa (máximo ${maxAllowed} jugadores).`);
                     return;
                 }
 
                 this.selectedGrade = room.grade || 6;
 
-                // Agregar jugadora a la sala
+                // Agregar jugador a la sala
                 const playerData = {
                     id: this.myPlayerId,
                     name: this.playerName,
@@ -509,14 +523,14 @@ class MultiplayerManager {
 
         this.roomRef.on('value', (snapshot) => {
             if (!snapshot.exists()) {
-                alert('La sala fue cerrada por la anfitriona.');
+                alert('La sala fue cerrada por el anfitrión.');
                 this.leaveRoom();
                 return;
             }
 
             const room = snapshot.val();
             
-            // 1. Actualizar lista de jugadoras
+            // 1. Actualizar lista de jugadores
             if (room.players) {
                 this.playersInRoom = Object.values(room.players);
                 if (room.targetPlayers) this.roomTargetPlayers = room.targetPlayers;
@@ -563,13 +577,13 @@ class MultiplayerManager {
     }
 
     // =========================================================================
-    // INICIAR PARTIDA ONLINE (SOLO ANFITRIONA)
+    // INICIAR PARTIDA ONLINE (SOLO ANFITRIÓN)
     // =========================================================================
     async startOnlineGame() {
         if (!this.isHost) return;
 
         if (this.playersInRoom.length < 2) {
-            alert('¡Esperá a que se una al menos una amiga para comenzar la carrera!');
+            alert('¡Esperá a que se una al menos un amigo para comenzar la carrera!');
             return;
         }
 
@@ -624,7 +638,7 @@ class MultiplayerManager {
             btnExit.classList.add('flex');
         }
 
-        // Configurar jugadores de CarreraDelSaberApp con las jugadoras online
+        // Configurar jugadores de CarreraDelSaberApp con los jugadores online
         const avatarsList = ['🐬', '🐻', '🦄', '🦁', '⚡', '🚀', '🦉', '🦖'];
         const avatarBgs = [
             'bg-cyan-100 border-2 border-cyan-300',
@@ -833,7 +847,7 @@ class MultiplayerManager {
         if (gameState.action === 'diceRoll' && gameState.rollTimestamp && gameState.rollTimestamp !== this.lastHandledRollTimestamp) {
             this.lastHandledRollTimestamp = gameState.rollTimestamp;
             if (gameState.rollerId !== this.myPlayerId) {
-                console.log(`Jugadora remota (${gameState.rollerName}) tiró el dado: ${gameState.diceValue}`);
+                console.log(`Jugador remoto (${gameState.rollerName}) tiró el dado: ${gameState.diceValue}`);
                 window.game.showRemoteRoll(gameState.rollerId, gameState.diceValue);
             }
         }
@@ -870,7 +884,7 @@ class MultiplayerManager {
             this.applyTurnPermissions();
             if (gameState.activeQuestion.playerId !== this.myPlayerId && gameState.activeQuestion.questionTimestamp !== this.lastHandledQuestionTimestamp) {
                 this.lastHandledQuestionTimestamp = gameState.activeQuestion.questionTimestamp;
-                console.log("Modo Espectador activado: otra jugadora respondiendo pregunta");
+                console.log("Modo Espectador activado: otro jugador respondiendo pregunta");
                 window.game.showSpectatorQuestion(gameState.activeQuestion);
             }
         }
@@ -985,11 +999,11 @@ class MultiplayerManager {
                             <div class="flex flex-col flex-1">
                                 <div class="flex items-center gap-1.5">
                                     <span class="font-black text-slate-800 text-sm">${player.name}</span>
-                                    ${player.isHost ? '<span class="text-[9px] font-black uppercase bg-indigo-200 text-indigo-800 px-1.5 py-0.5 rounded-md">Anfitriona</span>' : ''}
+                                    ${player.isHost ? '<span class="text-[9px] font-black uppercase bg-indigo-200 text-indigo-800 px-1.5 py-0.5 rounded-md">Anfitrión</span>' : ''}
                                     ${player.id === this.myPlayerId ? '<span class="text-[9px] font-bold text-slate-500">(Vos)</span>' : ''}
                                 </div>
                                 <span class="text-[11px] font-bold text-emerald-600 flex items-center gap-1 mt-0.5">
-                                    <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span> Conectada
+                                    <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span> Conectado
                                 </span>
                             </div>
                         </div>
@@ -1001,7 +1015,7 @@ class MultiplayerManager {
                                 ⏳
                             </div>
                             <div class="flex flex-col">
-                                <span class="font-bold text-slate-500 text-sm">Esperando amiga...</span>
+                                <span class="font-bold text-slate-500 text-sm">Esperando amigo...</span>
                                 <span class="text-[11px] text-slate-400">Pasa el código '${this.roomCode}'</span>
                             </div>
                         </div>
@@ -1022,7 +1036,7 @@ class MultiplayerManager {
                 } else {
                     this.btnStartOnlineGame.disabled = true;
                     this.btnStartOnlineGame.className = 'w-full sm:w-auto px-10 py-3.5 rounded-2xl bg-slate-300 text-slate-500 font-black text-base md:text-lg flex items-center justify-center gap-2 cursor-not-allowed uppercase';
-                    this.btnStartOnlineGame.innerHTML = `<span>⏳</span><span>Esperando al menos 1 amiga...</span>`;
+                    this.btnStartOnlineGame.innerHTML = `<span>⏳</span><span>Esperando al menos 1 amigo...</span>`;
                 }
             } else {
                 this.btnStartOnlineGame.classList.add('hidden');
