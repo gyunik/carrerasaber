@@ -1280,6 +1280,111 @@ class CarreraDelSaberApp {
                 this.showSetupScreen();
             });
         }
+
+        this.initShareModal();
+    }
+
+    initShareModal() {
+        const shareModal = document.getElementById('share-game-modal');
+        const openBtns = [
+            document.getElementById('btn-share-header'),
+            document.getElementById('btn-share-setup'),
+            document.getElementById('btn-share-victory')
+        ];
+        const closeBtn = document.getElementById('btn-close-share-modal');
+        const copyBtn = document.getElementById('btn-copy-share-link');
+        const copyText = document.getElementById('btn-copy-share-text');
+        const copyIcon = document.getElementById('btn-copy-share-icon');
+        const linkInput = document.getElementById('share-link-input');
+        const whatsappBtn = document.getElementById('btn-share-whatsapp-direct');
+        const qrImage = document.getElementById('share-qr-image');
+        const nativeShareBtn = document.getElementById('btn-native-share');
+
+        const getGameUrl = () => {
+            const loc = window.location;
+            return `${loc.origin}${loc.pathname}`;
+        };
+
+        const updateShareData = () => {
+            const url = getGameUrl();
+            if (linkInput) linkInput.value = url;
+            if (qrImage) {
+                qrImage.src = `https://api.qrserver.com/v1/create-qr-code/?size=240x240&data=${encodeURIComponent(url)}&bgcolor=FFFFFF&color=0F172A&margin=2`;
+            }
+            if (whatsappBtn) {
+                const text = encodeURIComponent(
+                    `¡Hola! 🧠🎲 Te invito a jugar a Carrera del Saber, un juego educativo interactivo de primaria e inglés.\n\nJugá gratis acá:\n${url}`
+                );
+                whatsappBtn.href = `https://api.whatsapp.com/send?text=${text}`;
+            }
+        };
+
+        const openModal = () => {
+            updateShareData();
+            if (shareModal) {
+                shareModal.classList.remove('hidden');
+                shareModal.classList.add('flex');
+            }
+        };
+
+        const closeModal = () => {
+            if (shareModal) {
+                shareModal.classList.add('hidden');
+                shareModal.classList.remove('flex');
+            }
+        };
+
+        openBtns.forEach(btn => {
+            if (btn) btn.addEventListener('click', openModal);
+        });
+
+        if (closeBtn) closeBtn.addEventListener('click', closeModal);
+        if (shareModal) {
+            shareModal.addEventListener('click', (e) => {
+                if (e.target === shareModal) closeModal();
+            });
+        }
+
+        if (copyBtn && linkInput) {
+            copyBtn.addEventListener('click', async () => {
+                const url = linkInput.value || getGameUrl();
+                try {
+                    await navigator.clipboard.writeText(url);
+                    if (copyText) copyText.textContent = '¡Copiado!';
+                    if (copyIcon) copyIcon.textContent = '✅';
+                    setTimeout(() => {
+                        if (copyText) copyText.textContent = 'Copiar';
+                        if (copyIcon) copyIcon.textContent = '📋';
+                    }, 2500);
+                } catch (err) {
+                    linkInput.select();
+                    document.execCommand('copy');
+                    if (copyText) copyText.textContent = '¡Copiado!';
+                    setTimeout(() => {
+                        if (copyText) copyText.textContent = 'Copiar';
+                    }, 2500);
+                }
+            });
+        }
+
+        if (nativeShareBtn) {
+            if (navigator.share) {
+                nativeShareBtn.classList.remove('hidden');
+                nativeShareBtn.addEventListener('click', async () => {
+                    try {
+                        await navigator.share({
+                            title: 'Carrera del Saber',
+                            text: '¡Desafío interactivo de preguntas y respuestas escolares!',
+                            url: getGameUrl()
+                        });
+                    } catch (e) {
+                        // Usuario canceló compartir
+                    }
+                });
+            } else {
+                nativeShareBtn.classList.add('hidden');
+            }
+        }
     }
 
     updateGradeLabels() {

@@ -285,6 +285,12 @@
       <span>Partida en Vivo</span>
     </div>
     
+    <!-- Share / QR Button -->
+    <button id="btn-share-header" aria-label="Compartir juego o QR" class="h-10 px-3.5 rounded-full bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white flex items-center gap-2 transition shadow-md shadow-emerald-950/50 cursor-pointer active:scale-95" title="Compartir juego por WhatsApp o código QR">
+      <span class="text-base">📲</span>
+      <span class="hidden sm:inline text-xs font-black uppercase tracking-wider">Compartir / QR</span>
+    </button>
+
     <!-- Rules Button -->
     <button id="rulesToggleBtn" aria-label="Reglas" class="w-10 h-10 rounded-full bg-slate-800 border border-slate-700 text-slate-200 flex items-center justify-center hover:bg-slate-700 hover:text-cyan-400 transition shadow-sm cursor-pointer" title="Reglas y ayuda">
       <span class="font-extrabold text-base">❓</span>
@@ -961,6 +967,10 @@
                     <p class="text-xs font-bold text-slate-400 mt-2.5 text-center">
                         Tablero oficial de 26 casilleros con desafíos de 6.° Grado listos para sortear.
                     </p>
+                    <button id="btn-share-setup" type="button" class="mt-3.5 py-2.5 px-5 rounded-2xl bg-slate-800/90 hover:bg-slate-700/90 text-emerald-400 border border-slate-700 text-xs sm:text-sm font-extrabold transition-all flex items-center gap-2.5 cursor-pointer shadow-sm active:scale-95">
+                        <span class="text-base">📲</span>
+                        <span>Compartir juego por WhatsApp o proyectar código QR</span>
+                    </button>
                 </div>
 
             </div>
@@ -1822,6 +1832,10 @@
             <button id="btn-play-again" class="w-full py-3.5 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white font-black text-base uppercase shadow-md transition-all cursor-pointer" type="button">
                 🔄 Jugar Otra Partida
             </button>
+            <button id="btn-share-victory" class="w-full py-3 px-4 rounded-xl bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white font-black text-sm uppercase shadow-md transition-all cursor-pointer flex items-center justify-center gap-2" type="button">
+                <span>📲</span>
+                <span>¡Desafiar amigos en WhatsApp / Compartir QR!</span>
+            </button>
         </div>
     </div>
 
@@ -1865,6 +1879,61 @@
             </div>
             <button id="btn-rules-got-it" class="w-full py-3 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-black text-sm shadow-md cursor-pointer mt-1">
                 ¡Entendido, vamos a jugar! 🚀
+            </button>
+        </div>
+    </div>
+
+    <!-- MODAL COMPARTIR Y QR -->
+    <div id="share-game-modal" class="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-sm hidden items-center justify-center p-3 sm:p-4">
+        <div class="w-full max-w-md bg-slate-900 border-2 border-slate-700/80 rounded-3xl p-5 sm:p-7 shadow-2xl flex flex-col gap-4 text-white relative animate-bounce-subtle">
+            <!-- Header -->
+            <div class="flex items-center justify-between border-b border-slate-800 pb-3">
+                <div class="flex items-center gap-2.5">
+                    <span class="text-2xl p-2 rounded-2xl bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">📲</span>
+                    <div>
+                        <h3 class="font-black text-lg text-white">Compartir Carrera del Saber</h3>
+                        <p class="text-xs text-slate-400 font-medium">Jugá gratis desde cualquier celular o PC</p>
+                    </div>
+                </div>
+                <button id="btn-close-share-modal" class="w-8 h-8 rounded-full bg-slate-800 hover:bg-slate-700 text-slate-300 font-bold flex items-center justify-center cursor-pointer transition">✕</button>
+            </div>
+
+            <!-- WhatsApp Direct Share Button (Primary) -->
+            <a id="btn-share-whatsapp-direct" href="#" target="_blank" rel="noopener noreferrer" class="w-full py-3.5 px-5 rounded-2xl bg-[#25D366] hover:bg-[#20bd5a] text-white font-black text-sm sm:text-base flex items-center justify-center gap-3 shadow-lg shadow-emerald-950/50 transition-all hover:scale-[1.02] active:scale-[0.98] cursor-pointer">
+                <svg class="w-6 h-6 fill-current shrink-0" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.669-.699c.969.54 1.838.835 2.791.835 3.18 0 5.767-2.586 5.768-5.766 0-3.18-2.587-5.767-5.768-5.767zm0 10.455c-.886 0-1.748-.238-2.497-.69l-.179-.107-1.579.414.421-1.54-.117-.186c-.499-.794-.763-1.719-.762-2.67 0-2.674 2.176-4.85 4.85-4.85 2.674 0 4.851 2.176 4.851 4.85 0 2.674-2.177 4.85-4.85 4.85zm6.549-10.455c-1.75-1.75-4.077-2.714-6.55-2.714-5.105 0-9.256 4.15-9.258 9.256 0 1.632.426 3.226 1.235 4.628l-1.312 4.79 4.901-1.286c1.348.735 2.868 1.124 4.434 1.124 5.106 0 9.257-4.151 9.258-9.258 0-2.473-.964-4.8-2.715-6.55z"/></svg>
+                <span>Compartir por WhatsApp (1 clic)</span>
+            </a>
+
+            <!-- QR Code Section -->
+            <div class="bg-slate-800/80 border border-slate-700/80 rounded-2xl p-4 flex flex-col items-center gap-2.5">
+                <div class="flex items-center gap-2 text-xs font-bold text-slate-300">
+                    <span>📷</span>
+                    <span>Escanear código QR con la cámara del celular</span>
+                </div>
+                <div class="bg-white p-2.5 rounded-2xl shadow-inner border-2 border-cyan-400/40">
+                    <img id="share-qr-image" src="" alt="Código QR Carrera del Saber" class="w-40 h-40 sm:w-44 sm:h-44 object-contain rounded-lg">
+                </div>
+                <span class="text-[11px] text-slate-400 font-semibold text-center">
+                    Ideal para proyectar en el aula o jugar en familia
+                </span>
+            </div>
+
+            <!-- Copy Link Input -->
+            <div class="flex flex-col gap-1.5">
+                <label class="text-[11px] font-bold text-slate-400 uppercase tracking-wider">O copiá el enlace directo:</label>
+                <div class="flex items-center gap-2">
+                    <input id="share-link-input" type="text" readonly class="flex-1 bg-slate-950 border border-slate-700 rounded-xl px-3 py-2 text-xs text-slate-300 font-mono select-all focus:outline-none focus:border-cyan-400">
+                    <button id="btn-copy-share-link" type="button" class="px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-600 text-cyan-300 font-black text-xs transition cursor-pointer active:scale-95 shrink-0 flex items-center gap-1.5">
+                        <span id="btn-copy-share-icon">📋</span>
+                        <span id="btn-copy-share-text">Copiar</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Native Share Button (Conditional) -->
+            <button id="btn-native-share" type="button" class="hidden w-full py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 text-slate-200 font-black text-xs transition flex items-center justify-center gap-2 cursor-pointer">
+                <span>🔗</span>
+                <span>Más opciones de compartir (Telegram, Mail, Classroom...)</span>
             </button>
         </div>
     </div>
