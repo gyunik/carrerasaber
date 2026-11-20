@@ -1289,6 +1289,7 @@ class CarreraDelSaberApp {
         const shareModal = document.getElementById('share-game-modal');
         const openBtns = [
             document.getElementById('btn-share-header'),
+            document.getElementById('btn-share-header-mobile'),
             document.getElementById('btn-share-setup'),
             document.getElementById('btn-share-victory')
         ];

@@ -251,69 +251,72 @@
 <body class="bg-[#0f172a] text-slate-100 font-sans min-h-screen p-2 sm:p-3 xl:p-4 flex flex-col justify-between select-none">
 
 <!-- BEGIN: MainHeader -->
-<header class="w-full max-w-[1720px] mx-auto flex flex-col gap-2.5 mb-2.5 xl:mb-3" data-purpose="header-section">
-  <!-- Renglón 1: Título y Grado a la izquierda, Botón Compartir / WhatsApp a la derecha -->
-  <div class="flex items-center justify-between gap-3 w-full">
-    <div class="flex flex-col min-w-0">
-      <div class="flex items-center gap-2.5 sm:gap-3">
-        <a href="#" id="header-brand-link" class="flex items-center gap-2.5 sm:gap-3 cursor-pointer group min-w-0">
-          <div class="w-9 h-9 sm:w-10 sm:h-10 rounded-2xl bg-slate-800 flex items-center justify-center text-xl shadow-xs border border-slate-700 overflow-hidden shrink-0">
-            <img src="assets/mascot.png" alt="Nelo" class="w-7 h-7 sm:w-8 sm:h-8 object-contain animate-avatar-trot" onerror="this.outerHTML='🧠'">
-          </div>
-          <div class="flex items-center gap-1.5 sm:gap-2 flex-wrap min-w-0">
-            <h1 class="text-lg sm:text-2xl lg:text-3xl font-black tracking-tight text-white whitespace-nowrap">Carrera del Saber</h1>
-            <span id="header-grade-pill" class="bg-gradient-to-r from-blue-600 to-cyan-500 text-white text-[10px] sm:text-xs lg:text-sm font-black px-2.5 sm:px-3.5 py-0.5 sm:py-1 rounded-full uppercase tracking-wider shadow-sm shrink-0">
-              6.° GRADO
-            </span>
-          </div>
-        </a>
-      </div>
-      <p class="text-slate-400 font-semibold text-[11px] sm:text-xs sm:text-sm mt-0.5 ml-11 sm:ml-12 truncate">
-        Desafío interactivo de preguntas y respuestas
-      </p>
+<header class="w-full max-w-[1720px] mx-auto grid grid-cols-[1fr_auto] items-center gap-x-3 gap-y-2 lg:flex lg:items-center lg:justify-between mb-2 xl:mb-2.5" data-purpose="header-section">
+  <!-- Item 1: Título, Mascota y Grado (Mobile: Col 1, Fila 1; Desktop: Order 1 a la izquierda) -->
+  <div class="col-start-1 row-start-1 flex flex-col justify-center min-w-0 lg:order-1">
+    <div class="flex items-center gap-2.5 sm:gap-3">
+      <a href="#" id="header-brand-link" class="flex items-center gap-2.5 sm:gap-3 cursor-pointer group min-w-0">
+        <div class="w-9 h-9 sm:w-10 sm:h-10 rounded-2xl bg-slate-800 flex items-center justify-center text-xl shadow-xs border border-slate-700 overflow-hidden shrink-0">
+          <img src="assets/mascot.png" alt="Nelo" class="w-7 h-7 sm:w-8 sm:h-8 object-contain animate-avatar-trot" onerror="this.outerHTML='🧠'">
+        </div>
+        <div class="flex items-center gap-1.5 sm:gap-2 flex-wrap min-w-0">
+          <h1 class="text-lg sm:text-2xl lg:text-2xl xl:text-3xl font-black tracking-tight text-white whitespace-nowrap">Carrera del Saber</h1>
+          <span id="header-grade-pill" class="bg-gradient-to-r from-blue-600 to-cyan-500 text-white text-[10px] sm:text-xs lg:text-sm font-black px-2.5 sm:px-3.5 py-0.5 sm:py-1 rounded-full uppercase tracking-wider shadow-sm shrink-0">
+            6.° GRADO
+          </span>
+        </div>
+      </a>
     </div>
-
-    <!-- Botón Compartir / WhatsApp arriba a la derecha -->
-    <div class="shrink-0">
-      <button id="btn-share-header" aria-label="Compartir juego o QR" class="w-10 h-10 sm:w-auto sm:h-10 sm:px-3.5 rounded-full bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white flex items-center justify-center gap-2 transition shadow-md shadow-emerald-950/50 cursor-pointer active:scale-95" title="Compartir juego por WhatsApp o código QR">
-        <span class="text-lg">📲</span>
-        <span class="hidden sm:inline text-xs font-black uppercase tracking-wider">Compartir</span>
-      </button>
-    </div>
+    <p class="text-slate-400 font-semibold text-[11px] sm:text-xs sm:text-sm mt-0.5 ml-11 sm:ml-12 truncate hidden sm:block">
+      Desafío interactivo de preguntas y respuestas
+    </p>
   </div>
 
-  <!-- Renglón 2: Badge de Ronda a la izquierda, Instrucciones y Sonido a la derecha -->
-  <div class="flex items-center justify-between gap-3 w-full">
-    <!-- Left: Round Badge -->
+  <!-- Item 2: Badge de Ronda (Mobile: Col 1, Fila 2; Desktop: Order 2, pegado al título a la izquierda) -->
+  <div class="col-start-1 row-start-2 flex items-center justify-start lg:order-2 lg:ml-3 lg:mr-auto">
     <div class="bg-slate-800/90 text-sky-400 border border-slate-700/80 rounded-full px-3.5 py-1.5 sm:px-4 sm:py-2 flex items-center gap-2 shadow-sm font-extrabold" id="round-indicator">
       <span class="text-sky-400 tracking-wider text-[11px] sm:text-xs font-black">RONDA</span>
       <span class="text-slate-100 text-sm sm:text-base font-black">1 / 10</span>
     </div>
+  </div>
 
-    <!-- Right: Instrucciones (?) y Sonido (🔊) -->
-    <div class="flex items-center gap-2 sm:gap-2.5">
-      <!-- Rules Button con signo '?' rojo nítido -->
-      <button id="rulesToggleBtn" aria-label="Instrucciones y Reglas" class="w-10 h-10 rounded-full bg-slate-800 border border-slate-700 text-rose-500 flex items-center justify-center hover:bg-slate-700 transition shadow-sm cursor-pointer" title="Instrucciones y reglas">
-        <span class="font-black text-lg text-rose-500">?</span>
-      </button>
+  <!-- Item 3: Botón Compartir Mobile (Mobile: Col 2, Fila 1; Desktop: Oculto en favor del botón en la barra) -->
+  <div class="col-start-2 row-start-1 flex items-center justify-end lg:hidden">
+    <button id="btn-share-header-mobile" aria-label="Compartir juego o QR" class="w-10 h-10 rounded-full bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white flex items-center justify-center transition shadow-md shadow-emerald-950/50 cursor-pointer active:scale-95" title="Compartir juego por WhatsApp o código QR">
+      <span class="text-lg">📲</span>
+    </button>
+  </div>
 
-      <!-- Sound Toggle Button -->
-      <button id="soundToggleBtn" aria-label="Sonido" class="w-10 h-10 rounded-full bg-slate-800 border border-slate-700 text-slate-200 flex items-center justify-center hover:bg-slate-700 hover:text-cyan-400 transition shadow-sm cursor-pointer" title="Alternar Sonido">
-        🔊
-      </button>
+  <!-- Item 4: Grupo de Acciones (Mobile: Col 2, Fila 2; Desktop: Order 3 al extremo derecho) -->
+  <!-- Orden en Desktop: [ ? ] [ 🔊 ] [ 📲 COMPARTIR (anteúltimo) ] [ 🔄 ] [ 🚪 Salir (último) ] -->
+  <div class="col-start-2 row-start-2 flex items-center justify-end gap-2 sm:gap-2.5 lg:order-3">
+    <!-- Rules Button con signo '?' rojo nítido -->
+    <button id="rulesToggleBtn" aria-label="Instrucciones y Reglas" class="w-10 h-10 rounded-full bg-slate-800 border border-slate-700 text-rose-500 flex items-center justify-center hover:bg-slate-700 transition shadow-sm cursor-pointer" title="Instrucciones y reglas">
+      <span class="font-black text-lg text-rose-500">?</span>
+    </button>
 
-      <!-- Restart / Config Button -->
-      <button id="btn-restart-setup" aria-label="Reiniciar" class="w-10 h-10 rounded-full bg-slate-800 border border-slate-700 text-slate-200 hidden items-center justify-center hover:bg-slate-700 hover:text-cyan-400 transition shadow-sm cursor-pointer" title="Cambiar configuración">
-        🔄
-      </button>
+    <!-- Sound Toggle Button -->
+    <button id="soundToggleBtn" aria-label="Sonido" class="w-10 h-10 rounded-full bg-slate-800 border border-slate-700 text-slate-200 flex items-center justify-center hover:bg-slate-700 hover:text-cyan-400 transition shadow-sm cursor-pointer" title="Alternar Sonido">
+      🔊
+    </button>
 
-      <!-- Exit Button -->
-      <button id="btn-exit-game" aria-label="Salir de la partida" class="hidden w-10 h-10 rounded-full bg-rose-950/60 border border-rose-800/60 text-rose-400 items-center justify-center hover:bg-rose-900/60 transition shadow-sm cursor-pointer" title="Salir de la partida">
-        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
-        </svg>
-      </button>
-    </div>
+    <!-- Botón Compartir / WhatsApp Desktop (Anteúltimo en Desktop) -->
+    <button id="btn-share-header" aria-label="Compartir juego o QR" class="hidden lg:flex h-10 px-3.5 sm:px-4 rounded-full bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white items-center justify-center gap-2 transition shadow-md shadow-emerald-950/50 cursor-pointer active:scale-95" title="Compartir juego por WhatsApp o código QR">
+      <span class="text-lg">📲</span>
+      <span class="text-xs font-black uppercase tracking-wider">Compartir</span>
+    </button>
+
+    <!-- Restart / Config Button -->
+    <button id="btn-restart-setup" aria-label="Reiniciar" class="w-10 h-10 rounded-full bg-slate-800 border border-slate-700 text-slate-200 hidden items-center justify-center hover:bg-slate-700 hover:text-cyan-400 transition shadow-sm cursor-pointer" title="Cambiar configuración">
+      🔄
+    </button>
+
+    <!-- Exit Button (Último a la derecha) -->
+    <button id="btn-exit-game" aria-label="Salir de la partida" class="hidden w-10 h-10 rounded-full bg-rose-950/60 border border-rose-800/60 text-rose-400 items-center justify-center hover:bg-rose-900/60 transition shadow-sm cursor-pointer" title="Salir de la partida">
+      <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+      </svg>
+    </button>
   </div>
 </header>
 <!-- END: MainHeader -->
